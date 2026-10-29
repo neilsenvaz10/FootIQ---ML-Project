@@ -75,36 +75,9 @@ Versions come from repository requirements, the frontend lockfile and frozen exp
 
 ## System architecture
 
-```mermaid
-flowchart TD
-    Sources["External datasets and provider snapshots"] --> Ingest["Extraction and staging"]
-    Ingest --> Normalize["Cleaning, identity normalization and competition mapping"]
-    Normalize --> Validate["Date, label, duplicate and source validation"]
-    Validate --> Prepared["Processed datasets, contracts and provenance"]
-    Validate --> Quarantine["Held or quarantined conflicts"]
+![FootIQ system architecture: data sources, data engineering, SQLite storage, machine learning, FastAPI, React and the points-only season simulator](docs/images/footiq-system-architecture.png)
 
-    subgraph Research["Offline research workflow"]
-        Prepared --> Features["Features from strictly earlier match dates"]
-        Features --> Splits["Chronological training and evaluation splits"]
-        Splits --> Training["Training, validation selection and locked evaluation"]
-        Training --> Frozen["Frozen models, preprocessing JSON and hashes"]
-    end
-
-    Prepared --> Rebuild["Offline database reconstruction"]
-    Rebuild --> Store[("SQLite results and provenance store")]
-    Refresh["Approved OpenLigaDB startup refresh"] --> Validate
-    Store --> State["Current pre-match history and feature replay"]
-    Frozen --> Inference["Frozen-model probability inference"]
-    State --> Inference
-    Store --> Analytics["Standings, fixtures, form and comparisons"]
-    Inference --> MonteCarlo["Seeded points-only Monte Carlo"]
-    Inference --> API["FastAPI"]
-    Analytics --> API
-    MonteCarlo --> API
-    API --> UI["React dashboard"]
-    UI -. "Explicit forecast or simulation action" .-> Saved["Saved application runs"]
-    Saved --> Store
-```
+[View the full-resolution architecture diagram](docs/images/footiq-system-architecture.png)
 
 Training is offline research. Inference reads existing artifacts; accepted operational updates invalidate cached history without fitting a classifier. The implemented refresh is startup-only for approved competitions, not a recurring live-score scheduler.
 
