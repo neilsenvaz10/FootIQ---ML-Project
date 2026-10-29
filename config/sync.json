@@ -1,0 +1,26 @@
+{
+  "_comment": "Phase 4.15B: startup-only synchronisation. Each time the backend is launched it makes ONE refresh attempt (one full-season request per league: OpenLigaDB Bundesliga and La Liga only); there is no recurring scheduler. periodic_minutes is ignored in this mode. To go back to the six-hour scheduler set sync_mode to periodic, enable the FootIQ-Backend task and restart (docs/mini-project/phase4/P4_15_STARTUP_ONLY_SYNC.md). To switch live access off set live_enabled to false and restart.",
+  "live_enabled": true,
+  "startup_check": true,
+  "startup_delay_seconds": 5,
+  "periodic_minutes": 360,
+  "max_retries": 2,
+  "refresh_mode": "full_season",
+  "sync_mode": "startup",
+  "startup_min_gap_minutes": 15,
+  "stale_after_hours": 72,
+  "sources": {
+    "openligadb": {
+      "enabled": true,
+      "competitions": [
+        "BUNDESLIGA",
+        "LALIGA"
+      ]
+    },
+    "footballdata": {
+      "enabled": false,
+      "competitions": [],
+      "token_env": "FOOTBALL_DATA_API_TOKEN"
+    }
+  }
+}

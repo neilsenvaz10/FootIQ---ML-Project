@@ -1,0 +1,35 @@
+{
+ "learned_preprocessing": "NONE is shipped. Every learned step below must be fitted on split == 'train' only and then applied unchanged to validation, test and forward_holdout",
+ "steps": [
+  {
+   "step": "missing-value imputation",
+   "applies_to": [
+    "home_venue_ppg5",
+    "away_venue_ppg5",
+    "ppg*/gf*/ga*/rest only if NaN appears in new data"
+   ],
+   "rule": "train-split median; add an indicator; or use a NaN-tolerant model"
+  },
+  {
+   "step": "scaling / standardisation",
+   "rule": "mean and std from train split only (linear models, k-NN, neural nets)"
+  },
+  {
+   "step": "categorical encoding of competition_id / league_tier",
+   "rule": "vocabulary from train split only, unknown -> 'other'; no target encoding"
+  },
+  {
+   "step": "class weights / calibration",
+   "rule": "fitted on train (weights) and validation (calibration); never on test or forward holdout"
+  },
+  {
+   "step": "hyper-parameter and feature selection",
+   "rule": "validation split only (season 2023-24)"
+  }
+ ],
+ "forbidden": [
+  "fitting any transformer on the full dataset",
+  "using forward_holdout labels or metrics for any decision before the single final evaluation",
+  "using meta_* columns as inputs"
+ ]
+}

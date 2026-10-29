@@ -1,0 +1,11 @@
+search,entity_ids,names,competitions,matches,seasons
+AS Monaco,CLUB:MCO:as-monaco,AS Monaco | AS Monaco FC,champions-league:cl | champions-league:el | europe/france:fr1 | europe/france:frcup,354,2018-19..2026-27
+Monaco,CLUB:MCO:as-monaco,AS Monaco | AS Monaco FC,champions-league:cl | champions-league:el | europe/france:fr1 | europe/france:frcup,354,2018-19..2026-27
+Cardiff City,CLUB:WAL:cardiff-city-fc,Cardiff City | Cardiff City F.C. | Cardiff City FC,england:1-premierleague | england:2-championship | england:3-league1 | england:eflcup | england:facup,385,2018-19..2026-27
+Swansea City,CLUB:WAL:swansea-city-afc,Swansea City | Swansea City A.F.C. | Swansea City AFC,england:2-championship | england:eflcup | england:facup,409,2018-19..2026-27
+Wrexham,CLUB:WAL:wrexham-afc,Wrexham A.F.C. | Wrexham AFC,england:2-championship | england:3-league1 | england:4-league2 | england:5-nationalleague | england:eflcup | england:facup,387,2018-19..2026-27
+Newport County,CLUB:WAL:newport-county-afc,Newport County | Newport County A.F.C.,england:4-league2 | england:eflcup | england:facup,380,2018-19..2026-27
+Merthyr,CLUB:WAL:merthyr-town-fc,Merthyr Town,england:facup,1,2022-23..2022-23
+Barry Town,CLUB:WAL:barry-town-afc,Barry Town United,europe/wales:wal1,65,2023-24..2024-25
+The New Saints,CLUB:WAL:the-new-saints-fc,The New Saints,champions-league:clq | champions-league:conf | champions-league:confq | champions-league:elq | europe/wales:wal1,82,2023-24..2025-26
+Bala Town,CLUB:WAL:bala-town-fc,Bala Town,champions-league:confq | europe/wales:wal1,67,2023-24..2024-25

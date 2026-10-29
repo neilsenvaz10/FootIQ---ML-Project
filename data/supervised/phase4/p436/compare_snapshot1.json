@@ -1,0 +1,224 @@
+{
+ "label": "snapshot1",
+ "total_rows": {
+  "production": 223636,
+  "replay": 223636
+ },
+ "completed_2026_27": {
+  "EPL": {
+   "production": 80,
+   "replay": 80
+  },
+  "LALIGA": {
+   "production": 99,
+   "replay": 98
+  },
+  "BUNDESLIGA": {
+   "production": 63,
+   "replay": 63
+  },
+  "SERIEA": {
+   "production": 80,
+   "replay": 80
+  },
+  "LIGUE1": {
+   "production": 72,
+   "replay": 70
+  },
+  "UCL": {
+   "production": 54,
+   "replay": 54
+  }
+ },
+ "scheduled_2026_27": {
+  "EPL": {
+   "production": 300,
+   "replay": 300
+  },
+  "LALIGA": {
+   "production": 280,
+   "replay": 281
+  },
+  "BUNDESLIGA": {
+   "production": 243,
+   "replay": 243
+  },
+  "SERIEA": {
+   "production": 300,
+   "replay": 300
+  },
+  "LIGUE1": {
+   "production": 234,
+   "replay": 236
+  },
+  "UCL": {
+   "production": 90,
+   "replay": 90
+  }
+ },
+ "awaiting_result_2026_27": {
+  "EPL": {
+   "production": 0,
+   "replay": 0
+  },
+  "LALIGA": {
+   "production": 1,
+   "replay": 1
+  },
+  "BUNDESLIGA": {
+   "production": 0,
+   "replay": 0
+  },
+  "SERIEA": {
+   "production": 0,
+   "replay": 0
+  },
+  "LIGUE1": {
+   "production": 0,
+   "replay": 0
+  },
+  "UCL": {
+   "production": 0,
+   "replay": 0
+  }
+ },
+ "postponed_2026_27": {
+  "EPL": {
+   "production": 0,
+   "replay": 0
+  },
+  "LALIGA": {
+   "production": 0,
+   "replay": 0
+  },
+  "BUNDESLIGA": {
+   "production": 0,
+   "replay": 0
+  },
+  "SERIEA": {
+   "production": 0,
+   "replay": 0
+  },
+  "LIGUE1": {
+   "production": 0,
+   "replay": 0
+  },
+  "UCL": {
+   "production": 0,
+   "replay": 0
+  }
+ },
+ "rows_six_competitions": {
+  "production": 17303,
+  "replay": 17303,
+  "only_in_production": 0,
+  "only_in_replay": 0
+ },
+ "match_dates_differing": 3,
+ "results_differing": 3,
+ "team_pair_mapping_differing": 0,
+ "teams": {
+  "production": 5188,
+  "replay": 5188,
+  "differing": 0
+ },
+ "team_aliases": {
+  "production": 7447,
+  "replay": 7447,
+  "differing": 0
+ },
+ "champions_league": {
+  "production": {
+   "completed": 54,
+   "scheduled": 90,
+   "matchdays": []
+  },
+  "replay": {
+   "completed": 54,
+   "scheduled": 90,
+   "matchdays": []
+  }
+ },
+ "simulation_eligibility": {
+  "EPL": {
+   "production": {
+    "state": "ready",
+    "points_only_can_run": true,
+    "missing_results": 0,
+    "remaining": 300,
+    "blockers": []
+   },
+   "replay": {
+    "state": "ready",
+    "points_only_can_run": true,
+    "missing_results": 0,
+    "remaining": 300,
+    "blockers": []
+   }
+  },
+  "LALIGA": {
+   "production": {
+    "state": "ready",
+    "points_only_can_run": true,
+    "missing_results": 1,
+    "remaining": 281,
+    "blockers": []
+   },
+   "replay": {
+    "state": "ready",
+    "points_only_can_run": true,
+    "missing_results": 2,
+    "remaining": 282,
+    "blockers": []
+   }
+  },
+  "BUNDESLIGA": {
+   "production": {
+    "state": "ready",
+    "points_only_can_run": true,
+    "missing_results": 0,
+    "remaining": 243,
+    "blockers": []
+   },
+   "replay": {
+    "state": "ready",
+    "points_only_can_run": true,
+    "missing_results": 0,
+    "remaining": 243,
+    "blockers": []
+   }
+  },
+  "SERIEA": {
+   "production": {
+    "state": "provisional",
+    "points_only_can_run": true,
+    "missing_results": 3,
+    "remaining": 300,
+    "blockers": []
+   },
+   "replay": {
+    "state": "provisional",
+    "points_only_can_run": true,
+    "missing_results": 3,
+    "remaining": 300,
+    "blockers": []
+   }
+  },
+  "LIGUE1": {
+   "production": {
+    "state": "ready",
+    "points_only_can_run": true,
+    "missing_results": 0,
+    "remaining": 234,
+    "blockers": []
+   },
+   "replay": {
+    "state": "provisional",
+    "points_only_can_run": true,
+    "missing_results": 2,
+    "remaining": 236,
+    "blockers": []
+   }
+  }
+ }
+}

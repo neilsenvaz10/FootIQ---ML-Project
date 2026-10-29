@@ -1,0 +1,306 @@
+{
+ "BUNDESLIGA": [
+  {
+   "distortion": "winners score +1 goal with probability 0.05",
+   "bias_margin_home_win": 0.05,
+   "bias_margin_away_win": 0.05,
+   "bias_one_goal_share_home": -0.02,
+   "max_change_title_probability": 0.0002,
+   "max_change_top4_probability": 0.0007,
+   "max_change_relegation_probability": 0.0013,
+   "share_of_seasons_with_any_position_change": 0.246,
+   "mean_clubs_changing_position": 0.552,
+   "points_identical_in_every_season": true,
+   "mean_abs_change_in_expected_points": 0.0
+  },
+  {
+   "distortion": "... 0.10",
+   "bias_margin_home_win": 0.1,
+   "bias_margin_away_win": 0.1,
+   "bias_one_goal_share_home": -0.039,
+   "max_change_title_probability": 0.0,
+   "max_change_top4_probability": 0.0018,
+   "max_change_relegation_probability": 0.0018,
+   "share_of_seasons_with_any_position_change": 0.334,
+   "mean_clubs_changing_position": 0.781,
+   "points_identical_in_every_season": true,
+   "mean_abs_change_in_expected_points": 0.0
+  },
+  {
+   "distortion": "... 0.15",
+   "bias_margin_home_win": 0.15,
+   "bias_margin_away_win": 0.15,
+   "bias_one_goal_share_home": -0.059,
+   "max_change_title_probability": 0.0005,
+   "max_change_top4_probability": 0.003,
+   "max_change_relegation_probability": 0.0017,
+   "share_of_seasons_with_any_position_change": 0.373,
+   "mean_clubs_changing_position": 0.899,
+   "points_identical_in_every_season": true,
+   "mean_abs_change_in_expected_points": 0.0
+  },
+  {
+   "distortion": "... 0.25",
+   "bias_margin_home_win": 0.249,
+   "bias_margin_away_win": 0.25,
+   "bias_one_goal_share_home": -0.099,
+   "max_change_title_probability": 0.0005,
+   "max_change_top4_probability": 0.0042,
+   "max_change_relegation_probability": 0.002,
+   "share_of_seasons_with_any_position_change": 0.434,
+   "mean_clubs_changing_position": 1.067,
+   "points_identical_in_every_season": true,
+   "mean_abs_change_in_expected_points": 0.0
+  },
+  {
+   "distortion": "big wins shrink by one goal with probability 0.15",
+   "bias_margin_home_win": -0.091,
+   "bias_margin_away_win": -0.078,
+   "bias_one_goal_share_home": 0.043,
+   "max_change_title_probability": 0.0003,
+   "max_change_top4_probability": 0.001,
+   "max_change_relegation_probability": 0.0013,
+   "share_of_seasons_with_any_position_change": 0.307,
+   "mean_clubs_changing_position": 0.706,
+   "points_identical_in_every_season": true,
+   "mean_abs_change_in_expected_points": 0.0
+  },
+  {
+   "distortion": "... 0.30",
+   "bias_margin_home_win": -0.182,
+   "bias_margin_away_win": -0.156,
+   "bias_one_goal_share_home": 0.085,
+   "max_change_title_probability": 0.0002,
+   "max_change_top4_probability": 0.0013,
+   "max_change_relegation_probability": 0.0008,
+   "share_of_seasons_with_any_position_change": 0.383,
+   "mean_clubs_changing_position": 0.939,
+   "points_identical_in_every_season": true,
+   "mean_abs_change_in_expected_points": 0.0
+  },
+  {
+   "distortion": "... 0.50",
+   "bias_margin_home_win": -0.303,
+   "bias_margin_away_win": -0.26,
+   "bias_one_goal_share_home": 0.142,
+   "max_change_title_probability": 0.0002,
+   "max_change_top4_probability": 0.0018,
+   "max_change_relegation_probability": 0.0022,
+   "share_of_seasons_with_any_position_change": 0.439,
+   "mean_clubs_changing_position": 1.106,
+   "points_identical_in_every_season": true,
+   "mean_abs_change_in_expected_points": 0.0
+  }
+ ],
+ "LALIGA": [
+  {
+   "distortion": "winners score +1 goal with probability 0.05",
+   "bias_margin_home_win": 0.05,
+   "bias_margin_away_win": 0.05,
+   "bias_one_goal_share_home": -0.021,
+   "max_change_title_probability": 0.0,
+   "max_change_top4_probability": 0.001,
+   "max_change_relegation_probability": 0.0013,
+   "share_of_seasons_with_any_position_change": 0.085,
+   "mean_clubs_changing_position": 0.175,
+   "points_identical_in_every_season": true,
+   "mean_abs_change_in_expected_points": 0.0
+  },
+  {
+   "distortion": "... 0.10",
+   "bias_margin_home_win": 0.1,
+   "bias_margin_away_win": 0.1,
+   "bias_one_goal_share_home": -0.041,
+   "max_change_title_probability": 0.0003,
+   "max_change_top4_probability": 0.0005,
+   "max_change_relegation_probability": 0.0013,
+   "share_of_seasons_with_any_position_change": 0.127,
+   "mean_clubs_changing_position": 0.269,
+   "points_identical_in_every_season": true,
+   "mean_abs_change_in_expected_points": 0.0
+  },
+  {
+   "distortion": "... 0.15",
+   "bias_margin_home_win": 0.15,
+   "bias_margin_away_win": 0.15,
+   "bias_one_goal_share_home": -0.062,
+   "max_change_title_probability": 0.0,
+   "max_change_top4_probability": 0.0003,
+   "max_change_relegation_probability": 0.0012,
+   "share_of_seasons_with_any_position_change": 0.165,
+   "mean_clubs_changing_position": 0.352,
+   "points_identical_in_every_season": true,
+   "mean_abs_change_in_expected_points": 0.0
+  },
+  {
+   "distortion": "... 0.25",
+   "bias_margin_home_win": 0.25,
+   "bias_margin_away_win": 0.25,
+   "bias_one_goal_share_home": -0.104,
+   "max_change_title_probability": 0.0003,
+   "max_change_top4_probability": 0.0006,
+   "max_change_relegation_probability": 0.0018,
+   "share_of_seasons_with_any_position_change": 0.201,
+   "mean_clubs_changing_position": 0.44,
+   "points_identical_in_every_season": true,
+   "mean_abs_change_in_expected_points": 0.0
+  },
+  {
+   "distortion": "big wins shrink by one goal with probability 0.15",
+   "bias_margin_home_win": -0.088,
+   "bias_margin_away_win": -0.072,
+   "bias_one_goal_share_home": 0.043,
+   "max_change_title_probability": 0.0005,
+   "max_change_top4_probability": 0.0009,
+   "max_change_relegation_probability": 0.0007,
+   "share_of_seasons_with_any_position_change": 0.102,
+   "mean_clubs_changing_position": 0.213,
+   "points_identical_in_every_season": true,
+   "mean_abs_change_in_expected_points": 0.0
+  },
+  {
+   "distortion": "... 0.30",
+   "bias_margin_home_win": -0.176,
+   "bias_margin_away_win": -0.144,
+   "bias_one_goal_share_home": 0.086,
+   "max_change_title_probability": 0.0002,
+   "max_change_top4_probability": 0.0009,
+   "max_change_relegation_probability": 0.001,
+   "share_of_seasons_with_any_position_change": 0.156,
+   "mean_clubs_changing_position": 0.334,
+   "points_identical_in_every_season": true,
+   "mean_abs_change_in_expected_points": 0.0
+  },
+  {
+   "distortion": "... 0.50",
+   "bias_margin_home_win": -0.293,
+   "bias_margin_away_win": -0.24,
+   "bias_one_goal_share_home": 0.144,
+   "max_change_title_probability": 0.0002,
+   "max_change_top4_probability": 0.0005,
+   "max_change_relegation_probability": 0.0018,
+   "share_of_seasons_with_any_position_change": 0.204,
+   "mean_clubs_changing_position": 0.446,
+   "points_identical_in_every_season": true,
+   "mean_abs_change_in_expected_points": 0.0
+  }
+ ],
+ "late_season_states_2025_26_completed_season": {
+  "BUNDESLIGA 2026-04-10 (54 matches left)": [
+   {
+    "distortion": "winners +1 goal, probability 0.15 (margin bias about +0.15)",
+    "bias_margin_home_win": 0.15,
+    "max_change_title": 0.0,
+    "max_change_top4": 0.0017,
+    "max_change_relegation": 0.0037,
+    "share_of_seasons_with_any_position_change": 0.265,
+    "mean_clubs_changing_position": 0.612
+   },
+   {
+    "distortion": "winners +1 goal, probability 0.30",
+    "bias_margin_home_win": 0.3,
+    "max_change_title": 0.0,
+    "max_change_top4": 0.0022,
+    "max_change_relegation": 0.0055,
+    "share_of_seasons_with_any_position_change": 0.334,
+    "mean_clubs_changing_position": 0.798
+   },
+   {
+    "distortion": "big wins shrink, probability 0.30 (margin bias about -0.18)",
+    "bias_margin_home_win": -0.175,
+    "max_change_title": 0.0,
+    "max_change_top4": 0.003,
+    "max_change_relegation": 0.0028,
+    "share_of_seasons_with_any_position_change": 0.268,
+    "mean_clubs_changing_position": 0.613
+   }
+  ],
+  "BUNDESLIGA 2026-05-01 (27 matches left)": [
+   {
+    "distortion": "winners +1 goal, probability 0.15 (margin bias about +0.15)",
+    "bias_margin_home_win": 0.15,
+    "max_change_title": 0.0,
+    "max_change_top4": 0.0017,
+    "max_change_relegation": 0.0012,
+    "share_of_seasons_with_any_position_change": 0.141,
+    "mean_clubs_changing_position": 0.301
+   },
+   {
+    "distortion": "winners +1 goal, probability 0.30",
+    "bias_margin_home_win": 0.299,
+    "max_change_title": 0.0,
+    "max_change_top4": 0.004,
+    "max_change_relegation": 0.0015,
+    "share_of_seasons_with_any_position_change": 0.191,
+    "mean_clubs_changing_position": 0.42
+   },
+   {
+    "distortion": "big wins shrink, probability 0.30 (margin bias about -0.18)",
+    "bias_margin_home_win": -0.177,
+    "max_change_title": 0.0,
+    "max_change_top4": 0.0002,
+    "max_change_relegation": 0.0017,
+    "share_of_seasons_with_any_position_change": 0.14,
+    "mean_clubs_changing_position": 0.301
+   }
+  ],
+  "LALIGA 2026-04-18 (70 matches left)": [
+   {
+    "distortion": "winners +1 goal, probability 0.15 (margin bias about +0.15)",
+    "bias_margin_home_win": 0.15,
+    "max_change_title": 0.0,
+    "max_change_top4": 0.0,
+    "max_change_relegation": 0.0013,
+    "share_of_seasons_with_any_position_change": 0.109,
+    "mean_clubs_changing_position": 0.229
+   },
+   {
+    "distortion": "winners +1 goal, probability 0.30",
+    "bias_margin_home_win": 0.3,
+    "max_change_title": 0.0,
+    "max_change_top4": 0.0,
+    "max_change_relegation": 0.002,
+    "share_of_seasons_with_any_position_change": 0.154,
+    "mean_clubs_changing_position": 0.331
+   },
+   {
+    "distortion": "big wins shrink, probability 0.30 (margin bias about -0.18)",
+    "bias_margin_home_win": -0.16,
+    "max_change_title": 0.0,
+    "max_change_top4": 0.0,
+    "max_change_relegation": 0.0013,
+    "share_of_seasons_with_any_position_change": 0.11,
+    "mean_clubs_changing_position": 0.228
+   }
+  ],
+  "LALIGA 2026-05-09 (39 matches left)": [
+   {
+    "distortion": "winners +1 goal, probability 0.15 (margin bias about +0.15)",
+    "bias_margin_home_win": 0.15,
+    "max_change_title": 0.0,
+    "max_change_top4": 0.0,
+    "max_change_relegation": 0.0007,
+    "share_of_seasons_with_any_position_change": 0.081,
+    "mean_clubs_changing_position": 0.168
+   },
+   {
+    "distortion": "winners +1 goal, probability 0.30",
+    "bias_margin_home_win": 0.3,
+    "max_change_title": 0.0,
+    "max_change_top4": 0.0,
+    "max_change_relegation": 0.0007,
+    "share_of_seasons_with_any_position_change": 0.124,
+    "mean_clubs_changing_position": 0.263
+   },
+   {
+    "distortion": "big wins shrink, probability 0.30 (margin bias about -0.18)",
+    "bias_margin_home_win": -0.161,
+    "max_change_title": 0.0,
+    "max_change_top4": 0.0,
+    "max_change_relegation": 0.001,
+    "share_of_seasons_with_any_position_change": 0.075,
+    "mean_clubs_changing_position": 0.158
+   }
+  ]
+ }
+}

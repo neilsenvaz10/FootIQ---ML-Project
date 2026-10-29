@@ -1,0 +1,37 @@
+current,former,start,end,rows_under_current_name,rows_under_former_name,current_rows_before_start,former_rows_after_end
+Benin,Dahomey,1959-11-08,1975-11-30,323,0,0,0
+Burkina Faso,Upper Volta,1960-04-14,1984-08-04,462,0,0,0
+Curaçao,Netherlands Antilles,1957-03-03,2010-10-10,384,0,99,0
+Czechoslovakia,Bohemia,1903-04-05,1919-01-01,520,0,0,0
+Czechoslovakia,Bohemia and Moravia,1939-01-01,1945-05-01,520,0,140,0
+Czechoslovakia,Representation of Czechs and Slovaks,1993-03-24,1993-11-17,520,0,513,0
+DR Congo,Belgian Congo,1948-05-25,1956-01-02,522,0,0,0
+DR Congo,Congo-Léopoldville,1963-04-12,1964-07-19,522,0,4,0
+DR Congo,Congo-Kinshasa,1965-01-09,1970-11-24,522,0,12,0
+DR Congo,Zaïre,1971-01-10,1997-04-27,522,0,69,0
+Djibouti,French Somaliland,1947-12-05,1977-06-27,113,0,0,0
+Egypt,United Arab Republic,1958-02-22,1971-09-11,759,0,41,0
+Eswatini,Swaziland,1968-05-01,2018-04-19,276,0,0,0
+Ghana,Gold Coast,1950-05-28,1957-03-06,671,0,0,0
+Guinea-Bissau,Portuguese Guinea,1953-06-02,1973-09-24,190,0,0,0
+Guyana,British Guiana,1905-07-21,1967-08-02,313,0,0,0
+Indonesia,Dutch East Indies,1934-05-13,1951-03-04,725,0,0,0
+Israel,Mandatory Palestine,1934-03-16,1940-04-27,497,0,0,0
+Malawi,Nyasaland,1957-08-28,1964-07-04,642,0,0,0
+Malaysia,Malaya,1948-06-20,1963-08-16,836,0,0,0
+Myanmar,Burma,1952-03-14,1989-01-01,510,0,1,0
+North Macedonia,Macedonia,1993-10-13,2018-11-19,306,0,0,0
+Northern Ireland,Ireland,1882-02-18,1956-04-11,705,0,0,0
+Republic of Ireland,Irish Free State,1924-05-28,1936-12-06,632,0,0,0
+Republic of Ireland,Éire,1937-01-01,1953-03-25,632,0,20,0
+Russia,Soviet Union,1924-11-16,1991-11-13,748,0,13,0
+Russia,CIS,1992-01-25,1992-06-18,748,0,391,0
+Samoa,Western Samoa,1979-08-31,1996-11-15,71,0,0,0
+Serbia,FR Yugoslavia,1994-12-23,2003-02-03,347,0,1,0
+Serbia,Serbia and Montenegro,2003-02-04,2006-06-21,347,0,95,0
+Sri Lanka,Ceylon,1952-03-24,1972-05-22,254,0,0,0
+Suriname,Dutch Guyana,1921-01-28,1975-11-25,399,0,0,0
+Tanzania,Tanganyika,1945-01-01,1964-04-26,599,0,0,0
+Vanuatu,New Hebrides,1951-10-04,1980-07-30,216,0,0,0
+Zambia,Northern Rhodesia,1947-02-22,1964-10-25,793,0,1,0
+Zimbabwe,Southern Rhodesia,1946-06-16,1980-04-18,496,0,0,0

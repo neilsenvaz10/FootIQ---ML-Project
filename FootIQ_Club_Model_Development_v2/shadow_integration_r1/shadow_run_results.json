@@ -1,0 +1,101 @@
+{
+ "prediction_timestamp_utc": "2026-10-21 15:02:52+00:00",
+ "namespace": "shadow (official namespace closed: no approval file, no active amendment)",
+ "future_check": {
+  "fixtures": 252,
+  "earliest_kickoff": "2026-10-23 18:30:00+00:00",
+  "all_kickoff_after_T": true,
+  "all_kickoff_at_least_60min_after_T": true,
+  "rejected": [],
+  "rejected_count": 0
+ },
+ "freshness": {
+  "snapshot_id": "20261021T141231Z_R3_getmatchdata_bl1_2026.json",
+  "retrieved_utc": "2026-10-21 14:12:31+00:00",
+  "age_hours_at_prediction": 0.84,
+  "kickoff_snapshot_within_24h": true,
+  "history_cutoff_date": "2026-10-18",
+  "competition_gap_days_to_first_fixture": 5
+ },
+ "hash_verification": {
+  "models": {
+   "v2": "55c1e4c53bcfefd39d5e90a1ce60a75bc697668f7894e425305bdc9a65b3e56c",
+   "matched_v1": "33bd80f6a3268256e250294f4c9b4ffc4f530489c332878fd70655fea145ec34",
+   "v1_original": "067426e83d2d5f66aaf6c4aef933ac58e17f04d911ae55ede336c1bad3c0c5b9"
+  },
+  "snapshot_sha256": "280f2e8d7383fda61167224bfe2a9098f71f6f01a9984313cc0611560b7a01c3",
+  "frozen_universe_sha256": "1c4d758b01d3d30a",
+  "state_sha256": "8a9c089d74de5465",
+  "results_added": 18
+ },
+ "deterministic": {
+  "identical_record_hashes_two_runs": true,
+  "n": 252
+ },
+ "reconstruction_all_records": {
+  "checked": 252,
+  "identical": 252,
+  "all_identical": true,
+  "failures": []
+ },
+ "sealing_deadlines": {
+  "earliest_deadline": "2026-10-23 17:30:00+00:00",
+  "all_deadlines_after_T": true,
+  "minutes_to_earliest_deadline": 3027.1,
+  "legacy_rule_earliest": "2026-10-22 09:00:00+00:00",
+  "legacy_rule_deadline_passed_for": 0,
+  "note": "no deadline has passed; nothing was backdated; legacy (date-based) rule shown for comparison only"
+ },
+ "leakage_canary": {
+  "canary_retrieved": "2026-10-21 16:02:52+00:00",
+  "excluded": [
+   "canary_future.json"
+  ],
+  "sealed_records_identical": true,
+  "additions_retrieved_after_T": 0,
+  "additions_dated_after_first_fixture": 0
+ },
+ "single_history_cutoff": {
+  "distinct_state_hashes": 1,
+  "distinct_cutoff_dates": 1,
+  "models_per_record": [
+   "v1_elo",
+   "v1_matched",
+   "v1_original",
+   "v2_frozen"
+  ]
+ },
+ "eligibility": {
+  "total_future_fixtures": 252,
+  "eligible": 18,
+  "ineligible_reasons": {
+   "stale_competition_results": 234
+  },
+  "eligible_by_matchday": {
+   "7": 9,
+   "8": 9
+  },
+  "earliest_deadline": "2026-10-23 17:30:00+00:00"
+ },
+ "immutability": {
+  "batch": "shadow_batch_20261021T150252Z.jsonl",
+  "batch_sha256": "a93a456c0e7ebcd7",
+  "records": 252,
+  "chain_ok": true,
+  "read_only": true,
+  "all_counts_for_evaluation_false": true,
+  "namespaces": [
+   "shadow"
+  ]
+ },
+ "tamper_detected": true,
+ "official_artifacts": {
+  "approval_json_exists": false,
+  "amendment_active_file_exists": false,
+  "official_log_dir_exists": false
+ },
+ "contact_privacy": {
+  "files_scanned_in_shadow_and_integration_folders": 13,
+  "hits": []
+ }
+}

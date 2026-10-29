@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FootIQ Mini Project</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1b1f24; --mute:#5b6570; --line:#dde1e6; --accent:#1f6feb;
+          --ok:#1a7f37; --warn:#9a6700; --bad:#b42318; --home:#1f6feb; --draw:#8a94a0; --away:#d9480f; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1318; --card:#171c22; --ink:#e6e9ed; --mute:#9aa5b1; --line:#2a323b; --accent:#58a6ff;
+          --ok:#56d364; --warn:#e3b341; --bad:#ff7b72; --home:#58a6ff; --draw:#8b949e; --away:#ff9b5e; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  header { padding:14px 16px; border-bottom:1px solid var(--line); background:var(--card); }
+  header h1 { margin:0; font-size:18px; } header p { margin:2px 0 0; color:var(--mute); font-size:13px; }
+  nav { display:flex; gap:4px; flex-wrap:wrap; padding:8px 16px; background:var(--card); border-bottom:1px solid var(--line); }
+  nav button { border:0; background:none; color:var(--mute); padding:8px 12px; border-radius:6px; font:inherit; cursor:pointer; }
+  nav button.on { background:var(--accent); color:#fff; }
+  main { max-width:1100px; margin:0 auto; padding:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:14px; margin-bottom:14px; overflow-x:auto; }
+  h2 { margin:0 0 10px; font-size:16px; } h3 { margin:14px 0 6px; font-size:14px; }
+  table { border-collapse:collapse; width:100%; font-size:13px; }
+  th,td { text-align:left; padding:5px 8px; border-bottom:1px solid var(--line); white-space:nowrap; }
+  th { color:var(--mute); font-weight:600; } td.n, th.n { text-align:right; font-variant-numeric:tabular-nums; }
+  .row { display:flex; gap:10px; flex-wrap:wrap; align-items:end; margin-bottom:10px; }
+  label { display:flex; flex-direction:column; font-size:12px; color:var(--mute); gap:3px; }
+  select,input,button.go { font:inherit; padding:6px 8px; border:1px solid var(--line); border-radius:6px; background:var(--card); color:var(--ink); min-width:150px; }
+  button.go { background:var(--accent); color:#fff; border-color:var(--accent); cursor:pointer; }
+  .badge { display:inline-block; padding:2px 8px; border-radius:99px; font-size:12px; font-weight:600; border:1px solid currentColor; }
+  .Validated { color:var(--ok); } .Partially { color:var(--warn); } .Not { color:var(--bad); }
+  .kpis { display:flex; gap:10px; flex-wrap:wrap; } .kpi { border:1px solid var(--line); border-radius:8px; padding:8px 12px; min-width:110px; }
+  .kpi b { display:block; font-size:18px; } .kpi span { font-size:12px; color:var(--mute); }
+  .bar { display:flex; height:26px; border-radius:6px; overflow:hidden; margin:6px 0; font-size:12px; color:#fff; }
+  .bar div { display:flex; align-items:center; justify-content:center; min-width:2px; }
+  .note { color:var(--mute); font-size:13px; } .warn { color:var(--warn); } .err { color:var(--bad); }
+  .form span { display:inline-block; width:22px; height:22px; line-height:22px; text-align:center; border-radius:4px; color:#fff; margin-right:3px; font-size:12px; }
+  .W { background:var(--ok); } .D { background:var(--draw); } .L { background:var(--bad); }
+  footer { max-width:1100px; margin:0 auto; padding:0 16px 24px; color:var(--mute); font-size:12px; }
+  .hidden { display:none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>FootIQ <span class="note">college mini-project</span></h1>
+  <p>Football analytics and match-outcome prediction for six competitions: the five domestic leagues and the UEFA Champions League. Predictions come from existing frozen models; each carries a validation badge.</p>
+</header>
+<nav id="nav"></nav>
+<main>
+  <section id="p-overview"></section>
+  <section id="p-dash" class="hidden"></section>
+  <section id="p-team" class="hidden"></section>
+  <section id="p-predict" class="hidden"></section>
+</main>
+<footer>
+  Data attribution: club results from openfootball (CC0-1.0) and, for the Champions League, partly from Wikipedia (CC BY-SA 4.0);
+  Bundesliga and La Liga results are refreshed from OpenLigaDB (ODbL-1.0) when FootIQ starts.
+  Historical evaluation numbers quoted in the report were inspected during development and are not new independent evidence.
+</footer>
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c]));
+const pct = (x) => (x * 100).toFixed(1) + "%";
+const api = async (path) => {
+  const r = await fetch(path);
+  if (!r.ok) { let m = r.statusText; try { m = (await r.json()).detail || m; } catch (e) {} throw new Error(m); }
+  return r.json();
+};
+const badgeClass = (b) => b.startsWith("Validated") ? "Validated" : b.startsWith("Partially") ? "Partially" : "Not";
+const badge = (b) => `<span class="badge ${badgeClass(b)}">${esc(b)}</span>`;
+const opts = (arr, sel) => arr.map((x) => `<option ${x === sel ? "selected" : ""}>${esc(x)}</option>`).join("");
+const compOpts = (comps, sel) => comps.map((c) => `<option value="${esc(c.key)}" ${c.key === sel ? "selected" : ""}>${esc(c.name)}</option>`).join("");
+const table = (cols, rows) => `<table><thead><tr>${cols.map((c) => `<th class="${c.n ? "n" : ""}">${esc(c.h)}</th>`).join("")}</tr></thead><tbody>` +
+  rows.map((r) => `<tr>${cols.map((c) => `<td class="${c.n ? "n" : ""}">${esc(typeof c.f === "function" ? c.f(r) : r[c.f])}</td>`).join("")}</tr>`).join("") + "</tbody></table>";
+
+let COMPS = [];
+const PAGES = [["overview", "Overview"], ["dash", "Competition dashboard"], ["team", "Team & head-to-head"], ["predict", "Predict a match"]];
+
+function show(id) {
+  PAGES.forEach(([k]) => $("p-" + k).classList.toggle("hidden", k !== id));
+  [...$("nav").children].forEach((b) => b.classList.toggle("on", b.dataset.k === id));
+}
+
+async function overview() {
+  $("p-overview").innerHTML = `<div class="card"><h2>The 6 competitions</h2>` + table([
+    { h: "Competition", f: "name" }, { h: "Group", f: "group" }, { h: "Matches", f: "rows", n: 1 }, { h: "Seasons/editions", f: "seasons", n: 1 },
+    { h: "From", f: "first_date" }, { h: "To", f: "last_date" }, { h: "Source", f: "sources" }, { h: "Licence", f: "licences" },
+  ], COMPS) + `</div><div class="card"><h2>Prediction validation status</h2><table><thead><tr><th>Competition</th><th>Status</th><th>Basis</th></tr></thead><tbody>` +
+    COMPS.map((c) => `<tr><td>${esc(c.name)}</td><td>${badge(c.badge)}</td><td style="white-space:normal">${esc(c.basis)}</td></tr>`).join("") + `</tbody></table></div>`;
+}
+
+async function dash() {
+  const el = $("p-dash");
+  el.innerHTML = `<div class="card"><div class="row"><label>Competition<select id="d-comp">${compOpts(COMPS, "EPL")}</select></label>
+    <label>Season<select id="d-season"></select></label></div><div id="d-out" class="note">Loading…</div></div>`;
+  const load = async () => {
+    const key = $("d-comp").value, season = $("d-season").value;
+    if (!season) return;
+    try {
+      const d = await api(`/api/competitions/${encodeURIComponent(key)}/dashboard?season=${encodeURIComponent(season)}`);
+      const s = d.summary, cov = (await api(`/api/competitions/${encodeURIComponent(key)}/coverage`)).find((x) => String(x.season) === season);
+      const incomplete = cov && cov.note === "incomplete or in progress" ? `<p class="warn">Season incomplete or in progress: ${cov.rows_in_dataset} of ${cov.expected_matches} expected matches in the dataset.</p>` : "";
+      let h = `<div class="kpis"><div class="kpi"><b>${s.matches}</b><span>matches</span></div><div class="kpi"><b>${s.goals_per_match ?? "-"}</b><span>goals / match</span></div>
+        <div class="kpi"><b>${s.home_win_rate == null ? "-" : pct(s.home_win_rate)}</b><span>home wins</span></div><div class="kpi"><b>${s.draw_rate == null ? "-" : pct(s.draw_rate)}</b><span>draws</span></div>
+        <div class="kpi"><b>${s.away_win_rate == null ? "-" : pct(s.away_win_rate)}</b><span>away wins</span></div></div>
+        <p class="note">${badge(d.badge)} &nbsp; Outcome basis: ${esc(s.outcome_basis)}. Data ${esc(s.first_date)} to ${esc(s.last_date)}.</p>${incomplete}`;
+      if (d.standings) h += `<h3>League table (computed from the matches in the dataset)</h3>` + table([
+        { h: "#", f: "pos", n: 1 }, { h: "Team", f: "team" }, { h: "P", f: "played", n: 1 }, { h: "W", f: "won", n: 1 }, { h: "D", f: "drawn", n: 1 }, { h: "L", f: "lost", n: 1 },
+        { h: "GF", f: "gf", n: 1 }, { h: "GA", f: "ga", n: 1 }, { h: "GD", f: "gd", n: 1 }, { h: "Pts", f: "points", n: 1 }], d.standings);
+      h += `<h3>Most recent results</h3>` + table([{ h: "Date", f: "date" }, { h: "Stage", f: "stage" }, { h: "Home", f: "home" },
+        { h: "Score", f: (r) => `${r.home_goals} - ${r.away_goals}${r.shootout_winner ? " (pens: " + r.shootout_winner + ")" : ""}` }, { h: "Away", f: "away" }], d.results);
+      $("d-out").innerHTML = h;
+    } catch (e) { $("d-out").innerHTML = `<span class="err">${esc(e.message)}</span>`; }
+  };
+  const loadSeasons = async () => {
+    const ss = await api(`/api/competitions/${encodeURIComponent($("d-comp").value)}/seasons`);
+    $("d-season").innerHTML = opts(ss, ss[0]);
+    load();
+  };
+  $("d-comp").onchange = loadSeasons; $("d-season").onchange = load;
+  loadSeasons();
+}
+
+async function team() {
+  const el = $("p-team");
+  el.innerHTML = `<div class="card"><div class="row"><label>Competition<select id="t-comp">${compOpts(COMPS, "EPL")}</select></label>
+    <label>Team<select id="t-a"></select></label><label>Opponent (optional)<select id="t-b"></select></label><button class="go" id="t-go">Show</button></div><div id="t-out" class="note"></div></div>`;
+  const fill = async () => {
+    const ts = await api(`/api/competitions/${encodeURIComponent($("t-comp").value)}/teams`);
+    $("t-a").innerHTML = opts(ts, ts[0]); $("t-b").innerHTML = `<option value="">(none)</option>` + opts(ts, "");
+  };
+  $("t-comp").onchange = fill;
+  $("t-go").onclick = async () => {
+    const q = `key=${encodeURIComponent($("t-comp").value)}&team=${encodeURIComponent($("t-a").value)}` + ($("t-b").value ? `&opponent=${encodeURIComponent($("t-b").value)}` : "");
+    try {
+      const d = await api("/api/team?" + q);
+      let h = `<h3>Last ${d.form.played} matches in this competition (${d.form.points} pts)</h3><div class="form">${d.form.last.map((m) => `<span class="${m.result}" title="${esc(m.date + " " + m.venue + " vs " + m.opponent + " " + m.gf + "-" + m.ga)}">${m.result}</span>`).join("")}</div>` +
+        table([{ h: "Date", f: "date" }, { h: "Opponent", f: "opponent" }, { h: "H/A", f: "venue" }, { h: "Score", f: (m) => `${m.gf}-${m.ga}` }, { h: "", f: "result" }], d.form.last.slice().reverse());
+      if (d.head_to_head) { const x = d.head_to_head;
+        h += `<h3>Head-to-head in this competition: ${esc(x.a)} ${x.a_wins} wins, ${x.draws} draws, ${esc(x.b)} ${x.b_wins} wins (${x.meetings} meetings in the dataset)</h3>` +
+          table([{ h: "Date", f: "date" }, { h: "Season", f: "season" }, { h: "Home", f: "home" }, { h: "Score", f: (m) => `${m.home_goals}-${m.away_goals}` }, { h: "Away", f: "away" }], x.last); }
+      $("t-out").innerHTML = h;
+    } catch (e) { $("t-out").innerHTML = `<span class="err">${esc(e.message)}</span>`; }
+  };
+  fill();
+}
+
+function probBar(p) {
+  const seg = (v, c, l) => `<div style="width:${(v * 100).toFixed(2)}%;background:var(--${c})">${v > 0.08 ? l + " " + pct(v) : ""}</div>`;
+  return `<div class="bar">${seg(p.home, "home", "Home")}${seg(p.draw, "draw", "Draw")}${seg(p.away, "away", "Away")}</div>`;
+}
+
+async function predictPage() {
+  $("p-predict").innerHTML = `<div class="card"><div class="row"><label>Competition<select id="m-comp">${compOpts(COMPS, "EPL")}</select></label>
+    <label>Home team<select id="m-h"></select></label><label>Away team<select id="m-a"></select></label>
+    <label>Date (optional, after the data ends)<input id="m-d" type="date"></label>
+    <label id="m-vwrap">Venue<select id="m-v"><option value="neutral">Neutral ground</option><option value="home">First team at home</option></select></label>
+    <button class="go" id="m-go">Predict</button></div><div id="m-out" class="note">The first club prediction can take about 30 seconds while the model history loads.</div></div>`;
+  const fill = async () => {
+    const key = $("m-comp").value, c = COMPS.find((x) => x.key === key);
+    const ts = await api(`/api/competitions/${encodeURIComponent(key)}/teams`);
+    $("m-h").innerHTML = opts(ts, ts[0]); $("m-a").innerHTML = opts(ts, ts[1] || ts[0]);
+    $("m-vwrap").classList.add("hidden");              // every supported competition is a club competition: no venue choice
+    $("m-v").value = "neutral";
+  };
+  $("m-comp").onchange = fill;
+  $("m-go").onclick = async () => {
+    const out = $("m-out"); out.innerHTML = "Predicting…";
+    let q = `key=${encodeURIComponent($("m-comp").value)}&home=${encodeURIComponent($("m-h").value)}&away=${encodeURIComponent($("m-a").value)}`;
+    if ($("m-d").value) q += "&date=" + $("m-d").value;
+    if (!$("m-vwrap").classList.contains("hidden")) q += "&venue=" + $("m-v").value;
+    try {
+      const r = await api("/api/predict?" + q);
+      const block = (b, strong) => b ? `<h3>${esc(b.model)}</h3>${probBar(b)}` : "";
+      let h = `<h2>${esc(r.home)} vs ${esc(r.away)} <span class="note">${esc(r.competition)}</span></h2><p>${badge(r.validation_badge)} <span class="note">${esc(r.validation_basis)}</span></p>` +
+        block(r.primary) + block(r.secondary) + block(r.elo_only);
+      if (r.gate) h += `<p class="note">Project confidence gate: <b>${esc(r.gate.public_pick)}</b>. ${esc(r.gate.meaning)}</p>`;
+      h += `<p class="note">Features use matches up to ${esc(r.data_through)}; prediction date ${esc(r.date)}. Prior matches: ${esc(r.history.home_prior_matches)} (home), ${esc(r.history.away_prior_matches)} (away).</p>` +
+        (r.notes || []).map((n) => `<p class="${r.validation_badge.startsWith("Not") && n.startsWith("This competition") ? "err" : "warn"}">${esc(n)}</p>`).join("");
+      out.innerHTML = h;
+    } catch (e) { out.innerHTML = `<span class="err">${esc(e.message)}</span>`; }
+  };
+  fill();
+}
+
+(async function init() {
+  PAGES.forEach(([k, l]) => { const b = document.createElement("button"); b.textContent = l; b.dataset.k = k; b.onclick = () => show(k); $("nav").appendChild(b); });
+  try { COMPS = await api("/api/competitions"); } catch (e) { $("p-overview").innerHTML = `<div class="card err">${esc(e.message)}. Run app/prepare_data.py first.</div>`; show("overview"); return; }
+  await overview(); await dash(); await team(); await predictPage(); show("overview");
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+ "folder": "p48d_trial2",
+ "created": "2026-10-27 (Phase 4.8D final safeguards)",
+ "note": "The three real answers of the supervised trial are listed under genuine_provider_answers. Files without an 'origin' in their metadata are never reused as provider data by the scheduler.",
+ "genuine_provider_answers": [
+  "20261027T163517Z_bl1_2026_season.json",
+  "20261027T163630Z_bl1_2026_season.json",
+  "20261027T163742Z_bl1_2026_season.json"
+ ],
+ "test_artifacts": [
+  {
+   "file": "20261027T163811Z_bl1_2026_season.json",
+   "sha256": "0f33cce081ffd7bfbfbdbfe47c2a92cda157cb8bfc9a41bae2b59ff9855e742d",
+   "reason": "written during a replayed/injected-failure phase from a saved response or a deliberately altered copy; NOT provider data"
+  },
+  {
+   "file": "20261027T163817Z_bl1_2026_season.json",
+   "sha256": "bc2c484b4b4fae087bcd58fa7382cd1b36661606a510ba13f884166c0c2661e5",
+   "reason": "written during a replayed/injected-failure phase from a saved response or a deliberately altered copy; NOT provider data"
+  },
+  {
+   "file": "20261027T163817Z_bl1_2026_season_2.json",
+   "sha256": "1738ad8a38d9bae805fb260d447d7f3c76cd2ca05e919a7f302f3e363097ff74",
+   "reason": "written during a replayed/injected-failure phase from a saved response or a deliberately altered copy; NOT provider data"
+  }
+ ]
+}

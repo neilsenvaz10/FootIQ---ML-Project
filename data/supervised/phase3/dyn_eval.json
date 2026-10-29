@@ -1,0 +1,898 @@
+{
+ "chosen": {
+  "kappa": 0.5,
+  "tau": 6.0
+ },
+ "development": {
+  "chosen": {
+   "n": 1170,
+   "coverage_10_90": 0.791,
+   "coverage_25_75": 0.52,
+   "coverage_5_95": 0.898,
+   "crps": 3.5519,
+   "std_standardised_error": 1.081,
+   "mean_error_points": -0.001,
+   "mean_width_10_90": 15.0,
+   "pit_deciles": [
+    0.116,
+    0.105,
+    0.085,
+    0.101,
+    0.101,
+    0.099,
+    0.091,
+    0.087,
+    0.098,
+    0.117
+   ],
+   "by_cutoff": {
+    "1 Jan": {
+     "coverage_10_90": 0.777,
+     "std_standardised_error": 1.113,
+     "crps": 3.712
+    },
+    "1 Mar": {
+     "coverage_10_90": 0.805,
+     "std_standardised_error": 1.036,
+     "crps": 2.588
+    },
+    "1 Nov": {
+     "coverage_10_90": 0.792,
+     "std_standardised_error": 1.096,
+     "crps": 4.355
+    }
+   }
+  },
+  "static": {
+   "n": 1170,
+   "coverage_10_90": 0.757,
+   "coverage_25_75": 0.494,
+   "coverage_5_95": 0.865,
+   "crps": 3.5646,
+   "std_standardised_error": 1.179,
+   "mean_error_points": -0.001,
+   "mean_width_10_90": 13.67,
+   "pit_deciles": [
+    0.146,
+    0.094,
+    0.087,
+    0.085,
+    0.094,
+    0.092,
+    0.088,
+    0.08,
+    0.094,
+    0.138
+   ],
+   "by_cutoff": {
+    "1 Jan": {
+     "coverage_10_90": 0.751,
+     "std_standardised_error": 1.212,
+     "crps": 3.724
+    },
+    "1 Mar": {
+     "coverage_10_90": 0.782,
+     "std_standardised_error": 1.088,
+     "crps": 2.589
+    },
+    "1 Nov": {
+     "coverage_10_90": 0.738,
+     "std_standardised_error": 1.234,
+     "crps": 4.381
+    }
+   }
+  }
+ },
+ "evaluation": {
+  "chosen": {
+   "n": 576,
+   "coverage_10_90": 0.78,
+   "coverage_25_75": 0.523,
+   "coverage_5_95": 0.889,
+   "crps": 3.5907,
+   "std_standardised_error": 1.1,
+   "mean_error_points": -0.078,
+   "mean_width_10_90": 14.63,
+   "pit_deciles": [
+    0.123,
+    0.089,
+    0.111,
+    0.101,
+    0.064,
+    0.09,
+    0.118,
+    0.078,
+    0.113,
+    0.113
+   ],
+   "by_cutoff": {
+    "1 Jan": {
+     "coverage_10_90": 0.776,
+     "std_standardised_error": 1.113,
+     "crps": 3.646
+    },
+    "1 Mar": {
+     "coverage_10_90": 0.797,
+     "std_standardised_error": 1.026,
+     "crps": 2.453
+    },
+    "1 Nov": {
+     "coverage_10_90": 0.766,
+     "std_standardised_error": 1.163,
+     "crps": 4.673
+    }
+   },
+   "by_league": {
+    "BUNDESLIGA": {
+     "n": 108,
+     "coverage_10_90": 0.833,
+     "coverage_25_75": 0.63,
+     "coverage_5_95": 0.944,
+     "crps": 3.0729,
+     "std_standardised_error": 0.953,
+     "mean_error_points": -0.332,
+     "mean_width_10_90": 14.29,
+     "pit_deciles": [
+      0.074,
+      0.111,
+      0.12,
+      0.148,
+      0.074,
+      0.111,
+      0.102,
+      0.083,
+      0.074,
+      0.102
+     ]
+    },
+    "EPL": {
+     "n": 120,
+     "coverage_10_90": 0.7,
+     "coverage_25_75": 0.392,
+     "coverage_5_95": 0.85,
+     "crps": 4.3188,
+     "std_standardised_error": 1.255,
+     "mean_error_points": -0.286,
+     "mean_width_10_90": 14.89,
+     "pit_deciles": [
+      0.175,
+      0.125,
+      0.067,
+      0.05,
+      0.075,
+      0.075,
+      0.092,
+      0.058,
+      0.142,
+      0.142
+     ]
+    },
+    "LALIGA": {
+     "n": 120,
+     "coverage_10_90": 0.775,
+     "coverage_25_75": 0.467,
+     "coverage_5_95": 0.917,
+     "crps": 3.5077,
+     "std_standardised_error": 1.072,
+     "mean_error_points": 0.143,
+     "mean_width_10_90": 15.0,
+     "pit_deciles": [
+      0.125,
+      0.067,
+      0.133,
+      0.067,
+      0.067,
+      0.092,
+      0.108,
+      0.083,
+      0.142,
+      0.117
+     ]
+    },
+    "LIGUE1": {
+     "n": 108,
+     "coverage_10_90": 0.796,
+     "coverage_25_75": 0.583,
+     "coverage_5_95": 0.861,
+     "crps": 3.4405,
+     "std_standardised_error": 1.132,
+     "mean_error_points": 0.184,
+     "mean_width_10_90": 13.96,
+     "pit_deciles": [
+      0.102,
+      0.074,
+      0.139,
+      0.13,
+      0.037,
+      0.074,
+      0.157,
+      0.083,
+      0.083,
+      0.12
+     ]
+    },
+    "SERIEA": {
+     "n": 120,
+     "coverage_10_90": 0.8,
+     "coverage_25_75": 0.558,
+     "coverage_5_95": 0.875,
+     "crps": 3.5469,
+     "std_standardised_error": 1.072,
+     "mean_error_points": -0.099,
+     "mean_width_10_90": 14.91,
+     "pit_deciles": [
+      0.133,
+      0.067,
+      0.1,
+      0.117,
+      0.067,
+      0.1,
+      0.133,
+      0.083,
+      0.117,
+      0.083
+     ]
+    }
+   }
+  },
+  "static": {
+   "n": 576,
+   "coverage_10_90": 0.75,
+   "coverage_25_75": 0.481,
+   "coverage_5_95": 0.854,
+   "crps": 3.6248,
+   "std_standardised_error": 1.203,
+   "mean_error_points": -0.079,
+   "mean_width_10_90": 13.37,
+   "pit_deciles": [
+    0.142,
+    0.083,
+    0.104,
+    0.097,
+    0.066,
+    0.083,
+    0.108,
+    0.071,
+    0.108,
+    0.137
+   ],
+   "by_cutoff": {
+    "1 Jan": {
+     "coverage_10_90": 0.755,
+     "std_standardised_error": 1.215,
+     "crps": 3.678
+    },
+    "1 Mar": {
+     "coverage_10_90": 0.786,
+     "std_standardised_error": 1.074,
+     "crps": 2.456
+    },
+    "1 Nov": {
+     "coverage_10_90": 0.708,
+     "std_standardised_error": 1.314,
+     "crps": 4.74
+    }
+   },
+   "by_league": {
+    "BUNDESLIGA": {
+     "n": 108,
+     "coverage_10_90": 0.796,
+     "coverage_25_75": 0.556,
+     "coverage_5_95": 0.907,
+     "crps": 3.0982,
+     "std_standardised_error": 1.044,
+     "mean_error_points": -0.33,
+     "mean_width_10_90": 13.08,
+     "pit_deciles": [
+      0.12,
+      0.074,
+      0.12,
+      0.139,
+      0.093,
+      0.093,
+      0.093,
+      0.074,
+      0.074,
+      0.12
+     ]
+    },
+    "EPL": {
+     "n": 120,
+     "coverage_10_90": 0.658,
+     "coverage_25_75": 0.367,
+     "coverage_5_95": 0.8,
+     "crps": 4.4,
+     "std_standardised_error": 1.38,
+     "mean_error_points": -0.288,
+     "mean_width_10_90": 13.58,
+     "pit_deciles": [
+      0.192,
+      0.117,
+      0.067,
+      0.05,
+      0.075,
+      0.075,
+      0.083,
+      0.05,
+      0.125,
+      0.167
+     ]
+    },
+    "LALIGA": {
+     "n": 120,
+     "coverage_10_90": 0.758,
+     "coverage_25_75": 0.433,
+     "coverage_5_95": 0.867,
+     "crps": 3.5304,
+     "std_standardised_error": 1.168,
+     "mean_error_points": 0.144,
+     "mean_width_10_90": 13.71,
+     "pit_deciles": [
+      0.125,
+      0.1,
+      0.108,
+      0.058,
+      0.067,
+      0.092,
+      0.083,
+      0.075,
+      0.133,
+      0.158
+     ]
+    },
+    "LIGUE1": {
+     "n": 108,
+     "coverage_10_90": 0.759,
+     "coverage_25_75": 0.546,
+     "coverage_5_95": 0.843,
+     "crps": 3.47,
+     "std_standardised_error": 1.228,
+     "mean_error_points": 0.184,
+     "mean_width_10_90": 12.87,
+     "pit_deciles": [
+      0.13,
+      0.046,
+      0.148,
+      0.12,
+      0.046,
+      0.065,
+      0.13,
+      0.093,
+      0.083,
+      0.139
+     ]
+    },
+    "SERIEA": {
+     "n": 120,
+     "coverage_10_90": 0.783,
+     "coverage_25_75": 0.517,
+     "coverage_5_95": 0.858,
+     "crps": 3.5572,
+     "std_standardised_error": 1.174,
+     "mean_error_points": -0.103,
+     "mean_width_10_90": 13.52,
+     "pit_deciles": [
+      0.142,
+      0.075,
+      0.083,
+      0.125,
+      0.05,
+      0.092,
+      0.15,
+      0.067,
+      0.117,
+      0.1
+     ]
+    }
+   }
+  }
+ },
+ "sensitivity": {
+  "chosen": {
+   "cfg": {
+    "kappa": 0.5,
+    "tau": 6.0
+   },
+   "development": {
+    "n": 1170,
+    "coverage_10_90": 0.791,
+    "coverage_25_75": 0.52,
+    "coverage_5_95": 0.898,
+    "crps": 3.5519,
+    "std_standardised_error": 1.081,
+    "mean_error_points": -0.001,
+    "mean_width_10_90": 15.0,
+    "pit_deciles": [
+     0.116,
+     0.105,
+     0.085,
+     0.101,
+     0.101,
+     0.099,
+     0.091,
+     0.087,
+     0.098,
+     0.117
+    ]
+   },
+   "evaluation": {
+    "n": 576,
+    "coverage_10_90": 0.78,
+    "coverage_25_75": 0.523,
+    "coverage_5_95": 0.889,
+    "crps": 3.5907,
+    "std_standardised_error": 1.1,
+    "mean_error_points": -0.078,
+    "mean_width_10_90": 14.63,
+    "pit_deciles": [
+     0.123,
+     0.089,
+     0.111,
+     0.101,
+     0.064,
+     0.09,
+     0.118,
+     0.078,
+     0.113,
+     0.113
+    ]
+   }
+  },
+  "static": {
+   "cfg": {
+    "kappa": 0.0,
+    "tau": 0.0
+   },
+   "development": {
+    "n": 1170,
+    "coverage_10_90": 0.757,
+    "coverage_25_75": 0.494,
+    "coverage_5_95": 0.865,
+    "crps": 3.5646,
+    "std_standardised_error": 1.179,
+    "mean_error_points": -0.001,
+    "mean_width_10_90": 13.67,
+    "pit_deciles": [
+     0.146,
+     0.094,
+     0.087,
+     0.085,
+     0.094,
+     0.092,
+     0.088,
+     0.08,
+     0.094,
+     0.138
+    ]
+   },
+   "evaluation": {
+    "n": 576,
+    "coverage_10_90": 0.75,
+    "coverage_25_75": 0.481,
+    "coverage_5_95": 0.854,
+    "crps": 3.6248,
+    "std_standardised_error": 1.203,
+    "mean_error_points": -0.079,
+    "mean_width_10_90": 13.37,
+    "pit_deciles": [
+     0.142,
+     0.083,
+     0.104,
+     0.097,
+     0.066,
+     0.083,
+     0.108,
+     0.071,
+     0.108,
+     0.137
+    ]
+   }
+  },
+  "K=10": {
+   "cfg": {
+    "kappa": 0.5,
+    "tau": 6.0,
+    "k": 10.0
+   },
+   "development": {
+    "n": 1170,
+    "coverage_10_90": 0.781,
+    "coverage_25_75": 0.51,
+    "coverage_5_95": 0.885,
+    "crps": 3.5538,
+    "std_standardised_error": 1.12,
+    "mean_error_points": -0.003,
+    "mean_width_10_90": 14.43,
+    "pit_deciles": [
+     0.128,
+     0.1,
+     0.09,
+     0.091,
+     0.097,
+     0.098,
+     0.089,
+     0.085,
+     0.096,
+     0.126
+    ]
+   },
+   "evaluation": {
+    "n": 576,
+    "coverage_10_90": 0.771,
+    "coverage_25_75": 0.507,
+    "coverage_5_95": 0.875,
+    "crps": 3.6014,
+    "std_standardised_error": 1.141,
+    "mean_error_points": -0.08,
+    "mean_width_10_90": 14.08,
+    "pit_deciles": [
+     0.132,
+     0.085,
+     0.109,
+     0.099,
+     0.066,
+     0.087,
+     0.113,
+     0.073,
+     0.108,
+     0.128
+    ]
+   }
+  },
+  "K=30": {
+   "cfg": {
+    "kappa": 0.5,
+    "tau": 6.0,
+    "k": 30.0
+   },
+   "development": {
+    "n": 1170,
+    "coverage_10_90": 0.805,
+    "coverage_25_75": 0.532,
+    "coverage_5_95": 0.905,
+    "crps": 3.5529,
+    "std_standardised_error": 1.045,
+    "mean_error_points": 0.0,
+    "mean_width_10_90": 15.58,
+    "pit_deciles": [
+     0.109,
+     0.102,
+     0.088,
+     0.105,
+     0.103,
+     0.103,
+     0.093,
+     0.085,
+     0.098,
+     0.113
+    ]
+   },
+   "evaluation": {
+    "n": 576,
+    "coverage_10_90": 0.799,
+    "coverage_25_75": 0.536,
+    "coverage_5_95": 0.899,
+    "crps": 3.5824,
+    "std_standardised_error": 1.063,
+    "mean_error_points": -0.076,
+    "mean_width_10_90": 15.19,
+    "pit_deciles": [
+     0.12,
+     0.085,
+     0.104,
+     0.106,
+     0.073,
+     0.094,
+     0.111,
+     0.087,
+     0.118,
+     0.102
+    ]
+   }
+  },
+  "home advantage=40": {
+   "cfg": {
+    "kappa": 0.5,
+    "tau": 6.0,
+    "ha": 40.0
+   },
+   "development": {
+    "n": 1170,
+    "coverage_10_90": 0.791,
+    "coverage_25_75": 0.52,
+    "coverage_5_95": 0.898,
+    "crps": 3.5524,
+    "std_standardised_error": 1.081,
+    "mean_error_points": -0.0,
+    "mean_width_10_90": 15.0,
+    "pit_deciles": [
+     0.115,
+     0.107,
+     0.086,
+     0.101,
+     0.098,
+     0.1,
+     0.091,
+     0.086,
+     0.098,
+     0.117
+    ]
+   },
+   "evaluation": {
+    "n": 576,
+    "coverage_10_90": 0.781,
+    "coverage_25_75": 0.523,
+    "coverage_5_95": 0.889,
+    "crps": 3.5905,
+    "std_standardised_error": 1.1,
+    "mean_error_points": -0.078,
+    "mean_width_10_90": 14.64,
+    "pit_deciles": [
+     0.123,
+     0.089,
+     0.109,
+     0.102,
+     0.064,
+     0.09,
+     0.118,
+     0.078,
+     0.113,
+     0.113
+    ]
+   }
+  },
+  "home advantage=80": {
+   "cfg": {
+    "kappa": 0.5,
+    "tau": 6.0,
+    "ha": 80.0
+   },
+   "development": {
+    "n": 1170,
+    "coverage_10_90": 0.791,
+    "coverage_25_75": 0.519,
+    "coverage_5_95": 0.898,
+    "crps": 3.5512,
+    "std_standardised_error": 1.081,
+    "mean_error_points": -0.001,
+    "mean_width_10_90": 15.0,
+    "pit_deciles": [
+     0.115,
+     0.107,
+     0.085,
+     0.098,
+     0.103,
+     0.1,
+     0.09,
+     0.087,
+     0.097,
+     0.119
+    ]
+   },
+   "evaluation": {
+    "n": 576,
+    "coverage_10_90": 0.781,
+    "coverage_25_75": 0.523,
+    "coverage_5_95": 0.889,
+    "crps": 3.5912,
+    "std_standardised_error": 1.101,
+    "mean_error_points": -0.079,
+    "mean_width_10_90": 14.63,
+    "pit_deciles": [
+     0.123,
+     0.089,
+     0.109,
+     0.099,
+     0.069,
+     0.089,
+     0.118,
+     0.078,
+     0.111,
+     0.115
+    ]
+   }
+  },
+  "tilt x0.5": {
+   "cfg": {
+    "kappa": 0.5,
+    "tau": 6.0,
+    "tilt": 0.5
+   },
+   "development": {
+    "n": 1170,
+    "coverage_10_90": 0.774,
+    "coverage_25_75": 0.507,
+    "coverage_5_95": 0.879,
+    "crps": 3.557,
+    "std_standardised_error": 1.132,
+    "mean_error_points": 0.0,
+    "mean_width_10_90": 14.27,
+    "pit_deciles": [
+     0.133,
+     0.098,
+     0.089,
+     0.089,
+     0.098,
+     0.096,
+     0.089,
+     0.084,
+     0.095,
+     0.129
+    ]
+   },
+   "evaluation": {
+    "n": 576,
+    "coverage_10_90": 0.769,
+    "coverage_25_75": 0.5,
+    "coverage_5_95": 0.87,
+    "crps": 3.6062,
+    "std_standardised_error": 1.153,
+    "mean_error_points": -0.077,
+    "mean_width_10_90": 13.92,
+    "pit_deciles": [
+     0.137,
+     0.082,
+     0.108,
+     0.099,
+     0.068,
+     0.082,
+     0.115,
+     0.073,
+     0.109,
+     0.128
+    ]
+   }
+  },
+  "tilt x1.5": {
+   "cfg": {
+    "kappa": 0.5,
+    "tau": 6.0,
+    "tilt": 1.5
+   },
+   "development": {
+    "n": 1170,
+    "coverage_10_90": 0.815,
+    "coverage_25_75": 0.538,
+    "coverage_5_95": 0.91,
+    "crps": 3.5525,
+    "std_standardised_error": 1.028,
+    "mean_error_points": -0.005,
+    "mean_width_10_90": 15.87,
+    "pit_deciles": [
+     0.107,
+     0.1,
+     0.091,
+     0.103,
+     0.108,
+     0.109,
+     0.091,
+     0.088,
+     0.097,
+     0.107
+    ]
+   },
+   "evaluation": {
+    "n": 576,
+    "coverage_10_90": 0.807,
+    "coverage_25_75": 0.542,
+    "coverage_5_95": 0.903,
+    "crps": 3.5797,
+    "std_standardised_error": 1.046,
+    "mean_error_points": -0.081,
+    "mean_width_10_90": 15.44,
+    "pit_deciles": [
+     0.118,
+     0.085,
+     0.104,
+     0.106,
+     0.075,
+     0.094,
+     0.111,
+     0.094,
+     0.118,
+     0.095
+    ]
+   }
+  },
+  "kappa=0.5": {
+   "cfg": {
+    "kappa": 0.5,
+    "tau": 6.0
+   },
+   "development": {
+    "n": 1170,
+    "coverage_10_90": 0.791,
+    "coverage_25_75": 0.52,
+    "coverage_5_95": 0.898,
+    "crps": 3.5519,
+    "std_standardised_error": 1.081,
+    "mean_error_points": -0.001,
+    "mean_width_10_90": 15.0,
+    "pit_deciles": [
+     0.116,
+     0.105,
+     0.085,
+     0.101,
+     0.101,
+     0.099,
+     0.091,
+     0.087,
+     0.098,
+     0.117
+    ]
+   },
+   "evaluation": {
+    "n": 576,
+    "coverage_10_90": 0.78,
+    "coverage_25_75": 0.523,
+    "coverage_5_95": 0.889,
+    "crps": 3.5907,
+    "std_standardised_error": 1.1,
+    "mean_error_points": -0.078,
+    "mean_width_10_90": 14.63,
+    "pit_deciles": [
+     0.123,
+     0.089,
+     0.111,
+     0.101,
+     0.064,
+     0.09,
+     0.118,
+     0.078,
+     0.113,
+     0.113
+    ]
+   }
+  },
+  "kappa=2.0": {
+   "cfg": {
+    "kappa": 2.0,
+    "tau": 6.0
+   },
+   "development": {
+    "n": 1170,
+    "coverage_10_90": 0.869,
+    "coverage_25_75": 0.597,
+    "coverage_5_95": 0.942,
+    "crps": 3.5936,
+    "std_standardised_error": 0.908,
+    "mean_error_points": -0.007,
+    "mean_width_10_90": 18.27,
+    "pit_deciles": [
+     0.079,
+     0.095,
+     0.096,
+     0.111,
+     0.125,
+     0.123,
+     0.098,
+     0.104,
+     0.088,
+     0.08
+    ]
+   },
+   "evaluation": {
+    "n": 576,
+    "coverage_10_90": 0.87,
+    "coverage_25_75": 0.604,
+    "coverage_5_95": 0.936,
+    "crps": 3.583,
+    "std_standardised_error": 0.918,
+    "mean_error_points": -0.082,
+    "mean_width_10_90": 17.69,
+    "pit_deciles": [
+     0.089,
+     0.087,
+     0.094,
+     0.127,
+     0.09,
+     0.113,
+     0.115,
+     0.116,
+     0.109,
+     0.061
+    ]
+   }
+  }
+ }
+}

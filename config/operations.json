@@ -1,0 +1,13 @@
+{
+  "operational_reviewer": "project owner",
+  "assigned_utc": "2026-10-27",
+  "scope": "Bundesliga and La Liga automatic synchronisation (OpenLigaDB, every 6 hours, each league on its own schedule)",
+  "duties": [
+    "run the daily audit (scripts\\ops\\footiq_service.ps1 audit) and read its report",
+    "review the unresolved sync findings in the quarantine (docs/mini-project/phase4/QUARANTINE_REVIEW_PROCEDURE.md)",
+    "decide whether a changed database state becomes the next baseline checkpoint (baseline_monitor.py approve ... --by <name>)",
+    "switch synchronisation off at the first sign of unexpected changes (docs/mini-project/phase4/P4_8D_ACTIVATION_CHECKLIST.md, section 6)"
+  ],
+  "automatic_approvals": false,
+  "note": "Nothing in FootIQ approves a checkpoint or resolves a quarantined finding by itself; only this person does."
+}

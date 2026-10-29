@@ -1,0 +1,247 @@
+{
+ "competitions": [
+  200,
+  [
+   "EPL",
+   "LALIGA",
+   "BUNDESLIGA",
+   "SERIEA",
+   "LIGUE1",
+   "UCL"
+  ]
+ ],
+ "health": [
+  200,
+  {
+   "status": "ok",
+   "club_prediction_ready": true,
+   "data_rows": 15736
+  }
+ ],
+ "archived_status_codes": {
+  "/api/competitions/UEL/teams": 404,
+  "/api/competitions/UEL/seasons": 404,
+  "/api/competitions/UEL/dashboard?season=2026-27": 404,
+  "/api/competitions/UEL/coverage": 404,
+  "/api/competitions/UECL/teams": 404,
+  "/api/competitions/UECL/seasons": 404,
+  "/api/competitions/UECL/dashboard?season=2026-27": 404,
+  "/api/competitions/UECL/coverage": 404,
+  "/api/competitions/WC/teams": 404,
+  "/api/competitions/WC/seasons": 404,
+  "/api/competitions/WC/dashboard?season=2026-27": 404,
+  "/api/competitions/WC/coverage": 404,
+  "/api/competitions/UNL/teams": 404,
+  "/api/competitions/UNL/seasons": 404,
+  "/api/competitions/UNL/dashboard?season=2026-27": 404,
+  "/api/competitions/UNL/coverage": 404,
+  "/api/competitions/COPA/teams": 404,
+  "/api/competitions/COPA/seasons": 404,
+  "/api/competitions/COPA/dashboard?season=2026-27": 404,
+  "/api/competitions/COPA/coverage": 404,
+  "/api/worldcup/simulate": 404,
+  "/api/worldcup/bracket": 404
+ },
+ "predictions": {
+  "EPL": [
+   200,
+   "AFC Bournemouth",
+   "Arsenal FC",
+   "{\"competition_key\": \"EPL\", \"competition\": \"English Premier League\", \"validation_badge\": \"Validated\", \"validation_basis\": \"Club v1 locked test and forward-holdout results (per-league rows in FootIQ_Club_Model_Baseline_v1/06a_LEAGUE_WISE_METRICS.csv). Previously"
+  ],
+  "LALIGA": [
+   200,
+   "Athletic Club",
+   "CA Osasuna",
+   "{\"competition_key\": \"LALIGA\", \"competition\": \"La Liga\", \"validation_badge\": \"Validated\", \"validation_basis\": \"Club v1 locked test and forward-holdout results. Previously inspected, not new evidence.\", \"home\": \"Athletic Club\", \"away\": \"CA Osasuna\", \"date\": \"202"
+  ],
+  "BUNDESLIGA": [
+   200,
+   "1. FC Heidenheim",
+   "1. FC K\u00f6ln",
+   "{\"competition_key\": \"BUNDESLIGA\", \"competition\": \"Bundesliga\", \"validation_badge\": \"Validated\", \"validation_basis\": \"Club v1 locked test and forward-holdout results. Previously inspected, not new evidence.\", \"home\": \"1. FC Heidenheim\", \"away\": \"1. FC K\\u00f6ln"
+  ],
+  "SERIEA": [
+   200,
+   "AC Milan",
+   "AC Monza",
+   "{\"competition_key\": \"SERIEA\", \"competition\": \"Serie A\", \"validation_badge\": \"Validated\", \"validation_basis\": \"Club v1 locked test and forward-holdout results. Previously inspected, not new evidence.\", \"home\": \"AC Milan\", \"away\": \"AC Monza\", \"date\": \"2026-10-26"
+  ],
+  "LIGUE1": [
+   200,
+   "AC Ajaccio",
+   "AJ Auxerre",
+   "{\"competition_key\": \"LIGUE1\", \"competition\": \"Ligue 1\", \"validation_badge\": \"Validated\", \"validation_basis\": \"Club v1 locked test and forward-holdout results. Previously inspected, not new evidence.\", \"home\": \"AC Ajaccio\", \"away\": \"AJ Auxerre\", \"date\": \"2026-1"
+  ],
+  "UCL": [
+   200,
+   "1. FC Union Berlin",
+   "AC Milan",
+   "{\"competition_key\": \"UCL\", \"competition\": \"UEFA Champions League\", \"validation_badge\": \"Not validated (indicative only)\", \"validation_basis\": \"Club models were evaluated on domestic leagues only; no continental-competition metric exists. Cross-league Elo is no"
+  ]
+ },
+ "season_runs": [
+  200,
+  [
+   {
+    "simulation_run_id": null,
+    "competition_key": null,
+    "season": null,
+    "n_simulations": 10000
+   }
+  ]
+ ],
+ "freshness": [
+  200,
+  [
+   {
+    "key": "EPL",
+    "name": "English Premier League",
+    "group": "Domestic league",
+    "latest_result": "2026-10-12",
+    "days_since_latest_result": 16,
+    "data_status": "historical_only",
+    "data_status_label": "Historical only: no automatic updates",
+    "update_note": "Automatic updates are not enabled for this league (the data provider's permission and disputed fixture dates are still being resolved).",
+    "last_successful_refresh_utc": null,
+    "sync_mode": null,
+    "has_warnings": false,
+    "warnings": []
+   },
+   {
+    "key": "LALIGA",
+    "name": "La Liga",
+    "group": "Domestic league",
+    "latest_result": "2026-10-25",
+    "days_since_latest_result": 3,
+    "data_status": "startup_updated",
+    "data_status_label": "Updated when FootIQ starts",
+    "update_note": "Refreshed once each time FootIQ starts from openligadb; not a live feed.",
+    "last_successful_refresh_utc": "2026-10-28T08:50:53Z",
+    "sync_mode": "startup",
+    "has_warnings": true,
+    "warnings": [
+     {
+      "level": "warning",
+      "text": "1 fixture(s) are past their date and have no result in the data (oldest 2026-10-10)."
+     }
+    ]
+   },
+   {
+    "key": "BUNDESLIGA",
+    "name": "Bundesliga",
+    "group": "Domestic league",
+    "latest_result": "2026-10-25",
+    "days_since_latest_result": 3,
+    "data_status": "startup_updated",
+    "data_status_label": "Updated when FootIQ starts",
+    "update_note": "Refreshed once each time FootIQ starts from openligadb; not a live feed.",
+    "last_successful_refresh_utc": "2026-10-28T08:50:47Z",
+    "sync_mode": "startup",
+    "has_warnings": false,
+    "warnings": []
+   },
+   {
+    "key": "SERIEA",
+    "name": "Serie A",
+    "group": "Domestic league",
+    "latest_result": "2026-09-20",
+    "days_since_latest_result": 38,
+    "data_status": "historical_only",
+    "data_status_label": "Historical only: no automatic updates",
+    "update_note": "Automatic updates are not enabled for this league (the data provider's permission and disputed fixture dates are still being resolved).",
+    "last_successful_refresh_utc": null,
+    "sync_mode": null,
+    "has_warnings": true,
+    "warnings": [
+     {
+      "level": "warning",
+      "text": "The latest result is 38 days old and this competition is not updated automatically."
+     }
+    ]
+   },
+   {
+    "key": "LIGUE1",
+    "name": "Ligue 1",
+    "group": "Domestic league",
+    "latest_result": "2026-09-20",
+    "days_since_latest_result": 38,
+    "data_status": "historical_only",
+    "data_status_label": "Historical only: no automatic updates",
+    "update_note": "Automatic updates are not enabled for this league (the data provider's permission and disputed fixture dates are still being resolved).",
+    "last_successful_refresh_utc": null,
+    "sync_mode": null,
+    "has_warnings": true,
+    "warnings": [
+     {
+      "level": "warning",
+      "text": "The latest result is 38 days old and this competition is not updated automatically."
+     }
+    ]
+   },
+   {
+    "key": "UCL",
+    "name": "UEFA Champions League",
+    "group": "Continental club",
+    "latest_result": "2026-09-10",
+    "days_since_latest_result": 48,
+    "data_status": "historical_only",
+    "data_status_label": "Historical only: no automatic updates",
+    "update_note": "No update source is approved for this competition; the data is a saved snapshot.",
+    "last_successful_refresh_utc": null,
+    "sync_mode": null,
+    "has_warnings": true,
+    "warnings": [
+     {
+      "level": "warning",
+      "text": "The latest result is 48 days old and this competition is not updated automatically."
+     },
+     {
+      "level": "warning",
+      "text": "2026-27: 18 of 144 matches are in the data."
+     }
+    ]
+   }
+  ]
+ ],
+ "sync_status": [
+  200,
+  {
+   "generated_utc": "2026-10-28T09:03:34Z",
+   "live_enabled": true,
+   "sync_mode": "startup",
+   "startup_min_gap_minutes": 15,
+   "periodic_minutes": 360,
+   "approved_sources": [
+    "openligadb"
+   ],
+   "recent_checks": [
+    {
+     "run_id": 21,
+     "kind": "startup_check",
+     "source": "all approved",
+     "started_utc": "2026-10-28T08:50:20Z",
+     "finished_utc": "2026-10-28T08:50:53Z",
+     "outcome": "ok",
+     "requests": 2,
+     "detail": "[{\"competition\": \"BUNDESLIGA\", \"inserted\": 0, \"updated\": 0, \"unchanged\": 243, \"confirmed\": 63, \"quarantined\": 0, \"requests\": 1, \"snapshot_reused\": true}, {\"competition\": \"LALIGA\", \"inserted\": 0, \"updated\": 0, \"unchanged\": 263, \"confirmed\": 93, \"quarantined\": 24, \"requests\": 1, \"snapshot_reused\": true}]"
+    },
+    {
+     "run_id": 18,
+     "kind": "startup_check",
+     "source": "all approved",
+     "started_utc": "2026-10-28T04:25:35Z",
+     "finished_utc": "2026-10-28T04:26:36Z",
+     "outcome": "ok",
+     "requests": 2,
+     "detail": "[{\"competition\": \"BUNDESLIGA\", \"inserted\": 0, \"updated\": 0, \"unchanged\": 243, \"confirmed\": 63, \"quarantined\": 0, \"requests\": 1, \"snapshot_reused\": true}, {\"competition\": \"LALIGA\", \"inserted\": 0, \"updated\": 0, \"unchanged\": 263, \"confirmed\": 93, \"quarantined\": 24, \"requests\": 1, \"snapshot_reused\": true}]"
+    },
+    {
+     "run_id": 15,
+     "kind": "startup_check",
+     "source": "all approved",
+     "started_utc": "2026-10-28T01:52:26Z",
+     "finished_utc": "2026-10-28T01:52:43Z",
+     "outcome": "ok",
+     "requests": 2,
+     "detail": "[{\"competition\": \"BUNDESLIGA\", \"inserted\": 0, \"updated\": 0, \"unchanged\": 243, \"c

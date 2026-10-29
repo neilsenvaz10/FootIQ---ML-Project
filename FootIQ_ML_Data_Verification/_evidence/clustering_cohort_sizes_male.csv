@@ -1,0 +1,6 @@
+position_group,player_seasons,>=450min,>=900min,>=1350min,distinct_competitions
+GK,982,212,134,110,17
+DEF,4891,972,670,513,17
+MID,4491,789,543,422,17
+FWD,3840,627,421,292,17
+UNKNOWN,0,0,0,0,0

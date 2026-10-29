@@ -1,0 +1,72 @@
+{
+ "snapshot_store_attested_provenance_rows": [
+  111,
+  111
+ ],
+ "published_store_attested_provenance_rows": [
+  0,
+  0
+ ],
+ "snapshot_attested_results_completed": 80,
+ "snapshot_sync_runs_labelled": [
+  [
+   "attested snapshot evidence (Wikipedia values; maintainer-attested cross-check)",
+   2
+  ]
+ ],
+ "three_unsupported_results_status_in_snapshot": [
+  [
+   "scheduled",
+   "2026-10-24",
+   null
+  ],
+  [
+   "scheduled",
+   "2026-10-25",
+   null
+  ],
+  [
+   "scheduled",
+   "2026-10-25",
+   null
+  ]
+ ],
+ "three_unsupported_results_status_in_published": [
+  [
+   "scheduled"
+  ],
+  [
+   "scheduled"
+  ],
+  [
+   "scheduled"
+  ]
+ ],
+ "restricted_words_in_attested_provenance": 0,
+ "sample_provenance": [
+  [
+   "wikipedia",
+   "result from the Wikipedia results grid; fixture date from the stored fixture; attested snapshot evidence: ONE redistributable source (Wikipedia / the stored fixture date) supports this value; the maintainer attests that a private,"
+  ],
+  [
+   "wikipedia",
+   "result from the Wikipedia results grid; fixture date from the stored fixture; attested snapshot evidence: ONE redistributable source (Wikipedia / the stored fixture date) supports this value; the maintainer attests that a private,"
+  ]
+ ],
+ "completed_snapshot": {
+  "BUNDESLIGA": 63,
+  "EPL": 80,
+  "LALIGA": 98,
+  "LIGUE1": 70,
+  "SERIEA": 80,
+  "UCL": 54
+ },
+ "completed_published": {
+  "BUNDESLIGA": 63,
+  "EPL": 60,
+  "LALIGA": 93,
+  "LIGUE1": 45,
+  "SERIEA": 50,
+  "UCL": 54
+ }
+}

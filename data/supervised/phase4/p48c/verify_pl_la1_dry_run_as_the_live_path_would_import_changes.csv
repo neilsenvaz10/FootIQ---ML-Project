@@ -1,0 +1,298 @@
+record_id,competition,change,field,before,after,home,away,match_date
+espana:1-liga:2026-27:L140,LALIGA,UPDATED,match_date,2026-10-10,2027-05-30,Rayo Vallecano de Madrid,Athletic Club,2026-10-10
+espana:1-liga:2026-27:L140,LALIGA,UPDATED,kickoff_utc,,2027-05-30T22:00:00Z,Rayo Vallecano de Madrid,Athletic Club,2026-10-10
+espana:1-liga:2026-27:L140,LALIGA,UPDATED,time_precision,local_unknown_tz,utc,Rayo Vallecano de Madrid,Athletic Club,2026-10-10
+england:1-premierleague:2026-27:L132,EPL,UPDATED,status,scheduled,awaiting_result,Liverpool FC,Brighton & Hove Albion FC,2026-10-25
+england:1-premierleague:2026-27:L133,EPL,UPDATED,status,scheduled,awaiting_result,Crystal Palace FC,Newcastle United FC,2026-10-25
+england:1-premierleague:2026-27:L134,EPL,UPDATED,status,scheduled,awaiting_result,Manchester United FC,AFC Bournemouth,2026-10-25
+england:1-premierleague:2026-27:L135,EPL,UPDATED,status,scheduled,awaiting_result,Hull City AFC,Brentford FC,2026-10-25
+england:1-premierleague:2026-27:L136,EPL,UPDATED,status,scheduled,awaiting_result,Sunderland AFC,Leeds United FC,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,match_date,2026-10-25,2026-10-24,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,kickoff_utc,,2026-10-24T12:00:00Z,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,time_precision,date_only,utc,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,model_home_entity,,CLUB:ESP:rayo-vallecano,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,model_away_entity,,CLUB:ESP:elche-cf,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,status,scheduled,completed,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,home_goals_final,,0,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,away_goals_final,,3,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,home_goals_90,,0,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,away_goals_90,,3,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,label_90_status,,confirmed,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,outcome,,A,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,rated,,1,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,regular,,1,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,in_universe,0,1,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,source_system,openfootball (CC0 / public domain),openligadb,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L177,LALIGA,UPDATED,licence,CC0-1.0,ODbL-1.0,Rayo Vallecano de Madrid,Elche CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,match_date,2026-10-25,2026-10-23,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,kickoff_utc,,2026-10-23T19:00:00Z,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,time_precision,date_only,utc,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,model_home_entity,,CLUB:ESP:deportivo-alaves,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,model_away_entity,,CLUB:ESP:malaga-cf,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,status,scheduled,completed,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,home_goals_final,,1,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,away_goals_final,,1,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,home_goals_90,,1,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,away_goals_90,,1,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,label_90_status,,confirmed,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,outcome,,D,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,rated,,1,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,regular,,1,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,in_universe,0,1,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,source_system,openfootball (CC0 / public domain),openligadb,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L178,LALIGA,UPDATED,licence,CC0-1.0,ODbL-1.0,Deportivo Alavés,Málaga CF,2026-10-25
+espana:1-liga:2026-27:L179,LALIGA,UPDATED,model_home_entity,,CLUB:ESP:athletic-club-bilbao,Athletic Club,Getafe CF,2026-10-25
+espana:1-liga:2026-27:L179,LALIGA,UPDATED,model_away_entity,,CLUB:ESP:getafe-cf,Athletic Club,Getafe CF,2026-10-25
+espana:1-liga:2026-27:L179,LALIGA,UPDATED,status,scheduled,completed,Athletic Club,Getafe CF,2026-10-25
+espana:1-liga:2026-27:L179,LALIGA,UPDATED,home_goals_final,,4,Athletic Club,Getafe CF,2026-10-25
+espana:1-liga:2026-27:L179,LALIGA,UPDATED,away_goals_final,,0,Athletic Club,Getafe CF,2026-10-25
+espana:1-liga:2026-27:L179,LALIGA,UPDATED,home_goals_90,,4,Athletic Club,Getafe CF,2026-10-25
+espana:1-liga:2026-27:L179,LALIGA,UPDATED,away_goals_90,,0,Athletic Club,Getafe CF,2026-10-25
+espana:1-liga:2026-27:L179,LALIGA,UPDATED,label_90_status,,confirmed,Athletic Club,Getafe CF,2026-10-25
+espana:1-liga:2026-27:L179,LALIGA,UPDATED,outcome,,H,Athletic Club,Getafe CF,2026-10-25
+espana:1-liga:2026-27:L179,LALIGA,UPDATED,rated,,1,Athletic Club,Getafe CF,2026-10-25
+espana:1-liga:2026-27:L179,LALIGA,UPDATED,regular,,1,Athletic Club,Getafe CF,2026-10-25
+espana:1-liga:2026-27:L179,LALIGA,UPDATED,in_universe,0,1,Athletic Club,Getafe CF,2026-10-25
+espana:1-liga:2026-27:L179,LALIGA,UPDATED,source_system,openfootball (CC0 / public domain),openligadb,Athletic Club,Getafe CF,2026-10-25
+espana:1-liga:2026-27:L179,LALIGA,UPDATED,licence,CC0-1.0,ODbL-1.0,Athletic Club,Getafe CF,2026-10-25
+espana:1-liga:2026-27:L180,LALIGA,UPDATED,match_date,2026-10-25,2026-10-26,Sevilla FC,CA Osasuna,2026-10-25
+espana:1-liga:2026-27:L180,LALIGA,UPDATED,kickoff_utc,,2026-10-26T20:00:00Z,Sevilla FC,CA Osasuna,2026-10-25
+espana:1-liga:2026-27:L180,LALIGA,UPDATED,time_precision,date_only,utc,Sevilla FC,CA Osasuna,2026-10-25
+espana:1-liga:2026-27:L180,LALIGA,UPDATED,status,scheduled,awaiting_result,Sevilla FC,CA Osasuna,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,match_date,2026-10-25,2026-10-24,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,kickoff_utc,,2026-10-24T16:30:00Z,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,time_precision,date_only,utc,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,model_home_entity,,CLUB:ESP:valencia-cf,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,model_away_entity,,CLUB:ESP:villarreal-cf,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,status,scheduled,completed,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,home_goals_final,,1,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,away_goals_final,,2,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,home_goals_90,,1,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,away_goals_90,,2,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,label_90_status,,confirmed,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,outcome,,A,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,rated,,1,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,regular,,1,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,in_universe,0,1,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,source_system,openfootball (CC0 / public domain),openligadb,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L181,LALIGA,UPDATED,licence,CC0-1.0,ODbL-1.0,Valencia CF,Villarreal CF,2026-10-25
+espana:1-liga:2026-27:L182,LALIGA,UPDATED,model_home_entity,,CLUB:ESP:fc-barcelona,FC Barcelona,Real Madrid CF,2026-10-25
+espana:1-liga:2026-27:L182,LALIGA,UPDATED,model_away_entity,,CLUB:ESP:real-madrid,FC Barcelona,Real Madrid CF,2026-10-25
+espana:1-liga:2026-27:L182,LALIGA,UPDATED,status,scheduled,completed,FC Barcelona,Real Madrid CF,2026-10-25
+espana:1-liga:2026-27:L182,LALIGA,UPDATED,home_goals_final,,1,FC Barcelona,Real Madrid CF,2026-10-25
+espana:1-liga:2026-27:L182,LALIGA,UPDATED,away_goals_final,,2,FC Barcelona,Real Madrid CF,2026-10-25
+espana:1-liga:2026-27:L182,LALIGA,UPDATED,home_goals_90,,1,FC Barcelona,Real Madrid CF,2026-10-25
+espana:1-liga:2026-27:L182,LALIGA,UPDATED,away_goals_90,,2,FC Barcelona,Real Madrid CF,2026-10-25
+espana:1-liga:2026-27:L182,LALIGA,UPDATED,label_90_status,,confirmed,FC Barcelona,Real Madrid CF,2026-10-25
+espana:1-liga:2026-27:L182,LALIGA,UPDATED,outcome,,A,FC Barcelona,Real Madrid CF,2026-10-25
+espana:1-liga:2026-27:L182,LALIGA,UPDATED,rated,,1,FC Barcelona,Real Madrid CF,2026-10-25
+espana:1-liga:2026-27:L182,LALIGA,UPDATED,regular,,1,FC Barcelona,Real Madrid CF,2026-10-25
+espana:1-liga:2026-27:L182,LALIGA,UPDATED,in_universe,0,1,FC Barcelona,Real Madrid CF,2026-10-25
+espana:1-liga:2026-27:L182,LALIGA,UPDATED,source_system,openfootball (CC0 / public domain),openligadb,FC Barcelona,Real Madrid CF,2026-10-25
+espana:1-liga:2026-27:L182,LALIGA,UPDATED,licence,CC0-1.0,ODbL-1.0,FC Barcelona,Real Madrid CF,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,match_date,2026-10-25,2026-10-24,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,kickoff_utc,,2026-10-24T19:30:00Z,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,time_precision,date_only,utc,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,model_home_entity,,CLUB:ESP:atletico-madrid,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,model_away_entity,,CLUB:ESP:rcd-la-coruna,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,status,scheduled,completed,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,home_goals_final,,1,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,away_goals_final,,0,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,home_goals_90,,1,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,away_goals_90,,0,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,label_90_status,,confirmed,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,outcome,,H,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,rated,,1,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,regular,,1,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,in_universe,0,1,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,source_system,openfootball (CC0 / public domain),openligadb,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L183,LALIGA,UPDATED,licence,CC0-1.0,ODbL-1.0,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25
+espana:1-liga:2026-27:L184,LALIGA,UPDATED,model_home_entity,,CLUB:ESP:rc-celta-vigo,RC Celta de Vigo,Real Betis Balompié,2026-10-25
+espana:1-liga:2026-27:L184,LALIGA,UPDATED,model_away_entity,,CLUB:ESP:real-betis,RC Celta de Vigo,Real Betis Balompié,2026-10-25
+espana:1-liga:2026-27:L184,LALIGA,UPDATED,status,scheduled,completed,RC Celta de Vigo,Real Betis Balompié,2026-10-25
+espana:1-liga:2026-27:L184,LALIGA,UPDATED,home_goals_final,,0,RC Celta de Vigo,Real Betis Balompié,2026-10-25
+espana:1-liga:2026-27:L184,LALIGA,UPDATED,away_goals_final,,0,RC Celta de Vigo,Real Betis Balompié,2026-10-25
+espana:1-liga:2026-27:L184,LALIGA,UPDATED,home_goals_90,,0,RC Celta de Vigo,Real Betis Balompié,2026-10-25
+espana:1-liga:2026-27:L184,LALIGA,UPDATED,away_goals_90,,0,RC Celta de Vigo,Real Betis Balompié,2026-10-25
+espana:1-liga:2026-27:L184,LALIGA,UPDATED,label_90_status,,confirmed,RC Celta de Vigo,Real Betis Balompié,2026-10-25
+espana:1-liga:2026-27:L184,LALIGA,UPDATED,outcome,,D,RC Celta de Vigo,Real Betis Balompié,2026-10-25
+espana:1-liga:2026-27:L184,LALIGA,UPDATED,rated,,1,RC Celta de Vigo,Real Betis Balompié,2026-10-25
+espana:1-liga:2026-27:L184,LALIGA,UPDATED,regular,,1,RC Celta de Vigo,Real Betis Balompié,2026-10-25
+espana:1-liga:2026-27:L184,LALIGA,UPDATED,in_universe,0,1,RC Celta de Vigo,Real Betis Balompié,2026-10-25
+espana:1-liga:2026-27:L184,LALIGA,UPDATED,source_system,openfootball (CC0 / public domain),openligadb,RC Celta de Vigo,Real Betis Balompié,2026-10-25
+espana:1-liga:2026-27:L184,LALIGA,UPDATED,licence,CC0-1.0,ODbL-1.0,RC Celta de Vigo,Real Betis Balompié,2026-10-25
+espana:1-liga:2026-27:L185,LALIGA,UPDATED,model_home_entity,,CLUB:ESP:real-sociedad,Real Sociedad de Fútbol,Levante UD,2026-10-25
+espana:1-liga:2026-27:L185,LALIGA,UPDATED,model_away_entity,,CLUB:ESP:levante-ud,Real Sociedad de Fútbol,Levante UD,2026-10-25
+espana:1-liga:2026-27:L185,LALIGA,UPDATED,status,scheduled,completed,Real Sociedad de Fútbol,Levante UD,2026-10-25
+espana:1-liga:2026-27:L185,LALIGA,UPDATED,home_goals_final,,2,Real Sociedad de Fútbol,Levante UD,2026-10-25
+espana:1-liga:2026-27:L185,LALIGA,UPDATED,away_goals_final,,1,Real Sociedad de Fútbol,Levante UD,2026-10-25
+espana:1-liga:2026-27:L185,LALIGA,UPDATED,home_goals_90,,2,Real Sociedad de Fútbol,Levante UD,2026-10-25
+espana:1-liga:2026-27:L185,LALIGA,UPDATED,away_goals_90,,1,Real Sociedad de Fútbol,Levante UD,2026-10-25
+espana:1-liga:2026-27:L185,LALIGA,UPDATED,label_90_status,,confirmed,Real Sociedad de Fútbol,Levante UD,2026-10-25
+espana:1-liga:2026-27:L185,LALIGA,UPDATED,outcome,,H,Real Sociedad de Fútbol,Levante UD,2026-10-25
+espana:1-liga:2026-27:L185,LALIGA,UPDATED,rated,,1,Real Sociedad de Fútbol,Levante UD,2026-10-25
+espana:1-liga:2026-27:L185,LALIGA,UPDATED,regular,,1,Real Sociedad de Fútbol,Levante UD,2026-10-25
+espana:1-liga:2026-27:L185,LALIGA,UPDATED,in_universe,0,1,Real Sociedad de Fútbol,Levante UD,2026-10-25
+espana:1-liga:2026-27:L185,LALIGA,UPDATED,source_system,openfootball (CC0 / public domain),openligadb,Real Sociedad de Fútbol,Levante UD,2026-10-25
+espana:1-liga:2026-27:L185,LALIGA,UPDATED,licence,CC0-1.0,ODbL-1.0,Real Sociedad de Fútbol,Levante UD,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,match_date,2026-10-25,2026-10-24,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,kickoff_utc,,2026-10-24T14:15:00Z,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,time_precision,date_only,utc,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,model_home_entity,,CLUB:ESP:real-racing-santander,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,model_away_entity,,CLUB:ESP:rcd-espanyol,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,status,scheduled,completed,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,home_goals_final,,2,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,away_goals_final,,1,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,home_goals_90,,2,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,away_goals_90,,1,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,label_90_status,,confirmed,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,outcome,,H,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,rated,,1,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,regular,,1,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,in_universe,0,1,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,source_system,openfootball (CC0 / public domain),openligadb,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L186,LALIGA,UPDATED,licence,CC0-1.0,ODbL-1.0,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25
+espana:1-liga:2026-27:L191,LALIGA,UPDATED,match_date,2026-11-01,2026-10-31,Real Betis Balompié,Málaga CF,2026-11-01
+espana:1-liga:2026-27:L191,LALIGA,UPDATED,kickoff_utc,,2026-10-31T17:30:00Z,Real Betis Balompié,Málaga CF,2026-11-01
+espana:1-liga:2026-27:L191,LALIGA,UPDATED,time_precision,date_only,utc,Real Betis Balompié,Málaga CF,2026-11-01
+espana:1-liga:2026-27:L192,LALIGA,UPDATED,match_date,2026-11-01,2026-10-30,Villarreal CF,RCD Espanyol de Barcelona,2026-11-01
+espana:1-liga:2026-27:L192,LALIGA,UPDATED,kickoff_utc,,2026-10-30T20:00:00Z,Villarreal CF,RCD Espanyol de Barcelona,2026-11-01
+espana:1-liga:2026-27:L192,LALIGA,UPDATED,time_precision,date_only,utc,Villarreal CF,RCD Espanyol de Barcelona,2026-11-01
+espana:1-liga:2026-27:L195,LALIGA,UPDATED,match_date,2026-11-01,2026-10-31,Levante UD,Club Atlético de Madrid,2026-11-01
+espana:1-liga:2026-27:L195,LALIGA,UPDATED,kickoff_utc,,2026-10-31T13:00:00Z,Levante UD,Club Atlético de Madrid,2026-11-01
+espana:1-liga:2026-27:L195,LALIGA,UPDATED,time_precision,date_only,utc,Levante UD,Club Atlético de Madrid,2026-11-01
+espana:1-liga:2026-27:L196,LALIGA,UPDATED,match_date,2026-11-01,2026-11-02,RC Deportivo La Coruña,CA Osasuna,2026-11-01
+espana:1-liga:2026-27:L196,LALIGA,UPDATED,kickoff_utc,,2026-11-02T20:00:00Z,RC Deportivo La Coruña,CA Osasuna,2026-11-01
+espana:1-liga:2026-27:L196,LALIGA,UPDATED,time_precision,date_only,utc,RC Deportivo La Coruña,CA Osasuna,2026-11-01
+espana:1-liga:2026-27:L197,LALIGA,UPDATED,match_date,2026-11-01,2026-10-31,FC Barcelona,Deportivo Alavés,2026-11-01
+espana:1-liga:2026-27:L197,LALIGA,UPDATED,kickoff_utc,,2026-10-31T20:00:00Z,FC Barcelona,Deportivo Alavés,2026-11-01
+espana:1-liga:2026-27:L197,LALIGA,UPDATED,time_precision,date_only,utc,FC Barcelona,Deportivo Alavés,2026-11-01
+espana:1-liga:2026-27:L200,LALIGA,UPDATED,match_date,2026-11-01,2026-10-31,Rayo Vallecano de Madrid,RC Celta de Vigo,2026-11-01
+espana:1-liga:2026-27:L200,LALIGA,UPDATED,kickoff_utc,,2026-10-31T15:15:00Z,Rayo Vallecano de Madrid,RC Celta de Vigo,2026-11-01
+espana:1-liga:2026-27:L200,LALIGA,UPDATED,time_precision,date_only,utc,Rayo Vallecano de Madrid,RC Celta de Vigo,2026-11-01
+england:1-premierleague:2026-27:L161,EPL,UPDATED,match_date,2026-11-07,2026-11-06,Everton FC,Coventry City FC,2026-11-07
+england:1-premierleague:2026-27:L161,EPL,UPDATED,kickoff_utc,,2026-11-06T20:00:00Z,Everton FC,Coventry City FC,2026-11-07
+england:1-premierleague:2026-27:L161,EPL,UPDATED,time_precision,date_only,utc,Everton FC,Coventry City FC,2026-11-07
+england:1-premierleague:2026-27:L162,EPL,UPDATED,match_date,2026-11-07,2026-11-08,Crystal Palace FC,Liverpool FC,2026-11-07
+england:1-premierleague:2026-27:L162,EPL,UPDATED,kickoff_utc,,2026-11-08T14:00:00Z,Crystal Palace FC,Liverpool FC,2026-11-07
+england:1-premierleague:2026-27:L162,EPL,UPDATED,time_precision,date_only,utc,Crystal Palace FC,Liverpool FC,2026-11-07
+england:1-premierleague:2026-27:L163,EPL,UPDATED,match_date,2026-11-07,2026-11-08,Sunderland AFC,Chelsea FC,2026-11-07
+england:1-premierleague:2026-27:L163,EPL,UPDATED,kickoff_utc,,2026-11-08T14:00:00Z,Sunderland AFC,Chelsea FC,2026-11-07
+england:1-premierleague:2026-27:L163,EPL,UPDATED,time_precision,date_only,utc,Sunderland AFC,Chelsea FC,2026-11-07
+england:1-premierleague:2026-27:L164,EPL,UPDATED,match_date,2026-11-07,2026-11-08,Ipswich Town FC,AFC Bournemouth,2026-11-07
+england:1-premierleague:2026-27:L164,EPL,UPDATED,kickoff_utc,,2026-11-08T14:00:00Z,Ipswich Town FC,AFC Bournemouth,2026-11-07
+england:1-premierleague:2026-27:L164,EPL,UPDATED,time_precision,date_only,utc,Ipswich Town FC,AFC Bournemouth,2026-11-07
+england:1-premierleague:2026-27:L165,EPL,UPDATED,match_date,2026-11-07,2026-11-08,Brighton & Hove Albion FC,Brentford FC,2026-11-07
+england:1-premierleague:2026-27:L165,EPL,UPDATED,kickoff_utc,,2026-11-08T14:00:00Z,Brighton & Hove Albion FC,Brentford FC,2026-11-07
+england:1-premierleague:2026-27:L165,EPL,UPDATED,time_precision,date_only,utc,Brighton & Hove Albion FC,Brentford FC,2026-11-07
+england:1-premierleague:2026-27:L166,EPL,UPDATED,match_date,2026-11-07,2026-11-08,Manchester United FC,Aston Villa FC,2026-11-07
+england:1-premierleague:2026-27:L166,EPL,UPDATED,kickoff_utc,,2026-11-08T16:30:00Z,Manchester United FC,Aston Villa FC,2026-11-07
+england:1-premierleague:2026-27:L166,EPL,UPDATED,time_precision,date_only,utc,Manchester United FC,Aston Villa FC,2026-11-07
+espana:1-liga:2026-27:L206,LALIGA,UPDATED,match_date,2026-11-08,2026-11-07,CA Osasuna,Athletic Club,2026-11-08
+espana:1-liga:2026-27:L206,LALIGA,UPDATED,kickoff_utc,,2026-11-07T17:30:00Z,CA Osasuna,Athletic Club,2026-11-08
+espana:1-liga:2026-27:L206,LALIGA,UPDATED,time_precision,date_only,utc,CA Osasuna,Athletic Club,2026-11-08
+espana:1-liga:2026-27:L207,LALIGA,UPDATED,match_date,2026-11-08,2026-11-06,Sevilla FC,Deportivo Alavés,2026-11-08
+espana:1-liga:2026-27:L207,LALIGA,UPDATED,kickoff_utc,,2026-11-06T20:00:00Z,Sevilla FC,Deportivo Alavés,2026-11-08
+espana:1-liga:2026-27:L207,LALIGA,UPDATED,time_precision,date_only,utc,Sevilla FC,Deportivo Alavés,2026-11-08
+espana:1-liga:2026-27:L208,LALIGA,UPDATED,match_date,2026-11-08,2026-11-07,Valencia CF,Real Madrid CF,2026-11-08
+espana:1-liga:2026-27:L208,LALIGA,UPDATED,kickoff_utc,,2026-11-07T20:00:00Z,Valencia CF,Real Madrid CF,2026-11-08
+espana:1-liga:2026-27:L208,LALIGA,UPDATED,time_precision,date_only,utc,Valencia CF,Real Madrid CF,2026-11-08
+espana:1-liga:2026-27:L211,LALIGA,UPDATED,match_date,2026-11-08,2026-11-07,Málaga CF,Real Racing Club de Santander,2026-11-08
+espana:1-liga:2026-27:L211,LALIGA,UPDATED,kickoff_utc,,2026-11-07T13:00:00Z,Málaga CF,Real Racing Club de Santander,2026-11-08
+espana:1-liga:2026-27:L211,LALIGA,UPDATED,time_precision,date_only,utc,Málaga CF,Real Racing Club de Santander,2026-11-08
+espana:1-liga:2026-27:L212,LALIGA,UPDATED,match_date,2026-11-08,2026-11-07,RCD Espanyol de Barcelona,RC Deportivo La Coruña,2026-11-08
+espana:1-liga:2026-27:L212,LALIGA,UPDATED,kickoff_utc,,2026-11-07T15:15:00Z,RCD Espanyol de Barcelona,RC Deportivo La Coruña,2026-11-08
+espana:1-liga:2026-27:L212,LALIGA,UPDATED,time_precision,date_only,utc,RCD Espanyol de Barcelona,RC Deportivo La Coruña,2026-11-08
+england:1-premierleague:2026-27:L174,EPL,UPDATED,match_date,2026-11-21,2026-11-22,Liverpool FC,Manchester United FC,2026-11-21
+england:1-premierleague:2026-27:L174,EPL,UPDATED,kickoff_utc,,2026-11-22T16:30:00Z,Liverpool FC,Manchester United FC,2026-11-21
+england:1-premierleague:2026-27:L174,EPL,UPDATED,time_precision,date_only,utc,Liverpool FC,Manchester United FC,2026-11-21
+england:1-premierleague:2026-27:L175,EPL,UPDATED,match_date,2026-11-21,2026-11-22,Hull City AFC,Brighton & Hove Albion FC,2026-11-21
+england:1-premierleague:2026-27:L175,EPL,UPDATED,kickoff_utc,,2026-11-22T14:00:00Z,Hull City AFC,Brighton & Hove Albion FC,2026-11-21
+england:1-premierleague:2026-27:L175,EPL,UPDATED,time_precision,date_only,utc,Hull City AFC,Brighton & Hove Albion FC,2026-11-21
+england:1-premierleague:2026-27:L178,EPL,UPDATED,match_date,2026-11-21,2026-11-23,Brentford FC,Everton FC,2026-11-21
+england:1-premierleague:2026-27:L178,EPL,UPDATED,kickoff_utc,,2026-11-23T20:00:00Z,Brentford FC,Everton FC,2026-11-21
+england:1-premierleague:2026-27:L178,EPL,UPDATED,time_precision,date_only,utc,Brentford FC,Everton FC,2026-11-21
+espana:1-liga:2026-27:L219,LALIGA,UPDATED,match_date,2026-11-22,2026-11-20,Athletic Club,RCD Espanyol de Barcelona,2026-11-22
+espana:1-liga:2026-27:L219,LALIGA,UPDATED,kickoff_utc,,2026-11-20T20:00:00Z,Athletic Club,RCD Espanyol de Barcelona,2026-11-22
+espana:1-liga:2026-27:L219,LALIGA,UPDATED,time_precision,date_only,utc,Athletic Club,RCD Espanyol de Barcelona,2026-11-22
+espana:1-liga:2026-27:L222,LALIGA,UPDATED,match_date,2026-11-22,2026-11-21,Rayo Vallecano de Madrid,Valencia CF,2026-11-22
+espana:1-liga:2026-27:L222,LALIGA,UPDATED,kickoff_utc,,2026-11-21T15:15:00Z,Rayo Vallecano de Madrid,Valencia CF,2026-11-22
+espana:1-liga:2026-27:L222,LALIGA,UPDATED,time_precision,date_only,utc,Rayo Vallecano de Madrid,Valencia CF,2026-11-22
+espana:1-liga:2026-27:L225,LALIGA,UPDATED,match_date,2026-11-22,2026-11-21,Real Madrid CF,RC Celta de Vigo,2026-11-22
+espana:1-liga:2026-27:L225,LALIGA,UPDATED,kickoff_utc,,2026-11-21T20:00:00Z,Real Madrid CF,RC Celta de Vigo,2026-11-22
+espana:1-liga:2026-27:L225,LALIGA,UPDATED,time_precision,date_only,utc,Real Madrid CF,RC Celta de Vigo,2026-11-22
+espana:1-liga:2026-27:L226,LALIGA,UPDATED,match_date,2026-11-22,2026-11-21,Deportivo Alavés,RC Deportivo La Coruña,2026-11-22
+espana:1-liga:2026-27:L226,LALIGA,UPDATED,kickoff_utc,,2026-11-21T13:00:00Z,Deportivo Alavés,RC Deportivo La Coruña,2026-11-22
+espana:1-liga:2026-27:L226,LALIGA,UPDATED,time_precision,date_only,utc,Deportivo Alavés,RC Deportivo La Coruña,2026-11-22
+espana:1-liga:2026-27:L227,LALIGA,UPDATED,match_date,2026-11-22,2026-11-21,Sevilla FC,Real Betis Balompié,2026-11-22
+espana:1-liga:2026-27:L227,LALIGA,UPDATED,kickoff_utc,,2026-11-21T17:30:00Z,Sevilla FC,Real Betis Balompié,2026-11-22
+espana:1-liga:2026-27:L227,LALIGA,UPDATED,time_precision,date_only,utc,Sevilla FC,Real Betis Balompié,2026-11-22
+espana:1-liga:2026-27:L228,LALIGA,UPDATED,match_date,2026-11-22,2026-11-23,Levante UD,Elche CF,2026-11-22
+espana:1-liga:2026-27:L228,LALIGA,UPDATED,kickoff_utc,,2026-11-23T20:00:00Z,Levante UD,Elche CF,2026-11-22
+espana:1-liga:2026-27:L228,LALIGA,UPDATED,time_precision,date_only,utc,Levante UD,Elche CF,2026-11-22
+england:1-premierleague:2026-27:L187,EPL,UPDATED,match_date,2026-11-28,2026-11-29,Arsenal FC,Manchester City FC,2026-11-28
+england:1-premierleague:2026-27:L187,EPL,UPDATED,kickoff_utc,,2026-11-29T16:30:00Z,Arsenal FC,Manchester City FC,2026-11-28
+england:1-premierleague:2026-27:L187,EPL,UPDATED,time_precision,date_only,utc,Arsenal FC,Manchester City FC,2026-11-28
+england:1-premierleague:2026-27:L189,EPL,UPDATED,match_date,2026-11-28,2026-11-29,Everton FC,Liverpool FC,2026-11-28
+england:1-premierleague:2026-27:L189,EPL,UPDATED,kickoff_utc,,2026-11-29T12:00:00Z,Everton FC,Liverpool FC,2026-11-28
+england:1-premierleague:2026-27:L189,EPL,UPDATED,time_precision,date_only,utc,Everton FC,Liverpool FC,2026-11-28
+england:1-premierleague:2026-27:L190,EPL,UPDATED,match_date,2026-11-28,2026-11-29,Fulham FC,AFC Bournemouth,2026-11-28
+england:1-premierleague:2026-27:L190,EPL,UPDATED,kickoff_utc,,2026-11-29T14:05:00Z,Fulham FC,AFC Bournemouth,2026-11-28
+england:1-premierleague:2026-27:L190,EPL,UPDATED,time_precision,date_only,utc,Fulham FC,AFC Bournemouth,2026-11-28
+england:1-premierleague:2026-27:L191,EPL,UPDATED,match_date,2026-11-28,2026-11-27,Nottingham Forest FC,Chelsea FC,2026-11-28
+england:1-premierleague:2026-27:L191,EPL,UPDATED,kickoff_utc,,2026-11-27T20:00:00Z,Nottingham Forest FC,Chelsea FC,2026-11-28
+england:1-premierleague:2026-27:L191,EPL,UPDATED,time_precision,date_only,utc,Nottingham Forest FC,Chelsea FC,2026-11-28
+england:1-premierleague:2026-27:L192,EPL,UPDATED,match_date,2026-11-28,2026-11-29,Brighton & Hove Albion FC,Newcastle United FC,2026-11-28
+england:1-premierleague:2026-27:L192,EPL,UPDATED,kickoff_utc,,2026-11-29T14:05:00Z,Brighton & Hove Albion FC,Newcastle United FC,2026-11-28
+england:1-premierleague:2026-27:L192,EPL,UPDATED,time_precision,date_only,utc,Brighton & Hove Albion FC,Newcastle United FC,2026-11-28
+england:1-premierleague:2026-27:L193,EPL,UPDATED,match_date,2026-11-28,2026-11-29,Sunderland AFC,Tottenham Hotspur FC,2026-11-28
+england:1-premierleague:2026-27:L193,EPL,UPDATED,kickoff_utc,,2026-11-29T14:05:00Z,Sunderland AFC,Tottenham Hotspur FC,2026-11-28
+england:1-premierleague:2026-27:L193,EPL,UPDATED,time_precision,date_only,utc,Sunderland AFC,Tottenham Hotspur FC,2026-11-28
+england:1-premierleague:2026-27:L194,EPL,UPDATED,match_date,2026-11-28,2026-11-29,Crystal Palace FC,Hull City AFC,2026-11-28
+england:1-premierleague:2026-27:L194,EPL,UPDATED,kickoff_utc,,2026-11-29T14:05:00Z,Crystal Palace FC,Hull City AFC,2026-11-28
+england:1-premierleague:2026-27:L194,EPL,UPDATED,time_precision,date_only,utc,Crystal Palace FC,Hull City AFC,2026-11-28
+england:1-premierleague:2026-27:L199,EPL,UPDATED,match_date,2026-12-02,2026-12-03,Tottenham Hotspur FC,Fulham FC,2026-12-02
+england:1-premierleague:2026-27:L199,EPL,UPDATED,kickoff_utc,,2026-12-03T20:00:00Z,Tottenham Hotspur FC,Fulham FC,2026-12-02
+england:1-premierleague:2026-27:L199,EPL,UPDATED,time_precision,local_unknown_tz,utc,Tottenham Hotspur FC,Fulham FC,2026-12-02
+england:1-premierleague:2026-27:L205,EPL,UPDATED,match_date,2026-12-02,2026-12-01,Coventry City FC,Ipswich Town FC,2026-12-02
+england:1-premierleague:2026-27:L205,EPL,UPDATED,kickoff_utc,,2026-12-01T20:00:00Z,Coventry City FC,Ipswich Town FC,2026-12-02
+england:1-premierleague:2026-27:L205,EPL,UPDATED,time_precision,date_only,utc,Coventry City FC,Ipswich Town FC,2026-12-02
+england:1-premierleague:2026-27:L213,EPL,UPDATED,match_date,2026-12-05,2026-12-06,Tottenham Hotspur FC,Arsenal FC,2026-12-05
+england:1-premierleague:2026-27:L213,EPL,UPDATED,kickoff_utc,,2026-12-06T16:30:00Z,Tottenham Hotspur FC,Arsenal FC,2026-12-05
+england:1-premierleague:2026-27:L213,EPL,UPDATED,time_precision,local_unknown_tz,utc,Tottenham Hotspur FC,Arsenal FC,2026-12-05
+england:1-premierleague:2026-27:L216,EPL,UPDATED,match_date,2026-12-05,2026-12-06,Newcastle United FC,Sunderland AFC,2026-12-05
+england:1-premierleague:2026-27:L216,EPL,UPDATED,kickoff_utc,,2026-12-06T14:00:00Z,Newcastle United FC,Sunderland AFC,2026-12-05
+england:1-premierleague:2026-27:L216,EPL,UPDATED,time_precision,date_only,utc,Newcastle United FC,Sunderland AFC,2026-12-05
+england:1-premierleague:2026-27:L222,EPL,UPDATED,match_date,2026-12-05,2026-12-06,Everton FC,Fulham FC,2026-12-05
+england:1-premierleague:2026-27:L222,EPL,UPDATED,kickoff_utc,,2026-12-06T14:00:00Z,Everton FC,Fulham FC,2026-12-05
+england:1-premierleague:2026-27:L222,EPL,UPDATED,time_precision,date_only,utc,Everton FC,Fulham FC,2026-12-05
+england:1-premierleague:2026-27:L227,EPL,UPDATED,match_date,2026-12-12,2026-12-13,Sunderland AFC,Nottingham Forest FC,2026-12-12
+england:1-premierleague:2026-27:L227,EPL,UPDATED,kickoff_utc,,2026-12-13T14:00:00Z,Sunderland AFC,Nottingham Forest FC,2026-12-12
+england:1-premierleague:2026-27:L227,EPL,UPDATED,time_precision,local_unknown_tz,utc,Sunderland AFC,Nottingham Forest FC,2026-12-12
+england:1-premierleague:2026-27:L228,EPL,UPDATED,match_date,2026-12-12,2026-12-13,Crystal Palace FC,Manchester United FC,2026-12-12
+england:1-premierleague:2026-27:L228,EPL,UPDATED,kickoff_utc,,2026-12-13T19:00:00Z,Crystal Palace FC,Manchester United FC,2026-12-12
+england:1-premierleague:2026-27:L228,EPL,UPDATED,time_precision,date_only,utc,Crystal Palace FC,Manchester United FC,2026-12-12
+england:1-premierleague:2026-27:L229,EPL,UPDATED,match_date,2026-12-12,2026-12-14,Hull City AFC,Tottenham Hotspur FC,2026-12-12
+england:1-premierleague:2026-27:L229,EPL,UPDATED,kickoff_utc,,2026-12-14T20:00:00Z,Hull City AFC,Tottenham Hotspur FC,2026-12-12
+england:1-premierleague:2026-27:L229,EPL,UPDATED,time_precision,date_only,utc,Hull City AFC,Tottenham Hotspur FC,2026-12-12
+england:1-premierleague:2026-27:L230,EPL,UPDATED,match_date,2026-12-12,2026-12-13,Brighton & Hove Albion FC,Everton FC,2026-12-12
+england:1-premierleague:2026-27:L230,EPL,UPDATED,kickoff_utc,,2026-12-13T14:00:00Z,Brighton & Hove Albion FC,Everton FC,2026-12-12
+england:1-premierleague:2026-27:L230,EPL,UPDATED,time_precision,date_only,utc,Brighton & Hove Albion FC,Everton FC,2026-12-12
+england:1-premierleague:2026-27:L232,EPL,UPDATED,match_date,2026-12-12,2026-12-13,Coventry City FC,Aston Villa FC,2026-12-12
+england:1-premierleague:2026-27:L232,EPL,UPDATED,kickoff_utc,,2026-12-13T16:30:00Z,Coventry City FC,Aston Villa FC,2026-12-12
+england:1-premierleague:2026-27:L232,EPL,UPDATED,time_precision,date_only,utc,Coventry City FC,Aston Villa FC,2026-12-12
+england:1-premierleague:2026-27:L233,EPL,UPDATED,match_date,2026-12-12,2026-12-13,Arsenal FC,AFC Bournemouth,2026-12-12
+england:1-premierleague:2026-27:L233,EPL,UPDATED,kickoff_utc,,2026-12-13T14:00:00Z,Arsenal FC,AFC Bournemouth,2026-12-12
+england:1-premierleague:2026-27:L233,EPL,UPDATED,time_precision,date_only,utc,Arsenal FC,AFC Bournemouth,2026-12-12
+england:1-premierleague:2026-27:L242,EPL,UPDATED,match_date,2026-12-19,2026-12-20,Brighton & Hove Albion FC,Ipswich Town FC,2026-12-19
+england:1-premierleague:2026-27:L242,EPL,UPDATED,kickoff_utc,,2026-12-20T14:00:00Z,Brighton & Hove Albion FC,Ipswich Town FC,2026-12-19
+england:1-premierleague:2026-27:L242,EPL,UPDATED,time_precision,date_only,utc,Brighton & Hove Albion FC,Ipswich Town FC,2026-12-19
+england:1-premierleague:2026-27:L246,EPL,UPDATED,match_date,2026-12-19,2026-12-20,Sunderland AFC,Crystal Palace FC,2026-12-19
+england:1-premierleague:2026-27:L246,EPL,UPDATED,kickoff_utc,,2026-12-20T14:00:00Z,Sunderland AFC,Crystal Palace FC,2026-12-19
+england:1-premierleague:2026-27:L246,EPL,UPDATED,time_precision,date_only,utc,Sunderland AFC,Crystal Palace FC,2026-12-19
+england:1-premierleague:2026-27:L248,EPL,UPDATED,match_date,2026-12-19,2026-12-20,Arsenal FC,Manchester United FC,2026-12-19
+england:1-premierleague:2026-27:L248,EPL,UPDATED,kickoff_utc,,2026-12-20T16:30:00Z,Arsenal FC,Manchester United FC,2026-12-19
+england:1-premierleague:2026-27:L248,EPL,UPDATED,time_precision,date_only,utc,Arsenal FC,Manchester United FC,2026-12-19
+england:1-premierleague:2026-27:L250,EPL,UPDATED,match_date,2026-12-19,2026-12-21,Chelsea FC,Aston Villa FC,2026-12-19
+england:1-premierleague:2026-27:L250,EPL,UPDATED,kickoff_utc,,2026-12-21T20:00:00Z,Chelsea FC,Aston Villa FC,2026-12-19
+england:1-premierleague:2026-27:L250,EPL,UPDATED,time_precision,date_only,utc,Chelsea FC,Aston Villa FC,2026-12-19

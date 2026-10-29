@@ -1,0 +1,71 @@
+﻿source_ref,home,away,status,src_date,src_h,src_a,result_type,outcome,of_date,of_h,of_a,date_equal
+2026–27 Premier League@1381300885:match_ARS_CHE,Arsenal,Chelsea,completed,2026-09-06,2,1,wikipedia_matrix_unspecified,agree,2026-09-06,2.0,1.0,True
+2026–27 Premier League@1381300885:match_ARS_COV,Arsenal,Coventry City,completed,2026-08-21,3,0,wikipedia_matrix_unspecified,agree,2026-08-21,3.0,0.0,True
+2026–27 Premier League@1381300885:match_ARS_LEE,Arsenal,Leeds United,completed,2026-10-10,2,1,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-10,,,
+2026–27 Premier League@1381300885:match_AVL_ARS,Aston Villa,Arsenal,completed,2026-08-31,0,1,wikipedia_matrix_unspecified,agree,2026-08-31,0.0,1.0,True
+2026–27 Premier League@1381300885:match_AVL_BRE,Aston Villa,Brentford,completed,2026-10-10,2,2,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-10,,,
+2026–27 Premier League@1381300885:match_AVL_NFO,Aston Villa,Nottingham Forest,completed,2026-09-12,1,2,wikipedia_matrix_unspecified,agree,2026-09-12,1.0,2.0,True
+2026–27 Premier League@1381300885:match_BOU_BRE,Bournemouth,Brentford,completed,2026-09-12,2,2,wikipedia_matrix_unspecified,agree,2026-09-12,2.0,2.0,True
+2026–27 Premier League@1381300885:match_BOU_EVE,Bournemouth,Everton,completed,2026-08-29,1,1,wikipedia_matrix_unspecified,agree,2026-08-29,1.0,1.0,True
+2026–27 Premier League@1381300885:match_BOU_LIV,Bournemouth,Liverpool,completed,2026-09-20,0,1,wikipedia_matrix_unspecified,agree,2026-09-20,0.0,1.0,True
+2026–27 Premier League@1381300885:match_BOU_SUN,Bournemouth,Sunderland,completed,2026-10-18,2,0,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-18,,,
+2026–27 Premier League@1381300885:match_BRE_CHE,Brentford,Chelsea,completed,2026-09-18,3,0,wikipedia_matrix_unspecified,agree,2026-09-18,3.0,0.0,True
+2026–27 Premier League@1381300885:match_BRE_LIV,Brentford,Liverpool,completed,2026-10-17,1,2,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-17,,,
+2026–27 Premier League@1381300885:match_BRE_SUN,Brentford,Sunderland,completed,2026-09-05,1,1,wikipedia_matrix_unspecified,agree,2026-09-05,1.0,1.0,True
+2026–27 Premier League@1381300885:match_BRE_TOT,Brentford,Tottenham Hotspur,completed,2026-08-22,3,0,wikipedia_matrix_unspecified,agree,2026-08-22,3.0,0.0,True
+2026–27 Premier League@1381300885:match_BHA_ARS,Brighton & Hove Albion,Arsenal,completed,2026-09-19,3,0,wikipedia_matrix_unspecified,agree,2026-09-19,3.0,0.0,True
+2026–27 Premier League@1381300885:match_BHA_AVL,Brighton & Hove Albion,Aston Villa,completed,2026-08-23,4,0,wikipedia_matrix_unspecified,agree,2026-08-23,4.0,0.0,True
+2026–27 Premier League@1381300885:match_BHA_CRY,Brighton & Hove Albion,Crystal Palace,completed,2026-10-18,5,0,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-18,,,
+2026–27 Premier League@1381300885:match_BHA_LEE,Brighton & Hove Albion,Leeds United,completed,2026-09-05,1,1,wikipedia_matrix_unspecified,agree,2026-09-05,1.0,1.0,True
+2026–27 Premier League@1381300885:match_CHE_BOU,Chelsea,Bournemouth,completed,2026-10-10,5,1,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-10,,,
+2026–27 Premier League@1381300885:match_CHE_BHA,Chelsea,Brighton & Hove Albion,completed,2026-08-30,4,3,wikipedia_matrix_unspecified,agree,2026-08-30,4.0,3.0,True
+2026–27 Premier League@1381300885:match_CHE_HUL,Chelsea,Hull City,completed,2026-09-12,2,2,wikipedia_matrix_unspecified,agree,2026-09-12,2.0,2.0,True
+2026–27 Premier League@1381300885:match_COV_BHA,Coventry City,Brighton & Hove Albion,completed,2026-09-13,0,5,wikipedia_matrix_unspecified,agree,2026-09-13,0.0,5.0,True
+2026–27 Premier League@1381300885:match_COV_HUL,Coventry City,Hull City,completed,2026-08-29,0,1,wikipedia_matrix_unspecified,agree,2026-08-29,0.0,1.0,True
+2026–27 Premier League@1381300885:match_COV_NEW,Coventry City,Newcastle United,completed,2026-10-12,4,1,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-12,,,
+2026–27 Premier League@1381300885:match_CRY_IPS,Crystal Palace,Ipswich Town,completed,2026-09-12,2,3,wikipedia_matrix_unspecified,agree,2026-09-12,2.0,3.0,True
+2026–27 Premier League@1381300885:match_CRY_MCI,Crystal Palace,Manchester City*,completed,2026-08-28,1,4,wikipedia_matrix_unspecified,agree,2026-08-28,1.0,4.0,True
+2026–27 Premier League@1381300885:match_CRY_NFO,Crystal Palace,Nottingham Forest,completed,2026-10-11,3,1,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-11,,,
+2026–27 Premier League@1381300885:match_EVE_CHE,Everton,Chelsea,completed,2026-10-17,0,2,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-17,,,
+2026–27 Premier League@1381300885:match_EVE_CRY,Everton,Crystal Palace,completed,2026-08-22,2,0,wikipedia_matrix_unspecified,agree,2026-08-22,2.0,0.0,True
+2026–27 Premier League@1381300885:match_EVE_IPS,Everton,Ipswich Town,completed,2026-09-19,1,0,wikipedia_matrix_unspecified,agree,2026-09-19,1.0,0.0,True
+2026–27 Premier League@1381300885:match_EVE_MUN,Everton,Manchester United,completed,2026-09-06,2,2,wikipedia_matrix_unspecified,agree,2026-09-06,2.0,2.0,True
+2026–27 Premier League@1381300885:match_FUL_CHE,Fulham,Chelsea,completed,2026-08-24,2,3,wikipedia_matrix_unspecified,agree,2026-08-24,2.0,3.0,True
+2026–27 Premier League@1381300885:match_FUL_CRY,Fulham,Crystal Palace,completed,2026-09-05,2,3,wikipedia_matrix_unspecified,agree,2026-09-05,2.0,3.0,True
+2026–27 Premier League@1381300885:match_FUL_HUL,Fulham,Hull City,completed,2026-10-17,1,0,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-17,,,
+2026–27 Premier League@1381300885:match_FUL_MUN,Fulham,Manchester United,completed,2026-09-20,1,1,wikipedia_matrix_unspecified,agree,2026-09-20,1.0,1.0,True
+2026–27 Premier League@1381300885:match_HUL_AVL,Hull City,Aston Villa,completed,2026-09-05,0,0,wikipedia_matrix_unspecified,agree,2026-09-05,0.0,0.0,True
+2026–27 Premier League@1381300885:match_HUL_EVE,Hull City,Everton,completed,2026-10-11,2,2,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-11,,,
+2026–27 Premier League@1381300885:match_HUL_MUN,Hull City,Manchester United,completed,2026-08-22,2,0,wikipedia_matrix_unspecified,agree,2026-08-22,2.0,0.0,True
+2026–27 Premier League@1381300885:match_IPS_FUL,Ipswich Town,Fulham,completed,2026-10-10,2,1,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-10,,,
+2026–27 Premier League@1381300885:match_IPS_LIV,Ipswich Town,Liverpool,completed,2026-09-04,0,2,wikipedia_matrix_unspecified,agree,2026-09-04,0.0,2.0,True
+2026–27 Premier League@1381300885:match_IPS_SUN,Ipswich Town,Sunderland,completed,2026-08-22,2,1,wikipedia_matrix_unspecified,agree,2026-08-22,2.0,1.0,True
+2026–27 Premier League@1381300885:match_LEE_BRE,Leeds United,Brentford,completed,2026-08-30,1,1,wikipedia_matrix_unspecified,agree,2026-08-30,1.0,1.0,True
+2026–27 Premier League@1381300885:match_LEE_CRY,Leeds United,Crystal Palace,completed,2026-09-20,0,0,wikipedia_matrix_unspecified,agree,2026-09-20,0.0,0.0,True
+2026–27 Premier League@1381300885:match_LEE_MUN,Leeds United,Manchester United,completed,2026-10-18,1,1,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-18,,,
+2026–27 Premier League@1381300885:match_LEE_NEW,Leeds United,Newcastle United,completed,2026-09-14,4,1,wikipedia_matrix_unspecified,agree,2026-09-14,4.0,1.0,True
+2026–27 Premier League@1381300885:match_LIV_FUL,Liverpool,Fulham,completed,2026-09-12,0,0,wikipedia_matrix_unspecified,agree,2026-09-12,0.0,0.0,True
+2026–27 Premier League@1381300885:match_LIV_MCI,Liverpool,Manchester City*,completed,2026-10-11,0,3,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-11,,,
+2026–27 Premier League@1381300885:match_LIV_NFO,Liverpool,Nottingham Forest,completed,2026-08-29,2,2,wikipedia_matrix_unspecified,agree,2026-08-29,2.0,2.0,True
+2026–27 Premier League@1381300885:match_MCI_BOU,Manchester City*,Bournemouth,completed,2026-08-23,2,1,wikipedia_matrix_unspecified,agree,2026-08-23,2.0,1.0,True
+2026–27 Premier League@1381300885:match_MCI_COV,Manchester City*,Coventry City,completed,2026-09-05,1,0,wikipedia_matrix_unspecified,agree,2026-09-05,1.0,0.0,True
+2026–27 Premier League@1381300885:match_MCI_IPS,Manchester City*,Ipswich Town,completed,2026-10-17,3,2,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-17,,,
+2026–27 Premier League@1381300885:match_MCI_SUN,Manchester City*,Sunderland,completed,2026-09-20,5,3,wikipedia_matrix_unspecified,agree,2026-09-20,5.0,3.0,True
+2026–27 Premier League@1381300885:match_MUN_IPS,Manchester United,Ipswich Town,completed,2026-08-30,5,2,wikipedia_matrix_unspecified,agree,2026-08-30,5.0,2.0,True
+2026–27 Premier League@1381300885:match_MUN_MCI,Manchester United,Manchester City*,completed,2026-09-13,0,1,wikipedia_matrix_unspecified,agree,2026-09-13,0.0,1.0,True
+2026–27 Premier League@1381300885:match_MUN_TOT,Manchester United,Tottenham Hotspur,completed,2026-10-10,1,1,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-10,,,
+2026–27 Premier League@1381300885:match_NEW_AVL,Newcastle United,Aston Villa,completed,2026-10-17,0,1,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-17,,,
+2026–27 Premier League@1381300885:match_NEW_BOU,Newcastle United,Bournemouth,completed,2026-09-05,2,2,wikipedia_matrix_unspecified,agree,2026-09-05,2.0,2.0,True
+2026–27 Premier League@1381300885:match_NEW_HUL,Newcastle United,Hull City,completed,2026-09-19,2,1,wikipedia_matrix_unspecified,agree,2026-09-19,2.0,1.0,True
+2026–27 Premier League@1381300885:match_NEW_LIV,Newcastle United,Liverpool,completed,2026-08-23,2,2,wikipedia_matrix_unspecified,agree,2026-08-23,2.0,2.0,True
+2026–27 Premier League@1381300885:match_NFO_ARS,Nottingham Forest,Arsenal,completed,2026-10-18,0,1,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-18,,,
+2026–27 Premier League@1381300885:match_NFO_COV,Nottingham Forest,Coventry City,completed,2026-09-19,0,1,wikipedia_matrix_unspecified,agree,2026-09-19,0.0,1.0,True
+2026–27 Premier League@1381300885:match_NFO_LEE,Nottingham Forest,Leeds United,completed,2026-08-22,0,1,wikipedia_matrix_unspecified,agree,2026-08-22,0.0,1.0,True
+2026–27 Premier League@1381300885:match_NFO_TOT,Nottingham Forest,Tottenham Hotspur,completed,2026-09-05,0,0,wikipedia_matrix_unspecified,agree,2026-09-05,0.0,0.0,True
+2026–27 Premier League@1381300885:match_SUN_ARS,Sunderland,Arsenal,completed,2026-09-12,0,2,wikipedia_matrix_unspecified,agree,2026-09-12,0.0,2.0,True
+2026–27 Premier League@1381300885:match_SUN_BHA,Sunderland,Brighton & Hove Albion,completed,2026-10-10,0,2,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-10,,,
+2026–27 Premier League@1381300885:match_SUN_FUL,Sunderland,Fulham,completed,2026-08-30,1,0,wikipedia_matrix_unspecified,agree,2026-08-30,1.0,0.0,True
+2026–27 Premier League@1381300885:match_TOT_AVL,Tottenham Hotspur,Aston Villa,completed,2026-09-19,2,3,wikipedia_matrix_unspecified,agree,2026-09-19,2.0,3.0,True
+2026–27 Premier League@1381300885:match_TOT_COV,Tottenham Hotspur,Coventry City,completed,2026-10-19,3,1,wikipedia_matrix_unspecified,recovered_missing_in_openfootball,2026-10-19,,,
+2026–27 Premier League@1381300885:match_TOT_EVE,Tottenham Hotspur,Everton,completed,2026-09-12,0,0,wikipedia_matrix_unspecified,agree,2026-09-12,0.0,0.0,True
+2026–27 Premier League@1381300885:match_TOT_NEW,Tottenham Hotspur,Newcastle United,completed,2026-08-29,0,2,wikipedia_matrix_unspecified,agree,2026-08-29,0.0,2.0,True

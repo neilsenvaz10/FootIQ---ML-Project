@@ -1,0 +1,381 @@
+{
+ "generated_utc": "2026-10-27T13:02:58Z",
+ "leagues": {
+  "pl": {
+   "competition": "EPL",
+   "snapshot": "20261027T130107Z_p48c_pl.json",
+   "sha256": "5bc7f2def9f9725461afae05ae8cc04038122291b3e6991bb7c678a0963bac9d",
+   "bytes": 942711,
+   "retrieved_utc": "2026-10-27T13:01:07Z",
+   "http_status": 200,
+   "total_fixtures": 380,
+   "matchdays": 38,
+   "teams": 20,
+   "finished": 60,
+   "source_statuses": {
+    "completed": 59,
+    "completed_unclassified_score": 1,
+    "past_date_no_result": 20,
+    "upcoming": 300
+   },
+   "identity": {
+    "unresolved": [],
+    "methods": {
+     "exact": 18,
+     "normalised": 2
+    },
+    "entities_used_twice": []
+   },
+   "duplicates": {
+    "duplicate_matchids": 0,
+    "duplicate_ordered_pairs": 0
+   },
+   "source_past_date_without_result": 20,
+   "source_finished_without_final_result": [],
+   "reconciliation": {
+    "inserted": 0,
+    "updated": 5,
+    "unchanged": 284,
+    "confirmed": 58,
+    "quarantined": 33,
+    "held_date_difference": 31
+   },
+   "newly_available_results": [],
+   "status_only_changes_scheduled_to_awaiting": 5,
+   "row_changes_by_field": {
+    "status": 5
+   },
+   "rows_changed": 5,
+   "dates_changed": 0,
+   "scores_overwritten": 0,
+   "repeat_import": {
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 289,
+    "confirmed": 58,
+    "quarantined": 33
+   },
+   "store_after_import": {
+    "completed": 60,
+    "awaiting_result": 20,
+    "oldest_awaiting": "2026-10-17",
+    "newest_result": "2026-10-12"
+   },
+   "standings_changes": [],
+   "form_changes": [],
+   "freshness_after_import": {
+    "state": "stale",
+    "state_reasons": [
+     "no approved fresh source for this competition",
+     "results were last imported from a saved snapshot (p48c_dry_run) on 2026-10-27T13:05:00Z; that was not a check of a live source",
+     "20 played match(es) without a result since 2026-10-17"
+    ],
+    "latest_result": "2026-10-12",
+    "awaiting_result": 20,
+    "last_successful_external_check_utc": null,
+    "last_successful_import_utc": "2026-10-27T13:05:00Z",
+    "last_import_kind": "p48c_dry_run",
+    "provider_readiness": "prepared_offline",
+    "history_note": "A successful source check does not make the history complete: the fixtures above are past their date and have no verified result in the store."
+   }
+  },
+  "la1": {
+   "competition": "LALIGA",
+   "snapshot": "20261027T130112Z_p48c_la1.json",
+   "sha256": "efe9e2a94ae06151f39947cbcb04e73e5c8e5f1534447bc96c5f3284afc11508",
+   "bytes": 452761,
+   "retrieved_utc": "2026-10-27T13:01:12Z",
+   "http_status": 200,
+   "total_fixtures": 380,
+   "matchdays": 38,
+   "teams": 20,
+   "finished": 98,
+   "source_statuses": {
+    "completed": 98,
+    "past_date_no_result": 1,
+    "upcoming": 281
+   },
+   "identity": {
+    "unresolved": [],
+    "methods": {
+     "exact": 15,
+     "normalised": 5
+    },
+    "entities_used_twice": []
+   },
+   "duplicates": {
+    "duplicate_matchids": 0,
+    "duplicate_ordered_pairs": 0
+   },
+   "source_past_date_without_result": 1,
+   "source_finished_without_final_result": [],
+   "reconciliation": {
+    "inserted": 0,
+    "updated": 4,
+    "unchanged": 263,
+    "confirmed": 89,
+    "quarantined": 24,
+    "held_date_difference": 24
+   },
+   "newly_available_results": [
+    {
+     "home": "Athletic Club",
+     "away": "Getafe CF",
+     "date": "2026-10-25",
+     "score": "4-0"
+    },
+    {
+     "home": "FC Barcelona",
+     "away": "Real Madrid CF",
+     "date": "2026-10-25",
+     "score": "1-2"
+    },
+    {
+     "home": "RC Celta de Vigo",
+     "away": "Real Betis Balompié",
+     "date": "2026-10-25",
+     "score": "0-0"
+    },
+    {
+     "home": "Real Sociedad de Fútbol",
+     "away": "Levante UD",
+     "date": "2026-10-25",
+     "score": "2-1"
+    }
+   ],
+   "status_only_changes_scheduled_to_awaiting": 0,
+   "row_changes_by_field": {
+    "model_home_entity": 4,
+    "model_away_entity": 4,
+    "status": 4,
+    "home_goals_final": 4,
+    "away_goals_final": 4,
+    "home_goals_90": 4,
+    "away_goals_90": 4,
+    "label_90_status": 4,
+    "outcome": 4,
+    "rated": 4,
+    "regular": 4,
+    "in_universe": 4,
+    "source_system": 4,
+    "licence": 4
+   },
+   "rows_changed": 4,
+   "dates_changed": 0,
+   "scores_overwritten": 0,
+   "repeat_import": {
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 263,
+    "confirmed": 93,
+    "quarantined": 24
+   },
+   "store_after_import": {
+    "completed": 93,
+    "awaiting_result": 1,
+    "oldest_awaiting": "2026-10-10",
+    "newest_result": "2026-10-25"
+   },
+   "standings_changes": [
+    {
+     "team": "Getafe CF",
+     "played": [
+      9,
+      10
+     ],
+     "points": [
+      9,
+      9
+     ],
+     "gd": [
+      -6,
+      -10
+     ]
+    },
+    {
+     "team": "Levante UD",
+     "played": [
+      9,
+      10
+     ],
+     "points": [
+      10,
+      10
+     ],
+     "gd": [
+      -2,
+      -3
+     ]
+    },
+    {
+     "team": "Real Betis Balompié",
+     "played": [
+      9,
+      10
+     ],
+     "points": [
+      19,
+      20
+     ],
+     "gd": [
+      2,
+      2
+     ]
+    },
+    {
+     "team": "Real Sociedad de Fútbol",
+     "played": [
+      9,
+      10
+     ],
+     "points": [
+      16,
+      19
+     ],
+     "gd": [
+      0,
+      1
+     ]
+    },
+    {
+     "team": "Athletic Club",
+     "played": [
+      8,
+      9
+     ],
+     "points": [
+      9,
+      12
+     ],
+     "gd": [
+      -1,
+      3
+     ]
+    },
+    {
+     "team": "RC Celta de Vigo",
+     "played": [
+      9,
+      10
+     ],
+     "points": [
+      11,
+      12
+     ],
+     "gd": [
+      3,
+      3
+     ]
+    },
+    {
+     "team": "Real Madrid CF",
+     "played": [
+      9,
+      10
+     ],
+     "points": [
+      21,
+      24
+     ],
+     "gd": [
+      14,
+      15
+     ]
+    },
+    {
+     "team": "FC Barcelona",
+     "played": [
+      9,
+      10
+     ],
+     "points": [
+      27,
+      27
+     ],
+     "gd": [
+      30,
+      29
+     ]
+    }
+   ],
+   "form_changes": [
+    {
+     "team": "Getafe CF",
+     "last5_before": "DLWLD",
+     "last5_after": "LWLDL"
+    },
+    {
+     "team": "Levante UD",
+     "last5_before": "LLDDW",
+     "last5_after": "LDDWL"
+    },
+    {
+     "team": "Real Betis Balompié",
+     "last5_before": "WWDWL",
+     "last5_after": "WDWLD"
+    },
+    {
+     "team": "Real Sociedad de Fútbol",
+     "last5_before": "WLWWW",
+     "last5_after": "LWWWW"
+    },
+    {
+     "team": "Athletic Club",
+     "last5_before": "WDDDL",
+     "last5_after": "DDDLW"
+    },
+    {
+     "team": "RC Celta de Vigo",
+     "last5_before": "DDWDW",
+     "last5_after": "DWDWD"
+    },
+    {
+     "team": "Real Madrid CF",
+     "last5_before": "WWLWW",
+     "last5_after": "WLWWW"
+    },
+    {
+     "team": "FC Barcelona",
+     "last5_before": "WWWWW",
+     "last5_after": "WWWWL"
+    }
+   ],
+   "freshness_after_import": {
+    "state": "stale",
+    "state_reasons": [
+     "no approved fresh source for this competition",
+     "results were last imported from a saved snapshot (p48c_dry_run) on 2026-10-27T13:05:00Z; that was not a check of a live source",
+     "1 played match(es) without a result since 2026-10-10"
+    ],
+    "latest_result": "2026-10-25",
+    "awaiting_result": 1,
+    "last_successful_external_check_utc": null,
+    "last_successful_import_utc": "2026-10-27T13:05:00Z",
+    "last_import_kind": "p48c_dry_run",
+    "provider_readiness": "prepared_offline",
+    "history_note": "A successful source check does not make the history complete: the fixtures above are past their date and have no verified result in the store."
+   }
+  }
+ },
+ "quarantine": {
+  "before": 273,
+  "after": 273,
+  "new_findings": 0,
+  "removed": 0,
+  "date_difference_total": 55,
+  "score_conflicts": [
+   "CONFLICT: stored 2-2 vs source 2-1",
+   "CONTRADICTORY SOURCE RESULT: the source holds several differing final scores (none); Aston"
+  ]
+ },
+ "integrity_of_copy": {
+  "integrity_check": "ok",
+  "foreign_key_check": 0,
+  "matches_before": 223510,
+  "matches_after": 223510,
+  "rows_deleted": 0
+ },
+ "production_sha256_before": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+ "production_sha256_after": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+ "production_untouched": true
+}

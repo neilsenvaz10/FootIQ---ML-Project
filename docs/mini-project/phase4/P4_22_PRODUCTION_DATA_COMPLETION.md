@@ -1,0 +1,13 @@
+# Phase 4.22: production data completion (approved import, done)
+
+Imported into production on 2026-10-28, exactly as approved: **71 domestic results** (Premier League 17, Serie A 29, Ligue 1 25) with `app/store/league_results_import.py` and **90 Champions League league-phase fixtures** (matchdays 4-8) with `app/store/uefa_import.py --include-fixtures`. No Git operation, no retraining, no storage cleanup, no deletion, no new provider, no date correction, nothing in the archived competitions touched.
+
+- **Before:** staged datasets hashes unchanged since Phase 4.21; dry runs 71 `update_result` / 0 issues and 54 unchanged + 90 `insert_fixture` / 0 issues; the 90 fixtures re-verified against UEFA's list (90 of 90, gate hash `17afd3fb...`); integrity ok, two simulations present, all frozen hashes match; the backend was the expected single foreground uvicorn.
+- **Backup:** backend stopped cleanly; byte-identical copy `data/backups/p422_pre_import_20261028/` (sha256 `5e8433c3...`, integrity ok, 223,546 matches) is the rollback point. A second copy `p422_after_domestic_20261028/` was taken between the two imports because the importer's guard needs a backup identical to the current file.
+- **Rollback (not needed):** stop the backend, copy `p422_pre_import_20261028/footiq.sqlite` over `data/footiq.sqlite` (no `-wal` / `-shm` leftovers), check its sha256 against `SHA256.txt`, restart in the foreground.
+- **After (read-only, against the backup):** matches 223,546 -> 223,636 (+90); exactly 71 existing rows changed (all open fixtures that kept their date, clubs, stage and id; now completed, source `wikipedia`, `CC BY-SA 4.0`, in the model universe) and 90 new rows (all `UCL` 2026-27, `scheduled`, outside the model universe); **every other row byte-identical** (archived competitions included); 0 missing rows, 0 duplicates, 0 orphan clubs, 0 completed matches without a score; quarantine still 273; sync runs 32 (71 updated) and 33 (90 inserted).
+- **Frozen models:** all hashes match (club v1, club v2-r1, v2.7 archive); nothing retrained.
+- **Saved simulations:** Bundesliga run 1 and La Liga run 2 (10,000 each), content hash `33fbf4af...` unchanged.
+- **Restart:** foreground terminal, `/api/health` ok; the startup refresh made its 2 usual OpenLigaDB requests (request ledger 19 lines); no new scheduler.
+- **La Liga check (at that authorized refresh):** OpenLigaDB returned no new results (snapshot reused): La Liga stays 93 completed with 7 fixtures past their date without a result.
+- **Tests:** backend 243 passed (both importers, hub, API and prediction, scope, freshness, league phase, startup sync, store, featured), 0 failures, 0 skipped; frontend 358 passed, 13 skipped (the live-API tests, by design).

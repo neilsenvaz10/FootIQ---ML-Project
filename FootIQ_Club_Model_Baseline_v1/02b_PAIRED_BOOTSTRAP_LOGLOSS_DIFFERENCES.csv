@@ -1,0 +1,13 @@
+set,comparison,mean_difference,ci95_low,ci95_high,n
+test_primary,"multinomial_logreg - elo_ordered_logit (log loss, negative = first is better)",-0.0023946600425039815,-0.003841262759569159,-0.0009195245672731677,15645
+test_primary,"multinomial_logreg - always_home (log loss, negative = first is better)",-0.0685444362890608,-0.07365183607400723,-0.06356822487854497,15645
+test_primary,"elo_ordered_logit - always_home (log loss, negative = first is better)",-0.06614977624655681,-0.07128991427952888,-0.060955609997670156,15645
+forward_holdout_primary,"multinomial_logreg - elo_ordered_logit (log loss, negative = first is better)",-0.00406900262564172,-0.006407717919329289,-0.0016256157439035529,5770
+forward_holdout_primary,"multinomial_logreg - always_home (log loss, negative = first is better)",-0.06815557101681931,-0.07670125725227776,-0.05972906748804289,5770
+forward_holdout_primary,"elo_ordered_logit - always_home (log loss, negative = first is better)",-0.06408656839117759,-0.07279248747410116,-0.0554843858775006,5770
+test_secondary_calendar_year,"multinomial_logreg - elo_ordered_logit (log loss, negative = first is better)",-0.004190263501723407,-0.007149929395564923,-0.0012543222592670666,3449
+test_secondary_calendar_year,"multinomial_logreg - always_home (log loss, negative = first is better)",-0.05378600892154286,-0.06344664233811616,-0.04419873020998577,3449
+test_secondary_calendar_year,"elo_ordered_logit - always_home (log loss, negative = first is better)",-0.04959574541981945,-0.05822689900017504,-0.04017540222917244,3449
+forward_holdout_secondary_calendar_year,"multinomial_logreg - elo_ordered_logit (log loss, negative = first is better)",-0.007650582663957139,-0.014452596761241812,-0.0005125480131944062,570
+forward_holdout_secondary_calendar_year,"multinomial_logreg - always_home (log loss, negative = first is better)",-0.07445313697446998,-0.09814484252097967,-0.05207230907893287,570
+forward_holdout_secondary_calendar_year,"elo_ordered_logit - always_home (log loss, negative = first is better)",-0.06680255431051282,-0.09008316415725057,-0.043943733181467486,570

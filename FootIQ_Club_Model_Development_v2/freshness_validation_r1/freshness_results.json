@@ -1,0 +1,84 @@
+{
+ "competitions_total": 122,
+ "competition_status_counts": {
+  "no_fixtures_in_source (off-season or not published)": 107,
+  "in_season_results_missing_after_cutoff": 15
+ },
+ "competitions_with_a_result_after_2026-09-20": 0,
+ "latest_result_date_overall": "2026-09-20",
+ "competitions_with_result_in_last_14d_before_cutoff": 15,
+ "past_dated_fixtures_without_result_total": 271,
+ "past_dated_without_result_competitions": 15,
+ "past_dated_without_result_date_range": [
+  "2026-10-02",
+  "2026-10-20"
+ ],
+ "past_dated_without_result_by_month": {
+  "2026-10": 271
+ },
+ "ambiguous_name_to_entity_mappings": 2,
+ "upcoming_fixtures_in_source": 3168,
+ "both_teams_resolved": 3168,
+ "fixtures_with_unresolved_team": 0,
+ "unresolved_team_names_distinct": 0,
+ "fixtures_dropped_for_non_regular_stage": 0,
+ "fixtures_with_other_problems": {},
+ "scoped_entities_in_fixtures": 26,
+ "upcoming_in_09_file": 3168,
+ "upcoming_in_reparse": 3168,
+ "in_both": 3168,
+ "only_in_09_file": 0,
+ "only_in_reparse": 0,
+ "fixtures_with_a_club_under_5_prior_rated_matches": 95,
+ "kickoff_time_known_share": 0.17582070707070707,
+ "fixtures_sealable_if_sealed_now": 3167,
+ "fixtures_dated_before_2026-10-23": 1,
+ "min_lead_rule": "match date 00:00 UTC - 14 h - 60 min (needed because local kickoff time zones are not stored); costs 15-39 h of lead, never makes pre-match logging unsafe, only conservative",
+ "alternative_if_tz_mapping_approved": "competition-country time zone table would shorten the lead to kickoff time - 60 min where the local time is known (only 18% of fixtures)",
+ "replay": {
+  "cutoff": "2026-08-31",
+  "results_reingested": 427,
+  "expected": 427,
+  "historical_score_conflicts": 0,
+  "fixtures_compared": 600,
+  "v2_feature_max_abs_diff_vs_full_frozen_state": 0.0,
+  "v1_feature_max_abs_diff": 0.0,
+  "note": "state = frozen universe truncated at 2026-08-31 + results re-ingested through the normal parse/validate path; features for later fixtures equal those from the full state; model files untouched"
+ },
+ "current_state": {
+  "fixtures_checked": 3159,
+  "logged_dry_run": 3159,
+  "rejected": 0,
+  "primary_eligible": 0,
+  "fixtures_failing_each_check": {
+   "club_has_unresolved_past_fixture": 3159,
+   "stale_competition_results": 3159,
+   "history_lt5_or_elo_disconnected": 95
+  },
+  "would_be_eligible_if_results_were_current": 3064,
+  "fail_for_history_or_identity_regardless": 95
+ },
+ "simulation_when_results_are_current": {
+  "asof": "2026-09-13",
+  "fixtures": 139,
+  "logged": 139,
+  "primary_eligible": 136,
+  "eligible_share": 0.9784172661870504,
+  "reasons": {
+   "nan": 136,
+   "history_lt5_or_elo_disconnected": 3
+  },
+  "competitions_with_eligible": 14,
+  "note": "outcomes not read; schedule rows only; no unresolved past fixtures assumed"
+ },
+ "throughput": {
+  "median_matches_per_week": 171.5,
+  "p25": 146.75,
+  "p75": 250.75,
+  "assumed_eligible_share": 0.9784172661870504,
+  "weeks_to_5000_eligible_at_median": 29.797633339049906,
+  "weeks_to_5000_eligible_at_p25": 34.823128569996996,
+  "competitions_active_per_month_median": 21.5,
+  "caveat": "volume taken from 2025-26 in-season weeks; summer break / international breaks reduce it; eligible share from the Sep-2026 simulation"
+ }
+}

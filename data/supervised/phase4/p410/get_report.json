@@ -1,0 +1,84 @@
+{
+ "started_utc": "2026-10-27T18:19:53Z",
+ "stage": "get",
+ "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+ "production_physical_sha256_before": "f760f98443483b8a8237b3e0e8f0a7915bc60b783a9711a40ab32657ac67a91b",
+ "ledger_lines_before": 3,
+ "cycle": {
+  "outcome": "ok",
+  "details": [
+   {
+    "competition": "EPL",
+    "inserted": 0,
+    "updated": 5,
+    "unchanged": 284,
+    "confirmed": 58,
+    "quarantined": 33,
+    "requests": 1,
+    "snapshot_reused": false
+   }
+  ],
+  "requests_made": 1
+ },
+ "production_physical_sha256_after": "f760f98443483b8a8237b3e0e8f0a7915bc60b783a9711a40ab32657ac67a91b",
+ "production_untouched": true,
+ "ledger_lines_after": 4,
+ "snapshot": {
+  "file": "data/snapshots/openligadb/20261027T181956Z_pl_2026_season.json",
+  "sha256": "5bc7f2def9f9725461afae05ae8cc04038122291b3e6991bb7c678a0963bac9d",
+  "sha256_in_meta": "5bc7f2def9f9725461afae05ae8cc04038122291b3e6991bb7c678a0963bac9d",
+  "bytes": 942711,
+  "origin": "provider_http",
+  "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+  "status": 200,
+  "saved_utc": "2026-10-27T18:19:56Z"
+ },
+ "validation": {
+  "matches": 380,
+  "leagues": [
+   "pl"
+  ],
+  "seasons": [
+   2026
+  ],
+  "teams": 20,
+  "unresolved_team_names": [],
+  "matchdays": 38,
+  "matches_per_matchday": [
+   10
+  ],
+  "unique_match_ids": 380,
+  "finished": 60,
+  "fixtures_in_production": 380,
+  "fixtures_matched_in_production": 380,
+  "fixtures_not_in_production": 0,
+  "production_fixtures_missing_from_response": 0
+ },
+ "dry_run": {
+  "rows_before_after": [
+   3420,
+   3420
+  ],
+  "rows_changed": 5,
+  "changed_fields": [
+   "status"
+  ],
+  "results_that_would_be_imported": 0,
+  "new_rows": 0,
+  "would_be_quarantined_additionally": {},
+  "completed_before": 3100,
+  "completed_after_in_copy": 3100,
+  "changes_that_touch_a_stored_date_or_score": [],
+  "importable_record_ids": []
+ },
+ "freshness": {
+  "finished": 60,
+  "newest_finished_kickoff": "2026-10-12T19:00:00Z",
+  "unfinished_past_their_date": 20,
+  "oldest_unfinished_past": "2026-10-17T11:30:00Z",
+  "provider_last_update": "2026-10-20T04:16:13.777",
+  "production_newest_result": "2026-10-12"
+ },
+ "validation_failed": [],
+ "result": "VALIDATED"
+}

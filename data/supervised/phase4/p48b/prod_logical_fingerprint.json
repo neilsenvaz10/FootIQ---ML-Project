@@ -1,0 +1,67 @@
+{
+ "file": "C:\\Users\\DELL\\AppData\\Local\\Temp\\claude\\D--Foot-IQ\\005e84e5-f41e-4e30-91b6-409ae0b7c9fc\\scratchpad\\dbinv\\prod.sqlite",
+ "journal_mode": "wal",
+ "integrity_check": "ok",
+ "logical_sha256": "b182836f2a2b1e18fb71890511c60dde9b08790ccbdaa34b7a951aefb54bf81e",
+ "tables": {
+  "competitions": {
+   "rows": 162,
+   "sha256": "788e832fffd8e8b687c86ef69ab7b19254f05a3cda3db54d1466c6875d66c9fd"
+  },
+  "forecast_runs": {
+   "rows": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "forecasts": {
+   "rows": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "match_sources": {
+   "rows": 224519,
+   "sha256": "e895b26345daabc6916675e84d83e701b972ac3daa7c06c11ae2a68732d75b75"
+  },
+  "matches": {
+   "rows": 223510,
+   "sha256": "103e1d4db44f8461b1ca120c272aedc0714a55985aa0e47cd214efb92ed098ce"
+  },
+  "meta": {
+   "rows": 2,
+   "sha256": "b0be84c49d4254679a1ce19f601eac44e1ccf6e469858dd8e173161c1118d3e2"
+  },
+  "quarantine": {
+   "rows": 273,
+   "sha256": "1f37674f7e2db72dabb3093f288c0ed687289207bf877e0199faa1cff1170739"
+  },
+  "simulation_runs": {
+   "rows": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "source_snapshots": {
+   "rows": 9,
+   "sha256": "33dadb6bf47ac04b7b329c92c46c6cdba6a8692f24bb48e50be1925f3b4e21db"
+  },
+  "source_state": {
+   "rows": 1,
+   "sha256": "3a4fc3d43445f5d91e6f5f9831b2474bcdf350d97f3b815ec37671c961c01735"
+  },
+  "sync_errors": {
+   "rows": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "sync_runs": {
+   "rows": 7,
+   "sha256": "9883419a0bbf1911096b0e498e285917b3e53cd3f0e0ceeabf4836231d8f0da9"
+  },
+  "team_aliases": {
+   "rows": 7447,
+   "sha256": "8deecac47e9808e9fae01a324979abce2cf17ca69df8326ef6d463d5fcf670d5"
+  },
+  "teams": {
+   "rows": 5188,
+   "sha256": "392665a3fa1ed7a60ce52bd67d542950ebc502be16b61f04ab928a86d99fdcd1"
+  }
+ },
+ "sync_runs_total": 8,
+ "sync_runs_after_import": 1,
+ "newest_match_last_changed_utc": "2026-10-25T09:07:13Z"
+}

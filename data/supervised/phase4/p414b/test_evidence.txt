@@ -1,0 +1,8 @@
+Recovery test 2026-10-28 00:42:07Z
+
+== 1. task created like the production one (log-on trigger only); started
+state: Running; stand-in processes:  (pid 15676)
+== 2. add the repeating trigger WHILE it runs (Set-ScheduledTask, trigger list = existing log-on + repetition)
+after the update: state Running; same stand-in alive: True (pid 15676); processes: 
+definition now: triggers: 2; repetition interval: PT1M; repetition duration element present: True; MultipleInstances: IgnoreNew; logon trigger kept: True; principal logon type: InteractiveToken
+== 3. wait through two repetition fires while the stand-in is alive: no second instance may start (IgnoreNew + mutex)

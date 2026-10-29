@@ -1,0 +1,40 @@
+{
+  "_comment": "Season simulator settings. scoreline_method stays null (simulation DISABLED) until a scoreline method has passed the predeclared acceptance criteria and you have approved it. Set FOOTIQ_SEASONSIM_CONFIG to a different file only for tests or private copies.",
+  "schema": 1,
+  "scoreline_method": null,
+  "scoreline_validation": {
+    "status": "failed_predeclared_criteria",
+    "summary": "No candidate (S1 conditional Poisson, S2 outcome-matched Poisson, S3 empirical bootstrap) met the predeclared criteria in every league. Not approved for unrestricted final-position prediction (your decision of 2026-10-25). See docs/mini-project/PHASE3_SCORELINE_BENCHMARK.md.",
+    "approved_by_user": false
+  },
+  "default_simulations": 10000,
+  "min_simulations": 1000,
+  "max_simulations": 50000,
+  "initial_scope": [
+    "BUNDESLIGA",
+    "LALIGA"
+  ],
+  "eligibility": {
+    "ready_max_missing_share": 0.02,
+    "ready_max_stale_days": 7,
+    "provisional_max_missing_share": 0.15,
+    "provisional_max_stale_days": 21
+  },
+  "points_only": {
+    "enabled": true,
+    "label": "Experimental — Points-only simulation",
+    "approved": "2026-10-25 (option O5)",
+    "scope": [
+      "BUNDESLIGA",
+      "LALIGA"
+    ],
+    "position_bounds": {
+      "enabled": true,
+      "approved": "2026-10-25 (controlled integration of the validated lower and upper bounds)",
+      "scope": [
+        "BUNDESLIGA",
+        "LALIGA"
+      ]
+    }
+  }
+}

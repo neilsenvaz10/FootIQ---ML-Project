@@ -1,0 +1,4 @@
+﻿competition_key,record_id,home,away,store_status,store_date,evidence_id,reason,independently_reproducible
+LIGUE1,europe/france:fr1:2026-27:L119,Toulouse FC,ES Troyes AC,scheduled,2026-10-24,RC-R005,"the played day is carried only by a restricted source; no redistributable source supports it, so the result stays missing",false
+LIGUE1,europe/france:fr1:2026-27:L127,Paris Saint-Germain FC,Olympique Lyonnais,scheduled,2026-10-25,RC-R006,"the played day is carried only by a restricted source; no redistributable source supports it, so the result stays missing",false
+LALIGA,espana:1-liga:2026-27:L180,Sevilla FC,CA Osasuna,scheduled,2026-10-25,RC-R010,"the played day is carried only by a restricted source; no redistributable source supports it, so the result stays missing",false

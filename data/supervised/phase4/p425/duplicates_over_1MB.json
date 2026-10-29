@@ -1,0 +1,333 @@
+[
+ {
+  "sha256": "272bac89999d06b4d2320e28b011eb566e5e092e8f99129051b10b6f81fc6bae",
+  "bytes": 228200448,
+  "copies": 6,
+  "wasted": 1141002240,
+  "paths": [
+   "data/supervised/phase4/p44/pytest_baseline/test_gameweek_list_dates_statu0/work.sqlite",
+   "data/supervised/phase4/p44/pytest_baseline/test_fixtures_show_status_kick0/work.sqlite",
+   "data/supervised/phase4/p44/pytest_baseline/test_fast_path_equals_the_day_0/work.sqlite",
+   "data/supervised/phase4/p44/pytest_baseline/test_completed_matches_are_nev0/work.sqlite",
+   "data/supervised/phase4/p44/pytest_baseline/test_awaiting_result_fixtures_0/work.sqlite",
+   "data/supervised/phase4/p44/pytest_baseline/gw0/base.sqlite"
+  ]
+ },
+ {
+  "sha256": "a5f319c4e91c78533d6af05c64e45d76575d6cfec121b8ef4e688201193cd23c",
+  "bytes": 228663296,
+  "copies": 3,
+  "wasted": 457326592,
+  "paths": [
+   "data/supervised/phase4/p48d/restore_test_activation.sqlite",
+   "data/backups/footiq.20261027T165926Z.pre-activation.sqlite",
+   "data/backups/footiq.20261027T170018Z.pre-activation.sqlite"
+  ]
+ },
+ {
+  "sha256": "7ddd8917d2adeb1e1ba9ba48bf3a424554a05413420f7b70c821ec0a48eeb403",
+  "bytes": 228663296,
+  "copies": 2,
+  "wasted": 228663296,
+  "paths": [
+   "data/supervised/phase4/p49/restore_test.sqlite",
+   "data/backups/footiq.20261027T180815Z.pre-laliga-import.sqlite"
+  ]
+ },
+ {
+  "sha256": "85b75212b366d82adac2ac89039bcca85fe484e2fbc128332762d1e28b6bad40",
+  "bytes": 228659200,
+  "copies": 2,
+  "wasted": 228659200,
+  "paths": [
+   "data/backups/footiq.20261027T141753Z.pre-laliga.sqlite",
+   "data/backups/footiq.20261027T141855Z.pre-laliga.sqlite"
+  ]
+ },
+ {
+  "sha256": "811caf7c0eab7e7bd1fd91eb138751d7977b86367099f66a7a4407291ccf2201",
+  "bytes": 228655104,
+  "copies": 2,
+  "wasted": 228655104,
+  "paths": [
+   "data/supervised/rehearsal/footiq.rehearsal.sqlite",
+   "data/supervised/phase4/p44/pytest_baseline/reh0/after.sqlite"
+  ]
+ },
+ {
+  "sha256": "caa847a3f56682dbf8c5c9bfa19872db2d702188ade71370930f8c75b182e207",
+  "bytes": 228655104,
+  "copies": 2,
+  "wasted": 228655104,
+  "paths": [
+   "data/supervised/rehearsal/footiq.rehearsal_repeat.sqlite",
+   "data/supervised/phase4/p44/pytest_baseline/test_second_pass_changes_nothi0/other.sqlite"
+  ]
+ },
+ {
+  "sha256": "39ab965115b160c7debb37e930f87652195a6cf496d1a529a50ad2d7d53b61f3",
+  "bytes": 228655104,
+  "copies": 2,
+  "wasted": 228655104,
+  "paths": [
+   "data/supervised/phase4/p46/tests.sqlite",
+   "data/supervised/phase4/p45/tests.sqlite"
+  ]
+ },
+ {
+  "sha256": "b6cbd1ebaf81621cf9e6fe11bd96b60ec51ce4477057a517fea0598267ca7bd3",
+  "bytes": 228655104,
+  "copies": 2,
+  "wasted": 228655104,
+  "paths": [
+   "data/backups/footiq.20261027T141506Z.pre-bundesliga.sqlite",
+   "data/backups/footiq.20261027T141608Z.pre-bundesliga.sqlite"
+  ]
+ },
+ {
+  "sha256": "1eb0a1223b778d1b69ef109f78596244d6c7607399dc636445ba8888104f3caa",
+  "bytes": 228298752,
+  "copies": 2,
+  "wasted": 228298752,
+  "paths": [
+   "data/supervised/production_import/footiq.20261025T142338Z.backup.sqlite",
+   "data/supervised/production_import/footiq.20261025T142618Z.backup.sqlite"
+  ]
+ },
+ {
+  "sha256": "8fed296837eff9016d71779e1e26eb94aa956e32c6762cf82dad42167c458440",
+  "bytes": 11029669,
+  "copies": 5,
+  "wasted": 44118676,
+  "paths": [
+   "docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/processed/team_elo_match_history.csv",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run2/data/processed/team_elo_match_history.csv",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run1/data/processed/team_elo_match_history.csv",
+   "data/supervised/phase4/p417/private_ratings/A_parity_local/processed/team_elo_match_history.csv",
+   "data/processed/team_elo_match_history.csv"
+  ]
+ },
+ {
+  "sha256": "f3b2408af0d0ddf1dab1b4a3ab0b8544e90330365f7b75e4170cc7bf950fd877",
+  "bytes": 8206008,
+  "copies": 5,
+  "wasted": 32824032,
+  "paths": [
+   "docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/processed/international_matches.csv",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run2/data/processed/international_matches.csv",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run1/data/processed/international_matches.csv",
+   "data/supervised/phase4/p417/private_ratings/A_parity_local/processed/international_matches.csv",
+   "data/processed/international_matches.csv"
+  ]
+ },
+ {
+  "sha256": "25452026a4305a54b43b41e6ec88c9b7e994f6dd121072a9da06480b7ab3565c",
+  "bytes": 3720482,
+  "copies": 5,
+  "wasted": 14881928,
+  "paths": [
+   "docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/raw/international_results/results.csv",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run2/data/raw/international_results/results.csv",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run1/data/raw/international_results/results.csv",
+   "data/supervised/phase4/p417/private_ratings/A_parity_local/raw/international_results/results.csv",
+   "data/raw/international_results/results.csv"
+  ]
+ },
+ {
+  "sha256": "b7de6a063847c456e8ddfa668e4f731861f82cfb95bcad9909e9f604ed62d633",
+  "bytes": 4602152,
+  "copies": 4,
+  "wasted": 13806456,
+  "paths": [
+   "data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/24/E6DC4029A1E4B4C1/D4BEFEE5DD63CE1A/model.tflite",
+   "data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/24/E6DC4029A1E4B4C1/A69E122054536E0D/model.tflite",
+   "data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/24/E6DC4029A1E4B4C1/6AFD3F45748F0CB3/model.tflite",
+   "data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/24/E6DC4029A1E4B4C1/35ABC644835B1E90/model.tflite"
+  ]
+ },
+ {
+  "sha256": "4f652652557f3a68f996cb2faebbce7ab9f53388b666e79b940071df2f552743",
+  "bytes": 11792384,
+  "copies": 2,
+  "wasted": 11792384,
+  "paths": [
+   "data/supervised/phase4/p44/pytest_baseline/test_the_work_done_does_not_gr0/noisy.sqlite",
+   "data/supervised/phase4/p44/pytest_baseline/test_a_gameweek_of_ten_fixture0/noisy.sqlite"
+  ]
+ },
+ {
+  "sha256": "8cdb851dbeb285eaa9aabb18664d10ceb0c0c602ee7f860f9ae85c0994b9883f",
+  "bytes": 3888077,
+  "copies": 4,
+  "wasted": 11664231,
+  "paths": [
+   "docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/raw/worldbank/gdp_per_capita_all.json",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run2/data/raw/worldbank/gdp_per_capita_all.json",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run1/data/raw/worldbank/gdp_per_capita_all.json",
+   "data/raw/worldbank/gdp_per_capita_all.json"
+  ]
+ },
+ {
+  "sha256": "2bb1839c140419b1cf1aebe61a140bed870917d2d2ba5a3d5afaa342cb50e3a0",
+  "bytes": 3526530,
+  "copies": 4,
+  "wasted": 10579590,
+  "paths": [
+   "docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/raw/worldbank/population_all.json",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run2/data/raw/worldbank/population_all.json",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run1/data/raw/worldbank/population_all.json",
+   "data/raw/worldbank/population_all.json"
+  ]
+ },
+ {
+  "sha256": "10239ad6a0b6a1e3a74846116d52eff3ff3bb0338c0787e619dbdd1120581e4b",
+  "bytes": 3256721,
+  "copies": 4,
+  "wasted": 9770163,
+  "paths": [
+   "docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/raw/international_results/goalscorers.csv",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run2/data/raw/international_results/goalscorers.csv",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run1/data/raw/international_results/goalscorers.csv",
+   "data/raw/international_results/goalscorers.csv"
+  ]
+ },
+ {
+  "sha256": "306e886a9d07acf1f718a8fce7cabde3687317fa81af9a6f165e26b2f8be4437",
+  "bytes": 1860165,
+  "copies": 4,
+  "wasted": 5580495,
+  "paths": [
+   "docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/raw/squads/wikipedia_2026_world_cup_squads.html",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run2/data/raw/squads/wikipedia_2026_world_cup_squads.html",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run1/data/raw/squads/wikipedia_2026_world_cup_squads.html",
+   "data/raw/squads/wikipedia_2026_world_cup_squads.html"
+  ]
+ },
+ {
+  "sha256": "367ca7028bc82f6ed35b7d0fcee8d1f3612f4bee0bc65e69b3397cec1167f09a",
+  "bytes": 5064557,
+  "copies": 2,
+  "wasted": 5064557,
+  "paths": [
+   "data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_00000f",
+   "data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000011"
+  ]
+ },
+ {
+  "sha256": "06a42cbd4d6c4763047d8ba8fb3a82185923990bf7276bbfc2a135a3eac54a16",
+  "bytes": 1474781,
+  "copies": 4,
+  "wasted": 4424343,
+  "paths": [
+   "docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/raw/squads/wikipedia_2022_world_cup_squads.html",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run2/data/raw/squads/wikipedia_2022_world_cup_squads.html",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run1/data/raw/squads/wikipedia_2022_world_cup_squads.html",
+   "data/raw/squads/wikipedia_2022_world_cup_squads.html"
+  ]
+ },
+ {
+  "sha256": "25560d826640cf51f6b9150854794948dcad55dd15156ee0ace24a1d62ea314f",
+  "bytes": 3816655,
+  "copies": 2,
+  "wasted": 3816655,
+  "paths": [
+   "data/supervised/phase4/p417/private_ratings/staged_results_identity_normalised.csv",
+   "data/supervised/phase4/p417/private_ratings/B_refresh_staged/raw/international_results/results.csv"
+  ]
+ },
+ {
+  "sha256": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+  "bytes": 3764617,
+  "copies": 2,
+  "wasted": 3764617,
+  "paths": [
+   "FootIQ_Dataset_Submission/_raw_sources/martj42_refresh/results.csv",
+   "data/supervised/phase4/p417/staging/martj42/unpacked/international_results-master/results.csv"
+  ]
+ },
+ {
+  "sha256": "9535538431a80fd0217c2de0741c0851d165773246d8caaa1f1c0cc2387d948a",
+  "bytes": 1246107,
+  "copies": 4,
+  "wasted": 3738321,
+  "paths": [
+   "docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/processed/model_v26_test_predictions.csv",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run2/data/processed/model_v26_test_predictions.csv",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run1/data/processed/model_v26_test_predictions.csv",
+   "data/processed/model_v26_test_predictions.csv"
+  ]
+ },
+ {
+  "sha256": "9474f63e1f250ca42aa681ff02b06fe960617c0cb7057a024f1b1488afee3a73",
+  "bytes": 1200132,
+  "copies": 4,
+  "wasted": 3600396,
+  "paths": [
+   "docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/raw/squads/wikipedia_2018_world_cup_squads.html",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run2/data/raw/squads/wikipedia_2018_world_cup_squads.html",
+   "docs/baseline/capture_2026-10-20/isolated_execution/run1/data/raw/squads/wikipedia_2018_world_cup_squads.html",
+   "data/raw/squads/wikipedia_2018_world_cup_squads.html"
+  ]
+ },
+ {
+  "sha256": "eaea1c7eeb2af4fcb59c7db541df61057c4ccdb8a4d4f70af75776d70aa1850c",
+  "bytes": 3452826,
+  "copies": 2,
+  "wasted": 3452826,
+  "paths": [
+   "data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/25/E6DC4029A1E4B4C1/FD86C185802F037A/visual_model_desktop.tflite",
+   "data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/25/E6DC4029A1E4B4C1/E4D3B523E22EBE21/visual_model_desktop.tflite"
+  ]
+ },
+ {
+  "sha256": "e02b25cfcad3fca9af79a5cf075c33a6875416d6d80e5ab42514535cb0d639fe",
+  "bytes": 3442482,
+  "copies": 2,
+  "wasted": 3442482,
+  "paths": [
+   "FootIQ_Dataset_Submission/_raw_sources/martj42_refresh/goalscorers.csv",
+   "data/supervised/phase4/p417/staging/martj42/unpacked/international_results-master/goalscorers.csv"
+  ]
+ },
+ {
+  "sha256": "e61ab200fb8c5ed42b8c41bd78373962ae20a8bde0d7f40c76b51a0d64ce06b9",
+  "bytes": 3203072,
+  "copies": 2,
+  "wasted": 3203072,
+  "paths": [
+   "data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_1/1500.sqlite",
+   "data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_0/1500.sqlite"
+  ]
+ },
+ {
+  "sha256": "9cb74d6a8142965869e8fc6695bb2452003dee4deebccf0918bfd7b6b81c345c",
+  "bytes": 3132085,
+  "copies": 2,
+  "wasted": 3132085,
+  "paths": [
+   "data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_000003",
+   "data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000004"
+  ]
+ },
+ {
+  "sha256": "3c88fd9805746be38b8d567b81dccee7c790ed17ca58902e69506b1e4c41fd3f",
+  "bytes": 1219248,
+  "copies": 3,
+  "wasted": 2438496,
+  "paths": [
+   "data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/13/E6DC4029A1E4B4C1/4932C6590BD7F2F0/model.tflite",
+   "data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/13/E6DC4029A1E4B4C1/EB3AD028F4262B23/model.tflite",
+   "data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/13/E6DC4029A1E4B4C1/11D49BEA8954FB38/model.tflite"
+  ]
+ },
+ {
+  "sha256": "83d5d2e79b6c30d3cfcb8ed7042ff300513fcbc939467c9542c1d48e11b7a20f",
+  "bytes": 1429506,
+  "copies": 2,
+  "wasted": 1429506,
+  "paths": [
+   "data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_000005",
+   "data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000002"
+  ]
+ }
+]

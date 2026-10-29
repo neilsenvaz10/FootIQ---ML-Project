@@ -1,0 +1,27 @@
+item,value
+dataset_file,D:\Foot IQ\FootIQ_ML_Training_Preparation\01_CORRECTED_LEAGUE_TRAINING_DATASET_v1.1.csv
+dataset_sha256,0d7b73117b442298e4e050f690c55e32c1d25798e244052ec12e41b54ff10da7
+dataset_version,v1.1
+extraction_date,2026-10-20
+freeze_timestamp,2026-10-21 17:45:33 +0530
+training_cutoff_last_match_date,2026-09-20
+first_match_date,2018-08-01
+training_rows,116854
+confirmed_90min_labels,116854
+season_status=complete,106257
+season_status=incomplete,9969
+season_status=in_progress_complete_through_cutoff,628
+identity_review_flagged_rows,1055
+calendar_year_league_rows,20407
+v1_split=train,59356
+v1_split=test,26000
+v1_split=validation,22578
+v1_split=forward_holdout,8920
+competitions,115
+clubs,2198
+label_H,50967
+label_A,34980
+label_D,30907
+results_universe_rows_used_for_state,216553
+results_universe_competition_types,"{""domestic_league"": 201850, ""continental_club"": 9004, ""domestic_cup"": 4866, ""league_cup"": 609, ""global_club"": 224}"
+rows_excluded_by_dataset_v1.1_eligibility,see FootIQ_ML_Training_Preparation/03_ROW_LEVEL_CORRECTION_AND_EXCLUSION_LOG_v1.1.csv (not re-derived)

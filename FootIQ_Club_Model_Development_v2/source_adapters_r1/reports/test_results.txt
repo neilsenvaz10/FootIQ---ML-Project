@@ -1,0 +1,28 @@
+test_backoff_and_retry_after (test_adapters.TestCommon.test_backoff_and_retry_after) ... D:\Foot IQ\FootIQ_Club_Model_Development_v2\source_adapters_r1\tests\test_adapters.py:51: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\DELL\\AppData\\Local\\Temp\\tmpo67o2b01\\snap\\ledger.jsonl' mode='r' encoding='cp1252'>
+  self.assertEqual(len(open(os.path.join(t, "snap", "ledger.jsonl")).read().splitlines()), 3)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_contact_must_be_real (test_adapters.TestCommon.test_contact_must_be_real) ... ok
+test_exhaustion_and_hard_error (test_adapters.TestCommon.test_exhaustion_and_hard_error) ... ok
+test_live_disabled_by_default (test_adapters.TestCommon.test_live_disabled_by_default) ... ok
+test_snapshots_are_write_once_and_read_only (test_adapters.TestCommon.test_snapshots_are_write_once_and_read_only) ... D:\Foot IQ\FootIQ_Club_Model_Development_v2\source_adapters_r1\tests\test_adapters.py:68: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\DELL\\AppData\\Local\\Temp\\tmppaq0imkw\\s\\src\\20261021T135612Z_n.json'>
+  self.assertEqual(open(p, "rb").read(), b"1")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_change_date_polling (test_adapters.TestOpenLigaDB.test_change_date_polling) ... ok
+test_real_bundesliga_snapshot (test_adapters.TestOpenLigaDB.test_real_bundesliga_snapshot) ... ok
+test_result_types_are_explicit (test_adapters.TestOpenLigaDB.test_result_types_are_explicit) ... ok
+test_status_logic (test_adapters.TestOpenLigaDB.test_status_logic) ... ok
+test_unverified_league_rejected (test_adapters.TestOpenLigaDB.test_unverified_league_rejected) ... ok
+test_agree_conflict_recovered_unresolved (test_adapters.TestReconcile.test_agree_conflict_recovered_unresolved) ... ok
+test_cell_parsing_edge_cases (test_adapters.TestWikipedia.test_cell_parsing_edge_cases) ... ok
+test_live_requires_registry_and_config (test_adapters.TestWikipedia.test_live_requires_registry_and_config) ... ok
+test_older_revision_confirmation (test_adapters.TestWikipedia.test_older_revision_confirmation) ... ok
+test_real_premier_league_page (test_adapters.TestWikipedia.test_real_premier_league_page) ... ok
+test_schedule_date_attachment_and_rejections (test_adapters.TestWikipedia.test_schedule_date_attachment_and_rejections) ... ok
+test_unsupported_and_duplicate (test_adapters.TestWikipedia.test_unsupported_and_duplicate) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.067s
+
+OK

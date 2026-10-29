@@ -1,0 +1,401 @@
+{
+ "chosen": {
+  "kappa": 0.5,
+  "tau": 6.0
+ },
+ "grid": [
+  {
+   "cfg": {
+    "kappa": 0.0,
+    "tau": 0.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.757,
+   "coverage_25_75": 0.494,
+   "coverage_5_95": 0.865,
+   "crps": 3.5646,
+   "std_standardised_error": 1.179,
+   "mean_error_points": -0.001,
+   "mean_width_10_90": 13.67,
+   "pit_deciles": [
+    0.146,
+    0.094,
+    0.087,
+    0.085,
+    0.094,
+    0.092,
+    0.088,
+    0.08,
+    0.094,
+    0.138
+   ]
+  },
+  {
+   "cfg": {
+    "kappa": 0.0,
+    "tau": 6.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.762,
+   "coverage_25_75": 0.495,
+   "coverage_5_95": 0.868,
+   "crps": 3.5596,
+   "std_standardised_error": 1.163,
+   "mean_error_points": -0.005,
+   "mean_width_10_90": 13.86,
+   "pit_deciles": [
+    0.141,
+    0.097,
+    0.088,
+    0.085,
+    0.096,
+    0.097,
+    0.087,
+    0.079,
+    0.095,
+    0.137
+   ]
+  },
+  {
+   "cfg": {
+    "kappa": 0.0,
+    "tau": 12.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.776,
+   "coverage_25_75": 0.509,
+   "coverage_5_95": 0.879,
+   "crps": 3.5506,
+   "std_standardised_error": 1.122,
+   "mean_error_points": -0.018,
+   "mean_width_10_90": 14.41,
+   "pit_deciles": [
+    0.132,
+    0.097,
+    0.092,
+    0.085,
+    0.097,
+    0.103,
+    0.086,
+    0.085,
+    0.097,
+    0.124
+   ]
+  },
+  {
+   "cfg": {
+    "kappa": 0.5,
+    "tau": 0.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.789,
+   "coverage_25_75": 0.514,
+   "coverage_5_95": 0.892,
+   "crps": 3.5549,
+   "std_standardised_error": 1.092,
+   "mean_error_points": 0.004,
+   "mean_width_10_90": 14.85,
+   "pit_deciles": [
+    0.118,
+    0.103,
+    0.086,
+    0.099,
+    0.103,
+    0.096,
+    0.091,
+    0.085,
+    0.098,
+    0.121
+   ]
+  },
+  {
+   "cfg": {
+    "kappa": 0.5,
+    "tau": 6.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.791,
+   "coverage_25_75": 0.52,
+   "coverage_5_95": 0.898,
+   "crps": 3.5519,
+   "std_standardised_error": 1.081,
+   "mean_error_points": -0.001,
+   "mean_width_10_90": 15.0,
+   "pit_deciles": [
+    0.116,
+    0.105,
+    0.085,
+    0.101,
+    0.101,
+    0.099,
+    0.091,
+    0.087,
+    0.098,
+    0.117
+   ]
+  },
+  {
+   "cfg": {
+    "kappa": 0.5,
+    "tau": 12.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.801,
+   "coverage_25_75": 0.531,
+   "coverage_5_95": 0.904,
+   "crps": 3.5492,
+   "std_standardised_error": 1.051,
+   "mean_error_points": -0.012,
+   "mean_width_10_90": 15.47,
+   "pit_deciles": [
+    0.109,
+    0.1,
+    0.091,
+    0.103,
+    0.106,
+    0.102,
+    0.091,
+    0.089,
+    0.097,
+    0.112
+   ]
+  },
+  {
+   "cfg": {
+    "kappa": 1.0,
+    "tau": 0.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.817,
+   "coverage_25_75": 0.538,
+   "coverage_5_95": 0.914,
+   "crps": 3.5576,
+   "std_standardised_error": 1.02,
+   "mean_error_points": 0.004,
+   "mean_width_10_90": 16.02,
+   "pit_deciles": [
+    0.104,
+    0.103,
+    0.088,
+    0.105,
+    0.11,
+    0.107,
+    0.09,
+    0.09,
+    0.098,
+    0.105
+   ]
+  },
+  {
+   "cfg": {
+    "kappa": 1.0,
+    "tau": 6.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.822,
+   "coverage_25_75": 0.544,
+   "coverage_5_95": 0.919,
+   "crps": 3.5567,
+   "std_standardised_error": 1.013,
+   "mean_error_points": 0.0,
+   "mean_width_10_90": 16.14,
+   "pit_deciles": [
+    0.102,
+    0.103,
+    0.091,
+    0.106,
+    0.106,
+    0.11,
+    0.092,
+    0.089,
+    0.099,
+    0.102
+   ]
+  },
+  {
+   "cfg": {
+    "kappa": 1.0,
+    "tau": 12.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.831,
+   "coverage_25_75": 0.554,
+   "coverage_5_95": 0.922,
+   "crps": 3.5573,
+   "std_standardised_error": 0.991,
+   "mean_error_points": -0.011,
+   "mean_width_10_90": 16.54,
+   "pit_deciles": [
+    0.097,
+    0.102,
+    0.094,
+    0.106,
+    0.107,
+    0.117,
+    0.088,
+    0.095,
+    0.096,
+    0.098
+   ]
+  },
+  {
+   "cfg": {
+    "kappa": 1.5,
+    "tau": 0.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.838,
+   "coverage_25_75": 0.572,
+   "coverage_5_95": 0.929,
+   "crps": 3.5709,
+   "std_standardised_error": 0.962,
+   "mean_error_points": 0.002,
+   "mean_width_10_90": 17.11,
+   "pit_deciles": [
+    0.092,
+    0.097,
+    0.097,
+    0.107,
+    0.114,
+    0.121,
+    0.091,
+    0.095,
+    0.096,
+    0.091
+   ]
+  },
+  {
+   "cfg": {
+    "kappa": 1.5,
+    "tau": 6.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.838,
+   "coverage_25_75": 0.571,
+   "coverage_5_95": 0.929,
+   "crps": 3.5707,
+   "std_standardised_error": 0.956,
+   "mean_error_points": -0.002,
+   "mean_width_10_90": 17.22,
+   "pit_deciles": [
+    0.091,
+    0.098,
+    0.096,
+    0.109,
+    0.114,
+    0.118,
+    0.093,
+    0.097,
+    0.092,
+    0.092
+   ]
+  },
+  {
+   "cfg": {
+    "kappa": 1.5,
+    "tau": 12.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.855,
+   "coverage_25_75": 0.581,
+   "coverage_5_95": 0.935,
+   "crps": 3.5742,
+   "std_standardised_error": 0.939,
+   "mean_error_points": -0.013,
+   "mean_width_10_90": 17.56,
+   "pit_deciles": [
+    0.087,
+    0.102,
+    0.093,
+    0.108,
+    0.115,
+    0.123,
+    0.095,
+    0.098,
+    0.091,
+    0.088
+   ]
+  },
+  {
+   "cfg": {
+    "kappa": 2.0,
+    "tau": 0.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.862,
+   "coverage_25_75": 0.594,
+   "coverage_5_95": 0.941,
+   "crps": 3.5931,
+   "std_standardised_error": 0.913,
+   "mean_error_points": -0.004,
+   "mean_width_10_90": 18.16,
+   "pit_deciles": [
+    0.079,
+    0.098,
+    0.096,
+    0.109,
+    0.126,
+    0.123,
+    0.097,
+    0.102,
+    0.09,
+    0.081
+   ]
+  },
+  {
+   "cfg": {
+    "kappa": 2.0,
+    "tau": 6.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.869,
+   "coverage_25_75": 0.597,
+   "coverage_5_95": 0.942,
+   "crps": 3.5936,
+   "std_standardised_error": 0.908,
+   "mean_error_points": -0.007,
+   "mean_width_10_90": 18.27,
+   "pit_deciles": [
+    0.079,
+    0.095,
+    0.096,
+    0.111,
+    0.125,
+    0.123,
+    0.098,
+    0.104,
+    0.088,
+    0.08
+   ]
+  },
+  {
+   "cfg": {
+    "kappa": 2.0,
+    "tau": 12.0
+   },
+   "n": 1170,
+   "coverage_10_90": 0.874,
+   "coverage_25_75": 0.598,
+   "coverage_5_95": 0.944,
+   "crps": 3.5973,
+   "std_standardised_error": 0.896,
+   "mean_error_points": -0.017,
+   "mean_width_10_90": 18.58,
+   "pit_deciles": [
+    0.076,
+    0.097,
+    0.094,
+    0.117,
+    0.122,
+    0.125,
+    0.098,
+    0.103,
+    0.091,
+    0.075
+   ]
+  }
+ ],
+ "rule": "see module docstring",
+ "n_sims": 2000,
+ "seed": 2026
+}

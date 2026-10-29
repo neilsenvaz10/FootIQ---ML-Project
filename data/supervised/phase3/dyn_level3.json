@@ -1,0 +1,107 @@
+{
+ "comparisons": 36,
+ "mean_abs_exact_change": 0.013175799960545008,
+ "mean_abs_tilt_change": 0.00885582679891359,
+ "mean_abs_difference": 0.006244041995074562,
+ "exact_over_tilt_slope": 1.3615566957182657,
+ "correlation": 0.9035632677126021,
+ "share_of_exact_change_explained_by_tilt": 0.7588562788802199,
+ "examples": [
+  {
+   "club": "CLUB:GER:1-fc-heidenheim",
+   "hypothetical": "win 2-0",
+   "fixture": "OF:deutschland:1-bundesliga:2024-25:L380",
+   "elo_change_of_club": 17.17,
+   "exact_change": [
+    -0.02250100598658311,
+    0.007808003320626256,
+    0.014693002665956856
+   ],
+   "tilt_change": [
+    -0.018107180202448503,
+    0.0009472025957497632,
+    0.01715997760669863
+   ]
+  },
+  {
+   "club": "CLUB:GER:1-fc-heidenheim",
+   "hypothetical": "win 2-0",
+   "fixture": "OF:deutschland:1-bundesliga:2024-25:L394",
+   "elo_change_of_club": 17.17,
+   "exact_change": [
+    0.022370998522716568,
+    0.0005394974010277942,
+    -0.02291049592374428
+   ],
+   "tilt_change": [
+    0.017718247641055396,
+    -0.002021675476592266,
+    -0.01569657216446302
+   ]
+  },
+  {
+   "club": "CLUB:GER:1-fc-heidenheim",
+   "hypothetical": "win 2-0",
+   "fixture": "OF:deutschland:1-bundesliga:2024-25:L403",
+   "elo_change_of_club": 17.17,
+   "exact_change": [
+    -0.021080940143785254,
+    0.009929649241347205,
+    0.011151290902438049
+   ],
+   "tilt_change": [
+    -0.015870054388291477,
+    0.0033147738004999927,
+    0.01255528058779154
+   ]
+  },
+  {
+   "club": "CLUB:GER:1-fc-heidenheim",
+   "hypothetical": "loss 0-2",
+   "fixture": "OF:deutschland:1-bundesliga:2024-25:L380",
+   "elo_change_of_club": -12.83,
+   "exact_change": [
+    0.01665864045764609,
+    -0.00235450699018816,
+    -0.014304133467457902
+   ],
+   "tilt_change": [
+    0.013427105847050314,
+    -0.000950004252873754,
+    -0.012477101594176698
+   ]
+  },
+  {
+   "club": "CLUB:GER:1-fc-heidenheim",
+   "hypothetical": "loss 0-2",
+   "fixture": "OF:deutschland:1-bundesliga:2024-25:L394",
+   "elo_change_of_club": -12.83,
+   "exact_change": [
+    -0.027278434485409897,
+    0.0027769523674920915,
+    0.02450148211791786
+   ],
+   "tilt_change": [
+    -0.013224104514444612,
+    0.0013042050830280039,
+    0.011919899431416525
+   ]
+  },
+  {
+   "club": "CLUB:GER:1-fc-heidenheim",
+   "hypothetical": "loss 0-2",
+   "fixture": "OF:deutschland:1-bundesliga:2024-25:L403",
+   "elo_change_of_club": -12.83,
+   "exact_change": [
+    0.01458535958195617,
+    -0.004255498272688035,
+    -0.010329861309268107
+   ],
+   "tilt_change": [
+    0.01158637376163485,
+    -0.0026222391886611685,
+    -0.008964134572973625
+   ]
+  }
+ ]
+}

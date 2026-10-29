@@ -1,0 +1,18 @@
+file,rows,columns,date_min,date_max,invalid_dates,null_dates,unique_ids,duplicate_ids,duplicate_natural_key_rows,unique_matches_natural_key,competitions,seasons,invalid_scores_or_values,missing_cell_pct,object_columns_that_look_numeric,top_missing_columns
+SUB/01_Historical_International_Matches.csv,49362,25,1872-11-30,2026-06-02,0.0,0.0,49362.0,0.0,1,49361,222.0,,2,7.92,,penalty_shootout_first_shooter=99%; penalty_shootout_winner=99%
+SUB/02_Historical_Club_Matches.csv,223625,39,1888-09-08,2026-05-31,0.0,0.0,223625.0,0.0,0,223625,160.0,62.0,0,22.58,,group=100%; status_note=100%; away_penalties=100%; home_penalties=100%
+SUB/03_Recent_Match_Results.csv,1482,32,2026-06-03,2026-10-06,0.0,0.0,1482.0,0.0,0,1482,33.0,3.0,0,25.54,,away_goals_after_extra_time=100%; home_penalties=100%; home_goals_after_extra_time=100%; away_penalties=100%
+SUB/04_Football_Players.csv,25288,18,1958-06-24,2026-05-25,0.0,9583.0,25288.0,0.0,0,25288,,,0,24.69,,nationality_code_if_listed=88%; player_nickname=85%; birth_text=62%; source_player_id=61%
+SUB/05_Player_Match_Statistics.csv,180172,58,1958-06-24,2026-05-25,0.0,0.0,180172.0,0.0,0,180172,31.0,64.0,0,23.33,,substituted_in_minute=90%; substituted_out_minute=90%; captain=63%; passes_completed=37%
+SUB/06_Teams.csv,5729,16,1893-04-01,2027-05-30,0.0,0.0,5729.0,0.0,0,5729,,,0,13.01,,former_names=100%; team_country_code=84%; competition_countries=12%; team_name_variants_in_source=6%
+SUB/07_Competitions.csv,409,17,1892-04-30,2027-05-30,0.0,0.0,409.0,0.0,0,409,409.0,89.0,0,7.35,,tier=70%; competition_name_variants=55%
+SUB/08_Player_Team_Memberships.csv,34277,22,1958-06-24,2026-05-25,0.0,9583.0,34277.0,0.0,0,34277,61.0,66.0,0,20.46,,caps_before_event=94%; listed_club_text=86%; shirt_number=73%; position_text=72%
+SUB/09_Upcoming_Fixtures.csv,3793,21,2026-06-05,2027-05-30,0.0,0.0,3793.0,0.0,0,3793,18.0,3.0,0,8.5,,status_note=100%; kickoff_time_local=79%
+RDY/04a_LEAGUE_RESULTS_v1.0.csv,128654,33,2018-03-02,2026-09-20,0.0,0.0,128654.0,0.0,0,128654,116.0,18.0,0,13.0,,pen_home=100%; pen_away=100%; status_note=100%; competition_family=89%
+RDY/04b_DOMESTIC_CUP_RESULTS_v1.0.csv,7223,33,2018-07-20,2026-09-27,0.0,0.0,7223.0,0.0,0,7223,25.0,10.0,0,10.63,,status_note=100%; pen_home=88%; pen_away=88%; kickoff_time_local=36%
+RDY/04c_CONTINENTAL_AND_GLOBAL_RESULTS_v1.0.csv,7178,33,2018-01-22,2026-09-17,0.0,0.0,7178.0,0.0,0,7178,12.0,18.0,0,11.67,,status_note=100%; pen_home=98%; pen_away=98%; competition_family=54%
+RDY/04d_COMBINED_CLUB_MATCHES_v1.0.csv,143055,33,2018-01-22,2026-09-27,0.0,0.0,143055.0,0.0,0,143055,153.0,18.0,0,12.81,,status_note=100%; pen_home=99%; pen_away=99%; competition_family=84%
+RDY/04e_UNDATED_LEAGUE_RESULTS_2025-26_v1.0.csv,1162,17,,,0.0,1162.0,,,0,1162,6.0,1.0,0,5.88,,match_date=100%
+RDY/08_TRAINING_READY_MATCH_DATASET_v1.0_strict.csv,125858,49,2018-08-01,2026-09-20,0.0,0.0,125858.0,0.0,0,125858,143.0,19.0,0,0.0,,home_venue_ppg5=0%; away_venue_ppg5=0%
+RDY/08_TRAINING_READY_MATCH_DATASET_v1.0_extended.csv,129829,49,2018-08-01,2026-09-20,0.0,0.0,129829.0,0.0,0,129829,144.0,19.0,0,0.0,,away_venue_ppg5=0%; home_venue_ppg5=0%
+RDY/05_CANONICAL_TEAM_IDENTITY_MAPPING.csv,6741,14,,,,,,,0,6741,,,0,22.32,,canonical_team_id=56%; canonical_name=56%; evidence=56%; canonical_entity_used=56%

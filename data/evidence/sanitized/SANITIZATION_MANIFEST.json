@@ -1,0 +1,368 @@
+{
+ "rule": [
+  "Reads the local originals (never changed), writes data/evidence/sanitized/<name> and SANITIZATION_MANIFEST.json.",
+  "Rules: (1) only whitelisted columns survive; every provider column and every column DERIVED from a provider value (e.g. diff_days = provider date - stored date) is dropped;",
+  "(2) a date or score cell survives only when a REDISTRIBUTABLE source in the same row (Wikipedia, openfootball, OpenLigaDB, the stored fixture) carries the same value, otherwise it is blanked and counted;",
+  "(3) free-text columns survive only when they contain no restricted-provider name or value; otherwise they are dropped. Removing a column is NOT treated as proof of redistribution rights: the check is by value."
+ ],
+ "files": {
+  "p413__date_disputes.csv": {
+   "source": "data/supervised/phase4/p413/date_disputes.csv",
+   "source_sha256": "af2c3d5ebddaf673557b5810e5d18f4f22d8d7e8c9e1e430cac058221a97e3ee",
+   "rows": 96,
+   "kept_columns": [
+    "league",
+    "matchday",
+    "home",
+    "away",
+    "stored_date",
+    "stored_kickoff_utc",
+    "stored_time_precision",
+    "stored_weekday",
+    "stored_status",
+    "stored_source"
+   ],
+   "dropped_columns": [
+    "provider_date_utc",
+    "provider_kickoff_utc",
+    "provider_weekday",
+    "provider_status",
+    "provider_last_updated",
+    "provider_local_date",
+    "provider_local_time",
+    "diff_days",
+    "second_source_date",
+    "class",
+    "cause"
+   ],
+   "values_withheld": {},
+   "sha256": "cef10b1bdaba398bdfe132e0d5b7372de3473ab5e063b7874acec2282a76155d"
+  },
+  "p420__staging__date_dispute_resolution.csv": {
+   "source": "data/supervised/phase4/p420/staging/date_dispute_resolution.csv",
+   "source_sha256": "877b327c971948ade97ee78ca11faa7712cea256d858f08866bda92ae5804f79",
+   "rows": 96,
+   "kept_columns": [
+    "league",
+    "matchday",
+    "home",
+    "away",
+    "store_date",
+    "openfootball_now",
+    "openligadb_date",
+    "record_id",
+    "resolved_date"
+   ],
+   "dropped_columns": [
+    "provider_local_date",
+    "played_date_footballdatauk",
+    "phase413_class",
+    "resolution",
+    "evidence"
+   ],
+   "values_withheld": {
+    "resolved_date": 2
+   },
+   "sha256": "f0acac313caf34d6e8a1b46349d416ae917adb601365d4fdf78facfe2ab7a83f"
+  },
+  "p420__staging__held_EPL.csv": {
+   "source": "data/supervised/phase4/p420/staging/held_EPL.csv",
+   "source_sha256": "2a8452adf49703be807868403dc7e1cbc0ccaa0e61429f8822ae24474e8a0320",
+   "rows": 3,
+   "kept_columns": [
+    "competition_key",
+    "season",
+    "record_id",
+    "home_entity",
+    "away_entity",
+    "home",
+    "away",
+    "store_status",
+    "store_date",
+    "wikipedia_score",
+    "wikipedia_revision",
+    "wikipedia_revision_time"
+   ],
+   "dropped_columns": [
+    "footballdatauk_date",
+    "footballdatauk_score",
+    "kind",
+    "reason"
+   ],
+   "values_withheld": {},
+   "sha256": "975e5cc45e0f50081cfdeb57e6f7b5135d627ce0185fd9df702c4ed4a786f805"
+  },
+  "p420__staging__held_LALIGA.csv": {
+   "source": "data/supervised/phase4/p420/staging/held_LALIGA.csv",
+   "source_sha256": "da97fe60d8d145b4768f66e98b84c8e5e80cc075521ad14036692736aadfece4",
+   "rows": 6,
+   "kept_columns": [
+    "competition_key",
+    "season",
+    "record_id",
+    "home_entity",
+    "away_entity",
+    "home",
+    "away",
+    "store_status",
+    "store_date",
+    "wikipedia_score",
+    "wikipedia_revision",
+    "wikipedia_revision_time",
+    "openfootball_date"
+   ],
+   "dropped_columns": [
+    "footballdatauk_date",
+    "footballdatauk_score",
+    "kind",
+    "reason"
+   ],
+   "values_withheld": {},
+   "sha256": "19a5007e6ec6fbf9f48709ca80209b46d8458892009bae47c9a3d42b890d2d31"
+  },
+  "p420__staging__held_LIGUE1.csv": {
+   "source": "data/supervised/phase4/p420/staging/held_LIGUE1.csv",
+   "source_sha256": "88a624c7dffa2ea9e82bcd41ae9909842a40f73bf1697d92c970992b60fa1bc4",
+   "rows": 2,
+   "kept_columns": [
+    "competition_key",
+    "season",
+    "record_id",
+    "home_entity",
+    "away_entity",
+    "home",
+    "away",
+    "store_status",
+    "store_date",
+    "wikipedia_score",
+    "wikipedia_revision",
+    "wikipedia_revision_time",
+    "openfootball_date"
+   ],
+   "dropped_columns": [
+    "footballdatauk_date",
+    "footballdatauk_score",
+    "kind",
+    "reason"
+   ],
+   "values_withheld": {},
+   "sha256": "4ca64b823a22ae464b052fdb027165c54f7613d942f74bc1ddd4236afcf235a1"
+  },
+  "p420__staging__held_SERIEA.csv": {
+   "source": "data/supervised/phase4/p420/staging/held_SERIEA.csv",
+   "source_sha256": "7267131a245afc7b27f6363c752604be355d4c3b6103de9a020b2bca51e3fc74",
+   "rows": 4,
+   "kept_columns": [
+    "competition_key",
+    "season",
+    "record_id",
+    "home_entity",
+    "away_entity",
+    "home",
+    "away",
+    "store_status",
+    "store_date",
+    "wikipedia_score",
+    "wikipedia_revision",
+    "wikipedia_revision_time"
+   ],
+   "dropped_columns": [
+    "footballdatauk_date",
+    "footballdatauk_score",
+    "kind",
+    "reason"
+   ],
+   "values_withheld": {},
+   "sha256": "3dfdd31483c537804ba21e52e013f057f313a0fc877bb2d44a56e902eb60cf51"
+  },
+  "p420__staging__staged_results_EPL.csv": {
+   "source": "data/supervised/phase4/p420/staging/staged_results_EPL.csv",
+   "source_sha256": "3e33e9346b1e9f95c0c42256e0a8e3d2f25c157c30cee8764352ceca87ea3d59",
+   "rows": 17,
+   "kept_columns": [
+    "competition_key",
+    "season",
+    "record_id",
+    "home_entity",
+    "away_entity",
+    "home",
+    "away",
+    "store_status",
+    "store_date",
+    "wikipedia_score",
+    "wikipedia_revision",
+    "wikipedia_revision_time",
+    "tier",
+    "date",
+    "home_goals",
+    "away_goals"
+   ],
+   "dropped_columns": [
+    "footballdatauk_date",
+    "footballdatauk_score"
+   ],
+   "values_withheld": {},
+   "sha256": "86dd197391af2b63d3b02f8d8b3e7b17c51a44068ae937554b89214b2a72c16f"
+  },
+  "p420__staging__staged_results_LIGUE1.csv": {
+   "source": "data/supervised/phase4/p420/staging/staged_results_LIGUE1.csv",
+   "source_sha256": "609cc48f1a449b7d0b3723b43036a989e89b1834a428d2177dcb5f1f12c30953",
+   "rows": 25,
+   "kept_columns": [
+    "competition_key",
+    "season",
+    "record_id",
+    "home_entity",
+    "away_entity",
+    "home",
+    "away",
+    "store_status",
+    "store_date",
+    "wikipedia_score",
+    "wikipedia_revision",
+    "wikipedia_revision_time",
+    "tier",
+    "date",
+    "home_goals",
+    "away_goals"
+   ],
+   "dropped_columns": [
+    "footballdatauk_date",
+    "footballdatauk_score"
+   ],
+   "values_withheld": {},
+   "sha256": "f8276f406176dbac0bf83b7afec77b74e6292e5568c0338adbaa5b8592f38f7b"
+  },
+  "p420__staging__staged_results_SERIEA.csv": {
+   "source": "data/supervised/phase4/p420/staging/staged_results_SERIEA.csv",
+   "source_sha256": "0d6caec8c0660dec451e7977846d3afd76ea1e2202ddef2b2b4ce8b5fab52f45",
+   "rows": 29,
+   "kept_columns": [
+    "competition_key",
+    "season",
+    "record_id",
+    "home_entity",
+    "away_entity",
+    "home",
+    "away",
+    "store_status",
+    "store_date",
+    "wikipedia_score",
+    "wikipedia_revision",
+    "wikipedia_revision_time",
+    "tier",
+    "date",
+    "home_goals",
+    "away_goals"
+   ],
+   "dropped_columns": [
+    "footballdatauk_date",
+    "footballdatauk_score"
+   ],
+   "values_withheld": {},
+   "sha256": "526c2f6a1e7b6237cf6930c61ef235ec574619d4c5d3d9404d4a674583e1d1fb"
+  },
+  "p423__staging__date_reconciliation.csv": {
+   "source": "data/supervised/phase4/p423/staging/date_reconciliation.csv",
+   "source_sha256": "0fee7690d8d1919bc9c5baeecfc02c038c23456c74d6ccbbbba299dff37cc81c",
+   "rows": 96,
+   "kept_columns": [
+    "league",
+    "matchday",
+    "home",
+    "away",
+    "record_id",
+    "store_status",
+    "store_date",
+    "openfootball_now",
+    "openligadb",
+    "action",
+    "proposed_date"
+   ],
+   "dropped_columns": [
+    "fixturedownload_local",
+    "fixturedownload_utc",
+    "footballdatauk_fixtures",
+    "provider",
+    "phase413_class",
+    "resolution",
+    "evidence"
+   ],
+   "values_withheld": {
+    "proposed_date": 62
+   },
+   "sha256": "9ebab6d4d01b7d3123e174d71b3064365ae243435a0988acee376eca654a368f"
+  },
+  "P4_13B_DATE_VERIFICATION_SHEET.csv": {
+   "source": "docs/mini-project/phase4/P4_13B_DATE_VERIFICATION_SHEET.csv",
+   "source_sha256": "60371cd0306a9a7fe743dd34fbfd34d019da1ff35973dee70dcf892832b65c29",
+   "rows": 96,
+   "kept_columns": [
+    "order",
+    "league",
+    "matchday",
+    "home",
+    "away",
+    "database_record_id",
+    "stored_date",
+    "stored_weekday",
+    "second_source_openligadb_date",
+    "official_date",
+    "official_kickoff_local",
+    "official_score_if_played",
+    "official_source_url",
+    "page_checked_on",
+    "verdict_stored_or_other",
+    "reviewer_initials",
+    "notes"
+   ],
+   "dropped_columns": [
+    "provider_date",
+    "provider_weekday",
+    "provider_local_time",
+    "shift_days",
+    "provider_status",
+    "class"
+   ],
+   "values_withheld": {},
+   "sha256": "4b1ec2982efbb425ab4ccd58eb9b6505c7231ff82cd5200557e629715af30317"
+  },
+  "p423__staging__proposed_changes.csv": {
+   "source": "data/supervised/phase4/p423/staging/proposed_changes.csv",
+   "source_sha256": "248e89c5451e23c941632c377dfc7c58ccf24041a9562ed4ed72a73a15f1dad6",
+   "rows": 104,
+   "kept_columns": [
+    "change_id",
+    "record_id",
+    "competition_key",
+    "home",
+    "away",
+    "home_entity",
+    "away_entity",
+    "action",
+    "tier",
+    "expected_store_status",
+    "expected_store_date",
+    "new_date",
+    "home_goals",
+    "away_goals",
+    "wikipedia_score",
+    "wikipedia_revision",
+    "openfootball_date",
+    "openligadb_date"
+   ],
+   "dropped_columns": [
+    "footballdatauk_score",
+    "fixturedownload_score",
+    "footballdatauk_date",
+    "fixturedownload_date",
+    "provider_date",
+    "evidence"
+   ],
+   "values_withheld": {
+    "new_date": 68
+   },
+   "sha256": "3f465c3a98dc0709b3516ffea7bbf8b49741ceba1ea333975f00e6e7889acec4"
+  }
+ }
+}

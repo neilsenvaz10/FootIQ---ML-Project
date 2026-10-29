@@ -1,0 +1,896 @@
+{
+ "clock": "2026-10-27T15:00:00Z",
+ "model_artifact_sha256": {
+  "club_v1": "067426e83d2d5f66aaf6c4aef933ac58e17f04d911ae55ede336c1bad3c0c5b9",
+  "club_v2_r1": "55c1e4c53bcfefd39d5e90a1ce60a75bc697668f7894e425305bdc9a65b3e56c"
+ },
+ "leagues": {
+  "BUNDESLIGA": {
+   "matchday": 8,
+   "data_cutoff_before": "2026-10-24",
+   "data_cutoff_after": "2026-10-25",
+   "fixtures": [
+    {
+     "fixture": "SV 07 Elversberg v 1. FSV Mainz 05",
+     "date": "2026-10-30",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 0,
+     "v2_inputs_changed": 15,
+     "v1_before": [
+      0.3365,
+      0.2325,
+      0.431
+     ],
+     "v1_after": [
+      0.3365,
+      0.2325,
+      0.431
+     ],
+     "v2_before": [
+      0.3861,
+      0.2513,
+      0.3626
+     ],
+     "v2_after": [
+      0.3863,
+      0.2512,
+      0.3624
+     ],
+     "key_inputs": {}
+    },
+    {
+     "fixture": "Borussia Mönchengladbach v SC Paderborn 07",
+     "date": "2026-10-31",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 0,
+     "v2_inputs_changed": 15,
+     "v1_before": [
+      0.3895,
+      0.2412,
+      0.3693
+     ],
+     "v1_after": [
+      0.3895,
+      0.2412,
+      0.3693
+     ],
+     "v2_before": [
+      0.364,
+      0.2761,
+      0.3598
+     ],
+     "v2_after": [
+      0.3643,
+      0.276,
+      0.3597
+     ],
+     "key_inputs": {}
+    },
+    {
+     "fixture": "FC Schalke 04 v RB Leipzig",
+     "date": "2026-10-31",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 0,
+     "v2_inputs_changed": 14,
+     "v1_before": [
+      0.2398,
+      0.245,
+      0.5152
+     ],
+     "v1_after": [
+      0.2398,
+      0.245,
+      0.5152
+     ],
+     "v2_before": [
+      0.2247,
+      0.2752,
+      0.5001
+     ],
+     "v2_after": [
+      0.2249,
+      0.2752,
+      0.5
+     ],
+     "key_inputs": {}
+    },
+    {
+     "fixture": "FC Augsburg v SC Freiburg",
+     "date": "2026-10-31",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 11,
+     "v2_inputs_changed": 36,
+     "v1_before": [
+      0.3936,
+      0.2184,
+      0.3881
+     ],
+     "v1_after": [
+      0.3969,
+      0.211,
+      0.3921
+     ],
+     "v2_before": [
+      0.3982,
+      0.258,
+      0.3438
+     ],
+     "v2_after": [
+      0.406,
+      0.2571,
+      0.3368
+     ],
+     "key_inputs": {
+      "away_days_rest": [
+       13.0,
+       6.0
+      ],
+      "away_elo": [
+       1752.3547861988748,
+       1747.1335814524518
+      ],
+      "away_ga5": [
+       1.0,
+       1.6
+      ],
+      "away_n_prior": [
+       563.0,
+       564.0
+      ],
+      "away_ppg5": [
+       2.0,
+       1.4
+      ]
+     }
+    },
+    {
+     "fixture": "SV Werder Bremen v TSG 1899 Hoffenheim",
+     "date": "2026-10-31",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 12,
+     "v2_inputs_changed": 37,
+     "v1_before": [
+      0.3917,
+      0.2358,
+      0.3725
+     ],
+     "v1_after": [
+      0.3562,
+      0.2397,
+      0.4042
+     ],
+     "v2_before": [
+      0.4091,
+      0.2629,
+      0.328
+     ],
+     "v2_after": [
+      0.365,
+      0.2754,
+      0.3596
+     ],
+     "key_inputs": {
+      "away_days_rest": [
+       13.0,
+       6.0
+      ],
+      "away_elo": [
+       1723.1287376660157,
+       1745.0458217710986
+      ],
+      "away_ga5": [
+       2.2,
+       1.6
+      ],
+      "away_gf5": [
+       1.8,
+       2.0
+      ],
+      "away_n_prior": [
+       570.0,
+       571.0
+      ],
+      "away_ppg5": [
+       1.2,
+       1.8
+      ]
+     }
+    },
+    {
+     "fixture": "Bayer 04 Leverkusen v VfB Stuttgart",
+     "date": "2026-10-31",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 13,
+     "v2_inputs_changed": 39,
+     "v1_before": [
+      0.5674,
+      0.1922,
+      0.2404
+     ],
+     "v1_after": [
+      0.5248,
+      0.1948,
+      0.2804
+     ],
+     "v2_before": [
+      0.5377,
+      0.2441,
+      0.2182
+     ],
+     "v2_after": [
+      0.4947,
+      0.2525,
+      0.2528
+     ],
+     "key_inputs": {
+      "home_days_rest": [
+       13.0,
+       6.0
+      ],
+      "home_elo": [
+       1872.7600275527957,
+       1850.8429434477127
+      ],
+      "home_ga5": [
+       1.2,
+       1.8
+      ],
+      "home_gf5": [
+       2.8,
+       2.0
+      ],
+      "home_n_prior": [
+       618.0,
+       619.0
+      ],
+      "home_ppg5": [
+       2.6,
+       2.0
+      ]
+     }
+    },
+    {
+     "fixture": "FC Bayern München v Borussia Dortmund",
+     "date": "2026-10-31",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 12,
+     "v2_inputs_changed": 35,
+     "v1_before": [
+      0.6961,
+      0.1668,
+      0.1371
+     ],
+     "v1_after": [
+      0.7042,
+      0.1654,
+      0.1303
+     ],
+     "v2_before": [
+      0.689,
+      0.1829,
+      0.1281
+     ],
+     "v2_after": [
+      0.6978,
+      0.1784,
+      0.1237
+     ],
+     "key_inputs": {
+      "home_days_rest": [
+       14.0,
+       6.0
+      ],
+      "home_elo": [
+       2082.878571394079,
+       2088.0997761405015
+      ],
+      "home_ga5": [
+       0.8,
+       1.0
+      ],
+      "home_gf5": [
+       3.4,
+       4.0
+      ],
+      "home_n_prior": [
+       653.0,
+       654.0
+      ],
+      "home_ppg5": [
+       2.2,
+       2.6
+      ]
+     }
+    },
+    {
+     "fixture": "1. FC Union Berlin v 1. FC Köln",
+     "date": "2026-11-01",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 0,
+     "v2_inputs_changed": 14,
+     "v1_before": [
+      0.4471,
+      0.2429,
+      0.31
+     ],
+     "v1_after": [
+      0.4471,
+      0.2429,
+      0.31
+     ],
+     "v2_before": [
+      0.4123,
+      0.279,
+      0.3087
+     ],
+     "v2_after": [
+      0.4126,
+      0.2788,
+      0.3086
+     ],
+     "key_inputs": {}
+    },
+    {
+     "fixture": "Eintracht Frankfurt v Hamburger SV",
+     "date": "2026-11-01",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 0,
+     "v2_inputs_changed": 15,
+     "v1_before": [
+      0.4854,
+      0.2459,
+      0.2687
+     ],
+     "v1_after": [
+      0.4854,
+      0.2459,
+      0.2687
+     ],
+     "v2_before": [
+      0.4822,
+      0.2744,
+      0.2434
+     ],
+     "v2_after": [
+      0.4825,
+      0.2742,
+      0.2433
+     ],
+     "key_inputs": {}
+    }
+   ],
+   "max_abs_probability_change_v1": 0.04259999999999997
+  },
+  "LALIGA": {
+   "matchday": 11,
+   "data_cutoff_before": "2026-10-24",
+   "data_cutoff_after": "2026-10-25",
+   "fixtures": [
+    {
+     "fixture": "Real Betis Balompié v Málaga CF",
+     "date": "2026-11-01",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 13,
+     "v2_inputs_changed": 38,
+     "v1_before": [
+      0.7495,
+      0.1714,
+      0.0791
+     ],
+     "v1_after": [
+      0.7536,
+      0.1708,
+      0.0756
+     ],
+     "v2_before": [
+      0.757,
+      0.1684,
+      0.0746
+     ],
+     "v2_after": [
+      0.7656,
+      0.1628,
+      0.0716
+     ],
+     "key_inputs": {
+      "home_days_rest": [
+       15.0,
+       7.0
+      ],
+      "home_elo": [
+       1777.9320181475769,
+       1777.107941050891
+      ],
+      "home_ga5": [
+       1.8,
+       1.6
+      ],
+      "home_gf5": [
+       2.2,
+       1.8
+      ],
+      "home_n_prior": [
+       570.0,
+       571.0
+      ],
+      "home_ppg5": [
+       2.0,
+       1.6
+      ]
+     }
+    },
+    {
+     "fixture": "Villarreal CF v RCD Espanyol de Barcelona",
+     "date": "2026-11-01",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 0,
+     "v2_inputs_changed": 15,
+     "v1_before": [
+      0.5842,
+      0.2228,
+      0.193
+     ],
+     "v1_after": [
+      0.5842,
+      0.2228,
+      0.193
+     ],
+     "v2_before": [
+      0.5912,
+      0.2501,
+      0.1587
+     ],
+     "v2_after": [
+      0.5918,
+      0.2498,
+      0.1584
+     ],
+     "key_inputs": {}
+    },
+    {
+     "fixture": "Levante UD v Club Atlético de Madrid",
+     "date": "2026-11-01",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 8,
+     "v2_inputs_changed": 35,
+     "v1_before": [
+      0.227,
+      0.2377,
+      0.5353
+     ],
+     "v1_after": [
+      0.2248,
+      0.24,
+      0.5352
+     ],
+     "v2_before": [
+      0.2637,
+      0.2691,
+      0.4672
+     ],
+     "v2_after": [
+      0.2678,
+      0.2565,
+      0.4756
+     ],
+     "key_inputs": {
+      "home_days_rest": [
+       11.0,
+       7.0
+      ],
+      "home_elo": [
+       1648.8279287432465,
+       1641.7590731210166
+      ],
+      "home_ga5": [
+       2.4,
+       2.0
+      ],
+      "home_gf5": [
+       2.0,
+       1.8
+      ],
+      "home_n_prior": [
+       559.0,
+       560.0
+      ]
+     }
+    },
+    {
+     "fixture": "RC Deportivo La Coruña v CA Osasuna",
+     "date": "2026-11-01",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 0,
+     "v2_inputs_changed": 14,
+     "v1_before": [
+      0.4214,
+      0.2656,
+      0.313
+     ],
+     "v1_after": [
+      0.4214,
+      0.2656,
+      0.313
+     ],
+     "v2_before": [
+      0.4636,
+      0.2609,
+      0.2755
+     ],
+     "v2_after": [
+      0.4642,
+      0.2607,
+      0.2751
+     ],
+     "key_inputs": {}
+    },
+    {
+     "fixture": "FC Barcelona v Deportivo Alavés",
+     "date": "2026-11-01",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 11,
+     "v2_inputs_changed": 37,
+     "v1_before": [
+      0.8639,
+      0.0903,
+      0.0458
+     ],
+     "v1_after": [
+      0.8561,
+      0.094,
+      0.0499
+     ],
+     "v2_before": [
+      0.8672,
+      0.0989,
+      0.0339
+     ],
+     "v2_after": [
+      0.8589,
+      0.1021,
+      0.039
+     ],
+     "key_inputs": {
+      "home_days_rest": [
+       15.0,
+       7.0
+      ],
+      "home_elo": [
+       2038.9490884794445,
+       2024.4860743829963
+      ],
+      "home_gf5": [
+       4.4,
+       3.8
+      ],
+      "home_n_prior": [
+       636.0,
+       637.0
+      ],
+      "home_ppg5": [
+       3.0,
+       2.4
+      ],
+      "home_venue_ppg5": [
+       3.0,
+       2.4
+      ]
+     }
+    },
+    {
+     "fixture": "Rayo Vallecano de Madrid v RC Celta de Vigo",
+     "date": "2026-11-01",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 9,
+     "v2_inputs_changed": 36,
+     "v1_before": [
+      0.4026,
+      0.273,
+      0.3244
+     ],
+     "v1_after": [
+      0.3967,
+      0.2725,
+      0.3309
+     ],
+     "v2_before": [
+      0.419,
+      0.2989,
+      0.2821
+     ],
+     "v2_after": [
+      0.4116,
+      0.3025,
+      0.2859
+     ],
+     "key_inputs": {
+      "away_days_rest": [
+       14.0,
+       7.0
+      ],
+      "away_elo": [
+       1689.2355697426185,
+       1690.0596468393044
+      ],
+      "away_ga5": [
+       0.6,
+       0.4
+      ],
+      "away_gf5": [
+       1.8,
+       1.6
+      ],
+      "away_n_prior": [
+       544.0,
+       545.0
+      ]
+     }
+    },
+    {
+     "fixture": "Getafe CF v Sevilla FC",
+     "date": "2026-11-01",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 13,
+     "v2_inputs_changed": 39,
+     "v1_before": [
+      0.42,
+      0.2906,
+      0.2893
+     ],
+     "v1_after": [
+      0.3887,
+      0.2846,
+      0.3267
+     ],
+     "v2_before": [
+      0.4333,
+      0.3061,
+      0.2606
+     ],
+     "v2_after": [
+      0.4148,
+      0.2962,
+      0.289
+     ],
+     "key_inputs": {
+      "home_days_rest": [
+       13.0,
+       7.0
+      ],
+      "home_elo": [
+       1636.4331493974394,
+       1623.027125104584
+      ],
+      "home_ga5": [
+       1.2,
+       1.8
+      ],
+      "home_gf5": [
+       0.6,
+       0.4
+      ],
+      "home_n_prior": [
+       547.0,
+       548.0
+      ],
+      "home_ppg5": [
+       1.0,
+       0.8
+      ]
+     }
+    },
+    {
+     "fixture": "Real Racing Club de Santander v Real Madrid CF",
+     "date": "2026-11-01",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 9,
+     "v2_inputs_changed": 33,
+     "v1_before": [
+      0.0739,
+      0.1481,
+      0.778
+     ],
+     "v1_after": [
+      0.072,
+      0.148,
+      0.78
+     ],
+     "v2_before": [
+      0.1006,
+      0.1674,
+      0.732
+     ],
+     "v2_after": [
+      0.0962,
+      0.166,
+      0.7378
+     ],
+     "key_inputs": {
+      "away_days_rest": [
+       14.0,
+       7.0
+      ],
+      "away_elo": [
+       1932.1549318257505,
+       1946.6179459221987
+      ],
+      "away_gf5": [
+       2.6,
+       2.2
+      ],
+      "away_n_prior": [
+       657.0,
+       658.0
+      ]
+     }
+    },
+    {
+     "fixture": "Elche CF v Valencia CF",
+     "date": "2026-11-01",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 0,
+     "v2_inputs_changed": 15,
+     "v1_before": [
+      0.3897,
+      0.2703,
+      0.3401
+     ],
+     "v1_after": [
+      0.3897,
+      0.2703,
+      0.3401
+     ],
+     "v2_before": [
+      0.4066,
+      0.2836,
+      0.3099
+     ],
+     "v2_after": [
+      0.4071,
+      0.2834,
+      0.3095
+     ],
+     "key_inputs": {}
+    },
+    {
+     "fixture": "Athletic Club v Real Sociedad de Fútbol",
+     "date": "2026-11-01",
+     "v1_schema_identical": true,
+     "v2_schema_identical": true,
+     "v1_inputs": 25,
+     "v2_inputs": 62,
+     "v1_inputs_changed": 18,
+     "v2_inputs_changed": 48,
+     "v1_before": [
+      0.4253,
+      0.2798,
+      0.295
+     ],
+     "v1_after": [
+      0.4603,
+      0.2672,
+      0.2725
+     ],
+     "v2_before": [
+      0.4685,
+      0.2843,
+      0.2473
+     ],
+     "v2_after": [
+      0.4968,
+      0.2783,
+      0.2249
+     ],
+     "key_inputs": {
+      "away_days_rest": [
+       14.0,
+       7.0
+      ],
+      "away_elo": [
+       1693.7430684139463,
+       1700.8119240361762
+      ],
+      "away_ga5": [
+       2.2,
+       2.0
+      ],
+      "away_gf5": [
+       2.8,
+       2.6
+      ],
+      "away_n_prior": [
+       582.0,
+       583.0
+      ],
+      "home_days_rest": [
+       11.0,
+       7.0
+      ],
+      "home_elo": [
+       1678.2765358333584,
+       1691.6825601262137
+      ],
+      "home_gf5": [
+       1.0,
+       1.2
+      ],
+      "home_n_prior": [
+       569.0,
+       570.0
+      ],
+      "home_venue_ppg5": [
+       1.2,
+       1.6
+      ]
+     }
+    }
+   ],
+   "max_abs_probability_change_v1": 0.03739999999999999
+  }
+ },
+ "past_fixture_refusals": {
+  "BUNDESLIGA": "Matchday 7 has no fixture that can still be forecast before kickoff (all are completed, past kickoff and awaiting a verified result, postponed or cancelled)",
+  "LALIGA": "Matchday 10 has no fixture that can still be forecast before kickoff (all are completed, past kickoff and awaiting a verified result, postponed or cancelled)"
+ },
+ "production_forecast_rows": {
+  "f": 0,
+  "r": 0
+ },
+ "production_sha256_before": "1bfad5bd4663e70776ef9da35f5c89eeed11b1ed7274ee7fdb562e266a9cb278",
+ "production_sha256_after": "1bfad5bd4663e70776ef9da35f5c89eeed11b1ed7274ee7fdb562e266a9cb278",
+ "production_untouched": true
+}

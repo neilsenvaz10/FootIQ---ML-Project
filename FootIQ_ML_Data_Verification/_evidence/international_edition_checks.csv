@@ -1,0 +1,35 @@
+competition_id,competition_name,season,expected_matches,expected_evidence,verified_scores,dup,latest
+INTL:fifa-world-cup,FIFA World Cup,1930,18,FIFA tournament formats (matches played per edition),18,0,1930-07-30
+INTL:fifa-world-cup,FIFA World Cup,1934,17,FIFA tournament formats (matches played per edition),17,0,1934-06-10
+INTL:fifa-world-cup,FIFA World Cup,1938,18,FIFA tournament formats (matches played per edition),18,0,1938-06-19
+INTL:fifa-world-cup,FIFA World Cup,1950,22,FIFA tournament formats (matches played per edition),22,0,1950-07-16
+INTL:fifa-world-cup,FIFA World Cup,1954,26,FIFA tournament formats (matches played per edition),26,0,1954-07-04
+INTL:fifa-world-cup,FIFA World Cup,1958,35,FIFA tournament formats (matches played per edition),35,0,1958-06-29
+INTL:fifa-world-cup,FIFA World Cup,1962,32,FIFA tournament formats (matches played per edition),32,0,1962-06-17
+INTL:fifa-world-cup,FIFA World Cup,1966,32,FIFA tournament formats (matches played per edition),32,0,1966-07-30
+INTL:fifa-world-cup,FIFA World Cup,1970,32,FIFA tournament formats (matches played per edition),32,0,1970-06-21
+INTL:fifa-world-cup,FIFA World Cup,1974,38,FIFA tournament formats (matches played per edition),38,0,1974-07-07
+INTL:fifa-world-cup,FIFA World Cup,1978,38,FIFA tournament formats (matches played per edition),38,0,1978-06-25
+INTL:fifa-world-cup,FIFA World Cup,1982,52,FIFA tournament formats (matches played per edition),52,0,1982-07-11
+INTL:fifa-world-cup,FIFA World Cup,1986,52,FIFA tournament formats (matches played per edition),52,0,1986-06-29
+INTL:fifa-world-cup,FIFA World Cup,1990,52,FIFA tournament formats (matches played per edition),52,0,1990-07-08
+INTL:fifa-world-cup,FIFA World Cup,1994,52,FIFA tournament formats (matches played per edition),52,0,1994-07-17
+INTL:fifa-world-cup,FIFA World Cup,1998,64,FIFA tournament formats (matches played per edition),64,0,1998-07-12
+INTL:fifa-world-cup,FIFA World Cup,2002,64,FIFA tournament formats (matches played per edition),64,0,2002-06-30
+INTL:fifa-world-cup,FIFA World Cup,2006,64,FIFA tournament formats (matches played per edition),64,0,2006-07-09
+INTL:fifa-world-cup,FIFA World Cup,2010,64,FIFA tournament formats (matches played per edition),64,0,2010-07-11
+INTL:fifa-world-cup,FIFA World Cup,2014,64,FIFA tournament formats (matches played per edition),64,0,2014-07-13
+INTL:fifa-world-cup,FIFA World Cup,2018,64,FIFA tournament formats (matches played per edition),64,0,2018-07-15
+INTL:fifa-world-cup,FIFA World Cup,2022,64,FIFA tournament formats (matches played per edition),64,0,2022-12-18
+INTL:fifa-world-cup,FIFA World Cup,2026,104,FIFA tournament formats (matches played per edition),104,0,2026-07-19
+INTL:uefa-euro,UEFA Euro,2016,51,tournament format (matches played),51,0,2016-07-10
+INTL:uefa-euro,UEFA Euro,2020,51,tournament format (matches played),0,0,
+INTL:uefa-euro,UEFA Euro,2024,51,tournament format (matches played),51,0,2024-07-14
+INTL:copa-américa,Copa América,2019,26,tournament format (matches played),26,0,2019-07-07
+INTL:copa-américa,Copa América,2021,28,tournament format (matches played),28,0,2021-07-10
+INTL:copa-américa,Copa América,2024,32,tournament format (matches played),32,0,2024-07-14
+INTL:african-cup-of-nations,African Cup of Nations,2019,52,tournament format (matches played),52,0,2019-07-19
+INTL:african-cup-of-nations,African Cup of Nations,2021,52,tournament format (matches played),0,0,
+INTL:african-cup-of-nations,African Cup of Nations,2023,52,tournament format (matches played),0,0,
+INTL:afc-asian-cup,AFC Asian Cup,2019,51,tournament format (matches played),51,0,2019-02-01
+INTL:afc-asian-cup,AFC Asian Cup,2023,51,tournament format (matches played),0,0,

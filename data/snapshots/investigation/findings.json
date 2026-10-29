@@ -1,0 +1,556 @@
+{
+ "generated_utc": "2026-10-25T09:07:55Z",
+ "snapshot_sha256": {
+  "leagues": "e9d62c3b0e62f87b26080a481ddb67ad89e5724d71fcfaf4f1e11ba422f2e73f",
+  "pl": "5bc7f2def9f9725461afae05ae8cc04038122291b3e6991bb7c678a0963bac9d",
+  "pl1": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "la1": "a0fb7b7bde9a6ebcb6616df7a77407fc3cb7ff2c6f427280595e270ca5fbbae0"
+ },
+ "leagues": {
+  "pl": {
+   "source_matches": 380,
+   "store_matches": 380,
+   "statuses": {
+    "completed": 59,
+    "completed_unclassified_score": 1,
+    "past_date_no_result": 15,
+    "upcoming": 305
+   },
+   "result_kinds": {
+    "HalfTime": 64,
+    "After90Minutes": 62
+   },
+   "teams_in_source": 20,
+   "duplicate_ordered_pairs": 0,
+   "matches_per_team": {
+    "min": 38,
+    "max": 38
+   },
+   "matchdays": {
+    "count": 38,
+    "sizes": {
+     "10": 38
+    }
+   },
+   "kickoff_utc_available": 380,
+   "date_range": [
+    "2026-08-21",
+    "2027-05-30"
+   ],
+   "completed": 59,
+   "completed_with_explicit_90min": 59,
+   "latest_completed_date": "2026-10-12",
+   "last_update_min_max": [
+    "2026-08-23T04:10:50.493",
+    "2026-10-20T04:16:13.777"
+   ],
+   "matches_without_any_lastUpdate": 0,
+   "identity": {
+    "resolved": 19,
+    "by_method": {
+     "exact": 17,
+     "normalised": 2
+    },
+    "unresolved": [
+     {
+      "name": "Brentford F.C.",
+      "method": "unresolved",
+      "suggestions": [
+       "Brentford FC",
+       "Arsenal FC"
+      ]
+     }
+    ],
+    "store_teams_not_in_source": [
+     "Brentford FC"
+    ]
+   },
+   "comparison": {
+    "matched": 342,
+    "date_agrees_utc": 313,
+    "date_agrees_local": 313,
+    "matchday_agrees": 342,
+    "completed_both_scores_agree": 44,
+    "identity_unresolved": 38,
+    "store_completed_but_source_not_completed": 1,
+    "recovered_in_principle": 9,
+    "still_missing_in_source": 9,
+    "date_disagrees_both": 29,
+    "date_off_by_-1_days": 3,
+    "date_off_by_1_days": 24,
+    "date_off_by_2_days": 2
+   },
+   "comparison_details": {
+    "store_completed_source_not": [
+     "Aston Villa v Nottingham Forest (2026-09-12) source status completed_unclassified_score"
+    ],
+    "date_disagreements": [
+     "Everton FC v Coventry City: source local 2026-11-06 / utc 2026-11-06, store 2026-11-07",
+     "Crystal Palace FC v FC Liverpool: source local 2026-11-08 / utc 2026-11-08, store 2026-11-07",
+     "Ipswich Town v AFC Bournemouth: source local 2026-11-08 / utc 2026-11-08, store 2026-11-07",
+     "Sunderland v Chelsea FC: source local 2026-11-08 / utc 2026-11-08, store 2026-11-07",
+     "Manchester United FC v Aston Villa: source local 2026-11-08 / utc 2026-11-08, store 2026-11-07",
+     "Hull City v Brighton & Hove Albion: source local 2026-11-22 / utc 2026-11-22, store 2026-11-21",
+     "FC Liverpool v Manchester United FC: source local 2026-11-22 / utc 2026-11-22, store 2026-11-21",
+     "Nottingham Forest v Chelsea FC: source local 2026-11-27 / utc 2026-11-27, store 2026-11-28"
+    ]
+   },
+   "comparison_if_suggested_aliases_were_reviewed_and_accepted": {
+    "assumed_aliases": {
+     "Brentford F.C.": "Brentford FC"
+    },
+    "matched": 380,
+    "date_agrees_utc": 349,
+    "date_agrees_local": 349,
+    "matchday_agrees": 380,
+    "completed_both_scores_agree": 48,
+    "completed_both_SCORE_CONFLICT": 1,
+    "store_completed_but_source_not_completed": 1,
+    "recovered_in_principle": 10,
+    "still_missing_in_source": 10,
+    "date_disagrees_both": 31,
+    "date_off_by_-1_days": 3,
+    "date_off_by_1_days": 25,
+    "date_off_by_2_days": 3
+   },
+   "comparison_assisted_details": {
+    "conflicts": [
+     "AFC Bournemouth v Brentford F.C.: source 2-1, store 2-2"
+    ],
+    "store_completed_source_not": [
+     "Aston Villa v Nottingham Forest (2026-09-12) source status completed_unclassified_score"
+    ],
+    "date_disagreements": [
+     "Everton FC v Coventry City: source local 2026-11-06 / utc 2026-11-06, store 2026-11-07",
+     "Brighton & Hove Albion v Brentford F.C.: source local 2026-11-08 / utc 2026-11-08, store 2026-11-07",
+     "Crystal Palace FC v FC Liverpool: source local 2026-11-08 / utc 2026-11-08, store 2026-11-07",
+     "Ipswich Town v AFC Bournemouth: source local 2026-11-08 / utc 2026-11-08, store 2026-11-07",
+     "Sunderland v Chelsea FC: source local 2026-11-08 / utc 2026-11-08, store 2026-11-07",
+     "Manchester United FC v Aston Villa: source local 2026-11-08 / utc 2026-11-08, store 2026-11-07",
+     "Hull City v Brighton & Hove Albion: source local 2026-11-22 / utc 2026-11-22, store 2026-11-21",
+     "FC Liverpool v Manchester United FC: source local 2026-11-22 / utc 2026-11-22, store 2026-11-21"
+    ]
+   },
+   "name_mapping": {
+    "AFC Bournemouth": {
+     "entity": "CLUB:ENG:afc-bournemouth",
+     "method": "exact",
+     "store_name": "AFC Bournemouth"
+    },
+    "Aston Villa": {
+     "entity": "CLUB:ENG:aston-villa-fc",
+     "method": "exact",
+     "store_name": "Aston Villa FC"
+    },
+    "Brighton & Hove Albion": {
+     "entity": "CLUB:ENG:brighton-and-hove-albion-fc",
+     "method": "exact",
+     "store_name": "Brighton & Hove Albion FC"
+    },
+    "Chelsea FC": {
+     "entity": "CLUB:ENG:chelsea-fc",
+     "method": "exact",
+     "store_name": "Chelsea FC"
+    },
+    "Coventry City": {
+     "entity": "CLUB:ENG:coventry-city-fc",
+     "method": "exact",
+     "store_name": "Coventry City FC"
+    },
+    "Crystal Palace FC": {
+     "entity": "CLUB:ENG:crystal-palace-fc",
+     "method": "exact",
+     "store_name": "Crystal Palace FC"
+    },
+    "Everton FC": {
+     "entity": "CLUB:ENG:everton-fc",
+     "method": "exact",
+     "store_name": "Everton FC"
+    },
+    "FC Arsenal": {
+     "entity": "CLUB:ENG:arsenal-fc",
+     "method": "normalised",
+     "store_name": "Arsenal FC"
+    },
+    "FC Liverpool": {
+     "entity": "CLUB:ENG:liverpool-fc",
+     "method": "normalised",
+     "store_name": "Liverpool FC"
+    },
+    "Fulham FC": {
+     "entity": "CLUB:ENG:fulham-fc",
+     "method": "exact",
+     "store_name": "Fulham FC"
+    },
+    "Hull City": {
+     "entity": "CLUB:ENG:hull-city-afc",
+     "method": "exact",
+     "store_name": "Hull City AFC"
+    },
+    "Ipswich Town": {
+     "entity": "CLUB:ENG:ipswich-town-fc",
+     "method": "exact",
+     "store_name": "Ipswich Town FC"
+    },
+    "Leeds United": {
+     "entity": "CLUB:ENG:leeds-united-fc",
+     "method": "exact",
+     "store_name": "Leeds United FC"
+    },
+    "Manchester City": {
+     "entity": "CLUB:ENG:manchester-city-fc",
+     "method": "exact",
+     "store_name": "Manchester City FC"
+    },
+    "Manchester United FC": {
+     "entity": "CLUB:ENG:manchester-united-fc",
+     "method": "exact",
+     "store_name": "Manchester United FC"
+    },
+    "Newcastle United FC": {
+     "entity": "CLUB:ENG:newcastle-united-fc",
+     "method": "exact",
+     "store_name": "Newcastle United FC"
+    },
+    "Nottingham Forest": {
+     "entity": "CLUB:ENG:nottingham-forest-fc",
+     "method": "exact",
+     "store_name": "Nottingham Forest FC"
+    },
+    "Sunderland": {
+     "entity": "CLUB:ENG:sunderland-afc",
+     "method": "exact",
+     "store_name": "Sunderland AFC"
+    },
+    "Tottenham Hotspur FC": {
+     "entity": "CLUB:ENG:tottenham-hotspur-fc",
+     "method": "exact",
+     "store_name": "Tottenham Hotspur FC"
+    }
+   },
+   "store_fixtures_missing_from_source": 38,
+   "store_awaiting_result_total": 20,
+   "store_completed_total": 50,
+   "store_latest_result": "2026-09-20"
+  },
+  "pl1": {
+   "source_matches": 0,
+   "store_matches": 380,
+   "statuses": {},
+   "result_kinds": {},
+   "teams_in_source": 0,
+   "duplicate_ordered_pairs": 0,
+   "matches_per_team": {
+    "min": 0,
+    "max": 0
+   },
+   "matchdays": {
+    "count": 0,
+    "sizes": {}
+   },
+   "kickoff_utc_available": 0,
+   "date_range": null,
+   "completed": 0,
+   "completed_with_explicit_90min": 0,
+   "latest_completed_date": null,
+   "last_update_min_max": null,
+   "matches_without_any_lastUpdate": 0,
+   "identity": {
+    "resolved": 0,
+    "by_method": {},
+    "unresolved": [],
+    "store_teams_not_in_source": [
+     "AFC Bournemouth",
+     "Arsenal FC",
+     "Aston Villa FC",
+     "Brentford FC",
+     "Brighton & Hove Albion FC",
+     "Chelsea FC",
+     "Coventry City FC",
+     "Crystal Palace FC",
+     "Everton FC",
+     "Fulham FC",
+     "Hull City AFC",
+     "Ipswich Town FC",
+     "Leeds United FC",
+     "Liverpool FC",
+     "Manchester City FC",
+     "Manchester United FC",
+     "Newcastle United FC",
+     "Nottingham Forest FC",
+     "Sunderland AFC",
+     "Tottenham Hotspur FC"
+    ]
+   },
+   "comparison": {},
+   "comparison_details": {},
+   "comparison_if_suggested_aliases_were_reviewed_and_accepted": {
+    "assumed_aliases": {}
+   },
+   "comparison_assisted_details": {},
+   "name_mapping": {},
+   "store_fixtures_missing_from_source": 380,
+   "store_awaiting_result_total": 20,
+   "store_completed_total": 50,
+   "store_latest_result": "2026-09-20"
+  },
+  "la1": {
+   "source_matches": 380,
+   "store_matches": 380,
+   "statuses": {
+    "completed": 94,
+    "upcoming": 286
+   },
+   "result_kinds": {
+    "HalfTime": 94,
+    "After90Minutes": 94
+   },
+   "teams_in_source": 20,
+   "duplicate_ordered_pairs": 0,
+   "matches_per_team": {
+    "min": 38,
+    "max": 38
+   },
+   "matchdays": {
+    "count": 38,
+    "sizes": {
+     "10": 38
+    }
+   },
+   "kickoff_utc_available": 380,
+   "date_range": [
+    "2026-08-15",
+    "2027-05-30"
+   ],
+   "completed": 94,
+   "completed_with_explicit_90min": 94,
+   "latest_completed_date": "2026-10-24",
+   "last_update_min_max": [
+    "2026-08-03T14:31:53.837",
+    "2026-10-25T10:01:35.71"
+   ],
+   "matches_without_any_lastUpdate": 0,
+   "identity": {
+    "resolved": 16,
+    "by_method": {
+     "exact": 11,
+     "normalised": 5
+    },
+    "unresolved": [
+     {
+      "name": "Celta Vigo",
+      "method": "unresolved",
+      "suggestions": [
+       "RC Celta de Vigo"
+      ]
+     },
+     {
+      "name": "Deportivo A Coru\u00f1a",
+      "method": "unresolved",
+      "suggestions": [
+       "RC Deportivo La Coru\u00f1a",
+       "Deportivo Alav\u00e9s"
+      ]
+     },
+     {
+      "name": "FC Villareal",
+      "method": "unresolved",
+      "suggestions": [
+       "Villarreal CF",
+       "FC Barcelona"
+      ]
+     },
+     {
+      "name": "Racing Santander",
+      "method": "unresolved",
+      "suggestions": [
+       "Real Racing Club de Santander"
+      ]
+     }
+    ],
+    "store_teams_not_in_source": [
+     "RC Celta de Vigo",
+     "RC Deportivo La Coru\u00f1a",
+     "Real Racing Club de Santander",
+     "Villarreal CF"
+    ]
+   },
+   "comparison": {
+    "matched": 240,
+    "date_agrees_utc": 226,
+    "date_agrees_local": 226,
+    "matchday_agrees": 240,
+    "completed_both_scores_agree": 44,
+    "identity_unresolved": 140,
+    "recovered_in_principle": 12,
+    "date_disagrees_both": 14,
+    "date_off_by_-2_days": 3,
+    "completed_in_source_but_store_date_not_passed": 2,
+    "date_off_by_-1_days": 8,
+    "date_off_by_1_days": 2,
+    "date_off_by_233_days": 1,
+    "still_missing_in_source": 1
+   },
+   "comparison_details": {
+    "date_disagreements": [
+     "Deportivo Alaves v FC Malaga: source local 2026-10-23 / utc 2026-10-23, store 2026-10-25",
+     "Rayo Vallecano v Elche CF: source local 2026-10-24 / utc 2026-10-24, store 2026-10-25",
+     "FC Sevilla v CA Osasuna: source local 2026-10-26 / utc 2026-10-26, store 2026-10-25",
+     "Levante UD v Atl\u00e9tico Madrid: source local 2026-10-31 / utc 2026-10-31, store 2026-11-01",
+     "Real Betis v FC Malaga: source local 2026-10-31 / utc 2026-10-31, store 2026-11-01",
+     "FC Barcelona v Deportivo Alaves: source local 2026-10-31 / utc 2026-10-31, store 2026-11-01",
+     "FC Sevilla v Deportivo Alaves: source local 2026-11-06 / utc 2026-11-06, store 2026-11-08",
+     "CA Osasuna v Athletic Club: source local 2026-11-07 / utc 2026-11-07, store 2026-11-08"
+    ]
+   },
+   "comparison_if_suggested_aliases_were_reviewed_and_accepted": {
+    "assumed_aliases": {
+     "Celta Vigo": "RC Celta de Vigo",
+     "Deportivo A Coru\u00f1a": "RC Deportivo La Coru\u00f1a",
+     "FC Villareal": "Villarreal CF",
+     "Racing Santander": "Real Racing Club de Santander"
+    },
+    "matched": 380,
+    "date_agrees_utc": 356,
+    "date_agrees_local": 356,
+    "matchday_agrees": 380,
+    "completed_both_scores_agree": 69,
+    "recovered_in_principle": 20,
+    "date_disagrees_both": 24,
+    "date_off_by_-2_days": 4,
+    "completed_in_source_but_store_date_not_passed": 5,
+    "date_off_by_-1_days": 16,
+    "date_off_by_1_days": 3,
+    "date_off_by_233_days": 1,
+    "still_missing_in_source": 1
+   },
+   "comparison_assisted_details": {
+    "date_disagreements": [
+     "Deportivo Alaves v FC Malaga: source local 2026-10-23 / utc 2026-10-23, store 2026-10-25",
+     "Rayo Vallecano v Elche CF: source local 2026-10-24 / utc 2026-10-24, store 2026-10-25",
+     "Racing Santander v Espanyol Barcelona: source local 2026-10-24 / utc 2026-10-24, store 2026-10-25",
+     "FC Valencia v FC Villareal: source local 2026-10-24 / utc 2026-10-24, store 2026-10-25",
+     "Atl\u00e9tico Madrid v Deportivo A Coru\u00f1a: source local 2026-10-24 / utc 2026-10-24, store 2026-10-25",
+     "FC Sevilla v CA Osasuna: source local 2026-10-26 / utc 2026-10-26, store 2026-10-25",
+     "FC Villareal v Espanyol Barcelona: source local 2026-10-30 / utc 2026-10-30, store 2026-11-01",
+     "Levante UD v Atl\u00e9tico Madrid: source local 2026-10-31 / utc 2026-10-31, store 2026-11-01"
+    ]
+   },
+   "name_mapping": {
+    "Athletic Club": {
+     "entity": "CLUB:ESP:athletic-club-bilbao",
+     "method": "exact",
+     "store_name": "Athletic Club"
+    },
+    "Atl\u00e9tico Madrid": {
+     "entity": "CLUB:ESP:atletico-madrid",
+     "method": "exact",
+     "store_name": "Club Atl\u00e9tico de Madrid"
+    },
+    "CA Osasuna": {
+     "entity": "CLUB:ESP:ca-osasuna",
+     "method": "exact",
+     "store_name": "CA Osasuna"
+    },
+    "Deportivo Alaves": {
+     "entity": "CLUB:ESP:deportivo-alaves",
+     "method": "normalised",
+     "store_name": "Deportivo Alav\u00e9s"
+    },
+    "Elche CF": {
+     "entity": "CLUB:ESP:elche-cf",
+     "method": "exact",
+     "store_name": "Elche CF"
+    },
+    "Espanyol Barcelona": {
+     "entity": "CLUB:ESP:rcd-espanyol",
+     "method": "exact",
+     "store_name": "RCD Espanyol de Barcelona"
+    },
+    "FC Barcelona": {
+     "entity": "CLUB:ESP:fc-barcelona",
+     "method": "exact",
+     "store_name": "FC Barcelona"
+    },
+    "FC Getafe": {
+     "entity": "CLUB:ESP:getafe-cf",
+     "method": "normalised",
+     "store_name": "Getafe CF"
+    },
+    "FC Malaga": {
+     "entity": "CLUB:ESP:malaga-cf",
+     "method": "normalised",
+     "store_name": "M\u00e1laga CF"
+    },
+    "FC Sevilla": {
+     "entity": "CLUB:ESP:sevilla-fc",
+     "method": "normalised",
+     "store_name": "Sevilla FC"
+    },
+    "FC Valencia": {
+     "entity": "CLUB:ESP:valencia-cf",
+     "method": "normalised",
+     "store_name": "Valencia CF"
+    },
+    "Levante UD": {
+     "entity": "CLUB:ESP:levante-ud",
+     "method": "exact",
+     "store_name": "Levante UD"
+    },
+    "Rayo Vallecano": {
+     "entity": "CLUB:ESP:rayo-vallecano",
+     "method": "exact",
+     "store_name": "Rayo Vallecano de Madrid"
+    },
+    "Real Betis": {
+     "entity": "CLUB:ESP:real-betis",
+     "method": "exact",
+     "store_name": "Real Betis Balompi\u00e9"
+    },
+    "Real Madrid": {
+     "entity": "CLUB:ESP:real-madrid",
+     "method": "exact",
+     "store_name": "Real Madrid CF"
+    },
+    "Real Sociedad": {
+     "entity": "CLUB:ESP:real-sociedad",
+     "method": "exact",
+     "store_name": "Real Sociedad de F\u00fatbol"
+    }
+   },
+   "store_fixtures_missing_from_source": 140,
+   "store_awaiting_result_total": 20,
+   "store_completed_total": 69,
+   "store_latest_result": "2026-09-20"
+  }
+ },
+ "listing": {
+  "la1": {
+   "id": 4936,
+   "name": "LaLiga EA Sports 2026/2027"
+  },
+  "bl1": {
+   "id": 4937,
+   "name": "1. Fu\u00dfball-Bundesliga 2026/2027"
+  },
+  "pl1": {
+   "id": 5993,
+   "name": "Permier League England"
+  },
+  "pl": {
+   "id": 5996,
+   "name": "Premier League 2026/2027"
+  },
+  "PDCWSDF": {
+   "id": 6009,
+   "name": "World Series of Darts Finals 2026"
+  }
+ },
+ "pl_vs_pl1": {
+  "pl": 380,
+  "pl1": 0,
+  "identical_pairings": 0,
+  "only_pl": 380,
+  "only_pl1": 0
+ }
+}

@@ -1,0 +1,1415 @@
+{
+ "desktop": [
+  {
+   "path": "/",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "FootIQ"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 319,
+    "gradientBackgroundSkipped": 5,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 48,
+    "smallSamples": [
+     {
+      "t": "College mini-project. Ex",
+      "fs": 11
+     },
+     {
+      "t": "Football analytics · mat",
+      "fs": 11
+     },
+     {
+      "t": "Matches",
+      "fs": 11
+     },
+     {
+      "t": "Goals per match",
+      "fs": 11
+     },
+     {
+      "t": "Home wins",
+      "fs": 11
+     },
+     {
+      "t": "Draws",
+      "fs": 11
+     },
+     {
+      "t": "W",
+      "fs": 8.25
+     },
+     {
+      "t": "D",
+      "fs": 8.25
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 41,
+    "inlineTextLinks": 0,
+    "below44": 37,
+    "below24": 3,
+    "below44Samples": [
+     "a \"Home\" 207x40",
+     "a \"Leagues\" 207x40",
+     "a \"Compare\" 207x40",
+     "a \"Predict\" 207x40",
+     "a \"Simulations\" 207x40",
+     "a \"Models\" 207x40",
+     "button \"Latest match result: 2026-\" 894x40",
+     "a \"Full table →\" 64x16",
+     "button[radio] \"Premier League\" 131x36",
+     "button[radio] \"La Liga\" 76x36",
+     "button[radio] \"Bundesliga\" 102x36",
+     "button[radio] \"Serie A\" 77x36"
+    ]
+   }
+  },
+  {
+   "path": "/matches",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [],
+   "interFaces": [],
+   "text": {
+    "nodes": 40,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 1,
+    "smallSamples": [
+     {
+      "t": "College mini-project. Ex",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 7,
+    "inlineTextLinks": 0,
+    "below44": 7,
+    "below24": 0,
+    "below44Samples": [
+     "a \"Home\" 207x40",
+     "a \"Leagues\" 207x40",
+     "a \"Compare\" 207x40",
+     "a \"Predict\" 207x40",
+     "a \"Simulations\" 207x40",
+     "a \"Models\" 207x40",
+     "button \"Latest match result: 2026-\" 894x40"
+    ]
+   }
+  },
+  {
+   "path": "/analytics",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Leagues & cups"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 392,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 5,
+    "smallSamples": [
+     {
+      "t": "College mini-project. Ex",
+      "fs": 11
+     },
+     {
+      "t": "Validated",
+      "fs": 11
+     },
+     {
+      "t": "W",
+      "fs": 9.9
+     },
+     {
+      "t": "L",
+      "fs": 9.9
+     },
+     {
+      "t": "D",
+      "fs": 9.9
+     }
+    ],
+    "decorativeUnder12px": 21
+   },
+   "targets": {
+    "controls": 12,
+    "inlineTextLinks": 0,
+    "below44": 11,
+    "below24": 0,
+    "below44Samples": [
+     "a \"Home\" 207x40",
+     "a \"Leagues\" 207x40",
+     "a \"Compare\" 207x40",
+     "a \"Predict\" 207x40",
+     "a \"Simulations\" 207x40",
+     "a \"Models\" 207x40",
+     "button \"Latest match result: 2026-\" 894x40",
+     "select \"Season\" 107x39",
+     "button[tab] \"Matches\" 53x37",
+     "button[tab] \"Table\" 33x37",
+     "button[tab] \"Stats\" 31x37"
+    ]
+   }
+  },
+  {
+   "path": "/compare",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Compare teams"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 49,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 3,
+    "smallSamples": [
+     {
+      "t": "College mini-project. Ex",
+      "fs": 11
+     },
+     {
+      "t": "Team A",
+      "fs": 11
+     },
+     {
+      "t": "Team B",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 11,
+    "inlineTextLinks": 0,
+    "below44": 10,
+    "below24": 0,
+    "below44Samples": [
+     "a \"Home\" 207x40",
+     "a \"Leagues\" 207x40",
+     "a \"Compare\" 207x40",
+     "a \"Predict\" 207x40",
+     "a \"Simulations\" 207x40",
+     "a \"Models\" 207x40",
+     "button \"Latest match result: 2026-\" 894x40",
+     "select \"Team pool\" 167x32",
+     "select \"Team A\" 404x43",
+     "select \"Team B\" 404x43"
+    ]
+   }
+  },
+  {
+   "path": "/predict",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 203,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 6,
+    "smallSamples": [
+     {
+      "t": "College mini-project. Ex",
+      "fs": 11
+     },
+     {
+      "t": "Validated",
+      "fs": 11
+     },
+     {
+      "t": "Scheduled",
+      "fs": 11
+     },
+     {
+      "t": "Provisional history",
+      "fs": 11
+     },
+     {
+      "t": "Stale history",
+      "fs": 11
+     },
+     {
+      "t": "Missing earlier results",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 25,
+    "inlineTextLinks": 0,
+    "below44": 23,
+    "below24": 10,
+    "below44Samples": [
+     "a \"Home\" 207x40",
+     "a \"Leagues\" 207x40",
+     "a \"Compare\" 207x40",
+     "a \"Predict\" 207x40",
+     "a \"Simulations\" 207x40",
+     "a \"Models\" 207x40",
+     "button \"Latest match result: 2026-\" 894x40",
+     "button[tab] \"Gameweek\" 70x37",
+     "button[tab] \"Manual head-to-head\" 139x37",
+     "button \"Previous gameweek\" 45x40",
+     "select \"Gameweek\" 756x43",
+     "button \"Next gameweek\" 45x40"
+    ]
+   }
+  },
+  {
+   "path": "/simulations",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "World Cup simulator"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 59,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 3,
+    "smallSamples": [
+     {
+      "t": "College mini-project. Ex",
+      "fs": 11
+     },
+     {
+      "t": "100–50,000. Default 1,00",
+      "fs": 11
+     },
+     {
+      "t": "Same seed and settings g",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 16,
+    "inlineTextLinks": 0,
+    "below44": 16,
+    "below24": 2,
+    "below44Samples": [
+     "a \"Home\" 207x40",
+     "a \"Leagues\" 207x40",
+     "a \"Compare\" 207x40",
+     "a \"Predict\" 207x40",
+     "a \"Simulations\" 207x40",
+     "a \"Models\" 207x40",
+     "button \"Latest match result: 2026-\" 894x40",
+     "button[tab] \"World Cup\" 68x37",
+     "button[tab] \"Season simulator\" 109x37",
+     "button[tab] \"Simulation\" 68x37",
+     "button[tab] \"2026 bracket (real results\" 164x37",
+     "input \"INPUT\" 13x13"
+    ]
+   }
+  },
+  {
+   "path": "/models",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Model performance"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 228,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 9,
+    "smallSamples": [
+     {
+      "t": "College mini-project. Ex",
+      "fs": 11
+     },
+     {
+      "t": "15,645 matches, 3 outcom",
+      "fs": 11
+     },
+     {
+      "t": "3,491 matches",
+      "fs": 11
+     },
+     {
+      "t": "71.95% before the final",
+      "fs": 11
+     },
+     {
+      "t": "no unbiased test",
+      "fs": 11
+     },
+     {
+      "t": "Validated",
+      "fs": 11
+     },
+     {
+      "t": "Partially validated",
+      "fs": 11
+     },
+     {
+      "t": "36,881 matches",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 10,
+    "inlineTextLinks": 0,
+    "below44": 10,
+    "below24": 1,
+    "below44Samples": [
+     "a \"Home\" 207x40",
+     "a \"Leagues\" 207x40",
+     "a \"Compare\" 207x40",
+     "a \"Predict\" 207x40",
+     "a \"Simulations\" 207x40",
+     "a \"Models\" 207x40",
+     "button \"Latest match result: 2026-\" 894x40",
+     "button[tab] \"Test season\" 72x37",
+     "button[tab] \"Forward holdout\" 107x37",
+     "summary \"Evaluation files used\" 862x16"
+    ]
+   }
+  }
+ ],
+ "tablet": [
+  {
+   "path": "/",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "FootIQ"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 319,
+    "gradientBackgroundSkipped": 5,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 48,
+    "smallSamples": [
+     {
+      "t": "College mini-project. Ex",
+      "fs": 11
+     },
+     {
+      "t": "Football analytics · mat",
+      "fs": 11
+     },
+     {
+      "t": "Matches",
+      "fs": 11
+     },
+     {
+      "t": "Goals per match",
+      "fs": 11
+     },
+     {
+      "t": "Home wins",
+      "fs": 11
+     },
+     {
+      "t": "Draws",
+      "fs": 11
+     },
+     {
+      "t": "W",
+      "fs": 8.25
+     },
+     {
+      "t": "D",
+      "fs": 8.25
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 41,
+    "inlineTextLinks": 0,
+    "below44": 36,
+    "below24": 3,
+    "below44Samples": [
+     "a \"Home\" 207x40",
+     "a \"Leagues\" 207x40",
+     "a \"Compare\" 207x40",
+     "a \"Predict\" 207x40",
+     "a \"Simulations\" 207x40",
+     "a \"Models\" 207x40",
+     "a \"Full table →\" 64x16",
+     "button[radio] \"Premier League\" 131x36",
+     "button[radio] \"La Liga\" 76x36",
+     "button[radio] \"Bundesliga\" 102x36",
+     "button[radio] \"Serie A\" 77x36",
+     "button[radio] \"Ligue 1\" 76x36"
+    ]
+   }
+  },
+  {
+   "path": "/matches",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [],
+   "interFaces": [],
+   "text": {
+    "nodes": 40,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 1,
+    "smallSamples": [
+     {
+      "t": "College mini-project. Ex",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 7,
+    "inlineTextLinks": 0,
+    "below44": 6,
+    "below24": 0,
+    "below44Samples": [
+     "a \"Home\" 207x40",
+     "a \"Leagues\" 207x40",
+     "a \"Compare\" 207x40",
+     "a \"Predict\" 207x40",
+     "a \"Simulations\" 207x40",
+     "a \"Models\" 207x40"
+    ]
+   }
+  },
+  {
+   "path": "/analytics",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Leagues & cups"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 392,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 5,
+    "smallSamples": [
+     {
+      "t": "College mini-project. Ex",
+      "fs": 11
+     },
+     {
+      "t": "Validated",
+      "fs": 11
+     },
+     {
+      "t": "W",
+      "fs": 9.9
+     },
+     {
+      "t": "L",
+      "fs": 9.9
+     },
+     {
+      "t": "D",
+      "fs": 9.9
+     }
+    ],
+    "decorativeUnder12px": 21
+   },
+   "targets": {
+    "controls": 12,
+    "inlineTextLinks": 0,
+    "below44": 10,
+    "below24": 0,
+    "below44Samples": [
+     "a \"Home\" 207x40",
+     "a \"Leagues\" 207x40",
+     "a \"Compare\" 207x40",
+     "a \"Predict\" 207x40",
+     "a \"Simulations\" 207x40",
+     "a \"Models\" 207x40",
+     "select \"Season\" 107x39",
+     "button[tab] \"Matches\" 53x37",
+     "button[tab] \"Table\" 33x37",
+     "button[tab] \"Stats\" 31x37"
+    ]
+   }
+  },
+  {
+   "path": "/compare",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Compare teams"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 49,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 3,
+    "smallSamples": [
+     {
+      "t": "College mini-project. Ex",
+      "fs": 11
+     },
+     {
+      "t": "Team A",
+      "fs": 11
+     },
+     {
+      "t": "Team B",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 11,
+    "inlineTextLinks": 0,
+    "below44": 9,
+    "below24": 0,
+    "below44Samples": [
+     "a \"Home\" 207x40",
+     "a \"Leagues\" 207x40",
+     "a \"Compare\" 207x40",
+     "a \"Predict\" 207x40",
+     "a \"Simulations\" 207x40",
+     "a \"Models\" 207x40",
+     "select \"Team pool\" 167x32",
+     "select \"Team A\" 214x43",
+     "select \"Team B\" 214x43"
+    ]
+   }
+  },
+  {
+   "path": "/predict",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 203,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 6,
+    "smallSamples": [
+     {
+      "t": "College mini-project. Ex",
+      "fs": 11
+     },
+     {
+      "t": "Validated",
+      "fs": 11
+     },
+     {
+      "t": "Scheduled",
+      "fs": 11
+     },
+     {
+      "t": "Provisional history",
+      "fs": 11
+     },
+     {
+      "t": "Stale history",
+      "fs": 11
+     },
+     {
+      "t": "Missing earlier results",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 25,
+    "inlineTextLinks": 0,
+    "below44": 22,
+    "below24": 10,
+    "below44Samples": [
+     "a \"Home\" 207x40",
+     "a \"Leagues\" 207x40",
+     "a \"Compare\" 207x40",
+     "a \"Predict\" 207x40",
+     "a \"Simulations\" 207x40",
+     "a \"Models\" 207x40",
+     "button[tab] \"Gameweek\" 70x37",
+     "button[tab] \"Manual head-to-head\" 139x37",
+     "button \"Previous gameweek\" 45x40",
+     "select \"Gameweek\" 376x43",
+     "button \"Next gameweek\" 45x40",
+     "button \"Predict gameweek\" 161x40"
+    ]
+   }
+  },
+  {
+   "path": "/simulations",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "World Cup simulator"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 59,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 3,
+    "smallSamples": [
+     {
+      "t": "College mini-project. Ex",
+      "fs": 11
+     },
+     {
+      "t": "100–50,000. Default 1,00",
+      "fs": 11
+     },
+     {
+      "t": "Same seed and settings g",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 16,
+    "inlineTextLinks": 0,
+    "below44": 15,
+    "below24": 2,
+    "below44Samples": [
+     "a \"Home\" 207x40",
+     "a \"Leagues\" 207x40",
+     "a \"Compare\" 207x40",
+     "a \"Predict\" 207x40",
+     "a \"Simulations\" 207x40",
+     "a \"Models\" 207x40",
+     "button[tab] \"World Cup\" 68x37",
+     "button[tab] \"Season simulator\" 109x37",
+     "button[tab] \"Simulation\" 68x37",
+     "button[tab] \"2026 bracket (real results\" 164x37",
+     "input \"INPUT\" 13x13",
+     "input \"INPUT\" 13x13"
+    ]
+   }
+  },
+  {
+   "path": "/models",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Model performance"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 228,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 9,
+    "smallSamples": [
+     {
+      "t": "College mini-project. Ex",
+      "fs": 11
+     },
+     {
+      "t": "15,645 matches, 3 outcom",
+      "fs": 11
+     },
+     {
+      "t": "3,491 matches",
+      "fs": 11
+     },
+     {
+      "t": "71.95% before the final",
+      "fs": 11
+     },
+     {
+      "t": "no unbiased test",
+      "fs": 11
+     },
+     {
+      "t": "Validated",
+      "fs": 11
+     },
+     {
+      "t": "Partially validated",
+      "fs": 11
+     },
+     {
+      "t": "36,881 matches",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 10,
+    "inlineTextLinks": 0,
+    "below44": 9,
+    "below24": 1,
+    "below44Samples": [
+     "a \"Home\" 207x40",
+     "a \"Leagues\" 207x40",
+     "a \"Compare\" 207x40",
+     "a \"Predict\" 207x40",
+     "a \"Simulations\" 207x40",
+     "a \"Models\" 207x40",
+     "button[tab] \"Test season\" 72x37",
+     "button[tab] \"Forward holdout\" 107x37",
+     "summary \"Evaluation files used\" 482x16"
+    ]
+   }
+  }
+ ],
+ "mobile": [
+  {
+   "path": "/",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "FootIQ"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 318,
+    "gradientBackgroundSkipped": 5,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 54,
+    "smallSamples": [
+     {
+      "t": "Historical data",
+      "fs": 11
+     },
+     {
+      "t": "Football analytics · mat",
+      "fs": 11
+     },
+     {
+      "t": "Matches",
+      "fs": 11
+     },
+     {
+      "t": "Goals per match",
+      "fs": 11
+     },
+     {
+      "t": "Home wins",
+      "fs": 11
+     },
+     {
+      "t": "Draws",
+      "fs": 11
+     },
+     {
+      "t": "W",
+      "fs": 8.25
+     },
+     {
+      "t": "D",
+      "fs": 8.25
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 41,
+    "inlineTextLinks": 0,
+    "below44": 30,
+    "below24": 3,
+    "below44Samples": [
+     "a \"Full table →\" 64x16",
+     "button[radio] \"Premier League\" 131x36",
+     "button[radio] \"La Liga\" 76x36",
+     "button[radio] \"Bundesliga\" 102x36",
+     "button[radio] \"Serie A\" 77x36",
+     "button[radio] \"Ligue 1\" 76x36",
+     "a \"See how the models were ev\" 209x16",
+     "a \"EPEnglish Premier League3,\" 311x36",
+     "a \"Predict\" 62x24",
+     "a \"LLLa Liga3,129 matches · 9\" 311x36",
+     "a \"Predict\" 62x24",
+     "a \"BUNBundesliga2,509 matches\" 311x36"
+    ]
+   }
+  },
+  {
+   "path": "/matches",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [],
+   "interFaces": [],
+   "text": {
+    "nodes": 39,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 7,
+    "smallSamples": [
+     {
+      "t": "Historical data",
+      "fs": 11
+     },
+     {
+      "t": "Home",
+      "fs": 11
+     },
+     {
+      "t": "Leagues",
+      "fs": 11
+     },
+     {
+      "t": "Compare",
+      "fs": 11
+     },
+     {
+      "t": "Predict",
+      "fs": 11
+     },
+     {
+      "t": "Simulations",
+      "fs": 11
+     },
+     {
+      "t": "Models",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 7,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/analytics",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Leagues & cups"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 185,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 8,
+    "smallSamples": [
+     {
+      "t": "Historical data",
+      "fs": 11
+     },
+     {
+      "t": "Validated",
+      "fs": 11
+     },
+     {
+      "t": "Home",
+      "fs": 11
+     },
+     {
+      "t": "Leagues",
+      "fs": 11
+     },
+     {
+      "t": "Compare",
+      "fs": 11
+     },
+     {
+      "t": "Predict",
+      "fs": 11
+     },
+     {
+      "t": "Simulations",
+      "fs": 11
+     },
+     {
+      "t": "Models",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 21
+   },
+   "targets": {
+    "controls": 12,
+    "inlineTextLinks": 0,
+    "below44": 4,
+    "below24": 0,
+    "below44Samples": [
+     "select \"Season\" 107x39",
+     "button[tab] \"Matches\" 53x37",
+     "button[tab] \"Table\" 33x37",
+     "button[tab] \"Stats\" 31x37"
+    ]
+   }
+  },
+  {
+   "path": "/compare",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Compare teams"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 48,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 9,
+    "smallSamples": [
+     {
+      "t": "Historical data",
+      "fs": 11
+     },
+     {
+      "t": "Team A",
+      "fs": 11
+     },
+     {
+      "t": "Team B",
+      "fs": 11
+     },
+     {
+      "t": "Home",
+      "fs": 11
+     },
+     {
+      "t": "Leagues",
+      "fs": 11
+     },
+     {
+      "t": "Compare",
+      "fs": 11
+     },
+     {
+      "t": "Predict",
+      "fs": 11
+     },
+     {
+      "t": "Simulations",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 11,
+    "inlineTextLinks": 0,
+    "below44": 3,
+    "below24": 0,
+    "below44Samples": [
+     "select \"Team pool\" 167x32",
+     "select \"Team A\" 128x43",
+     "select \"Team B\" 128x43"
+    ]
+   }
+  },
+  {
+   "path": "/predict",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 202,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 12,
+    "smallSamples": [
+     {
+      "t": "Historical data",
+      "fs": 11
+     },
+     {
+      "t": "Validated",
+      "fs": 11
+     },
+     {
+      "t": "Scheduled",
+      "fs": 11
+     },
+     {
+      "t": "Provisional history",
+      "fs": 11
+     },
+     {
+      "t": "Stale history",
+      "fs": 11
+     },
+     {
+      "t": "Missing earlier results",
+      "fs": 11
+     },
+     {
+      "t": "Home",
+      "fs": 11
+     },
+     {
+      "t": "Leagues",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 25,
+    "inlineTextLinks": 0,
+    "below44": 16,
+    "below24": 10,
+    "below44Samples": [
+     "button[tab] \"Gameweek\" 70x37",
+     "button[tab] \"Manual head-to-head\" 139x37",
+     "button \"Previous gameweek\" 45x40",
+     "select \"Gameweek\" 203x43",
+     "button \"Next gameweek\" 45x40",
+     "button \"Predict gameweek\" 161x40",
+     "button \"Details\" 37x16",
+     "button \"Details\" 37x16",
+     "button \"Details\" 37x16",
+     "button \"Details\" 37x16",
+     "button \"Details\" 37x16",
+     "button \"Details\" 37x16"
+    ]
+   }
+  },
+  {
+   "path": "/simulations",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "World Cup simulator"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 58,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 9,
+    "smallSamples": [
+     {
+      "t": "Historical data",
+      "fs": 11
+     },
+     {
+      "t": "100–50,000. Default 1,00",
+      "fs": 11
+     },
+     {
+      "t": "Same seed and settings g",
+      "fs": 11
+     },
+     {
+      "t": "Home",
+      "fs": 11
+     },
+     {
+      "t": "Leagues",
+      "fs": 11
+     },
+     {
+      "t": "Compare",
+      "fs": 11
+     },
+     {
+      "t": "Predict",
+      "fs": 11
+     },
+     {
+      "t": "Simulations",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 16,
+    "inlineTextLinks": 0,
+    "below44": 9,
+    "below24": 2,
+    "below44Samples": [
+     "button[tab] \"World Cup\" 68x37",
+     "button[tab] \"Season simulator\" 109x37",
+     "button[tab] \"Simulation\" 68x37",
+     "button[tab] \"2026 bracket (real results\" 164x37",
+     "input \"INPUT\" 13x13",
+     "input \"INPUT\" 13x13",
+     "input \"Simulations\" 309x42",
+     "input \"Seed\" 309x42",
+     "button \"Run simulation\" 309x40"
+    ]
+   }
+  },
+  {
+   "path": "/models",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "FootIQ - Football Analytics",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Model performance"
+   ],
+   "interFaces": [],
+   "text": {
+    "nodes": 227,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 15,
+    "smallSamples": [
+     {
+      "t": "Historical data",
+      "fs": 11
+     },
+     {
+      "t": "15,645 matches, 3 outcom",
+      "fs": 11
+     },
+     {
+      "t": "3,491 matches",
+      "fs": 11
+     },
+     {
+      "t": "71.95% before the final",
+      "fs": 11
+     },
+     {
+      "t": "no unbiased test",
+      "fs": 11
+     },
+     {
+      "t": "Validated",
+      "fs": 11
+     },
+     {
+      "t": "Partially validated",
+      "fs": 11
+     },
+     {
+      "t": "36,881 matches",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 1
+   },
+   "targets": {
+    "controls": 10,
+    "inlineTextLinks": 0,
+    "below44": 3,
+    "below24": 1,
+    "below44Samples": [
+     "button[tab] \"Test season\" 72x37",
+     "button[tab] \"Forward holdout\" 107x37",
+     "summary \"Evaluation files used\" 309x16"
+    ]
+   }
+  }
+ ]
+}

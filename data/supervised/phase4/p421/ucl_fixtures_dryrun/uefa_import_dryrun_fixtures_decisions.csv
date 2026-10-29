@@ -1,0 +1,145 @@
+﻿row,matchday,date,home,away,home_entity,away_entity,status,hg,ag,action,reason,new_status
+0,1,2026-09-08,AEK Athens F.C.,LASK,CLUB:GRE:aek-athens-fc,CLUB:AUT:lask-linz,played,1.0,0.0,unchanged,,
+1,1,2026-09-08,Club Brugge KV,Aston Villa F.C.,CLUB:BEL:club-brugge,CLUB:ENG:aston-villa-fc,played,2.0,3.0,unchanged,,
+2,1,2026-09-08,Borussia Dortmund,Villarreal CF,CLUB:GER:borussia-dortmund,CLUB:ESP:villarreal-cf,played,3.0,2.0,unchanged,,
+3,1,2026-09-08,FC Porto,Manchester City F.C.,CLUB:POR:fc-porto,CLUB:ENG:manchester-city-fc,played,0.0,2.0,unchanged,,
+4,1,2026-09-08,Lille OSC,Real Betis,CLUB:FRA:lille-osc,CLUB:ESP:real-betis,played,2.0,3.0,unchanged,,
+5,1,2026-09-08,Real Madrid CF,Inter Milan,CLUB:ESP:real-madrid,CLUB:ITA:fc-internazionale-milano,played,2.0,1.0,unchanged,,
+6,1,2026-09-09,FC Barcelona,Feyenoord,CLUB:ESP:fc-barcelona,CLUB:NED:feyenoord-rotterdam,played,5.0,1.0,unchanged,,
+7,1,2026-09-09,VfB Stuttgart,Viking FK,CLUB:GER:vfb-stuttgart,CLUB:NOR:viking-fk,played,3.0,1.0,unchanged,,
+8,1,2026-09-09,Liverpool F.C.,Atlético Madrid,CLUB:ENG:liverpool-fc,CLUB:ESP:atletico-madrid,played,2.0,1.0,unchanged,,
+9,1,2026-09-09,Paris Saint-Germain FC,ŠK Slovan Bratislava,CLUB:FRA:paris-saint-germain,CLUB:SVK:sk-slovan-bratislava,played,6.0,1.0,unchanged,,
+10,1,2026-09-09,Sporting CP,Galatasaray S.K. (football),CLUB:POR:sporting-cp,CLUB:TUR:galatasaray-istanbul,played,3.0,1.0,unchanged,,
+11,1,2026-09-09,SSC Napoli,Arsenal F.C.,CLUB:ITA:ssc-napoli,CLUB:ENG:arsenal-fc,played,0.0,1.0,unchanged,,
+12,1,2026-09-10,Fenerbahçe S.K. (football),AS Roma,CLUB:TUR:fenerbahce-istanbul,CLUB:ITA:as-roma,played,1.0,1.0,unchanged,,
+13,1,2026-09-10,PSV Eindhoven,FC Shakhtar Donetsk,CLUB:NED:psv-eindhoven,CLUB:UKR:fc-shakhtar-donetsk,played,1.0,1.0,unchanged,,
+14,1,2026-09-10,Como 1907,RB Leipzig,CLUB:ITA:como-1907,CLUB:GER:rb-leipzig,played,4.0,1.0,unchanged,,
+15,1,2026-09-10,FC Bayern Munich,FK Bodø/Glimt,CLUB:GER:bayern-munchen,CLUB:NOR:bod-glimt,played,5.0,0.0,unchanged,,
+16,1,2026-09-10,Manchester United F.C.,Sabah FK (Azerbaijan),CLUB:ENG:manchester-united-fc,CLUB:AZE:sabah-fc,played,4.0,0.0,unchanged,,
+17,1,2026-09-10,SK Slavia Prague,RC Lens,CLUB:CZE:sk-slavia-praha,CLUB:FRA:rc-lens,played,2.0,3.0,unchanged,,
+18,2,2026-10-13,RC Lens,Sporting CP,CLUB:FRA:rc-lens,CLUB:POR:sporting-cp,played,0.0,2.0,unchanged,,
+19,2,2026-10-13,Sabah FK (Azerbaijan),SK Slavia Prague,CLUB:AZE:sabah-fc,CLUB:CZE:sk-slavia-praha,played,2.0,0.0,unchanged,,
+20,2,2026-10-13,Arsenal F.C.,Lille OSC,CLUB:ENG:arsenal-fc,CLUB:FRA:lille-osc,played,3.0,0.0,unchanged,,
+21,2,2026-10-13,Atlético Madrid,Manchester United F.C.,CLUB:ESP:atletico-madrid,CLUB:ENG:manchester-united-fc,played,2.0,0.0,unchanged,,
+22,2,2026-10-13,Inter Milan,Club Brugge KV,CLUB:ITA:fc-internazionale-milano,CLUB:BEL:club-brugge,played,3.0,4.0,unchanged,,
+23,2,2026-10-13,Galatasaray S.K. (football),FC Barcelona,CLUB:TUR:galatasaray-istanbul,CLUB:ESP:fc-barcelona,played,1.0,4.0,unchanged,,
+24,2,2026-10-13,RB Leipzig,PSV Eindhoven,CLUB:GER:rb-leipzig,CLUB:NED:psv-eindhoven,played,1.0,0.0,unchanged,,
+25,2,2026-10-13,Viking FK,FC Bayern Munich,CLUB:NOR:viking-fk,CLUB:GER:bayern-munchen,played,3.0,3.0,unchanged,,
+26,2,2026-10-13,Villarreal CF,SSC Napoli,CLUB:ESP:villarreal-cf,CLUB:ITA:ssc-napoli,played,3.0,1.0,unchanged,,
+27,2,2026-10-14,Feyenoord,Como 1907,CLUB:NED:feyenoord-rotterdam,CLUB:ITA:como-1907,played,3.0,2.0,unchanged,,
+28,2,2026-10-14,LASK,Liverpool F.C.,CLUB:AUT:lask-linz,CLUB:ENG:liverpool-fc,played,3.0,6.0,unchanged,,
+29,2,2026-10-14,AS Roma,Real Madrid CF,CLUB:ITA:as-roma,CLUB:ESP:real-madrid,played,3.0,4.0,unchanged,,
+30,2,2026-10-14,Aston Villa F.C.,Fenerbahçe S.K. (football),CLUB:ENG:aston-villa-fc,CLUB:TUR:fenerbahce-istanbul,played,6.0,0.0,unchanged,,
+31,2,2026-10-14,FC Shakhtar Donetsk,AEK Athens F.C.,CLUB:UKR:fc-shakhtar-donetsk,CLUB:GRE:aek-athens-fc,played,3.0,1.0,unchanged,,
+32,2,2026-10-14,FK Bodø/Glimt,Borussia Dortmund,CLUB:NOR:bod-glimt,CLUB:GER:borussia-dortmund,played,1.0,0.0,unchanged,,
+33,2,2026-10-14,Manchester City F.C.,Paris Saint-Germain FC,CLUB:ENG:manchester-city-fc,CLUB:FRA:paris-saint-germain,played,2.0,4.0,unchanged,,
+34,2,2026-10-14,Real Betis,FC Porto,CLUB:ESP:real-betis,CLUB:POR:fc-porto,played,3.0,2.0,unchanged,,
+35,2,2026-10-14,ŠK Slovan Bratislava,VfB Stuttgart,CLUB:SVK:sk-slovan-bratislava,CLUB:GER:vfb-stuttgart,played,0.0,3.0,unchanged,,
+36,3,2026-10-20,Fenerbahçe S.K. (football),SK Slavia Prague,CLUB:TUR:fenerbahce-istanbul,CLUB:CZE:sk-slavia-praha,played,2.0,2.0,unchanged,,
+37,3,2026-10-20,Sabah FK (Azerbaijan),Borussia Dortmund,CLUB:AZE:sabah-fc,CLUB:GER:borussia-dortmund,played,1.0,2.0,unchanged,,
+38,3,2026-10-20,AS Roma,ŠK Slovan Bratislava,CLUB:ITA:as-roma,CLUB:SVK:sk-slovan-bratislava,played,4.0,0.0,unchanged,,
+39,3,2026-10-20,FC Porto,PSV Eindhoven,CLUB:POR:fc-porto,CLUB:NED:psv-eindhoven,played,0.0,1.0,unchanged,,
+40,3,2026-10-20,Liverpool F.C.,Villarreal CF,CLUB:ENG:liverpool-fc,CLUB:ESP:villarreal-cf,played,4.0,3.0,unchanged,,
+41,3,2026-10-20,Manchester City F.C.,AEK Athens F.C.,CLUB:ENG:manchester-city-fc,CLUB:GRE:aek-athens-fc,played,5.0,1.0,unchanged,,
+42,3,2026-10-20,Paris Saint-Germain FC,FC Barcelona,CLUB:FRA:paris-saint-germain,CLUB:ESP:fc-barcelona,played,4.0,2.0,unchanged,,
+43,3,2026-10-20,SSC Napoli,FK Bodø/Glimt,CLUB:ITA:ssc-napoli,CLUB:NOR:bod-glimt,played,4.0,3.0,unchanged,,
+44,3,2026-10-20,VfB Stuttgart,Atlético Madrid,CLUB:GER:vfb-stuttgart,CLUB:ESP:atletico-madrid,played,1.0,1.0,unchanged,,
+45,3,2026-10-21,Como 1907,Manchester United F.C.,CLUB:ITA:como-1907,CLUB:ENG:manchester-united-fc,played,4.0,1.0,unchanged,,
+46,3,2026-10-21,Lille OSC,Galatasaray S.K. (football),CLUB:FRA:lille-osc,CLUB:TUR:galatasaray-istanbul,played,2.0,4.0,unchanged,,
+47,3,2026-10-21,Aston Villa F.C.,Viking FK,CLUB:ENG:aston-villa-fc,CLUB:NOR:viking-fk,played,3.0,1.0,unchanged,,
+48,3,2026-10-21,Club Brugge KV,RC Lens,CLUB:BEL:club-brugge,CLUB:FRA:rc-lens,played,3.0,0.0,unchanged,,
+49,3,2026-10-21,FC Bayern Munich,Arsenal F.C.,CLUB:GER:bayern-munchen,CLUB:ENG:arsenal-fc,played,2.0,2.0,unchanged,,
+50,3,2026-10-21,Inter Milan,FC Shakhtar Donetsk,CLUB:ITA:fc-internazionale-milano,CLUB:UKR:fc-shakhtar-donetsk,played,1.0,0.0,unchanged,,
+51,3,2026-10-21,Real Madrid CF,RB Leipzig,CLUB:ESP:real-madrid,CLUB:GER:rb-leipzig,played,4.0,1.0,unchanged,,
+52,3,2026-10-21,Real Betis,Feyenoord,CLUB:ESP:real-betis,CLUB:NED:feyenoord-rotterdam,played,1.0,0.0,unchanged,,
+53,3,2026-10-21,Sporting CP,LASK,CLUB:POR:sporting-cp,CLUB:AUT:lask-linz,played,2.0,3.0,unchanged,,
+54,4,2026-11-03,FC Shakhtar Donetsk,Sporting CP,CLUB:UKR:fc-shakhtar-donetsk,CLUB:POR:sporting-cp,scheduled,,,insert_fixture,,scheduled
+55,4,2026-11-03,Galatasaray S.K. (football),VfB Stuttgart,CLUB:TUR:galatasaray-istanbul,CLUB:GER:vfb-stuttgart,scheduled,,,insert_fixture,,scheduled
+56,4,2026-11-03,Atlético Madrid,FC Bayern Munich,CLUB:ESP:atletico-madrid,CLUB:GER:bayern-munchen,scheduled,,,insert_fixture,,scheduled
+57,4,2026-11-03,FC Barcelona,Aston Villa F.C.,CLUB:ESP:fc-barcelona,CLUB:ENG:aston-villa-fc,scheduled,,,insert_fixture,,scheduled
+58,4,2026-11-03,Feyenoord,Inter Milan,CLUB:NED:feyenoord-rotterdam,CLUB:ITA:fc-internazionale-milano,scheduled,,,insert_fixture,,scheduled
+59,4,2026-11-03,FK Bodø/Glimt,Lille OSC,CLUB:NOR:bod-glimt,CLUB:FRA:lille-osc,scheduled,,,insert_fixture,,scheduled
+60,4,2026-11-03,LASK,ŠK Slovan Bratislava,CLUB:AUT:lask-linz,CLUB:SVK:sk-slovan-bratislava,scheduled,,,insert_fixture,,scheduled
+61,4,2026-11-03,Manchester United F.C.,AS Roma,CLUB:ENG:manchester-united-fc,CLUB:ITA:as-roma,scheduled,,,insert_fixture,,scheduled
+62,4,2026-11-03,Villarreal CF,Paris Saint-Germain FC,CLUB:ESP:villarreal-cf,CLUB:FRA:paris-saint-germain,scheduled,,,insert_fixture,,scheduled
+63,4,2026-11-04,AEK Athens F.C.,Real Madrid CF,CLUB:GRE:aek-athens-fc,CLUB:ESP:real-madrid,scheduled,,,insert_fixture,,scheduled
+64,4,2026-11-04,Fenerbahçe S.K. (football),Liverpool F.C.,CLUB:TUR:fenerbahce-istanbul,CLUB:ENG:liverpool-fc,scheduled,,,insert_fixture,,scheduled
+65,4,2026-11-04,Borussia Dortmund,Real Betis,CLUB:GER:borussia-dortmund,CLUB:ESP:real-betis,scheduled,,,insert_fixture,,scheduled
+66,4,2026-11-04,FC Porto,SSC Napoli,CLUB:POR:fc-porto,CLUB:ITA:ssc-napoli,scheduled,,,insert_fixture,,scheduled
+67,4,2026-11-04,PSV Eindhoven,Club Brugge KV,CLUB:NED:psv-eindhoven,CLUB:BEL:club-brugge,scheduled,,,insert_fixture,,scheduled
+68,4,2026-11-04,RB Leipzig,Manchester City F.C.,CLUB:GER:rb-leipzig,CLUB:ENG:manchester-city-fc,scheduled,,,insert_fixture,,scheduled
+69,4,2026-11-04,RC Lens,Como 1907,CLUB:FRA:rc-lens,CLUB:ITA:como-1907,scheduled,,,insert_fixture,,scheduled
+70,4,2026-11-04,SK Slavia Prague,Arsenal F.C.,CLUB:CZE:sk-slavia-praha,CLUB:ENG:arsenal-fc,scheduled,,,insert_fixture,,scheduled
+71,4,2026-11-04,Viking FK,Sabah FK (Azerbaijan),CLUB:NOR:viking-fk,CLUB:AZE:sabah-fc,scheduled,,,insert_fixture,,scheduled
+72,5,2026-11-24,FK Bodø/Glimt,LASK,CLUB:NOR:bod-glimt,CLUB:AUT:lask-linz,scheduled,,,insert_fixture,,scheduled
+73,5,2026-11-24,Galatasaray S.K. (football),Aston Villa F.C.,CLUB:TUR:galatasaray-istanbul,CLUB:ENG:aston-villa-fc,scheduled,,,insert_fixture,,scheduled
+74,5,2026-11-24,Arsenal F.C.,Borussia Dortmund,CLUB:ENG:arsenal-fc,CLUB:GER:borussia-dortmund,scheduled,,,insert_fixture,,scheduled
+75,5,2026-11-24,Como 1907,AEK Athens F.C.,CLUB:ITA:como-1907,CLUB:GRE:aek-athens-fc,scheduled,,,insert_fixture,,scheduled
+76,5,2026-11-24,Feyenoord,FC Porto,CLUB:NED:feyenoord-rotterdam,CLUB:POR:fc-porto,scheduled,,,insert_fixture,,scheduled
+77,5,2026-11-24,Manchester City F.C.,SSC Napoli,CLUB:ENG:manchester-city-fc,CLUB:ITA:ssc-napoli,scheduled,,,insert_fixture,,scheduled
+78,5,2026-11-24,RB Leipzig,RC Lens,CLUB:GER:rb-leipzig,CLUB:FRA:rc-lens,scheduled,,,insert_fixture,,scheduled
+79,5,2026-11-24,Real Madrid CF,PSV Eindhoven,CLUB:ESP:real-madrid,CLUB:NED:psv-eindhoven,scheduled,,,insert_fixture,,scheduled
+80,5,2026-11-24,ŠK Slovan Bratislava,Real Betis,CLUB:SVK:sk-slovan-bratislava,CLUB:ESP:real-betis,scheduled,,,insert_fixture,,scheduled
+81,5,2026-11-25,Sabah FK (Azerbaijan),FC Barcelona,CLUB:AZE:sabah-fc,CLUB:ESP:fc-barcelona,scheduled,,,insert_fixture,,scheduled
+82,5,2026-11-25,SK Slavia Prague,Villarreal CF,CLUB:CZE:sk-slavia-praha,CLUB:ESP:villarreal-cf,scheduled,,,insert_fixture,,scheduled
+83,5,2026-11-25,Atlético Madrid,Viking FK,CLUB:ESP:atletico-madrid,CLUB:NOR:viking-fk,scheduled,,,insert_fixture,,scheduled
+84,5,2026-11-25,Club Brugge KV,Liverpool F.C.,CLUB:BEL:club-brugge,CLUB:ENG:liverpool-fc,scheduled,,,insert_fixture,,scheduled
+85,5,2026-11-25,Inter Milan,VfB Stuttgart,CLUB:ITA:fc-internazionale-milano,CLUB:GER:vfb-stuttgart,scheduled,,,insert_fixture,,scheduled
+86,5,2026-11-25,FC Shakhtar Donetsk,Fenerbahçe S.K. (football),CLUB:UKR:fc-shakhtar-donetsk,CLUB:TUR:fenerbahce-istanbul,scheduled,,,insert_fixture,,scheduled
+87,5,2026-11-25,Lille OSC,FC Bayern Munich,CLUB:FRA:lille-osc,CLUB:GER:bayern-munchen,scheduled,,,insert_fixture,,scheduled
+88,5,2026-11-25,Paris Saint-Germain FC,AS Roma,CLUB:FRA:paris-saint-germain,CLUB:ITA:as-roma,scheduled,,,insert_fixture,,scheduled
+89,5,2026-11-25,Sporting CP,Manchester United F.C.,CLUB:POR:sporting-cp,CLUB:ENG:manchester-united-fc,scheduled,,,insert_fixture,,scheduled
+90,6,2026-12-08,Viking FK,Feyenoord,CLUB:NOR:viking-fk,CLUB:NED:feyenoord-rotterdam,scheduled,,,insert_fixture,,scheduled
+91,6,2026-12-08,Villarreal CF,Sabah FK (Azerbaijan),CLUB:ESP:villarreal-cf,CLUB:AZE:sabah-fc,scheduled,,,insert_fixture,,scheduled
+92,6,2026-12-08,AEK Athens F.C.,Galatasaray S.K. (football),CLUB:GRE:aek-athens-fc,CLUB:TUR:galatasaray-istanbul,scheduled,,,insert_fixture,,scheduled
+93,6,2026-12-08,AS Roma,Sporting CP,CLUB:ITA:as-roma,CLUB:POR:sporting-cp,scheduled,,,insert_fixture,,scheduled
+94,6,2026-12-08,Aston Villa F.C.,Paris Saint-Germain FC,CLUB:ENG:aston-villa-fc,CLUB:FRA:paris-saint-germain,scheduled,,,insert_fixture,,scheduled
+95,6,2026-12-08,FC Barcelona,Manchester City F.C.,CLUB:ESP:fc-barcelona,CLUB:ENG:manchester-city-fc,scheduled,,,insert_fixture,,scheduled
+96,6,2026-12-08,FC Bayern Munich,SK Slavia Prague,CLUB:GER:bayern-munchen,CLUB:CZE:sk-slavia-praha,scheduled,,,insert_fixture,,scheduled
+97,6,2026-12-08,Manchester United F.C.,RB Leipzig,CLUB:ENG:manchester-united-fc,CLUB:GER:rb-leipzig,scheduled,,,insert_fixture,,scheduled
+98,6,2026-12-08,SSC Napoli,Club Brugge KV,CLUB:ITA:ssc-napoli,CLUB:BEL:club-brugge,scheduled,,,insert_fixture,,scheduled
+99,6,2026-12-09,Real Betis,Como 1907,CLUB:ESP:real-betis,CLUB:ITA:como-1907,scheduled,,,insert_fixture,,scheduled
+100,6,2026-12-09,ŠK Slovan Bratislava,FC Shakhtar Donetsk,CLUB:SVK:sk-slovan-bratislava,CLUB:UKR:fc-shakhtar-donetsk,scheduled,,,insert_fixture,,scheduled
+101,6,2026-12-09,Arsenal F.C.,Real Madrid CF,CLUB:ENG:arsenal-fc,CLUB:ESP:real-madrid,scheduled,,,insert_fixture,,scheduled
+102,6,2026-12-09,Borussia Dortmund,Inter Milan,CLUB:GER:borussia-dortmund,CLUB:ITA:fc-internazionale-milano,scheduled,,,insert_fixture,,scheduled
+103,6,2026-12-09,LASK,Fenerbahçe S.K. (football),CLUB:AUT:lask-linz,CLUB:TUR:fenerbahce-istanbul,scheduled,,,insert_fixture,,scheduled
+104,6,2026-12-09,Liverpool F.C.,FC Porto,CLUB:ENG:liverpool-fc,CLUB:POR:fc-porto,scheduled,,,insert_fixture,,scheduled
+105,6,2026-12-09,PSV Eindhoven,Atlético Madrid,CLUB:NED:psv-eindhoven,CLUB:ESP:atletico-madrid,scheduled,,,insert_fixture,,scheduled
+106,6,2026-12-09,RC Lens,FK Bodø/Glimt,CLUB:FRA:rc-lens,CLUB:NOR:bod-glimt,scheduled,,,insert_fixture,,scheduled
+107,6,2026-12-09,VfB Stuttgart,Lille OSC,CLUB:GER:vfb-stuttgart,CLUB:FRA:lille-osc,scheduled,,,insert_fixture,,scheduled
+108,7,2027-01-19,FK Bodø/Glimt,Atlético Madrid,CLUB:NOR:bod-glimt,CLUB:ESP:atletico-madrid,scheduled,,,insert_fixture,,scheduled
+109,7,2027-01-19,Galatasaray S.K. (football),Feyenoord,CLUB:TUR:galatasaray-istanbul,CLUB:NED:feyenoord-rotterdam,scheduled,,,insert_fixture,,scheduled
+110,7,2027-01-19,AEK Athens F.C.,AS Roma,CLUB:GRE:aek-athens-fc,CLUB:ITA:as-roma,scheduled,,,insert_fixture,,scheduled
+111,7,2027-01-19,Aston Villa F.C.,Borussia Dortmund,CLUB:ENG:aston-villa-fc,CLUB:GER:borussia-dortmund,scheduled,,,insert_fixture,,scheduled
+112,7,2027-01-19,Inter Milan,Liverpool F.C.,CLUB:ITA:fc-internazionale-milano,CLUB:ENG:liverpool-fc,scheduled,,,insert_fixture,,scheduled
+113,7,2027-01-19,FC Porto,SK Slavia Prague,CLUB:POR:fc-porto,CLUB:CZE:sk-slavia-praha,scheduled,,,insert_fixture,,scheduled
+114,7,2027-01-19,Lille OSC,ŠK Slovan Bratislava,CLUB:FRA:lille-osc,CLUB:SVK:sk-slovan-bratislava,scheduled,,,insert_fixture,,scheduled
+115,7,2027-01-19,Real Madrid CF,LASK,CLUB:ESP:real-madrid,CLUB:AUT:lask-linz,scheduled,,,insert_fixture,,scheduled
+116,7,2027-01-19,VfB Stuttgart,Club Brugge KV,CLUB:GER:vfb-stuttgart,CLUB:BEL:club-brugge,scheduled,,,insert_fixture,,scheduled
+117,7,2027-01-20,Fenerbahçe S.K. (football),Villarreal CF,CLUB:TUR:fenerbahce-istanbul,CLUB:ESP:villarreal-cf,scheduled,,,insert_fixture,,scheduled
+118,7,2027-01-20,Sabah FK (Azerbaijan),SSC Napoli,CLUB:AZE:sabah-fc,CLUB:ITA:ssc-napoli,scheduled,,,insert_fixture,,scheduled
+119,7,2027-01-20,Como 1907,Paris Saint-Germain FC,CLUB:ITA:como-1907,CLUB:FRA:paris-saint-germain,scheduled,,,insert_fixture,,scheduled
+120,7,2027-01-20,Manchester United F.C.,FC Bayern Munich,CLUB:ENG:manchester-united-fc,CLUB:GER:bayern-munchen,scheduled,,,insert_fixture,,scheduled
+121,7,2027-01-20,RB Leipzig,FC Shakhtar Donetsk,CLUB:GER:rb-leipzig,CLUB:UKR:fc-shakhtar-donetsk,scheduled,,,insert_fixture,,scheduled
+122,7,2027-01-20,RC Lens,Manchester City F.C.,CLUB:FRA:rc-lens,CLUB:ENG:manchester-city-fc,scheduled,,,insert_fixture,,scheduled
+123,7,2027-01-20,Real Betis,Arsenal F.C.,CLUB:ESP:real-betis,CLUB:ENG:arsenal-fc,scheduled,,,insert_fixture,,scheduled
+124,7,2027-01-20,Sporting CP,FC Barcelona,CLUB:POR:sporting-cp,CLUB:ESP:fc-barcelona,scheduled,,,insert_fixture,,scheduled
+125,7,2027-01-20,Viking FK,PSV Eindhoven,CLUB:NOR:viking-fk,CLUB:NED:psv-eindhoven,scheduled,,,insert_fixture,,scheduled
+126,8,2027-01-27,Arsenal F.C.,Sabah FK (Azerbaijan),CLUB:ENG:arsenal-fc,CLUB:AZE:sabah-fc,scheduled,,,insert_fixture,,scheduled
+127,8,2027-01-27,AS Roma,Lille OSC,CLUB:ITA:as-roma,CLUB:FRA:lille-osc,scheduled,,,insert_fixture,,scheduled
+128,8,2027-01-27,Atlético Madrid,Fenerbahçe S.K. (football),CLUB:ESP:atletico-madrid,CLUB:TUR:fenerbahce-istanbul,scheduled,,,insert_fixture,,scheduled
+129,8,2027-01-27,Borussia Dortmund,AEK Athens F.C.,CLUB:GER:borussia-dortmund,CLUB:GRE:aek-athens-fc,scheduled,,,insert_fixture,,scheduled
+130,8,2027-01-27,Club Brugge KV,FK Bodø/Glimt,CLUB:BEL:club-brugge,CLUB:NOR:bod-glimt,scheduled,,,insert_fixture,,scheduled
+131,8,2027-01-27,FC Bayern Munich,Real Betis,CLUB:GER:bayern-munchen,CLUB:ESP:real-betis,scheduled,,,insert_fixture,,scheduled
+132,8,2027-01-27,FC Barcelona,Como 1907,CLUB:ESP:fc-barcelona,CLUB:ITA:como-1907,scheduled,,,insert_fixture,,scheduled
+133,8,2027-01-27,FC Shakhtar Donetsk,Real Madrid CF,CLUB:UKR:fc-shakhtar-donetsk,CLUB:ESP:real-madrid,scheduled,,,insert_fixture,,scheduled
+134,8,2027-01-27,Feyenoord,RB Leipzig,CLUB:NED:feyenoord-rotterdam,CLUB:GER:rb-leipzig,scheduled,,,insert_fixture,,scheduled
+135,8,2027-01-27,LASK,FC Porto,CLUB:AUT:lask-linz,CLUB:POR:fc-porto,scheduled,,,insert_fixture,,scheduled
+136,8,2027-01-27,Liverpool F.C.,RC Lens,CLUB:ENG:liverpool-fc,CLUB:FRA:rc-lens,scheduled,,,insert_fixture,,scheduled
+137,8,2027-01-27,Manchester City F.C.,Sporting CP,CLUB:ENG:manchester-city-fc,CLUB:POR:sporting-cp,scheduled,,,insert_fixture,,scheduled
+138,8,2027-01-27,Paris Saint-Germain FC,Galatasaray S.K. (football),CLUB:FRA:paris-saint-germain,CLUB:TUR:galatasaray-istanbul,scheduled,,,insert_fixture,,scheduled
+139,8,2027-01-27,PSV Eindhoven,VfB Stuttgart,CLUB:NED:psv-eindhoven,CLUB:GER:vfb-stuttgart,scheduled,,,insert_fixture,,scheduled
+140,8,2027-01-27,SK Slavia Prague,Aston Villa F.C.,CLUB:CZE:sk-slavia-praha,CLUB:ENG:aston-villa-fc,scheduled,,,insert_fixture,,scheduled
+141,8,2027-01-27,SSC Napoli,Viking FK,CLUB:ITA:ssc-napoli,CLUB:NOR:viking-fk,scheduled,,,insert_fixture,,scheduled
+142,8,2027-01-27,Villarreal CF,Manchester United F.C.,CLUB:ESP:villarreal-cf,CLUB:ENG:manchester-united-fc,scheduled,,,insert_fixture,,scheduled
+143,8,2027-01-27,ŠK Slovan Bratislava,Inter Milan,CLUB:SVK:sk-slovan-bratislava,CLUB:ITA:fc-internazionale-milano,scheduled,,,insert_fixture,,scheduled

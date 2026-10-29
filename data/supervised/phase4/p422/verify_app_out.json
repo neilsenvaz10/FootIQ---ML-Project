@@ -1,0 +1,608 @@
+{
+ "health": [
+  200,
+  {
+   "status": "ok",
+   "club_prediction_ready": true,
+   "data_rows": 15855
+  }
+ ],
+ "competitions": [
+  "EPL",
+  "LALIGA",
+  "BUNDESLIGA",
+  "SERIEA",
+  "LIGUE1",
+  "UCL"
+ ],
+ "per_competition": {
+  "EPL": {
+   "dashboard": [
+    200,
+    80
+   ],
+   "standings": {
+    "teams": 20,
+    "games_counted": 80,
+    "top3": [
+     [
+      "Manchester City FC",
+      8,
+      21
+     ],
+     [
+      "Arsenal FC",
+      8,
+      21
+     ],
+     [
+      "Brighton & Hove Albion FC",
+      8,
+      16
+     ]
+    ]
+   },
+   "predict": [
+    200,
+    "Validated",
+    [
+     "away",
+     "competition",
+     "competition_key",
+     "data_through",
+     "date",
+     "elo_only",
+     "history",
+     "home",
+     "inputs",
+     "notes",
+     "primary",
+     "secondary"
+    ]
+   ],
+   "team_page": 200,
+   "hub_counts": {
+    "upcoming": 300,
+    "awaiting_result": 0,
+    "completed": 80,
+    "other": 0,
+    "all": 380
+   },
+   "freshness": {
+    "latest": "2026-10-25",
+    "status": "historical_only",
+    "warnings": []
+   }
+  },
+  "LALIGA": {
+   "dashboard": [
+    200,
+    99
+   ],
+   "standings": {
+    "teams": 20,
+    "games_counted": 99,
+    "top3": [
+     [
+      "FC Barcelona",
+      10,
+      27
+     ],
+     [
+      "Club Atlético de Madrid",
+      10,
+      25
+     ],
+     [
+      "Real Madrid CF",
+      10,
+      24
+     ]
+    ]
+   },
+   "predict": [
+    200,
+    "Validated",
+    [
+     "away",
+     "competition",
+     "competition_key",
+     "data_through",
+     "date",
+     "elo_only",
+     "history",
+     "home",
+     "inputs",
+     "notes",
+     "primary",
+     "secondary"
+    ]
+   ],
+   "team_page": 200,
+   "hub_counts": {
+    "upcoming": 280,
+    "awaiting_result": 1,
+    "completed": 99,
+    "other": 0,
+    "all": 380
+   },
+   "freshness": {
+    "latest": "2026-10-26",
+    "status": "startup_updated",
+    "warnings": [
+     "1 fixture(s) are past their date and have no result in the data (oldest 2026-10-10)."
+    ]
+   }
+  },
+  "BUNDESLIGA": {
+   "dashboard": [
+    200,
+    63
+   ],
+   "standings": {
+    "teams": 18,
+    "games_counted": 63,
+    "top3": [
+     [
+      "FC Bayern München",
+      7,
+      17
+     ],
+     [
+      "Borussia Dortmund",
+      7,
+      17
+     ],
+     [
+      "SC Freiburg",
+      7,
+      13
+     ]
+    ]
+   },
+   "predict": [
+    200,
+    "Validated",
+    [
+     "away",
+     "competition",
+     "competition_key",
+     "data_through",
+     "date",
+     "elo_only",
+     "history",
+     "home",
+     "inputs",
+     "notes",
+     "primary",
+     "secondary"
+    ]
+   ],
+   "team_page": 200,
+   "hub_counts": {
+    "upcoming": 243,
+    "awaiting_result": 0,
+    "completed": 63,
+    "other": 0,
+    "all": 306
+   },
+   "freshness": {
+    "latest": "2026-10-25",
+    "status": "startup_updated",
+    "warnings": []
+   }
+  },
+  "SERIEA": {
+   "dashboard": [
+    200,
+    80
+   ],
+   "standings": {
+    "teams": 20,
+    "games_counted": 80,
+    "top3": [
+     [
+      "FC Internazionale Milano",
+      8,
+      22
+     ],
+     [
+      "SS Lazio",
+      8,
+      22
+     ],
+     [
+      "AS Roma",
+      8,
+      18
+     ]
+    ]
+   },
+   "predict": [
+    200,
+    "Validated",
+    [
+     "away",
+     "competition",
+     "competition_key",
+     "data_through",
+     "date",
+     "elo_only",
+     "history",
+     "home",
+     "inputs",
+     "notes",
+     "primary",
+     "secondary"
+    ]
+   ],
+   "team_page": 200,
+   "hub_counts": {
+    "upcoming": 297,
+    "awaiting_result": 3,
+    "completed": 80,
+    "other": 0,
+    "all": 380
+   },
+   "freshness": {
+    "latest": "2026-10-25",
+    "status": "historical_only",
+    "warnings": []
+   }
+  },
+  "LIGUE1": {
+   "dashboard": [
+    200,
+    72
+   ],
+   "standings": {
+    "teams": 18,
+    "games_counted": 72,
+    "top3": [
+     [
+      "Paris Saint-Germain FC",
+      8,
+      17
+     ],
+     [
+      "Stade Rennais FC 1901",
+      8,
+      16
+     ],
+     [
+      "Lille OSC",
+      8,
+      15
+     ]
+    ]
+   },
+   "predict": [
+    200,
+    "Validated",
+    [
+     "away",
+     "competition",
+     "competition_key",
+     "data_through",
+     "date",
+     "elo_only",
+     "history",
+     "home",
+     "inputs",
+     "notes",
+     "primary",
+     "secondary"
+    ]
+   ],
+   "team_page": 200,
+   "hub_counts": {
+    "upcoming": 234,
+    "awaiting_result": 0,
+    "completed": 72,
+    "other": 0,
+    "all": 306
+   },
+   "freshness": {
+    "latest": "2026-10-26",
+    "status": "historical_only",
+    "warnings": []
+   }
+  },
+  "UCL": {
+   "dashboard": [
+    200,
+    54
+   ],
+   "predict": [
+    200,
+    "Not validated (indicative only)",
+    [
+     "away",
+     "competition",
+     "competition_key",
+     "data_through",
+     "date",
+     "elo_only",
+     "history",
+     "home",
+     "inputs",
+     "notes",
+     "primary",
+     "secondary"
+    ]
+   ],
+   "team_page": 200,
+   "hub_counts": {
+    "upcoming": 90,
+    "awaiting_result": 0,
+    "completed": 54,
+    "other": 0,
+    "all": 144
+   },
+   "freshness": {
+    "latest": "2026-10-21",
+    "status": "historical_only",
+    "warnings": [
+     "2026-27: 54 of 144 matches are in the data."
+    ]
+   }
+  }
+ },
+ "ucl_hub": {
+  "upcoming": {
+   "counts": {
+    "upcoming": 90,
+    "awaiting_result": 0,
+    "completed": 54,
+    "other": 0,
+    "all": 144
+   },
+   "statuses": [
+    "scheduled"
+   ],
+   "first": [
+    [
+     "2026-11-03",
+     4,
+     "LASK Linz",
+     "ŠK Slovan Bratislava"
+    ],
+    [
+     "2026-11-03",
+     4,
+     "Manchester United FC",
+     "AS Roma"
+    ],
+    [
+     "2026-11-03",
+     4,
+     "Club Atlético de Madrid",
+     "FC Bayern München"
+    ]
+   ],
+   "badge": [
+    "Not validated (indicative only)"
+   ]
+  },
+  "matchday5": {
+   "n": 18,
+   "dates": [
+    "2026-11-24",
+    "2026-11-25"
+   ]
+  },
+  "arsenal": {
+   "counts": {
+    "upcoming": 5,
+    "awaiting_result": 0,
+    "completed": 3,
+    "other": 0,
+    "all": 8
+   },
+   "rows": [
+    [
+     8,
+     "scheduled",
+     "Arsenal FC",
+     "Sabah FK (Azerbaijan)"
+    ],
+    [
+     7,
+     "scheduled",
+     "Real Betis Balompié",
+     "Arsenal FC"
+    ],
+    [
+     6,
+     "scheduled",
+     "Arsenal FC",
+     "Real Madrid CF"
+    ],
+    [
+     5,
+     "scheduled",
+     "Arsenal FC",
+     "Borussia Dortmund"
+    ],
+    [
+     4,
+     "scheduled",
+     "Slavia Praha",
+     "Arsenal FC"
+    ],
+    [
+     3,
+     "completed",
+     "FC Bayern München",
+     "Arsenal FC"
+    ],
+    [
+     2,
+     "completed",
+     "Arsenal FC",
+     "Lille OSC"
+    ],
+    [
+     1,
+     "completed",
+     "SSC Napoli",
+     "Arsenal FC"
+    ]
+   ]
+  },
+  "completed": {
+   "counts": {
+    "upcoming": 90,
+    "awaiting_result": 0,
+    "completed": 54,
+    "other": 0,
+    "all": 144
+   },
+   "statuses": [
+    "completed"
+   ]
+  },
+  "all_six_upcoming": {
+   "counts": {
+    "upcoming": 1444,
+    "awaiting_result": 4,
+    "completed": 448,
+    "other": 0,
+    "all": 1896
+   },
+   "scope": [
+    "EPL",
+    "LALIGA",
+    "BUNDESLIGA",
+    "SERIEA",
+    "LIGUE1",
+    "UCL"
+   ]
+  },
+  "awaiting": 0
+ },
+ "ucl_prediction_for_stored_fixture": {
+  "status": 200,
+  "badge": "Not validated (indicative only)",
+  "notes": [
+   "This competition is NOT validated: the club models were evaluated on domestic leagues only. Probabilities are indicative."
+  ],
+  "keys": [
+   "away",
+   "competition",
+   "competition_key",
+   "data_through",
+   "date",
+   "elo_only",
+   "history",
+   "home",
+   "inputs",
+   "notes",
+   "primary",
+   "secondary",
+   "validation_badge",
+   "validation_basis"
+  ]
+ },
+ "ucl_league_phase": {
+  "played": 54,
+  "in_data": 54,
+  "expected": 144,
+  "teams": 36,
+  "criteria": "1-5 (provisional: the league phase is not finished)",
+  "top3": [
+   [
+    1,
+    "Paris Saint-Germain FC",
+    3,
+    9
+   ],
+   [
+    2,
+    "Aston Villa FC",
+    3,
+    9
+   ],
+   [
+    3,
+    "Liverpool FC",
+    3,
+    9
+   ]
+  ]
+ },
+ "saved_simulations": [
+  [
+   {
+    "run_id": 1,
+    "created_utc": "2026-10-28T04:36:39Z",
+    "n_simulations": 10000,
+    "seed": 1398654699,
+    "model_id": "club_v1 multinomial_logreg (frozen 2026-10-20)",
+    "data_cutoff_date": "2026-10-25",
+    "mode": "points_only"
+   }
+  ],
+  [
+   {
+    "run_id": 2,
+    "created_utc": "2026-10-28T04:37:39Z",
+    "n_simulations": 10000,
+    "seed": 1499656622,
+    "model_id": "club_v1 multinomial_logreg (frozen 2026-10-20)",
+    "data_cutoff_date": "2026-10-25",
+    "mode": "points_only"
+   }
+  ]
+ ],
+ "archived": {
+  "UEL": [
+   404,
+   422
+  ],
+  "UECL": [
+   404,
+   422
+  ],
+  "WC": [
+   404,
+   422
+  ],
+  "UNL": [
+   404,
+   422
+  ],
+  "COPA": [
+   404,
+   422
+  ]
+ },
+ "sync": {
+  "mode": "startup",
+  "approved": [
+   "openligadb"
+  ],
+  "recent": [
+   [
+    "startup_check",
+    "2026-10-28T10:44:41Z",
+    "ok",
+    2
+   ],
+   [
+    "startup_check",
+    "2026-10-28T10:13:14Z",
+    "ok",
+    2
+   ]
+  ],
+  "states": {
+   "EPL": "stale",
+   "LALIGA": "stale",
+   "BUNDESLIGA": "fresh",
+   "SERIEA": "stale",
+   "LIGUE1": "stale",
+   "UCL": "stale"
+  }
+ }
+}

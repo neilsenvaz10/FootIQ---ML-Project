@@ -1,0 +1,427 @@
+{
+ "step": "bundesliga",
+ "started_utc": "2026-10-27T14:14:57Z",
+ "execute": false,
+ "preconditions": {
+  "step": "bundesliga",
+  "expected_previous": "baseline v2",
+  "path": "D:\\Foot IQ\\data\\footiq.sqlite",
+  "bytes": 228655104,
+  "physical_sha256": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+  "logical_sha256": "e32d759bddef1688116c1c91430cbf10384724e525971994f4e085312a96f29d",
+  "integrity_check": "ok",
+  "physical_matches_record": true,
+  "logical_matches_record": true,
+  "git_staged": [],
+  "git_head": "970f461 Mini Project Scope Update",
+  "live_enabled": false,
+  "application_processes": [],
+  "exclusive_lock_available": true,
+  "snapshot_sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46",
+  "snapshot_matches_record": true,
+  "failed": []
+ },
+ "backup": {
+  "path": "data\\backups\\footiq.20261027T141506Z.pre-bundesliga.sqlite",
+  "bytes": 228655104,
+  "physical_sha256": "b6cbd1ebaf81621cf9e6fe11bd96b60ec51ce4477057a517fea0598267ca7bd3",
+  "logical_equals_production": true,
+  "integrity_check": "ok",
+  "restore": {
+   "logical_equals_production": true,
+   "integrity_check": "ok",
+   "matches": 223510
+  },
+  "restored_path": "D:\\Foot IQ\\data\\supervised\\phase4\\p48d\\restore_test_bundesliga.sqlite"
+ },
+ "reconciliation_on_private_copy": {
+  "import_result": {
+   "run_id": 9,
+   "stats": {
+    "inserted": 0,
+    "updated": 2,
+    "unchanged": 0,
+    "confirmed": 0,
+    "quarantined": 0
+   },
+   "allowed_source_refs": [
+    "83213",
+    "83214"
+   ],
+   "started_utc": "2026-10-27T14:15:22Z"
+  },
+  "verification": {
+   "problems": [],
+   "row_changes": {
+    "deutschland:1-bundesliga:2026-27:L110": {
+     "model_home_entity": [
+      null,
+      "CLUB:GER:tsg-1899-hoffenheim"
+     ],
+     "model_away_entity": [
+      null,
+      "CLUB:GER:bayer-04-leverkusen"
+     ],
+     "status": [
+      "scheduled",
+      "completed"
+     ],
+     "home_goals_final": [
+      null,
+      3
+     ],
+     "away_goals_final": [
+      null,
+      0
+     ],
+     "home_goals_90": [
+      null,
+      3
+     ],
+     "away_goals_90": [
+      null,
+      0
+     ],
+     "label_90_status": [
+      null,
+      "confirmed"
+     ],
+     "outcome": [
+      null,
+      "H"
+     ],
+     "rated": [
+      null,
+      1
+     ],
+     "regular": [
+      null,
+      1
+     ],
+     "in_universe": [
+      0,
+      1
+     ],
+     "source_system": [
+      "openfootball (CC0 / public domain)",
+      "openligadb"
+     ],
+     "licence": [
+      "CC0-1.0",
+      "ODbL-1.0"
+     ]
+    },
+    "deutschland:1-bundesliga:2026-27:L111": {
+     "model_home_entity": [
+      null,
+      "CLUB:GER:sc-freiburg"
+     ],
+     "model_away_entity": [
+      null,
+      "CLUB:GER:bayern-munchen"
+     ],
+     "status": [
+      "scheduled",
+      "completed"
+     ],
+     "home_goals_final": [
+      null,
+      1
+     ],
+     "away_goals_final": [
+      null,
+      3
+     ],
+     "home_goals_90": [
+      null,
+      1
+     ],
+     "away_goals_90": [
+      null,
+      3
+     ],
+     "label_90_status": [
+      null,
+      "confirmed"
+     ],
+     "outcome": [
+      null,
+      "A"
+     ],
+     "rated": [
+      null,
+      1
+     ],
+     "regular": [
+      null,
+      1
+     ],
+     "in_universe": [
+      0,
+      1
+     ],
+     "source_system": [
+      "openfootball (CC0 / public domain)",
+      "openligadb"
+     ],
+     "licence": [
+      "CC0-1.0",
+      "ODbL-1.0"
+     ]
+    }
+   },
+   "tables_changed": [
+    "match_sources",
+    "matches",
+    "source_snapshots",
+    "sync_runs"
+   ],
+   "links_changed": {
+    "openligadb:83213": {
+     "before": {
+      "source": "openligadb",
+      "source_ref": "83213",
+      "record_id": "deutschland:1-bundesliga:2026-27:L110",
+      "role": "confirmation",
+      "snapshot_id": "20261025T083829Z_bl1_2026_season.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-25T08:38:29Z",
+      "source_revision": "2026-09-10T17:26:20.797",
+      "provenance": "openligadb matchID 83213"
+     },
+     "after": {
+      "source": "openligadb",
+      "source_ref": "83213",
+      "record_id": "deutschland:1-bundesliga:2026-27:L110",
+      "role": "primary",
+      "snapshot_id": "20261027T125704Z_p48c_bl1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-27T12:57:04Z",
+      "source_revision": "2026-10-25T17:30:44.863",
+      "provenance": "openligadb matchID 83213 | upgraded to primary by snapshot 20261027T125704Z_p48c_bl1.json (retrieved 2026-10-27T12:57:04Z); was confirmation via snapshot 20261025T083829Z_bl1_2026_season.json (retrieved 2026-10-25T08:38:29Z)"
+     }
+    },
+    "openligadb:83214": {
+     "before": {
+      "source": "openligadb",
+      "source_ref": "83214",
+      "record_id": "deutschland:1-bundesliga:2026-27:L111",
+      "role": "confirmation",
+      "snapshot_id": "20261025T083829Z_bl1_2026_season.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-25T08:38:29Z",
+      "source_revision": "2026-09-10T17:26:33.983",
+      "provenance": "openligadb matchID 83214"
+     },
+     "after": {
+      "source": "openligadb",
+      "source_ref": "83214",
+      "record_id": "deutschland:1-bundesliga:2026-27:L111",
+      "role": "primary",
+      "snapshot_id": "20261027T125704Z_p48c_bl1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-27T12:57:04Z",
+      "source_revision": "2026-10-25T19:26:44.59",
+      "provenance": "openligadb matchID 83214 | upgraded to primary by snapshot 20261027T125704Z_p48c_bl1.json (retrieved 2026-10-27T12:57:04Z); was confirmation via snapshot 20261025T083829Z_bl1_2026_season.json (retrieved 2026-10-25T08:38:29Z)"
+     }
+    }
+   },
+   "integrity": {
+    "integrity_check": "ok",
+    "foreign_key_check": 0,
+    "forecasts": 0,
+    "forecast_runs": 0,
+    "simulation_runs": 0,
+    "quarantine": 273,
+    "team_aliases": 7447,
+    "matches": 223510
+   },
+   "standings": {
+    "FC Bayern München": {
+     "before": {
+      "played": 6,
+      "points": 14,
+      "gf": 22,
+      "ga": 5,
+      "gd": 17,
+      "rank": 2,
+      "last5": "DWWDW"
+     },
+     "after": {
+      "played": 7,
+      "points": 17,
+      "gf": 25,
+      "ga": 6,
+      "gd": 19,
+      "rank": 1,
+      "last5": "WWDWW"
+     }
+    },
+    "SC Paderborn 07": {
+     "before": {
+      "played": 7,
+      "points": 8,
+      "gf": 6,
+      "ga": 9,
+      "gd": -3,
+      "rank": 12,
+      "last5": "LWLDW"
+     },
+     "after": {
+      "played": 7,
+      "points": 8,
+      "gf": 6,
+      "ga": 9,
+      "gd": -3,
+      "rank": 13,
+      "last5": "LWLDW"
+     }
+    },
+    "Eintracht Frankfurt": {
+     "before": {
+      "played": 7,
+      "points": 8,
+      "gf": 10,
+      "ga": 17,
+      "gd": -7,
+      "rank": 13,
+      "last5": "WDLWL"
+     },
+     "after": {
+      "played": 7,
+      "points": 8,
+      "gf": 10,
+      "ga": 17,
+      "gd": -7,
+      "rank": 14,
+      "last5": "WDLWL"
+     }
+    },
+    "Bayer 04 Leverkusen": {
+     "before": {
+      "played": 6,
+      "points": 13,
+      "gf": 16,
+      "ga": 9,
+      "gd": 7,
+      "rank": 4,
+      "last5": "WDWWW"
+     },
+     "after": {
+      "played": 7,
+      "points": 13,
+      "gf": 16,
+      "ga": 12,
+      "gd": 4,
+      "rank": 4,
+      "last5": "DWWWL"
+     }
+    },
+    "1. FC Köln": {
+     "before": {
+      "played": 7,
+      "points": 8,
+      "gf": 8,
+      "ga": 11,
+      "gd": -3,
+      "rank": 11,
+      "last5": "DLWLD"
+     },
+     "after": {
+      "played": 7,
+      "points": 8,
+      "gf": 8,
+      "ga": 11,
+      "gd": -3,
+      "rank": 12,
+      "last5": "DLWLD"
+     }
+    },
+    "TSG 1899 Hoffenheim": {
+     "before": {
+      "played": 6,
+      "points": 6,
+      "gf": 11,
+      "ga": 14,
+      "gd": -3,
+      "rank": 14,
+      "last5": "LWLLW"
+     },
+     "after": {
+      "played": 7,
+      "points": 9,
+      "gf": 14,
+      "ga": 14,
+      "gd": 0,
+      "rank": 10,
+      "last5": "WLLWW"
+     }
+    },
+    "Borussia Dortmund": {
+     "before": {
+      "played": 7,
+      "points": 17,
+      "gf": 12,
+      "ga": 4,
+      "gd": 8,
+      "rank": 1,
+      "last5": "WWDDW"
+     },
+     "after": {
+      "played": 7,
+      "points": 17,
+      "gf": 12,
+      "ga": 4,
+      "gd": 8,
+      "rank": 2,
+      "last5": "WWDDW"
+     }
+    },
+    "Hamburger SV": {
+     "before": {
+      "played": 7,
+      "points": 9,
+      "gf": 6,
+      "ga": 16,
+      "gd": -10,
+      "rank": 10,
+      "last5": "LWWWL"
+     },
+     "after": {
+      "played": 7,
+      "points": 9,
+      "gf": 6,
+      "ga": 16,
+      "gd": -10,
+      "rank": 11,
+      "last5": "LWWWL"
+     }
+    },
+    "SC Freiburg": {
+     "before": {
+      "played": 6,
+      "points": 13,
+      "gf": 15,
+      "ga": 6,
+      "gd": 9,
+      "rank": 3,
+      "last5": "WWDWL"
+     },
+     "after": {
+      "played": 7,
+      "points": 13,
+      "gf": 16,
+      "ga": 9,
+      "gd": 7,
+      "rank": 3,
+      "last5": "WDWLL"
+     }
+    }
+   },
+   "logical_sha256": "a57890bcc5dc27f615afc88d4e6df2999cd25ac4a89996d2408753642e611468",
+   "physical_sha256": "50a4d02db2d228c3033c2b6f9b26f299eaecad6c4afcdd507beffc25ba97616a"
+  }
+ },
+ "result": "checks and reconciliation passed; production NOT touched (no --execute)",
+ "finished_utc": "2026-10-27T14:15:49Z"
+}

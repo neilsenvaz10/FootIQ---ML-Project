@@ -1,0 +1,8 @@
+source,measurement_date,what_was_measured,latest_result_or_edit_found,lag_vs_2026-10-21,evidence_file
+openfootball (pinned = upstream HEAD),2026-10-21,"latest completed league result in the 122-competition universe; git ls-remote vs pinned commits",2026-09-20 (repo commits dated up to 2026-10-20),31 days for results,../freshness_validation_r1/00_FRESHNESS_VALIDATION_REPORT.md
+Wikipedia season pages (15 in-season leagues),2026-10-21,latest revision timestamp per page via MediaWiki API (1 request),2026-10-14 .. 2026-10-21 (Premier League page 2026-10-21 12:50Z; standings 'update=19 October 2026'),0-7 days,evidence/wiki_2026_27_revisions.json
+Wikipedia Premier League matrix,2026-10-21,count of scored cells in the results matrix,70 results (openfootball has 50 + 20 past-dated unscored),covers all 20 missing,evidence/pl_2026_27.json
+OpenLigaDB Bundesliga 2026,2026-10-21,finished matches via public API (1 request ~308 KB),finished match 2026-10-18T15:30Z (54 finished; per-match lastUpdate timestamps),3 days,evidence/openligadb_bl1_2026.json
+football-data.org free,not measured,official pricing page states delayed scores/schedules on free tier,UNKNOWN delay,UNKNOWN,-
+API-Football,not measured,no key; vendor claim of live data,UNKNOWN,UNKNOWN,-
+TheSportsDB,not measured,docs: free tier returns 1 event for past/next league,n/a,n/a,-

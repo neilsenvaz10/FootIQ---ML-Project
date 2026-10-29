@@ -1,0 +1,7 @@
+file,sha256_ok,bytes_ok,read_only,plan_sha_ok,licence,attribution_ok,status,retrieved
+20261021T141225Z_R1_getavailableleagues_2026.json,True,True,True,True,ODbL-1.0,True,200,2026-10-21T14:12:25Z
+20261021T141228Z_R2_getresulttypes.json,True,True,True,True,ODbL-1.0,True,200,2026-10-21T14:12:28Z
+20261021T141231Z_R3_getmatchdata_bl1_2026.json,True,True,True,True,ODbL-1.0,True,200,2026-10-21T14:12:31Z
+20261021T141233Z_R4_getcurrentgroup_bl1.json,True,True,True,True,ODbL-1.0,True,200,2026-10-21T14:12:33Z
+20261021T141236Z_R5_getlastchangedate_bl1_2026_6.json,True,True,True,True,ODbL-1.0,True,200,2026-10-21T14:12:36Z
+20261021T141239Z_R6_getlastchangedate_bl1_2026_7.json,True,True,True,True,ODbL-1.0,True,200,2026-10-21T14:12:39Z

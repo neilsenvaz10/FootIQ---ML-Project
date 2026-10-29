@@ -1,0 +1,113 @@
+{
+ "universe_rows": 227374,
+ "universe_null_dates": 0,
+ "rated_results": 226566,
+ "feature_compare_all_rows": 129829,
+ "feature_max_abs_diff_overall": 4.547473508864641e-13,
+ "feature_rows_with_any_difference": 0,
+ "entity_days_with_multiple_eligible_matches": 506,
+ "entity_days_with_multiple_matches_all_results": 535,
+ "kickoff_time_known_pct_in_extended": 100.0,
+ "domestic_league_rows_in_extended": 122507,
+ "domestic_league_rows_same_country_stored_false": 45005,
+ "domestic_league_rows_same_country_expected_false": 4815,
+ "same_country_all_false_share_in_extended": 0.376,
+ "constant_features": [
+  "neutral_known"
+ ],
+ "feature_missing_pct": {
+  "home_venue_ppg5": 0.0,
+  "away_venue_ppg5": 0.01
+ },
+ "elo_connected_components": 64,
+ "elo_largest_component_entities": 3993,
+ "elo_entities_total": 5085,
+ "extended_rows_in_largest_component_pct": 70.6,
+ "extended_rows_outside_largest_component": 38234,
+ "extended_rows_by_component_top": {
+  "WP:spain:CF UE Tavernes de la Valldigna": 91595,
+  "south-america/brazil|Clube do Remo": 5514,
+  "world/africa|Kun Khalifat FC": 4579,
+  "world/north-america|Atl\u00e9tico La Paz": 3971,
+  "world/africa|Al-Merreikh (Omdurman)": 3243,
+  "world/north-america|San Diego FC": 3002
+ },
+ "extended_rows_outside_main_component_by_competition": {
+  "south-america/brazil:br1": 3061,
+  "world/north-america:mls": 3002,
+  "south-america/brazil:br2": 2453,
+  "world/africa:ng1": 2368,
+  "south-america/argentina:ar1": 2330,
+  "world/north-america:mx1": 2277,
+  "world/africa:ng2": 2211,
+  "world/asia:jp1": 2032,
+  "world/asia:cn1": 1441,
+  "world/africa:gh1": 1422,
+  "world/north-america:mx2expansion": 1325,
+  "world/africa:rw1": 1182
+ },
+ "extended_duplicate_pair_date_rows": 460,
+ "label_distribution_extended": {
+  "forward_holdout": {
+   "A": 3129,
+   "D": 2770,
+   "H": 4693
+  },
+  "test": {
+   "A": 8508,
+   "D": 7378,
+   "H": 12490
+  },
+  "train": {
+   "A": 19619,
+   "D": 17275,
+   "H": 29591
+  },
+  "validation": {
+   "A": 7256,
+   "D": 6267,
+   "H": 10853
+  }
+ },
+ "label_distribution_strict": {
+  "forward_holdout": {
+   "A": 2993,
+   "D": 2700,
+   "H": 4518
+  },
+  "test": {
+   "A": 8232,
+   "D": 7253,
+   "H": 12143
+  },
+  "train": {
+   "A": 18712,
+   "D": 16964,
+   "H": 28544
+  },
+  "validation": {
+   "A": 7046,
+   "D": 6182,
+   "H": 10571
+  }
+ },
+ "strict_rows_by_competition_type": {
+  "domestic_league": 121725,
+  "continental_club": 2320,
+  "domestic_cup": 1549,
+  "league_cup": 259,
+  "global_club": 5
+ },
+ "split_counts_strict": {
+  "train": 64220,
+  "test": 27628,
+  "validation": 23799,
+  "forward_holdout": 10211
+ },
+ "strict_rows_domestic_league_pct": 96.7,
+ "rated_results_before_2023_07_01": 157288,
+ "rows_with_unknown_label_share_by_phase": {
+  "ko": 0.0407,
+  "lg": 0.0009
+ }
+}

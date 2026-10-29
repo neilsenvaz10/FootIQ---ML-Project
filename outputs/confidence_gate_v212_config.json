@@ -1,0 +1,26 @@
+{
+  "version": "v2.12",
+  "role": "Confirmed-lineup challenger layered on frozen v2.11 predictions.",
+  "minimum_starters_per_team": 11,
+  "minimum_player_match_coverage": 0.9,
+  "fuzzy_player_match_threshold": 0.88,
+  "lineup_logit_per_rating_point": 0.035,
+  "maximum_team_logit_adjustment": 0.18,
+  "maximum_probability_movement": 0.05,
+  "minimum_adjusted_top_probability_for_existing_pick": 0.56,
+  "minimum_adjusted_gap_for_existing_pick": 0.24,
+  "promotion_policy": "V2.12 may preserve or downgrade a v2.11 call; it cannot promote a v2.11 Pass during initial shadow evaluation.",
+  "baseline": "Mean impact_score of the 11 players marked Starter in Player Impact Rating v2.1.",
+  "freeze_timestamp_et": "2026-06-22T16:37:45-04:00",
+  "inputs": [
+    "data/processed/confidence_gate_v211_shadow_predictions.csv",
+    "data/processed/worldcup_matchday_v29_lineup_snapshots.csv",
+    "data/processed/player_impact_v21.csv"
+  ],
+  "outputs": [
+    "data/processed/confidence_gate_v212_shadow_predictions.csv",
+    "data/processed/confidence_gate_v212_lineup_audit.csv",
+    "data/processed/confidence_gate_v212_player_matches.csv",
+    "outputs/confidence_gate_v212_report.md"
+  ]
+}

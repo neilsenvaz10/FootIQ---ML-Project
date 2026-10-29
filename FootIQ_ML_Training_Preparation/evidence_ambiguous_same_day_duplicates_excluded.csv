@@ -1,0 +1,9 @@
+﻿record_id,competition_id,season_corrected,match_date,home_team_name,away_team_name,stage,provenance
+OF:england:5-nationalleague:2015-16:L510,england:5-nationalleague,2015-16,2016-03-08,Barrow AFC,Boreham Wood,Matchday 8,openfootball england@9ee7a0c35180 england/2015-16/5-nationalleague.txt:L510
+OF:england:5-nationalleague:2015-16:L519,england:5-nationalleague,2015-16,2016-03-08,Boreham Wood,Barrow AFC,Matchday 8,openfootball england@9ee7a0c35180 england/2015-16/5-nationalleague.txt:L519
+OF:world/north-america:mx1:2015-16:L272,world/north-america:mx1,2015-16,2015-11-29,CD Veracruz,Pumas UNAM,"Apertura Playoffs, Quarterfinals",openfootball world@42df8203e73e world/north-america/mexico/2015-16_mx1.txt:L272
+OF:world/north-america:mx1:2015-16:L273,world/north-america:mx1,2015-16,2015-11-29,Puebla FC,Deportivo Toluca,"Apertura Playoffs, Quarterfinals",openfootball world@42df8203e73e world/north-america/mexico/2015-16_mx1.txt:L273
+OF:world/north-america:mx1:2015-16:L278,world/north-america:mx1,2015-16,2015-11-29,Pumas UNAM,CD Veracruz,"Apertura Playoffs, Quarterfinals",openfootball world@42df8203e73e world/north-america/mexico/2015-16_mx1.txt:L278
+OF:world/north-america:mx1:2015-16:L279,world/north-america:mx1,2015-16,2015-11-29,Deportivo Toluca,Puebla FC,"Apertura Playoffs, Quarterfinals",openfootball world@42df8203e73e world/north-america/mexico/2015-16_mx1.txt:L279
+OF:world/north-america:mx1:2019-20:L314,world/north-america:mx1,2019-20,2019-12-08,Monarcas Morelia,CF América,"Apertura Playoffs, Semifinals",openfootball world@42df8203e73e world/north-america/mexico/2019-20_mx1.txt:L314
+OF:world/north-america:mx1:2019-20:L318,world/north-america:mx1,2019-20,2019-12-08,CF América,Monarcas Morelia,"Apertura Playoffs, Semifinals",openfootball world@42df8203e73e world/north-america/mexico/2019-20_mx1.txt:L318

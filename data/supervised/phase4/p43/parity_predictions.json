@@ -1,0 +1,233 @@
+{
+ "private_copy": "phase4_p43_pred.sqlite",
+ "now": "2026-10-27T05:00:00+00:00",
+ "gameweeks": 10,
+ "fixtures_forecast": 80,
+ "rows_compared": 240,
+ "all_identical": true,
+ "per_gameweek": [
+  {
+   "key": "EPL",
+   "season": "2026-27",
+   "matchday": 7,
+   "fixtures_forecast": 10,
+   "rows_compared": 30,
+   "same_returned_forecasts": true,
+   "same_saved_rows": true,
+   "seconds": {
+    "old": 46.4,
+    "new": 21.5
+   },
+   "feature_paths": [
+    "day_by_day_replay"
+   ],
+   "reliabilities": [
+    "full"
+   ],
+   "made_before_kickoff": [
+    "no"
+   ]
+  },
+  {
+   "key": "EPL",
+   "season": "2026-27",
+   "matchday": 8,
+   "fixtures_forecast": 10,
+   "rows_compared": 30,
+   "same_returned_forecasts": true,
+   "same_saved_rows": true,
+   "seconds": {
+    "old": 39.9,
+    "new": 25.5
+   },
+   "feature_paths": [
+    "cached_state_before_all_results",
+    "day_by_day_replay"
+   ],
+   "reliabilities": [
+    "provisional"
+   ],
+   "made_before_kickoff": [
+    "no"
+   ]
+  },
+  {
+   "key": "LALIGA",
+   "season": "2026-27",
+   "matchday": 8,
+   "fixtures_forecast": 1,
+   "rows_compared": 3,
+   "same_returned_forecasts": true,
+   "same_saved_rows": true,
+   "seconds": {
+    "old": 24.8,
+    "new": 22.9
+   },
+   "feature_paths": [
+    "day_by_day_replay"
+   ],
+   "reliabilities": [
+    "full"
+   ],
+   "made_before_kickoff": [
+    "no"
+   ]
+  },
+  {
+   "key": "LALIGA",
+   "season": "2026-27",
+   "matchday": 10,
+   "fixtures_forecast": 10,
+   "rows_compared": 30,
+   "same_returned_forecasts": true,
+   "same_saved_rows": true,
+   "seconds": {
+    "old": 2.7,
+    "new": 0.3
+   },
+   "feature_paths": [
+    "cached_state_before_all_results"
+   ],
+   "reliabilities": [
+    "full",
+    "provisional"
+   ],
+   "made_before_kickoff": [
+    "no"
+   ]
+  },
+  {
+   "key": "BUNDESLIGA",
+   "season": "2026-27",
+   "matchday": 7,
+   "fixtures_forecast": 2,
+   "rows_compared": 6,
+   "same_returned_forecasts": true,
+   "same_saved_rows": true,
+   "seconds": {
+    "old": 2.3,
+    "new": 0.1
+   },
+   "feature_paths": [
+    "cached_state_before_all_results"
+   ],
+   "reliabilities": [
+    "full"
+   ],
+   "made_before_kickoff": [
+    "no"
+   ]
+  },
+  {
+   "key": "BUNDESLIGA",
+   "season": "2026-27",
+   "matchday": 8,
+   "fixtures_forecast": 9,
+   "rows_compared": 27,
+   "same_returned_forecasts": true,
+   "same_saved_rows": true,
+   "seconds": {
+    "old": 2.5,
+    "new": 0.3
+   },
+   "feature_paths": [
+    "cached_state_before_all_results"
+   ],
+   "reliabilities": [
+    "full",
+    "provisional"
+   ],
+   "made_before_kickoff": [
+    "yes"
+   ]
+  },
+  {
+   "key": "SERIEA",
+   "season": "2026-27",
+   "matchday": 6,
+   "fixtures_forecast": 10,
+   "rows_compared": 30,
+   "same_returned_forecasts": true,
+   "same_saved_rows": true,
+   "seconds": {
+    "old": 29.9,
+    "new": 28.7
+   },
+   "feature_paths": [
+    "day_by_day_replay"
+   ],
+   "reliabilities": [
+    "provisional"
+   ],
+   "made_before_kickoff": [
+    "no"
+   ]
+  },
+  {
+   "key": "SERIEA",
+   "season": "2026-27",
+   "matchday": 7,
+   "fixtures_forecast": 10,
+   "rows_compared": 30,
+   "same_returned_forecasts": true,
+   "same_saved_rows": true,
+   "seconds": {
+    "old": 32.1,
+    "new": 30.2
+   },
+   "feature_paths": [
+    "day_by_day_replay"
+   ],
+   "reliabilities": [
+    "provisional"
+   ],
+   "made_before_kickoff": [
+    "no"
+   ]
+  },
+  {
+   "key": "LIGUE1",
+   "season": "2026-27",
+   "matchday": 6,
+   "fixtures_forecast": 9,
+   "rows_compared": 27,
+   "same_returned_forecasts": true,
+   "same_saved_rows": true,
+   "seconds": {
+    "old": 40.0,
+    "new": 36.1
+   },
+   "feature_paths": [
+    "day_by_day_replay"
+   ],
+   "reliabilities": [
+    "provisional"
+   ],
+   "made_before_kickoff": [
+    "no"
+   ]
+  },
+  {
+   "key": "LIGUE1",
+   "season": "2026-27",
+   "matchday": 7,
+   "fixtures_forecast": 9,
+   "rows_compared": 27,
+   "same_returned_forecasts": true,
+   "same_saved_rows": true,
+   "seconds": {
+    "old": 40.4,
+    "new": 35.0
+   },
+   "feature_paths": [
+    "day_by_day_replay"
+   ],
+   "reliabilities": [
+    "provisional"
+   ],
+   "made_before_kickoff": [
+    "no"
+   ]
+  }
+ ]
+}

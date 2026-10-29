@@ -1,0 +1,14 @@
+{
+ "version": "r1",
+ "protocol_file": "09_PROSPECTIVE_EVALUATION_PROTOCOL.md",
+ "protocol_sha256": "9fca3bfe71b25fb3ed7044a82d7070215e581400bdb0e4f1596cb95a55f7dec3",
+ "preregistered_utc": "2026-10-21T13:13:07Z",
+ "model_hashes": {
+  "v2": "55c1e4c53bcfefd39d5e90a1ce60a75bc697668f7894e425305bdc9a65b3e56c",
+  "matched_v1": "33bd80f6a3268256e250294f4c9b4ffc4f530489c332878fd70655fea145ec34",
+  "v1_original": "067426e83d2d5f66aaf6c4aef933ac58e17f04d911ae55ede336c1bad3c0c5b9"
+ },
+ "primary_metric": "multiclass log loss",
+ "primary_contrast": "v2_frozen minus v1_matched",
+ "status": "pre-registered; official logging NOT approved (no OFFICIAL_LOGGING_APPROVED.json)"
+}

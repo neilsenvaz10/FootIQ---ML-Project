@@ -1,0 +1,17 @@
+competition,openfootball_last_result,openfootball_results_missing_(past-dated fixtures),wikipedia_2026-27_page,wikipedia_last_edit_utc,wikipedia_matrix_checked_in_depth,openligadb_available,football-data.org_free_competition_(third-party list; unverified),notes
+Premier League (england:1-premierleague),2026-09-20,20,2026–27 Premier League,2026-10-21T12:50Z,"YES: 70 results = 50 in openfootball (50/50 identical) + 20 missing (20/20 covered)","listed on site (not queried)",likely,matrix has no dates; dates come from openfootball schedule
+Bundesliga (deutschland:1-bundesliga),2026-09-20,18,2026–27 Bundesliga,2026-10-19T12:44Z,not checked,"YES: 54 finished, latest 2026-10-18T15:30Z; 36/36 overlap identical incl. date; covers the 18 missing",likely,two independent candidates
+La Liga (espana:1-liga),2026-09-20,20,2026–27 La Liga,2026-10-19T07:12Z,not checked,"listed on site (not queried)",likely,
+Serie A (italy:1-seriea),2026-09-20,20,2026–27 Serie A,2026-10-19T20:45Z,not checked,no,likely,
+Ligue 1 (europe/france:fr1),2026-09-20,18,2026–27 Ligue 1,2026-10-19T12:43Z,not checked,no,likely,
+Eredivisie (europe/netherlands:nl1),2026-09-20,18,2026–27 Eredivisie,2026-10-20T15:10Z,not checked,no,likely,
+Primeira Liga (europe/portugal:pt1),2026-09-20,9,2026–27 Primeira Liga,2026-10-19T22:03Z,not checked,no,likely,
+EFL Championship (england:2-championship),2026-09-20,37,2026–27 EFL Championship,2026-10-20T20:46Z,not checked,no,likely,
+Scottish Premiership (europe/scotland:sco1),2026-09-20,12,2026–27 Scottish Premiership,2026-10-18T15:51Z,not checked,no,unknown,
+Brazil Serie A (south-america/brazil:br1),2026-09-20,32,2026 Campeonato Brasileiro Série A,2026-10-20T21:45Z,not checked,no,likely,calendar-year league
+Turkey Super Lig (europe/turkey:tr1),2026-09-07,18,2026–27 Süper Lig,2026-10-18T21:29Z,not checked,no,unknown,openfootball already stale before 09-20
+Austria Bundesliga (austria:1-bundesliga),2026-09-20,12,2026–27 Austrian Football Bundesliga,2026-10-18T18:24Z,not checked,no,unknown,
+Greece Super League (europe/greece:gr1),2026-09-20,14,2026–27 Super League Greece,2026-10-20T12:15Z,not checked,no,unknown,
+Switzerland Super League (europe/switzerland:ch1),2026-09-20,6,2026–27 Swiss Super League,2026-10-14T09:19Z,not checked,no,unknown,oldest edit (7 days)
+Czech First League (europe/czech-republic:cz1),2026-09-20,17,2026–27 Czech First League,2026-10-18T18:22Z,not checked,no,unknown,
+Other 107 competitions in the frozen universe,mostly 2025-11 .. 2026-06,0 (no fixtures published in openfootball),UNKNOWN (page existence/format not checked),-,-,no,no,off-season or unpublished in openfootball; evaluation needs them only when seasons start (calendar-year leagues from about Feb-Mar 2027)

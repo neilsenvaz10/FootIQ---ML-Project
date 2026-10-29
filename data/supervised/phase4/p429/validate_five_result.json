@@ -1,0 +1,405 @@
+{
+ "results": {
+  "EPL": {
+   "seconds": 62.5,
+   "n1000": {
+    "checks": {
+     "teams": true,
+     "remaining": true,
+     "remaining_per_team_sum": true,
+     "current_points": true,
+     "expected_between": true,
+     "per_team_bounds": true,
+     "labelled": true,
+     "simulations": true,
+     "no_positions": true,
+     "distribution_sums": true
+    },
+    "completed": 80,
+    "remaining": 300,
+    "teams": 20,
+    "current_points_total": 217,
+    "expected_points_total": 1044.1,
+    "state": "ready",
+    "bounds": "unavailable",
+    "top3": [
+     [
+      "Arsenal FC",
+      21,
+      83.0
+     ],
+     [
+      "Manchester City FC",
+      21,
+      81.7
+     ],
+     [
+      "Brighton & Hove Albion FC",
+      16,
+      69.0
+     ]
+    ]
+   },
+   "n10000": {
+    "checks": {
+     "teams": true,
+     "remaining": true,
+     "remaining_per_team_sum": true,
+     "current_points": true,
+     "expected_between": true,
+     "per_team_bounds": true,
+     "labelled": true,
+     "simulations": true,
+     "no_positions": true,
+     "distribution_sums": true
+    },
+    "completed": 80,
+    "remaining": 300,
+    "teams": 20,
+    "current_points_total": 217,
+    "expected_points_total": 1044.2,
+    "state": "ready",
+    "bounds": "unavailable",
+    "top3": [
+     [
+      "Arsenal FC",
+      21,
+      83.2
+     ],
+     [
+      "Manchester City FC",
+      21,
+      81.8
+     ],
+     [
+      "Brighton & Hove Albion FC",
+      16,
+      69.2
+     ]
+    ]
+   },
+   "reproducible": true
+  },
+  "LALIGA": {
+   "seconds": 27.1,
+   "n1000": {
+    "checks": {
+     "teams": true,
+     "remaining": true,
+     "remaining_per_team_sum": true,
+     "current_points": true,
+     "expected_between": true,
+     "per_team_bounds": true,
+     "labelled": true,
+     "simulations": true,
+     "no_positions": true,
+     "distribution_sums": true
+    },
+    "completed": 99,
+    "remaining": 281,
+    "teams": 20,
+    "current_points_total": 270,
+    "expected_points_total": 1045.8,
+    "state": "ready",
+    "bounds": "available",
+    "top3": [
+     [
+      "FC Barcelona",
+      27,
+      96.9
+     ],
+     [
+      "Real Madrid CF",
+      24,
+      86.1
+     ],
+     [
+      "Club Atl\u00e9tico de Madrid",
+      25,
+      78.0
+     ]
+    ]
+   },
+   "n10000": {
+    "checks": {
+     "teams": true,
+     "remaining": true,
+     "remaining_per_team_sum": true,
+     "current_points": true,
+     "expected_between": true,
+     "per_team_bounds": true,
+     "labelled": true,
+     "simulations": true,
+     "no_positions": true,
+     "distribution_sums": true
+    },
+    "completed": 99,
+    "remaining": 281,
+    "teams": 20,
+    "current_points_total": 270,
+    "expected_points_total": 1045.5,
+    "state": "ready",
+    "bounds": "available",
+    "top3": [
+     [
+      "FC Barcelona",
+      27,
+      97.0
+     ],
+     [
+      "Real Madrid CF",
+      24,
+      86.2
+     ],
+     [
+      "Club Atl\u00e9tico de Madrid",
+      25,
+      77.9
+     ]
+    ]
+   },
+   "reproducible": true
+  },
+  "BUNDESLIGA": {
+   "seconds": 23.6,
+   "n1000": {
+    "checks": {
+     "teams": true,
+     "remaining": true,
+     "remaining_per_team_sum": true,
+     "current_points": true,
+     "expected_between": true,
+     "per_team_bounds": true,
+     "labelled": true,
+     "simulations": true,
+     "no_positions": true,
+     "distribution_sums": true
+    },
+    "completed": 63,
+    "remaining": 243,
+    "teams": 18,
+    "current_points_total": 176,
+    "expected_points_total": 851.1,
+    "state": "ready",
+    "bounds": "available",
+    "top3": [
+     [
+      "FC Bayern M\u00fcnchen",
+      17,
+      85.6
+     ],
+     [
+      "Borussia Dortmund",
+      17,
+      69.4
+     ],
+     [
+      "Bayer 04 Leverkusen",
+      13,
+      60.9
+     ]
+    ]
+   },
+   "n10000": {
+    "checks": {
+     "teams": true,
+     "remaining": true,
+     "remaining_per_team_sum": true,
+     "current_points": true,
+     "expected_between": true,
+     "per_team_bounds": true,
+     "labelled": true,
+     "simulations": true,
+     "no_positions": true,
+     "distribution_sums": true
+    },
+    "completed": 63,
+    "remaining": 243,
+    "teams": 18,
+    "current_points_total": 176,
+    "expected_points_total": 851.1,
+    "state": "ready",
+    "bounds": "available",
+    "top3": [
+     [
+      "FC Bayern M\u00fcnchen",
+      17,
+      85.6
+     ],
+     [
+      "Borussia Dortmund",
+      17,
+      69.3
+     ],
+     [
+      "Bayer 04 Leverkusen",
+      13,
+      60.9
+     ]
+    ]
+   },
+   "reproducible": true
+  },
+  "SERIEA": {
+   "seconds": 26.8,
+   "n1000": {
+    "checks": {
+     "teams": true,
+     "remaining": true,
+     "remaining_per_team_sum": true,
+     "current_points": true,
+     "expected_between": true,
+     "per_team_bounds": true,
+     "labelled": true,
+     "simulations": true,
+     "no_positions": true,
+     "distribution_sums": true
+    },
+    "completed": 80,
+    "remaining": 300,
+    "teams": 20,
+    "current_points_total": 226,
+    "expected_points_total": 1053.1,
+    "state": "provisional",
+    "bounds": "unavailable",
+    "top3": [
+     [
+      "FC Internazionale Milano",
+      22,
+      89.0
+     ],
+     [
+      "AS Roma",
+      18,
+      78.9
+     ],
+     [
+      "SS Lazio",
+      22,
+      70.8
+     ]
+    ]
+   },
+   "n10000": {
+    "checks": {
+     "teams": true,
+     "remaining": true,
+     "remaining_per_team_sum": true,
+     "current_points": true,
+     "expected_between": true,
+     "per_team_bounds": true,
+     "labelled": true,
+     "simulations": true,
+     "no_positions": true,
+     "distribution_sums": true
+    },
+    "completed": 80,
+    "remaining": 300,
+    "teams": 20,
+    "current_points_total": 226,
+    "expected_points_total": 1053.2,
+    "state": "provisional",
+    "bounds": "unavailable",
+    "top3": [
+     [
+      "FC Internazionale Milano",
+      22,
+      89.2
+     ],
+     [
+      "AS Roma",
+      18,
+      78.8
+     ],
+     [
+      "SS Lazio",
+      22,
+      71.3
+     ]
+    ]
+   },
+   "reproducible": true
+  },
+  "LIGUE1": {
+   "seconds": 20.2,
+   "n1000": {
+    "checks": {
+     "teams": true,
+     "remaining": true,
+     "remaining_per_team_sum": true,
+     "current_points": true,
+     "expected_between": true,
+     "per_team_bounds": true,
+     "labelled": true,
+     "simulations": true,
+     "no_positions": true,
+     "distribution_sums": true
+    },
+    "completed": 72,
+    "remaining": 234,
+    "teams": 18,
+    "current_points_total": 197,
+    "expected_points_total": 841.5,
+    "state": "ready",
+    "bounds": "unavailable",
+    "top3": [
+     [
+      "Paris Saint-Germain FC",
+      17,
+      74.6
+     ],
+     [
+      "AS Monaco FC",
+      15,
+      59.9
+     ],
+     [
+      "Lille OSC",
+      15,
+      59.4
+     ]
+    ]
+   },
+   "n10000": {
+    "checks": {
+     "teams": true,
+     "remaining": true,
+     "remaining_per_team_sum": true,
+     "current_points": true,
+     "expected_between": true,
+     "per_team_bounds": true,
+     "labelled": true,
+     "simulations": true,
+     "no_positions": true,
+     "distribution_sums": true
+    },
+    "completed": 72,
+    "remaining": 234,
+    "teams": 18,
+    "current_points_total": 197,
+    "expected_points_total": 841.4,
+    "state": "ready",
+    "bounds": "unavailable",
+    "top3": [
+     [
+      "Paris Saint-Germain FC",
+      17,
+      74.6
+     ],
+     [
+      "AS Monaco FC",
+      15,
+      59.9
+     ],
+     [
+      "Lille OSC",
+      15,
+      59.3
+     ]
+    ]
+   },
+   "reproducible": true
+  }
+ },
+ "failures": []
+}

@@ -1,0 +1,43 @@
+{
+ "has_planner_statistics_table": false,
+ "sync.status (what /api/sync/status runs; 11 competitions)": {
+  "median_ms": 22.3,
+  "min_ms": 20.2,
+  "max_ms": 25.3
+ },
+ "views.freshness alone": {
+  "median_ms": 20.5,
+  "min_ms": 16.7,
+  "max_ms": 31.3
+ },
+ "views.freshness plan (one competition)": [
+  "SEARCH matches USING INDEX idx_matches_key (competition_key=?)"
+ ],
+ "rows scanned by views.freshness per competition (EPL)": 3420,
+ "analytics.matches() first call (loads the 20.5k-row dashboard frame)": 1378,
+ "analytics.matches() cached": {
+  "median_ms": 0.0,
+  "min_ms": 0.0,
+  "max_ms": 0.0
+ },
+ "analytics.standings(EPL, 2026-27)": {
+  "median_ms": 7.0,
+  "min_ms": 6.3,
+  "max_ms": 9.2
+ },
+ "analytics.recent_results(EPL, 2026-27)": {
+  "median_ms": 8.1,
+  "min_ms": 6.5,
+  "max_ms": 10.3
+ },
+ "analytics.season_coverage(EPL)": {
+  "median_ms": 29.2,
+  "min_ms": 18.7,
+  "max_ms": 59.7
+ },
+ "analytics.audit()": {
+  "median_ms": 182.8,
+  "min_ms": 175.5,
+  "max_ms": 211.7
+ }
+}

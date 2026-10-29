@@ -1,0 +1,202 @@
+[
+  {
+    "id": "R01",
+    "severity": "High",
+    "category": "Data availability",
+    "finding": "Raw results contain 49,368 rows but 72 have no scores; processed scored rows stop 2026-06-02.",
+    "evidence": "dataset_inventory.json; build_foundation_tables.py",
+    "mitigation": "Treat unscored rows as unavailable; no automatic historical refresh assumed.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R02",
+    "severity": "High",
+    "category": "Data availability",
+    "finding": "StatsBomb events/360 directories absent despite inherited inventory describing prior downloads.",
+    "evidence": "data/raw/statsbomb; outputs/world_cup_data_inventory.md",
+    "mitigation": "Preserve summaries; full event reconstruction blocked until approved data access in later milestone.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R03",
+    "severity": "High",
+    "category": "Source licensing",
+    "finding": "Inherited license/provenance descriptions do not establish exact upstream revisions, training rights or redistribution rights.",
+    "evidence": "data/processed/data_manifest.csv; PROJECT.md section 6",
+    "mitigation": "Record unresolved source chain and permissions; no new data acquisition/publication in M1.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R04",
+    "severity": "High",
+    "category": "Temporal/target semantics",
+    "finding": "Historical results score labels are copied directly; raw schema does not independently identify 90-minute versus extra-time goals.",
+    "evidence": "build_foundation_tables.py result_label/build_international_matches_and_elo",
+    "mitigation": "Verify historical score semantics before claiming pure 90-minute training labels; retain frozen model unchanged.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R05",
+    "severity": "High",
+    "category": "Training-serving parity",
+    "finding": "Historical matches_prior is length of deque(maxlen=20); live matches_prior uses total matches_played.",
+    "evidence": "model_bakeoff_v26.py summarize_history; build_live_predictions_v27.py build_live_feature_rows",
+    "mitigation": "Flag mismatch; later candidate/adapter correction requires new version and evaluation, not silent baseline repair.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R06",
+    "severity": "Medium",
+    "category": "Temporal leakage",
+    "finding": "Dummy-column vocabulary is created from concatenated train/calibration/test frames.",
+    "evidence": "model_bakeoff_v26.py design_matrix",
+    "mitigation": "Future preprocessing must fit train only; no future labels used by this encoding, but strict contract is unmet.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R07",
+    "severity": "High",
+    "category": "Temporal leakage",
+    "finding": "Date-only sorting and incomplete availability timestamps cannot prove what was known before every kickoff.",
+    "evidence": "model_bakeoff_v26.py build_feature_frame; snapshot CSVs",
+    "mitigation": "Separate archived replay from genuine forecast; conservative same-day and known-at checks later.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R08",
+    "severity": "High",
+    "category": "Evaluation selection",
+    "finding": "v2.8 cites model_v26_test_predictions.csv as calibration_source; v2.11 explicitly used 21 live fixtures diagnostically.",
+    "evidence": "build_confidence_gate_v28.py V28_CONFIG; build_confidence_gate_v211.py honesty_note",
+    "mitigation": "Treat gate performance as development evidence; require untouched future validation before new claims.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R09",
+    "severity": "High",
+    "category": "Club expansion",
+    "finding": "No systematically trained/evaluated club model or complete club-season feed exists; isolated club reports are not such a model.",
+    "evidence": "script_dependency_map.json; legacy reports",
+    "mitigation": "Maintain separate model domain; defer all club implementation beyond M1.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R10",
+    "severity": "High",
+    "category": "Player data",
+    "finding": "1,246 player impact rows are heuristic squad ratings; complete minutes/actions/per-90 cohort not verified.",
+    "evidence": "build_player_impact_v21.py; dataset_inventory.json",
+    "mitigation": "Do not describe them as future-performance ML or validated similarity features.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R11",
+    "severity": "Medium",
+    "category": "Reproducibility",
+    "finding": "Existing venv lacks pip; external base Python runtime is referenced by the venv.",
+    "evidence": "environment.json; pip-freeze-command.json",
+    "mitigation": "Version inventory recorded through importlib.metadata; clean-machine installation/offline wheels unverified.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R12",
+    "severity": "Medium",
+    "category": "Reproducibility",
+    "finding": "Default Windows encoding can misdecode team names; simulation succeeds with -X utf8.",
+    "evidence": "build_worldcup_model_v2.py read_csv; UTF-8 execution logs",
+    "mitigation": "Record encoding requirement; no legacy helper changes in baseline.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R13",
+    "severity": "Medium",
+    "category": "Model security",
+    "finding": "Pickle artifact executes trusted Python objects and depends on sklearn compatibility.",
+    "evidence": "live_match_model.pkl; artifact_metadata.json",
+    "mitigation": "Use only local hashed trusted artifact; do not accept arbitrary model uploads.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R14",
+    "severity": "High",
+    "category": "Tournament rules",
+    "finding": "Group rank uses points, goal difference, goals scored then random.random; slot logic is a prototype, not full official rules certification.",
+    "evidence": "build_worldcup_model_v23.py rank_group/third_sort; build_worldcup_model_v2.py resolve_slot",
+    "mitigation": "Preserve deterministic prototype; validate season-specific rules before new competition simulation.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R15",
+    "severity": "Medium",
+    "category": "Update operations",
+    "finding": "Manual API scripts/cache budget exist but no scheduler/reconciliation warehouse; account entitlements unverified.",
+    "evidence": "api_football_client_v24.py; build_live_data_v25.py",
+    "mitigation": "No live calls in M1; later quotas/source access gate required.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R16",
+    "severity": "High",
+    "category": "Claims",
+    "finding": "59/82 validation mixes group 90-minute reads and knockout advancement; small/selective samples do not prove future accuracy.",
+    "evidence": "validate_worldcup_full_v214.py; generated report",
+    "mitigation": "Keep targets and denominators separate; no independent match-results verification claimed.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R17",
+    "severity": "Medium",
+    "category": "Destructive execution",
+    "finding": "Legacy main routines overwrite output tables; simulator also writes model_v23_market_priors.csv.",
+    "evidence": "RUNTIME_DEPENDENCIES.json",
+    "mitigation": "Execute only copied snapshots; compare original before/after hashes.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R18",
+    "severity": "Medium",
+    "category": "Feature mismatch",
+    "finding": "Foundation is_competitive marks any non-friendly as competitive; live tournament_flags recognizes a narrower keyword list.",
+    "evidence": "build_foundation_tables.py; build_live_predictions_v27.py tournament_flags",
+    "mitigation": "Audit context mapping for future adapter; retain current outputs unchanged.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R19",
+    "severity": "Medium",
+    "category": "Testing scope",
+    "finding": "28 tests focus on later gate/lineup/matchday/result-locking helpers; no complete raw rebuild, retraining, live-provider or platform test coverage.",
+    "evidence": "TEST_RESULTS.json; scripts/tests static map",
+    "mitigation": "Baseline execution supplements tests but does not certify future architecture.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  },
+  {
+    "id": "R20",
+    "severity": "Medium",
+    "category": "Storage/retention",
+    "finding": "Local snapshot and three isolated copies include inherited third-party data and duplicate bytes.",
+    "evidence": "snapshot_manifest.json; isolated_execution/",
+    "mitigation": "Retain locally per requested no-deletion rule; do not publish this bundle without separate rights/owner review.",
+    "status": "Open/documented",
+    "owner": "Project owner; later milestone assignee TBD"
+  }
+]

@@ -1,0 +1,197 @@
+{
+ "file_bytes": 228655104,
+ "page_size": 4096,
+ "page_count": 55824,
+ "journal_mode": "delete",
+ "cache_size_pages": -2000,
+ "sqlite_version": "3.53.1",
+ "bytes_by_object": [
+  {
+   "name": "matches",
+   "MB": 100.93,
+   "pages": 24642
+  },
+  {
+   "name": "match_sources",
+   "MB": 43.95,
+   "pages": 10730
+  },
+  {
+   "name": "idx_matches_pair",
+   "MB": 22.11,
+   "pages": 5399
+  },
+  {
+   "name": "sqlite_autoindex_match_sources_1",
+   "MB": 14.32,
+   "pages": 3497
+  },
+  {
+   "name": "idx_matches_comp_season_date",
+   "MB": 11.93,
+   "pages": 2913
+  },
+  {
+   "name": "idx_match_sources_record",
+   "MB": 11.03,
+   "pages": 2694
+  },
+  {
+   "name": "sqlite_autoindex_matches_1",
+   "MB": 11.0,
+   "pages": 2685
+  },
+  {
+   "name": "idx_matches_status_date",
+   "MB": 7.3,
+   "pages": 1782
+  },
+  {
+   "name": "idx_matches_key",
+   "MB": 4.28,
+   "pages": 1046
+  },
+  {
+   "name": "team_aliases",
+   "MB": 0.68,
+   "pages": 166
+  },
+  {
+   "name": "sqlite_autoindex_team_aliases_1",
+   "MB": 0.44,
+   "pages": 107
+  },
+  {
+   "name": "teams",
+   "MB": 0.26,
+   "pages": 63
+  },
+  {
+   "name": "sqlite_autoindex_teams_1",
+   "MB": 0.2,
+   "pages": 49
+  },
+  {
+   "name": "quarantine",
+   "MB": 0.11,
+   "pages": 28
+  }
+ ],
+ "row_counts": {
+  "matches": 223510,
+  "teams": 5188,
+  "team_aliases": 7447,
+  "match_sources": 224519,
+  "source_snapshots": 9,
+  "sync_runs": 7,
+  "quarantine": 273,
+  "forecast_runs": 0,
+  "forecasts": 0,
+  "simulation_runs": 0
+ },
+ "indexes_on_matches": [
+  {
+   "name": "idx_matches_status_date",
+   "unique": false,
+   "columns": [
+    "status",
+    "match_date"
+   ]
+  },
+  {
+   "name": "idx_matches_pair",
+   "unique": false,
+   "columns": [
+    "competition_id",
+    "season",
+    "home_entity_id",
+    "away_entity_id"
+   ]
+  },
+  {
+   "name": "idx_matches_key",
+   "unique": false,
+   "columns": [
+    "competition_key",
+    "season"
+   ]
+  },
+  {
+   "name": "idx_matches_comp_season_date",
+   "unique": false,
+   "columns": [
+    "competition_id",
+    "season",
+    "match_date"
+   ]
+  },
+  {
+   "name": "sqlite_autoindex_matches_1",
+   "unique": true,
+   "columns": [
+    "record_id"
+   ]
+  }
+ ],
+ "avg_bytes_per_matches_row": 452,
+ "plans_and_timings": {
+  "team_form (one call per team per fixture)": {
+   "plan": [
+    "SEARCH m USING INDEX idx_matches_status_date (status=? AND match_date<?)",
+    "SEARCH t1 USING INDEX sqlite_autoindex_teams_1 (entity_id=?) LEFT-JOIN",
+    "SEARCH t2 USING INDEX sqlite_autoindex_teams_1 (entity_id=?) LEFT-JOIN",
+    "USE TEMP B-TREE FOR ORDER BY"
+   ],
+   "rows": 5,
+   "ms_runs": [
+    233.6,
+    269.3,
+    210.4,
+    226.8,
+    215.8
+   ]
+  },
+  "_fixture_rows (once per request)": {
+   "plan": [
+    "SEARCH m USING INDEX idx_matches_key (competition_key=? AND season=?)",
+    "SEARCH t1 USING INDEX sqlite_autoindex_teams_1 (entity_id=?) LEFT-JOIN",
+    "SEARCH t2 USING INDEX sqlite_autoindex_teams_1 (entity_id=?) LEFT-JOIN",
+    "USE TEMP B-TREE FOR ORDER BY"
+   ],
+   "rows": 380,
+   "ms_runs": [
+    6.7,
+    4.5,
+    4.2,
+    4.4,
+    4.5
+   ]
+  },
+  "seasons() DISTINCT": {
+   "plan": [
+    "SEARCH matches USING INDEX idx_matches_key (competition_key=?)"
+   ],
+   "rows": 9,
+   "ms_runs": [
+    3.1,
+    1.7,
+    1.5,
+    1.4,
+    1.6
+   ]
+  },
+  "competition_latest_result": {
+   "plan": [
+    "SEARCH matches USING INDEX idx_matches_status_date (status=?)"
+   ],
+   "rows": 1,
+   "ms_runs": [
+    1.9,
+    0.2,
+    0.2,
+    0.1,
+    0.1
+   ]
+  }
+ }
+}

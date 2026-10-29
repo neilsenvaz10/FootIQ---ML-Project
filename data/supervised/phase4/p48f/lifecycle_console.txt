@@ -1,0 +1,61 @@
+== 1. status before start
+Supervisor            : NOT running
+Backend on port 8123   : NOT running
+Operational reviewer  : project owner (daily: scripts\ops\footiq_service.ps1 audit)
+Supervisor log        : D:\Foot IQ\data\supervised\phase4\p48f\lifecycle_work\logs\supervisor.log
+
+== 2. start
+2026-10-27T17:25:36Z [27232] backend is up on port 8123 (club models warming: True)
+
+scheduler: idle; next check 2026-10-27T23:00:36Z | threads=1 | lock=held | next=2026-10-27T23:00:36Z | competitions=BUNDESLIGA | pid=17928
+== 3. start again (must say already running, no second backend)
+2026-10-27T17:25:37Z [15288] already running (supervisor for port 8123); nothing to do
+
+python/uvicorn processes listening on 8123: 1
+== 4. a second supervisor in the foreground must refuse (exit code 3)
+
+exit code: 3
+== 5. a second backend on port 8124 with the SAME lock must not start a scheduler
+second backend: threads=0 | lock=held_by_another_process | status=not scheduling here: another FootIQ process holds the scheduler lock
+first backend still: threads=1 | lock=held
+== 6. crash: kill the backend tree; the supervisor must restart it, with no early provider request
+restarted: True | new pid file 10188 (old 3872) | scheduler pid 22356 (before 17928) | threads=1 | next=2026-10-27T23:00:36Z (before 2026-10-27T23:00:36Z)
+supervisor.log:
+2026-10-27T17:25:31Z [18008] supervisor started (port 8123, python D:\Foot IQ\.venv\Scripts\python.exe)
+2026-10-27T17:25:32Z [18008] backend started (pid 3872); logs D:\Foot IQ\data\supervised\phase4\p48f\lifecycle_work\logs\backend-20261027-225532.out.log
+2026-10-27T17:25:36Z [27232] backend is up on port 8123 (club models warming: True)
+2026-10-27T17:25:37Z [15288] already running (supervisor for port 8123); nothing to do
+2026-10-27T17:25:38Z [12524] another supervisor already runs for port 8123: exiting
+2026-10-27T17:26:02Z [18008] backend exited (code ) after 30 s; consecutive quick exits: 1
+2026-10-27T17:26:02Z [18008] restarting in 5 s
+2026-10-27T17:26:07Z [18008] backend started (pid 10188); logs D:\Foot IQ\data\supervised\phase4\p48f\lifecycle_work\logs\backend-20261027-225607.out.log
+== 7. status, then stop
+Supervisor            : running (pid 18008)
+Backend on port 8123   : answering (listener pid 22356), models ready: False
+Scheduler             : idle; next check 2026-10-27T23:00:36Z
+  live sync / interval: True / 360 min, competitions BUNDESLIGA, mode full_season
+  scheduler threads   : 1 (lock: held), failed cycles in a row: 0
+  next scheduled check: 2026-10-27T23:00:36Z
+  last source check   : 2026-10-27T17:00:39Z; Source checked successfully at 2026-10-27T17:00:39Z: reachable, and it returned no new results (the stored history is unchanged).
+Quarantine            : 57 sync finding(s) need the owner
+Operational reviewer  : project owner (daily: scripts\ops\footiq_service.ps1 audit)
+Latest backend log    : D:\Foot IQ\data\supervised\phase4\p48f\lifecycle_work\logs\backend-20261027-225607.err.log
+Supervisor log        : D:\Foot IQ\data\supervised\phase4\p48f\lifecycle_work\logs\supervisor.log
+
+2026-10-27T17:26:30Z [31084] stopped; port 8123 is free
+
+listeners on 8123 after stop: 0; pid files left: 0
+scheduler lock free after stop: True
+== 8. FOOTIQ_DISABLE_SYNC=1 still disables the scheduler
+2026-10-27T17:26:36Z [9076] backend is up on port 8123 (club models warming: True)
+
+scheduler: not scheduling here: FOOTIQ_DISABLE_SYNC=1 | threads=0 | lock=not_applicable
+2026-10-27T17:26:38Z [15920] stopped; port 8123 is free
+
+== 9. start refuses when the port is already taken by something else
+2026-10-27T17:26:39Z [9956] port 8123 is in use by process 27048 (not started by this supervisor): stop it first (for example the editor's preview server)
+
+exit code: 4
+== 10. production untouched
+production hash unchanged: True
+production request ledger lines before/after: 2/2

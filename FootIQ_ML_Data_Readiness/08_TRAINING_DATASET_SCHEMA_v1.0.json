@@ -1,0 +1,53 @@
+{
+ "version": "v1.0",
+ "created": "2026-10-20 21:34",
+ "features": [
+  "home_elo",
+  "away_elo",
+  "elo_diff",
+  "home_n_prior",
+  "away_n_prior",
+  "home_ppg5",
+  "away_ppg5",
+  "home_ppg10",
+  "away_ppg10",
+  "home_gf5",
+  "home_ga5",
+  "away_gf5",
+  "away_ga5",
+  "home_gf10",
+  "home_ga10",
+  "away_gf10",
+  "away_ga10",
+  "home_venue_ppg5",
+  "away_venue_ppg5",
+  "ppg5_diff",
+  "gd5_diff",
+  "home_days_rest",
+  "away_days_rest",
+  "rest_diff",
+  "is_league",
+  "is_league_phase",
+  "is_knockout",
+  "comp_type_continental",
+  "comp_type_cup",
+  "same_country",
+  "neutral_known"
+ ],
+ "label": "label_outcome_90min_1x2 in {H,D,A} (90-minute result)",
+ "splits": {
+  "train": "< 2023-07-01",
+  "validation": "2023-07-01..2024-06-30",
+  "test": "2024-07-01..2025-06-30",
+  "forward_holdout": ">= 2025-07-01 (2025-26 and 2026-27 before 2026-10-01)"
+ },
+ "elo": {
+  "initial": 1500,
+  "K": 20,
+  "home_advantage": 60,
+  "goal_diff_multiplier": "1, 1.5, (11+gd)/8",
+  "update_data": "90-minute results only"
+ },
+ "missing_values": "NaN means unknown (never imputed with 0); *_n_prior gives history length",
+ "eligibility": "completed, dated, 90-minute label verified, both teams >=5 prior rated 90-minute matches, resolved identities for cups/continental, date >= 2018-08-01"
+}

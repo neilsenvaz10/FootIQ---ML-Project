@@ -1,0 +1,22 @@
+﻿raw_source,kind,url,commit_and_date,files,download_date,sha256_note
+austria,git clone --depth 1,https://github.com/openfootball/austria.git,627ba1b3ebddc5a513420239356f490bef2453ec|2026-10-01,130,2026-10-20,commit hash identifies content
+belgium,git clone --depth 1,https://github.com/openfootball/belgium.git,1166d3c9c5725aec01e1bbeaa20f6467e39ddbb8|2026-08-09,100,2026-10-20,commit hash identifies content
+champions-league,git clone --depth 1,https://github.com/openfootball/champions-league.git,abfaeddc2ee3d14f99ecc163c9ddb46cb4d67cef|2026-07-02,63,2026-10-20,commit hash identifies content
+club-worldcup,git clone --depth 1,https://github.com/openfootball/club-worldcup.git,c8793fc548718d5ac56bee7b0d15ba2cb74f0600|2026-10-20,116,2026-10-20,commit hash identifies content
+clubs,git clone --depth 1,https://github.com/openfootball/clubs.git,ae3800227c449447b3a337fc0aac79a8f02f4c8b|2025-01-03,324,2026-10-20,commit hash identifies content
+copa-america,git clone --depth 1,https://github.com/openfootball/copa-america.git,902e4c51c282244ab924676b3bc471b4040de39a|2026-05-29,67,2026-10-20,commit hash identifies content
+deutschland,git clone --depth 1,https://github.com/openfootball/deutschland.git,c34532ab6950aa0089ef1c736ffdb8c818c3356f|2026-09-21,142,2026-10-20,commit hash identifies content
+england,git clone --depth 1,https://github.com/openfootball/england.git,9ee7a0c351805c99cc334478a9bf04b7d0432fec|2026-10-15,263,2026-10-20,commit hash identifies content
+espana,git clone --depth 1,https://github.com/openfootball/espana.git,80035a93dd4920985af52aa097a54a6fb888563b|2026-10-15,89,2026-10-20,commit hash identifies content
+euro,git clone --depth 1,https://github.com/openfootball/euro.git,88d150a6c8db43925ea327b87e990f653c999b11|2026-06-26,113,2026-10-20,commit hash identifies content
+europe,git clone --depth 1,https://github.com/openfootball/europe.git,63df627f3c87ce71708f016522ea236cf74332c3|2026-10-15,250,2026-10-20,commit hash identifies content
+italy,git clone --depth 1,https://github.com/openfootball/italy.git,48954d163c312aa705efacb64f771267031fe6eb|2026-09-21,90,2026-10-20,commit hash identifies content
+leagues,git clone --depth 1,https://github.com/openfootball/leagues.git,500b3eb4958e57849f93f816261149e0286e25c4|2025-12-04,81,2026-10-20,commit hash identifies content
+players,git clone --depth 1,https://github.com/openfootball/players.git,125d20f7cc06cac7e758b40df535a7695632680a|2024-06-17,219,2026-10-20,commit hash identifies content
+south-america,git clone --depth 1,https://github.com/openfootball/south-america.git,f51b2dcf5e0fab9f0abd5206ab8c24a413e67277|2026-10-20,96,2026-10-20,commit hash identifies content
+statsbomb_open_data,git clone --depth 1,https://github.com/statsbomb/open-data.git,4b73468fc5b0f1950f9f66fada70ad3a4f9327cb|2026-09-07,9017,2026-10-20,commit hash identifies content
+world,git clone --depth 1,https://github.com/openfootball/world.git,42df8203e73e922cdfa36104e3acee3aea1f2bc0|2026-09-23,204,2026-10-20,commit hash identifies content
+martj42_refresh/former_names.csv,HTTP download,https://raw.githubusercontent.com/martj42/international_results/master/former_names.csv,,1,2026-10-20,2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e
+martj42_refresh/goalscorers.csv,HTTP download,https://raw.githubusercontent.com/martj42/international_results/master/goalscorers.csv,,1,2026-10-20,e02b25cfcad3fca9af79a5cf075c33a6875416d6d80e5ab42514535cb0d639fe
+martj42_refresh/results.csv,HTTP download,https://raw.githubusercontent.com/martj42/international_results/master/results.csv,,1,2026-10-20,5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767
+martj42_refresh/shootouts.csv,HTTP download,https://raw.githubusercontent.com/martj42/international_results/master/shootouts.csv,,1,2026-10-20,072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa

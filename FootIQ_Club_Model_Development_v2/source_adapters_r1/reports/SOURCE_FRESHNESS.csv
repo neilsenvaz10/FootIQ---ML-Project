@@ -1,0 +1,4 @@
+source,snapshot_retrieved_utc,latest_completed_result_date,latest_source_update_stamp,lag_days_vs_2026-10-21,kickoff_times_stated,evidence
+openfootball (pinned = upstream HEAD),2026-10-20,2026-09-20,repo commits up to 2026-10-20,31,"local time for 17.6% of upcoming fixtures, no time zone",ingestion selftest + plan
+OpenLigaDB Bundesliga 2026,2026-10-21T13:35Z,2026-10-18,2026-10-18T19:23:40,3,"306/306 in UTC",evidence/openligadb_bl1_2026.json
+Wikipedia Premier League 2026-27 (rev 1381300885),2026-10-21T12:51Z,2026-10-19 (page 'update' date),revision 2026-10-21T12:50:14Z,2,"none (matrix has no times)",evidence/pl_2026_27.json

@@ -1,0 +1,74 @@
+{
+ "started_utc": "2026-10-27T18:06:27Z",
+ "stage": "get",
+ "url": "https://api.openligadb.de/getmatchdata/la1/2026",
+ "production_physical_sha256_before": "2f5126efddf963d472af5b032db355d92dee6e9fcffacd63a9355c8ce4252f67",
+ "ledger_lines_before": 2,
+ "cycle": {
+  "outcome": "ok",
+  "details": [
+   {
+    "competition": "LALIGA",
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 263,
+    "confirmed": 93,
+    "quarantined": 24,
+    "requests": 1,
+    "snapshot_reused": false
+   }
+  ],
+  "requests_made": 1
+ },
+ "production_physical_sha256_after": "2f5126efddf963d472af5b032db355d92dee6e9fcffacd63a9355c8ce4252f67",
+ "production_untouched": true,
+ "ledger_lines_after": 3,
+ "snapshot": {
+  "file": "data/snapshots/openligadb/20261027T180630Z_la1_2026_season.json",
+  "sha256": "efe9e2a94ae06151f39947cbcb04e73e5c8e5f1534447bc96c5f3284afc11508",
+  "sha256_in_meta": "efe9e2a94ae06151f39947cbcb04e73e5c8e5f1534447bc96c5f3284afc11508",
+  "bytes": 452761,
+  "origin": "provider_http",
+  "url": "https://api.openligadb.de/getmatchdata/la1/2026",
+  "status": 200,
+  "saved_utc": "2026-10-27T18:06:30Z"
+ },
+ "validation": {
+  "matches": 380,
+  "leagues": [
+   "la1"
+  ],
+  "seasons": [
+   2026
+  ],
+  "teams": 20,
+  "unresolved_team_names": [],
+  "matchdays": 38,
+  "matches_per_matchday": [
+   10
+  ],
+  "unique_match_ids": 380,
+  "finished": 98,
+  "fixtures_in_production": 380,
+  "fixtures_matched_in_production": 380,
+  "fixtures_not_in_production": 0,
+  "production_fixtures_missing_from_response": 0
+ },
+ "dry_run": {
+  "rows_before_after": [
+   3420,
+   3420
+  ],
+  "rows_changed": 0,
+  "changed_fields": [],
+  "results_that_would_be_imported": 0,
+  "new_rows": 0,
+  "would_be_quarantined_additionally": {},
+  "completed_before": 3133,
+  "completed_after_in_copy": 3133,
+  "changes_that_touch_a_stored_date_or_score": [],
+  "importable_record_ids": []
+ },
+ "validation_failed": [],
+ "result": "VALIDATED"
+}

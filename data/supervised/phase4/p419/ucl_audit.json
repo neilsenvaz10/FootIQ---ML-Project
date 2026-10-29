@@ -1,0 +1,418 @@
+{
+ "database": "data\\footiq.sqlite",
+ "rows": 1140,
+ "seasons": {
+  "2018-19": {
+   "season": "2018-19",
+   "rows": 125,
+   "expected": 125,
+   "completed": 125,
+   "not_completed": 0,
+   "missing_vs_expected": 0,
+   "first_date": "2018-09-18",
+   "last_date": "2019-06-01",
+   "sources": [
+    "openfootball"
+   ],
+   "licences": [
+    "CC0-1.0"
+   ],
+   "in_model_universe": 125,
+   "league_phase_rows": 0,
+   "league_phase_expected": null,
+   "league_phase_teams": 0,
+   "teams_with_wrong_league_match_count": [],
+   "duplicate_same_day_pair": 0,
+   "duplicate_same_stage_pair": 0,
+   "dates_outside_season_window": 0,
+   "implausible_scores": 0,
+   "completed_without_score": 0,
+   "missing_team_identifier": 0,
+   "team_identifier_not_in_teams_table": 0,
+   "home_equals_away": 0,
+   "outcome_disagrees_with_score": 0
+  },
+  "2019-20": {
+   "season": "2019-20",
+   "rows": 119,
+   "expected": 119,
+   "completed": 119,
+   "not_completed": 0,
+   "missing_vs_expected": 0,
+   "first_date": "2019-09-17",
+   "last_date": "2020-08-23",
+   "sources": [
+    "openfootball"
+   ],
+   "licences": [
+    "CC0-1.0"
+   ],
+   "in_model_universe": 119,
+   "league_phase_rows": 0,
+   "league_phase_expected": null,
+   "league_phase_teams": 0,
+   "teams_with_wrong_league_match_count": [],
+   "duplicate_same_day_pair": 0,
+   "duplicate_same_stage_pair": 0,
+   "dates_outside_season_window": 0,
+   "implausible_scores": 0,
+   "completed_without_score": 0,
+   "missing_team_identifier": 0,
+   "team_identifier_not_in_teams_table": 0,
+   "home_equals_away": 0,
+   "outcome_disagrees_with_score": 0
+  },
+  "2020-21": {
+   "season": "2020-21",
+   "rows": 125,
+   "expected": 125,
+   "completed": 125,
+   "not_completed": 0,
+   "missing_vs_expected": 0,
+   "first_date": "2020-10-20",
+   "last_date": "2021-05-29",
+   "sources": [
+    "openfootball"
+   ],
+   "licences": [
+    "CC0-1.0"
+   ],
+   "in_model_universe": 125,
+   "league_phase_rows": 0,
+   "league_phase_expected": null,
+   "league_phase_teams": 0,
+   "teams_with_wrong_league_match_count": [],
+   "duplicate_same_day_pair": 0,
+   "duplicate_same_stage_pair": 0,
+   "dates_outside_season_window": 0,
+   "implausible_scores": 0,
+   "completed_without_score": 0,
+   "missing_team_identifier": 0,
+   "team_identifier_not_in_teams_table": 0,
+   "home_equals_away": 0,
+   "outcome_disagrees_with_score": 0
+  },
+  "2021-22": {
+   "season": "2021-22",
+   "rows": 125,
+   "expected": 125,
+   "completed": 125,
+   "not_completed": 0,
+   "missing_vs_expected": 0,
+   "first_date": "2021-09-14",
+   "last_date": "2022-05-28",
+   "sources": [
+    "openfootball"
+   ],
+   "licences": [
+    "CC0-1.0"
+   ],
+   "in_model_universe": 125,
+   "league_phase_rows": 0,
+   "league_phase_expected": null,
+   "league_phase_teams": 0,
+   "teams_with_wrong_league_match_count": [],
+   "duplicate_same_day_pair": 0,
+   "duplicate_same_stage_pair": 0,
+   "dates_outside_season_window": 0,
+   "implausible_scores": 0,
+   "completed_without_score": 0,
+   "missing_team_identifier": 0,
+   "team_identifier_not_in_teams_table": 0,
+   "home_equals_away": 0,
+   "outcome_disagrees_with_score": 0
+  },
+  "2022-23": {
+   "season": "2022-23",
+   "rows": 125,
+   "expected": 125,
+   "completed": 125,
+   "not_completed": 0,
+   "missing_vs_expected": 0,
+   "first_date": "2022-09-06",
+   "last_date": "2023-06-10",
+   "sources": [
+    "openfootball"
+   ],
+   "licences": [
+    "CC0-1.0"
+   ],
+   "in_model_universe": 125,
+   "league_phase_rows": 0,
+   "league_phase_expected": null,
+   "league_phase_teams": 0,
+   "teams_with_wrong_league_match_count": [],
+   "duplicate_same_day_pair": 0,
+   "duplicate_same_stage_pair": 0,
+   "dates_outside_season_window": 0,
+   "implausible_scores": 0,
+   "completed_without_score": 0,
+   "missing_team_identifier": 0,
+   "team_identifier_not_in_teams_table": 0,
+   "home_equals_away": 0,
+   "outcome_disagrees_with_score": 0
+  },
+  "2023-24": {
+   "season": "2023-24",
+   "rows": 125,
+   "expected": 125,
+   "completed": 125,
+   "not_completed": 0,
+   "missing_vs_expected": 0,
+   "first_date": "2023-09-19",
+   "last_date": "2024-06-01",
+   "sources": [
+    "openfootball"
+   ],
+   "licences": [
+    "CC0-1.0"
+   ],
+   "in_model_universe": 125,
+   "league_phase_rows": 0,
+   "league_phase_expected": null,
+   "league_phase_teams": 0,
+   "teams_with_wrong_league_match_count": [],
+   "duplicate_same_day_pair": 0,
+   "duplicate_same_stage_pair": 0,
+   "dates_outside_season_window": 0,
+   "implausible_scores": 0,
+   "completed_without_score": 0,
+   "missing_team_identifier": 0,
+   "team_identifier_not_in_teams_table": 0,
+   "home_equals_away": 0,
+   "outcome_disagrees_with_score": 0
+  },
+  "2024-25": {
+   "season": "2024-25",
+   "rows": 189,
+   "expected": 189,
+   "completed": 189,
+   "not_completed": 0,
+   "missing_vs_expected": 0,
+   "first_date": "2024-09-17",
+   "last_date": "2025-05-31",
+   "sources": [
+    "openfootball"
+   ],
+   "licences": [
+    "CC0-1.0"
+   ],
+   "in_model_universe": 189,
+   "league_phase_rows": 144,
+   "league_phase_expected": 144,
+   "league_phase_teams": 36,
+   "teams_with_wrong_league_match_count": [],
+   "duplicate_same_day_pair": 0,
+   "duplicate_same_stage_pair": 0,
+   "dates_outside_season_window": 0,
+   "implausible_scores": 0,
+   "completed_without_score": 0,
+   "missing_team_identifier": 0,
+   "team_identifier_not_in_teams_table": 0,
+   "home_equals_away": 0,
+   "outcome_disagrees_with_score": 0
+  },
+  "2025-26": {
+   "season": "2025-26",
+   "rows": 189,
+   "expected": 189,
+   "completed": 189,
+   "not_completed": 0,
+   "missing_vs_expected": 0,
+   "first_date": "2025-09-16",
+   "last_date": "2026-05-30",
+   "sources": [
+    "openfootball"
+   ],
+   "licences": [
+    "CC0-1.0"
+   ],
+   "in_model_universe": 189,
+   "league_phase_rows": 144,
+   "league_phase_expected": 144,
+   "league_phase_teams": 36,
+   "teams_with_wrong_league_match_count": [],
+   "duplicate_same_day_pair": 0,
+   "duplicate_same_stage_pair": 0,
+   "dates_outside_season_window": 0,
+   "implausible_scores": 0,
+   "completed_without_score": 0,
+   "missing_team_identifier": 0,
+   "team_identifier_not_in_teams_table": 0,
+   "home_equals_away": 0,
+   "outcome_disagrees_with_score": 0
+  },
+  "2026-27": {
+   "season": "2026-27",
+   "rows": 18,
+   "expected": 189,
+   "completed": 18,
+   "not_completed": 0,
+   "missing_vs_expected": 171,
+   "first_date": "2026-09-08",
+   "last_date": "2026-09-10",
+   "sources": [
+    "wikipedia"
+   ],
+   "licences": [
+    "CC BY-SA 4.0"
+   ],
+   "in_model_universe": 0,
+   "league_phase_rows": 18,
+   "league_phase_expected": 144,
+   "league_phase_teams": 36,
+   "teams_with_wrong_league_match_count": [
+    "CLUB:AUT:lask-linz",
+    "CLUB:AZE:sabah-fc",
+    "CLUB:BEL:club-brugge",
+    "CLUB:CZE:sk-slavia-praha",
+    "CLUB:ENG:arsenal-fc",
+    "CLUB:ENG:aston-villa-fc",
+    "CLUB:ENG:liverpool-fc",
+    "CLUB:ENG:manchester-city-fc",
+    "CLUB:ENG:manchester-united-fc",
+    "CLUB:ESP:atletico-madrid",
+    "CLUB:ESP:fc-barcelona",
+    "CLUB:ESP:real-betis",
+    "CLUB:ESP:real-madrid",
+    "CLUB:ESP:villarreal-cf",
+    "CLUB:FRA:lille-osc",
+    "CLUB:FRA:paris-saint-germain",
+    "CLUB:FRA:rc-lens",
+    "CLUB:GER:bayern-munchen",
+    "CLUB:GER:borussia-dortmund",
+    "CLUB:GER:rb-leipzig",
+    "CLUB:GER:vfb-stuttgart",
+    "CLUB:GRE:aek-athens-fc",
+    "CLUB:ITA:as-roma",
+    "CLUB:ITA:como-1907",
+    "CLUB:ITA:fc-internazionale-milano",
+    "CLUB:ITA:ssc-napoli",
+    "CLUB:NED:feyenoord-rotterdam",
+    "CLUB:NED:psv-eindhoven",
+    "CLUB:NOR:bod-glimt",
+    "CLUB:NOR:viking-fk",
+    "CLUB:POR:fc-porto",
+    "CLUB:POR:sporting-cp",
+    "CLUB:SVK:sk-slovan-bratislava",
+    "CLUB:TUR:fenerbahce-istanbul",
+    "CLUB:TUR:galatasaray-istanbul",
+    "CLUB:UKR:fc-shakhtar-donetsk"
+   ],
+   "duplicate_same_day_pair": 0,
+   "duplicate_same_stage_pair": 0,
+   "dates_outside_season_window": 0,
+   "implausible_scores": 0,
+   "completed_without_score": 0,
+   "missing_team_identifier": 0,
+   "team_identifier_not_in_teams_table": 0,
+   "home_equals_away": 0,
+   "outcome_disagrees_with_score": 0
+  }
+ },
+ "entities": {
+  "distinct_entity_ids": 94,
+  "entities_with_several_source_spellings": 25,
+  "example_spellings": {
+   "CLUB:AUT:fc-rb-salzburg": [
+    "FC Red Bull Salzburg",
+    "RB Salzburg"
+   ],
+   "CLUB:CRO:gnk-dinamo-zagreb": [
+    "Dinamo Zagreb",
+    "GNK Dinamo Zagreb"
+   ],
+   "CLUB:CZE:sk-slavia-praha": [
+    "SK Slavia Prague",
+    "SK Slavia Praha",
+    "Slavia Praha"
+   ],
+   "CLUB:ENG:liverpool-fc": [
+    "Liverpool F.C.",
+    "Liverpool FC"
+   ],
+   "CLUB:ENG:manchester-city-fc": [
+    "Manchester City",
+    "Manchester City FC"
+   ]
+  }
+ },
+ "season_2026_27": {
+  "expected_league_phase": 144,
+  "in_store": 18,
+  "completed_in_store": 18,
+  "scheduled_in_store": 0,
+  "staging_rows": 144,
+  "staging_played": 36,
+  "staging_scheduled": 108,
+  "missing_from_store": 126,
+  "by_matchday": [
+   {
+    "matchday": 1,
+    "fixtures": 18,
+    "played_in_staging": 18,
+    "in_store": 18,
+    "first": "2026-09-08",
+    "last": "2026-09-10"
+   },
+   {
+    "matchday": 2,
+    "fixtures": 18,
+    "played_in_staging": 18,
+    "in_store": 0,
+    "first": "2026-10-13",
+    "last": "2026-10-14"
+   },
+   {
+    "matchday": 3,
+    "fixtures": 18,
+    "played_in_staging": 0,
+    "in_store": 0,
+    "first": "2026-10-20",
+    "last": "2026-10-21"
+   },
+   {
+    "matchday": 4,
+    "fixtures": 18,
+    "played_in_staging": 0,
+    "in_store": 0,
+    "first": "2026-11-03",
+    "last": "2026-11-04"
+   },
+   {
+    "matchday": 5,
+    "fixtures": 18,
+    "played_in_staging": 0,
+    "in_store": 0,
+    "first": "2026-11-24",
+    "last": "2026-11-25"
+   },
+   {
+    "matchday": 6,
+    "fixtures": 18,
+    "played_in_staging": 0,
+    "in_store": 0,
+    "first": "2026-12-08",
+    "last": "2026-12-09"
+   },
+   {
+    "matchday": 7,
+    "fixtures": 18,
+    "played_in_staging": 0,
+    "in_store": 0,
+    "first": "2027-01-19",
+    "last": "2027-01-20"
+   },
+   {
+    "matchday": 8,
+    "fixtures": 18,
+    "played_in_staging": 0,
+    "in_store": 0,
+    "first": "2027-01-27",
+    "last": "2027-01-27"
+   }
+  ],
+  "knockout_phase": "45 knockout-phase matches (16 play-off, 16 round of 16, 8 quarter-final, 4 semi-final, 1 final): pairings are not drawn until the league phase ends, so no source holds them",
+  "expected_total_competition": 189
+ }
+}

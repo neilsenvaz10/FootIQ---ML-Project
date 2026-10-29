@@ -1,0 +1,80 @@
+{
+ "run_id": "selftest_20261021T130834Z",
+ "run_date": "2026-10-21",
+ "retrieved_utc": "2026-10-20",
+ "snapshot_root": "D:\\Foot IQ\\FootIQ_Dataset_Submission\\_raw_sources",
+ "source": {
+  "name": "openfootball (CC0 / public domain)",
+  "url_prefix": "https://github.com/openfootball/"
+ },
+ "repos": {
+  "austria": {
+   "url": "https://github.com/openfootball/austria.git",
+   "commit": "627ba1b3ebddc5a513420239356f490bef2453ec",
+   "commit_date": "2026-10-01T17:12:30+02:00",
+   "retrieved_utc": "2026-10-20 (pinned original clone, read-only)"
+  },
+  "belgium": {
+   "url": "https://github.com/openfootball/belgium.git",
+   "commit": "1166d3c9c5725aec01e1bbeaa20f6467e39ddbb8",
+   "commit_date": "2026-08-09T15:10:27+02:00",
+   "retrieved_utc": "2026-10-20 (pinned original clone, read-only)"
+  },
+  "deutschland": {
+   "url": "https://github.com/openfootball/deutschland.git",
+   "commit": "c34532ab6950aa0089ef1c736ffdb8c818c3356f",
+   "commit_date": "2026-09-21T12:35:54+02:00",
+   "retrieved_utc": "2026-10-20 (pinned original clone, read-only)"
+  },
+  "england": {
+   "url": "https://github.com/openfootball/england.git",
+   "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+   "commit_date": "2026-10-15T16:42:31+02:00",
+   "retrieved_utc": "2026-10-20 (pinned original clone, read-only)"
+  },
+  "espana": {
+   "url": "https://github.com/openfootball/espana.git",
+   "commit": "80035a93dd4920985af52aa097a54a6fb888563b",
+   "commit_date": "2026-10-15T16:37:57+02:00",
+   "retrieved_utc": "2026-10-20 (pinned original clone, read-only)"
+  },
+  "europe": {
+   "url": "https://github.com/openfootball/europe.git",
+   "commit": "63df627f3c87ce71708f016522ea236cf74332c3",
+   "commit_date": "2026-10-15T16:36:29+02:00",
+   "retrieved_utc": "2026-10-20 (pinned original clone, read-only)"
+  },
+  "italy": {
+   "url": "https://github.com/openfootball/italy.git",
+   "commit": "48954d163c312aa705efacb64f771267031fe6eb",
+   "commit_date": "2026-09-21T12:35:59+02:00",
+   "retrieved_utc": "2026-10-20 (pinned original clone, read-only)"
+  },
+  "south-america": {
+   "url": "https://github.com/openfootball/south-america.git",
+   "commit": "f51b2dcf5e0fab9f0abd5206ab8c24a413e67277",
+   "commit_date": "2026-10-20T13:43:55+02:00",
+   "retrieved_utc": "2026-10-20 (pinned original clone, read-only)"
+  },
+  "world": {
+   "url": "https://github.com/openfootball/world.git",
+   "commit": "42df8203e73e922cdfa36104e3acee3aea1f2bc0",
+   "commit_date": "2026-09-23T12:34:27+01:00",
+   "retrieved_utc": "2026-10-20 (pinned original clone, read-only)"
+  }
+ },
+ "files_parsed": 675,
+ "rows_parsed": 221754,
+ "frozen_training_cutoff": "2026-09-20",
+ "new_completed_results": 0,
+ "latest_new_result_date": null,
+ "upcoming_fixtures": 3168,
+ "unresolved_or_non_completed_after_cutoff": 271,
+ "historical_score_conflicts": 0,
+ "historical_rows_in_snapshot_not_in_frozen": 2,
+ "in_snapshot_conflicts": 0,
+ "duplicate_groups": 24,
+ "frozen_rows_matched": 201850,
+ "refreshed_universe_sha256": "9457f16f26a9e132412a1cd5f66a40455ce405a92bae449fbaef44ebf4d16fd6",
+ "parser_issue_rows": 28
+}

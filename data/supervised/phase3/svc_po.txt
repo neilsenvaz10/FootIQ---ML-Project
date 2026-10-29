@@ -1,0 +1,43 @@
+..F..                                                                    [100%]
+================================== FAILURES ===================================
+_ test_points_only_runs_with_the_scoreline_gate_closed_is_saved_on_action_only_and_has_no_positions _
+
+copy_db = WindowsPath('C:/Users/DELL/AppData/Local/Temp/pytest-of-DELL/pytest-25/sim0/store.sqlite')
+
+    @needs_store
+    def test_points_only_runs_with_the_scoreline_gate_closed_is_saved_on_action_only_and_has_no_positions(copy_db):
+        assert settings.load()["scoreline_method"] is None                                      # the full simulator is still disabled
+        before = n_runs(copy_db)
+        with pytest.raises(service.SimError, match="explicitly presses"):
+            service.run_points_only("BUNDESLIGA", "2026-27", 2000, 5, "page_load", today=TODAY, db_path=copy_db)
+        with pytest.raises(service.SimError, match="blocked"):
+            service.run_points_only("EPL", "2026-27", 2000, 5, service.POINTS_ACTION, today=TODAY, db_path=copy_db)
+        assert n_runs(copy_db) == before
+        a = service.run_points_only("BUNDESLIGA", "2026-27", 2000, 5, service.POINTS_ACTION, today=TODAY, db_path=copy_db)
+        b = service.run_points_only("BUNDESLIGA", "2026-27", 2000, 5, service.POINTS_ACTION, today=TODAY, db_path=copy_db)
+        assert n_runs(copy_db) == before + 2 and a["result"]["summary"]["teams"] == b["result"]["summary"]["teams"]
+        asm, teams = a["assumptions"], a["result"]["summary"]["teams"]
+        assert asm["mode"] == "points_only" and asm["label"].startswith("Experimental") and asm["simulations"] == 2000 and asm["seed"] == 5 and asm["remaining_fixtures"] == 245
+        assert list(asm["models"]) == ["primary"] and "club_v1" in asm["artifact_sha256"]
+        for k in ("created_utc", "freshness", "data_cutoff", "eligibility", "limitations", "input_sha256", "points_rule"):
+            assert k in asm
+        assert len(teams) == 18 and all(t["expected_points"] >= t["current_points"] and t["points_p10"] <= t["expected_points"] <= t["points_p90"] for t in teams)
+        assert all(not any(k in t for k in POSITION_KEYS) for t in teams) and "final_position_probabilities_supported" not in a["result"]["summary"]
+        c = sqlite3.connect(copy_db)
+        played_points = sum(3 if h > a_ else 2 for h, a_ in c.execute("SELECT home_goals_90, away_goals_90 FROM matches WHERE competition_key='BUNDESLIGA' AND season='2026-27' AND status='completed'"))
+        c.close()
+>       assert sum(t["current_points"] for t in teams) == played_points                          # points already on the table: 3 per decisive result, 2 per draw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       assert 170 == 153
+E        +  where 170 = sum(<generator object test_points_only_runs_with_the_scoreline_gate_closed_is_saved_on_action_only_and_has_no_positions.<locals>.<genexpr> at 0x0000026F41254040>)
+
+tests\test_seasonsim_service.py:264: AssertionError
+============================== warnings summary ===============================
+tests/test_seasonsim_service.py::test_api_status_and_refusals_without_writing_anything
+  D:\Foot IQ\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_seasonsim_service.py::test_points_only_runs_with_the_scoreline_gate_closed_is_saved_on_action_only_and_has_no_positions
+1 failed, 4 passed, 9 deselected, 1 warning in 33.97s

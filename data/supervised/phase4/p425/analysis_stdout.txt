@@ -1,0 +1,307 @@
+TOTAL 37.14 GB, 42939 files
+
+TOP-LEVEL
+    18.348 GB   11428 files  FootIQ_Dataset_Submission
+    15.964 GB    3080 files  data
+     0.749 GB     399 files  FootIQ_Club_Model_Development_v2
+     0.644 GB     170 files  FootIQ_ML_Data_Readiness
+     0.378 GB   13240 files  .venv
+     0.364 GB      36 files  FootIQ_ML_Training_Preparation
+     0.198 GB    2127 files  docs
+     0.159 GB    1061 files  .git
+     0.150 GB      68 files  FootIQ_ML_Data_Verification
+     0.144 GB   10820 files  frontend
+     0.021 GB      42 files  FootIQ_Club_Model_Baseline_v1
+     0.018 GB       1 files  FootIQ_Dataset_Submission.zip
+     0.003 GB      69 files  tests
+     0.002 GB     141 files  app
+     0.001 GB     163 files  outputs
+     0.001 GB      51 files  scripts
+     0.000 GB       1 files  World_Cup_Prediction_Model_Sources_and_Provenance.pdf
+     0.000 GB       1 files  World_Cup_Prediction_Model_Project_Journey.pdf
+     0.000 GB       1 files  PROJECT.md
+     0.000 GB       5 files  .pytest_cache
+     0.000 GB       1 files  SHARE_MANIFEST.sha256
+     0.000 GB      11 files  logs
+     0.000 GB       9 files  scratch
+     0.000 GB       6 files  config
+     0.000 GB       1 files  README.md
+
+data/* (depth 2)
+    12.930 GB    2582  data/supervised
+     2.746 GB     110  data/backups
+     0.229 GB       1  data/footiq.sqlite
+     0.022 GB     142  data/raw
+     0.022 GB     156  data/processed
+     0.008 GB      72  data/snapshots
+     0.005 GB       3  data/miniproject
+     0.001 GB       1  data/model_artifacts
+     0.000 GB       1  data/footiq.sqlite-shm
+     0.000 GB       4  data/inputs
+     0.000 GB       6  data/contracts
+     0.000 GB       1  data/run
+
+data/supervised/* (depth 3)
+    11.061 GB    2394  data/supervised/phase4
+     0.686 GB       8  data/supervised/rehearsal
+     0.457 GB       8  data/supervised/production_import
+     0.229 GB       1  data/supervised/live_test_copy.sqlite
+     0.228 GB       1  data/supervised/demo.sqlite
+     0.228 GB       1  data/supervised/footiq.before-sync.sqlite
+     0.025 GB      25  data/supervised/rules_research
+     0.010 GB      48  data/supervised/pytest_tmp
+     0.006 GB      76  data/supervised/phase3
+     0.000 GB       1  data/supervised/footiq.before-sync.sqlite-shm
+     0.000 GB       1  data/supervised/live_test_copy.sqlite-shm
+     0.000 GB       1  data/supervised/demo.sqlite-shm
+     0.000 GB       1  data/supervised/investigation_analysis.txt
+     0.000 GB       1  data/supervised/investigation_output.txt
+     0.000 GB       1  data/supervised/live_test_backend2.log
+     0.000 GB       1  data/supervised/live_test_backend3.log
+     0.000 GB       1  data/supervised/full_backend_run_2.txt
+     0.000 GB       1  data/supervised/rehearsal_run_output.txt
+     0.000 GB       1  data/supervised/demo_backend.log
+     0.000 GB       1  data/supervised/hashes_before.json
+     0.000 GB       1  data/supervised/full_backend_run_4.txt
+     0.000 GB       1  data/supervised/full_backend_run_3.txt
+     0.000 GB       1  data/supervised/full_backend_run.txt
+     0.000 GB       1  data/supervised/live_test_backend.log
+     0.000 GB       1  data/supervised/demo_frontend.log
+
+data/supervised/phase4/* (depth 4)
+     7.231 GB    1322  data/supervised/phase4/p44
+     0.916 GB      35  data/supervised/phase4/p419
+     0.540 GB     535  data/supervised/phase4/p46
+     0.458 GB      33  data/supervised/phase4/p421
+     0.457 GB       8  data/supervised/phase4/p49
+     0.457 GB       6  data/supervised/phase4/p45
+     0.230 GB      52  data/supervised/phase4/p423
+     0.229 GB       2  data/supervised/phase4/p412
+     0.229 GB      40  data/supervised/phase4/p48d
+     0.229 GB       4  data/supervised/phase4/p410
+     0.059 GB      71  data/supervised/phase4/p417
+     0.019 GB      12  data/supervised/phase4/p424
+     0.002 GB      33  data/supervised/phase4/p48c
+     0.001 GB      68  data/supervised/phase4/p420
+     0.000 GB      14  data/supervised/phase4/p422
+     0.000 GB       3  data/supervised/phase4/baseline
+     0.000 GB       1  data/supervised/phase4/backend_baseline.log
+     0.000 GB      20  data/supervised/phase4/p42
+     0.000 GB       8  data/supervised/phase4/baselines
+     0.000 GB       1  data/supervised/phase4/p42_vitest_live_default.json
+     0.000 GB       1  data/supervised/phase4/p42_vitest_mock.json
+     0.000 GB      14  data/supervised/phase4/p43
+     0.000 GB       1  data/supervised/phase4/p41_vitest_live_final.json
+     0.000 GB       1  data/supervised/phase4/p41_vitest_mock.json
+     0.000 GB      15  data/supervised/phase4/p48b
+     0.000 GB       2  data/supervised/phase4/p413
+     0.000 GB       7  data/supervised/phase4/p416
+     0.000 GB      11  data/supervised/phase4/tools
+     0.000 GB       1  data/supervised/phase4/p412_stdout.txt
+     0.000 GB       9  data/supervised/phase4/p414
+
+data/backups/* (depth 3)
+     0.229 GB       4  data/backups/p424_pre_reconcile_20261028
+     0.229 GB       1  data/backups/p422_after_domestic_20261028
+     0.229 GB       4  data/backups/p422_pre_import_20261028
+     0.229 GB       3  data/backups/p421_pre_import_20261028
+     0.229 GB       4  data/backups/p420_pre_import_20261028
+     0.229 GB       1  data/backups/footiq.20261027T180815Z.pre-laliga-import.sqlite
+     0.229 GB       1  data/backups/footiq.20261027T165926Z.pre-activation.sqlite
+     0.229 GB       1  data/backups/footiq.20261027T170018Z.pre-activation.sqlite
+     0.229 GB       1  data/backups/footiq.20261027T141753Z.pre-laliga.sqlite
+     0.229 GB       1  data/backups/footiq.20261027T141855Z.pre-laliga.sqlite
+     0.229 GB       1  data/backups/footiq.20261027T141608Z.pre-bundesliga.sqlite
+     0.229 GB       1  data/backups/footiq.20261027T141506Z.pre-bundesliga.sqlite
+     0.000 GB      53  data/backups/p418_rollback_20261028
+     0.000 GB      12  data/backups/p420_code_before
+     0.000 GB       1  data/backups/footiq.20261027T141753Z.pre-laliga.sqlite-shm
+     0.000 GB       1  data/backups/footiq.20261027T170018Z.pre-activation.sqlite-shm
+     0.000 GB       1  data/backups/footiq.20261027T141855Z.pre-laliga.sqlite-shm
+     0.000 GB       1  data/backups/footiq.20261027T180815Z.pre-laliga-import.sqlite-shm
+     0.000 GB       1  data/backups/footiq.20261027T141608Z.pre-bundesliga.sqlite-shm
+     0.000 GB       1  data/backups/footiq.20261027T165926Z.pre-activation.sqlite-shm
+     0.000 GB       1  data/backups/footiq.20261027T141506Z.pre-bundesliga.sqlite-shm
+     0.000 GB       1  data/backups/sync.json.20261028T015109Z.pre-startup-mode
+     0.000 GB       1  data/backups/footiq.20261027T180815Z.pre-laliga-import.sqlite.json
+     0.000 GB       1  data/backups/footiq.20261027T170018Z.pre-activation.sqlite.json
+     0.000 GB       1  data/backups/footiq.20261027T165926Z.pre-activation.sqlite.json
+     0.000 GB       1  data/backups/footiq.20261027T141608Z.pre-bundesliga.sqlite.json
+     0.000 GB       1  data/backups/footiq.20261027T141506Z.pre-bundesliga.sqlite.json
+     0.000 GB       1  data/backups/footiq.20261027T141855Z.pre-laliga.sqlite.json
+     0.000 GB       1  data/backups/footiq.20261027T141753Z.pre-laliga.sqlite.json
+     0.000 GB       1  data/backups/footiq.20261027T170018Z.pre-activation.sqlite-wal
+     0.000 GB       1  data/backups/footiq.20261027T180815Z.pre-laliga-import.sqlite-wal
+     0.000 GB       1  data/backups/footiq.20261027T141855Z.pre-laliga.sqlite-wal
+     0.000 GB       1  data/backups/footiq.20261027T141753Z.pre-laliga.sqlite-wal
+     0.000 GB       1  data/backups/footiq.20261027T141608Z.pre-bundesliga.sqlite-wal
+     0.000 GB       1  data/backups/footiq.20261027T141506Z.pre-bundesliga.sqlite-wal
+     0.000 GB       1  data/backups/footiq.20261027T165926Z.pre-activation.sqlite-wal
+
+FootIQ_          20.294 GB  12144 files
+
+.venv             0.378 GB  13240 files
+
+frontend/         0.144 GB  10820 files
+
+.git/             0.159 GB  1061 files
+
+logs/             0.000 GB  11 files
+
+docs/             0.198 GB  2127 files
+
+app/              0.002 GB  141 files
+
+tests/            0.003 GB  69 files
+
+scripts/          0.001 GB  51 files
+
+TOP-LEVEL ENTRIES 2nd level for FootIQ_*
+
+FootIQ_Club_Model_Baseline_v1/* (depth 2)
+     0.015 GB       1  FootIQ_Club_Model_Baseline_v1/predictions_validation_test_holdout.csv
+     0.006 GB       1  FootIQ_Club_Model_Baseline_v1/predictions_validation.csv
+     0.000 GB       7  FootIQ_Club_Model_Baseline_v1/_scripts
+     0.000 GB       1  FootIQ_Club_Model_Baseline_v1/_eval_tables.pkl
+     0.000 GB       1  FootIQ_Club_Model_Baseline_v1/06a_LEAGUE_WISE_METRICS.csv
+     0.000 GB       1  FootIQ_Club_Model_Baseline_v1/07c_CALIBRATION_BINS.csv
+     0.000 GB       1  FootIQ_Club_Model_Baseline_v1/06c_LEAGUE_WISE_LOGREG_VS_BASELINES.csv
+     0.000 GB       6  FootIQ_Club_Model_Baseline_v1/artifacts
+
+FootIQ_Club_Model_Development_v2/* (depth 2)
+     0.244 GB      48  FootIQ_Club_Model_Development_v2/matched_v1_prospective_r1
+     0.232 GB     102  FootIQ_Club_Model_Development_v2/source_adapters_r1
+     0.203 GB      46  FootIQ_Club_Model_Development_v2/_work
+     0.065 GB      20  FootIQ_Club_Model_Development_v2/final_refit_v2_r1
+     0.002 GB       3  FootIQ_Club_Model_Development_v2/artifacts
+     0.001 GB      55  FootIQ_Club_Model_Development_v2/hardened_logger_r2_draft
+     0.001 GB      16  FootIQ_Club_Model_Development_v2/shadow_integration_r1
+     0.001 GB       8  FootIQ_Club_Model_Development_v2/freshness_validation_r1
+
+FootIQ_Dataset_Submission/* (depth 2)
+    17.924 GB   11379  FootIQ_Dataset_Submission/_raw_sources
+     0.174 GB      24  FootIQ_Dataset_Submission/_build
+     0.104 GB       1  FootIQ_Dataset_Submission/02_Historical_Club_Matches.csv
+     0.097 GB       1  FootIQ_Dataset_Submission/05_Player_Match_Statistics.csv
+     0.022 GB       1  FootIQ_Dataset_Submission/01_Historical_International_Matches.csv
+     0.011 GB       1  FootIQ_Dataset_Submission/08_Player_Team_Memberships.csv
+     0.007 GB      10  FootIQ_Dataset_Submission/QA_Reports
+     0.006 GB       1  FootIQ_Dataset_Submission/04_Football_Players.csv
+
+FootIQ_Dataset_Submission.zip/* (depth 2)
+
+FootIQ_ML_Data_Readiness/* (depth 2)
+     0.351 GB      43  FootIQ_ML_Data_Readiness/_build
+     0.073 GB       1  FootIQ_ML_Data_Readiness/04d_COMBINED_CLUB_MATCHES_v1.0.csv
+     0.065 GB       1  FootIQ_ML_Data_Readiness/08_TRAINING_READY_MATCH_DATASET_v1.0_extended.csv
+     0.065 GB       1  FootIQ_ML_Data_Readiness/04a_LEAGUE_RESULTS_v1.0.csv
+     0.063 GB       1  FootIQ_ML_Data_Readiness/08_TRAINING_READY_MATCH_DATASET_v1.0_strict.csv
+     0.007 GB       3  FootIQ_ML_Data_Readiness/leagues_2025-26_2026-27
+     0.007 GB     105  FootIQ_ML_Data_Readiness/raw_external
+     0.004 GB       1  FootIQ_ML_Data_Readiness/04c_CONTINENTAL_AND_GLOBAL_RESULTS_v1.0.csv
+
+FootIQ_ML_Data_Verification/* (depth 2)
+     0.149 GB       3  FootIQ_ML_Data_Verification/player_form_v1
+     0.000 GB      37  FootIQ_ML_Data_Verification/_evidence
+     0.000 GB      10  FootIQ_ML_Data_Verification/_scripts
+     0.000 GB       1  FootIQ_ML_Data_Verification/03_COMPETITION_SEASON_VERIFICATION.csv
+     0.000 GB       1  FootIQ_ML_Data_Verification/12_PLAYER_STATISTICS_COVERAGE.csv
+     0.000 GB       1  FootIQ_ML_Data_Verification/VERIFICATION_ISSUES.csv
+     0.000 GB       1  FootIQ_ML_Data_Verification/04_MATCH_LABEL_AUDIT.md
+     0.000 GB       1  FootIQ_ML_Data_Verification/01_VERIFICATION_SUMMARY.md
+
+FootIQ_ML_Training_Preparation/* (depth 2)
+     0.222 GB      14  FootIQ_ML_Training_Preparation/_build
+     0.060 GB       1  FootIQ_ML_Training_Preparation/03_ROW_LEVEL_CORRECTION_AND_EXCLUSION_LOG_v1.1.csv
+     0.055 GB       1  FootIQ_ML_Training_Preparation/01_CORRECTED_LEAGUE_TRAINING_DATASET_v1.1.csv
+     0.027 GB       1  FootIQ_ML_Training_Preparation/02_CORRECTED_FEATURE_DATASET_v1.1.csv
+     0.000 GB       1  FootIQ_ML_Training_Preparation/season_label_verification_by_file.csv
+     0.000 GB       1  FootIQ_ML_Training_Preparation/season_completeness_by_league_season.csv
+     0.000 GB       1  FootIQ_ML_Training_Preparation/05b_EVALUATION_ELIGIBILITY_BY_LEAGUE_SEASON_v1.1.csv
+     0.000 GB       1  FootIQ_ML_Training_Preparation/08_FINAL_TRAINING_READINESS_REPORT.md
+
+TOP 40 FILES
+      1753.5 MB  FootIQ_Dataset_Submission/_raw_sources/statsbomb_open_data/.git/objects/pack/pack-ff32232a783f753cdc0ee7362e4b66ed58fc2a9d.pack
+       229.3 MB  data/supervised/phase4/p412/private_copy.sqlite
+       229.2 MB  data/supervised/phase4/p44/pytest_baseline/sim0/store.sqlite
+       229.0 MB  data/supervised/phase4/p423/rehearsal/footiq_reconcile.sqlite
+       229.0 MB  data/footiq.sqlite
+       228.9 MB  data/backups/p424_pre_reconcile_20261028/footiq.sqlite
+       228.9 MB  data/supervised/phase4/p421/rehearsal/footiq_ucl_fixtures.sqlite
+       228.9 MB  data/supervised/phase4/p419/rehearsal/footiq_fixture_then_result.sqlite
+       228.9 MB  data/supervised/phase4/p419/rehearsal/footiq_with_fixtures.sqlite
+       228.8 MB  data/backups/p422_after_domestic_20261028/footiq.sqlite
+       228.8 MB  data/supervised/phase4/p421/rehearsal/footiq_domestic.sqlite
+       228.8 MB  data/backups/p422_pre_import_20261028/footiq.sqlite
+       228.8 MB  data/backups/p421_pre_import_20261028/footiq.sqlite
+       228.8 MB  data/supervised/phase4/p419/rehearsal/footiq_results_only.sqlite
+       228.8 MB  data/supervised/phase4/p419/rehearsal/footiq_conflicts.sqlite
+       228.8 MB  data/supervised/phase4/p46/preview.sqlite
+       228.7 MB  data/backups/p420_pre_import_20261028/footiq.sqlite
+       228.7 MB  data/supervised/live_test_copy.sqlite
+       228.7 MB  data/supervised/phase4/p410/private_copy.sqlite
+       228.7 MB  data/supervised/phase4/p49/private_copy.sqlite
+       228.7 MB  data/backups/footiq.20261027T180815Z.pre-laliga-import.sqlite
+       228.7 MB  data/backups/footiq.20261027T170018Z.pre-activation.sqlite
+       228.7 MB  data/backups/footiq.20261027T165926Z.pre-activation.sqlite
+       228.7 MB  data/supervised/phase4/p48d/restore_test_activation.sqlite
+       228.7 MB  data/supervised/phase4/p49/restore_test.sqlite
+       228.7 MB  data/backups/footiq.20261027T141753Z.pre-laliga.sqlite
+       228.7 MB  data/backups/footiq.20261027T141855Z.pre-laliga.sqlite
+       228.7 MB  data/supervised/rehearsal/footiq.rehearsal.sqlite
+       228.7 MB  data/supervised/phase4/p46/tests.sqlite
+       228.7 MB  data/supervised/rehearsal/footiq.rehearsal_repeat.sqlite
+       228.7 MB  data/supervised/phase4/p44/pytest_baseline/reh0/after.sqlite
+       228.7 MB  data/supervised/phase4/p45/preview.sqlite
+       228.7 MB  data/supervised/phase4/p45/tests.sqlite
+       228.7 MB  data/backups/footiq.20261027T141608Z.pre-bundesliga.sqlite
+       228.7 MB  data/backups/footiq.20261027T141506Z.pre-bundesliga.sqlite
+       228.7 MB  data/supervised/phase4/p44/pytest_baseline/test_second_pass_changes_nothi0/other.sqlite
+       228.7 MB  data/supervised/phase4/p44/preview.sqlite
+       228.7 MB  data/supervised/phase4/p44/tests.sqlite
+       228.6 MB  data/supervised/phase4/p44/pytest_baseline/test_without_reviewed_aliases_0/noalias.sqlite
+       228.3 MB  data/supervised/demo.sqlite
+
+BYTE-IDENTICAL DUPLICATE GROUPS (>=1 MB): 30, wasted 3.40 GB
+     1141.0 MB wasted, 6 copies of 228.2 MB: data/supervised/phase4/p44/pytest_baseline/test_gameweek_list_dates_statu0/work.sqlite  (+5 more: data/supervised/phase4/p44/pytest_baseline/test_fixtures_show_status_kick0/work.sqlite)
+      457.3 MB wasted, 3 copies of 228.7 MB: data/supervised/phase4/p48d/restore_test_activation.sqlite  (+2 more: data/backups/footiq.20261027T165926Z.pre-activation.sqlite)
+      228.7 MB wasted, 2 copies of 228.7 MB: data/supervised/phase4/p49/restore_test.sqlite  (+1 more: data/backups/footiq.20261027T180815Z.pre-laliga-import.sqlite)
+      228.7 MB wasted, 2 copies of 228.7 MB: data/backups/footiq.20261027T141753Z.pre-laliga.sqlite  (+1 more: data/backups/footiq.20261027T141855Z.pre-laliga.sqlite)
+      228.7 MB wasted, 2 copies of 228.7 MB: data/supervised/rehearsal/footiq.rehearsal.sqlite  (+1 more: data/supervised/phase4/p44/pytest_baseline/reh0/after.sqlite)
+      228.7 MB wasted, 2 copies of 228.7 MB: data/supervised/rehearsal/footiq.rehearsal_repeat.sqlite  (+1 more: data/supervised/phase4/p44/pytest_baseline/test_second_pass_changes_nothi0/other.sqlite)
+      228.7 MB wasted, 2 copies of 228.7 MB: data/supervised/phase4/p46/tests.sqlite  (+1 more: data/supervised/phase4/p45/tests.sqlite)
+      228.7 MB wasted, 2 copies of 228.7 MB: data/backups/footiq.20261027T141506Z.pre-bundesliga.sqlite  (+1 more: data/backups/footiq.20261027T141608Z.pre-bundesliga.sqlite)
+      228.3 MB wasted, 2 copies of 228.3 MB: data/supervised/production_import/footiq.20261025T142338Z.backup.sqlite  (+1 more: data/supervised/production_import/footiq.20261025T142618Z.backup.sqlite)
+       44.1 MB wasted, 5 copies of 11.0 MB: docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/processed/team_elo_match_history.csv  (+4 more: docs/baseline/capture_2026-10-20/isolated_execution/run2/data/processed/team_elo_match_his)
+       32.8 MB wasted, 5 copies of 8.2 MB: docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/processed/international_matches.csv  (+4 more: docs/baseline/capture_2026-10-20/isolated_execution/run2/data/processed/international_matc)
+       14.9 MB wasted, 5 copies of 3.7 MB: docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/raw/international_results/results.csv  (+4 more: docs/baseline/capture_2026-10-20/isolated_execution/run2/data/raw/international_results/re)
+       13.8 MB wasted, 4 copies of 4.6 MB: data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/24/E6DC4029A1E4B4C1/D4BEFEE5DD63CE1A/model.tflite  (+3 more: data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/24/E6DC4029A1)
+       11.8 MB wasted, 2 copies of 11.8 MB: data/supervised/phase4/p44/pytest_baseline/test_the_work_done_does_not_gr0/noisy.sqlite  (+1 more: data/supervised/phase4/p44/pytest_baseline/test_a_gameweek_of_ten_fixture0/noisy.sqlite)
+       11.7 MB wasted, 4 copies of 3.9 MB: docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/raw/worldbank/gdp_per_capita_all.json  (+3 more: docs/baseline/capture_2026-10-20/isolated_execution/run2/data/raw/worldbank/gdp_per_capita)
+       10.6 MB wasted, 4 copies of 3.5 MB: docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/raw/worldbank/population_all.json  (+3 more: docs/baseline/capture_2026-10-20/isolated_execution/run2/data/raw/worldbank/population_all)
+        9.8 MB wasted, 4 copies of 3.3 MB: docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/raw/international_results/goalscorers.csv  (+3 more: docs/baseline/capture_2026-10-20/isolated_execution/run2/data/raw/international_results/go)
+        5.6 MB wasted, 4 copies of 1.9 MB: docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/raw/squads/wikipedia_2026_world_cup_squads.html  (+3 more: docs/baseline/capture_2026-10-20/isolated_execution/run2/data/raw/squads/wikipedia_2026_wo)
+        5.1 MB wasted, 2 copies of 5.1 MB: data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_00000f  (+1 more: data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000011)
+        4.4 MB wasted, 4 copies of 1.5 MB: docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/raw/squads/wikipedia_2022_world_cup_squads.html  (+3 more: docs/baseline/capture_2026-10-20/isolated_execution/run2/data/raw/squads/wikipedia_2022_wo)
+        3.8 MB wasted, 2 copies of 3.8 MB: data/supervised/phase4/p417/private_ratings/staged_results_identity_normalised.csv  (+1 more: data/supervised/phase4/p417/private_ratings/B_refresh_staged/raw/international_results/res)
+        3.8 MB wasted, 2 copies of 3.8 MB: FootIQ_Dataset_Submission/_raw_sources/martj42_refresh/results.csv  (+1 more: data/supervised/phase4/p417/staging/martj42/unpacked/international_results-master/results.)
+        3.7 MB wasted, 4 copies of 1.2 MB: docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/processed/model_v26_test_predictions.csv  (+3 more: docs/baseline/capture_2026-10-20/isolated_execution/run2/data/processed/model_v26_test_pre)
+        3.6 MB wasted, 4 copies of 1.2 MB: docs/baseline/capture_2026-10-20/isolated_execution/tests_verified/data/raw/squads/wikipedia_2018_world_cup_squads.html  (+3 more: docs/baseline/capture_2026-10-20/isolated_execution/run2/data/raw/squads/wikipedia_2018_wo)
+        3.5 MB wasted, 2 copies of 3.5 MB: data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/25/E6DC4029A1E4B4C1/FD86C185802F037A/visual_model_desktop.tflite  (+1 more: data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/25/E6DC4029A1E4B4)
+
+BY EXTENSION (top 15)
+    16.229 GB   10644  .json
+    15.587 GB     150  .sqlite
+     1.759 GB      17  .pack
+     1.317 GB      47  .pkl
+     1.221 GB    1100  .csv
+     0.277 GB    4425  (none)
+     0.113 GB     246  .pyd
+     0.105 GB    5226  .pyc
+     0.088 GB    5502  .py
+     0.068 GB      31  .tflite
+     0.060 GB       5  .dll
+     0.044 GB       4  .node
+     0.043 GB    4536  .js
+     0.037 GB     409  .png
+     0.034 GB    1880  .txt

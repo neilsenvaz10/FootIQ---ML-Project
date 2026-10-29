@@ -1,0 +1,74 @@
+﻿competition_id,competition_name,country,tier,season,teams,records_in_source,completed_before_cutoff,unscored_before_cutoff,scheduled_after_cutoff,cancelled,postponed,abandoned,double_round_robin_size,ordered_pair_coverage,latest_completed_date,first_date,status
+world/africa:mw1,Malawi | Super League,Africa,1.0,2025,16,240,240,0,0,0,0,0,240,1.0,2025-12-27,2025-04-05,complete_season
+world/africa:zw1,Zimbabwe | Premier Soccer League,Africa,1.0,2025,18,306,306,0,0,0,0,0,306,1.0,2025-11-23,2025-02-28,complete_season
+world/africa:ke1,Kenya | Premier League,Africa,1.0,2025-26,18,306,306,0,0,0,0,0,306,1.0,2026-05-31,2025-09-19,complete_season
+world/africa:ng1,Nigeria Professional League,Africa,1.0,2025-26,20,380,380,0,0,0,0,0,380,1.0,2026-05-24,2025-08-22,complete_season
+world/africa:rw1,Rwanda | Premier League,Africa,1.0,2025-26,18,306,306,0,0,0,0,0,306,1.0,2026-05-31,2025-09-12,complete_season
+world/africa:sn1,Senegal | Ligue 1,Africa,1.0,2025-26,16,240,240,0,0,0,0,1,240,1.0,2026-06-04,2025-11-01,complete_season
+world/africa:tz1,Tanzania | Premier League,Africa,1.0,2025-26,16,240,240,0,0,0,0,0,240,1.0,2026-06-30,2025-09-17,complete_season
+world/africa:ug1,Uganda Premier League,Africa,1.0,2025-26,16,240,240,0,0,0,0,0,240,1.0,2026-05-23,2025-09-26,complete_season
+world/africa:zm1,Zambia Super League,Africa,1.0,2025-26,18,306,306,0,0,0,0,0,306,1.0,2026-05-24,2025-08-16,complete_season
+world/africa:ng2,Nigeria National League,Africa,2.0,2025-26,36,275,266,0,0,9,0,0,1260,0.211,2026-05-08,2025-11-08,complete_season
+south-america/argentina:ar1,Argentina Primera Division,Argentina,1.0,2025,30,240,240,0,0,0,0,0,870,0.276,2025-05-04,2025-01-23,complete_season
+world/asia:cn1,China | Super League,Asia,1.0,2025,16,240,79,160,0,0,1,0,240,0.329,2025-05-05,2025-02-22,in_progress
+world/asia:jp1,Japan | J1 League,Asia,1.0,2025,20,380,136,244,0,0,0,0,380,0.358,2025-05-03,2025-02-14,in_progress
+world/asia:kz1,Kazakhstan | Premier League,Asia,1.0,2025,14,182,14,168,0,0,0,0,182,0.077,2025-03-09,2025-03-01,in_progress
+austria:1-bundesliga,Austrian Bundesliga,Austria,1.0,2025-26,12,195,195,0,0,0,0,0,132,1.0,2026-05-25,2025-08-01,complete_season
+austria:1-bundesliga,Austrian Bundesliga,Austria,1.0,2026-27,12,132,42,0,90,0,0,0,132,0.318,2026-09-20,2026-07-31,in_progress
+austria:2-liga2,Austrian 2. Liga (tier 2),Austria,2.0,2025-26,16,240,96,144,0,0,0,0,240,0.4,2025-11-02,2025-08-01,in_progress
+austria:3-regionalliga-ost,Austrian Regionalliga Ost (tier 3),Austria,3.0,2025-26,17,272,112,160,0,0,0,0,272,0.412,2025-11-01,2025-08-01,in_progress
+europe/belarus:by1,Belarus Premier League,Belarus,1.0,2025,16,240,8,232,0,0,0,0,240,0.033,2025-03-16,2025-03-13,in_progress
+belgium:be1,Belgian First Division A,Belgium,1.0,2025-26,16,240,121,119,0,0,0,0,240,0.504,2025-11-28,2025-07-25,in_progress
+belgium:be1,Belgian First Division A,Belgium,1.0,2026-27,20,306,1,305,0,0,0,0,380,0.003,2026-08-07,2026-08-07,in_progress
+south-america/brazil:br1,Brasileiro Série A,Brazil,1.0,2025,20,380,380,0,0,0,0,0,380,1.0,2025-12-07,2025-03-29,complete_season
+south-america/brazil:br1,Brasileiro Série A,Brazil,1.0,2026,20,380,277,0,102,0,1,0,380,0.729,2026-09-20,2026-01-28,in_progress
+south-america/brazil:br2,Brasileiro Série B,Brazil,2.0,2025,20,380,57,323,0,0,0,0,380,0.15,2025-05-04,2025-04-04,in_progress
+south-america/colombia:co1,Colombia Primera A,Colombia,1.0,2025,20,200,167,32,0,0,0,1,380,0.439,2025-05-04,2025-01-24,in_progress
+europe/czech-republic:cz1,Czech Republic | First League,Czech Republic,1.0,2026-27,16,240,71,0,169,0,0,0,240,0.296,2026-09-20,2026-07-25,in_progress
+south-america/ecuador:ec1,Ecuador Serie A,Ecuador,1.0,2025,16,240,86,154,0,0,0,0,240,0.358,2025-05-04,2025-02-14,in_progress
+england:1-premierleague,English Premier League,England,1.0,2025-26,20,380,380,0,0,0,0,0,380,1.0,2026-05-24,2025-08-15,complete_season
+england:1-premierleague,English Premier League,England,1.0,2026-27,20,380,50,0,330,0,0,0,380,0.132,2026-09-20,2026-08-21,in_progress
+england:2-championship,English Championship (tier 2),England,2.0,2025-26,24,557,557,0,0,0,0,0,552,1.0,2026-05-23,2025-08-08,complete_season
+england:2-championship,English Championship (tier 2),England,2.0,2026-27,24,552,95,0,457,0,0,0,552,0.172,2026-09-20,2026-08-14,in_progress
+england:3-league1,English League One (tier 3),England,3.0,2025-26,24,552,356,194,0,0,2,0,552,0.645,2026-02-07,2025-08-01,in_progress
+england:4-league2,English League Two (tier 4),England,4.0,2025-26,24,564,276,288,0,0,0,0,552,0.5,2025-12-29,2025-08-02,in_progress
+england:5-nationalleague,English National League (tier 5),England,5.0,2025-26,24,564,296,267,0,0,0,1,552,0.536,2025-12-30,2025-08-09,in_progress
+europe/estonia:ee1,Estonia Meistriliiga,Estonia,1.0,2025,10,180,15,165,0,0,0,0,90,0.167,2025-03-16,2025-02-28,in_progress
+europe/faroe-islands:fo1,Faroe Islands Premier Division,Faroe Islands,1.0,2025,10,135,40,95,0,0,0,0,90,0.444,2025-05-04,2025-03-07,in_progress
+europe/finland:fi1,Finland Veikkausliiga,Finland,1.0,2025,12,132,32,100,0,0,0,0,132,0.242,2025-05-03,2025-04-05,in_progress
+europe/france:fr1,France | Ligue 1,France,1.0,2025-26,18,306,306,0,0,0,0,0,306,1.0,2026-05-17,2025-08-15,complete_season
+europe/france:fr1,French Ligue 1,France,1.0,2026-27,18,306,45,0,261,0,0,0,306,0.147,2026-09-20,2026-08-21,in_progress
+europe/france:fr2,French Ligue 2,France,2.0,2025-26,18,306,116,189,0,0,1,0,306,0.379,2025-11-03,2025-08-09,in_progress
+europe/georgia:ge1,Georgia Premier League A,Georgia,1.0,2025,10,180,17,163,0,0,0,0,90,0.189,2025-03-16,2025-02-28,in_progress
+deutschland:1-bundesliga,German Bundesliga,Germany,1.0,2025-26,18,306,306,0,0,0,0,0,306,1.0,2026-05-16,2025-08-22,complete_season
+deutschland:1-bundesliga,German Bundesliga,Germany,1.0,2026-27,18,306,36,0,270,0,0,0,306,0.118,2026-09-20,2026-08-28,in_progress
+deutschland:2-bundesliga2,German 2. Bundesliga,Germany,2.0,2025-26,18,306,99,207,0,0,0,0,306,0.324,2025-11-02,2025-08-01,in_progress
+deutschland:3-liga3,German 3. Liga,Germany,3.0,2025-26,20,380,130,250,0,0,0,0,380,0.342,2025-11-02,2025-08-01,in_progress
+europe/greece:gr1,Greek Super League,Greece,1.0,2025-26,14,182,62,119,0,0,1,0,182,0.341,2025-11-03,2025-08-23,in_progress
+europe/greece:gr1,Greece | Super League,Greece,1.0,2026-27,14,182,35,0,147,0,0,0,182,0.192,2026-09-20,2026-08-22,in_progress
+europe/iceland:is1,Iceland Úrvalsdeild,Iceland,1.0,2025,12,132,27,105,0,0,0,0,132,0.205,2025-05-04,2025-04-05,in_progress
+europe/ireland:ie1,Irish Premier Division,Ireland,1.0,2025,10,180,65,115,0,0,0,0,90,0.722,2025-05-02,2025-02-14,in_progress
+italy:1-seriea,Italian Serie A,Italy,1.0,2025-26,20,380,380,0,0,0,0,0,380,1.0,2026-05-24,2025-08-23,complete_season
+italy:1-seriea,Italian Serie A,Italy,1.0,2026-27,20,380,50,0,330,0,0,0,380,0.132,2026-09-20,2026-08-22,in_progress
+italy:2-serieb,Italian Serie B,Italy,2.0,2025-26,20,380,309,71,0,0,0,0,380,0.813,2026-03-17,2025-08-22,in_progress
+europe/latvia:lv1,Latvia Higher League,Latvia,1.0,2025,10,180,51,129,0,0,0,0,90,0.556,2025-05-04,2025-03-05,in_progress
+europe/lithuania:lt1,Lithuania First Division,Lithuania,1.0,2025,10,90,15,75,0,0,0,0,90,0.167,2025-03-16,2025-02-28,in_progress
+europe/netherlands:nl1,Netherlands Eredivisie,Netherlands,1.0,2025-26,18,306,305,0,0,1,0,0,306,0.997,2026-05-17,2025-08-08,complete_season
+europe/netherlands:nl1,Netherlands Eredivisie,Netherlands,1.0,2026-27,18,306,63,0,243,0,0,0,306,0.206,2026-09-20,2026-08-07,in_progress
+world/north-america:mls,Major League Soccer,North America,1.0,2025,30,510,164,346,0,0,0,0,870,0.189,2025-05-04,2025-02-22,in_progress
+europe/norway:no1,Norway Eliteserien,Norway,1.0,2025,16,240,44,196,0,0,0,0,240,0.183,2025-05-04,2025-03-29,in_progress
+europe/norway:no2,Norway 1. Division,Norway,2.0,2025,16,240,40,200,0,0,0,0,240,0.167,2025-05-04,2025-03-31,in_progress
+south-america/paraguay:py1,Paraguay Primera Division,Paraguay,1.0,2025,12,138,101,37,0,0,0,0,132,0.765,2025-05-04,2025-01-24,in_progress
+europe/portugal:pt1,Portuguese Primeira Liga,Portugal,1.0,2025-26,18,306,306,0,0,0,0,0,306,1.0,2026-05-16,2025-08-08,complete_season
+europe/portugal:pt1,Portuguese Primeira Liga,Portugal,1.0,2026-27,18,306,62,0,243,0,1,0,306,0.203,2026-09-20,2026-08-07,in_progress
+europe/scotland:sco1,Scottish Premiership,Scotland,1.0,2025-26,12,198,63,135,0,0,0,0,132,0.477,2025-11-01,2025-08-02,in_progress
+europe/scotland:sco1,Scotland | Premiership,Scotland,1.0,2026-27,12,198,42,0,156,0,0,0,132,0.318,2026-09-20,2026-07-31,in_progress
+espana:1-liga,Spanish La Liga,Spain,1.0,2025-26,20,380,380,0,0,0,0,0,380,1.0,2026-05-24,2025-08-15,complete_season
+espana:1-liga,Spanish La Liga,Spain,1.0,2026-27,20,380,69,0,311,0,0,0,380,0.182,2026-09-20,2026-08-15,in_progress
+espana:2-liga2,Spanish Segunda Division,Spain,2.0,2025-26,22,462,131,331,0,0,0,0,462,0.284,2025-11-03,2025-08-15,in_progress
+europe/sweden:se1,Sweden Allsvenskan,Sweden,1.0,2025,16,240,53,185,0,0,2,0,240,0.221,2025-05-04,2025-03-29,in_progress
+europe/sweden:se2,Sweden Superettan,Sweden,2.0,2025,16,240,45,195,0,0,0,0,240,0.188,2025-05-04,2025-03-29,in_progress
+europe/sweden:se3s,Sweden Div 1 Södra,Sweden,3.0,2025,16,240,47,193,0,0,0,0,240,0.196,2025-05-04,2025-03-28,in_progress
+europe/switzerland:ch1,Switzerland | Super League,Switzerland,1.0,2026-27,12,132,54,0,78,0,0,0,132,0.409,2026-09-20,2026-07-25,in_progress
+europe/turkey:tr1,Turkish Süper Lig,Turkey,1.0,2025-26,18,306,99,207,0,0,0,0,306,0.324,2025-11-03,2025-08-08,in_progress
+europe/turkey:tr1,Turkey | Süper Lig,Turkey,1.0,2026-27,18,306,36,18,252,0,0,0,306,0.118,2026-09-07,2026-08-14,in_progress

@@ -1,0 +1,40 @@
+﻿kind,position,name,definition,unit,computation,null_handling,caveat,non_null_rows,min,max
+model_feature,1.0,home_elo,Elo rating of the home club before the match,points,"start 1500, K=20, home advantage 60 only inside the expectation, goal-difference multiplier 1 / 1.5 / (11+gd)/8, updated only by CONFIRMED 90-minute results",never NaN (1500 for unseen clubs; n_prior shows history length),Level comparable only inside a connected rating component; use elo_diff for cross-league pooling,116854.0,1136.956886713641,2198.6677206670183
+model_feature,2.0,away_elo,Elo rating of the away club before the match,points,as home_elo,never NaN,as home_elo,116854.0,1135.0803544184582,2194.251722472422
+model_feature,3.0,elo_diff,home_elo - away_elo,points,difference,never NaN,Comparable because both clubs are connected in the rating graph before the match (pair_connected_asof is required),116854.0,-567.3399030893836,549.2530627863302
+model_feature,4.0,home_n_prior,Number of earlier rated (confirmed 90-minute) matches of the home club in any openfootball competition,matches,"uncapped count, strictly earlier calendar days",0 allowed in the file but rows need >= 5,uncapped (the old model capped at 20),116854.0,5.0,1512.0
+model_feature,5.0,away_n_prior,same for the away club,matches,,,,116854.0,5.0,1511.0
+model_feature,6.0,home_ppg5,Mean points per match over the last 5 earlier rated matches (any venue),points/match,3/1/0 from the 90-minute result,NaN if no history,,116854.0,0.0,3.0
+model_feature,7.0,away_ppg5,same for the away club,points/match,,NaN if no history,,116854.0,0.0,3.0
+model_feature,8.0,home_ppg10,Mean points over the last 10 earlier rated matches,points/match,,NaN if no history,,116854.0,0.0,3.0
+model_feature,9.0,away_ppg10,"same, away club",points/match,,NaN if no history,,116854.0,0.0,3.0
+model_feature,10.0,home_gf5,Mean goals scored over the last 5 earlier rated matches,goals/match,90-minute goals,NaN if no history,,116854.0,0.0,5.4
+model_feature,11.0,home_ga5,Mean goals conceded over the last 5 earlier rated matches,goals/match,,NaN if no history,,116854.0,0.0,5.8
+model_feature,12.0,away_gf5,as home_gf5 for the away club,goals/match,,,,116854.0,0.0,5.8
+model_feature,13.0,away_ga5,as home_ga5 for the away club,goals/match,,,,116854.0,0.0,6.0
+model_feature,14.0,home_gf10,Mean goals scored over the last 10 earlier rated matches,goals/match,,,,116854.0,0.0,4.5
+model_feature,15.0,home_ga10,Mean goals conceded over the last 10 earlier rated matches,goals/match,,,,116854.0,0.0,4.9
+model_feature,16.0,away_gf10,as home_gf10 for the away club,goals/match,,,,116854.0,0.0,4.9
+model_feature,17.0,away_ga10,as home_ga10 for the away club,goals/match,,,,116854.0,0.0,4.9
+model_feature,18.0,home_venue_ppg5,Mean points over the home club's last 5 earlier rated HOME matches,points/match,,NaN if fewer than 1 earlier home match (count of such rows in the data dictionary note),,116851.0,0.0,3.0
+model_feature,19.0,away_venue_ppg5,Mean points over the away club's last 5 earlier rated AWAY matches,points/match,,NaN if no earlier away match,,116853.0,0.0,3.0
+model_feature,20.0,ppg5_diff,home_ppg5 - away_ppg5,points/match,,NaN if either NaN,,116854.0,-3.0,3.0
+model_feature,21.0,gd5_diff,(home_gf5 - home_ga5) - (away_gf5 - away_ga5),goals/match,,NaN if either NaN,,116854.0,-8.0,7.6
+model_feature,22.0,home_days_rest,Days since the home club's latest earlier completed match of any kind in the openfootball data,days,"any completed dated match, whatever its label",NaN if none,"Known matches only: cups / European matches missing from the CC0 data (e.g. Europa and Conference League 2025-26) are not counted, so rest can be overstated",116854.0,1.0,2119.0
+model_feature,23.0,away_days_rest,same for the away club,days,,NaN if none,as above,116854.0,1.0,4086.0
+model_feature,24.0,rest_diff,home_days_rest - away_days_rest,days,,NaN if either NaN,,116854.0,-4017.0,2080.0
+model_feature,25.0,league_tier,Tier of the competition in its national pyramid (1 = top flight),integer,from the source file name,NaN if unknown,Not comparable across countries,116854.0,1.0,5.0
+key,,record_id,Dataset row id (OF:competition:season_label:Lline),,,,,,,
+metadata,,split,train / validation / test / forward_holdout by match date,,,,,,,
+LABEL,,y_90min_1x2,H / D / A after 90 minutes plus stoppage time (confirmed only),,,,,,,
+audit metadata (NOT a feature),,meta_latest_info_date,latest earlier match used by the features,,,,,,,
+audit metadata (NOT a feature),,meta_pair_connected_asof,home and away clubs were connected in the rating graph before the match,,,,,,,
+metadata / optional categorical,,competition_id,competition key; if used as a feature the vocabulary must be fitted on the training split,,,,,,,
+evaluation flag,,eval_primary,validation/test/holdout row of a complete split-year league-season without identity flags,,,,,,,
+evaluation flag,,eval_secondary_calendar_year,"same, calendar-year leagues (cut by date, reported separately)",,,,,,,
+evaluation flag,,season_incomplete_flag,league-season not verified complete,,,,,,,
+evaluation flag,,identity_review_flag,club identity under review (unresolved twin / un-merged spelling),,,,,,,
+excluded (removed),,same_country,was wrong for 37.6% of rows (country parsed only from canonical ids),,,,,,,
+excluded (removed),,neutral_known,"constant 0, no information",,,,,,,
+excluded (removed),,is_league / is_league_phase / is_knockout / comp_type_continental / comp_type_cup,constant inside the league-only scope,,,,,,,
+excluded (never a feature),,home_goals_90 / away_goals_90 / half-time / final / penalty scores,outcome information of the target match,,,,,,,

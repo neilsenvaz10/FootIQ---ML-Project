@@ -1,0 +1,134 @@
+{
+ "integrity": "ok",
+ "foreign_key_problems": 0,
+ "matches": {
+  "before": 223636,
+  "after": 223636
+ },
+ "completed_2026_27": {
+  "BUNDESLIGA": 63,
+  "EPL": 80,
+  "LALIGA": 99,
+  "LIGUE1": 72,
+  "SERIEA": 80,
+  "UCL": 54
+ },
+ "ucl_2026_27_by_status": {
+  "completed": 54,
+  "scheduled": 90
+ },
+ "open_past_dated": [
+  [
+   "LALIGA",
+   "2026-10-10",
+   "Rayo Vallecano de Madrid",
+   "Athletic Club",
+   "awaiting_result"
+  ],
+  [
+   "SERIEA",
+   "2026-10-27",
+   "US Sassuolo Calcio",
+   "SS Lazio",
+   "scheduled"
+  ],
+  [
+   "SERIEA",
+   "2026-10-27",
+   "AS Roma",
+   "Cagliari Calcio",
+   "scheduled"
+  ],
+  [
+   "SERIEA",
+   "2026-10-27",
+   "Torino FC",
+   "Como 1907",
+   "scheduled"
+  ]
+ ],
+ "rows_missing_after": [],
+ "rows_added": 0,
+ "changed_rows": 43,
+ "changed_rows_are_exactly_the_43_strong_proposals": true,
+ "non_approved_proposals_untouched": true,
+ "non_approved_counts": {
+  "rows": 61,
+  "by_action": {
+   "correct_date": 60,
+   "set_postponed": 1
+  }
+ },
+ "rows_not_matching_their_proposal": [],
+ "changes_by_type": {
+  "EPL:add_result": 3,
+  "EPL:correct_date": 31,
+  "LALIGA:add_result_with_date": 6,
+  "LIGUE1:add_result_with_date": 2,
+  "SERIEA:add_result": 1
+ },
+ "results_with_corrected_played_date": 8,
+ "no_verified_result_overwritten": true,
+ "archived_rows_unchanged": true,
+ "duplicates_same_pair_2026_27": 0,
+ "duplicates_same_day_any": 0,
+ "orphan_team_ids": 0,
+ "completed_without_score": 0,
+ "quarantine": {
+  "before": 273,
+  "after": 273,
+  "rows_identical": true
+ },
+ "simulations": {
+  "rows": [
+   [
+    1,
+    "BUNDESLIGA",
+    "2026-27",
+    10000
+   ],
+   [
+    2,
+    "LALIGA",
+    "2026-27",
+    10000
+   ]
+  ],
+  "unchanged": true,
+  "sha": "33fbf4afae52d531639daff2ce57c68cd4e73908c4b802db425f2baa8cb99c01"
+ },
+ "provenance": {
+  "match_sources": 43,
+  "snapshots": [
+   [
+    "reconcile-p423-248e89c5451e",
+    "248e89c5451e"
+   ]
+  ],
+  "sync_run": [
+   [
+    37,
+    "reconcile_import",
+    "ok",
+    0,
+    43,
+    0,
+    0
+   ]
+  ]
+ },
+ "other_tables_unchanged": {
+  "teams": true,
+  "team_aliases": true,
+  "competitions": true,
+  "forecasts": true,
+  "forecast_runs": true,
+  "match_sources": true,
+  "source_snapshots": true,
+  "sync_runs": true,
+  "simulation_runs": true,
+  "quarantine": true
+ },
+ "backup_sha256": "afe71c445bfeddcb5cca6276e448e4faee460b774b70434381820f21974cb17c",
+ "wal_bytes": 0
+}

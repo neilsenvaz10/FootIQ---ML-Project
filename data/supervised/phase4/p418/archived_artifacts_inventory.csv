@@ -1,0 +1,106 @@
+﻿category,path,bytes,why_unused,shared_with_retained_scope
+dataset rows,data/miniproject/matches.csv,5113227,"holds ~4,774 rows of the five removed competitions (WC 1,094; UEL 1,424; UECL 729; UNL 658; COPA 869); the application filters them out",SHARED FILE: the six supported competitions are in the same file
+dataset,data/raw/international_results/former_names.csv,1691,"national-team results archive (World Cup, Nations League, Copa America and every other international)",no
+dataset,data/raw/international_results/goalscorers.csv,3256721,"national-team results archive (World Cup, Nations League, Copa America and every other international)",no
+dataset,data/raw/international_results/results.csv,3720482,"national-team results archive (World Cup, Nations League, Copa America and every other international)",no
+dataset,data/raw/international_results/shootouts.csv,28737,"national-team results archive (World Cup, Nations League, Copa America and every other international)",no
+ratings,data/processed/international_matches.csv,8206008,international matches with Elo columns,no
+ratings,data/processed/team_elo_latest.csv,12909,national-team Elo history and latest ratings (the international model's input),no
+ratings,data/processed/team_elo_match_history.csv,11029669,national-team Elo history and latest ratings (the international model's input),no
+ratings,data/processed/team_recent_form_latest.csv,43396,national-team recent form,no
+dataset,data/processed/worldcup_2026_07_02_provisional_predictions.csv,765,"World Cup 2026 fixtures, verified results, validation files",no
+dataset,data/processed/worldcup_2026_knockout_results_verified.csv,3715,"World Cup 2026 fixtures, verified results, validation files",no
+dataset,data/processed/worldcup_2026_matches.csv,8096,"World Cup 2026 fixtures, verified results, validation files",no
+dataset,data/processed/worldcup_2026_round_of_32_resolved.csv,722,"World Cup 2026 fixtures, verified results, validation files",no
+dataset,data/processed/worldcup_2026_teams.csv,575,"World Cup 2026 fixtures, verified results, validation files",no
+dataset,data/processed/worldcup_full_validation_fixture_audit_2026-07-19.csv,26066,"World Cup 2026 fixtures, verified results, validation files",no
+dataset,data/processed/worldcup_full_validation_summary_2026-07-19.csv,826,"World Cup 2026 fixtures, verified results, validation files",no
+dataset,data/processed/worldcup_knockout_advancement_predictions_frozen.csv,4523,"World Cup 2026 fixtures, verified results, validation files",no
+dataset,data/processed/worldcup_manual_results.csv,1793,"World Cup 2026 fixtures, verified results, validation files",no
+dataset,data/processed/worldcup_matchday_v29_features.csv,1269,"World Cup 2026 fixtures, verified results, validation files",no
+dataset,data/processed/worldcup_matchday_v29_lineup_snapshots.csv,6196,"World Cup 2026 fixtures, verified results, validation files",no
+dataset,data/processed/worldcup_matchday_v29_lineups.csv,106,"World Cup 2026 fixtures, verified results, validation files",no
+dataset,data/processed/worldcup_matchday_v29_predictions.csv,1064,"World Cup 2026 fixtures, verified results, validation files",no
+dataset,data/processed/worldcup_matchday_v29_snapshots.csv,106997,"World Cup 2026 fixtures, verified results, validation files",no
+dataset,data/processed/nations_league_2026_matchday_1_features.csv,22520,Nations League 2026 prediction files,no
+dataset,data/processed/nations_league_2026_matchday_1_predictions.csv,23718,Nations League 2026 prediction files,no
+dataset,data/processed/live_tournament_v213_tournament_odds.csv,4028,World Cup tournament simulation outputs,no
+dataset,data/processed/knockout_advancement_validation_2026-07-02.csv,506,World Cup knockout advancement validation,no
+dataset,data/processed/knockout_advancement_validation_2026-07-03.csv,665,World Cup knockout advancement validation,no
+dataset,data/processed/knockout_advancement_validation_2026-07-04.csv,1014,World Cup knockout advancement validation,no
+dataset,data/processed/matchday_validation_v210.csv,48303,World Cup matchday validation,no
+dataset,data/processed/model_v21_tournament_odds.csv,3538,World Cup title odds,no
+dataset,data/processed/model_v22_tournament_odds.csv,3579,World Cup title odds,no
+dataset,data/processed/model_v23_tournament_odds.csv,3614,World Cup title odds,no
+dataset,data/processed/model_v2_tournament_odds.csv,3509,World Cup title odds,no
+model artifact,data/model_artifacts/v27/live_match_model.pkl,894426,"international v2.7 ensemble (frozen, preserved)",no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/1734a9e3bb_2018_19_UEFA_Europa_League_knockout_phase.json,74906,Wikipedia snapshots of Europa League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/1d9bd92488_2026_27_UEFA_Europa_League_league_phase.json,140470,Wikipedia snapshots of Europa League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/2f9746bd64_2025_26_UEFA_Europa_League_league_phase.json,198945,Wikipedia snapshots of Europa League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/368f99cfa0_2026_UEFA_Europa_League_final.json,29271,Wikipedia snapshots of Europa League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/386e774a4c_2025_UEFA_Europa_League_final.json,42374,Wikipedia snapshots of Europa League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/398eaee29c_2020_UEFA_Europa_League_Final.json,27859,Wikipedia snapshots of Europa League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/4f33cb9f5d_2025_26_UEFA_Europa_League.json,42583,Wikipedia snapshots of Europa League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/6e551d940b_2024_25_UEFA_Europa_League_league_phase.json,212427,Wikipedia snapshots of Europa League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/6fb6381eb7_2018_19_UEFA_Europa_League_group_stage.json,155443,Wikipedia snapshots of Europa League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/9524a6f608_2019_UEFA_Europa_League_Final.json,60782,Wikipedia snapshots of Europa League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/c1ce013ce9_2019_20_UEFA_Europa_League_group_stage.json,155515,Wikipedia snapshots of Europa League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/d2c7dceab5_2025_26_UEFA_Europa_League_knockout_phase.json,69687,Wikipedia snapshots of Europa League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/e1d935b8cd_2024_25_UEFA_Europa_League_knockout_phase.json,65478,Wikipedia snapshots of Europa League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/ebfc9d9731_2019_20_UEFA_Europa_League_knockout_phase.json,73768,Wikipedia snapshots of Europa League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/07a98bc717_2025_26_UEFA_Conference_League.json,63507,Wikipedia snapshots of Conference League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/3a913046b6_2026_UEFA_Conference_League_final.json,29693,Wikipedia snapshots of Conference League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/40aed8398f_2025_UEFA_Conference_League_final.json,30766,Wikipedia snapshots of Conference League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/4ea22727ea_2026_27_UEFA_Conference_League_league_phase.json,113392,Wikipedia snapshots of Conference League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/652e3adb06_2024_25_UEFA_Conference_League_league_phase.json,187028,Wikipedia snapshots of Conference League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/6eae834d6f_2025_26_UEFA_Conference_League_knockout_phase.json,71577,Wikipedia snapshots of Conference League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/7b4c1098fc_2025_26_UEFA_Conference_League_league_phase.json,175356,Wikipedia snapshots of Conference League pages,no
+snapshot,FootIQ_ML_Data_Readiness/raw_external/wikipedia/b3725ccabc_2024_25_UEFA_Conference_League_knockout_phase.json,67736,Wikipedia snapshots of Conference League pages,no
+source clone,FootIQ_Dataset_Submission/_raw_sources/euro,419777,openfootball clone: European Championship,no
+source clone,FootIQ_Dataset_Submission/_raw_sources/copa-america,170566,openfootball clone: Copa America,no
+source clone,FootIQ_Dataset_Submission/_raw_sources/world,4144079,openfootball clone: World Cup,no
+source clone,FootIQ_Dataset_Submission/_raw_sources/south-america,1404721,openfootball clone: South American competitions,no
+source clone,FootIQ_Dataset_Submission/_raw_sources/club-worldcup,781704,openfootball clone: Club World Cup,no
+source clone,FootIQ_Dataset_Submission/_raw_sources/martj42_refresh,7238590,earlier refresh of the international results,no
+staging (Phase 4.17),data/supervised/phase4/p417/staging/martj42,8551746,downloaded CC0 international results archive (2026-10-28),no
+staging (Phase 4.17),data/supervised/phase4/p417/private_ratings,50200319,private international rating refresh,no
+staging (Phase 4.17),data/supervised/phase4/p417/compare_intl.py,6275,comparison scripts and reports for the international data,no
+staging (Phase 4.17),data/supervised/phase4/p417/compare_intl2.py,5311,comparison scripts and reports for the international data,no
+staging (Phase 4.17),data/supervised/phase4/p417/verify_unl.py,5505,Nations League verification,no
+staging (Phase 4.17),data/supervised/phase4/p417/rating_refresh.py,6788,international rating refresh script and report,no
+staging (Phase 4.17),data/supervised/phase4/p417/rating_refresh_report.json,4404,international rating refresh script and report,no
+staging (Phase 4.17),data/supervised/phase4/p417/unl_verification.json,295,Nations League verification result,no
+script,scripts/build_worldcup_model_v1.py,29472,World Cup / international model builders,no
+script,scripts/build_worldcup_model_v2.py,34650,World Cup / international model builders,no
+script,scripts/build_worldcup_model_v21.py,6118,World Cup / international model builders,no
+script,scripts/build_worldcup_model_v22.py,12564,World Cup / international model builders,no
+script,scripts/build_worldcup_model_v23.py,32679,World Cup / international model builders,no
+script,scripts/simulate_live_tournament_v213.py,21080,World Cup simulators,no
+script,scripts/simulate_portugal_group_winner_v23.py,17916,World Cup simulators,no
+script,scripts/run_international_window_oct2_oct5_v27.py,17695,international-window prediction runs,no
+script,scripts/run_international_window_oct4_oct5_v27.py,12625,international-window prediction runs,no
+script,scripts/run_international_window_sep27_oct1_v27.py,18367,international-window prediction runs,no
+script,scripts/run_international_window_sep29_oct5_v27.py,20989,international-window prediction runs,no
+script,scripts/run_nations_league_slate_v27.py,37335,Nations League slate,no
+script,scripts/run_friendlies_v24.py,37411,friendlies runs,no
+script,scripts/backtest_worldcup_model_v1.py,36321,World Cup backtests,no
+script,scripts/backtest_worldcup_model_v22.py,22263,World Cup backtests,no
+script,scripts/backtest_worldcup_model_v23.py,23255,World Cup backtests,no
+script,scripts/backtest_euro_nations_v23.py,31392,Euro / Nations League backtest,no
+script,scripts/build_live_predictions_v27.py,33201,international live predictions (also imported by app/predict.py's archived international path),app/predict.py (archived path)
+script,scripts/validate_matchday_v210.py,27008,World Cup validations,no
+script,scripts/validate_v27_known_fixtures.py,8797,World Cup validations,no
+script,scripts/validate_worldcup_full_v214.py,30286,World Cup validations,no
+application code,app/worldcup_sim.py,4064,World Cup simulator wrapper (routes removed),no
+application code,app/bracket.py,3772,World Cup bracket (route removed),no
+application code,app/names.py,876,international team-name canonicalisation used when building matches.csv,app/prepare_data.py (archive build)
+application code,frontend/src/pages/Simulator.jsx,19043,World Cup simulator page (no longer routed),no
+application code,frontend/src/components/Bracket.jsx,5297,World Cup bracket component (no longer used),no
+test,tests/test_live_tournament_v213.py,2345,World Cup tournament engine tests,no
+test,tests/test_matchday_report_v29.py,1996,World Cup matchday report tests,no
+test,tests/test_matchday_validation_v210.py,3230,World Cup matchday validation tests,no
+test,tests/test_lineup_impact_v212.py,2366,lineup-impact (World Cup) tests,no
+test,tests/test_confidence_gate_v211.py,2474,international confidence-gate tests,no
+test,tests/test_phase417_evidence.py,3888,evidence for the international / UEFA staging of Phase 4.17 (partly: UEL/UECL/WC/UNL),partly
+docs,docs/mini-project/phase4/P4_17_INTERNATIONAL_AND_UEFA_COMPLETION.md,10825,Phase 4.17 report (national teams and UEFA clubs),history
+docs,docs/mini-project/phase4/P4_16_COMPETITION_CAPABILITY_REGISTRY.csv,4268,11-competition registry (superseded by the six-competition registry),history

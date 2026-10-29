@@ -1,0 +1,41 @@
+{
+  "version": "v2.6",
+  "purpose": "Model bake-off plus probability/pass calibration.",
+  "data_source": "data/processed/international_matches.csv",
+  "min_train_date": "2000-01-01",
+  "train_end": "2018-12-31",
+  "calibration_start": "2019-01-01",
+  "calibration_end": "2022-12-31",
+  "test_start": "2023-01-01",
+  "test_end": "2026-12-31",
+  "models": [
+    "elo_formula",
+    "v25_poisson_lite",
+    "logistic_regression",
+    "random_forest",
+    "gradient_boosting",
+    "ensemble",
+    "ensemble_logistic_consensus_gate"
+  ],
+  "feature_note": "Features are built by iterating matches chronologically and using only pre-match Elo plus prior team history.",
+  "calibration_note": "Temperature scaling and public pass rules are selected on the calibration split only.",
+  "split_counts": {
+    "train": 18164,
+    "calibration": 3580,
+    "test": 3491
+  },
+  "temperatures": {
+    "elo_formula": 0.85,
+    "v25_poisson_lite": 0.75,
+    "logistic_regression": 0.9,
+    "random_forest": 0.8,
+    "gradient_boosting": 1.0,
+    "ensemble": 0.9
+  },
+  "ensemble_weights": {
+    "elo_formula": 0.3,
+    "v25_poisson_lite": 0.0,
+    "logistic_regression": 0.2,
+    "gradient_boosting": 0.5
+  }
+}

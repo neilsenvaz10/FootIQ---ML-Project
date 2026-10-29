@@ -1,0 +1,21 @@
+{
+ "frozen_models_unchanged": {
+  "v2": true,
+  "matched_v1": true,
+  "v1": true
+ },
+ "protocol_r1_unchanged": true,
+ "contact_hits": [],
+ "staged": 0,
+ "approval_json_exists": false,
+ "official_log_exists": false,
+ "files": {
+  "00_READINESS_DECISION.md": "53505f64ac8cd79f576e349caf8ca1c5aeb05a678bbbfc491f72135872ded590",
+  "01_AMENDMENT_A1_AUDIT.md": "104c732d0b703b81fc800b4d18b4f5d377e4c84fb7d66def03a98350f9975440",
+  "02_LOGGER_V2_AUDIT.md": "a0f2e1f8ad6a75884d41267146c5a50bd478bb8d6b96d711e307ef868e77fd07",
+  "03_OPERATIONAL_RUNBOOK.md": "5ac9ea140d7786bb4696820f5a2c12e9398fcd1fd624f03f503dd7a91f81d028",
+  "adversarial_audit.py": "92d9ba2edbcdd4d8b819d098bcc3e808b36e44edaea7d87c388c5bfd15ae0a00",
+  "adversarial_audit_results.csv": "1480de453f9ddde90c02dd1c54912e19b8c3899d501a5f52394a16244b1f370d",
+  "audit_run.log": "2ac3aeea1114d52b5c3b89e0444b3179bb571ad3d0b4c285cda4ebb6da05782b"
+ }
+}

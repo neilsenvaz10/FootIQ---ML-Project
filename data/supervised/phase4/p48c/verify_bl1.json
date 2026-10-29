@@ -1,0 +1,99 @@
+{
+ "generated_utc": "2026-10-27T12:57:04Z",
+ "snapshot_dir": "D:\\Foot IQ\\data\\snapshots\\p48c",
+ "only": [
+  "bl1"
+ ],
+ "source_change_since_import_snapshot": {
+  "bl1": {
+   "previous_snapshot": "20261025T083829Z_bl1_2026_season.json",
+   "previous_matches": 306,
+   "new_matches": 306,
+   "only_in_new": 0,
+   "only_in_old": 0,
+   "changed_matches": 2,
+   "newly_finished": 2,
+   "date_changed": 0
+  }
+ },
+ "dry_run_as_the_live_path_would_import": {
+  "protect_dates": false,
+  "leagues": {
+   "bl1": {
+    "competition": "BUNDESLIGA",
+    "snapshot": "20261027T125704Z_p48c_bl1.json",
+    "sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46",
+    "bytes": 316983,
+    "saved_utc": "2026-10-27T12:57:04Z",
+    "inserted": 0,
+    "updated": 2,
+    "unchanged": 243,
+    "confirmed": 61,
+    "quarantined": 0,
+    "records": 306,
+    "held_date_difference": 0
+   }
+  },
+  "row_changes": {
+   "changed:model_home_entity": 2,
+   "changed:model_away_entity": 2,
+   "changed:status": 2,
+   "changed:home_goals_final": 2,
+   "changed:away_goals_final": 2,
+   "changed:home_goals_90": 2,
+   "changed:away_goals_90": 2,
+   "changed:label_90_status": 2,
+   "changed:outcome": 2,
+   "changed:rated": 2,
+   "changed:regular": 2,
+   "changed:in_universe": 2,
+   "changed:source_system": 2,
+   "changed:licence": 2
+  },
+  "quarantine_added": 0,
+  "new_quarantine_reasons": [],
+  "production_sha256_before": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+  "production_sha256_after": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+  "production_untouched": true
+ },
+ "dry_run_with_date_protection": {
+  "protect_dates": true,
+  "leagues": {
+   "bl1": {
+    "competition": "BUNDESLIGA",
+    "snapshot": "20261027T125704Z_p48c_bl1.json",
+    "sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46",
+    "bytes": 316983,
+    "saved_utc": "2026-10-27T12:57:04Z",
+    "inserted": 0,
+    "updated": 2,
+    "unchanged": 243,
+    "confirmed": 61,
+    "quarantined": 0,
+    "records": 306,
+    "held_date_difference": 0
+   }
+  },
+  "row_changes": {
+   "changed:model_home_entity": 2,
+   "changed:model_away_entity": 2,
+   "changed:status": 2,
+   "changed:home_goals_final": 2,
+   "changed:away_goals_final": 2,
+   "changed:home_goals_90": 2,
+   "changed:away_goals_90": 2,
+   "changed:label_90_status": 2,
+   "changed:outcome": 2,
+   "changed:rated": 2,
+   "changed:regular": 2,
+   "changed:in_universe": 2,
+   "changed:source_system": 2,
+   "changed:licence": 2
+  },
+  "quarantine_added": 0,
+  "new_quarantine_reasons": [],
+  "production_sha256_before": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+  "production_sha256_after": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+  "production_untouched": true
+ }
+}

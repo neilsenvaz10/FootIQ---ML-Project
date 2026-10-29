@@ -1,0 +1,481 @@
+record_id,competition_id,season,match_date,home_team_name,away_team_name,sc
+OF:europe/russia:ru1:2019-20:L11,europe/russia:ru1,2019-20,2019-07-12,Arsenal Tula,Dinamo Moskva,1.0-1.0
+OF:europe/russia:ru2:2019-20:L11,europe/russia:ru2,2019-20,2019-07-12,Arsenal Tula,Dinamo Moskva,1.0-1.0
+OF:europe/russia:ru1:2019-20:L13,europe/russia:ru1,2019-20,2019-07-13,FK Ural,FK Ufa,3.0-2.0
+OF:europe/russia:ru1:2019-20:L14,europe/russia:ru1,2019-20,2019-07-13,Spartak Moskva,FK Sochi,1.0-0.0
+OF:europe/russia:ru1:2019-20:L15,europe/russia:ru1,2019-20,2019-07-13,FK Rostov,FK Orenburg,2.0-1.0
+OF:europe/russia:ru2:2019-20:L13,europe/russia:ru2,2019-20,2019-07-13,FK Ural,FK Ufa,3.0-2.0
+OF:europe/russia:ru2:2019-20:L14,europe/russia:ru2,2019-20,2019-07-13,Spartak Moskva,FK Sochi,1.0-0.0
+OF:europe/russia:ru2:2019-20:L15,europe/russia:ru2,2019-20,2019-07-13,FK Rostov,FK Orenburg,2.0-1.0
+OF:europe/russia:ru1:2019-20:L17,europe/russia:ru1,2019-20,2019-07-14,Krylia Sovetov,CSKA Moskva,2.0-0.0
+OF:europe/russia:ru1:2019-20:L18,europe/russia:ru1,2019-20,2019-07-14,Zenit St. Petersburg,FK Tambov,2.0-1.0
+OF:europe/russia:ru1:2019-20:L19,europe/russia:ru1,2019-20,2019-07-14,Akhmat Grozny,FK Krasnodar,1.0-0.0
+OF:europe/russia:ru2:2019-20:L17,europe/russia:ru2,2019-20,2019-07-14,Krylia Sovetov,CSKA Moskva,2.0-0.0
+OF:europe/russia:ru2:2019-20:L18,europe/russia:ru2,2019-20,2019-07-14,Zenit St. Petersburg,FK Tambov,2.0-1.0
+OF:europe/russia:ru2:2019-20:L19,europe/russia:ru2,2019-20,2019-07-14,Akhmat Grozny,FK Krasnodar,1.0-0.0
+OF:europe/russia:ru1:2019-20:L21,europe/russia:ru1,2019-20,2019-07-15,Lokomotiv Moskva,Rubin Kazan,1.0-1.0
+OF:europe/russia:ru2:2019-20:L21,europe/russia:ru2,2019-20,2019-07-15,Lokomotiv Moskva,Rubin Kazan,1.0-1.0
+OF:europe/russia:ru1:2019-20:L26,europe/russia:ru1,2019-20,2019-07-20,FK Ufa,FK Krasnodar,2.0-3.0
+OF:europe/russia:ru1:2019-20:L27,europe/russia:ru1,2019-20,2019-07-20,Krylia Sovetov,Arsenal Tula,2.0-3.0
+OF:europe/russia:ru1:2019-20:L28,europe/russia:ru1,2019-20,2019-07-20,CSKA Moskva,FK Orenburg,2.0-1.0
+OF:europe/russia:ru1:2019-20:L29,europe/russia:ru1,2019-20,2019-07-20,FK Rostov,Spartak Moskva,2.0-2.0
+OF:europe/russia:ru2:2019-20:L26,europe/russia:ru2,2019-20,2019-07-20,FK Ufa,FK Krasnodar,2.0-3.0
+OF:europe/russia:ru2:2019-20:L27,europe/russia:ru2,2019-20,2019-07-20,Krylia Sovetov,Arsenal Tula,2.0-3.0
+OF:europe/russia:ru2:2019-20:L28,europe/russia:ru2,2019-20,2019-07-20,CSKA Moskva,FK Orenburg,2.0-1.0
+OF:europe/russia:ru2:2019-20:L29,europe/russia:ru2,2019-20,2019-07-20,FK Rostov,Spartak Moskva,2.0-2.0
+OF:europe/russia:ru1:2019-20:L31,europe/russia:ru1,2019-20,2019-07-21,FK Ural,Akhmat Grozny,3.0-0.0
+OF:europe/russia:ru1:2019-20:L32,europe/russia:ru1,2019-20,2019-07-21,Lokomotiv Moskva,FK Tambov,2.0-1.0
+OF:europe/russia:ru1:2019-20:L33,europe/russia:ru1,2019-20,2019-07-21,Dinamo Moskva,Rubin Kazan,0.0-1.0
+OF:europe/russia:ru1:2019-20:L34,europe/russia:ru1,2019-20,2019-07-21,FK Sochi,Zenit St. Petersburg,0.0-2.0
+OF:europe/russia:ru2:2019-20:L31,europe/russia:ru2,2019-20,2019-07-21,FK Ural,Akhmat Grozny,3.0-0.0
+OF:europe/russia:ru2:2019-20:L32,europe/russia:ru2,2019-20,2019-07-21,Lokomotiv Moskva,FK Tambov,2.0-1.0
+OF:europe/russia:ru2:2019-20:L33,europe/russia:ru2,2019-20,2019-07-21,Dinamo Moskva,Rubin Kazan,0.0-1.0
+OF:europe/russia:ru2:2019-20:L34,europe/russia:ru2,2019-20,2019-07-21,FK Sochi,Zenit St. Petersburg,0.0-2.0
+OF:europe/russia:ru1:2019-20:L39,europe/russia:ru1,2019-20,2019-07-26,Dinamo Moskva,FK Ural,2.0-0.0
+OF:europe/russia:ru2:2019-20:L39,europe/russia:ru2,2019-20,2019-07-26,Dinamo Moskva,FK Ural,2.0-0.0
+OF:europe/russia:ru1:2019-20:L41,europe/russia:ru1,2019-20,2019-07-27,FK Ufa,Krylia Sovetov,2.0-1.0
+OF:europe/russia:ru1:2019-20:L42,europe/russia:ru1,2019-20,2019-07-27,FK Tambov,Spartak Moskva,2.0-0.0
+OF:europe/russia:ru1:2019-20:L43,europe/russia:ru1,2019-20,2019-07-27,FK Krasnodar,FK Sochi,3.0-0.0
+OF:europe/russia:ru2:2019-20:L41,europe/russia:ru2,2019-20,2019-07-27,FK Ufa,Krylia Sovetov,2.0-1.0
+OF:europe/russia:ru2:2019-20:L42,europe/russia:ru2,2019-20,2019-07-27,FK Tambov,Spartak Moskva,2.0-0.0
+OF:europe/russia:ru2:2019-20:L43,europe/russia:ru2,2019-20,2019-07-27,FK Krasnodar,FK Sochi,3.0-0.0
+OF:europe/russia:ru1:2019-20:L45,europe/russia:ru1,2019-20,2019-07-28,FK Orenburg,Zenit St. Petersburg,0.0-2.0
+OF:europe/russia:ru1:2019-20:L46,europe/russia:ru1,2019-20,2019-07-28,Arsenal Tula,FK Rostov,2.0-3.0
+OF:europe/russia:ru1:2019-20:L47,europe/russia:ru1,2019-20,2019-07-28,CSKA Moskva,Lokomotiv Moskva,1.0-0.0
+OF:europe/russia:ru2:2019-20:L45,europe/russia:ru2,2019-20,2019-07-28,FK Orenburg,Zenit St. Petersburg,0.0-2.0
+OF:europe/russia:ru2:2019-20:L46,europe/russia:ru2,2019-20,2019-07-28,Arsenal Tula,FK Rostov,2.0-3.0
+OF:europe/russia:ru2:2019-20:L47,europe/russia:ru2,2019-20,2019-07-28,CSKA Moskva,Lokomotiv Moskva,1.0-0.0
+OF:europe/russia:ru1:2019-20:L49,europe/russia:ru1,2019-20,2019-07-29,Rubin Kazan,Akhmat Grozny,1.0-0.0
+OF:europe/russia:ru2:2019-20:L49,europe/russia:ru2,2019-20,2019-07-29,Rubin Kazan,Akhmat Grozny,1.0-0.0
+OF:europe/russia:ru1:2019-20:L54,europe/russia:ru1,2019-20,2019-08-03,FK Ural,FK Rostov,2.0-2.0
+OF:europe/russia:ru1:2019-20:L55,europe/russia:ru1,2019-20,2019-08-03,Krylia Sovetov,Lokomotiv Moskva,1.0-2.0
+OF:europe/russia:ru1:2019-20:L56,europe/russia:ru1,2019-20,2019-08-03,Spartak Moskva,Dinamo Moskva,0.0-0.0
+OF:europe/russia:ru1:2019-20:L57,europe/russia:ru1,2019-20,2019-08-03,Zenit St. Petersburg,FK Krasnodar,1.0-1.0
+OF:europe/russia:ru2:2019-20:L54,europe/russia:ru2,2019-20,2019-08-03,FK Ural,FK Rostov,2.0-2.0
+OF:europe/russia:ru2:2019-20:L55,europe/russia:ru2,2019-20,2019-08-03,Krylia Sovetov,Lokomotiv Moskva,1.0-2.0
+OF:europe/russia:ru2:2019-20:L56,europe/russia:ru2,2019-20,2019-08-03,Spartak Moskva,Dinamo Moskva,0.0-0.0
+OF:europe/russia:ru2:2019-20:L57,europe/russia:ru2,2019-20,2019-08-03,Zenit St. Petersburg,FK Krasnodar,1.0-1.0
+OF:europe/russia:ru1:2019-20:L59,europe/russia:ru1,2019-20,2019-08-04,FK Tambov,Arsenal Tula,0.0-1.0
+OF:europe/russia:ru1:2019-20:L60,europe/russia:ru1,2019-20,2019-08-04,Rubin Kazan,CSKA Moskva,0.0-1.0
+OF:europe/russia:ru1:2019-20:L61,europe/russia:ru1,2019-20,2019-08-04,FK Sochi,FK Ufa,0.0-0.0
+OF:europe/russia:ru2:2019-20:L59,europe/russia:ru2,2019-20,2019-08-04,FK Tambov,Arsenal Tula,0.0-1.0
+OF:europe/russia:ru2:2019-20:L60,europe/russia:ru2,2019-20,2019-08-04,Rubin Kazan,CSKA Moskva,0.0-1.0
+OF:europe/russia:ru2:2019-20:L61,europe/russia:ru2,2019-20,2019-08-04,FK Sochi,FK Ufa,0.0-0.0
+OF:europe/russia:ru1:2019-20:L63,europe/russia:ru1,2019-20,2019-08-05,Akhmat Grozny,FK Orenburg,2.0-1.0
+OF:europe/russia:ru2:2019-20:L63,europe/russia:ru2,2019-20,2019-08-05,Akhmat Grozny,FK Orenburg,2.0-1.0
+OF:europe/russia:ru1:2019-20:L68,europe/russia:ru1,2019-20,2019-08-10,FK Orenburg,FK Tambov,2.0-2.0
+OF:europe/russia:ru1:2019-20:L69,europe/russia:ru1,2019-20,2019-08-10,FK Krasnodar,Rubin Kazan,1.0-0.0
+OF:europe/russia:ru1:2019-20:L70,europe/russia:ru1,2019-20,2019-08-10,Dinamo Moskva,Zenit St. Petersburg,0.0-2.0
+OF:europe/russia:ru2:2019-20:L68,europe/russia:ru2,2019-20,2019-08-10,FK Orenburg,FK Tambov,2.0-2.0
+OF:europe/russia:ru2:2019-20:L69,europe/russia:ru2,2019-20,2019-08-10,FK Krasnodar,Rubin Kazan,1.0-0.0
+OF:europe/russia:ru2:2019-20:L70,europe/russia:ru2,2019-20,2019-08-10,Dinamo Moskva,Zenit St. Petersburg,0.0-2.0
+OF:europe/russia:ru1:2019-20:L72,europe/russia:ru1,2019-20,2019-08-11,Arsenal Tula,FK Ufa,1.0-0.0
+OF:europe/russia:ru1:2019-20:L73,europe/russia:ru1,2019-20,2019-08-11,Lokomotiv Moskva,FK Ural,4.0-0.0
+OF:europe/russia:ru1:2019-20:L74,europe/russia:ru1,2019-20,2019-08-11,CSKA Moskva,FK Sochi,0.0-0.0
+OF:europe/russia:ru1:2019-20:L75,europe/russia:ru1,2019-20,2019-08-11,Akhmat Grozny,Spartak Moskva,1.0-3.0
+OF:europe/russia:ru2:2019-20:L72,europe/russia:ru2,2019-20,2019-08-11,Arsenal Tula,FK Ufa,1.0-0.0
+OF:europe/russia:ru2:2019-20:L73,europe/russia:ru2,2019-20,2019-08-11,Lokomotiv Moskva,FK Ural,4.0-0.0
+OF:europe/russia:ru2:2019-20:L74,europe/russia:ru2,2019-20,2019-08-11,CSKA Moskva,FK Sochi,0.0-0.0
+OF:europe/russia:ru2:2019-20:L75,europe/russia:ru2,2019-20,2019-08-11,Akhmat Grozny,Spartak Moskva,1.0-3.0
+OF:europe/russia:ru1:2019-20:L77,europe/russia:ru1,2019-20,2019-08-12,FK Rostov,Krylia Sovetov,1.0-0.0
+OF:europe/russia:ru2:2019-20:L77,europe/russia:ru2,2019-20,2019-08-12,FK Rostov,Krylia Sovetov,1.0-0.0
+OF:europe/russia:ru1:2019-20:L82,europe/russia:ru1,2019-20,2019-08-16,FK Orenburg,FK Sochi,1.0-1.0
+OF:europe/russia:ru2:2019-20:L82,europe/russia:ru2,2019-20,2019-08-16,FK Orenburg,FK Sochi,1.0-1.0
+OF:europe/russia:ru1:2019-20:L84,europe/russia:ru1,2019-20,2019-08-17,FK Ural,Krylia Sovetov,1.0-3.0
+OF:europe/russia:ru1:2019-20:L85,europe/russia:ru1,2019-20,2019-08-17,FK Tambov,FK Krasnodar,0.0-2.0
+OF:europe/russia:ru1:2019-20:L86,europe/russia:ru1,2019-20,2019-08-17,Zenit St. Petersburg,Akhmat Grozny,0.0-0.0
+OF:europe/russia:ru2:2019-20:L84,europe/russia:ru2,2019-20,2019-08-17,FK Ural,Krylia Sovetov,1.0-3.0
+OF:europe/russia:ru2:2019-20:L85,europe/russia:ru2,2019-20,2019-08-17,FK Tambov,FK Krasnodar,0.0-2.0
+OF:europe/russia:ru2:2019-20:L86,europe/russia:ru2,2019-20,2019-08-17,Zenit St. Petersburg,Akhmat Grozny,0.0-0.0
+OF:europe/russia:ru1:2019-20:L88,europe/russia:ru1,2019-20,2019-08-18,Rubin Kazan,Arsenal Tula,1.0-0.0
+OF:europe/russia:ru1:2019-20:L89,europe/russia:ru1,2019-20,2019-08-18,FK Ufa,FK Rostov,2.0-0.0
+OF:europe/russia:ru1:2019-20:L90,europe/russia:ru1,2019-20,2019-08-18,Dinamo Moskva,Lokomotiv Moskva,1.0-2.0
+OF:europe/russia:ru2:2019-20:L88,europe/russia:ru2,2019-20,2019-08-18,Rubin Kazan,Arsenal Tula,1.0-0.0
+OF:europe/russia:ru2:2019-20:L89,europe/russia:ru2,2019-20,2019-08-18,FK Ufa,FK Rostov,2.0-0.0
+OF:europe/russia:ru2:2019-20:L90,europe/russia:ru2,2019-20,2019-08-18,Dinamo Moskva,Lokomotiv Moskva,1.0-2.0
+OF:europe/russia:ru1:2019-20:L92,europe/russia:ru1,2019-20,2019-08-19,Spartak Moskva,CSKA Moskva,2.0-1.0
+OF:europe/russia:ru2:2019-20:L92,europe/russia:ru2,2019-20,2019-08-19,Spartak Moskva,CSKA Moskva,2.0-1.0
+OF:europe/russia:ru1:2019-20:L97,europe/russia:ru1,2019-20,2019-08-24,FK Tambov,Dinamo Moskva,0.0-2.0
+OF:europe/russia:ru1:2019-20:L98,europe/russia:ru1,2019-20,2019-08-24,FK Ufa,Zenit St. Petersburg,1.0-0.0
+OF:europe/russia:ru1:2019-20:L99,europe/russia:ru1,2019-20,2019-08-24,FK Krasnodar,Lokomotiv Moskva,1.0-1.0
+OF:europe/russia:ru2:2019-20:L97,europe/russia:ru2,2019-20,2019-08-24,FK Tambov,Dinamo Moskva,0.0-2.0
+OF:europe/russia:ru2:2019-20:L98,europe/russia:ru2,2019-20,2019-08-24,FK Ufa,Zenit St. Petersburg,1.0-0.0
+OF:europe/russia:ru2:2019-20:L99,europe/russia:ru2,2019-20,2019-08-24,FK Krasnodar,Lokomotiv Moskva,1.0-1.0
+OF:europe/russia:ru1:2019-20:L101,europe/russia:ru1,2019-20,2019-08-25,CSKA Moskva,Akhmat Grozny,3.0-0.0
+OF:europe/russia:ru1:2019-20:L102,europe/russia:ru1,2019-20,2019-08-25,FK Rostov,Rubin Kazan,2.0-1.0
+OF:europe/russia:ru1:2019-20:L103,europe/russia:ru1,2019-20,2019-08-25,Krylia Sovetov,Spartak Moskva,1.0-2.0
+OF:europe/russia:ru1:2019-20:L104,europe/russia:ru1,2019-20,2019-08-25,Arsenal Tula,FK Orenburg,2.0-1.0
+OF:europe/russia:ru2:2019-20:L101,europe/russia:ru2,2019-20,2019-08-25,CSKA Moskva,Akhmat Grozny,3.0-0.0
+OF:europe/russia:ru2:2019-20:L102,europe/russia:ru2,2019-20,2019-08-25,FK Rostov,Rubin Kazan,2.0-1.0
+OF:europe/russia:ru2:2019-20:L103,europe/russia:ru2,2019-20,2019-08-25,Krylia Sovetov,Spartak Moskva,1.0-2.0
+OF:europe/russia:ru2:2019-20:L104,europe/russia:ru2,2019-20,2019-08-25,Arsenal Tula,FK Orenburg,2.0-1.0
+OF:europe/russia:ru1:2019-20:L106,europe/russia:ru1,2019-20,2019-08-26,FK Ural,FK Sochi,3.0-1.0
+OF:europe/russia:ru2:2019-20:L106,europe/russia:ru2,2019-20,2019-08-26,FK Ural,FK Sochi,3.0-1.0
+OF:europe/russia:ru1:2019-20:L111,europe/russia:ru1,2019-20,2019-08-30,Krylia Sovetov,Dinamo Moskva,0.0-0.0
+OF:europe/russia:ru2:2019-20:L111,europe/russia:ru2,2019-20,2019-08-30,Krylia Sovetov,Dinamo Moskva,0.0-0.0
+OF:europe/russia:ru1:2019-20:L113,europe/russia:ru1,2019-20,2019-08-31,FK Ufa,FK Orenburg,1.0-2.0
+OF:europe/russia:ru1:2019-20:L114,europe/russia:ru1,2019-20,2019-08-31,Rubin Kazan,FK Sochi,0.0-3.0
+OF:europe/russia:ru1:2019-20:L115,europe/russia:ru1,2019-20,2019-08-31,Lokomotiv Moskva,FK Rostov,1.0-2.0
+OF:europe/russia:ru1:2019-20:L116,europe/russia:ru1,2019-20,2019-08-31,Akhmat Grozny,FK Tambov,1.0-1.0
+OF:europe/russia:ru2:2019-20:L113,europe/russia:ru2,2019-20,2019-08-31,FK Ufa,FK Orenburg,1.0-2.0
+OF:europe/russia:ru2:2019-20:L114,europe/russia:ru2,2019-20,2019-08-31,Rubin Kazan,FK Sochi,0.0-3.0
+OF:europe/russia:ru2:2019-20:L115,europe/russia:ru2,2019-20,2019-08-31,Lokomotiv Moskva,FK Rostov,1.0-2.0
+OF:europe/russia:ru2:2019-20:L116,europe/russia:ru2,2019-20,2019-08-31,Akhmat Grozny,FK Tambov,1.0-1.0
+OF:europe/russia:ru1:2019-20:L118,europe/russia:ru1,2019-20,2019-09-01,FK Ural,FK Krasnodar,2.0-4.0
+OF:europe/russia:ru1:2019-20:L119,europe/russia:ru1,2019-20,2019-09-01,Arsenal Tula,CSKA Moskva,1.0-2.0
+OF:europe/russia:ru1:2019-20:L120,europe/russia:ru1,2019-20,2019-09-01,Spartak Moskva,Zenit St. Petersburg,0.0-1.0
+OF:europe/russia:ru2:2019-20:L118,europe/russia:ru2,2019-20,2019-09-01,FK Ural,FK Krasnodar,2.0-4.0
+OF:europe/russia:ru2:2019-20:L119,europe/russia:ru2,2019-20,2019-09-01,Arsenal Tula,CSKA Moskva,1.0-2.0
+OF:europe/russia:ru2:2019-20:L120,europe/russia:ru2,2019-20,2019-09-01,Spartak Moskva,Zenit St. Petersburg,0.0-1.0
+OF:europe/russia:ru1:2019-20:L125,europe/russia:ru1,2019-20,2019-09-13,Zenit St. Petersburg,Arsenal Tula,3.0-1.0
+OF:europe/russia:ru2:2019-20:L125,europe/russia:ru2,2019-20,2019-09-13,Zenit St. Petersburg,Arsenal Tula,3.0-1.0
+OF:europe/russia:ru1:2019-20:L127,europe/russia:ru1,2019-20,2019-09-14,Spartak Moskva,FK Ural,1.0-2.0
+OF:europe/russia:ru1:2019-20:L128,europe/russia:ru1,2019-20,2019-09-14,FK Sochi,Lokomotiv Moskva,0.0-1.0
+OF:europe/russia:ru2:2019-20:L127,europe/russia:ru2,2019-20,2019-09-14,Spartak Moskva,FK Ural,1.0-2.0
+OF:europe/russia:ru2:2019-20:L128,europe/russia:ru2,2019-20,2019-09-14,FK Sochi,Lokomotiv Moskva,0.0-1.0
+OF:europe/russia:ru1:2019-20:L130,europe/russia:ru1,2019-20,2019-09-15,FK Orenburg,Rubin Kazan,2.0-1.0
+OF:europe/russia:ru1:2019-20:L131,europe/russia:ru1,2019-20,2019-09-15,FK Tambov,CSKA Moskva,0.0-2.0
+OF:europe/russia:ru1:2019-20:L132,europe/russia:ru1,2019-20,2019-09-15,FK Krasnodar,Krylia Sovetov,4.0-2.0
+OF:europe/russia:ru2:2019-20:L130,europe/russia:ru2,2019-20,2019-09-15,FK Orenburg,Rubin Kazan,2.0-1.0
+OF:europe/russia:ru2:2019-20:L131,europe/russia:ru2,2019-20,2019-09-15,FK Tambov,CSKA Moskva,0.0-2.0
+OF:europe/russia:ru2:2019-20:L132,europe/russia:ru2,2019-20,2019-09-15,FK Krasnodar,Krylia Sovetov,4.0-2.0
+OF:europe/russia:ru1:2019-20:L134,europe/russia:ru1,2019-20,2019-09-16,Dinamo Moskva,FK Ufa,0.0-0.0
+OF:europe/russia:ru1:2019-20:L135,europe/russia:ru1,2019-20,2019-09-16,FK Rostov,Akhmat Grozny,2.0-1.0
+OF:europe/russia:ru2:2019-20:L134,europe/russia:ru2,2019-20,2019-09-16,Dinamo Moskva,FK Ufa,0.0-0.0
+OF:europe/russia:ru2:2019-20:L135,europe/russia:ru2,2019-20,2019-09-16,FK Rostov,Akhmat Grozny,2.0-1.0
+OF:europe/russia:ru1:2019-20:L140,europe/russia:ru1,2019-20,2019-09-20,FK Ufa,Spartak Moskva,1.0-0.0
+OF:europe/russia:ru2:2019-20:L140,europe/russia:ru2,2019-20,2019-09-20,FK Ufa,Spartak Moskva,1.0-0.0
+OF:europe/russia:ru1:2019-20:L142,europe/russia:ru1,2019-20,2019-09-21,Akhmat Grozny,Krylia Sovetov,1.0-1.0
+OF:europe/russia:ru1:2019-20:L143,europe/russia:ru1,2019-20,2019-09-21,Zenit St. Petersburg,Rubin Kazan,5.0-0.0
+OF:europe/russia:ru1:2019-20:L144,europe/russia:ru1,2019-20,2019-09-21,FK Tambov,FK Rostov,2.0-1.0
+OF:europe/russia:ru2:2019-20:L142,europe/russia:ru2,2019-20,2019-09-21,Akhmat Grozny,Krylia Sovetov,1.0-1.0
+OF:europe/russia:ru2:2019-20:L143,europe/russia:ru2,2019-20,2019-09-21,Zenit St. Petersburg,Rubin Kazan,5.0-0.0
+OF:europe/russia:ru2:2019-20:L144,europe/russia:ru2,2019-20,2019-09-21,FK Tambov,FK Rostov,2.0-1.0
+OF:europe/russia:ru1:2019-20:L146,europe/russia:ru1,2019-20,2019-09-22,FK Orenburg,Lokomotiv Moskva,2.0-3.0
+OF:europe/russia:ru1:2019-20:L147,europe/russia:ru1,2019-20,2019-09-22,Dinamo Moskva,FK Sochi,2.0-3.0
+OF:europe/russia:ru1:2019-20:L148,europe/russia:ru1,2019-20,2019-09-22,Arsenal Tula,FK Ural,1.0-1.0
+OF:europe/russia:ru1:2019-20:L149,europe/russia:ru1,2019-20,2019-09-22,CSKA Moskva,FK Krasnodar,3.0-2.0
+OF:europe/russia:ru2:2019-20:L146,europe/russia:ru2,2019-20,2019-09-22,FK Orenburg,Lokomotiv Moskva,2.0-3.0
+OF:europe/russia:ru2:2019-20:L147,europe/russia:ru2,2019-20,2019-09-22,Dinamo Moskva,FK Sochi,2.0-3.0
+OF:europe/russia:ru2:2019-20:L148,europe/russia:ru2,2019-20,2019-09-22,Arsenal Tula,FK Ural,1.0-1.0
+OF:europe/russia:ru2:2019-20:L149,europe/russia:ru2,2019-20,2019-09-22,CSKA Moskva,FK Krasnodar,3.0-2.0
+OF:europe/russia:ru1:2019-20:L154,europe/russia:ru1,2019-20,2019-09-28,Krylia Sovetov,FK Tambov,2.0-0.0
+OF:europe/russia:ru1:2019-20:L155,europe/russia:ru1,2019-20,2019-09-28,FK Rostov,Dinamo Moskva,3.0-0.0
+OF:europe/russia:ru1:2019-20:L156,europe/russia:ru1,2019-20,2019-09-28,Lokomotiv Moskva,Zenit St. Petersburg,1.0-0.0
+OF:europe/russia:ru2:2019-20:L154,europe/russia:ru2,2019-20,2019-09-28,Krylia Sovetov,FK Tambov,2.0-0.0
+OF:europe/russia:ru2:2019-20:L155,europe/russia:ru2,2019-20,2019-09-28,FK Rostov,Dinamo Moskva,3.0-0.0
+OF:europe/russia:ru2:2019-20:L156,europe/russia:ru2,2019-20,2019-09-28,Lokomotiv Moskva,Zenit St. Petersburg,1.0-0.0
+OF:europe/russia:ru1:2019-20:L158,europe/russia:ru1,2019-20,2019-09-29,FK Ural,CSKA Moskva,0.0-3.0
+OF:europe/russia:ru1:2019-20:L159,europe/russia:ru1,2019-20,2019-09-29,Rubin Kazan,FK Ufa,0.0-0.0
+OF:europe/russia:ru1:2019-20:L160,europe/russia:ru1,2019-20,2019-09-29,Spartak Moskva,FK Orenburg,1.0-2.0
+OF:europe/russia:ru1:2019-20:L161,europe/russia:ru1,2019-20,2019-09-29,FK Krasnodar,Arsenal Tula,2.0-0.0
+OF:europe/russia:ru2:2019-20:L158,europe/russia:ru2,2019-20,2019-09-29,FK Ural,CSKA Moskva,0.0-3.0
+OF:europe/russia:ru2:2019-20:L159,europe/russia:ru2,2019-20,2019-09-29,Rubin Kazan,FK Ufa,0.0-0.0
+OF:europe/russia:ru2:2019-20:L160,europe/russia:ru2,2019-20,2019-09-29,Spartak Moskva,FK Orenburg,1.0-2.0
+OF:europe/russia:ru2:2019-20:L161,europe/russia:ru2,2019-20,2019-09-29,FK Krasnodar,Arsenal Tula,2.0-0.0
+OF:europe/russia:ru1:2019-20:L163,europe/russia:ru1,2019-20,2019-09-30,FK Sochi,Akhmat Grozny,2.0-0.0
+OF:europe/russia:ru2:2019-20:L163,europe/russia:ru2,2019-20,2019-09-30,FK Sochi,Akhmat Grozny,2.0-0.0
+OF:europe/russia:ru1:2019-20:L168,europe/russia:ru1,2019-20,2019-10-05,FK Ufa,Akhmat Grozny,0.0-1.0
+OF:europe/russia:ru1:2019-20:L169,europe/russia:ru1,2019-20,2019-10-05,FK Orenburg,Dinamo Moskva,2.0-0.0
+OF:europe/russia:ru1:2019-20:L170,europe/russia:ru1,2019-20,2019-10-05,Rubin Kazan,FK Tambov,2.0-1.0
+OF:europe/russia:ru1:2019-20:L171,europe/russia:ru1,2019-20,2019-10-05,FK Sochi,Krylia Sovetov,0.0-2.0
+OF:europe/russia:ru2:2019-20:L168,europe/russia:ru2,2019-20,2019-10-05,FK Ufa,Akhmat Grozny,0.0-1.0
+OF:europe/russia:ru2:2019-20:L169,europe/russia:ru2,2019-20,2019-10-05,FK Orenburg,Dinamo Moskva,2.0-0.0
+OF:europe/russia:ru2:2019-20:L170,europe/russia:ru2,2019-20,2019-10-05,Rubin Kazan,FK Tambov,2.0-1.0
+OF:europe/russia:ru2:2019-20:L171,europe/russia:ru2,2019-20,2019-10-05,FK Sochi,Krylia Sovetov,0.0-2.0
+OF:europe/russia:ru1:2019-20:L173,europe/russia:ru1,2019-20,2019-10-06,FK Ural,Zenit St. Petersburg,1.0-3.0
+OF:europe/russia:ru1:2019-20:L174,europe/russia:ru1,2019-20,2019-10-06,Lokomotiv Moskva,Arsenal Tula,2.0-1.0
+OF:europe/russia:ru1:2019-20:L175,europe/russia:ru1,2019-20,2019-10-06,CSKA Moskva,FK Rostov,1.0-3.0
+OF:europe/russia:ru1:2019-20:L176,europe/russia:ru1,2019-20,2019-10-06,FK Krasnodar,Spartak Moskva,2.0-1.0
+OF:europe/russia:ru2:2019-20:L173,europe/russia:ru2,2019-20,2019-10-06,FK Ural,Zenit St. Petersburg,1.0-3.0
+OF:europe/russia:ru2:2019-20:L174,europe/russia:ru2,2019-20,2019-10-06,Lokomotiv Moskva,Arsenal Tula,2.0-1.0
+OF:europe/russia:ru2:2019-20:L175,europe/russia:ru2,2019-20,2019-10-06,CSKA Moskva,FK Rostov,1.0-3.0
+OF:europe/russia:ru2:2019-20:L176,europe/russia:ru2,2019-20,2019-10-06,FK Krasnodar,Spartak Moskva,2.0-1.0
+OF:europe/russia:ru1:2019-20:L181,europe/russia:ru1,2019-20,2019-10-18,Akhmat Grozny,Lokomotiv Moskva,0.0-2.0
+OF:europe/russia:ru2:2019-20:L181,europe/russia:ru2,2019-20,2019-10-18,Akhmat Grozny,Lokomotiv Moskva,0.0-2.0
+OF:europe/russia:ru1:2019-20:L183,europe/russia:ru1,2019-20,2019-10-19,FK Tambov,FK Ural,1.0-2.0
+OF:europe/russia:ru1:2019-20:L184,europe/russia:ru1,2019-20,2019-10-19,Spartak Moskva,Rubin Kazan,0.0-0.0
+OF:europe/russia:ru1:2019-20:L185,europe/russia:ru1,2019-20,2019-10-19,Zenit St. Petersburg,FK Rostov,6.0-1.0
+OF:europe/russia:ru2:2019-20:L183,europe/russia:ru2,2019-20,2019-10-19,FK Tambov,FK Ural,1.0-2.0
+OF:europe/russia:ru2:2019-20:L184,europe/russia:ru2,2019-20,2019-10-19,Spartak Moskva,Rubin Kazan,0.0-0.0
+OF:europe/russia:ru2:2019-20:L185,europe/russia:ru2,2019-20,2019-10-19,Zenit St. Petersburg,FK Rostov,6.0-1.0
+OF:europe/russia:ru1:2019-20:L187,europe/russia:ru1,2019-20,2019-10-20,FK Orenburg,Krylia Sovetov,0.0-1.0
+OF:europe/russia:ru1:2019-20:L188,europe/russia:ru1,2019-20,2019-10-20,FK Ufa,CSKA Moskva,1.0-1.0
+OF:europe/russia:ru1:2019-20:L189,europe/russia:ru1,2019-20,2019-10-20,Arsenal Tula,FK Sochi,1.0-1.0
+OF:europe/russia:ru1:2019-20:L190,europe/russia:ru1,2019-20,2019-10-20,Dinamo Moskva,FK Krasnodar,1.0-1.0
+OF:europe/russia:ru2:2019-20:L187,europe/russia:ru2,2019-20,2019-10-20,FK Orenburg,Krylia Sovetov,0.0-1.0
+OF:europe/russia:ru2:2019-20:L188,europe/russia:ru2,2019-20,2019-10-20,FK Ufa,CSKA Moskva,1.0-1.0
+OF:europe/russia:ru2:2019-20:L189,europe/russia:ru2,2019-20,2019-10-20,Arsenal Tula,FK Sochi,1.0-1.0
+OF:europe/russia:ru2:2019-20:L190,europe/russia:ru2,2019-20,2019-10-20,Dinamo Moskva,FK Krasnodar,1.0-1.0
+OF:europe/russia:ru1:2019-20:L195,europe/russia:ru1,2019-20,2019-10-25,Rubin Kazan,FK Ural,0.0-0.0
+OF:europe/russia:ru2:2019-20:L195,europe/russia:ru2,2019-20,2019-10-25,Rubin Kazan,FK Ural,0.0-0.0
+OF:europe/russia:ru1:2019-20:L197,europe/russia:ru1,2019-20,2019-10-26,FK Tambov,FK Ufa,3.0-0.0
+OF:europe/russia:ru1:2019-20:L198,europe/russia:ru1,2019-20,2019-10-26,Akhmat Grozny,Arsenal Tula,1.0-1.0
+OF:europe/russia:ru1:2019-20:L199,europe/russia:ru1,2019-20,2019-10-26,FK Rostov,FK Sochi,2.0-0.0
+OF:europe/russia:ru2:2019-20:L197,europe/russia:ru2,2019-20,2019-10-26,FK Tambov,FK Ufa,3.0-0.0
+OF:europe/russia:ru2:2019-20:L198,europe/russia:ru2,2019-20,2019-10-26,Akhmat Grozny,Arsenal Tula,1.0-1.0
+OF:europe/russia:ru2:2019-20:L199,europe/russia:ru2,2019-20,2019-10-26,FK Rostov,FK Sochi,2.0-0.0
+OF:europe/russia:ru1:2019-20:L201,europe/russia:ru1,2019-20,2019-10-27,Krylia Sovetov,Zenit St. Petersburg,0.0-2.0
+OF:europe/russia:ru1:2019-20:L202,europe/russia:ru1,2019-20,2019-10-27,CSKA Moskva,Dinamo Moskva,0.0-1.0
+OF:europe/russia:ru1:2019-20:L203,europe/russia:ru1,2019-20,2019-10-27,Lokomotiv Moskva,Spartak Moskva,0.0-3.0
+OF:europe/russia:ru1:2019-20:L204,europe/russia:ru1,2019-20,2019-10-27,FK Krasnodar,FK Orenburg,1.0-1.0
+OF:europe/russia:ru2:2019-20:L201,europe/russia:ru2,2019-20,2019-10-27,Krylia Sovetov,Zenit St. Petersburg,0.0-2.0
+OF:europe/russia:ru2:2019-20:L202,europe/russia:ru2,2019-20,2019-10-27,CSKA Moskva,Dinamo Moskva,0.0-1.0
+OF:europe/russia:ru2:2019-20:L203,europe/russia:ru2,2019-20,2019-10-27,Lokomotiv Moskva,Spartak Moskva,0.0-3.0
+OF:europe/russia:ru2:2019-20:L204,europe/russia:ru2,2019-20,2019-10-27,FK Krasnodar,FK Orenburg,1.0-1.0
+OF:europe/russia:ru1:2019-20:L209,europe/russia:ru1,2019-20,2019-11-02,Dinamo Moskva,Akhmat Grozny,1.0-1.0
+OF:europe/russia:ru1:2019-20:L210,europe/russia:ru1,2019-20,2019-11-02,FK Ufa,Lokomotiv Moskva,1.0-1.0
+OF:europe/russia:ru1:2019-20:L211,europe/russia:ru1,2019-20,2019-11-02,FK Sochi,FK Tambov,1.0-2.0
+OF:europe/russia:ru1:2019-20:L212,europe/russia:ru1,2019-20,2019-11-02,Zenit St. Petersburg,CSKA Moskva,1.0-1.0
+OF:europe/russia:ru2:2019-20:L209,europe/russia:ru2,2019-20,2019-11-02,Dinamo Moskva,Akhmat Grozny,1.0-1.0
+OF:europe/russia:ru2:2019-20:L210,europe/russia:ru2,2019-20,2019-11-02,FK Ufa,Lokomotiv Moskva,1.0-1.0
+OF:europe/russia:ru2:2019-20:L211,europe/russia:ru2,2019-20,2019-11-02,FK Sochi,FK Tambov,1.0-2.0
+OF:europe/russia:ru2:2019-20:L212,europe/russia:ru2,2019-20,2019-11-02,Zenit St. Petersburg,CSKA Moskva,1.0-1.0
+OF:europe/russia:ru1:2019-20:L214,europe/russia:ru1,2019-20,2019-11-03,FK Krasnodar,FK Rostov,2.0-2.0
+OF:europe/russia:ru2:2019-20:L214,europe/russia:ru2,2019-20,2019-11-03,FK Krasnodar,FK Rostov,2.0-2.0
+OF:europe/russia:ru1:2019-20:L216,europe/russia:ru1,2019-20,2019-11-04,FK Ural,FK Orenburg,1.0-2.0
+OF:europe/russia:ru1:2019-20:L217,europe/russia:ru1,2019-20,2019-11-04,Krylia Sovetov,Rubin Kazan,0.0-0.0
+OF:europe/russia:ru1:2019-20:L218,europe/russia:ru1,2019-20,2019-11-04,Spartak Moskva,Arsenal Tula,0.0-1.0
+OF:europe/russia:ru2:2019-20:L216,europe/russia:ru2,2019-20,2019-11-04,FK Ural,FK Orenburg,1.0-2.0
+OF:europe/russia:ru2:2019-20:L217,europe/russia:ru2,2019-20,2019-11-04,Krylia Sovetov,Rubin Kazan,0.0-0.0
+OF:europe/russia:ru2:2019-20:L218,europe/russia:ru2,2019-20,2019-11-04,Spartak Moskva,Arsenal Tula,0.0-1.0
+OF:europe/russia:ru1:2019-20:L223,europe/russia:ru1,2019-20,2019-11-08,Akhmat Grozny,FK Ural,0.0-0.0
+OF:europe/russia:ru2:2019-20:L223,europe/russia:ru2,2019-20,2019-11-08,Akhmat Grozny,FK Ural,0.0-0.0
+OF:europe/russia:ru1:2019-20:L225,europe/russia:ru1,2019-20,2019-11-09,Rubin Kazan,Dinamo Moskva,0.0-1.0
+OF:europe/russia:ru1:2019-20:L226,europe/russia:ru1,2019-20,2019-11-09,FK Rostov,FK Tambov,1.0-2.0
+OF:europe/russia:ru1:2019-20:L227,europe/russia:ru1,2019-20,2019-11-09,Spartak Moskva,Krylia Sovetov,2.0-0.0
+OF:europe/russia:ru2:2019-20:L225,europe/russia:ru2,2019-20,2019-11-09,Rubin Kazan,Dinamo Moskva,0.0-1.0
+OF:europe/russia:ru2:2019-20:L226,europe/russia:ru2,2019-20,2019-11-09,FK Rostov,FK Tambov,1.0-2.0
+OF:europe/russia:ru2:2019-20:L227,europe/russia:ru2,2019-20,2019-11-09,Spartak Moskva,Krylia Sovetov,2.0-0.0
+OF:europe/russia:ru1:2019-20:L229,europe/russia:ru1,2019-20,2019-11-10,FK Orenburg,FK Ufa,0.0-0.0
+OF:europe/russia:ru1:2019-20:L230,europe/russia:ru1,2019-20,2019-11-10,Arsenal Tula,Zenit St. Petersburg,0.0-1.0
+OF:europe/russia:ru1:2019-20:L231,europe/russia:ru1,2019-20,2019-11-10,FK Sochi,CSKA Moskva,2.0-3.0
+OF:europe/russia:ru1:2019-20:L232,europe/russia:ru1,2019-20,2019-11-10,Lokomotiv Moskva,FK Krasnodar,1.0-1.0
+OF:europe/russia:ru2:2019-20:L229,europe/russia:ru2,2019-20,2019-11-10,FK Orenburg,FK Ufa,0.0-0.0
+OF:europe/russia:ru2:2019-20:L230,europe/russia:ru2,2019-20,2019-11-10,Arsenal Tula,Zenit St. Petersburg,0.0-1.0
+OF:europe/russia:ru2:2019-20:L231,europe/russia:ru2,2019-20,2019-11-10,FK Sochi,CSKA Moskva,2.0-3.0
+OF:europe/russia:ru2:2019-20:L232,europe/russia:ru2,2019-20,2019-11-10,Lokomotiv Moskva,FK Krasnodar,1.0-1.0
+OF:europe/russia:ru1:2019-20:L237,europe/russia:ru1,2019-20,2019-11-22,FK Tambov,Lokomotiv Moskva,2.0-3.0
+OF:europe/russia:ru2:2019-20:L237,europe/russia:ru2,2019-20,2019-11-22,FK Tambov,Lokomotiv Moskva,2.0-3.0
+OF:europe/russia:ru1:2019-20:L239,europe/russia:ru1,2019-20,2019-11-23,FK Orenburg,Akhmat Grozny,1.0-2.0
+OF:europe/russia:ru1:2019-20:L240,europe/russia:ru1,2019-20,2019-11-23,Rubin Kazan,Zenit St. Petersburg,1.0-2.0
+OF:europe/russia:ru1:2019-20:L241,europe/russia:ru1,2019-20,2019-11-23,Dinamo Moskva,FK Rostov,2.0-1.0
+OF:europe/russia:ru2:2019-20:L239,europe/russia:ru2,2019-20,2019-11-23,FK Orenburg,Akhmat Grozny,1.0-2.0
+OF:europe/russia:ru2:2019-20:L240,europe/russia:ru2,2019-20,2019-11-23,Rubin Kazan,Zenit St. Petersburg,1.0-2.0
+OF:europe/russia:ru2:2019-20:L241,europe/russia:ru2,2019-20,2019-11-23,Dinamo Moskva,FK Rostov,2.0-1.0
+OF:europe/russia:ru1:2019-20:L243,europe/russia:ru1,2019-20,2019-11-24,FK Ufa,FK Sochi,1.0-1.0
+OF:europe/russia:ru1:2019-20:L244,europe/russia:ru1,2019-20,2019-11-24,FK Ural,Spartak Moskva,0.0-0.0
+OF:europe/russia:ru1:2019-20:L245,europe/russia:ru1,2019-20,2019-11-24,Arsenal Tula,FK Krasnodar,1.0-2.0
+OF:europe/russia:ru1:2019-20:L246,europe/russia:ru1,2019-20,2019-11-24,CSKA Moskva,Krylia Sovetov,1.0-0.0
+OF:europe/russia:ru2:2019-20:L243,europe/russia:ru2,2019-20,2019-11-24,FK Ufa,FK Sochi,1.0-1.0
+OF:europe/russia:ru2:2019-20:L244,europe/russia:ru2,2019-20,2019-11-24,FK Ural,Spartak Moskva,0.0-0.0
+OF:europe/russia:ru2:2019-20:L245,europe/russia:ru2,2019-20,2019-11-24,Arsenal Tula,FK Krasnodar,1.0-2.0
+OF:europe/russia:ru2:2019-20:L246,europe/russia:ru2,2019-20,2019-11-24,CSKA Moskva,Krylia Sovetov,1.0-0.0
+OF:europe/russia:ru1:2019-20:L251,europe/russia:ru1,2019-20,2019-11-30,Krylia Sovetov,FK Ufa,0.0-1.0
+OF:europe/russia:ru1:2019-20:L252,europe/russia:ru1,2019-20,2019-11-30,FK Rostov,FK Ural,0.0-0.0
+OF:europe/russia:ru1:2019-20:L253,europe/russia:ru1,2019-20,2019-11-30,Akhmat Grozny,Rubin Kazan,1.0-1.0
+OF:europe/russia:ru2:2019-20:L251,europe/russia:ru2,2019-20,2019-11-30,Krylia Sovetov,FK Ufa,0.0-1.0
+OF:europe/russia:ru2:2019-20:L252,europe/russia:ru2,2019-20,2019-11-30,FK Rostov,FK Ural,0.0-0.0
+OF:europe/russia:ru2:2019-20:L253,europe/russia:ru2,2019-20,2019-11-30,Akhmat Grozny,Rubin Kazan,1.0-1.0
+OF:europe/russia:ru1:2019-20:L255,europe/russia:ru1,2019-20,2019-12-01,Lokomotiv Moskva,Dinamo Moskva,1.0-2.0
+OF:europe/russia:ru1:2019-20:L256,europe/russia:ru1,2019-20,2019-12-01,Zenit St. Petersburg,Spartak Moskva,1.0-0.0
+OF:europe/russia:ru2:2019-20:L255,europe/russia:ru2,2019-20,2019-12-01,Lokomotiv Moskva,Dinamo Moskva,1.0-2.0
+OF:europe/russia:ru2:2019-20:L256,europe/russia:ru2,2019-20,2019-12-01,Zenit St. Petersburg,Spartak Moskva,1.0-0.0
+OF:europe/russia:ru1:2019-20:L258,europe/russia:ru1,2019-20,2019-12-02,FK Krasnodar,FK Tambov,0.0-0.0
+OF:europe/russia:ru1:2019-20:L259,europe/russia:ru1,2019-20,2019-12-02,CSKA Moskva,Arsenal Tula,0.0-1.0
+OF:europe/russia:ru2:2019-20:L258,europe/russia:ru2,2019-20,2019-12-02,FK Krasnodar,FK Tambov,0.0-0.0
+OF:europe/russia:ru2:2019-20:L259,europe/russia:ru2,2019-20,2019-12-02,CSKA Moskva,Arsenal Tula,0.0-1.0
+OF:europe/russia:ru1:2019-20:L266,europe/russia:ru1,2019-20,2019-12-06,Zenit St. Petersburg,Dinamo Moskva,3.0-0.0
+OF:europe/russia:ru1:2019-20:L267,europe/russia:ru1,2019-20,2019-12-06,Arsenal Tula,Lokomotiv Moskva,4.0-0.0
+OF:europe/russia:ru2:2019-20:L266,europe/russia:ru2,2019-20,2019-12-06,Zenit St. Petersburg,Dinamo Moskva,3.0-0.0
+OF:europe/russia:ru2:2019-20:L267,europe/russia:ru2,2019-20,2019-12-06,Arsenal Tula,Lokomotiv Moskva,4.0-0.0
+OF:europe/russia:ru1:2019-20:L269,europe/russia:ru1,2019-20,2019-12-07,FK Tambov,FK Orenburg,3.0-0.0
+OF:europe/russia:ru1:2019-20:L270,europe/russia:ru1,2019-20,2019-12-07,FK Krasnodar,CSKA Moskva,1.0-1.0
+OF:europe/russia:ru1:2019-20:L271,europe/russia:ru1,2019-20,2019-12-07,Akhmat Grozny,FK Ufa,0.0-1.0
+OF:europe/russia:ru2:2019-20:L269,europe/russia:ru2,2019-20,2019-12-07,FK Tambov,FK Orenburg,3.0-0.0
+OF:europe/russia:ru2:2019-20:L270,europe/russia:ru2,2019-20,2019-12-07,FK Krasnodar,CSKA Moskva,1.0-1.0
+OF:europe/russia:ru2:2019-20:L271,europe/russia:ru2,2019-20,2019-12-07,Akhmat Grozny,FK Ufa,0.0-1.0
+OF:europe/russia:ru1:2019-20:L273,europe/russia:ru1,2019-20,2019-12-08,Krylia Sovetov,FK Ural,2.0-3.0
+OF:europe/russia:ru1:2019-20:L274,europe/russia:ru1,2019-20,2019-12-08,FK Sochi,Rubin Kazan,1.0-1.0
+OF:europe/russia:ru1:2019-20:L275,europe/russia:ru1,2019-20,2019-12-08,Spartak Moskva,FK Rostov,1.0-4.0
+OF:europe/russia:ru2:2019-20:L273,europe/russia:ru2,2019-20,2019-12-08,Krylia Sovetov,FK Ural,2.0-3.0
+OF:europe/russia:ru2:2019-20:L274,europe/russia:ru2,2019-20,2019-12-08,FK Sochi,Rubin Kazan,1.0-1.0
+OF:europe/russia:ru2:2019-20:L275,europe/russia:ru2,2019-20,2019-12-08,Spartak Moskva,FK Rostov,1.0-4.0
+OF:europe/russia:ru1:2019-20:L280,europe/russia:ru1,2019-20,2020-02-28,Krylia Sovetov,FK Orenburg,1.0-1.0
+OF:europe/russia:ru2:2019-20:L280,europe/russia:ru2,2019-20,2020-02-28,Krylia Sovetov,FK Orenburg,1.0-1.0
+OF:europe/russia:ru1:2019-20:L282,europe/russia:ru1,2019-20,2020-02-29,CSKA Moskva,FK Ural,1.0-1.0
+OF:europe/russia:ru1:2019-20:L283,europe/russia:ru1,2019-20,2020-02-29,Dinamo Moskva,Spartak Moskva,0.0-2.0
+OF:europe/russia:ru1:2019-20:L284,europe/russia:ru1,2019-20,2020-02-29,Zenit St. Petersburg,Lokomotiv Moskva,0.0-0.0
+OF:europe/russia:ru1:2019-20:L285,europe/russia:ru1,2019-20,2020-02-29,Akhmat Grozny,FK Rostov,1.0-1.0
+OF:europe/russia:ru2:2019-20:L282,europe/russia:ru2,2019-20,2020-02-29,CSKA Moskva,FK Ural,1.0-1.0
+OF:europe/russia:ru2:2019-20:L283,europe/russia:ru2,2019-20,2020-02-29,Dinamo Moskva,Spartak Moskva,0.0-2.0
+OF:europe/russia:ru2:2019-20:L284,europe/russia:ru2,2019-20,2020-02-29,Zenit St. Petersburg,Lokomotiv Moskva,0.0-0.0
+OF:europe/russia:ru2:2019-20:L285,europe/russia:ru2,2019-20,2020-02-29,Akhmat Grozny,FK Rostov,1.0-1.0
+OF:europe/russia:ru1:2019-20:L287,europe/russia:ru1,2019-20,2020-03-01,FK Tambov,Rubin Kazan,0.0-0.0
+OF:europe/russia:ru1:2019-20:L288,europe/russia:ru1,2019-20,2020-03-01,FK Krasnodar,FK Ufa,2.0-0.0
+OF:europe/russia:ru1:2019-20:L289,europe/russia:ru1,2019-20,2020-03-01,FK Sochi,Arsenal Tula,1.0-2.0
+OF:europe/russia:ru2:2019-20:L287,europe/russia:ru2,2019-20,2020-03-01,FK Tambov,Rubin Kazan,0.0-0.0
+OF:europe/russia:ru2:2019-20:L288,europe/russia:ru2,2019-20,2020-03-01,FK Krasnodar,FK Ufa,2.0-0.0
+OF:europe/russia:ru2:2019-20:L289,europe/russia:ru2,2019-20,2020-03-01,FK Sochi,Arsenal Tula,1.0-2.0
+OF:europe/russia:ru1:2019-20:L294,europe/russia:ru1,2019-20,2020-03-07,FK Orenburg,Arsenal Tula,2.0-0.0
+OF:europe/russia:ru1:2019-20:L295,europe/russia:ru1,2019-20,2020-03-07,Dinamo Moskva,FK Tambov,1.0-0.0
+OF:europe/russia:ru2:2019-20:L294,europe/russia:ru2,2019-20,2020-03-07,FK Orenburg,Arsenal Tula,2.0-0.0
+OF:europe/russia:ru2:2019-20:L295,europe/russia:ru2,2019-20,2020-03-07,Dinamo Moskva,FK Tambov,1.0-0.0
+OF:europe/russia:ru1:2019-20:L297,europe/russia:ru1,2019-20,2020-03-08,Rubin Kazan,Krylia Sovetov,0.0-1.0
+OF:europe/russia:ru1:2019-20:L298,europe/russia:ru1,2019-20,2020-03-08,FK Sochi,FK Ural,2.0-0.0
+OF:europe/russia:ru1:2019-20:L299,europe/russia:ru1,2019-20,2020-03-08,Lokomotiv Moskva,Akhmat Grozny,1.0-0.0
+OF:europe/russia:ru2:2019-20:L297,europe/russia:ru2,2019-20,2020-03-08,Rubin Kazan,Krylia Sovetov,0.0-1.0
+OF:europe/russia:ru2:2019-20:L298,europe/russia:ru2,2019-20,2020-03-08,FK Sochi,FK Ural,2.0-0.0
+OF:europe/russia:ru2:2019-20:L299,europe/russia:ru2,2019-20,2020-03-08,Lokomotiv Moskva,Akhmat Grozny,1.0-0.0
+OF:europe/russia:ru1:2019-20:L301,europe/russia:ru1,2019-20,2020-03-09,FK Rostov,CSKA Moskva,3.0-2.0
+OF:europe/russia:ru1:2019-20:L302,europe/russia:ru1,2019-20,2020-03-09,Spartak Moskva,FK Krasnodar,0.0-1.0
+OF:europe/russia:ru1:2019-20:L303,europe/russia:ru1,2019-20,2020-03-09,Zenit St. Petersburg,FK Ufa,0.0-0.0
+OF:europe/russia:ru2:2019-20:L301,europe/russia:ru2,2019-20,2020-03-09,FK Rostov,CSKA Moskva,3.0-2.0
+OF:europe/russia:ru2:2019-20:L302,europe/russia:ru2,2019-20,2020-03-09,Spartak Moskva,FK Krasnodar,0.0-1.0
+OF:europe/russia:ru2:2019-20:L303,europe/russia:ru2,2019-20,2020-03-09,Zenit St. Petersburg,FK Ufa,0.0-0.0
+OF:europe/russia:ru1:2019-20:L261,europe/russia:ru1,2019-20,2020-03-11,FK Sochi,FK Orenburg,5.0-1.0
+OF:europe/russia:ru2:2019-20:L261,europe/russia:ru2,2019-20,2020-03-11,FK Sochi,FK Orenburg,5.0-1.0
+OF:europe/russia:ru1:2019-20:L308,europe/russia:ru1,2019-20,2020-03-13,Akhmat Grozny,Dinamo Moskva,2.0-3.0
+OF:europe/russia:ru2:2019-20:L308,europe/russia:ru2,2019-20,2020-03-13,Akhmat Grozny,Dinamo Moskva,2.0-3.0
+OF:europe/russia:ru1:2019-20:L310,europe/russia:ru1,2019-20,2020-03-14,FK Orenburg,Spartak Moskva,1.0-3.0
+OF:europe/russia:ru1:2019-20:L311,europe/russia:ru1,2019-20,2020-03-14,Zenit St. Petersburg,FK Ural,7.0-1.0
+OF:europe/russia:ru1:2019-20:L312,europe/russia:ru1,2019-20,2020-03-14,Arsenal Tula,Rubin Kazan,0.0-1.0
+OF:europe/russia:ru2:2019-20:L310,europe/russia:ru2,2019-20,2020-03-14,FK Orenburg,Spartak Moskva,1.0-3.0
+OF:europe/russia:ru2:2019-20:L311,europe/russia:ru2,2019-20,2020-03-14,Zenit St. Petersburg,FK Ural,7.0-1.0
+OF:europe/russia:ru2:2019-20:L312,europe/russia:ru2,2019-20,2020-03-14,Arsenal Tula,Rubin Kazan,0.0-1.0
+OF:europe/russia:ru1:2019-20:L314,europe/russia:ru1,2019-20,2020-03-15,FK Sochi,FK Krasnodar,2.0-0.0
+OF:europe/russia:ru1:2019-20:L315,europe/russia:ru1,2019-20,2020-03-15,CSKA Moskva,FK Ufa,0.0-0.0
+OF:europe/russia:ru1:2019-20:L316,europe/russia:ru1,2019-20,2020-03-15,FK Rostov,Lokomotiv Moskva,1.0-3.0
+OF:europe/russia:ru2:2019-20:L314,europe/russia:ru2,2019-20,2020-03-15,FK Sochi,FK Krasnodar,2.0-0.0
+OF:europe/russia:ru2:2019-20:L315,europe/russia:ru2,2019-20,2020-03-15,CSKA Moskva,FK Ufa,0.0-0.0
+OF:europe/russia:ru2:2019-20:L316,europe/russia:ru2,2019-20,2020-03-15,FK Rostov,Lokomotiv Moskva,1.0-3.0
+OF:europe/russia:ru1:2019-20:L318,europe/russia:ru1,2019-20,2020-03-16,FK Tambov,Krylia Sovetov,3.0-0.0
+OF:europe/russia:ru2:2019-20:L318,europe/russia:ru2,2019-20,2020-03-16,FK Tambov,Krylia Sovetov,3.0-0.0
+OF:europe/russia:ru1:2019-20:L323,europe/russia:ru1,2019-20,2020-06-19,Krylia Sovetov,Akhmat Grozny,2.0-4.0
+OF:europe/russia:ru1:2019-20:L324,europe/russia:ru1,2019-20,2020-06-19,FK Sochi,FK Rostov,10.0-1.0
+OF:europe/russia:ru2:2019-20:L323,europe/russia:ru2,2019-20,2020-06-19,Krylia Sovetov,Akhmat Grozny,2.0-4.0
+OF:europe/russia:ru2:2019-20:L324,europe/russia:ru2,2019-20,2020-06-19,FK Sochi,FK Rostov,10.0-1.0
+OF:europe/russia:ru1:2019-20:L326,europe/russia:ru1,2019-20,2020-06-20,FK Ural,Rubin Kazan,1.0-2.0
+OF:europe/russia:ru1:2019-20:L327,europe/russia:ru1,2019-20,2020-06-20,Arsenal Tula,Spartak Moskva,2.0-3.0
+OF:europe/russia:ru1:2019-20:L328,europe/russia:ru1,2019-20,2020-06-20,CSKA Moskva,Zenit St. Petersburg,0.0-4.0
+OF:europe/russia:ru2:2019-20:L326,europe/russia:ru2,2019-20,2020-06-20,FK Ural,Rubin Kazan,1.0-2.0
+OF:europe/russia:ru2:2019-20:L327,europe/russia:ru2,2019-20,2020-06-20,Arsenal Tula,Spartak Moskva,2.0-3.0
+OF:europe/russia:ru2:2019-20:L328,europe/russia:ru2,2019-20,2020-06-20,CSKA Moskva,Zenit St. Petersburg,0.0-4.0
+OF:europe/russia:ru1:2019-20:L330,europe/russia:ru1,2019-20,2020-06-21,FK Ufa,FK Tambov,2.0-1.0
+OF:europe/russia:ru1:2019-20:L331,europe/russia:ru1,2019-20,2020-06-21,Lokomotiv Moskva,FK Orenburg,1.0-0.0
+OF:europe/russia:ru2:2019-20:L330,europe/russia:ru2,2019-20,2020-06-21,FK Ufa,FK Tambov,2.0-1.0
+OF:europe/russia:ru2:2019-20:L331,europe/russia:ru2,2019-20,2020-06-21,Lokomotiv Moskva,FK Orenburg,1.0-0.0
+OF:europe/russia:ru1:2019-20:L338,europe/russia:ru1,2019-20,2020-06-26,Akhmat Grozny,FK Sochi,1.0-1.0
+OF:europe/russia:ru1:2019-20:L339,europe/russia:ru1,2019-20,2020-06-26,Zenit St. Petersburg,Krylia Sovetov,2.0-1.0
+OF:europe/russia:ru2:2019-20:L338,europe/russia:ru2,2019-20,2020-06-26,Akhmat Grozny,FK Sochi,1.0-1.0
+OF:europe/russia:ru2:2019-20:L339,europe/russia:ru2,2019-20,2020-06-26,Zenit St. Petersburg,Krylia Sovetov,2.0-1.0
+OF:europe/russia:ru1:2019-20:L341,europe/russia:ru1,2019-20,2020-06-27,FK Orenburg,FK Krasnodar,0.0-3.0
+OF:europe/russia:ru1:2019-20:L342,europe/russia:ru1,2019-20,2020-06-27,Spartak Moskva,FK Ufa,0.0-0.0
+OF:europe/russia:ru1:2019-20:L343,europe/russia:ru1,2019-20,2020-06-27,Rubin Kazan,Lokomotiv Moskva,0.0-2.0
+OF:europe/russia:ru1:2019-20:L344,europe/russia:ru1,2019-20,2020-06-27,Dinamo Moskva,CSKA Moskva,0.0-0.0
+OF:europe/russia:ru1:2019-20:L345,europe/russia:ru1,2019-20,2020-06-27,FK Rostov,Arsenal Tula,2.0-1.0
+OF:europe/russia:ru2:2019-20:L341,europe/russia:ru2,2019-20,2020-06-27,FK Orenburg,FK Krasnodar,0.0-3.0
+OF:europe/russia:ru2:2019-20:L342,europe/russia:ru2,2019-20,2020-06-27,Spartak Moskva,FK Ufa,0.0-0.0
+OF:europe/russia:ru2:2019-20:L343,europe/russia:ru2,2019-20,2020-06-27,Rubin Kazan,Lokomotiv Moskva,0.0-2.0
+OF:europe/russia:ru2:2019-20:L344,europe/russia:ru2,2019-20,2020-06-27,Dinamo Moskva,CSKA Moskva,0.0-0.0
+OF:europe/russia:ru2:2019-20:L345,europe/russia:ru2,2019-20,2020-06-27,FK Rostov,Arsenal Tula,2.0-1.0
+OF:europe/russia:ru1:2019-20:L347,europe/russia:ru1,2019-20,2020-06-28,FK Ural,FK Tambov,2.0-1.0
+OF:europe/russia:ru2:2019-20:L347,europe/russia:ru2,2019-20,2020-06-28,FK Ural,FK Tambov,2.0-1.0
+OF:europe/russia:ru1:2019-20:L352,europe/russia:ru1,2019-20,2020-06-30,Lokomotiv Moskva,Krylia Sovetov,1.0-1.0
+OF:europe/russia:ru1:2019-20:L353,europe/russia:ru1,2019-20,2020-06-30,CSKA Moskva,Spartak Moskva,2.0-0.0
+OF:europe/russia:ru2:2019-20:L352,europe/russia:ru2,2019-20,2020-06-30,Lokomotiv Moskva,Krylia Sovetov,1.0-1.0
+OF:europe/russia:ru2:2019-20:L353,europe/russia:ru2,2019-20,2020-06-30,CSKA Moskva,Spartak Moskva,2.0-0.0
+OF:europe/russia:ru1:2019-20:L355,europe/russia:ru1,2019-20,2020-07-01,FK Ufa,Rubin Kazan,0.0-0.0
+OF:europe/russia:ru1:2019-20:L356,europe/russia:ru1,2019-20,2020-07-01,FK Orenburg,FK Ural,0.0-3.0
+OF:europe/russia:ru1:2019-20:L357,europe/russia:ru1,2019-20,2020-07-01,FK Tambov,Zenit St. Petersburg,1.0-2.0
+OF:europe/russia:ru1:2019-20:L358,europe/russia:ru1,2019-20,2020-07-01,Arsenal Tula,Akhmat Grozny,1.0-3.0
+OF:europe/russia:ru1:2019-20:L359,europe/russia:ru1,2019-20,2020-07-01,FK Rostov,FK Krasnodar,1.0-1.0
+OF:europe/russia:ru1:2019-20:L360,europe/russia:ru1,2019-20,2020-07-01,FK Sochi,Dinamo Moskva,1.0-1.0
+OF:europe/russia:ru2:2019-20:L355,europe/russia:ru2,2019-20,2020-07-01,FK Ufa,Rubin Kazan,0.0-0.0
+OF:europe/russia:ru2:2019-20:L356,europe/russia:ru2,2019-20,2020-07-01,FK Orenburg,FK Ural,0.0-3.0
+OF:europe/russia:ru2:2019-20:L357,europe/russia:ru2,2019-20,2020-07-01,FK Tambov,Zenit St. Petersburg,1.0-2.0
+OF:europe/russia:ru2:2019-20:L358,europe/russia:ru2,2019-20,2020-07-01,Arsenal Tula,Akhmat Grozny,1.0-3.0
+OF:europe/russia:ru2:2019-20:L359,europe/russia:ru2,2019-20,2020-07-01,FK Rostov,FK Krasnodar,1.0-1.0
+OF:europe/russia:ru2:2019-20:L360,europe/russia:ru2,2019-20,2020-07-01,FK Sochi,Dinamo Moskva,1.0-1.0
+OF:europe/russia:ru1:2019-20:L365,europe/russia:ru1,2019-20,2020-07-04,Dinamo Moskva,Arsenal Tula,0.0-1.0
+OF:europe/russia:ru1:2019-20:L366,europe/russia:ru1,2019-20,2020-07-04,Spartak Moskva,FK Tambov,2.0-3.0
+OF:europe/russia:ru1:2019-20:L367,europe/russia:ru1,2019-20,2020-07-04,Krylia Sovetov,FK Rostov,0.0-0.0
+OF:europe/russia:ru1:2019-20:L368,europe/russia:ru1,2019-20,2020-07-04,Lokomotiv Moskva,FK Sochi,0.0-0.0
+OF:europe/russia:ru1:2019-20:L369,europe/russia:ru1,2019-20,2020-07-04,Akhmat Grozny,CSKA Moskva,0.0-4.0
+OF:europe/russia:ru2:2019-20:L365,europe/russia:ru2,2019-20,2020-07-04,Dinamo Moskva,Arsenal Tula,0.0-1.0
+OF:europe/russia:ru2:2019-20:L366,europe/russia:ru2,2019-20,2020-07-04,Spartak Moskva,FK Tambov,2.0-3.0
+OF:europe/russia:ru2:2019-20:L367,europe/russia:ru2,2019-20,2020-07-04,Krylia Sovetov,FK Rostov,0.0-0.0
+OF:europe/russia:ru2:2019-20:L368,europe/russia:ru2,2019-20,2020-07-04,Lokomotiv Moskva,FK Sochi,0.0-0.0
+OF:europe/russia:ru2:2019-20:L369,europe/russia:ru2,2019-20,2020-07-04,Akhmat Grozny,CSKA Moskva,0.0-4.0
+OF:europe/russia:ru1:2019-20:L371,europe/russia:ru1,2019-20,2020-07-05,FK Ufa,FK Ural,1.0-1.0
+OF:europe/russia:ru1:2019-20:L372,europe/russia:ru1,2019-20,2020-07-05,Rubin Kazan,FK Orenburg,1.0-0.0
+OF:europe/russia:ru1:2019-20:L373,europe/russia:ru1,2019-20,2020-07-05,FK Krasnodar,Zenit St. Petersburg,2.0-4.0
+OF:europe/russia:ru2:2019-20:L371,europe/russia:ru2,2019-20,2020-07-05,FK Ufa,FK Ural,1.0-1.0
+OF:europe/russia:ru2:2019-20:L372,europe/russia:ru2,2019-20,2020-07-05,Rubin Kazan,FK Orenburg,1.0-0.0
+OF:europe/russia:ru2:2019-20:L373,europe/russia:ru2,2019-20,2020-07-05,FK Krasnodar,Zenit St. Petersburg,2.0-4.0
+OF:europe/russia:ru1:2019-20:L378,europe/russia:ru1,2019-20,2020-07-07,FK Tambov,Akhmat Grozny,1.0-2.0
+OF:europe/russia:ru1:2019-20:L379,europe/russia:ru1,2019-20,2020-07-07,Arsenal Tula,Krylia Sovetov,2.0-4.0
+OF:europe/russia:ru2:2019-20:L378,europe/russia:ru2,2019-20,2020-07-07,FK Tambov,Akhmat Grozny,1.0-2.0
+OF:europe/russia:ru2:2019-20:L379,europe/russia:ru2,2019-20,2020-07-07,Arsenal Tula,Krylia Sovetov,2.0-4.0
+OF:europe/russia:ru1:2019-20:L381,europe/russia:ru1,2019-20,2020-07-08,Zenit St. Petersburg,FK Sochi,2.0-1.0
+OF:europe/russia:ru1:2019-20:L382,europe/russia:ru1,2019-20,2020-07-08,FK Orenburg,CSKA Moskva,0.0-4.0
+OF:europe/russia:ru1:2019-20:L383,europe/russia:ru1,2019-20,2020-07-08,Spartak Moskva,Lokomotiv Moskva,1.0-1.0
+OF:europe/russia:ru1:2019-20:L384,europe/russia:ru1,2019-20,2020-07-08,FK Rostov,FK Ufa,1.0-2.0
+OF:europe/russia:ru2:2019-20:L381,europe/russia:ru2,2019-20,2020-07-08,Zenit St. Petersburg,FK Sochi,2.0-1.0
+OF:europe/russia:ru2:2019-20:L382,europe/russia:ru2,2019-20,2020-07-08,FK Orenburg,CSKA Moskva,0.0-4.0
+OF:europe/russia:ru2:2019-20:L383,europe/russia:ru2,2019-20,2020-07-08,Spartak Moskva,Lokomotiv Moskva,1.0-1.0
+OF:europe/russia:ru2:2019-20:L384,europe/russia:ru2,2019-20,2020-07-08,FK Rostov,FK Ufa,1.0-2.0
+OF:europe/russia:ru1:2019-20:L386,europe/russia:ru1,2019-20,2020-07-09,FK Ural,Dinamo Moskva,2.0-1.0
+OF:europe/russia:ru1:2019-20:L387,europe/russia:ru1,2019-20,2020-07-09,Rubin Kazan,FK Krasnodar,1.0-0.0
+OF:europe/russia:ru2:2019-20:L386,europe/russia:ru2,2019-20,2020-07-09,FK Ural,Dinamo Moskva,2.0-1.0
+OF:europe/russia:ru2:2019-20:L387,europe/russia:ru2,2019-20,2020-07-09,Rubin Kazan,FK Krasnodar,1.0-0.0
+OF:europe/russia:ru1:2019-20:L392,europe/russia:ru1,2019-20,2020-07-11,Arsenal Tula,FK Tambov,2.0-1.0
+OF:europe/russia:ru1:2019-20:L393,europe/russia:ru1,2019-20,2020-07-11,Akhmat Grozny,Zenit St. Petersburg,1.0-1.0
+OF:europe/russia:ru1:2019-20:L394,europe/russia:ru1,2019-20,2020-07-11,FK Sochi,Spartak Moskva,1.0-0.0
+OF:europe/russia:ru2:2019-20:L392,europe/russia:ru2,2019-20,2020-07-11,Arsenal Tula,FK Tambov,2.0-1.0
+OF:europe/russia:ru2:2019-20:L393,europe/russia:ru2,2019-20,2020-07-11,Akhmat Grozny,Zenit St. Petersburg,1.0-1.0
+OF:europe/russia:ru2:2019-20:L394,europe/russia:ru2,2019-20,2020-07-11,FK Sochi,Spartak Moskva,1.0-0.0
+OF:europe/russia:ru1:2019-20:L396,europe/russia:ru1,2019-20,2020-07-12,Lokomotiv Moskva,FK Ufa,1.0-1.0
+OF:europe/russia:ru1:2019-20:L397,europe/russia:ru1,2019-20,2020-07-12,CSKA Moskva,Rubin Kazan,1.0-1.0
+OF:europe/russia:ru1:2019-20:L398,europe/russia:ru1,2019-20,2020-07-12,Dinamo Moskva,Krylia Sovetov,2.0-0.0
+OF:europe/russia:ru1:2019-20:L399,europe/russia:ru1,2019-20,2020-07-12,FK Orenburg,FK Rostov,0.0-0.0
+OF:europe/russia:ru1:2019-20:L400,europe/russia:ru1,2019-20,2020-07-12,FK Krasnodar,FK Ural,3.0-0.0
+OF:europe/russia:ru2:2019-20:L396,europe/russia:ru2,2019-20,2020-07-12,Lokomotiv Moskva,FK Ufa,1.0-1.0
+OF:europe/russia:ru2:2019-20:L397,europe/russia:ru2,2019-20,2020-07-12,CSKA Moskva,Rubin Kazan,1.0-1.0
+OF:europe/russia:ru2:2019-20:L398,europe/russia:ru2,2019-20,2020-07-12,Dinamo Moskva,Krylia Sovetov,2.0-0.0
+OF:europe/russia:ru2:2019-20:L399,europe/russia:ru2,2019-20,2020-07-12,FK Orenburg,FK Rostov,0.0-0.0
+OF:europe/russia:ru2:2019-20:L400,europe/russia:ru2,2019-20,2020-07-12,FK Krasnodar,FK Ural,3.0-0.0
+OF:europe/russia:ru1:2019-20:L405,europe/russia:ru1,2019-20,2020-07-15,FK Ural,Arsenal Tula,1.0-3.0
+OF:europe/russia:ru1:2019-20:L406,europe/russia:ru1,2019-20,2020-07-15,Spartak Moskva,Akhmat Grozny,3.0-0.0
+OF:europe/russia:ru1:2019-20:L407,europe/russia:ru1,2019-20,2020-07-15,Krylia Sovetov,FK Krasnodar,0.0-0.0
+OF:europe/russia:ru1:2019-20:L408,europe/russia:ru1,2019-20,2020-07-15,Zenit St. Petersburg,FK Orenburg,4.0-1.0
+OF:europe/russia:ru2:2019-20:L405,europe/russia:ru2,2019-20,2020-07-15,FK Ural,Arsenal Tula,1.0-3.0
+OF:europe/russia:ru2:2019-20:L406,europe/russia:ru2,2019-20,2020-07-15,Spartak Moskva,Akhmat Grozny,3.0-0.0
+OF:europe/russia:ru2:2019-20:L407,europe/russia:ru2,2019-20,2020-07-15,Krylia Sovetov,FK Krasnodar,0.0-0.0
+OF:europe/russia:ru2:2019-20:L408,europe/russia:ru2,2019-20,2020-07-15,Zenit St. Petersburg,FK Orenburg,4.0-1.0
+OF:europe/russia:ru1:2019-20:L410,europe/russia:ru1,2019-20,2020-07-16,FK Tambov,FK Sochi,3.0-0.0
+OF:europe/russia:ru1:2019-20:L411,europe/russia:ru1,2019-20,2020-07-16,Rubin Kazan,FK Rostov,0.0-0.0
+OF:europe/russia:ru1:2019-20:L412,europe/russia:ru1,2019-20,2020-07-16,FK Ufa,Dinamo Moskva,0.0-1.0
+OF:europe/russia:ru1:2019-20:L413,europe/russia:ru1,2019-20,2020-07-16,Lokomotiv Moskva,CSKA Moskva,2.0-1.0
+OF:europe/russia:ru2:2019-20:L410,europe/russia:ru2,2019-20,2020-07-16,FK Tambov,FK Sochi,3.0-0.0
+OF:europe/russia:ru2:2019-20:L411,europe/russia:ru2,2019-20,2020-07-16,Rubin Kazan,FK Rostov,0.0-0.0
+OF:europe/russia:ru2:2019-20:L412,europe/russia:ru2,2019-20,2020-07-16,FK Ufa,Dinamo Moskva,0.0-1.0
+OF:europe/russia:ru2:2019-20:L413,europe/russia:ru2,2019-20,2020-07-16,Lokomotiv Moskva,CSKA Moskva,2.0-1.0
+OF:europe/russia:ru1:2019-20:L333,europe/russia:ru1,2019-20,2020-07-19,FK Krasnodar,Dinamo Moskva,0.0-2.0
+OF:europe/russia:ru2:2019-20:L333,europe/russia:ru2,2019-20,2020-07-19,FK Krasnodar,Dinamo Moskva,0.0-2.0
+OF:europe/russia:ru1:2019-20:L418,europe/russia:ru1,2019-20,2020-07-22,FK Rostov,Zenit St. Petersburg,1.0-2.0
+OF:europe/russia:ru1:2019-20:L419,europe/russia:ru1,2019-20,2020-07-22,FK Krasnodar,Akhmat Grozny,4.0-0.0
+OF:europe/russia:ru1:2019-20:L420,europe/russia:ru1,2019-20,2020-07-22,CSKA Moskva,FK Tambov,2.0-0.0
+OF:europe/russia:ru1:2019-20:L421,europe/russia:ru1,2019-20,2020-07-22,Dinamo Moskva,FK Orenburg,0.0-1.0
+OF:europe/russia:ru1:2019-20:L422,europe/russia:ru1,2019-20,2020-07-22,Rubin Kazan,Spartak Moskva,1.0-2.0
+OF:europe/russia:ru1:2019-20:L423,europe/russia:ru1,2019-20,2020-07-22,Krylia Sovetov,FK Sochi,3.0-0.0
+OF:europe/russia:ru1:2019-20:L424,europe/russia:ru1,2019-20,2020-07-22,FK Ufa,Arsenal Tula,0.0-0.0
+OF:europe/russia:ru1:2019-20:L425,europe/russia:ru1,2019-20,2020-07-22,FK Ural,Lokomotiv Moskva,0.0-1.0
+OF:europe/russia:ru2:2019-20:L418,europe/russia:ru2,2019-20,2020-07-22,FK Rostov,Zenit St. Petersburg,1.0-2.0
+OF:europe/russia:ru2:2019-20:L419,europe/russia:ru2,2019-20,2020-07-22,FK Krasnodar,Akhmat Grozny,4.0-0.0
+OF:europe/russia:ru2:2019-20:L420,europe/russia:ru2,2019-20,2020-07-22,CSKA Moskva,FK Tambov,2.0-0.0
+OF:europe/russia:ru2:2019-20:L421,europe/russia:ru2,2019-20,2020-07-22,Dinamo Moskva,FK Orenburg,0.0-1.0
+OF:europe/russia:ru2:2019-20:L422,europe/russia:ru2,2019-20,2020-07-22,Rubin Kazan,Spartak Moskva,1.0-2.0
+OF:europe/russia:ru2:2019-20:L423,europe/russia:ru2,2019-20,2020-07-22,Krylia Sovetov,FK Sochi,3.0-0.0
+OF:europe/russia:ru2:2019-20:L424,europe/russia:ru2,2019-20,2020-07-22,FK Ufa,Arsenal Tula,0.0-0.0
+OF:europe/russia:ru2:2019-20:L425,europe/russia:ru2,2019-20,2020-07-22,FK Ural,Lokomotiv Moskva,0.0-1.0

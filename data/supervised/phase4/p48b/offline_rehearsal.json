@@ -1,0 +1,248 @@
+{
+ "production_sha256_before": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+ "snapshots": {
+  "leagues": {
+   "sha256": "e9d62c3b0e62f87b26080a481ddb67ad89e5724d71fcfaf4f1e11ba422f2e73f",
+   "retrieved_utc": "2026-10-25T09:06:53Z",
+   "path": "data/snapshots/investigation/openligadb/20261025T090653Z_investigation_leagues.json"
+  },
+  "pl": {
+   "sha256": "5bc7f2def9f9725461afae05ae8cc04038122291b3e6991bb7c678a0963bac9d",
+   "retrieved_utc": "2026-10-25T09:07:08Z",
+   "path": "data/snapshots/investigation/openligadb/20261025T090708Z_investigation_pl.json"
+  },
+  "pl1": {
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "retrieved_utc": "2026-10-25T09:07:09Z",
+   "path": "data/snapshots/investigation/openligadb/20261025T090709Z_investigation_pl1.json"
+  },
+  "la1": {
+   "sha256": "a0fb7b7bde9a6ebcb6616df7a77407fc3cb7ff2c6f427280595e270ca5fbbae0",
+   "retrieved_utc": "2026-10-25T09:07:13Z",
+   "path": "data/snapshots/investigation/openligadb/20261025T090713Z_investigation_la1.json"
+  }
+ },
+ "A_alias_verification": [
+  {
+   "source_name": "Brentford F.C.",
+   "canonical_entity_id": "CLUB:ENG:brentford-fc",
+   "canonical_display_name": "Brentford FC",
+   "proposed_text_as_written": "Brentford FC",
+   "proposed_text_is_a_stored_name": true,
+   "checks": {
+    "entity_exists_in_teams": true,
+    "entity_is_2026_27_member_of_competition": true,
+    "entity_seen_in_this_competition_before_2026": true,
+    "not_resolved_before_alias": true,
+    "not_a_forbidden_fuzzy_target": true,
+    "entity_not_already_used_by_another_source_name": true,
+    "entity_is_among_the_unmatched_store_teams": true,
+    "all_source_fixtures_pair_with_exactly_one_store_fixture": true,
+    "matchday_agrees_for_every_fixture": true
+   },
+   "accepted": true,
+   "in_production_with_same_entity": true
+  },
+  {
+   "source_name": "Celta Vigo",
+   "canonical_entity_id": "CLUB:ESP:rc-celta-vigo",
+   "canonical_display_name": "RC Celta de Vigo",
+   "proposed_text_as_written": "RC Celta de Vigo",
+   "proposed_text_is_a_stored_name": true,
+   "checks": {
+    "entity_exists_in_teams": true,
+    "entity_is_2026_27_member_of_competition": true,
+    "entity_seen_in_this_competition_before_2026": true,
+    "not_resolved_before_alias": true,
+    "not_a_forbidden_fuzzy_target": true,
+    "entity_not_already_used_by_another_source_name": true,
+    "entity_is_among_the_unmatched_store_teams": true,
+    "all_source_fixtures_pair_with_exactly_one_store_fixture": true,
+    "matchday_agrees_for_every_fixture": true
+   },
+   "accepted": true,
+   "in_production_with_same_entity": true
+  },
+  {
+   "source_name": "Deportivo A Coru\u00f1a",
+   "canonical_entity_id": "CLUB:ESP:rcd-la-coruna",
+   "canonical_display_name": "RC Deportivo La Coru\u00f1a",
+   "proposed_text_as_written": "Deportivo de La Coru\u00f1a",
+   "proposed_text_is_a_stored_name": false,
+   "checks": {
+    "entity_exists_in_teams": true,
+    "entity_is_2026_27_member_of_competition": true,
+    "entity_seen_in_this_competition_before_2026": true,
+    "not_resolved_before_alias": true,
+    "not_a_forbidden_fuzzy_target": true,
+    "entity_not_already_used_by_another_source_name": true,
+    "entity_is_among_the_unmatched_store_teams": true,
+    "all_source_fixtures_pair_with_exactly_one_store_fixture": true,
+    "matchday_agrees_for_every_fixture": true
+   },
+   "accepted": true,
+   "in_production_with_same_entity": true
+  },
+  {
+   "source_name": "FC Villareal",
+   "canonical_entity_id": "CLUB:ESP:villarreal-cf",
+   "canonical_display_name": "Villarreal CF",
+   "proposed_text_as_written": "Villarreal CF",
+   "proposed_text_is_a_stored_name": true,
+   "checks": {
+    "entity_exists_in_teams": true,
+    "entity_is_2026_27_member_of_competition": true,
+    "entity_seen_in_this_competition_before_2026": true,
+    "not_resolved_before_alias": true,
+    "not_a_forbidden_fuzzy_target": true,
+    "entity_not_already_used_by_another_source_name": true,
+    "entity_is_among_the_unmatched_store_teams": true,
+    "all_source_fixtures_pair_with_exactly_one_store_fixture": true,
+    "matchday_agrees_for_every_fixture": true
+   },
+   "accepted": true,
+   "in_production_with_same_entity": true
+  },
+  {
+   "source_name": "Racing Santander",
+   "canonical_entity_id": "CLUB:ESP:real-racing-santander",
+   "canonical_display_name": "Real Racing Club de Santander",
+   "proposed_text_as_written": "Racing de Santander",
+   "proposed_text_is_a_stored_name": false,
+   "checks": {
+    "entity_exists_in_teams": true,
+    "entity_is_2026_27_member_of_competition": true,
+    "entity_seen_in_this_competition_before_2026": true,
+    "not_resolved_before_alias": true,
+    "not_a_forbidden_fuzzy_target": true,
+    "entity_not_already_used_by_another_source_name": true,
+    "entity_is_among_the_unmatched_store_teams": true,
+    "all_source_fixtures_pair_with_exactly_one_store_fixture": true,
+    "matchday_agrees_for_every_fixture": true
+   },
+   "accepted": true,
+   "in_production_with_same_entity": true
+  }
+ ],
+ "A_all_five_pass_every_check": true,
+ "B_reproduction": {
+  "matches": {
+   "rehearsal": [
+    223510,
+    "aca3aa62de111cef"
+   ],
+   "production": [
+    223510,
+    "aca3aa62de111cef"
+   ],
+   "identical": true
+  },
+  "quarantine": {
+   "rehearsal": [
+    273,
+    "2ff9917ec804ceff"
+   ],
+   "production": [
+    273,
+    "2ff9917ec804ceff"
+   ],
+   "identical": true
+  },
+  "team_aliases": {
+   "rehearsal": [
+    7447,
+    "3b6a34601690009b"
+   ],
+   "production": [
+    7447,
+    "3b6a34601690009b"
+   ],
+   "identical": true
+  },
+  "match_sources": {
+   "rehearsal": [
+    224519,
+    "424d9006e854b285"
+   ],
+   "production": [
+    224519,
+    "424d9006e854b285"
+   ],
+   "identical": true
+  }
+ },
+ "C_idempotence": {
+  "results": {
+   "EPL": {
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 289,
+    "confirmed": 58,
+    "quarantined": 33
+   },
+   "LALIGA": {
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 267,
+    "confirmed": 89,
+    "quarantined": 24
+   }
+  },
+  "tables_before": {
+   "matches": [
+    223510,
+    "aca3aa62de111cef"
+   ],
+   "quarantine": [
+    273,
+    "2ff9917ec804ceff"
+   ],
+   "match_sources": [
+    224519,
+    "424d9006e854b285"
+   ],
+   "team_aliases": [
+    7447,
+    "3b6a34601690009b"
+   ]
+  },
+  "tables_after": {
+   "matches": [
+    223510,
+    "aca3aa62de111cef"
+   ],
+   "quarantine": [
+    273,
+    "2ff9917ec804ceff"
+   ],
+   "match_sources": [
+    224519,
+    "424d9006e854b285"
+   ],
+   "team_aliases": [
+    7447,
+    "3b6a34601690009b"
+   ]
+  },
+  "matches_identical": true,
+  "quarantine_identical": true,
+  "aliases_identical": true
+ },
+ "D_conflicts_still_quarantined": [
+  "CONFLICT: stored 2-2 vs source 2-1",
+  "CONTRADICTORY SOURCE RESULT: the source holds several differing final scores (none); Aston Villa v Nottingham Forest is not imported"
+ ],
+ "D_date_differences_quarantined": 55,
+ "D_stored_scores_of_the_two_conflicts": {
+  "OF:england:1-premierleague:2026-27:L63": [
+   1,
+   2
+  ],
+  "OF:england:1-premierleague:2026-27:L64": [
+   2,
+   2
+  ]
+ },
+ "production_sha256_after": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+ "production_untouched": true
+}

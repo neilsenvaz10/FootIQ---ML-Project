@@ -1,0 +1,46 @@
+{
+ "folder": "p48d_trial",
+ "created": "2026-10-27 (Phase 4.8D final safeguards)",
+ "note": "Real answers: the Stage A full-season answer and the Stage B matchday-7 answer. Everything else came from replayed phases.",
+ "genuine_provider_answers": [
+  "20261027T151107Z_bl1_2026_season.json",
+  "20261027T160356Z_bl1_2026_md7.json"
+ ],
+ "test_artifacts": [
+  {
+   "file": "20261027T151127Z_bl1_2026_md6.json",
+   "sha256": "0598f661e1283e301616c4459737a00f78b75486d9fe94df9b4cc08775e71f68",
+   "reason": "written during a replayed/injected-failure phase from a saved response or a deliberately altered copy; NOT provider data"
+  },
+  {
+   "file": "20261027T151127Z_bl1_2026_md7.json",
+   "sha256": "f7b54c9f10fb4e7c63ca55dd8af1903bbe82c1226c4a9d6832acc1653f89208c",
+   "reason": "written during a replayed/injected-failure phase from a saved response or a deliberately altered copy; NOT provider data"
+  },
+  {
+   "file": "20261027T151149Z_bl1_2026_md6.json",
+   "sha256": "7fa80193a55aa3bdbb40b2ee96e221aefff2e67caf1b933d8f0edc1f2a185031",
+   "reason": "written during a replayed/injected-failure phase from a saved response or a deliberately altered copy; NOT provider data"
+  },
+  {
+   "file": "20261027T151149Z_bl1_2026_md7.json",
+   "sha256": "e2b983f65af82148e6b0e1125a2e8b20c7b872d4bcb6b7f708f72beb71384134",
+   "reason": "written during a replayed/injected-failure phase from a saved response or a deliberately altered copy; NOT provider data"
+  },
+  {
+   "file": "20261027T160348Z_bl1_2026_md6.json",
+   "sha256": "0598f661e1283e301616c4459737a00f78b75486d9fe94df9b4cc08775e71f68",
+   "reason": "written during a replayed/injected-failure phase from a saved response or a deliberately altered copy; NOT provider data"
+  },
+  {
+   "file": "20261027T160438Z_bl1_2026_md6.json",
+   "sha256": "7fa80193a55aa3bdbb40b2ee96e221aefff2e67caf1b933d8f0edc1f2a185031",
+   "reason": "written during a replayed/injected-failure phase from a saved response or a deliberately altered copy; NOT provider data"
+  },
+  {
+   "file": "20261027T160438Z_bl1_2026_md7.json",
+   "sha256": "e2b983f65af82148e6b0e1125a2e8b20c7b872d4bcb6b7f708f72beb71384134",
+   "reason": "written during a replayed/injected-failure phase from a saved response or a deliberately altered copy; NOT provider data"
+  }
+ ]
+}

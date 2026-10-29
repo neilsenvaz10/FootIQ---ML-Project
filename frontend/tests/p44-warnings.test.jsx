@@ -1,0 +1,33 @@
+import { afterEach, expect, it, vi } from "vitest";
+import { cleanup, render, screen, within } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
+import { MemoryRouter } from "react-router-dom";
+import GameweekPredict from "../src/pages/GameweekPredict.jsx";
+afterEach(()=>{cleanup();vi.unstubAllGlobals();});
+it("summarises only identical warning sets, preserves distinct warnings and fixture details, and never predicts on view",async()=>{
+ const fixture=(id,reasons)=>({record_id:id,home:`Club ${id}`,away:"Away club",date:"2026-11-01",status:"scheduled",flags:[],reasons,reliability:"provisional",predictable:true,form:{home:[],away:[]},forecast:null,evaluation:null});
+ const fixtures=[fixture("one",["Same source gap","Same history cutoff"]),fixture("two",["Same source gap","Same history cutoff"]),fixture("three",["Distinct missing identity"])];
+ const calls=[];
+ vi.stubGlobal("fetch",vi.fn(async(url,opts)=>{
+  const path=new URL(url).pathname;calls.push({path,method:opts?.method});let body;
+  if(path==="/api/competitions")body=[{key:"EPL",name:"Premier League",badge:"Validated",basis:"Frozen v1"}];
+  else if(path==="/api/health")body={club_prediction_ready:true};
+  else if(path==="/api/sync/status")body={competitions:[]};
+  else if(path==="/api/gameweeks")body={season:"2026-27",seasons:["2026-27"],next_gameweek:1,gameweeks:[{matchday_no:1,first_date:"2026-11-01",last_date:"2026-11-01",fixtures:3,completed:0,upcoming:3,awaiting_result:0,predictable:3}]};
+  else if(path==="/api/gameweek")body={label:"Matchday 1",season:"2026-27",latest_result:"2026-10-20",fixtures,runs:[]};
+  else throw Error(path);
+  return {ok:true,status:200,json:async()=>body};
+ }));
+ render(<MemoryRouter><GameweekPredict/></MemoryRouter>);
+ await screen.findByText("Why provisional: 2 fixtures share these warnings.");
+ expect(screen.getByText("Same source gap")).toBeInTheDocument();
+ expect(screen.getByText("Same history cutoff")).toBeInTheDocument();
+ expect(screen.getByText("Why provisional: Distinct missing identity")).toBeInTheDocument();
+ const first=screen.getByRole("article",{name:"Club one v Away club"});
+ expect(first).toHaveAttribute("aria-describedby","shared-provisional-0");
+ expect(screen.getByRole("article",{name:"Club three v Away club"})).not.toHaveAttribute("aria-describedby");
+ await userEvent.setup().click(within(first).getByRole("button",{name:"Details"}));
+ expect(within(first).getByText("• Same source gap")).toBeInTheDocument();
+ expect(within(first).getByText("• Same history cutoff")).toBeInTheDocument();
+ expect(calls.every(c=>c.method==="GET")).toBe(true);
+});

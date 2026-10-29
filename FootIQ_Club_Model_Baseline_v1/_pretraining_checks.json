@@ -1,0 +1,119 @@
+{
+ "dataset_version": "v1.1",
+ "features": [
+  "home_elo",
+  "away_elo",
+  "elo_diff",
+  "home_n_prior",
+  "away_n_prior",
+  "home_ppg5",
+  "away_ppg5",
+  "home_ppg10",
+  "away_ppg10",
+  "home_gf5",
+  "home_ga5",
+  "away_gf5",
+  "away_ga5",
+  "home_gf10",
+  "home_ga10",
+  "away_gf10",
+  "away_ga10",
+  "home_venue_ppg5",
+  "away_venue_ppg5",
+  "ppg5_diff",
+  "gd5_diff",
+  "home_days_rest",
+  "away_days_rest",
+  "rest_diff",
+  "league_tier"
+ ],
+ "dataset_sha256": "0d7b73117b442298e4e050f690c55e32c1d25798e244052ec12e41b54ff10da7",
+ "feature_file_sha256": "4e74c21586bc31651462d7408637cd3f894fd21d034a8f6236c6b34cff54be19",
+ "checks": [
+  {
+   "check": "eligible matches == 116,854 (dataset file)",
+   "passed": true,
+   "detail": "116854"
+  },
+  {
+   "check": "eligible matches == 116,854 (feature file) and identical record ids",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "exactly 25 approved features in contract order",
+   "passed": true,
+   "detail": "['home_elo', 'away_elo', 'elo_diff', 'home_n_prior', 'away_n_prior', 'home_ppg5', 'away_ppg5', 'home_ppg10', 'away_ppg10', 'home_gf5', 'home_ga5', 'away_gf5', 'away_ga5', 'home_gf10', 'home_ga10', 'away_gf10', 'away_ga10', 'home_venue_ppg5', 'away_venue_ppg5', 'ppg5_diff', 'gd5_diff', 'home_days_res"
+  },
+  {
+   "check": "feature dictionary lists the same 25 features in the same order",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "no target / outcome / meta / future-derived field among the model inputs",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "meta_* and label columns are outside the feature list",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "split boundaries and row counts equal the manifest",
+   "passed": true,
+   "detail": "{'train': (59356, '2018-08-01', '2023-06-30'), 'validation': (22578, '2023-07-01', '2024-06-30'), 'test': (26000, '2024-07-01', '2025-06-29'), 'forward_holdout': (8920, '2025-07-02', '2026-09-20')}"
+  },
+  {
+   "check": "splits are chronologically ordered without overlap",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "every row is a confirmed 90-minute label of a domestic league",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "no cup / international / Wikipedia record in the training data",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "primary evaluation flags available (validation/test/holdout)",
+   "passed": true,
+   "detail": "{'train': 0, 'validation': 17092, 'test': 15645, 'forward_holdout': 5770}"
+  },
+  {
+   "check": "v1.1 preparation files are unchanged since they were documented (README hashes)",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "Milestone 1 baseline files unchanged (incl. preserved international model artifact)",
+   "passed": true,
+   "detail": "522 files, changed 0"
+  },
+  {
+   "check": "original submission, readiness and verification outputs unchanged",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "international model artifact exists and is not in the output folder",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "forward-holdout and test labels are masked in all training code paths",
+   "passed": true,
+   "detail": "b2 loads labels for train/validation only; test and holdout labels are never read before the frozen evaluation script"
+  },
+  {
+   "check": "learned preprocessing is fitted on split == train only",
+   "passed": true,
+   "detail": "b2 computes medians / means / stds on train rows; verified again after fitting by recomputation"
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "requests_sent": [
+  "https://api.openligadb.de/getavailableleagues/2026",
+  "https://api.openligadb.de/getmatchdata/pl/2026",
+  "https://api.openligadb.de/getmatchdata/pl1/2026",
+  "https://api.openligadb.de/getmatchdata/la1/2026"
+ ],
+ "count": 4,
+ "cap": 5,
+ "snapshots": {
+  "leagues": {
+   "url": "https://api.openligadb.de/getavailableleagues/2026",
+   "status": 200,
+   "retrieved_utc": "2026-10-25T09:06:53Z",
+   "headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Sun, 25 Oct 2026 09:06:52 GMT"
+   },
+   "source": "openligadb",
+   "licence": "ODbL-1.0",
+   "attribution": "Daten von OpenLigaDB (www.openligadb.de), lizenziert unter ODbL 1.0",
+   "snapshot_id": "20261025T090653Z_investigation_leagues.json",
+   "sha256": "e9d62c3b0e62f87b26080a481ddb67ad89e5724d71fcfaf4f1e11ba422f2e73f",
+   "bytes": 11996,
+   "saved_utc": "2026-10-25T09:06:53Z",
+   "adapter_version": "1.0.0"
+  },
+  "pl": {
+   "url": "https://api.openligadb.de/getmatchdata/pl/2026",
+   "status": 200,
+   "retrieved_utc": "2026-10-25T09:07:08Z",
+   "headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Sun, 25 Oct 2026 09:06:55 GMT"
+   },
+   "source": "openligadb",
+   "licence": "ODbL-1.0",
+   "attribution": "Daten von OpenLigaDB (www.openligadb.de), lizenziert unter ODbL 1.0",
+   "snapshot_id": "20261025T090708Z_investigation_pl.json",
+   "sha256": "5bc7f2def9f9725461afae05ae8cc04038122291b3e6991bb7c678a0963bac9d",
+   "bytes": 942711,
+   "saved_utc": "2026-10-25T09:07:08Z",
+   "adapter_version": "1.0.0"
+  },
+  "pl1": {
+   "url": "https://api.openligadb.de/getmatchdata/pl1/2026",
+   "status": 200,
+   "retrieved_utc": "2026-10-25T09:07:09Z",
+   "headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Sun, 25 Oct 2026 09:07:08 GMT"
+   },
+   "source": "openligadb",
+   "licence": "ODbL-1.0",
+   "attribution": "Daten von OpenLigaDB (www.openligadb.de), lizenziert unter ODbL 1.0",
+   "snapshot_id": "20261025T090709Z_investigation_pl1.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "bytes": 2,
+   "saved_utc": "2026-10-25T09:07:09Z",
+   "adapter_version": "1.0.0"
+  },
+  "la1": {
+   "url": "https://api.openligadb.de/getmatchdata/la1/2026",
+   "status": 200,
+   "retrieved_utc": "2026-10-25T09:07:13Z",
+   "headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Sun, 25 Oct 2026 09:07:11 GMT"
+   },
+   "source": "openligadb",
+   "licence": "ODbL-1.0",
+   "attribution": "Daten von OpenLigaDB (www.openligadb.de), lizenziert unter ODbL 1.0",
+   "snapshot_id": "20261025T090713Z_investigation_la1.json",
+   "sha256": "a0fb7b7bde9a6ebcb6616df7a77407fc3cb7ff2c6f427280595e270ca5fbbae0",
+   "bytes": 449114,
+   "saved_utc": "2026-10-25T09:07:13Z",
+   "adapter_version": "1.0.0"
+  }
+ },
+ "unseen_result_kinds": []
+}

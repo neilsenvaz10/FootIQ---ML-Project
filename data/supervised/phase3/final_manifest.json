@@ -1,0 +1,19 @@
+{
+ "data/footiq.sqlite": "39ab965115b160c7debb37e930f87652195a6cf496d1a529a50ad2d7d53b61f3",
+ "data/miniproject/matches.csv": "f76a89e8ddaec506e8a99ee86e4abeb30ae9569a4b45eb3480a6c78c56b8d420",
+ "config/sync.json": "d0038d15e12497e8afc603cdab56e9f37f3c12609b5defa434a41bb40d2bf43e",
+ "FootIQ_Dataset_Submission/09_Upcoming_Fixtures.csv": "1c9d6009f69feae5d24ccf5b2591ddb211a97e82ed66bc20b2dca21103f3bf7d",
+ "FootIQ_ML_Data_Readiness/04d_COMBINED_CLUB_MATCHES_v1.0.csv": "53c6ca4521e31297a9373c89872f991e8511c44cfcbae42a2a5a00b5741fe499",
+ "FootIQ_ML_Training_Preparation/_build/work/V_universe.pkl": "1c4d758b01d3d30acba6f059c17de1f12d31aa7de9a6849ad81bcfc4a300ebd9",
+ "FootIQ_Club_Model_Baseline_v1/artifacts/multinomial_logreg.pkl": "067426e83d2d5f66aaf6c4aef933ac58e17f04d911ae55ede336c1bad3c0c5b9",
+ "FootIQ_Club_Model_Baseline_v1/artifacts/preprocessing_train_fitted.json": "b74a529844dc52bf92d2d6f2f980dc5977e1ff145d55e9263d80dedd0a6cddee",
+ "FootIQ_Club_Model_Development_v2/final_refit_v2_r1/artifacts/club_v2_lr_final_candidate.pkl": "55c1e4c53bcfefd39d5e90a1ce60a75bc697668f7894e425305bdc9a65b3e56c",
+ "FootIQ_Club_Model_Development_v2/final_refit_v2_r1/artifacts/feature_contract_v2_final.json": "cfe09547bdbbe1506271c7b4703d65c0e93d16b08896a4b2c6b94cdafbaf94cb",
+ "data/model_artifacts/v27/live_match_model.pkl": "0df37dd7c659e35b61a64b4178d19cddc2dd103f95a9967314321e8ff3784a1a",
+ "FootIQ_Club_Model_Development_v2/_scripts/d11_prospective_logger.py": "d2c79223918f2c4c427e40850efb3c3cb7c8de71822c62a7861d09d6b84286fc",
+ "FootIQ_Club_Model_Development_v2/shadow_integration_r1/prospective_logger_v2.py": "9539a1b684a3cbf940912895d7ff813821b3fd9faee3b9e9817f109845a502e9",
+ "FootIQ_Club_Model_Development_v2/final_refit_v2_r1/prospective_log/DRY_RUN/CHAIN.jsonl": "6af274729cdee0aad1d46fe5a7f30890a8099ca3bee717884958c6a80715a966",
+ "FootIQ_Club_Model_Development_v2/final_refit_v2_r1/prospective_log/DRY_RUN/dry_run_batch_001.jsonl": "57d0f1663e8da4de072762f64b42cb3b135fdb1df16a161fdb2158659b4a89e3",
+ "FootIQ_Club_Model_Development_v2/matched_v1_prospective_r1/prospective_log/DRY_RUN/CHAIN.jsonl": "5523fbee8425c4c573e058d37e1f2a3c552dff9400434939f1f0817ffd5cb719",
+ "FootIQ_Club_Model_Development_v2/matched_v1_prospective_r1/prospective_log/DRY_RUN/dry_run_batch_001.jsonl": "94fb1fc91d0a02976f153543e028060ef5fd7a46fcc33421ceb23a152b7a5b36"
+}

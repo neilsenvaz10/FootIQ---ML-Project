@@ -1,0 +1,4 @@
+fold,train_end,val_start,val_end,calibration_window_start,train_rows,core_fit_rows,calibration_rows,val_rows,val_primary_rows,val_secondary_calendar_year_rows,val_leagues,val_incomplete_or_flagged_rows_excluded,train_leagues
+1,2021-06-30,2021-07-01,2022-06-30,2020-07-01,33707,19876,13831,12477,10086,2302,31,89,45
+2,2022-06-30,2022-07-01,2023-06-30,2021-07-01,46184,33707,12477,13172,9703,3405,29,64,48
+3,2023-06-30,2023-07-01,2024-06-30,2022-07-01,59356,46184,13172,22578,17092,5015,68,471,63

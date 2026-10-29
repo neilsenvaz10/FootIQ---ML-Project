@@ -1,0 +1,354 @@
+{
+ "BUNDESLIGA": {
+  "simulations": 10000,
+  "seconds_refined": 1.0,
+  "tie_groups_refined": 23099,
+  "tie_groups_fully_decided_refined": 0,
+  "bands": {
+   "title": {
+    "positions": [
+     1,
+     1
+    ],
+    "mean_unresolved_refined": 0.0014,
+    "mean_unresolved_naive": 0.0014,
+    "max_unresolved_refined": 0.0124,
+    "max_unresolved_naive": 0.0124,
+    "top_clubs": [
+     {
+      "entity_id": "CLUB:GER:bayern-munchen",
+      "club": "FC Bayern M\u00fcnchen",
+      "guaranteed": 0.948,
+      "possible": 0.961,
+      "unresolved": 0.012,
+      "se_guaranteed": 0.002,
+      "se_possible": 0.002
+     },
+     {
+      "entity_id": "CLUB:GER:borussia-dortmund",
+      "club": "Borussia Dortmund",
+      "guaranteed": 0.029,
+      "possible": 0.038,
+      "unresolved": 0.009,
+      "se_guaranteed": 0.002,
+      "se_possible": 0.002
+     },
+     {
+      "entity_id": "CLUB:GER:bayer-04-leverkusen",
+      "club": "Bayer 04 Leverkusen",
+      "guaranteed": 0.01,
+      "possible": 0.013,
+      "unresolved": 0.004,
+      "se_guaranteed": 0.001,
+      "se_possible": 0.001
+     },
+     {
+      "entity_id": "CLUB:GER:rb-leipzig",
+      "club": "RB Leipzig",
+      "guaranteed": 0.0,
+      "possible": 0.001,
+      "unresolved": 0.0,
+      "se_guaranteed": 0.0,
+      "se_possible": 0.0
+     }
+    ]
+   },
+   "top4": {
+    "positions": [
+     1,
+     4
+    ],
+    "mean_unresolved_refined": 0.0107,
+    "mean_unresolved_naive": 0.0107,
+    "max_unresolved_refined": 0.0479,
+    "max_unresolved_naive": 0.0479,
+    "top_clubs": [
+     {
+      "entity_id": "CLUB:GER:bayern-munchen",
+      "club": "FC Bayern M\u00fcnchen",
+      "guaranteed": 1.0,
+      "possible": 1.0,
+      "unresolved": 0.0,
+      "se_guaranteed": 0.0,
+      "se_possible": 0.0
+     },
+     {
+      "entity_id": "CLUB:GER:borussia-dortmund",
+      "club": "Borussia Dortmund",
+      "guaranteed": 0.953,
+      "possible": 0.964,
+      "unresolved": 0.011,
+      "se_guaranteed": 0.002,
+      "se_possible": 0.002
+     },
+     {
+      "entity_id": "CLUB:GER:bayer-04-leverkusen",
+      "club": "Bayer 04 Leverkusen",
+      "guaranteed": 0.878,
+      "possible": 0.903,
+      "unresolved": 0.025,
+      "se_guaranteed": 0.003,
+      "se_possible": 0.003
+     },
+     {
+      "entity_id": "CLUB:GER:rb-leipzig",
+      "club": "RB Leipzig",
+      "guaranteed": 0.528,
+      "possible": 0.576,
+      "unresolved": 0.048,
+      "se_guaranteed": 0.005,
+      "se_possible": 0.005
+     }
+    ]
+   },
+   "relegation": {
+    "positions": [
+     17,
+     18
+    ],
+    "mean_unresolved_refined": 0.0182,
+    "mean_unresolved_naive": 0.0182,
+    "max_unresolved_refined": 0.0546,
+    "max_unresolved_naive": 0.0546,
+    "top_clubs": [
+     {
+      "entity_id": "CLUB:GER:bor-monchengladbach",
+      "club": "Borussia M\u00f6nchengladbach",
+      "guaranteed": 0.482,
+      "possible": 0.534,
+      "unresolved": 0.052,
+      "se_guaranteed": 0.005,
+      "se_possible": 0.005
+     },
+     {
+      "entity_id": "CLUB:GER:1-fc-union-berlin",
+      "club": "1. FC Union Berlin",
+      "guaranteed": 0.326,
+      "possible": 0.375,
+      "unresolved": 0.048,
+      "se_guaranteed": 0.005,
+      "se_possible": 0.005
+     },
+     {
+      "entity_id": "CLUB:GER:1-fc-koln",
+      "club": "1. FC K\u00f6ln",
+      "guaranteed": 0.31,
+      "possible": 0.364,
+      "unresolved": 0.055,
+      "se_guaranteed": 0.005,
+      "se_possible": 0.005
+     },
+     {
+      "entity_id": "CLUB:GER:fc-schalke-04",
+      "club": "FC Schalke 04",
+      "guaranteed": 0.304,
+      "possible": 0.357,
+      "unresolved": 0.053,
+      "se_guaranteed": 0.005,
+      "se_possible": 0.005
+     }
+    ]
+   },
+   "relegation_playoff": {
+    "positions": [
+     16,
+     16
+    ],
+    "mean_unresolved_refined": 0.0386,
+    "mean_unresolved_naive": 0.0386,
+    "max_unresolved_refined": 0.1059,
+    "max_unresolved_naive": 0.1059,
+    "top_clubs": [
+     {
+      "entity_id": "CLUB:GER:1-fc-koln",
+      "club": "1. FC K\u00f6ln",
+      "guaranteed": 0.106,
+      "possible": 0.211,
+      "unresolved": 0.106,
+      "se_guaranteed": 0.003,
+      "se_possible": 0.004
+     },
+     {
+      "entity_id": "CLUB:GER:fc-schalke-04",
+      "club": "FC Schalke 04",
+      "guaranteed": 0.1,
+      "possible": 0.203,
+      "unresolved": 0.104,
+      "se_guaranteed": 0.003,
+      "se_possible": 0.004
+     },
+     {
+      "entity_id": "CLUB:GER:1-fc-union-berlin",
+      "club": "1. FC Union Berlin",
+      "guaranteed": 0.102,
+      "possible": 0.198,
+      "unresolved": 0.096,
+      "se_guaranteed": 0.003,
+      "se_possible": 0.004
+     },
+     {
+      "entity_id": "CLUB:GER:bor-monchengladbach",
+      "club": "Borussia M\u00f6nchengladbach",
+      "guaranteed": 0.099,
+      "possible": 0.193,
+      "unresolved": 0.094,
+      "se_guaranteed": 0.003,
+      "se_possible": 0.004
+     }
+    ]
+   }
+  }
+ },
+ "LALIGA": {
+  "simulations": 10000,
+  "seconds_refined": 1.4,
+  "tie_groups_refined": 25693,
+  "tie_groups_fully_decided_refined": 16603,
+  "bands": {
+   "title": {
+    "positions": [
+     1,
+     1
+    ],
+    "mean_unresolved_refined": 0.0004,
+    "mean_unresolved_naive": 0.001,
+    "max_unresolved_refined": 0.0037,
+    "max_unresolved_naive": 0.0096,
+    "top_clubs": [
+     {
+      "entity_id": "CLUB:ESP:fc-barcelona",
+      "club": "FC Barcelona",
+      "guaranteed": 0.963,
+      "possible": 0.966,
+      "unresolved": 0.004,
+      "se_guaranteed": 0.002,
+      "se_possible": 0.002
+     },
+     {
+      "entity_id": "CLUB:ESP:real-madrid",
+      "club": "Real Madrid CF",
+      "guaranteed": 0.03,
+      "possible": 0.033,
+      "unresolved": 0.003,
+      "se_guaranteed": 0.002,
+      "se_possible": 0.002
+     },
+     {
+      "entity_id": "CLUB:ESP:atletico-madrid",
+      "club": "Club Atl\u00e9tico de Madrid",
+      "guaranteed": 0.004,
+      "possible": 0.004,
+      "unresolved": 0.001,
+      "se_guaranteed": 0.001,
+      "se_possible": 0.001
+     },
+     {
+      "entity_id": "CLUB:ESP:athletic-club-bilbao",
+      "club": "Athletic Club",
+      "guaranteed": 0.0,
+      "possible": 0.0,
+      "unresolved": 0.0,
+      "se_guaranteed": 0.0,
+      "se_possible": 0.0
+     }
+    ]
+   },
+   "top4": {
+    "positions": [
+     1,
+     4
+    ],
+    "mean_unresolved_refined": 0.0024,
+    "mean_unresolved_naive": 0.0069,
+    "max_unresolved_refined": 0.0178,
+    "max_unresolved_naive": 0.0464,
+    "top_clubs": [
+     {
+      "entity_id": "CLUB:ESP:fc-barcelona",
+      "club": "FC Barcelona",
+      "guaranteed": 1.0,
+      "possible": 1.0,
+      "unresolved": 0.0,
+      "se_guaranteed": 0.0,
+      "se_possible": 0.0
+     },
+     {
+      "entity_id": "CLUB:ESP:real-madrid",
+      "club": "Real Madrid CF",
+      "guaranteed": 0.998,
+      "possible": 0.999,
+      "unresolved": 0.0,
+      "se_guaranteed": 0.0,
+      "se_possible": 0.0
+     },
+     {
+      "entity_id": "CLUB:ESP:atletico-madrid",
+      "club": "Club Atl\u00e9tico de Madrid",
+      "guaranteed": 0.98,
+      "possible": 0.982,
+      "unresolved": 0.001,
+      "se_guaranteed": 0.001,
+      "se_possible": 0.001
+     },
+     {
+      "entity_id": "CLUB:ESP:real-betis",
+      "club": "Real Betis Balompi\u00e9",
+      "guaranteed": 0.688,
+      "possible": 0.706,
+      "unresolved": 0.018,
+      "se_guaranteed": 0.005,
+      "se_possible": 0.005
+     }
+    ]
+   },
+   "relegation": {
+    "positions": [
+     18,
+     20
+    ],
+    "mean_unresolved_refined": 0.0052,
+    "mean_unresolved_naive": 0.0161,
+    "max_unresolved_refined": 0.0153,
+    "max_unresolved_naive": 0.045,
+    "top_clubs": [
+     {
+      "entity_id": "CLUB:ESP:malaga-cf",
+      "club": "M\u00e1laga CF",
+      "guaranteed": 0.973,
+      "possible": 0.975,
+      "unresolved": 0.002,
+      "se_guaranteed": 0.002,
+      "se_possible": 0.002
+     },
+     {
+      "entity_id": "CLUB:ESP:real-racing-santander",
+      "club": "Real Racing Club de Santander",
+      "guaranteed": 0.778,
+      "possible": 0.792,
+      "unresolved": 0.013,
+      "se_guaranteed": 0.004,
+      "se_possible": 0.004
+     },
+     {
+      "entity_id": "CLUB:ESP:rcd-la-coruna",
+      "club": "RC Deportivo La Coru\u00f1a",
+      "guaranteed": 0.246,
+      "possible": 0.262,
+      "unresolved": 0.015,
+      "se_guaranteed": 0.004,
+      "se_possible": 0.004
+     },
+     {
+      "entity_id": "CLUB:ESP:getafe-cf",
+      "club": "Getafe CF",
+      "guaranteed": 0.181,
+      "possible": 0.195,
+      "unresolved": 0.013,
+      "se_guaranteed": 0.004,
+      "se_possible": 0.004
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,2 @@
+{"label": "backend test suite running", "calls": 10, "ms": [125, 124, 125, 120, 121, 119, 124, 119, 123, 121], "median_ms": 122, "min_ms": 119, "max_ms": 125, "at_utc": "2026-10-27T05:49:35Z"}
+{"label": "idle: nothing else running", "calls": 10, "ms": [123, 119, 120, 119, 119, 118, 118, 119, 118, 120], "median_ms": 119, "min_ms": 118, "max_ms": 123, "at_utc": "2026-10-27T05:56:12Z"}

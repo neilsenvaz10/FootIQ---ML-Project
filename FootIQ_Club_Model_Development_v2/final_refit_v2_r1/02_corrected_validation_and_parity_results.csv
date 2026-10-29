@@ -1,0 +1,9 @@
+test,passed,detail
+artifact hashes match FROZEN.json,True,"{'club_v2_lr_final_candidate.pkl': '55c1e4c53bcfefd39d5e90a1ce60a75bc697668f7894e425305bdc9a65b3e56c', 'feature_contract_v2_final.json': '1d4fee41e4a589232db0e5cd6f7470ae2d2a3cd6cc7a2f5ccc366ee405610ca5', 'model_coefficients.json': 'e3e67d4488a1e2074862b40783344311364ed1a3df75e7d3b23cea3e3f40a8e4'}"
+independent numpy scorer from JSON == pickled model,True,max abs diff 0.00e+00
+62 features in contract and model,True,"(3, 66)"
+"hyperparameters frozen (C=0.01, no calibration)",True,{'C': 0.01}
+inference-vs-training feature parity 2022-03-12,True,142 fixtures; v2 max diff 0.0e+00; v1 max diff 4.5e-13; NaN pattern equal True
+inference-vs-training feature parity 2024-12-07,True,236 fixtures; v2 max diff 0.0e+00; v1 max diff 4.5e-13; NaN pattern equal True
+inference-vs-training feature parity 2026-09-19,True,59 fixtures; v2 max diff 0.0e+00; v1 max diff 2.3e-13; NaN pattern equal True
+inference-vs-training feature parity 2026-09-20,True,51 fixtures; v2 max diff 0.0e+00; v1 max diff 4.5e-13; NaN pattern equal True

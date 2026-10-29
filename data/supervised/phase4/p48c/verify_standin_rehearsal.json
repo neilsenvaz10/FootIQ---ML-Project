@@ -1,0 +1,165 @@
+{
+ "generated_utc": "2026-10-27T12:30:58Z",
+ "snapshot_dir": "data\\supervised\\phase4\\p48c\\standin",
+ "only": [
+  "bl1",
+  "pl",
+  "la1"
+ ],
+ "source_change_since_import_snapshot": {
+  "bl1": {
+   "previous_snapshot": "20261025T083829Z_bl1_2026_season.json",
+   "previous_matches": 306,
+   "new_matches": 306,
+   "only_in_new": 0,
+   "only_in_old": 0,
+   "changed_matches": 0,
+   "newly_finished": 0,
+   "date_changed": 0
+  },
+  "pl": {
+   "previous_snapshot": "20261025T090708Z_investigation_pl.json",
+   "previous_matches": 380,
+   "new_matches": 380,
+   "only_in_new": 0,
+   "only_in_old": 0,
+   "changed_matches": 0,
+   "newly_finished": 0,
+   "date_changed": 0
+  },
+  "la1": {
+   "previous_snapshot": "20261025T090713Z_investigation_la1.json",
+   "previous_matches": 380,
+   "new_matches": 380,
+   "only_in_new": 0,
+   "only_in_old": 0,
+   "changed_matches": 0,
+   "newly_finished": 0,
+   "date_changed": 0
+  }
+ },
+ "dry_run_as_the_live_path_would_import": {
+  "protect_dates": false,
+  "leagues": {
+   "bl1": {
+    "competition": "BUNDESLIGA",
+    "snapshot": "20261025T083829Z_p48c_bl1.json",
+    "sha256": "5f5394c035e856b750d5dc67c3ce9342e610bb268c897a4b511fcda248a2b32d",
+    "bytes": 314767,
+    "saved_utc": "2026-10-25T08:38:29Z",
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 245,
+    "confirmed": 61,
+    "quarantined": 0,
+    "records": 306,
+    "held_date_difference": 0
+   },
+   "pl": {
+    "competition": "EPL",
+    "snapshot": "20261025T090708Z_p48c_pl.json",
+    "sha256": "5bc7f2def9f9725461afae05ae8cc04038122291b3e6991bb7c678a0963bac9d",
+    "bytes": 942711,
+    "saved_utc": "2026-10-25T09:07:08Z",
+    "inserted": 0,
+    "updated": 31,
+    "unchanged": 289,
+    "confirmed": 58,
+    "quarantined": 2,
+    "records": 380,
+    "held_date_difference": 0
+   },
+   "la1": {
+    "competition": "LALIGA",
+    "snapshot": "20261025T090713Z_p48c_la1.json",
+    "sha256": "a0fb7b7bde9a6ebcb6616df7a77407fc3cb7ff2c6f427280595e270ca5fbbae0",
+    "bytes": 449114,
+    "saved_utc": "2026-10-25T09:07:13Z",
+    "inserted": 0,
+    "updated": 24,
+    "unchanged": 267,
+    "confirmed": 89,
+    "quarantined": 0,
+    "records": 380,
+    "held_date_difference": 0
+   }
+  },
+  "row_changes": {
+   "changed:match_date": 55,
+   "changed:kickoff_utc": 55,
+   "changed:time_precision": 55,
+   "changed:model_home_entity": 5,
+   "changed:model_away_entity": 5,
+   "changed:status": 5,
+   "changed:home_goals_final": 5,
+   "changed:away_goals_final": 5,
+   "changed:home_goals_90": 5,
+   "changed:away_goals_90": 5,
+   "changed:label_90_status": 5,
+   "changed:outcome": 5,
+   "changed:rated": 5,
+   "changed:regular": 5,
+   "changed:in_universe": 5,
+   "changed:source_system": 5,
+   "changed:licence": 5
+  },
+  "quarantine_added": 0,
+  "new_quarantine_reasons": [],
+  "production_sha256_before": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+  "production_sha256_after": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+  "production_untouched": true
+ },
+ "dry_run_with_date_protection": {
+  "protect_dates": true,
+  "leagues": {
+   "bl1": {
+    "competition": "BUNDESLIGA",
+    "snapshot": "20261025T083829Z_p48c_bl1.json",
+    "sha256": "5f5394c035e856b750d5dc67c3ce9342e610bb268c897a4b511fcda248a2b32d",
+    "bytes": 314767,
+    "saved_utc": "2026-10-25T08:38:29Z",
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 245,
+    "confirmed": 61,
+    "quarantined": 0,
+    "records": 306,
+    "held_date_difference": 0
+   },
+   "pl": {
+    "competition": "EPL",
+    "snapshot": "20261025T090708Z_p48c_pl.json",
+    "sha256": "5bc7f2def9f9725461afae05ae8cc04038122291b3e6991bb7c678a0963bac9d",
+    "bytes": 942711,
+    "saved_utc": "2026-10-25T09:07:08Z",
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 289,
+    "confirmed": 58,
+    "quarantined": 33,
+    "records": 380,
+    "held_date_difference": 31
+   },
+   "la1": {
+    "competition": "LALIGA",
+    "snapshot": "20261025T090713Z_p48c_la1.json",
+    "sha256": "a0fb7b7bde9a6ebcb6616df7a77407fc3cb7ff2c6f427280595e270ca5fbbae0",
+    "bytes": 449114,
+    "saved_utc": "2026-10-25T09:07:13Z",
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 267,
+    "confirmed": 89,
+    "quarantined": 24,
+    "records": 380,
+    "held_date_difference": 24
+   }
+  },
+  "row_changes": {},
+  "quarantine_added": 0,
+  "new_quarantine_reasons": [],
+  "production_sha256_before": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+  "production_sha256_after": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+  "production_untouched": true
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "base": "http://127.0.0.1:8000",
+ "measured_utc": "2026-10-27T05:56:33Z",
+ "featured_first_request": {
+  "ms": 45.9,
+  "status": 200,
+  "cache": "miss",
+  "bytes": 13010,
+  "cache_control": "private, max-age=60",
+  "etag": "\"9e009dc2e8f33557d9a8\""
+ },
+ "featured_repeat_hits": {
+  "n": 30,
+  "median_ms": 26.9,
+  "min_ms": 5.1,
+  "max_ms": 32.4,
+  "all_hit": true
+ },
+ "featured_conditional_304": {
+  "n": 30,
+  "median_ms": 15.4,
+  "min_ms": 1.5,
+  "max_ms": 29.1,
+  "all_304": true,
+  "body_bytes": 0
+ },
+ "featured_uncached_builds": {
+  "n": 15,
+  "median_ms": 53.8,
+  "min_ms": 37.1,
+  "max_ms": 81.1,
+  "all_miss": true,
+  "all_200": true
+ },
+ "featured_bytes_by_size": {
+  "upcoming=1": 8250,
+  "upcoming=8": 13010,
+  "upcoming=12": 15747
+ },
+ "home_other_seasons": {
+  "n": 10,
+  "median_ms": 31.2,
+  "min_ms": 13.7,
+  "max_ms": 35.5,
+  "status": 200,
+  "bytes": 91
+ },
+ "home_other_coverage": {
+  "n": 10,
+  "median_ms": 45.3,
+  "min_ms": 32.9,
+  "max_ms": 54.9,
+  "status": 200,
+  "bytes": 1131
+ },
+ "home_other_dashboard": {
+  "n": 10,
+  "median_ms": 47.1,
+  "min_ms": 39.9,
+  "max_ms": 58.1,
+  "status": 200,
+  "bytes": 7363
+ },
+ "home_other_sync_status": {
+  "n": 10,
+  "median_ms": 50.6,
+  "min_ms": 31.4,
+  "max_ms": 59.1,
+  "status": 200,
+  "bytes": 4961
+ },
+ "compare_gameweeks_list": {
+  "n": 3,
+  "median_ms": 53.2,
+  "min_ms": 35.0,
+  "max_ms": 56.6,
+  "status": 200
+ },
+ "compare_gameweek_page": {
+  "matchday": 9,
+  "ms": 2878.0,
+  "status": 200,
+  "bytes": 18806
+ }
+}

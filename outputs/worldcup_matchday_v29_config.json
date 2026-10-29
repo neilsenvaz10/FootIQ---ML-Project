@@ -1,0 +1,32 @@
+{
+  "version": "v2.9",
+  "purpose": "World Cup matchday runner with v2.7 probabilities and v2.8 confidence labels.",
+  "provider": "API-Football",
+  "weather_provider": "Open-Meteo",
+  "lineup_note": "Lineups are collected when provider exposes them; v2.9 stores them but does not yet adjust model strength from lineups.",
+  "date": "2026-07-19",
+  "snapshot_timestamp_et": "2026-07-19T12:41:26-04:00",
+  "api_budget": {
+    "date": "2026-07-19",
+    "daily_limit": 100,
+    "reserve_requests": 15,
+    "usable_before_stop": 85,
+    "used_today": 3,
+    "remaining_before_stop": 82
+  },
+  "force_refresh": true,
+  "force_weather": true,
+  "force_lineups": true,
+  "skip_lineups": false,
+  "fixture_source": "provider",
+  "provider_error": "",
+  "outputs": [
+    "data/processed/worldcup_matchday_v29_predictions.csv",
+    "data/processed/worldcup_matchday_v29_features.csv",
+    "data/processed/worldcup_matchday_v29_lineups.csv",
+    "data/processed/worldcup_matchday_v29_lineup_snapshots.csv",
+    "data/processed/worldcup_matchday_v29_snapshots.csv",
+    "outputs/worldcup_matchday_v29_report.md",
+    "outputs/worldcup_matchday_v29_report_2026-07-19.md"
+  ]
+}

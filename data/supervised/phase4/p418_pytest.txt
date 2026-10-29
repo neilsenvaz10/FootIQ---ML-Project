@@ -1,0 +1,119 @@
+........................................................................ [ 17%]
+........................................................................ [ 35%]
+........................................................................ [ 53%]
+.......................F................................................ [ 71%]
+..............................................F....F........F........... [ 89%]
+...........................................                              [100%]
+================================== FAILURES ===================================
+_________ test_analytics_from_the_store_equals_analytics_from_the_csv _________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000001722C665FA0>
+base_db = (WindowsPath('D:/Foot IQ/data/supervised/pytest_tmp/pytest-of-DELL/pytest-1/store0/base.sqlite'), {'fixtures': {'inser...ca21103f3bf7d'}, 'latest_completed': '2026-09-20', 'matches': {'inserted': 219954, 'unchanged': 0, 'updated': 0}, ...})
+
+    @needs_inputs
+    def test_analytics_from_the_store_equals_analytics_from_the_csv(monkeypatch, base_db):
+        import analytics
+    
+        monkeypatch.setattr(db, "DEFAULT_PATH", base_db[0])
+        monkeypatch.setenv("FOOTIQ_USE_STORE", "0")
+        analytics.reload()
+        csv_frame, csv_audit, csv_cov = analytics.matches().copy(), analytics.audit(), analytics.season_coverage("EPL")
+        monkeypatch.setenv("FOOTIQ_USE_STORE", "1")
+        monkeypatch.setattr(analytics, "use_store", lambda: True)
+        monkeypatch.setattr(analytics.store_db, "DEFAULT_PATH", base_db[0])
+        monkeypatch.setattr(analytics.store_db, "connect", lambda readonly=False, _c=db.connect: _c(base_db[0], readonly=readonly))
+        analytics.reload()
+        st_frame = analytics.matches()
+        assert st_frame.equals(csv_frame)
+        assert analytics.audit() == csv_audit and analytics.season_coverage("EPL") == csv_cov
+        audit_csv = pd.read_csv(C.AUDIT_CSV, encoding="utf-8-sig", keep_default_na=False).to_dict("records")
+>       assert csv_audit == audit_csv                                                            # computed audit equals the file prepare_data wrote
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: assert [{'competitio...-09-18', ...}] == [{'competitio...3', ...}, ...]
+E         
+E         At index 5 diff: {'competition_key': 'UCL', 'competition': 'UEFA Champions League', 'group': 'Continental club', 'rows': 1140, 'seasons': 9, 'first_date': '2018-09-18', 'last_date': '2026-09-10', 'rows_with_outcome': 1140, 'duplicate_rows': 0, 'sources': 'openfootball | wikipedia', 'licences': 'CC BY-SA 4.0 | CC0-1.0', 'validation_badge': 'Not validated (indicative only)'} != {'competition_key': 'WC', 'competition': 'FIFA World Cup', 'group': 'International', 'rows': 1094, 'seasons': 23, 'first_date': '1930-07-13', 'last_date': '2026-07-18', 'rows_with_outcome': 1094, '...
+E         
+E         ...Full output truncated (3 lines hidden), use '-vv' to show
+
+tests\test_store.py:350: AssertionError
+____________ test_api_status_and_refusals_without_writing_anything ____________
+
+    @needs_store
+    def test_api_status_and_refusals_without_writing_anything():
+        from fastapi.testclient import TestClient
+    
+        import main
+    
+        c = TestClient(main.app)
+        st = c.get("/api/season/status", params=dict(key="BUNDESLIGA", season="2026-27"))
+        assert st.status_code == 200
+        j = st.json()
+        assert j["state"] in ("ready", "provisional") and j["can_simulate"] is False and j["rule_profile"]["usable"] is True and j["limits"]["default"] == 10000
+        assert c.get("/api/season/status", params=dict(key="WC")).status_code == 422 or c.get("/api/season/status", params=dict(key="WC")).status_code == 404
+        before = sqlite3.connect(f"file:{PROD.as_posix()}?mode=ro", uri=True).execute("SELECT COUNT(*) FROM simulation_runs").fetchone()[0]
+        bad = c.post("/api/season/simulate", json=dict(key="BUNDESLIGA", season="2026-27", user_action="page_load"))
+        assert bad.status_code == 422 and "explicitly" in bad.json()["detail"]
+        closed = c.post("/api/season/simulate", json=dict(key="BUNDESLIGA", season="2026-27", user_action=service.EXPLICIT_ACTION))
+        assert closed.status_code == 422 and "disabled" in closed.json()["detail"]
+        after = sqlite3.connect(f"file:{PROD.as_posix()}?mode=ro", uri=True).execute("SELECT COUNT(*) FROM simulation_runs").fetchone()[0]
+>       assert before == after == 0
+E       assert 2 == 0
+
+tests\test_seasonsim_service.py:217: AssertionError
+_________________ test_points_only_api_refusals_write_nothing _________________
+
+    @needs_store
+    def test_points_only_api_refusals_write_nothing():
+        from fastapi.testclient import TestClient
+    
+        import main
+    
+        c = TestClient(main.app)
+        j = c.get("/api/season/status", params=dict(key="BUNDESLIGA", season="2026-27")).json()
+        assert j["points_only"]["can_run"] is True and j["can_simulate"] is False and j["points_only"]["limitations"]
+        assert c.get("/api/season/status", params=dict(key="EPL", season="2026-27")).json()["points_only"]["can_run"] is False
+        bad = c.post("/api/season/points", json=dict(key="BUNDESLIGA", season="2026-27", user_action="page_load"))
+        assert bad.status_code == 422 and "explicitly" in bad.json()["detail"]
+        blocked = c.post("/api/season/points", json=dict(key="EPL", season="2026-27", user_action=service.POINTS_ACTION))
+        assert blocked.status_code == 422 and "blocked" in blocked.json()["detail"]
+>       assert sqlite3.connect(f"file:{PROD.as_posix()}?mode=ro", uri=True).execute("SELECT COUNT(*) FROM simulation_runs").fetchone()[0] == 0
+E       assert 2 == 0
+
+tests\test_seasonsim_service.py:298: AssertionError
+_ test_api_returns_and_saves_the_ranges_on_a_private_copy_and_never_touches_production _
+
+copy_db = WindowsPath('D:/Foot IQ/data/supervised/pytest_tmp/pytest-of-DELL/pytest-1/sim0/store.sqlite')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x0000017234C6A120>
+
+    @needs_store
+    def test_api_returns_and_saves_the_ranges_on_a_private_copy_and_never_touches_production(copy_db, monkeypatch):
+        from fastapi.testclient import TestClient
+    
+        import main
+    
+        monkeypatch.setattr(db, "DEFAULT_PATH", copy_db)
+        c = TestClient(main.app)
+        j = c.get("/api/season/status", params=dict(key="LALIGA", season="2026-27")).json()
+        assert j["points_only"]["position_bounds"]["available"] is True and any("lower and upper bounds" in x for x in j["points_only"]["limitations"])
+        r = c.post("/api/season/points", json=dict(key="LALIGA", season="2026-27", user_action=service.POINTS_ACTION, simulations=1000, seed=3))
+        assert r.status_code == 200
+        body = r.json()
+        check_ranges(body["result"]["position_bounds"], 20)
+        got = c.get("/api/season/run", params=dict(id=body["run_id"])).json()
+        assert got["result"]["position_bounds"] == body["result"]["position_bounds"] and got["assumptions"]["mode"] == "points_only"
+>       assert sqlite3.connect(f"file:{PROD.as_posix()}?mode=ro", uri=True).execute("SELECT COUNT(*) FROM simulation_runs").fetchone()[0] == 0
+E       assert 2 == 0
+
+tests\test_seasonsim_service.py:455: AssertionError
+============================== warnings summary ===============================
+.venv\Lib\site-packages\fastapi\testclient.py:1
+  D:\Foot IQ\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_store.py::test_analytics_from_the_store_equals_analytics_from_the_csv
+FAILED tests/test_seasonsim_service.py::test_api_status_and_refusals_without_writing_anything
+FAILED tests/test_seasonsim_service.py::test_points_only_api_refusals_write_nothing
+FAILED tests/test_seasonsim_service.py::test_api_returns_and_saves_the_ranges_on_a_private_copy_and_never_touches_production
+4 failed, 399 passed, 1 warning in 1214.70s (0:20:14)

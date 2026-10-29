@@ -1,0 +1,145 @@
+﻿competition_key,season,rows_in_dataset,expected_matches,coverage_pct,note
+BUNDESLIGA,2018-19,306,306.0,100.0,
+BUNDESLIGA,2019-20,306,306.0,100.0,
+BUNDESLIGA,2020-21,306,306.0,100.0,
+BUNDESLIGA,2021-22,306,306.0,100.0,
+BUNDESLIGA,2022-23,306,306.0,100.0,
+BUNDESLIGA,2023-24,306,306.0,100.0,
+BUNDESLIGA,2024-25,306,306.0,100.0,
+BUNDESLIGA,2025-26,306,306.0,100.0,
+BUNDESLIGA,2026-27,36,306.0,11.8,incomplete or in progress
+COPA,1916,6,,,no expected-count reference available
+COPA,1917,6,,,no expected-count reference available
+COPA,1919,7,,,no expected-count reference available
+COPA,1920,6,,,no expected-count reference available
+COPA,1921,6,,,no expected-count reference available
+COPA,1922,11,,,no expected-count reference available
+COPA,1923,6,,,no expected-count reference available
+COPA,1924,6,,,no expected-count reference available
+COPA,1925,6,,,no expected-count reference available
+COPA,1926,10,,,no expected-count reference available
+COPA,1927,6,,,no expected-count reference available
+COPA,1929,6,,,no expected-count reference available
+COPA,1935,6,,,no expected-count reference available
+COPA,1936,2,,,no expected-count reference available
+COPA,1937,14,,,no expected-count reference available
+COPA,1939,10,,,no expected-count reference available
+COPA,1941,10,,,no expected-count reference available
+COPA,1942,21,,,no expected-count reference available
+COPA,1945,21,,,no expected-count reference available
+COPA,1946,15,,,no expected-count reference available
+COPA,1947,28,,,no expected-count reference available
+COPA,1949,29,,,no expected-count reference available
+COPA,1953,22,,,no expected-count reference available
+COPA,1955,15,,,no expected-count reference available
+COPA,1956,15,,,no expected-count reference available
+COPA,1957,21,,,no expected-count reference available
+COPA,1959,31,,,no expected-count reference available
+COPA,1963,21,,,no expected-count reference available
+COPA,1967,15,,,no expected-count reference available
+COPA,1975,25,,,no expected-count reference available
+COPA,1979,25,,,no expected-count reference available
+COPA,1983,24,,,no expected-count reference available
+COPA,1987,13,,,no expected-count reference available
+COPA,1989,26,,,no expected-count reference available
+COPA,1991,26,,,no expected-count reference available
+COPA,1993,26,,,no expected-count reference available
+COPA,1995,26,,,no expected-count reference available
+COPA,1997,26,,,no expected-count reference available
+COPA,1999,26,,,no expected-count reference available
+COPA,2001,26,,,no expected-count reference available
+COPA,2004,26,,,no expected-count reference available
+COPA,2007,26,,,no expected-count reference available
+COPA,2011,26,,,no expected-count reference available
+COPA,2015,26,,,no expected-count reference available
+COPA,2016,32,,,no expected-count reference available
+COPA,2019,26,,,no expected-count reference available
+COPA,2021,28,,,no expected-count reference available
+COPA,2024,32,,,no expected-count reference available
+EPL,2018-19,380,380.0,100.0,
+EPL,2019-20,380,380.0,100.0,
+EPL,2020-21,380,380.0,100.0,
+EPL,2021-22,380,380.0,100.0,
+EPL,2022-23,380,380.0,100.0,
+EPL,2023-24,380,380.0,100.0,
+EPL,2024-25,380,380.0,100.0,
+EPL,2025-26,380,380.0,100.0,
+EPL,2026-27,50,380.0,13.2,incomplete or in progress
+LALIGA,2018-19,380,380.0,100.0,
+LALIGA,2019-20,380,380.0,100.0,
+LALIGA,2020-21,380,380.0,100.0,
+LALIGA,2021-22,380,380.0,100.0,
+LALIGA,2022-23,380,380.0,100.0,
+LALIGA,2023-24,380,380.0,100.0,
+LALIGA,2024-25,380,380.0,100.0,
+LALIGA,2025-26,380,380.0,100.0,
+LALIGA,2026-27,69,380.0,18.2,incomplete or in progress
+LIGUE1,2018-19,380,380.0,100.0,
+LIGUE1,2019-20,279,380.0,73.4,incomplete or in progress
+LIGUE1,2020-21,380,380.0,100.0,
+LIGUE1,2021-22,380,380.0,100.0,
+LIGUE1,2022-23,380,380.0,100.0,
+LIGUE1,2023-24,306,306.0,100.0,
+LIGUE1,2024-25,306,306.0,100.0,
+LIGUE1,2025-26,306,306.0,100.0,
+LIGUE1,2026-27,45,306.0,14.7,incomplete or in progress
+SERIEA,2018-19,380,380.0,100.0,
+SERIEA,2019-20,380,380.0,100.0,
+SERIEA,2020-21,380,380.0,100.0,
+SERIEA,2021-22,380,380.0,100.0,
+SERIEA,2022-23,380,380.0,100.0,
+SERIEA,2023-24,380,380.0,100.0,
+SERIEA,2024-25,380,380.0,100.0,
+SERIEA,2025-26,380,380.0,100.0,
+SERIEA,2026-27,50,380.0,13.2,incomplete or in progress
+UCL,2018-19,125,125.0,100.0,
+UCL,2019-20,119,119.0,100.0,
+UCL,2020-21,125,125.0,100.0,
+UCL,2021-22,125,125.0,100.0,
+UCL,2022-23,125,125.0,100.0,
+UCL,2023-24,125,125.0,100.0,
+UCL,2024-25,189,189.0,100.0,
+UCL,2025-26,189,189.0,100.0,
+UCL,2026-27,18,,,no expected-count reference available
+UECL,2021-22,141,141.0,100.0,
+UECL,2022-23,141,141.0,100.0,
+UECL,2023-24,141,141.0,100.0,
+UECL,2024-25,153,153.0,100.0,
+UECL,2025-26,153,153.0,100.0,
+UEL,2018-19,205,205.0,100.0,
+UEL,2019-20,197,197.0,100.0,
+UEL,2020-21,205,205.0,100.0,
+UEL,2021-22,139,141.0,98.6,incomplete or in progress
+UEL,2022-23,141,141.0,100.0,
+UEL,2023-24,141,141.0,100.0,
+UEL,2024-25,189,189.0,100.0,
+UEL,2025-26,189,189.0,100.0,
+UEL,2026-27,18,,,no expected-count reference available
+UNL,2018-19,142,,,no expected-count reference available
+UNL,2020-21,162,,,no expected-count reference available
+UNL,2021-22,111,,,no expected-count reference available
+UNL,2022-23,57,,,no expected-count reference available
+UNL,2023-24,2,,,no expected-count reference available
+UNL,2024-25,184,,,no expected-count reference available
+WC,1930,18,,,no expected-count reference available
+WC,1934,17,,,no expected-count reference available
+WC,1938,18,,,no expected-count reference available
+WC,1950,22,,,no expected-count reference available
+WC,1954,26,,,no expected-count reference available
+WC,1958,35,,,no expected-count reference available
+WC,1962,32,,,no expected-count reference available
+WC,1966,32,,,no expected-count reference available
+WC,1970,32,,,no expected-count reference available
+WC,1974,38,,,no expected-count reference available
+WC,1978,38,,,no expected-count reference available
+WC,1982,52,,,no expected-count reference available
+WC,1986,52,,,no expected-count reference available
+WC,1990,52,,,no expected-count reference available
+WC,1994,52,,,no expected-count reference available
+WC,1998,64,,,no expected-count reference available
+WC,2002,64,,,no expected-count reference available
+WC,2006,64,,,no expected-count reference available
+WC,2010,64,,,no expected-count reference available
+WC,2014,64,,,no expected-count reference available
+WC,2018,64,,,no expected-count reference available
+WC,2022,64,,,no expected-count reference available

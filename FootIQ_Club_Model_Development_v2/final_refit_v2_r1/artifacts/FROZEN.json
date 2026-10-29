@@ -1,0 +1,70 @@
+{
+ "version": "v2-r1",
+ "frozen_at": "2026-10-21 17:45:33 +0530",
+ "training_cutoff_last_match_date": "2026-09-20",
+ "training_rows": 116854,
+ "seed": 20261021,
+ "hyperparameters": {
+  "C": 0.01
+ },
+ "calibration": "none",
+ "algorithm": "multinomial LogisticRegression (sklearn lbfgs, L2)",
+ "features": 62,
+ "feature_selection_source": "development folds only (<= 2024-06-30); no newer-data selection",
+ "dependency_versions": {
+  "python": "3.12.14",
+  "numpy": "1.26.4",
+  "pandas": "2.2.1",
+  "scipy": "1.17.1",
+  "sklearn": "1.5.1",
+  "platform": "Windows-11-10.0.26300-SP0"
+ },
+ "git": {
+  "branch": "feat/club-ml-v2",
+  "head": "f8a2068c10833490a2283d7cf587881e10935e8c",
+  "working_tree_note": "new work is untracked/uncommitted by design; code identified by the script hashes below"
+ },
+ "code_sha256": {
+  "d0_phase0_checks.py": "8e79614b6d2bebfdb0b179fd042e0d25782f20b59d65db6066c5f190afa4557f",
+  "d10_final_refit.py": "08ff54d675344030126ffe5b53adf2b045b3282f2287220696007c0331eb1b02",
+  "d1_protocol.py": "293ff779e71361cc4a230b5ca4ee20954ee2842fe59fc139392e57d0e0092e33",
+  "d2_build_features.py": "6de3450d3ab08c710e5f77351ee294749409dd932dc2431410951289a0acfedc",
+  "d2b_rebuild_features.py": "32d0212fc319a6c866b737a400130322b8857537f832868da74f7ba2f5c5d369",
+  "d3_ablation.py": "bf0f0f4d16abbea6e92a4c898f8093196cc78718dca6b488a671f1db31bd0d34",
+  "d4_algorithms.py": "4c023bbb6b65c1a37c3b4e3814a86e98284e9c354cca311ec8d711ad89177bc2",
+  "d5_analysis.py": "3c3a6a13edcacad651fb1b9e77b1e8521e813fdc3bea81aab61d56e0c3879587",
+  "d6_leakage_tests.py": "643162bc217d41b72d67eab1bfb3c7e8b5153b6ef8cea6e1d72bc8df1f877e05",
+  "d7_diagnostics.py": "4aab62d90ba125d3dcb10b31a81764f70b0ee54b17683f3008d73b407135bf37",
+  "d8_manifest.py": "58fdeb8fd530e57e71f59049c8bdeb3c8681cd5fd28fcc60d1c23b4792398a75",
+  "d9_postfix_reeval.py": "ddf5795ac615d1c4ac11cd120024639c5b4b17c278f19da62857706777442596",
+  "v2_common.py": "b579b83cbe9d709bd499ccc49879b2163c1996574601e8f4ee4dbd40fab9d7de",
+  "v2_features.py": "430e74282980bdd5de54c08bf42a7fe3da306c7371737679345e61819691bb91",
+  "v2_models.py": "7ce1a89b7b25646222f62dfcd2f3aeff4e2adf0e853cdc226bab2847998f7792"
+ },
+ "input_sha256": {
+  "dataset_v1_1": "0d7b73117b442298e4e050f690c55e32c1d25798e244052ec12e41b54ff10da7",
+  "universe_pkl": "1c4d758b01d3d30acba6f059c17de1f12d31aa7de9a6849ad81bcfc4a300ebd9",
+  "training_feature_table": "9b15cffb4dbe883f3ebf4124dd6ff1f734ef15edf968ddc5ed51931fad37a01b"
+ },
+ "artifact_sha256": {
+  "club_v2_lr_final_candidate.pkl": "55c1e4c53bcfefd39d5e90a1ce60a75bc697668f7894e425305bdc9a65b3e56c",
+  "feature_contract_v2_final.json": "1d4fee41e4a589232db0e5cd6f7470ae2d2a3cd6cc7a2f5ccc366ee405610ca5",
+  "model_coefficients.json": "e3e67d4488a1e2074862b40783344311364ed1a3df75e7d3b23cea3e3f40a8e4"
+ },
+ "checks": {
+  "dev_feature_table_prefix_max_abs_diff": 0.0,
+  "dev_cutoff_refit_vs_prefix_artifact_max_prob_gap": 0.00015889498086085752,
+  "converged_iterations": 56,
+  "in_sample_log_loss": 1.0170398529559466,
+  "mean_pred": [
+   0.4360812203170761,
+   0.2645281167689448,
+   0.29939066291398725
+  ],
+  "train_class_rates": [
+   50967,
+   30907,
+   34980
+  ]
+ }
+}

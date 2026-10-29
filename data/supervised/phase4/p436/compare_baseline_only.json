@@ -1,0 +1,234 @@
+{
+ "label": "baseline_only",
+ "total_rows": {
+  "production": 223636,
+  "replay": 223510
+ },
+ "completed_2026_27": {
+  "EPL": {
+   "production": 80,
+   "replay": 50
+  },
+  "LALIGA": {
+   "production": 99,
+   "replay": 69
+  },
+  "BUNDESLIGA": {
+   "production": 63,
+   "replay": 36
+  },
+  "SERIEA": {
+   "production": 80,
+   "replay": 50
+  },
+  "LIGUE1": {
+   "production": 72,
+   "replay": 45
+  },
+  "UCL": {
+   "production": 54,
+   "replay": 18
+  }
+ },
+ "scheduled_2026_27": {
+  "EPL": {
+   "production": 300,
+   "replay": 310
+  },
+  "LALIGA": {
+   "production": 280,
+   "replay": 291
+  },
+  "BUNDESLIGA": {
+   "production": 243,
+   "replay": 252
+  },
+  "SERIEA": {
+   "production": 300,
+   "replay": 310
+  },
+  "LIGUE1": {
+   "production": 234,
+   "replay": 243
+  },
+  "UCL": {
+   "production": 90,
+   "replay": 0
+  }
+ },
+ "awaiting_result_2026_27": {
+  "EPL": {
+   "production": 0,
+   "replay": 20
+  },
+  "LALIGA": {
+   "production": 1,
+   "replay": 20
+  },
+  "BUNDESLIGA": {
+   "production": 0,
+   "replay": 18
+  },
+  "SERIEA": {
+   "production": 0,
+   "replay": 20
+  },
+  "LIGUE1": {
+   "production": 0,
+   "replay": 18
+  },
+  "UCL": {
+   "production": 0,
+   "replay": 0
+  }
+ },
+ "postponed_2026_27": {
+  "EPL": {
+   "production": 0,
+   "replay": 0
+  },
+  "LALIGA": {
+   "production": 0,
+   "replay": 0
+  },
+  "BUNDESLIGA": {
+   "production": 0,
+   "replay": 0
+  },
+  "SERIEA": {
+   "production": 0,
+   "replay": 0
+  },
+  "LIGUE1": {
+   "production": 0,
+   "replay": 0
+  },
+  "UCL": {
+   "production": 0,
+   "replay": 0
+  }
+ },
+ "rows_six_competitions": {
+  "production": 17303,
+  "replay": 17177,
+  "only_in_production": 126,
+  "only_in_replay": 0
+ },
+ "match_dates_differing": 57,
+ "results_differing": 144,
+ "team_pair_mapping_differing": 0,
+ "teams": {
+  "production": 5188,
+  "replay": 5188,
+  "differing": 0
+ },
+ "team_aliases": {
+  "production": 7447,
+  "replay": 7442,
+  "differing": 5
+ },
+ "champions_league": {
+  "production": {
+   "completed": 54,
+   "scheduled": 90,
+   "matchdays": []
+  },
+  "replay": {
+   "completed": 18,
+   "scheduled": 0,
+   "matchdays": []
+  }
+ },
+ "simulation_eligibility": {
+  "EPL": {
+   "production": {
+    "state": "ready",
+    "points_only_can_run": true,
+    "missing_results": 0,
+    "remaining": 300,
+    "blockers": []
+   },
+   "replay": {
+    "state": "not_eligible",
+    "points_only_can_run": false,
+    "missing_results": 30,
+    "remaining": 330,
+    "blockers": [
+     "data quality: Not eligible"
+    ]
+   }
+  },
+  "LALIGA": {
+   "production": {
+    "state": "ready",
+    "points_only_can_run": true,
+    "missing_results": 1,
+    "remaining": 281,
+    "blockers": []
+   },
+   "replay": {
+    "state": "not_eligible",
+    "points_only_can_run": false,
+    "missing_results": 31,
+    "remaining": 311,
+    "blockers": [
+     "data quality: Not eligible"
+    ]
+   }
+  },
+  "BUNDESLIGA": {
+   "production": {
+    "state": "ready",
+    "points_only_can_run": true,
+    "missing_results": 0,
+    "remaining": 243,
+    "blockers": []
+   },
+   "replay": {
+    "state": "not_eligible",
+    "points_only_can_run": false,
+    "missing_results": 27,
+    "remaining": 270,
+    "blockers": [
+     "data quality: Not eligible"
+    ]
+   }
+  },
+  "SERIEA": {
+   "production": {
+    "state": "provisional",
+    "points_only_can_run": true,
+    "missing_results": 3,
+    "remaining": 300,
+    "blockers": []
+   },
+   "replay": {
+    "state": "not_eligible",
+    "points_only_can_run": false,
+    "missing_results": 33,
+    "remaining": 330,
+    "blockers": [
+     "data quality: Not eligible"
+    ]
+   }
+  },
+  "LIGUE1": {
+   "production": {
+    "state": "ready",
+    "points_only_can_run": true,
+    "missing_results": 0,
+    "remaining": 234,
+    "blockers": []
+   },
+   "replay": {
+    "state": "not_eligible",
+    "points_only_can_run": false,
+    "missing_results": 27,
+    "remaining": 261,
+    "blockers": [
+     "data quality: Not eligible"
+    ]
+   }
+  }
+ }
+}

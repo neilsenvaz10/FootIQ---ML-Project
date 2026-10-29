@@ -1,0 +1,22 @@
+{
+ "_comment": "Season simulator settings. scoreline_method stays null (simulation DISABLED) until a scoreline method has passed the predeclared acceptance criteria and you have approved it. Set FOOTIQ_SEASONSIM_CONFIG to a different file only for tests or private copies.",
+ "schema": 1,
+ "scoreline_method": "S1",
+ "scoreline_validation": {
+  "status": "TEST ONLY - not validated, not approved",
+  "approved_by_user": false
+ },
+ "default_simulations": 10000,
+ "min_simulations": 1000,
+ "max_simulations": 50000,
+ "initial_scope": [
+  "BUNDESLIGA",
+  "LALIGA"
+ ],
+ "eligibility": {
+  "ready_max_missing_share": 0.02,
+  "ready_max_stale_days": 7,
+  "provisional_max_missing_share": 0.15,
+  "provisional_max_stale_days": 21
+ }
+}

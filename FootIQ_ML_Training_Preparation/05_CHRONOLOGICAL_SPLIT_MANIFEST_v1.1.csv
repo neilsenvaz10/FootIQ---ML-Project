@@ -1,0 +1,5 @@
+﻿split,start_inclusive,end_inclusive,rows,first_match,last_match,leagues,eval_primary_rows,eval_secondary_calendar_year_rows,rows_not_in_any_evaluation_set,role
+train,2018-08-01,2023-06-30,59356,2018-08-01,2023-06-30,63,0,0,,fit models and learned preprocessing
+validation,2023-07-01,2024-06-30,22578,2023-07-01,2024-06-30,90,17092,5015,471.0,model / feature / hyper-parameter selection
+test,2024-07-01,2025-06-30,26000,2024-07-01,2025-06-29,111,15645,3449,6906.0,one-time unbiased estimate after all choices are frozen
+forward_holdout,2025-07-01,2026-09-30,8920,2025-07-02,2026-09-20,36,5770,570,2580.0,one-time final evaluation; never used for any decision

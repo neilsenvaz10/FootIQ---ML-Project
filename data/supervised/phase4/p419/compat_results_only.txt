@@ -1,0 +1,149 @@
+D:\Foot IQ\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+{
+ "store": "D:/Foot IQ/data/supervised/phase4/p419/rehearsal/footiq_results_only.sqlite",
+ "competitions": [
+  "EPL",
+  "LALIGA",
+  "BUNDESLIGA",
+  "SERIEA",
+  "LIGUE1",
+  "UCL"
+ ],
+ "seasons": [
+  "2026-27",
+  "2025-26",
+  "2024-25",
+  "2023-24",
+  "2022-23",
+  "2021-22",
+  "2020-21",
+  "2019-20",
+  "2018-19"
+ ],
+ "dashboard_status": 200,
+ "dashboard_keys": [
+  "badge",
+  "competition",
+  "results",
+  "season",
+  "standings",
+  "summary"
+ ],
+ "league_phase": {
+  "status": 200,
+  "matches_in_data": 36,
+  "matches_played": 36,
+  "expected": 144,
+  "complete": false,
+  "teams": 36,
+  "criteria": "1-5 (provisional: the league phase is not finished)",
+  "note": "only 36 of 144 league-phase fixtures are in the data",
+  "top5": [
+   [
+    1,
+    "Paris Saint-Germain FC",
+    2,
+    6,
+    7,
+    10,
+    "round of 16 (direct)"
+   ],
+   [
+    2,
+    "FC Barcelona",
+    2,
+    6,
+    7,
+    9,
+    "round of 16 (direct)"
+   ],
+   [
+    3,
+    "Aston Villa FC",
+    2,
+    6,
+    7,
+    9,
+    "round of 16 (direct)"
+   ],
+   [
+    4,
+    "VfB Stuttgart",
+    2,
+    6,
+    5,
+    6,
+    "round of 16 (direct)"
+   ],
+   [
+    5,
+    "Liverpool FC",
+    2,
+    6,
+    4,
+    8,
+    "round of 16 (direct)"
+   ]
+  ],
+  "bottom2": [
+   [
+    35,
+    "Galatasaray S.K. (football)",
+    2,
+    0
+   ],
+   [
+    36,
+    "ŠK Slovan Bratislava",
+    2,
+    0
+   ]
+  ],
+  "played_values": [
+   2
+  ]
+ },
+ "teams_listed": 94,
+ "team_stats": {
+  "status": 200,
+  "keys": [
+   "form"
+  ]
+ },
+ "gameweeks": {
+  "status": 422,
+  "sample": "{\"detail\": \"gameweek forecasts are available for the five domestic leagues only (EPL, LALIGA, BUNDESLIGA, SERIEA, LIGUE1)\"}"
+ },
+ "matches_endpoint": {
+  "status": 200,
+  "n": 0,
+  "body": ""
+ },
+ "freshness_UCL": {
+  "latest_result": "2026-10-14",
+  "days_since_latest_result": 14,
+  "data_status": "historical_only",
+  "data_status_label": "Historical only: no automatic updates",
+  "has_warnings": true,
+  "warnings": [
+   {
+    "level": "warning",
+    "text": "2026-27: 36 of 144 matches are in the data."
+   }
+  ]
+ },
+ "prediction": {
+  "status": 200,
+  "badge": "Not validated (indicative only)",
+  "models": [],
+  "note": [
+   "This date is already in the past and no stored fixture matches it: a hypothetical matchup, not a forecast of a scheduled match.",
+   "This competition is NOT validated: the club models were evaluated on domestic leagues only. Probabilities are indicative."
+  ],
+  "probs": null
+ },
+ "prediction_repeat_identical": true,
+ "sync_disabled_in_this_check": true,
+ "featured_fixture_status": 200
+}

@@ -1,0 +1,42 @@
+{
+ "private_copy": "phase4_p43.sqlite",
+ "harness_old_sql_equals_application_function": true,
+ "plans": {
+  "old": "SEARCH m USING INDEX idx_matches_status_date (status=? AND match_date<?)",
+  "b": "SEARCH m USING INDEX idx_matches_comp_season_date (competition_id=?)"
+ },
+ "sample": {
+  "fixtures": 999,
+  "calls": 1998,
+  "specials": {
+   "first_matchdays": 120,
+   "status_scheduled": 120,
+   "status_awaiting_result": 54
+  },
+  "categories": {
+   "fixture_status=awaiting_result": 108,
+   "fixture_status=completed": 1532,
+   "fixture_status=scheduled": 358,
+   "results_returned=0": 5,
+   "results_returned=1": 4,
+   "results_returned=2": 1,
+   "results_returned=4": 3,
+   "results_returned=5": 1985
+  }
+ },
+ "old_versus_new_differences": 0,
+ "old_or_new_versus_oracle_differences": 0,
+ "future_data_leaks": 0,
+ "oracle_versus_new_on_two_newest_seasons": {
+  "calls": 7008,
+  "differences": 0,
+  "seconds": 118.4
+ },
+ "seconds_per_call": {
+  "old_median": 0.163,
+  "new_median": 0.005,
+  "old_max": 0.808,
+  "new_max": 0.039
+ },
+ "first_differences": []
+}

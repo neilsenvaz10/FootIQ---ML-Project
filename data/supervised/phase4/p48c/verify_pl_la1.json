@@ -1,0 +1,141 @@
+{
+ "generated_utc": "2026-10-27T13:01:12Z",
+ "snapshot_dir": "D:\\Foot IQ\\data\\snapshots\\p48c",
+ "only": [
+  "pl",
+  "la1"
+ ],
+ "source_change_since_import_snapshot": {
+  "pl": {
+   "previous_snapshot": "20261025T090708Z_investigation_pl.json",
+   "previous_matches": 380,
+   "new_matches": 380,
+   "only_in_new": 0,
+   "only_in_old": 0,
+   "changed_matches": 0,
+   "newly_finished": 0,
+   "date_changed": 0
+  },
+  "la1": {
+   "previous_snapshot": "20261025T090713Z_investigation_la1.json",
+   "previous_matches": 380,
+   "new_matches": 380,
+   "only_in_new": 0,
+   "only_in_old": 0,
+   "changed_matches": 4,
+   "newly_finished": 4,
+   "date_changed": 0
+  }
+ },
+ "dry_run_as_the_live_path_would_import": {
+  "protect_dates": false,
+  "leagues": {
+   "pl": {
+    "competition": "EPL",
+    "snapshot": "20261027T130107Z_p48c_pl.json",
+    "sha256": "5bc7f2def9f9725461afae05ae8cc04038122291b3e6991bb7c678a0963bac9d",
+    "bytes": 942711,
+    "saved_utc": "2026-10-27T13:01:07Z",
+    "inserted": 0,
+    "updated": 36,
+    "unchanged": 284,
+    "confirmed": 58,
+    "quarantined": 2,
+    "records": 380,
+    "held_date_difference": 0
+   },
+   "la1": {
+    "competition": "LALIGA",
+    "snapshot": "20261027T130112Z_p48c_la1.json",
+    "sha256": "efe9e2a94ae06151f39947cbcb04e73e5c8e5f1534447bc96c5f3284afc11508",
+    "bytes": 452761,
+    "saved_utc": "2026-10-27T13:01:12Z",
+    "inserted": 0,
+    "updated": 28,
+    "unchanged": 263,
+    "confirmed": 89,
+    "quarantined": 0,
+    "records": 380,
+    "held_date_difference": 0
+   }
+  },
+  "row_changes": {
+   "changed:match_date": 55,
+   "changed:kickoff_utc": 55,
+   "changed:time_precision": 55,
+   "changed:status": 15,
+   "changed:model_home_entity": 9,
+   "changed:model_away_entity": 9,
+   "changed:home_goals_final": 9,
+   "changed:away_goals_final": 9,
+   "changed:home_goals_90": 9,
+   "changed:away_goals_90": 9,
+   "changed:label_90_status": 9,
+   "changed:outcome": 9,
+   "changed:rated": 9,
+   "changed:regular": 9,
+   "changed:in_universe": 9,
+   "changed:source_system": 9,
+   "changed:licence": 9
+  },
+  "quarantine_added": 0,
+  "new_quarantine_reasons": [],
+  "production_sha256_before": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+  "production_sha256_after": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+  "production_untouched": true
+ },
+ "dry_run_with_date_protection": {
+  "protect_dates": true,
+  "leagues": {
+   "pl": {
+    "competition": "EPL",
+    "snapshot": "20261027T130107Z_p48c_pl.json",
+    "sha256": "5bc7f2def9f9725461afae05ae8cc04038122291b3e6991bb7c678a0963bac9d",
+    "bytes": 942711,
+    "saved_utc": "2026-10-27T13:01:07Z",
+    "inserted": 0,
+    "updated": 5,
+    "unchanged": 284,
+    "confirmed": 58,
+    "quarantined": 33,
+    "records": 380,
+    "held_date_difference": 31
+   },
+   "la1": {
+    "competition": "LALIGA",
+    "snapshot": "20261027T130112Z_p48c_la1.json",
+    "sha256": "efe9e2a94ae06151f39947cbcb04e73e5c8e5f1534447bc96c5f3284afc11508",
+    "bytes": 452761,
+    "saved_utc": "2026-10-27T13:01:12Z",
+    "inserted": 0,
+    "updated": 4,
+    "unchanged": 263,
+    "confirmed": 89,
+    "quarantined": 24,
+    "records": 380,
+    "held_date_difference": 24
+   }
+  },
+  "row_changes": {
+   "changed:status": 9,
+   "changed:model_home_entity": 4,
+   "changed:model_away_entity": 4,
+   "changed:home_goals_final": 4,
+   "changed:away_goals_final": 4,
+   "changed:home_goals_90": 4,
+   "changed:away_goals_90": 4,
+   "changed:label_90_status": 4,
+   "changed:outcome": 4,
+   "changed:rated": 4,
+   "changed:regular": 4,
+   "changed:in_universe": 4,
+   "changed:source_system": 4,
+   "changed:licence": 4
+  },
+  "quarantine_added": 0,
+  "new_quarantine_reasons": [],
+  "production_sha256_before": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+  "production_sha256_after": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+  "production_untouched": true
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "production_file_only_copied": true,
+ "source_sha256_at_start": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+ "runs": [
+  {
+   "start": 1,
+   "ready": true,
+   "seconds_to_ready": 36.6,
+   "endpoints": {
+    "/api/sync/status": 200,
+    "/api/featured-fixture": 200,
+    "/api/matches?limit=20": 200,
+    "/api/competitions": 200,
+    "/api/gameweeks?key=EPL": 200,
+    "/api/gameweek?key=BUNDESLIGA&matchday=9": 200,
+    "/api/meta": 200
+   },
+   "before": {
+    "main_sha256": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+    "main_bytes": 228655104,
+    "sidecars": {
+     "-wal": {
+      "exists": true,
+      "bytes": 0
+     },
+     "-shm": {
+      "exists": true,
+      "bytes": 32768
+     }
+    },
+    "sync_runs": 8,
+    "journal_mode": "wal",
+    "newest_last_changed": "2026-10-25T09:07:13Z",
+    "matches": 223510
+   },
+   "after": {
+    "main_sha256": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+    "main_bytes": 228655104,
+    "sidecars": {
+     "-wal": {
+      "exists": true,
+      "bytes": 0
+     },
+     "-shm": {
+      "exists": true,
+      "bytes": 32768
+     }
+    },
+    "sync_runs": 8,
+    "journal_mode": "wal",
+    "newest_last_changed": "2026-10-25T09:07:13Z",
+    "matches": 223510
+   },
+   "main_file_changed": false,
+   "sync_runs_added": 0
+  },
+  {
+   "start": 2,
+   "ready": true,
+   "seconds_to_ready": 33.8,
+   "endpoints": {
+    "/api/sync/status": 200,
+    "/api/featured-fixture": 200,
+    "/api/matches?limit=20": 200,
+    "/api/competitions": 200,
+    "/api/gameweeks?key=EPL": 200,
+    "/api/gameweek?key=BUNDESLIGA&matchday=9": 200,
+    "/api/meta": 200
+   },
+   "before": {
+    "main_sha256": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+    "main_bytes": 228655104,
+    "sidecars": {
+     "-wal": {
+      "exists": true,
+      "bytes": 0
+     },
+     "-shm": {
+      "exists": true,
+      "bytes": 32768
+     }
+    },
+    "sync_runs": 8,
+    "journal_mode": "wal",
+    "newest_last_changed": "2026-10-25T09:07:13Z",
+    "matches": 223510
+   },
+   "after": {
+    "main_sha256": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+    "main_bytes": 228655104,
+    "sidecars": {
+     "-wal": {
+      "exists": true,
+      "bytes": 0
+     },
+     "-shm": {
+      "exists": true,
+      "bytes": 32768
+     }
+    },
+    "sync_runs": 8,
+    "journal_mode": "wal",
+    "newest_last_changed": "2026-10-25T09:07:13Z",
+    "matches": 223510
+   },
+   "main_file_changed": false,
+   "sync_runs_added": 0
+  },
+  {
+   "start": 3,
+   "ready": true,
+   "seconds_to_ready": 34.6,
+   "endpoints": {
+    "/api/sync/status": 200,
+    "/api/featured-fixture": 200,
+    "/api/matches?limit=20": 200,
+    "/api/competitions": 200,
+    "/api/gameweeks?key=EPL": 200,
+    "/api/gameweek?key=BUNDESLIGA&matchday=9": 200,
+    "/api/meta": 200
+   },
+   "before": {
+    "main_sha256": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+    "main_bytes": 228655104,
+    "sidecars": {
+     "-wal": {
+      "exists": true,
+      "bytes": 0
+     },
+     "-shm": {
+      "exists": true,
+      "bytes": 32768
+     }
+    },
+    "sync_runs": 8,
+    "journal_mode": "wal",
+    "newest_last_changed": "2026-10-25T09:07:13Z",
+    "matches": 223510
+   },
+   "after": {
+    "main_sha256": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+    "main_bytes": 228655104,
+    "sidecars": {
+     "-wal": {
+      "exists": true,
+      "bytes": 0
+     },
+     "-shm": {
+      "exists": true,
+      "bytes": 32768
+     }
+    },
+    "sync_runs": 8,
+    "journal_mode": "wal",
+    "newest_last_changed": "2026-10-25T09:07:13Z",
+    "matches": 223510
+   },
+   "main_file_changed": false,
+   "sync_runs_added": 0
+  }
+ ],
+ "start_state": {
+  "main_sha256": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+  "main_bytes": 228655104,
+  "sidecars": {
+   "-wal": {
+    "exists": true,
+    "bytes": 0
+   },
+   "-shm": {
+    "exists": true,
+    "bytes": 32768
+   }
+  },
+  "sync_runs": 8,
+  "journal_mode": "wal",
+  "newest_last_changed": "2026-10-25T09:07:13Z",
+  "matches": 223510
+ },
+ "source_sha256_at_end": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+ "production_unchanged_by_audit": true
+}

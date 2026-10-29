@@ -1,0 +1,161 @@
+{
+ "kind": "STAGE A: REAL-NETWORK cycle (first-fetch path) + REPLAYED follow-ups",
+ "started_utc": "2026-10-27T15:10:53Z",
+ "approved_urls": [
+  "https://api.openligadb.de/getmatchdata/bl1/2026"
+ ],
+ "request_cap": 1,
+ "production_sha256_before": "1bfad5bd4663e70776ef9da35f5c89eeed11b1ed7274ee7fdb562e266a9cb278",
+ "private_copy_note": "source_state row deleted in the private copy only, so the scheduler uses the first-fetch endpoint",
+ "due_before": "2026-10-25T14:38:27Z",
+ "real_network": {
+  "outcome": "ok",
+  "changed": 0,
+  "details": [
+   {
+    "competition": "BUNDESLIGA",
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 243,
+    "confirmed": 63,
+    "quarantined": 0,
+    "requests": 1
+   }
+  ],
+  "ledger": [
+   {
+    "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+    "requested_utc": "2026-10-27T15:11:04Z",
+    "status": 200,
+    "bytes": 316983,
+    "sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46",
+    "answered_utc": "2026-10-27T15:11:07Z"
+   }
+  ],
+  "requests": 1,
+  "change_callbacks": 0
+ },
+ "reconciliation": {
+  "rows_changed": 0,
+  "changes": {},
+  "matches_before_after": [
+   223510,
+   223510
+  ],
+  "quarantine_added": 0,
+  "tables_changed": [
+   "source_snapshots",
+   "source_state"
+  ],
+  "links_changed": [],
+  "links_added": 0,
+  "snapshot": {
+   "file": "20261027T151107Z_bl1_2026_season.json",
+   "sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46",
+   "bytes": 316983
+  },
+  "sync_runs": [
+   {
+    "run_id": 11,
+    "kind": "startup_check",
+    "competition_key": null,
+    "outcome": "ok",
+    "requests": 1,
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "quarantined": 0,
+    "latest_result_date": null
+   },
+   {
+    "run_id": 12,
+    "kind": "sync",
+    "competition_key": "BUNDESLIGA",
+    "outcome": "ok",
+    "requests": 1,
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 243,
+    "quarantined": 0,
+    "latest_result_date": "2026-10-25"
+   }
+  ],
+  "source_state": [
+   {
+    "scope": "bl1/2026",
+    "state_json": "{\"last_ok_utc\": \"2026-10-27T15:10:53Z\", \"latest_result\": \"2026-10-25\"}"
+   }
+  ]
+ },
+ "provenance_of_the_imported_results": [
+  {
+   "source_ref": "83213",
+   "role": "primary",
+   "snapshot": "20261027T125704Z_p48c_bl1.json"
+  },
+  {
+   "source_ref": "83214",
+   "role": "primary",
+   "snapshot": "20261027T125704Z_p48c_bl1.json"
+  },
+  {
+   "source_ref": "85426",
+   "role": "primary",
+   "snapshot": "20261027T130112Z_p48c_la1.json"
+  },
+  {
+   "source_ref": "85428",
+   "role": "primary",
+   "snapshot": "20261027T130112Z_p48c_la1.json"
+  },
+  {
+   "source_ref": "85429",
+   "role": "primary",
+   "snapshot": "20261027T130112Z_p48c_la1.json"
+  },
+  {
+   "source_ref": "85432",
+   "role": "primary",
+   "snapshot": "20261027T130112Z_p48c_la1.json"
+  }
+ ],
+ "next_due_after_cycle": "2026-10-27T21:10:53Z",
+ "replayed_followups": {
+  "label": "REPLAYED SNAPSHOT (no network)",
+  "same_instant": "not_due",
+  "restart_inside_interval": "not_due",
+  "cycle_after_6h": {
+   "outcome": "ok",
+   "changed": 0,
+   "requests": 5
+  },
+  "duplicate_import_tables_changed": [
+   "source_snapshots",
+   "source_state"
+  ],
+  "duplicate_record_ids": 0
+ },
+ "replayed_failure": {
+  "outcome": "error",
+  "data_tables_unchanged": true,
+  "next_due": "2026-10-28T15:11:53Z",
+  "wait_hours": 12.0,
+  "integrity": "ok"
+ },
+ "replayed_quarantine": {
+  "outcome": "ok",
+  "new_quarantine_rows": 4,
+  "reasons": [
+   "DATE_DIFFERENCE: stored 2026-10-24 vs source 2026-10-25: RB Leipzig v SV 07 Elversberg (a completed ",
+   "CONFLICT: stored 2-3 vs source 3-3",
+   "DATE_DIFFERENCE: stored 2026-10-17 vs source 2026-10-18: 1. FC Union Berlin v Borussia Dortmund (a c",
+   "CONFLICT: stored 1-0 vs source 2-0"
+  ],
+  "stored_scores_and_dates_unchanged": true
+ },
+ "replayed_requests_total": 11,
+ "private_copy_integrity": "ok",
+ "production_sha256_after": "1bfad5bd4663e70776ef9da35f5c89eeed11b1ed7274ee7fdb562e266a9cb278",
+ "production_untouched": true,
+ "config_sync_json_live_enabled": false
+}

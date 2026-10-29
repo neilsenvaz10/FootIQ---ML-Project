@@ -1,0 +1,75 @@
+{
+ "frozen_at": "2026-10-21 13:59:15",
+ "seed": 20261021,
+ "development_end_inclusive": "2024-06-30",
+ "forbidden_for_decisions": "any outcome dated after 2024-06-30 (the v1 test 2024-07-01..2025-06-30 and the v1 forward holdout 2025-07-01..2026-09-30 were inspected in the v1 experiment and are never used for tuning, feature selection, calibration or promotion; v2 is not evaluated on them at all)",
+ "row_universe": "the 116,854 eligible domestic-league rows of dataset v1.1 with match_date <= 2024-06-30 (train + validation of v1.1)",
+ "folds": [
+  {
+   "fold": 1,
+   "train_end": "2021-06-30",
+   "val_start": "2021-07-01",
+   "val_end": "2022-06-30",
+   "calibration_window_start": "2020-07-01",
+   "train_rows": 33707,
+   "core_fit_rows": 19876,
+   "calibration_rows": 13831,
+   "val_rows": 12477,
+   "val_primary_rows": 10086,
+   "val_secondary_calendar_year_rows": 2302,
+   "val_leagues": 31,
+   "val_incomplete_or_flagged_rows_excluded": 89,
+   "train_leagues": 45
+  },
+  {
+   "fold": 2,
+   "train_end": "2022-06-30",
+   "val_start": "2022-07-01",
+   "val_end": "2023-06-30",
+   "calibration_window_start": "2021-07-01",
+   "train_rows": 46184,
+   "core_fit_rows": 33707,
+   "calibration_rows": 12477,
+   "val_rows": 13172,
+   "val_primary_rows": 9703,
+   "val_secondary_calendar_year_rows": 3405,
+   "val_leagues": 29,
+   "val_incomplete_or_flagged_rows_excluded": 64,
+   "train_leagues": 48
+  },
+  {
+   "fold": 3,
+   "train_end": "2023-06-30",
+   "val_start": "2023-07-01",
+   "val_end": "2024-06-30",
+   "calibration_window_start": "2022-07-01",
+   "train_rows": 59356,
+   "core_fit_rows": 46184,
+   "calibration_rows": 13172,
+   "val_rows": 22578,
+   "val_primary_rows": 17092,
+   "val_secondary_calendar_year_rows": 5015,
+   "val_leagues": 68,
+   "val_incomplete_or_flagged_rows_excluded": 471,
+   "train_leagues": 63
+  }
+ ],
+ "fold_sizes_verified": true,
+ "evaluation_rows": "dev_primary = complete (or complete-through-cutoff) split-year league-seasons without identity-review flags, mirroring the v1.1 'primary' definition; calendar-year leagues are evaluated separately as dev_secondary_calendar_year, never pooled",
+ "calibration": "within each fold the last 12 months of the fold's training period form a separate calibration window (calibrator fitted there, base model fitted on the earlier core window); uncalibrated models are fitted on the whole training window",
+ "metric": "primary: mean multiclass log loss over the 3 folds; secondary: Brier, accuracy, macro F1, class F1, draw metrics, calibration error, fold standard deviation",
+ "selection_rule": "a more complex model or additional feature group is preferred only if it lowers mean fold log loss by >= 0.0010 AND is not worse in at least 2 of 3 folds; otherwise the simpler alternative wins",
+ "tuning_budget": "LR 3 values of C; RF 6 configurations; HGB 8 configurations; Elo parameter grid 18 configurations; every candidate evaluated only on fold validation windows",
+ "prohibited": [
+  "random shuffling",
+  "fitting any transformer on validation rows",
+  "same-day outcomes as information",
+  "using data after 2024-06-30"
+ ],
+ "unavailable_algorithms": [
+  "xgboost",
+  "lightgbm",
+  "catboost"
+ ],
+ "expanding_window": "train window always starts at 2018-08-01 and ends at the fold's train_end; features for any match use only strictly earlier calendar days (state history may start before 2018-08-01)"
+}

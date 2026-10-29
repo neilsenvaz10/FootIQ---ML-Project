@@ -1,0 +1,13 @@
+{
+ "ru1_rows": 240,
+ "ru2_rows": 240,
+ "ru2_rows_identical_to_ru1": 240,
+ "title_ru1": "= Russia Premier League 2019/20",
+ "title_ru2": "= Russia 1. Division 2019/20",
+ "body_lines_identical_after_title": true,
+ "distinct_teams_ru1": 16,
+ "distinct_teams_ru2": 16,
+ "other_ru2_files": [
+  "europe/russia/2019-20_ru2.txt"
+ ]
+}

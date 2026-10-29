@@ -1,0 +1,742 @@
+{
+  "desktop_home": {
+    "path": "/",
+    "vw": 1440,
+    "overflowX": 0,
+    "title": "Home · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "Home"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 267,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 21,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 0,
+      "smallSamples": [],
+      "decorativeUnder12px": 32
+    },
+    "targets": {
+      "controls": 29,
+      "inlineTextLinks": 0,
+      "below44": 0,
+      "below24": 0,
+      "below44Samples": []
+    }
+  },
+  "desktop_matches": {
+    "path": "/matches",
+    "vw": 1440,
+    "overflowX": 0,
+    "title": "Matches · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "Matches"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 379,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 2,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 0,
+      "smallSamples": [],
+      "decorativeUnder12px": 0
+    },
+    "targets": {
+      "controls": 72,
+      "inlineTextLinks": 0,
+      "below44": 0,
+      "below24": 0,
+      "below44Samples": []
+    }
+  },
+  "desktop_leagues": {
+    "path": "/analytics",
+    "vw": 1440,
+    "overflowX": 0,
+    "title": "Leagues · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "Leagues & cups"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 395,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 4,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 0,
+      "smallSamples": [],
+      "decorativeUnder12px": 0
+    },
+    "targets": {
+      "controls": 21,
+      "inlineTextLinks": 0,
+      "below44": 0,
+      "below24": 0,
+      "below44Samples": []
+    }
+  },
+  "desktop_compare": {
+    "path": "/compare",
+    "vw": 1440,
+    "overflowX": 0,
+    "title": "Compare · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "Compare teams"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 49,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 0,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 0,
+      "smallSamples": [],
+      "decorativeUnder12px": 0
+    },
+    "targets": {
+      "controls": 13,
+      "inlineTextLinks": 0,
+      "below44": 0,
+      "below24": 0,
+      "below44Samples": []
+    }
+  },
+  "desktop_predictions": {
+    "path": "/predict",
+    "vw": 1440,
+    "overflowX": 0,
+    "title": "Predictions · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "Predictions"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 178,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 1,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 0,
+      "smallSamples": [],
+      "decorativeUnder12px": 18
+    },
+    "targets": {
+      "controls": 26,
+      "inlineTextLinks": 0,
+      "below44": 0,
+      "below24": 0,
+      "below44Samples": []
+    }
+  },
+  "desktop_worldcup_controls": {
+    "path": "/simulations",
+    "vw": 1440,
+    "overflowX": 0,
+    "title": "Simulations · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "World Cup simulator"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 184,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 1,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 0,
+      "smallSamples": [],
+      "decorativeUnder12px": 41
+    },
+    "targets": {
+      "controls": 19,
+      "inlineTextLinks": 0,
+      "below44": 2,
+      "below24": 2,
+      "below44Samples": [
+        "input \"INPUT\" 20x20",
+        "input \"INPUT\" 20x20"
+      ]
+    }
+  },
+  "desktop_worldcup_simulated": {
+    "path": "/simulations",
+    "vw": 1440,
+    "overflowX": 0,
+    "title": "Simulations · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "World Cup simulator"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 184,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 1,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 0,
+      "smallSamples": [],
+      "decorativeUnder12px": 41
+    },
+    "targets": {
+      "controls": 19,
+      "inlineTextLinks": 0,
+      "below44": 2,
+      "below24": 2,
+      "below44Samples": [
+        "input \"INPUT\" 20x20",
+        "input \"INPUT\" 20x20"
+      ]
+    }
+  },
+  "desktop_season_simulated": {
+    "path": "/simulations",
+    "vw": 1440,
+    "overflowX": 0,
+    "title": "Simulations · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "Season simulator"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 498,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 1,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 27,
+      "smallSamples": [
+        {
+          "t": "Newest result",
+          "fs": 11
+        },
+        {
+          "t": "3 day(s) ago",
+          "fs": 11
+        },
+        {
+          "t": "Results stored",
+          "fs": 11
+        },
+        {
+          "t": "of 306 fixtures",
+          "fs": 11
+        },
+        {
+          "t": "Played, no result",
+          "fs": 11
+        },
+        {
+          "t": "3.2% of played-date fixt",
+          "fs": 11
+        },
+        {
+          "t": "Still to simulate",
+          "fs": 11
+        },
+        {
+          "t": "0 postponed",
+          "fs": 11
+        }
+      ],
+      "decorativeUnder12px": 17
+    },
+    "targets": {
+      "controls": 61,
+      "inlineTextLinks": 0,
+      "below44": 21,
+      "below24": 3,
+      "below44Samples": [
+        "button \"BMFC Bayern München142878–\" 1102x40",
+        "button \"BDBorussia Dortmund172761–\" 1102x40",
+        "button \"BLBayer 04 Leverkusen13285\" 1102x40",
+        "button \"RLRB Leipzig122750–6758.4\" 1102x40",
+        "button \"FRSC Freiburg132847–6455.7\" 1102x40",
+        "button \"STVfB Stuttgart62742–5950.\" 1102x40",
+        "button \"MA1. FSV Mainz 05102737–54\" 1102x40",
+        "button \"AUFC Augsburg92736–5345.0\" 1102x40",
+        "button \"WBSV Werder Bremen122737–5\" 1102x40",
+        "button \"HOTSG 1899 Hoffenheim62834\" 1102x40",
+        "button \"ELSV 07 Elversberg102733–4\" 1102x40",
+        "button \"EFEintracht Frankfurt82732\" 1102x40"
+      ]
+    }
+  },
+  "desktop_models": {
+    "path": "/models",
+    "vw": 1440,
+    "overflowX": 0,
+    "title": "Models · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "Model performance"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 422,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 0,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 0,
+      "smallSamples": [],
+      "decorativeUnder12px": 0
+    },
+    "targets": {
+      "controls": 35,
+      "inlineTextLinks": 0,
+      "below44": 0,
+      "below24": 0,
+      "below44Samples": []
+    }
+  },
+  "tablet_home": {
+    "path": "/",
+    "vw": 820,
+    "overflowX": 0,
+    "title": "Home · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "Home"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 263,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 21,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 0,
+      "smallSamples": [],
+      "decorativeUnder12px": 32
+    },
+    "targets": {
+      "controls": 29,
+      "inlineTextLinks": 0,
+      "below44": 0,
+      "below24": 0,
+      "below44Samples": []
+    }
+  },
+  "tablet_leagues": {
+    "path": "/analytics",
+    "vw": 820,
+    "overflowX": 0,
+    "title": "Leagues · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "Leagues & cups"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 391,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 4,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 0,
+      "smallSamples": [],
+      "decorativeUnder12px": 0
+    },
+    "targets": {
+      "controls": 21,
+      "inlineTextLinks": 0,
+      "below44": 0,
+      "below24": 0,
+      "below44Samples": []
+    }
+  },
+  "tablet_worldcup": {
+    "path": "/simulations",
+    "vw": 820,
+    "overflowX": 0,
+    "title": "Simulations · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "World Cup simulator"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 59,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 1,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 0,
+      "smallSamples": [],
+      "decorativeUnder12px": 0
+    },
+    "targets": {
+      "controls": 19,
+      "inlineTextLinks": 0,
+      "below44": 2,
+      "below24": 2,
+      "below44Samples": [
+        "input \"INPUT\" 20x20",
+        "input \"INPUT\" 20x20"
+      ]
+    }
+  },
+  "tablet_season": {
+    "path": "/simulations",
+    "vw": 820,
+    "overflowX": 0,
+    "title": "Simulations · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "Season simulator"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 124,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 1,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 8,
+      "smallSamples": [
+        {
+          "t": "Newest result",
+          "fs": 11
+        },
+        {
+          "t": "3 day(s) ago",
+          "fs": 11
+        },
+        {
+          "t": "Results stored",
+          "fs": 11
+        },
+        {
+          "t": "of 306 fixtures",
+          "fs": 11
+        },
+        {
+          "t": "Played, no result",
+          "fs": 11
+        },
+        {
+          "t": "3.2% of played-date fixt",
+          "fs": 11
+        },
+        {
+          "t": "Still to simulate",
+          "fs": 11
+        },
+        {
+          "t": "0 postponed",
+          "fs": 11
+        }
+      ],
+      "decorativeUnder12px": 0
+    },
+    "targets": {
+      "controls": 23,
+      "inlineTextLinks": 0,
+      "below44": 1,
+      "below24": 1,
+      "below44Samples": [
+        "summary \"Assumptions and limitation\" 650x23"
+      ]
+    }
+  },
+  "mobile_home": {
+    "path": "/",
+    "vw": 375,
+    "overflowX": 0,
+    "title": "Home · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "Home"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 223,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 21,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 0,
+      "smallSamples": [],
+      "decorativeUnder12px": 29
+    },
+    "targets": {
+      "controls": 28,
+      "inlineTextLinks": 0,
+      "below44": 0,
+      "below24": 0,
+      "below44Samples": []
+    }
+  },
+  "mobile_leagues": {
+    "path": "/analytics",
+    "vw": 375,
+    "overflowX": 0,
+    "title": "Leagues · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "Leagues & cups"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 423,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 4,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 0,
+      "smallSamples": [],
+      "decorativeUnder12px": 0
+    },
+    "targets": {
+      "controls": 20,
+      "inlineTextLinks": 0,
+      "below44": 0,
+      "below24": 0,
+      "below44Samples": []
+    }
+  },
+  "mobile_worldcup": {
+    "path": "/simulations",
+    "vw": 375,
+    "overflowX": 0,
+    "title": "Simulations · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "World Cup simulator"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 61,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 1,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 0,
+      "smallSamples": [],
+      "decorativeUnder12px": 0
+    },
+    "targets": {
+      "controls": 18,
+      "inlineTextLinks": 0,
+      "below44": 2,
+      "below24": 2,
+      "below44Samples": [
+        "input \"INPUT\" 20x20",
+        "input \"INPUT\" 20x20"
+      ]
+    }
+  },
+  "mobile_season": {
+    "path": "/simulations",
+    "vw": 375,
+    "overflowX": 0,
+    "title": "Simulations · FootIQ",
+    "landmarks": {
+      "header": 0,
+      "nav": 2,
+      "main": 1,
+      "footer": 1,
+      "aside": 1
+    },
+    "h1": [
+      "Season simulator"
+    ],
+    "interFaces": [
+      "Inter Variable"
+    ],
+    "text": {
+      "nodes": 126,
+      "gradientBackgroundSkipped": 0,
+      "gradientBackgroundsChecked": 1,
+      "contrastFailures": 0,
+      "failSamples": [],
+      "under12px": 8,
+      "smallSamples": [
+        {
+          "t": "Newest result",
+          "fs": 11
+        },
+        {
+          "t": "3 day(s) ago",
+          "fs": 11
+        },
+        {
+          "t": "Results stored",
+          "fs": 11
+        },
+        {
+          "t": "of 306 fixtures",
+          "fs": 11
+        },
+        {
+          "t": "Played, no result",
+          "fs": 11
+        },
+        {
+          "t": "3.2% of played-date fixt",
+          "fs": 11
+        },
+        {
+          "t": "Still to simulate",
+          "fs": 11
+        },
+        {
+          "t": "0 postponed",
+          "fs": 11
+        }
+      ],
+      "decorativeUnder12px": 0
+    },
+    "targets": {
+      "controls": 22,
+      "inlineTextLinks": 0,
+      "below44": 1,
+      "below24": 1,
+      "below44Samples": [
+        "summary \"Assumptions and limitation\" 309x23"
+      ]
+    }
+  }
+}

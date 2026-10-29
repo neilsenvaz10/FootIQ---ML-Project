@@ -1,0 +1,167 @@
+{
+ "BUNDESLIGA": {
+  "title": {
+   "mean_width": 0.0014,
+   "max_width": 0.0124,
+   "clubs_with_width_over_5pp": 0,
+   "clubs_with_possible_over_1pp": 3,
+   "example": [
+    {
+     "club": "FC Bayern M\u00fcnchen",
+     "surely": 0.948,
+     "possibly": 0.961
+    },
+    {
+     "club": "Borussia Dortmund",
+     "surely": 0.029,
+     "possibly": 0.038
+    },
+    {
+     "club": "Bayer 04 Leverkusen",
+     "surely": 0.01,
+     "possibly": 0.013
+    }
+   ]
+  },
+  "top4": {
+   "mean_width": 0.0107,
+   "max_width": 0.0479,
+   "clubs_with_width_over_5pp": 0,
+   "clubs_with_possible_over_1pp": 11,
+   "example": [
+    {
+     "club": "FC Bayern M\u00fcnchen",
+     "surely": 1.0,
+     "possibly": 1.0
+    },
+    {
+     "club": "Borussia Dortmund",
+     "surely": 0.953,
+     "possibly": 0.964
+    },
+    {
+     "club": "Bayer 04 Leverkusen",
+     "surely": 0.878,
+     "possibly": 0.903
+    }
+   ]
+  },
+  "relegation": {
+   "mean_width": 0.0182,
+   "max_width": 0.0546,
+   "clubs_with_width_over_5pp": 3,
+   "clubs_with_possible_over_1pp": 12,
+   "example": [
+    {
+     "club": "Borussia M\u00f6nchengladbach",
+     "surely": 0.482,
+     "possibly": 0.534
+    },
+    {
+     "club": "1. FC Union Berlin",
+     "surely": 0.326,
+     "possibly": 0.375
+    },
+    {
+     "club": "1. FC K\u00f6ln",
+     "surely": 0.31,
+     "possibly": 0.364
+    }
+   ]
+  },
+  "relegation_playoff": {
+   "mean_width": 0.0386,
+   "max_width": 0.1059,
+   "clubs_with_width_over_5pp": 6,
+   "clubs_with_possible_over_1pp": 12,
+   "example": [
+    {
+     "club": "1. FC K\u00f6ln",
+     "surely": 0.106,
+     "possibly": 0.211
+    },
+    {
+     "club": "FC Schalke 04",
+     "surely": 0.1,
+     "possibly": 0.203
+    },
+    {
+     "club": "1. FC Union Berlin",
+     "surely": 0.102,
+     "possibly": 0.198
+    }
+   ]
+  }
+ },
+ "LALIGA": {
+  "title": {
+   "mean_width": 0.001,
+   "max_width": 0.0096,
+   "clubs_with_width_over_5pp": 0,
+   "clubs_with_possible_over_1pp": 2,
+   "example": [
+    {
+     "club": "FC Barcelona",
+     "surely": 0.961,
+     "possibly": 0.971
+    },
+    {
+     "club": "Real Madrid CF",
+     "surely": 0.026,
+     "possibly": 0.035
+    },
+    {
+     "club": "Club Atl\u00e9tico de Madrid",
+     "surely": 0.003,
+     "possibly": 0.004
+    }
+   ]
+  },
+  "top4": {
+   "mean_width": 0.0069,
+   "max_width": 0.0464,
+   "clubs_with_width_over_5pp": 0,
+   "clubs_with_possible_over_1pp": 11,
+   "example": [
+    {
+     "club": "FC Barcelona",
+     "surely": 1.0,
+     "possibly": 1.0
+    },
+    {
+     "club": "Real Madrid CF",
+     "surely": 0.998,
+     "possibly": 0.999
+    },
+    {
+     "club": "Club Atl\u00e9tico de Madrid",
+     "surely": 0.977,
+     "possibly": 0.984
+    }
+   ]
+  },
+  "relegation": {
+   "mean_width": 0.0161,
+   "max_width": 0.045,
+   "clubs_with_width_over_5pp": 0,
+   "clubs_with_possible_over_1pp": 14,
+   "example": [
+    {
+     "club": "M\u00e1laga CF",
+     "surely": 0.97,
+     "possibly": 0.978
+    },
+    {
+     "club": "Real Racing Club de Santander",
+     "surely": 0.763,
+     "possibly": 0.803
+    },
+    {
+     "club": "RC Deportivo La Coru\u00f1a",
+     "surely": 0.232,
+     "possibly": 0.277
+    }
+   ]
+  }
+ }
+}

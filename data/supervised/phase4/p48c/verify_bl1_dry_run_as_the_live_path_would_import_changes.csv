@@ -1,0 +1,29 @@
+record_id,competition,change,field,before,after,home,away,match_date
+deutschland:1-bundesliga:2026-27:L110,BUNDESLIGA,UPDATED,model_home_entity,,CLUB:GER:tsg-1899-hoffenheim,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2026-10-25
+deutschland:1-bundesliga:2026-27:L110,BUNDESLIGA,UPDATED,model_away_entity,,CLUB:GER:bayer-04-leverkusen,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2026-10-25
+deutschland:1-bundesliga:2026-27:L110,BUNDESLIGA,UPDATED,status,scheduled,completed,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2026-10-25
+deutschland:1-bundesliga:2026-27:L110,BUNDESLIGA,UPDATED,home_goals_final,,3,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2026-10-25
+deutschland:1-bundesliga:2026-27:L110,BUNDESLIGA,UPDATED,away_goals_final,,0,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2026-10-25
+deutschland:1-bundesliga:2026-27:L110,BUNDESLIGA,UPDATED,home_goals_90,,3,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2026-10-25
+deutschland:1-bundesliga:2026-27:L110,BUNDESLIGA,UPDATED,away_goals_90,,0,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2026-10-25
+deutschland:1-bundesliga:2026-27:L110,BUNDESLIGA,UPDATED,label_90_status,,confirmed,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2026-10-25
+deutschland:1-bundesliga:2026-27:L110,BUNDESLIGA,UPDATED,outcome,,H,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2026-10-25
+deutschland:1-bundesliga:2026-27:L110,BUNDESLIGA,UPDATED,rated,,1,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2026-10-25
+deutschland:1-bundesliga:2026-27:L110,BUNDESLIGA,UPDATED,regular,,1,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2026-10-25
+deutschland:1-bundesliga:2026-27:L110,BUNDESLIGA,UPDATED,in_universe,0,1,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2026-10-25
+deutschland:1-bundesliga:2026-27:L110,BUNDESLIGA,UPDATED,source_system,openfootball (CC0 / public domain),openligadb,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2026-10-25
+deutschland:1-bundesliga:2026-27:L110,BUNDESLIGA,UPDATED,licence,CC0-1.0,ODbL-1.0,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,2026-10-25
+deutschland:1-bundesliga:2026-27:L111,BUNDESLIGA,UPDATED,model_home_entity,,CLUB:GER:sc-freiburg,SC Freiburg,FC Bayern München,2026-10-25
+deutschland:1-bundesliga:2026-27:L111,BUNDESLIGA,UPDATED,model_away_entity,,CLUB:GER:bayern-munchen,SC Freiburg,FC Bayern München,2026-10-25
+deutschland:1-bundesliga:2026-27:L111,BUNDESLIGA,UPDATED,status,scheduled,completed,SC Freiburg,FC Bayern München,2026-10-25
+deutschland:1-bundesliga:2026-27:L111,BUNDESLIGA,UPDATED,home_goals_final,,1,SC Freiburg,FC Bayern München,2026-10-25
+deutschland:1-bundesliga:2026-27:L111,BUNDESLIGA,UPDATED,away_goals_final,,3,SC Freiburg,FC Bayern München,2026-10-25
+deutschland:1-bundesliga:2026-27:L111,BUNDESLIGA,UPDATED,home_goals_90,,1,SC Freiburg,FC Bayern München,2026-10-25
+deutschland:1-bundesliga:2026-27:L111,BUNDESLIGA,UPDATED,away_goals_90,,3,SC Freiburg,FC Bayern München,2026-10-25
+deutschland:1-bundesliga:2026-27:L111,BUNDESLIGA,UPDATED,label_90_status,,confirmed,SC Freiburg,FC Bayern München,2026-10-25
+deutschland:1-bundesliga:2026-27:L111,BUNDESLIGA,UPDATED,outcome,,A,SC Freiburg,FC Bayern München,2026-10-25
+deutschland:1-bundesliga:2026-27:L111,BUNDESLIGA,UPDATED,rated,,1,SC Freiburg,FC Bayern München,2026-10-25
+deutschland:1-bundesliga:2026-27:L111,BUNDESLIGA,UPDATED,regular,,1,SC Freiburg,FC Bayern München,2026-10-25
+deutschland:1-bundesliga:2026-27:L111,BUNDESLIGA,UPDATED,in_universe,0,1,SC Freiburg,FC Bayern München,2026-10-25
+deutschland:1-bundesliga:2026-27:L111,BUNDESLIGA,UPDATED,source_system,openfootball (CC0 / public domain),openligadb,SC Freiburg,FC Bayern München,2026-10-25
+deutschland:1-bundesliga:2026-27:L111,BUNDESLIGA,UPDATED,licence,CC0-1.0,ODbL-1.0,SC Freiburg,FC Bayern München,2026-10-25

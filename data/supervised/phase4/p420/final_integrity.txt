@@ -1,0 +1,108 @@
+{
+ "db_files": {
+  "footiq.sqlite": 228782080,
+  "footiq.sqlite-shm": 32768,
+  "footiq.sqlite-wal": 0
+ },
+ "db_sha256_before": "bb4dec741519ae6b5bd508da614b579edd9924027c1ffa41edfed6494a6ccc14",
+ "integrity_check": "ok",
+ "foreign_key_problems": 0,
+ "journal_mode": "wal",
+ "schema_version": "1",
+ "saved_simulations": [
+  {
+   "simulation_run_id": 1,
+   "created_utc": "2026-10-28T04:36:39Z",
+   "competition_key": "BUNDESLIGA",
+   "season": "2026-27",
+   "n_simulations": 10000
+  },
+  {
+   "simulation_run_id": 2,
+   "created_utc": "2026-10-28T04:37:39Z",
+   "competition_key": "LALIGA",
+   "season": "2026-27",
+   "n_simulations": 10000
+  }
+ ],
+ "saved_simulations_content_sha256": "33fbf4afae52d531639daff2ce57c68cd4e73908c4b802db425f2baa8cb99c01",
+ "forecasts": [
+  0,
+  0
+ ],
+ "matches_by_competition_2026_27": {
+  "null": 2444,
+  "BUNDESLIGA": 306,
+  "EPL": 380,
+  "LALIGA": 380,
+  "LIGUE1": 306,
+  "SERIEA": 380,
+  "UCL": 36,
+  "UEL": 18
+ },
+ "archived_rows_still_stored": {
+  "COPA": 869,
+  "UECL": 729,
+  "UEL": 1424,
+  "UNL": 658,
+  "WC": 1094
+ },
+ "last_sync_runs": [
+  [
+   30,
+   "sync",
+   "LALIGA",
+   "ok",
+   "2026-10-28T09:54:14Z"
+  ],
+  [
+   29,
+   "sync",
+   "BUNDESLIGA",
+   "ok",
+   "2026-10-28T09:54:03Z"
+  ],
+  [
+   28,
+   "startup_check",
+   null,
+   "ok",
+   "2026-10-28T09:53:46Z"
+  ],
+  [
+   27,
+   "sync",
+   "LALIGA",
+   "ok",
+   "2026-10-28T09:24:34Z"
+  ],
+  [
+   26,
+   "sync",
+   "BUNDESLIGA",
+   "ok",
+   "2026-10-28T09:24:26Z"
+  ]
+ ],
+ "quarantine_rows": 273,
+ "db_sha256_after": "bb4dec741519ae6b5bd508da614b579edd9924027c1ffa41edfed6494a6ccc14",
+ "db_file_unchanged_by_this_check": true,
+ "integrity_module": {
+  "club_v1": true,
+  "club_v2_r1": true,
+  "international_v27": null
+ },
+ "recorded_hashes_vs_now": {
+  "FootIQ_Club_Model_Baseline_v1/artifacts/multinomial_logreg.pkl": true,
+  "FootIQ_Club_Model_Baseline_v1/artifacts/preprocessing_train_fitted.json": true,
+  "FootIQ_Club_Model_Development_v2/final_refit_v2_r1/artifacts/club_v2_lr_final_candidate.pkl": true,
+  "FootIQ_Club_Model_Development_v2/final_refit_v2_r1/artifacts/feature_contract_v2_final.json": true,
+  "data/model_artifacts/v27/live_match_model.pkl": true
+ },
+ "recorded_hash_missing_files": [],
+ "archived_international_artifact": {
+  "exists": true,
+  "sha256": "0df37dd7c659e35b61a64b4178d19cddc2dd103f95a9967314321e8ff3784a1a"
+ }
+}
+tables: {'competitions': 162, 'match_sources': 224537, 'matches': 223528, 'meta': 2, 'quarantine': 273, 'simulation_runs': 2, 'source_snapshots': 14, 'source_state': 2, 'sync_runs': 30, 'team_aliases': 7447, 'teams': 5188}

@@ -1,0 +1,28 @@
+{
+ "version": "r1",
+ "rule": "a fixture whose club entity id (in that competition) is listed is logged but flagged ineligible_identity_collision_unresolved and excluded from the primary evaluation",
+ "entities": [
+  {
+   "entity_id": "world/africa|Police FC",
+   "competition_id": "world/africa:rw1"
+  },
+  {
+   "entity_id": "world/africa|Police FC",
+   "competition_id": "world/africa:ug1"
+  },
+  {
+   "entity_id": "world/africa|Vision FC",
+   "competition_id": "world/africa:gh1"
+  },
+  {
+   "entity_id": "world/africa|Vision FC",
+   "competition_id": "world/africa:rw1"
+  }
+ ],
+ "flag_only": [
+  {
+   "competition_id": "world/africa:zw1",
+   "reason": "2021-22 season dates non-chronological in source; sensitivity measured; flagged, see audit"
+  }
+ ]
+}

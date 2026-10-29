@@ -1,0 +1,81 @@
+unresolved_entity,unresolved_name,resolved_entity,resolved_name,jaccard
+URU|Nacional,Nacional,CLUB:POR:cd-nacional-madeira,CD Nacional,1.0
+VEN|Zamora FC,Zamora FC,CLUB:ESP:zamora-cf,Zamora CF,1.0
+PAR|Club Nacional,Club Nacional,CLUB:POR:cd-nacional-madeira,CD Nacional,1.0
+ECU|Barcelona,Barcelona,CLUB:ESP:fc-barcelona,FC Barcelona,1.0
+CHI|Everton,Everton,CLUB:ENG:everton-fc,Everton FC,1.0
+FRA|Gazélec FC Ajaccio,Gazélec FC Ajaccio,CLUB:FRA:gfc-ajaccio,Gazélec Ajaccio,1.0
+AUT|Austria Wien II,Austria Wien II,CLUB:AUT:fk-austria-wien,Austria Wien,0.67
+AUT|SKN St. Pölten II,SKN St. Pölten II,CLUB:AUT:skn-st-polten,SKN St. Pölten,0.75
+GER|SSV Jeddeloh II,SSV Jeddeloh II,CLUB:GER:ssv-jeddeloh,SSV Jeddeloh,0.67
+ESP|Gimnàstic de Tarragona,Gimnàstic de Tarragona,CLUB:ESP:gimnastic-tarragona,Gimnàstic de Tarragona,1.0
+URU|Liverpool,Liverpool,CLUB:ENG:liverpool-fc,Liverpool FC,1.0
+WP:italy:Reggina 1914,Reggina 1914,CLUB:ITA:reggina-1914,Reggina 1914,1.0
+WP:spain:Melilla CD,Melilla CD,CLUB:ESP:ud-melilla,UD Melilla,1.0
+WP:spain:Mérida AD,Mérida AD,CLUB:ESP:merida-ad,Mérida AD,1.0
+europe/netherlands|AZ Alkmaar J,AZ Alkmaar J,CLUB:NED:az-alkmaar,AZ Alkmaar,0.67
+ENG|United of Manchester,United of Manchester,CLUB:ENG:manchester-united-fc,Manchester United,1.0
+ENG|United of Manchester,United of Manchester,CLUB:ENG:manchester-city-fc,Manchester City,1.0
+ESP|CD Ibiza,CD Ibiza,CLUB:ESP:ud-ibiza,UD Ibiza,1.0
+WP:france:AC Amiens,AC Amiens,CLUB:FRA:amiens-sc,Amiens SC,1.0
+world/asia|Tobyl Kostanay,Tobyl Kostanay,CLUB:KAZ:fc-tobol-kostanay,Tobyl Kostanay,1.0
+world/asia|FK Astana,FK Astana,CLUB:KAZ:fc-astana,FC Astana,1.0
+world/asia|FK Kairat,FK Kairat,CLUB:KAZ:fc-kairat-almaty,FK Kairat,1.0
+world/asia|FK Aktobe,FK Aktobe,CLUB:KAZ:fc-aktobe,FK Aktobe,1.0
+europe/latvia|FK Auda,FK Auda,CLUB:LVA:fk-auda-riga,FK Auda,1.0
+europe/latvia|Riga FC,Riga FC,CLUB:LVA:riga-fc,Riga FC,1.0
+europe/latvia|BFC Daugavpils,BFC Daugavpils,CLUB:LVA:bfc-daugavpils,BFC Daugavpils,1.0
+europe/latvia|FK Liepāja,FK Liepāja,CLUB:LVA:fk-liepaja,FK Liepāja,1.0
+europe/latvia|FK RFS,FK RFS,CLUB:LVA:fk-rfs,FK RFS,1.0
+URU|Liverpool FC,Liverpool FC,CLUB:ENG:liverpool-fc,Liverpool FC,1.0
+ECU|Barcelona SC,Barcelona SC,CLUB:ESP:fc-barcelona,FC Barcelona,1.0
+europe/bosnia-herzegovina|Velež Mostar,Velež Mostar,CLUB:BIH:velez-mostar,Velež Mostar,1.0
+europe/bosnia-herzegovina|FK Sarajevo,FK Sarajevo,CLUB:BIH:fk-sarajevo,FK Sarajevo,1.0
+europe/montenegro|FK Arsenal,FK Arsenal,CLUB:ENG:arsenal-fc,Arsenal FC,1.0
+europe/ukraine|FK Oleksandriya,FK Oleksandriya,CLUB:UKR:fc-olexandriya,FC Oleksandriya,1.0
+europe/north-macedonia|FC Struga,FC Struga,CLUB:MKD:fc-struga,FC Struga,1.0
+europe/north-macedonia|GFK Tikvesh,GFK Tikvesh,CLUB:MKD:gfk-tikvesh-1930,GFK Tikvesh,1.0
+europe/north-macedonia|FK Rabotnički,FK Rabotnički,CLUB:MKD:fk-rabotnicki,FK Rabotnički,1.0
+europe/bosnia-herzegovina|Željezničar Sarajevo,Željezničar Sarajevo,CLUB:BIH:fk-zeljeznicar,Željezničar Sarajevo,1.0
+europe/north-macedonia|Sileks Kratovo,Sileks Kratovo,CLUB:MKD:fk-sileks,Sileks Kratovo,1.0
+europe/north-macedonia|Vardar Skopje,Vardar Skopje,CLUB:MKD:fk-vardar,Vardar Skopje,1.0
+europe/bosnia-herzegovina|Borac Banja Luka,Borac Banja Luka,CLUB:BIH:fk-borac-banja-luka,Borac Banja Luka,1.0
+europe/bosnia-herzegovina|Zrinjski Mostar,Zrinjski Mostar,CLUB:BIH:hsk-zrinjski,Zrinjski Mostar,1.0
+europe/liechtenstein|USV Eschen/Mauren II,USV Eschen/Mauren II,CLUB:LIE:fc-usv-eschen-mauren,USV Eschen/Mauren,0.75
+europe/north-macedonia|KF Shkëndija 79,KF Shkëndija 79,CLUB:MKD:fk-shkendija-79,KF Shkëndija 79,1.0
+world/middle-east|Maccabi Petach-Tikva,Maccabi Petach-Tikva,CLUB:ISR:maccabi-petah-tikva-fc,Maccabi Petach-Tikva,1.0
+world/middle-east|Hapoel Be'er Sheva,Hapoel Be'er Sheva,CLUB:ISR:hapoel-beer-sheva-fc,Hapoel Be'er Sheva,1.0
+world/middle-east|Maccabi Tel Aviv,Maccabi Tel Aviv,CLUB:ISR:maccabi-tel-aviv-fc,Maccabi Tel Aviv,1.0
+world/middle-east|Beitar Jerusalem,Beitar Jerusalem,CLUB:ISR:beitar-jerusalem-fc,Beitar Jerusalem,1.0
+world/middle-east|Maccabi Haifa,Maccabi Haifa,CLUB:ISR:maccabi-haifa-fc,Maccabi Haifa,1.0
+ESP|Melilla CD,Melilla CD,CLUB:ESP:ud-melilla,UD Melilla,1.0
+GER|1899 Hoffenheim II,1899 Hoffenheim II,CLUB:GER:tsg-1899-hoffenheim,1899 Hoffenheim,0.67
+GER|Fortuna Düsseldorf II,Fortuna Düsseldorf II,CLUB:GER:fortuna-dusseldorf,Fortuna Düsseldorf,0.67
+GER|SC Paderborn 07 II,SC Paderborn 07 II,CLUB:GER:sc-paderborn-07,SC Paderborn 07,0.67
+europe/czech-republic|Slavia Praha B,Slavia Praha B,CLUB:CZE:sk-slavia-praha,Slavia Praha,0.67
+GER|Eintracht Frankfurt II,Eintracht Frankfurt II,CLUB:GER:eintracht-frankfurt,Eintracht Frankfurt,0.67
+GER|Bor. Mönchengladbach II,Bor. Mönchengladbach II,CLUB:GER:bor-monchengladbach,Bor. Mönchengladbach,0.67
+GER|1. FC Köln II,1. FC Köln II,CLUB:GER:1-fc-koln,1. FC Köln,0.67
+GER|Holstein Kiel II,Holstein Kiel II,CLUB:GER:holstein-kiel,Holstein Kiel,0.67
+GER|Hertha BSC II,Hertha BSC II,CLUB:GER:hertha-bsc,Hertha BSC,0.67
+europe/czech-republic|Baník Ostrava B,Baník Ostrava B,CLUB:CZE:fc-banik-ostrava,Baník Ostrava,0.67
+GER|FC Schalke 04 II,FC Schalke 04 II,CLUB:GER:fc-schalke-04,FC Schalke 04,0.67
+europe/switzerland|FC Besa St. Gallen,FC Besa St. Gallen,CLUB:SUI:fc-st-gallen,FC St. Gallen,0.67
+CTA|Red Star Bangui,Red Star Bangui,CLUB:FRA:red-star-fc,Red Star FC,0.67
+GER|FC St. Pauli II,FC St. Pauli II,CLUB:GER:fc-st-pauli,FC St. Pauli,0.67
+ITA|Aurora Pro Patria,Aurora Pro Patria,CLUB:ITA:pro-patria,Aurora Pro Patria 1919,0.75
+europe/czech-republic|Slavia Hradec Králové,Slavia Hradec Králové,CLUB:CZE:fc-hradec-kralove,FC Hradec Králové,0.67
+europe/slovenia|NK Maribor Tabor,NK Maribor Tabor,CLUB:SVN:nk-maribor,NK Maribor,0.67
+BEL|KV Diksmuide-Oostende,KV Diksmuide-Oostende,CLUB:BEL:kv-oostende,KV Oostende,0.67
+europe/liechtenstein|USV Eschen/Mauren III,USV Eschen/Mauren III,CLUB:LIE:fc-usv-eschen-mauren,USV Eschen/Mauren,0.75
+europe/slovenia|NK Virs Bistrica,NK Virs Bistrica,CLUB:SVN:nk-bistrica,NK Bistrica,0.67
+ESP|CD Extremadura,CD Extremadura,CLUB:ESP:extremadura-ud,Extremadura UD,1.0
+FRA|AS Beauvais,AS Beauvais,CLUB:FRA:as-beauvais-oise,AS Beauvais Oise,0.67
+FRA|Le Puy Foot 43,Le Puy Foot 43,CLUB:FRA:le-puy,Le Puy Foot 43 Auvergne,0.8
+europe/turkey|Çorum FK,Çorum FK,CLUB:TUR:corum,Çorum,1.0
+south-america/paraguay|Club Nacional,Club Nacional,CLUB:POR:cd-nacional-madeira,CD Nacional,1.0
+south-america/ecuador|Barcelona,Barcelona,CLUB:ESP:fc-barcelona,FC Barcelona,1.0
+UKR|FK Oleksandriya,FK Oleksandriya,CLUB:UKR:fc-olexandriya,FC Oleksandriya,1.0
+WP:spain:CD Extremadura,CD Extremadura,CLUB:ESP:extremadura-ud,Extremadura UD,1.0
+europe/czech-republic|1.FC Slovácko,1.FC Slovácko,CLUB:CZE:1-fc-slovacko,1. FC Slovácko,1.0
+WP:SLO:NK Celje,NK Celje,CLUB:SVN:nk-celje,NK Celje,1.0

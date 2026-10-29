@@ -1,0 +1,889 @@
+{
+ "exact_rows_common": 48404,
+ "common_rows_with_different_score": 74,
+ "common_rows_score_changes": [
+  [
+   "1974-02-17|Tahiti|New Caledonia|Friendly",
+   "2.0",
+   "1.0",
+   "1",
+   "2"
+  ],
+  [
+   "1974-02-17|Tahiti|New Caledonia|Friendly",
+   "1.0",
+   "2.0",
+   "2",
+   "1"
+  ],
+  [
+   "2026-06-11|Mexico|South Africa|FIFA World Cup",
+   "nan",
+   "nan",
+   "2",
+   "0"
+  ],
+  [
+   "2026-06-11|South Korea|Czech Republic|FIFA World Cup",
+   "nan",
+   "nan",
+   "2",
+   "1"
+  ],
+  [
+   "2026-06-12|Canada|Bosnia and Herzegovina|FIFA World Cup",
+   "nan",
+   "nan",
+   "1",
+   "1"
+  ],
+  [
+   "2026-06-12|United States|Paraguay|FIFA World Cup",
+   "nan",
+   "nan",
+   "4",
+   "1"
+  ],
+  [
+   "2026-06-13|Qatar|Switzerland|FIFA World Cup",
+   "nan",
+   "nan",
+   "1",
+   "1"
+  ],
+  [
+   "2026-06-13|Brazil|Morocco|FIFA World Cup",
+   "nan",
+   "nan",
+   "1",
+   "1"
+  ],
+  [
+   "2026-06-13|Haiti|Scotland|FIFA World Cup",
+   "nan",
+   "nan",
+   "0",
+   "1"
+  ],
+  [
+   "2026-06-13|Australia|Turkey|FIFA World Cup",
+   "nan",
+   "nan",
+   "2",
+   "0"
+  ],
+  [
+   "2026-06-14|Germany|Curaçao|FIFA World Cup",
+   "nan",
+   "nan",
+   "7",
+   "1"
+  ],
+  [
+   "2026-06-14|Ivory Coast|Ecuador|FIFA World Cup",
+   "nan",
+   "nan",
+   "1",
+   "0"
+  ],
+  [
+   "2026-06-14|Netherlands|Japan|FIFA World Cup",
+   "nan",
+   "nan",
+   "2",
+   "2"
+  ],
+  [
+   "2026-06-14|Sweden|Tunisia|FIFA World Cup",
+   "nan",
+   "nan",
+   "5",
+   "1"
+  ],
+  [
+   "2026-06-15|Belgium|Egypt|FIFA World Cup",
+   "nan",
+   "nan",
+   "1",
+   "1"
+  ]
+ ],
+ "rows_only_in_local": 963,
+ "rows_only_in_staged": 1540,
+ "local_only_rows_matched_by_date_and_teams_to_a_staged_row": 239,
+ "local_only_rows_with_no_staged_counterpart_by_date_and_teams": 724,
+ "staged_only_rows_with_no_local_counterpart_by_date_and_teams": 1301,
+ "renamed_tournament_examples": [
+  [
+   "1949-05-12",
+   "Egypt",
+   "Turkey",
+   "Friendly",
+   "Mediterranean Cup"
+  ],
+  [
+   "1949-05-15",
+   "Greece",
+   "Turkey",
+   "Friendly",
+   "Mediterranean Cup"
+  ],
+  [
+   "1949-05-18",
+   "Greece",
+   "Egypt",
+   "Friendly",
+   "Mediterranean Cup"
+  ],
+  [
+   "1950-02-17",
+   "Egypt",
+   "Greece",
+   "Friendly",
+   "Mediterranean Cup"
+  ],
+  [
+   "1951-11-25",
+   "Greece",
+   "Egypt",
+   "Friendly",
+   "Mediterranean Cup"
+  ],
+  [
+   "1954-11-07",
+   "Greece",
+   "Egypt",
+   "Friendly",
+   "Mediterranean Cup"
+  ],
+  [
+   "1964-05-30",
+   "Brazil",
+   "England",
+   "Friendly",
+   "Taça das Nações"
+  ],
+  [
+   "1964-05-31",
+   "Argentina",
+   "Portugal",
+   "Friendly",
+   "Taça das Nações"
+  ]
+ ],
+ "renamed_tournament_counts": [
+  [
+   "Indonesia Tournament",
+   "Jakarta Anniversary Tournament",
+   "64"
+  ],
+  [
+   "Friendly",
+   "LG Cup",
+   "48"
+  ],
+  [
+   "Friendly",
+   "Indonesian Independence Cup",
+   "15"
+  ],
+  [
+   "Friendly",
+   "Maple Cup",
+   "9"
+  ],
+  [
+   "Friendly",
+   "Four Nations Tournament",
+   "8"
+  ],
+  [
+   "Friendly",
+   "Australia Bicentenary Gold Cup",
+   "8"
+  ],
+  [
+   "Friendly",
+   "Bangabandhu Cup",
+   "6"
+  ],
+  [
+   "Friendly",
+   "CTFA International Tournament",
+   "6"
+  ]
+ ],
+ "renamed_team_examples": [
+  [
+   "2000-02-06",
+   "Latvia",
+   "Lithuania",
+   "Lithuania",
+   "Latvia"
+  ]
+ ],
+ "local_only_no_counterpart_by_tournament": {
+  "Friendly": 290,
+  "FIFA World Cup qualification": 142,
+  "AFC Asian Cup": 59,
+  "AFC Asian Cup qualification": 44,
+  "Asian Games": 37,
+  "EAFF Championship": 27,
+  "Far Eastern Championship Games": 21,
+  "Nehru Cup": 17,
+  "Dynasty Cup": 15,
+  "Indonesia Tournament": 8
+ },
+ "local_only_no_counterpart_dates": [
+  "1913-02-04",
+  "2026-03-31"
+ ],
+ "local_only_no_counterpart_sample": [
+  [
+   "1913-02-04",
+   "Philippines",
+   "China PR",
+   "Far Eastern Championship Games",
+   "2.0",
+   "1.0"
+  ],
+  [
+   "1915-05-18",
+   "China PR",
+   "Philippines",
+   "Far Eastern Championship Games",
+   "0.0",
+   "0.0"
+  ],
+  [
+   "1915-05-19",
+   "China PR",
+   "Philippines",
+   "Far Eastern Championship Games",
+   "1.0",
+   "0.0"
+  ],
+  [
+   "1917-05-09",
+   "Japan",
+   "China PR",
+   "Far Eastern Championship Games",
+   "0.0",
+   "5.0"
+  ],
+  [
+   "1917-05-11",
+   "China PR",
+   "Philippines",
+   "Far Eastern Championship Games",
+   "3.0",
+   "0.0"
+  ],
+  [
+   "1919-05-12",
+   "China PR",
+   "Philippines",
+   "Far Eastern Championship Games",
+   "2.0",
+   "0.0"
+  ],
+  [
+   "1919-05-13",
+   "China PR",
+   "Philippines",
+   "Far Eastern Championship Games",
+   "1.0",
+   "2.0"
+  ],
+  [
+   "1919-05-15",
+   "China PR",
+   "Philippines",
+   "Far Eastern Championship Games",
+   "2.0",
+   "1.0"
+  ]
+ ],
+ "staged_only_by_tournament": {
+  "Friendly": 430,
+  "FIFA World Cup qualification": 142,
+  "UEFA Nations League": 104,
+  "CONCACAF Nations League": 73,
+  "African Cup of Nations qualification": 60,
+  "AFC Asian Cup": 59,
+  "AFC Asian Cup qualification": 44,
+  "Asian Games": 37,
+  "FIFA World Cup": 35,
+  "EAFF Championship": 27,
+  "ASEAN Championship": 26,
+  "Far Eastern Championship Games": 21
+ },
+ "staged_only_date_range": [
+  "1906-07-09",
+  "2026-10-06"
+ ],
+ "staged_only_before_2026_06_03": 790,
+ "staged_only_from_2026_06_03": 511,
+ "staged_only_before_sample": [
+  [
+   "1906-07-09",
+   "Argentina",
+   "South Africa",
+   "Friendly",
+   "0",
+   "1"
+  ],
+  [
+   "1913-02-04",
+   "Philippines",
+   "China",
+   "Far Eastern Championship Games",
+   "2",
+   "1"
+  ],
+  [
+   "1915-05-18",
+   "China",
+   "Philippines",
+   "Far Eastern Championship Games",
+   "0",
+   "0"
+  ],
+  [
+   "1915-05-19",
+   "China",
+   "Philippines",
+   "Far Eastern Championship Games",
+   "1",
+   "0"
+  ],
+  [
+   "1917-05-09",
+   "Japan",
+   "China",
+   "Far Eastern Championship Games",
+   "0",
+   "5"
+  ],
+  [
+   "1917-05-11",
+   "China",
+   "Philippines",
+   "Far Eastern Championship Games",
+   "3",
+   "0"
+  ],
+  [
+   "1919-05-12",
+   "Philippines",
+   "China",
+   "Far Eastern Championship Games",
+   "0",
+   "2"
+  ],
+  [
+   "1919-05-13",
+   "Philippines",
+   "China",
+   "Far Eastern Championship Games",
+   "2",
+   "1"
+  ],
+  [
+   "1919-05-15",
+   "Philippines",
+   "China",
+   "Far Eastern Championship Games",
+   "1",
+   "2"
+  ],
+  [
+   "1921-05-31",
+   "China",
+   "Philippines",
+   "Far Eastern Championship Games",
+   "1",
+   "0"
+  ]
+ ],
+ "staged_rows_after_local_cutoff_by_tournament": {
+  "Friendly": 161,
+  "FIFA World Cup": 104,
+  "UEFA Nations League": 104,
+  "CONCACAF Nations League": 73,
+  "African Cup of Nations qualification": 48,
+  "ASEAN Championship": 26,
+  "Gulf Cup": 15,
+  "FIFA ASEAN Cup": 14,
+  "MSG Prime Minister's Cup": 11,
+  "CONIFA European Football Cup": 7,
+  "FIFA ASEAN Challenge Cup": 7,
+  "Baltic Cup": 4
+ },
+ "staged_rows_after_local_cutoff": 583,
+ "unl_2026_27_staged": {
+  "rows": 104,
+  "first": "2026-09-24",
+  "last": "2026-10-06",
+  "scored": 104
+ },
+ "unl_2026_27_rows": [
+  [
+   "2026-09-24",
+   "Netherlands",
+   "Germany",
+   "1",
+   "1"
+  ],
+  [
+   "2026-09-24",
+   "Serbia",
+   "Greece",
+   "1",
+   "2"
+  ],
+  [
+   "2026-09-24",
+   "Portugal",
+   "Wales",
+   "1",
+   "0"
+  ],
+  [
+   "2026-09-24",
+   "Norway",
+   "Denmark",
+   "3",
+   "2"
+  ],
+  [
+   "2026-09-24",
+   "Austria",
+   "Israel",
+   "3",
+   "1"
+  ],
+  [
+   "2026-09-24",
+   "Kosovo",
+   "Republic of Ireland",
+   "1",
+   "0"
+  ],
+  [
+   "2026-09-24",
+   "Andorra",
+   "Malta",
+   "1",
+   "2"
+  ],
+  [
+   "2026-09-24",
+   "Liechtenstein",
+   "Lithuania",
+   "0",
+   "2"
+  ],
+  [
+   "2026-09-25",
+   "Italy",
+   "Belgium",
+   "0",
+   "2"
+  ],
+  [
+   "2026-09-25",
+   "Turkey",
+   "France",
+   "0",
+   "1"
+  ],
+  [
+   "2026-09-25",
+   "Georgia",
+   "Northern Ireland",
+   "0",
+   "1"
+  ],
+  [
+   "2026-09-25",
+   "Hungary",
+   "Ukraine",
+   "0",
+   "1"
+  ],
+  [
+   "2026-09-25",
+   "Poland",
+   "Bosnia and Herzegovina",
+   "0",
+   "0"
+  ],
+  [
+   "2026-09-25",
+   "Sweden",
+   "Romania",
+   "2",
+   "1"
+  ],
+  [
+   "2026-09-25",
+   "Armenia",
+   "Latvia",
+   "2",
+   "0"
+  ],
+  [
+   "2026-09-25",
+   "Montenegro",
+   "Cyprus",
+   "2",
+   "1"
+  ],
+  [
+   "2026-09-26",
+   "England",
+   "Spain",
+   "2",
+   "3"
+  ],
+  [
+   "2026-09-26",
+   "Czech Republic",
+   "Croatia",
+   "1",
+   "2"
+  ],
+  [
+   "2026-09-26",
+   "Slovenia",
+   "Scotland",
+   "0",
+   "0"
+  ],
+  [
+   "2026-09-26",
+   "North Macedonia",
+   "Switzerland",
+   "0",
+   "3"
+  ],
+  [
+   "2026-09-26",
+   "San Marino",
+   "Finland",
+   "0",
+   "7"
+  ],
+  [
+   "2026-09-26",
+   "Albania",
+   "Belarus",
+   "2",
+   "0"
+  ],
+  [
+   "2026-09-26",
+   "Faroe Islands",
+   "Kazakhstan",
+   "1",
+   "1"
+  ],
+  [
+   "2026-09-26",
+   "Slovakia",
+   "Moldova",
+   "2",
+   "0"
+  ],
+  [
+   "2026-09-26",
+   "Iceland",
+   "Estonia",
+   "1",
+   "1"
+  ],
+  [
+   "2026-09-26",
+   "Bulgaria",
+   "Luxembourg",
+   "1",
+   "2"
+  ],
+  [
+   "2026-09-27",
+   "Serbia",
+   "Netherlands",
+   "1",
+   "2"
+  ],
+  [
+   "2026-09-27",
+   "Germany",
+   "Greece",
+   "0",
+   "1"
+  ],
+  [
+   "2026-09-27",
+   "Denmark",
+   "Wales",
+   "2",
+   "0"
+  ],
+  [
+   "2026-09-27",
+   "Norway",
+   "Portugal",
+   "1",
+   "2"
+  ],
+  [
+   "2026-09-27",
+   "Austria",
+   "Kosovo",
+   "3",
+   "1"
+  ],
+  [
+   "2026-09-27",
+   "Israel",
+   "Republic of Ireland",
+   "0",
+   "3"
+  ],
+  [
+   "2026-09-27",
+   "Gibraltar",
+   "Andorra",
+   "0",
+   "0"
+  ],
+  [
+   "2026-09-27",
+   "Lithuania",
+   "Azerbaijan",
+   "1",
+   "1"
+  ],
+  [
+   "2026-09-28",
+   "Belgium",
+   "France",
+   "0",
+   "1"
+  ],
+  [
+   "2026-09-28",
+   "Turkey",
+   "Italy",
+   "1",
+   "4"
+  ],
+  [
+   "2026-09-28",
+   "Northern Ireland",
+   "Hungary",
+   "0",
+   "0"
+  ],
+  [
+   "2026-09-28",
+   "Georgia",
+   "Ukraine",
+   "0",
+   "0"
+  ],
+  [
+   "2026-09-28",
+   "Sweden",
+   "Poland",
+   "3",
+   "1"
+  ],
+  [
+   "2026-09-28",
+   "Romania",
+   "Bosnia and Herzegovina",
+   "2",
+   "4"
+  ],
+  [
+   "2026-09-28",
+   "Latvia",
+   "Cyprus",
+   "0",
+   "0"
+  ],
+  [
+   "2026-09-28",
+   "Armenia",
+   "Montenegro",
+   "2",
+   "3"
+  ],
+  [
+   "2026-09-29",
+   "Czech Republic",
+   "England",
+   "0",
+   "2"
+  ],
+  [
+   "2026-09-29",
+   "Spain",
+   "Croatia",
+   "4",
+   "1"
+  ],
+  [
+   "2026-09-29",
+   "Scotland",
+   "Switzerland",
+   "0",
+   "3"
+  ],
+  [
+   "2026-09-29",
+   "Slovenia",
+   "North Macedonia",
+   "2",
+   "0"
+  ],
+  [
+   "2026-09-29",
+   "Finland",
+   "Belarus",
+   "0",
+   "0"
+  ],
+  [
+   "2026-09-29",
+   "San Marino",
+   "Albania",
+   "0",
+   "3"
+  ],
+  [
+   "2026-09-29",
+   "Moldova",
+   "Faroe Islands",
+   "1",
+   "1"
+  ],
+  [
+   "2026-09-29",
+   "Slovakia",
+   "Kazakhstan",
+   "2",
+   "1"
+  ],
+  [
+   "2026-09-29",
+   "Luxembourg",
+   "Iceland",
+   "0",
+   "3"
+  ],
+  [
+   "2026-09-29",
+   "Bulgaria",
+   "Estonia",
+   "0",
+   "0"
+  ],
+  [
+   "2026-10-01",
+   "Germany",
+   "Serbia",
+   "2",
+   "0"
+  ],
+  [
+   "2026-10-01",
+   "Greece",
+   "Netherlands",
+   "2",
+   "2"
+  ],
+  [
+   "2026-10-01",
+   "Wales",
+   "Norway",
+   "2",
+   "1"
+  ],
+  [
+   "2026-10-01",
+   "Denmark",
+   "Portugal",
+   "2",
+   "4"
+  ],
+  [
+   "2026-10-01",
+   "Republic of Ireland",
+   "Austria",
+   "2",
+   "2"
+  ],
+  [
+   "2026-10-01",
+   "Israel",
+   "Kosovo",
+   "0",
+   "0"
+  ],
+  [
+   "2026-10-01",
+   "Malta",
+   "Gibraltar",
+   "1",
+   "1"
+  ],
+  [
+   "2026-10-01",
+   "Azerbaijan",
+   "Liechtenstein",
+   "0",
+   "0"
+  ]
+ ],
+ "unl_total_staged_vs_local": [
+  762,
+  658
+ ],
+ "staged_internal_duplicates": [
+  [
+   "1974-02-17",
+   "Tahiti",
+   "New Caledonia",
+   "Friendly",
+   "2",
+   "1"
+  ],
+  [
+   "1974-02-17",
+   "Tahiti",
+   "New Caledonia",
+   "Friendly",
+   "1",
+   "2"
+  ]
+ ],
+ "local_internal_duplicates": 2,
+ "wc2026_staged": {
+  "rows": 104,
+  "scored": 104,
+  "last": "2026-07-19",
+  "final": [
+   [
+    "2026-07-19",
+    "Spain",
+    "Argentina",
+    "1",
+    "0"
+   ]
+  ]
+ }
+}

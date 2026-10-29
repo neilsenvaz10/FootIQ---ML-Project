@@ -1,0 +1,66 @@
+{
+ "private_copy": "phase4_p42.sqlite",
+ "fixtures_x_teams_checked_for_equality": 7008,
+ "gameweek_sample_calls": 20,
+ "rows_the_current_plan_walks_per_call": {
+  "completed_matches_before_the_fixture_date_in_the_whole_store": 220006,
+  "of_which_in_this_competition": 13226,
+  "ratio": 16.6,
+  "matches_rows_in_store": 223510
+ },
+ "variants": {
+  "A current statement (planner picks idx_matches_status_date)": {
+   "plan": [
+    "SEARCH m USING INDEX idx_matches_status_date (status=? AND match_date<?)",
+    "SEARCH t1 USING INDEX sqlite_autoindex_teams_1 (entity_id=?) LEFT-JOIN",
+    "SEARCH t2 USING INDEX sqlite_autoindex_teams_1 (entity_id=?) LEFT-JOIN",
+    "USE TEMP B-TREE FOR ORDER BY"
+   ],
+   "ms_per_call_median": 509.0,
+   "ms_per_call_min": 375.5,
+   "ms_per_call_max": 522.5
+  },
+  "B same statement with INDEXED BY idx_matches_comp_season_date": {
+   "plan": [
+    "SEARCH m USING INDEX idx_matches_comp_season_date (competition_id=?)",
+    "SEARCH t1 USING INDEX sqlite_autoindex_teams_1 (entity_id=?) LEFT-JOIN",
+    "SEARCH t2 USING INDEX sqlite_autoindex_teams_1 (entity_id=?) LEFT-JOIN",
+    "USE TEMP B-TREE FOR ORDER BY"
+   ],
+   "ms_per_call_median": 32.3,
+   "ms_per_call_min": 30.8,
+   "ms_per_call_max": 39.8
+  },
+  "C current statement after ANALYZE": {
+   "plan": [
+    "SEARCH m USING INDEX idx_matches_comp_season_date (competition_id=?)",
+    "SEARCH t1 USING INDEX sqlite_autoindex_teams_1 (entity_id=?) LEFT-JOIN",
+    "SEARCH t2 USING INDEX sqlite_autoindex_teams_1 (entity_id=?) LEFT-JOIN",
+    "USE TEMP B-TREE FOR ORDER BY"
+   ],
+   "ms_per_call_median": 30.9,
+   "ms_per_call_min": 30.3,
+   "ms_per_call_max": 32.2
+  },
+  "D two composite indexes + UNION ALL": {
+   "plan": [
+    "MERGE (UNION ALL)",
+    "LEFT",
+    "SEARCH m USING INDEX ix_exp_home (competition_id=? AND home_entity_id=? AND match_date<?)",
+    "USE TEMP B-TREE FOR LAST TERM OF ORDER BY",
+    "RIGHT",
+    "SEARCH m USING INDEX ix_exp_away (competition_id=? AND away_entity_id=? AND match_date<?)",
+    "USE TEMP B-TREE FOR LAST TERM OF ORDER BY"
+   ],
+   "ms_per_call_median": 0.4,
+   "ms_per_call_min": 0.4,
+   "ms_per_call_max": 0.7
+  }
+ },
+ "equivalence": {
+  "calls_compared": 7008,
+  "B_differs_from_A": 0,
+  "D_differs_from_A": 0
+ },
+ "experiment_copy_bytes_after_indexes": 258019328
+}

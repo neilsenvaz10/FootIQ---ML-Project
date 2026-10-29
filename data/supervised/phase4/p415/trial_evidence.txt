@@ -1,0 +1,20 @@
+Startup-only private trial 2026-10-28 07:08:21Z
+
+== 1. launch the backend the simple way (plain uvicorn, no supervisor, no task), startup mode from the private config
+healthy (the application serves): True after about 3 s
+mode: startup | scheduler status: startup refresh skipped: every league was refreshed less than 100000 minutes ago
+startup state: skipped_recent | skipped: {"BUNDESLIGA":"2026-10-27T17:00:38Z","LALIGA":"2026-10-27T18:08:35Z"}
+scheduler threads: 0 | lock: released_after_startup_refresh | enabled: BUNDESLIGA,LALIGA | next scheduled check: 
+sync_runs rows in the private copy before/after launch: 14/14 (a skipped refresh writes nothing)
+== 2. 'reload the frontend' ten times: status calls only
+sync_runs rows after ten reloads: 14; provider ledger lines before/after: 7/7
+== 3. the supervisor is not needed; if it is still running it can be retired WITHOUT touching the backend: start one that adopts this backend, then ask it to stop (stop flag)
+supervisor 30448 alive: True; listeners on 8124: 1
+after the stop flag: supervisor exited: True (after about 12 s); backend still answering: ok; listeners: 1; supervisor log tail: 2026-10-28T01:38:58Z [30448] port 8124 is already in use by process 6692: not starting a second backend, waiting 15 s | 2026-10-28T01:39:13Z [30448] supervisor stopped
+== 4. cleanup (private port only)
+listeners on 8124: 0
+== 5. production untouched
+production database hash unchanged: True
+production config/sync.json unchanged: True
+production backend listener unchanged: True (was 6688)
+production supervisor processes: 1

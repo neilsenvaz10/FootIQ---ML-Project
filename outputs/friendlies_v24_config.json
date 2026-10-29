@@ -1,0 +1,44 @@
+{
+  "version": "v2.4",
+  "run_timestamp_et": "2026-06-06T14:42:37.118888-04:00",
+  "fixtures": [
+    {
+      "fixture_key": "friendly_2026_06_06_portugal_chile",
+      "date": "2026-06-06",
+      "time_et": "13:45",
+      "team1": "Portugal",
+      "team2": "Chile",
+      "venue": "Lisbon - Oeiras",
+      "city": "Oeiras, Portugal",
+      "latitude": 38.7223,
+      "longitude": -9.1393,
+      "venue_edge_team": "Portugal",
+      "source": "API-Football fixture feed"
+    },
+    {
+      "fixture_key": "friendly_2026_06_06_germany_usa",
+      "date": "2026-06-06",
+      "time_et": "14:30",
+      "team1": "Germany",
+      "team2": "USA",
+      "venue": "Soldier Field",
+      "city": "Chicago, IL",
+      "latitude": 41.8623,
+      "longitude": -87.6167,
+      "venue_edge_team": "USA",
+      "source": "API-Football fixture feed"
+    }
+  ],
+  "api_budget_snapshot": {
+    "date": "2026-06-06",
+    "daily_limit": 100,
+    "reserve_requests": 15,
+    "usable_before_stop": 85,
+    "used_today": 11,
+    "remaining_before_stop": 74
+  },
+  "weather_source": "Open-Meteo forecast API",
+  "temperature_model": "Weather changes goal tempo via weather_goal_factor; venue context is +1.5 power for the local side.",
+  "force_refresh": false,
+  "force_weather": false
+}

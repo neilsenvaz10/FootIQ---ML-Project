@@ -1,0 +1,674 @@
+{
+ "desktop": [
+  {
+   "name": "matches-upcoming",
+   "path": "/matches",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Matches · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Matches"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 456,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 2,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 98,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "matches-completed",
+   "path": "/matches",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Matches · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Matches"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 379,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 2,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 72,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "predictions-gameweek",
+   "path": "/predict",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Predictions · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 223,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 20
+   },
+   "targets": {
+    "controls": 27,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "predictions-manual",
+   "path": "/predict",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Predictions · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 60,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 17,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "compare",
+   "path": "/compare",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Compare · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Compare teams"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 49,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 13,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "home",
+   "path": "/",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Home · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Home"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 267,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 21,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 32
+   },
+   "targets": {
+    "controls": 29,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  }
+ ],
+ "tablet": [
+  {
+   "name": "matches-upcoming",
+   "path": "/matches",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Matches · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Matches"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 452,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 2,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 98,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "matches-completed",
+   "path": "/matches",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Matches · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Matches"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 375,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 2,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 72,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "predictions-gameweek",
+   "path": "/predict",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Predictions · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 219,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 20
+   },
+   "targets": {
+    "controls": 27,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "predictions-manual",
+   "path": "/predict",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Predictions · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 56,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 17,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "compare",
+   "path": "/compare",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Compare · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Compare teams"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 45,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 13,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "home",
+   "path": "/",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Home · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Home"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 263,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 21,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 32
+   },
+   "targets": {
+    "controls": 29,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  }
+ ],
+ "mobile": [
+  {
+   "name": "matches-upcoming",
+   "path": "/matches",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Matches · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Matches"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 454,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 2,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 97,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "matches-completed",
+   "path": "/matches",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Matches · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Matches"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 377,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 2,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 71,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "predictions-gameweek",
+   "path": "/predict",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Predictions · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 221,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 20
+   },
+   "targets": {
+    "controls": 26,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "predictions-manual",
+   "path": "/predict",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Predictions · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 58,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 16,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "compare",
+   "path": "/compare",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Compare · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Compare teams"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 47,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 12,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "name": "home",
+   "path": "/",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Home · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Home"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 223,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 21,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 29
+   },
+   "targets": {
+    "controls": 28,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  }
+ ]
+}

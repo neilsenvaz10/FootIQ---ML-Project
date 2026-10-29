@@ -1,0 +1,33 @@
+﻿dataset,check,passed,detail
+01,no duplicate match_id,True,
+01,"no duplicate (date,home,away)",False,"2 rows share a (date,home,away) key"
+01,scores are non-negative integers,True,
+01,dates parse and are not in the future (<= 2026-06-02),True,
+01,home team != away team,True,
+01,no score above 15 (flag only),False,"44 extreme-score rows retained, listed in QA file"
+02,no duplicate match_id,True,
+02,"no duplicate (competition,season,date,home,away,stage)",True,0 rows
+02,regulation goals are non-negative,True,
+02,half-time goals <= regulation goals,False,"2 rows (source inconsistency, retained)"
+02,no regulation score above 15 (flag only),True,0 rows retained
+02,dates <= 2026-06-02,True,
+02,home != away team id,True,
+02,extra-time status known when penalties were played (flag only),False,436 penalty-decided matches where the source does not state whether extra time was played
+03,no duplicate match_id,True,
+03,dates between 2026-06-03 and 2026-10-20,True,
+03/01/02,"no match_id overlap between 01, 02 and 03",True,
+05,unique player_match_id,True,
+05,"one row per (match, player, team)",True,0 rows
+05,minutes within 0-130,True,max=127.6
+05,StatsBomb passes_completed <= passes,True,
+05,StatsBomb shots_on_target <= shots,True,
+05,openfootball per-player goals (+opponent own goals) sum to match score (informational),True,"99.0% of 2170 full-lineup matches reconcile exactly; remainder listed in QA (ET goals, name mismatches, no goal list)"
+04,unique player_id,True,
+08,unique membership_id,True,
+08,all player_ids exist in 04,True,
+05,all player_ids exist in 04,True,
+06,unique team_id,True,
+05/06,all 05 team_ids exist in 06 (StatsBomb + openfootball-linked),True,
+07,unique competition_id,True,
+02/07,all 02 competition_ids exist in 07,True,
+09,no scored match in fixtures,True,

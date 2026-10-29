@@ -1,0 +1,65 @@
+{
+  "original_files_checked": 522,
+  "changed_original_files": [],
+  "test_snapshot_protected_mismatches": [],
+  "verified_tests": {
+    "exit_code": 0,
+    "testcases": 28,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "by_classname": {
+      "tests.test_confidence_gate_v211.ConfidenceGateV211Tests": 5,
+      "tests.test_lineup_impact_v212.LineupImpactV212Tests": 5,
+      "tests.test_live_tournament_v213": 7,
+      "tests.test_matchday_report_v29": 6,
+      "tests.test_matchday_validation_v210.MatchdayValidationV210Tests": 5
+    },
+    "stdout": "capture_2026-10-20/tests_verified.stdout.txt",
+    "junit": "capture_2026-10-20/tests_verified.junit.xml",
+    "setup_attempts": "Initial guarded pytest attempts failed before collection; successful fresh-copy rerun disabled capture/logging/cache plugins. No test function changed."
+  },
+  "stable_csv_references": [
+    {
+      "path": "data/processed/v27_live_model_features.csv",
+      "run1_sha256": "87cb908a98e454ed2f75755d51e3f44f1a161fe3bcbbd9730c21a94034b303b2",
+      "run2_sha256": "87cb908a98e454ed2f75755d51e3f44f1a161fe3bcbbd9730c21a94034b303b2",
+      "exact_repeat_match": true,
+      "original_sha256": "87cb908a98e454ed2f75755d51e3f44f1a161fe3bcbbd9730c21a94034b303b2",
+      "original_byte_match": true
+    },
+    {
+      "path": "data/processed/v27_live_probabilities.csv",
+      "run1_sha256": "d63ea22abd34cc45f45a3d385601d203fd442cdf85fe0000dce43414f3ad1ee0",
+      "run2_sha256": "d63ea22abd34cc45f45a3d385601d203fd442cdf85fe0000dce43414f3ad1ee0",
+      "exact_repeat_match": true,
+      "original_sha256": "d63ea22abd34cc45f45a3d385601d203fd442cdf85fe0000dce43414f3ad1ee0",
+      "original_byte_match": true
+    },
+    {
+      "path": "data/processed/v27_live_public_picks.csv",
+      "run1_sha256": "eaf2414f7158763a7694a3b4e9cc553a644836c3f12082ce1f9e015fab755e78",
+      "run2_sha256": "eaf2414f7158763a7694a3b4e9cc553a644836c3f12082ce1f9e015fab755e78",
+      "exact_repeat_match": true,
+      "original_sha256": "eaf2414f7158763a7694a3b4e9cc553a644836c3f12082ce1f9e015fab755e78",
+      "original_byte_match": true
+    },
+    {
+      "path": "data/processed/v28_live_public_picks.csv",
+      "run1_sha256": "23b523b95cdc99247c56dd1bbda05ea11ae4326582b27990416b4ec14ee9c355",
+      "run2_sha256": "23b523b95cdc99247c56dd1bbda05ea11ae4326582b27990416b4ec14ee9c355",
+      "exact_repeat_match": true,
+      "original_sha256": "23b523b95cdc99247c56dd1bbda05ea11ae4326582b27990416b4ec14ee9c355",
+      "original_byte_match": true
+    },
+    {
+      "path": "data/processed/live_tournament_v213_tournament_odds.csv",
+      "run1_sha256": "41bd8d6aa1f43152789f7ddc8a5886143c33682d4a4c2c5cd7ba55f718225d0e",
+      "run2_sha256": "41bd8d6aa1f43152789f7ddc8a5886143c33682d4a4c2c5cd7ba55f718225d0e",
+      "exact_repeat_match": true,
+      "original_sha256": "41bd8d6aa1f43152789f7ddc8a5886143c33682d4a4c2c5cd7ba55f718225d0e",
+      "original_byte_match": true
+    }
+  ],
+  "status": "satisfied_with_documented_limitations"
+}

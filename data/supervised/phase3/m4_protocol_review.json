@@ -1,0 +1,631 @@
+{
+ "reps": 800,
+ "seed": 31,
+ "margins": [
+  0.15,
+  0.15,
+  0.075,
+  0.075
+ ],
+ "inflation_bias_table": [
+  {
+   "inflation_probability": 0.0,
+   "S1_worst_bias_over_margin": 0.0
+  },
+  {
+   "inflation_probability": 0.05,
+   "S1_worst_bias_over_margin": 0.36
+  },
+  {
+   "inflation_probability": 0.1,
+   "S1_worst_bias_over_margin": 0.72
+  },
+  {
+   "inflation_probability": 0.15,
+   "S1_worst_bias_over_margin": 1.08
+  },
+  {
+   "inflation_probability": 0.2,
+   "S1_worst_bias_over_margin": 1.44
+  },
+  {
+   "inflation_probability": 0.25,
+   "S1_worst_bias_over_margin": 1.8
+  },
+  {
+   "inflation_probability": 0.3,
+   "S1_worst_bias_over_margin": 2.16
+  },
+  {
+   "inflation_probability": 0.4,
+   "S1_worst_bias_over_margin": 2.88
+  }
+ ],
+ "scenarios": {
+  "truth = S1 (S1 exactly right)": {
+   "686": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 0.0,
+     "S2": 0.169428131690057,
+     "S3": 0.1717640585688655
+    },
+    "truly_equivalent": {
+     "S1": true,
+     "S2": true,
+     "S3": true
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.0,
+      "any_accept": 0.176,
+      "accept_equivalent": 0.176
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     }
+    }
+   },
+   "1158": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 0.0,
+     "S2": 0.169428131690057,
+     "S3": 0.1717640585688655
+    },
+    "truly_equivalent": {
+     "S1": true,
+     "S2": true,
+     "S3": true
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.0,
+      "any_accept": 0.664,
+      "accept_equivalent": 0.664
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.335,
+      "accept_equivalent": 0.335
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.335,
+      "accept_equivalent": 0.335
+     }
+    }
+   },
+   "2606": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 0.0,
+     "S2": 0.169428131690057,
+     "S3": 0.1717640585688655
+    },
+    "truly_equivalent": {
+     "S1": true,
+     "S2": true,
+     "S3": true
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.0,
+      "any_accept": 0.989,
+      "accept_equivalent": 0.989
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.964,
+      "accept_equivalent": 0.964
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.964,
+      "accept_equivalent": 0.964
+     }
+    }
+   },
+   "4321": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 0.0,
+     "S2": 0.169428131690057,
+     "S3": 0.1717640585688655
+    },
+    "truly_equivalent": {
+     "S1": true,
+     "S2": true,
+     "S3": true
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.0,
+      "any_accept": 1.0,
+      "accept_equivalent": 1.0
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 1.0,
+      "accept_equivalent": 1.0
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 1.0,
+      "accept_equivalent": 1.0
+     }
+    }
+   }
+  },
+  "truth = S3 (S3 exactly right)": {
+   "686": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 0.1717640585688655,
+     "S2": 0.109534606672268,
+     "S3": 0.0
+    },
+    "truly_equivalent": {
+     "S1": true,
+     "S2": true,
+     "S3": true
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.0,
+      "any_accept": 0.189,
+      "accept_equivalent": 0.189
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.006,
+      "accept_equivalent": 0.006
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.006,
+      "accept_equivalent": 0.006
+     }
+    }
+   },
+   "1158": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 0.1717640585688655,
+     "S2": 0.109534606672268,
+     "S3": 0.0
+    },
+    "truly_equivalent": {
+     "S1": true,
+     "S2": true,
+     "S3": true
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.0,
+      "any_accept": 0.644,
+      "accept_equivalent": 0.644
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.352,
+      "accept_equivalent": 0.352
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.352,
+      "accept_equivalent": 0.352
+     }
+    }
+   },
+   "2606": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 0.1717640585688655,
+     "S2": 0.109534606672268,
+     "S3": 0.0
+    },
+    "truly_equivalent": {
+     "S1": true,
+     "S2": true,
+     "S3": true
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.0,
+      "any_accept": 0.99,
+      "accept_equivalent": 0.99
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.956,
+      "accept_equivalent": 0.956
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.956,
+      "accept_equivalent": 0.956
+     }
+    }
+   },
+   "4321": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 0.1717640585688655,
+     "S2": 0.109534606672268,
+     "S3": 0.0
+    },
+    "truly_equivalent": {
+     "S1": true,
+     "S2": true,
+     "S3": true
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.0,
+      "any_accept": 1.0,
+      "accept_equivalent": 1.0
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.999,
+      "accept_equivalent": 0.999
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.999,
+      "accept_equivalent": 0.999
+     }
+    }
+   }
+  },
+  "truth = winners score +1 goal with probability 0.15 (S1 on the margin boundary)": {
+   "686": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 1.0786691634251204,
+     "S2": 1.1688618271049553,
+     "S3": 1.1701568504269755
+    },
+    "truly_equivalent": {
+     "S1": false,
+     "S2": false,
+     "S3": false
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.001,
+      "any_accept": 0.001,
+      "accept_equivalent": 0.0
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     }
+    }
+   },
+   "1158": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 1.0786691634251204,
+     "S2": 1.1688618271049553,
+     "S3": 1.1701568504269755
+    },
+    "truly_equivalent": {
+     "S1": false,
+     "S2": false,
+     "S3": false
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     }
+    }
+   },
+   "2606": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 1.0786691634251204,
+     "S2": 1.1688618271049553,
+     "S3": 1.1701568504269755
+    },
+    "truly_equivalent": {
+     "S1": false,
+     "S2": false,
+     "S3": false
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.001,
+      "any_accept": 0.001,
+      "accept_equivalent": 0.0
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.001,
+      "any_accept": 0.001,
+      "accept_equivalent": 0.0
+     },
+     "holm_over_methods": {
+      "false_accept": 0.001,
+      "any_accept": 0.001,
+      "accept_equivalent": 0.0
+     }
+    }
+   },
+   "4321": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 1.0786691634251204,
+     "S2": 1.1688618271049553,
+     "S3": 1.1701568504269755
+    },
+    "truly_equivalent": {
+     "S1": false,
+     "S2": false,
+     "S3": false
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     }
+    }
+   }
+  },
+  "truth = winners score +1 goal with probability 0.40 (every method far outside the margin)": {
+   "686": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 2.8764511024669766,
+     "S2": 2.834584652796459,
+     "S3": 2.8358796761184797
+    },
+    "truly_equivalent": {
+     "S1": false,
+     "S2": false,
+     "S3": false
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     }
+    }
+   },
+   "1158": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 2.8764511024669766,
+     "S2": 2.834584652796459,
+     "S3": 2.8358796761184797
+    },
+    "truly_equivalent": {
+     "S1": false,
+     "S2": false,
+     "S3": false
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     }
+    }
+   },
+   "2606": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 2.8764511024669766,
+     "S2": 2.834584652796459,
+     "S3": 2.8358796761184797
+    },
+    "truly_equivalent": {
+     "S1": false,
+     "S2": false,
+     "S3": false
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     }
+    }
+   },
+   "4321": {
+    "true_bias_vs_margin_ratio": {
+     "S1": 2.8764511024669766,
+     "S2": 2.834584652796459,
+     "S3": 2.8358796761184797
+    },
+    "truly_equivalent": {
+     "S1": false,
+     "S2": false,
+     "S3": false
+    },
+    "procedures": {
+     "sequence_as_proposed": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     },
+     "bonferroni_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     },
+     "holm_over_methods": {
+      "false_accept": 0.0,
+      "any_accept": 0.0,
+      "accept_equivalent": 0.0
+     }
+    }
+   }
+  }
+ },
+ "opposite_direction_demo": {
+  "deflation_probability": 0.257,
+  "inflation_probability": 0.139,
+  "bias_vs_margin_ratio": {
+   "Ma": 1.0,
+   "Mb": 1.0
+  },
+  "results_by_sample_size": {
+   "1158": {
+    "false_acceptance_each_method_alone": {
+     "Ma": 0.0,
+     "Mb": 0.003
+    },
+    "sequence_as_proposed": 0.003,
+    "holm_over_methods": 0.001,
+    "bonferroni_over_methods": 0.001
+   },
+   "2606": {
+    "false_acceptance_each_method_alone": {
+     "Ma": 0.002,
+     "Mb": 0.001
+    },
+    "sequence_as_proposed": 0.003,
+    "holm_over_methods": 0.0,
+    "bonferroni_over_methods": 0.0
+   },
+   "4321": {
+    "false_acceptance_each_method_alone": {
+     "Ma": 0.004,
+     "Mb": 0.005
+    },
+    "sequence_as_proposed": 0.009,
+    "holm_over_methods": 0.001,
+    "bonferroni_over_methods": 0.001
+   }
+  }
+ },
+ "power_curve_correct_model_single_method_alpha_0.05": {
+  "0.10 / 0.05": {
+   "686": 0.0,
+   "1158": 0.02,
+   "1464": 0.104,
+   "1800": 0.204,
+   "2200": 0.42,
+   "2606": 0.584,
+   "3300": 0.774,
+   "4321": 0.918
+  },
+  "0.15 / 0.075": {
+   "686": 0.14,
+   "1158": 0.6,
+   "1464": 0.744,
+   "1800": 0.91,
+   "2200": 0.968,
+   "2606": 0.978,
+   "3300": 1.0,
+   "4321": 1.0
+  },
+  "0.20 / 0.10": {
+   "686": 0.616,
+   "1158": 0.95,
+   "1464": 0.984,
+   "1800": 0.996,
+   "2200": 0.998,
+   "2606": 1.0,
+   "3300": 1.0,
+   "4321": 1.0
+  }
+ },
+ "holm_league_screen_false_flags_when_S1_is_exactly_right": {
+  "1158": {
+   "any_league_flagged": 0.087,
+   "by_league": {
+    "EPL": 0.03,
+    "LALIGA": 0.013,
+    "BUNDESLIGA": 0.02,
+    "SERIEA": 0.02,
+    "LIGUE1": 0.013
+   }
+  },
+  "4321": {
+   "any_league_flagged": 0.027,
+   "by_league": {
+    "EPL": 0.007,
+    "LALIGA": 0.003,
+    "BUNDESLIGA": 0.003,
+    "SERIEA": 0.003,
+    "LIGUE1": 0.01
+   }
+  }
+ },
+ "holm_league_screen_when_S1_is_at_the_boundary": {
+  "1158": {
+   "any_league_flagged": 0.53,
+   "by_league": {
+    "EPL": 0.137,
+    "LALIGA": 0.16,
+    "BUNDESLIGA": 0.103,
+    "SERIEA": 0.173,
+    "LIGUE1": 0.137
+   }
+  },
+  "4321": {
+   "any_league_flagged": 1.0,
+   "by_league": {
+    "EPL": 0.713,
+    "LALIGA": 0.767,
+    "BUNDESLIGA": 0.543,
+    "SERIEA": 0.757,
+    "LIGUE1": 0.58
+   }
+  }
+ }
+}

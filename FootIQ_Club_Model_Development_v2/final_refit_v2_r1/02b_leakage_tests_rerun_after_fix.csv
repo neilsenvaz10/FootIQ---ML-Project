@@ -1,0 +1,7 @@
+test,cutoff,rows_compared,differing_columns,passed
+future scores scrambled + later matches removed,2019-12-31,16725,,True
+future scores scrambled + later matches removed,2021-12-31,39973,,True
+future scores scrambled + later matches removed,2023-06-30,59356,,True
+v2 elo1_diff equals v1 contract elo_diff,all dev,81934,max abs diff 0.000000,True
+"max |corr(feature, own goal difference)| (informational; Elo/form legitimately correlate)",all dev,81934,elo2_diff=0.349,True
+inference parity: features for a fixture are identical when its own result is placeholder,2024-06-30,44,,True

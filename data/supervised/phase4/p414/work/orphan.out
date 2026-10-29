@@ -1,0 +1,5 @@
+INFO:     127.0.0.1:64050 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64051 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64051 - "GET /api/sync/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54484 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54484 - "GET /api/sync/status HTTP/1.1" 200 OK

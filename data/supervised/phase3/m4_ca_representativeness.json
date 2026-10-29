@@ -1,0 +1,707 @@
+{
+ "prematch": {
+  "expected goals, home": {
+   "target_mean": 1.669,
+   "ca_mean": 1.535,
+   "standardised_difference": 0.242
+  },
+  "expected goals, away": {
+   "target_mean": 1.303,
+   "ca_mean": 1.245,
+   "standardised_difference": 0.129
+  },
+  "expected total goals": {
+   "target_mean": 2.972,
+   "ca_mean": 2.78,
+   "standardised_difference": 0.307
+  },
+  "v1 home-win probability": {
+   "target_mean": 0.442,
+   "ca_mean": 0.444,
+   "standardised_difference": -0.012
+  },
+  "v1 draw probability": {
+   "target_mean": 0.234,
+   "ca_mean": 0.255,
+   "standardised_difference": -0.508
+  },
+  "v1 away-win probability": {
+   "target_mean": 0.324,
+   "ca_mean": 0.301,
+   "standardised_difference": 0.142
+  },
+  "Elo difference": {
+   "target_mean": -0.573,
+   "ca_mean": 1.059,
+   "standardised_difference": -0.01
+  },
+  "history depth (home club prior matches)": {
+   "target_mean": 513.615,
+   "ca_mean": 105.295,
+   "standardised_difference": 4.919
+  }
+ },
+ "share_of_ca_matches_inside_target_5_95_range": 0.839,
+ "per_league_prematch": {
+  "austria:1-bundesliga": {
+   "n": 431,
+   "expected_total_goals": 2.67,
+   "mean_abs_strength_gap": 0.231
+  },
+  "belgium:be1": {
+   "n": 435,
+   "expected_total_goals": 2.71,
+   "mean_abs_strength_gap": 0.281
+  },
+  "deutschland:1-bundesliga": {
+   "n": 648,
+   "expected_total_goals": 3.31,
+   "mean_abs_strength_gap": 0.308
+  },
+  "espana:1-liga": {
+   "n": 829,
+   "expected_total_goals": 2.71,
+   "mean_abs_strength_gap": 0.294
+  },
+  "europe/albania:al1": {
+   "n": 184,
+   "expected_total_goals": 2.08,
+   "mean_abs_strength_gap": 0.191
+  },
+  "europe/andorra:ad1": {
+   "n": 135,
+   "expected_total_goals": 3.24,
+   "mean_abs_strength_gap": 0.413
+  },
+  "europe/armenia:am1": {
+   "n": 165,
+   "expected_total_goals": 3.12,
+   "mean_abs_strength_gap": 0.343
+  },
+  "europe/azerbaijan:az1": {
+   "n": 180,
+   "expected_total_goals": 2.46,
+   "mean_abs_strength_gap": 0.265
+  },
+  "europe/belarus:by1": {
+   "n": 136,
+   "expected_total_goals": 2.37,
+   "mean_abs_strength_gap": 0.263
+  },
+  "europe/bosnia-herzegovina:ba1": {
+   "n": 198,
+   "expected_total_goals": 2.67,
+   "mean_abs_strength_gap": 0.33
+  },
+  "europe/bulgaria:bg1": {
+   "n": 292,
+   "expected_total_goals": 2.34,
+   "mean_abs_strength_gap": 0.246
+  },
+  "europe/croatia:hr1": {
+   "n": 180,
+   "expected_total_goals": 2.45,
+   "mean_abs_strength_gap": 0.253
+  },
+  "europe/cyprus:cy1": {
+   "n": 240,
+   "expected_total_goals": 2.61,
+   "mean_abs_strength_gap": 0.267
+  },
+  "europe/czech-republic:cz1": {
+   "n": 347,
+   "expected_total_goals": 2.74,
+   "mean_abs_strength_gap": 0.318
+  },
+  "europe/denmark:dk1": {
+   "n": 192,
+   "expected_total_goals": 3.2,
+   "mean_abs_strength_gap": 0.238
+  },
+  "europe/estonia:ee1": {
+   "n": 106,
+   "expected_total_goals": 3.1,
+   "mean_abs_strength_gap": 0.341
+  },
+  "europe/faroe-islands:fo1": {
+   "n": 100,
+   "expected_total_goals": 3.5,
+   "mean_abs_strength_gap": 0.407
+  },
+  "europe/finland:fi1": {
+   "n": 117,
+   "expected_total_goals": 3.15,
+   "mean_abs_strength_gap": 0.255
+  },
+  "europe/georgia:ge1": {
+   "n": 107,
+   "expected_total_goals": 2.55,
+   "mean_abs_strength_gap": 0.225
+  },
+  "europe/gibraltar:gi1": {
+   "n": 125,
+   "expected_total_goals": 3.71,
+   "mean_abs_strength_gap": 0.359
+  },
+  "europe/greece:gr1": {
+   "n": 333,
+   "expected_total_goals": 2.56,
+   "mean_abs_strength_gap": 0.306
+  },
+  "europe/hungary:hu1": {
+   "n": 198,
+   "expected_total_goals": 2.92,
+   "mean_abs_strength_gap": 0.239
+  },
+  "europe/iceland:is1": {
+   "n": 114,
+   "expected_total_goals": 3.81,
+   "mean_abs_strength_gap": 0.261
+  },
+  "europe/ireland:ie1": {
+   "n": 134,
+   "expected_total_goals": 2.31,
+   "mean_abs_strength_gap": 0.221
+  },
+  "europe/kosovo:kos1": {
+   "n": 180,
+   "expected_total_goals": 2.43,
+   "mean_abs_strength_gap": 0.234
+  },
+  "europe/latvia:lv1": {
+   "n": 131,
+   "expected_total_goals": 3.55,
+   "mean_abs_strength_gap": 0.432
+  },
+  "europe/lithuania:lt1": {
+   "n": 93,
+   "expected_total_goals": 2.4,
+   "mean_abs_strength_gap": 0.269
+  },
+  "europe/luxembourg:lu1": {
+   "n": 240,
+   "expected_total_goals": 3.11,
+   "mean_abs_strength_gap": 0.304
+  },
+  "europe/malta:mt1": {
+   "n": 197,
+   "expected_total_goals": 2.57,
+   "mean_abs_strength_gap": 0.234
+  },
+  "europe/moldova:md1": {
+   "n": 86,
+   "expected_total_goals": 3.16,
+   "mean_abs_strength_gap": 0.36
+  },
+  "europe/montenegro:me1": {
+   "n": 179,
+   "expected_total_goals": 2.37,
+   "mean_abs_strength_gap": 0.223
+  },
+  "europe/netherlands:nl1": {
+   "n": 674,
+   "expected_total_goals": 3.2,
+   "mean_abs_strength_gap": 0.33
+  },
+  "europe/north-macedonia:mk1": {
+   "n": 198,
+   "expected_total_goals": 2.17,
+   "mean_abs_strength_gap": 0.228
+  },
+  "europe/northern-ireland:nir1": {
+   "n": 231,
+   "expected_total_goals": 2.55,
+   "mean_abs_strength_gap": 0.258
+  },
+  "europe/norway:no1": {
+   "n": 185,
+   "expected_total_goals": 2.91,
+   "mean_abs_strength_gap": 0.244
+  },
+  "europe/poland:pl1": {
+   "n": 306,
+   "expected_total_goals": 2.67,
+   "mean_abs_strength_gap": 0.213
+  },
+  "europe/portugal:pt1": {
+   "n": 674,
+   "expected_total_goals": 2.65,
+   "mean_abs_strength_gap": 0.341
+  },
+  "europe/romania:ro1": {
+   "n": 315,
+   "expected_total_goals": 2.31,
+   "mean_abs_strength_gap": 0.207
+  },
+  "europe/russia:ru1": {
+   "n": 240,
+   "expected_total_goals": 2.73,
+   "mean_abs_strength_gap": 0.287
+  },
+  "europe/san-marino:sm1": {
+   "n": 256,
+   "expected_total_goals": 2.92,
+   "mean_abs_strength_gap": 0.37
+  },
+  "europe/scotland:sco1": {
+   "n": 333,
+   "expected_total_goals": 3.11,
+   "mean_abs_strength_gap": 0.316
+  },
+  "europe/serbia:rs1": {
+   "n": 296,
+   "expected_total_goals": 2.96,
+   "mean_abs_strength_gap": 0.267
+  },
+  "europe/slovakia:sk1": {
+   "n": 195,
+   "expected_total_goals": 2.79,
+   "mean_abs_strength_gap": 0.237
+  },
+  "europe/slovenia:si1": {
+   "n": 180,
+   "expected_total_goals": 2.72,
+   "mean_abs_strength_gap": 0.272
+  },
+  "europe/sweden:se1": {
+   "n": 195,
+   "expected_total_goals": 2.93,
+   "mean_abs_strength_gap": 0.222
+  },
+  "europe/switzerland:ch1": {
+   "n": 282,
+   "expected_total_goals": 3.01,
+   "mean_abs_strength_gap": 0.222
+  },
+  "europe/turkey:tr1": {
+   "n": 473,
+   "expected_total_goals": 2.95,
+   "mean_abs_strength_gap": 0.29
+  },
+  "europe/ukraine:ua1": {
+   "n": 240,
+   "expected_total_goals": 2.22,
+   "mean_abs_strength_gap": 0.263
+  },
+  "europe/wales:wal1": {
+   "n": 196,
+   "expected_total_goals": 3.01,
+   "mean_abs_strength_gap": 0.279
+  }
+ },
+ "development_window_outcome_structure": {
+  "austria:1-bundesliga": {
+   "n": 2610,
+   "goals_per_match": 2.88,
+   "home_win_rate": 0.419,
+   "draw_rate": 0.258,
+   "margin_home_win": 2.043,
+   "margin_away_win": 1.903,
+   "one_goal_share_home": 0.431,
+   "one_goal_share_away": 0.479
+  },
+  "belgium:be1": {
+   "n": 1145,
+   "goals_per_match": 2.9,
+   "home_win_rate": 0.445,
+   "draw_rate": 0.238,
+   "margin_home_win": 1.894,
+   "margin_away_win": 1.73,
+   "one_goal_share_home": 0.473,
+   "one_goal_share_away": 0.551
+  },
+  "deutschland:1-bundesliga": {
+   "n": 4284,
+   "goals_per_match": 3.0,
+   "home_win_rate": 0.452,
+   "draw_rate": 0.244,
+   "margin_home_win": 2.067,
+   "margin_away_win": 1.856,
+   "one_goal_share_home": 0.414,
+   "one_goal_share_away": 0.481
+  },
+  "england:1-footballleague": {
+   "n": 578,
+   "goals_per_match": 4.36,
+   "home_win_rate": 0.602,
+   "draw_rate": 0.145,
+   "margin_home_win": 2.856,
+   "margin_away_win": 2.116,
+   "one_goal_share_home": 0.305,
+   "one_goal_share_away": 0.445
+  },
+  "england:1-premierleague": {
+   "n": 12406,
+   "goals_per_match": 2.69,
+   "home_win_rate": 0.459,
+   "draw_rate": 0.256,
+   "margin_home_win": 1.889,
+   "margin_away_win": 1.71,
+   "one_goal_share_home": 0.476,
+   "one_goal_share_away": 0.551
+  },
+  "espana:1-liga": {
+   "n": 4560,
+   "goals_per_match": 2.66,
+   "home_win_rate": 0.46,
+   "draw_rate": 0.254,
+   "margin_home_win": 1.893,
+   "margin_away_win": 1.668,
+   "one_goal_share_home": 0.492,
+   "one_goal_share_away": 0.573
+  },
+  "europe/czech-republic:cz1": {
+   "n": 860,
+   "goals_per_match": 2.74,
+   "home_win_rate": 0.462,
+   "draw_rate": 0.24,
+   "margin_home_win": 1.97,
+   "margin_away_win": 1.794,
+   "one_goal_share_home": 0.451,
+   "one_goal_share_away": 0.521
+  },
+  "europe/france:fr1": {
+   "n": 3625,
+   "goals_per_match": 2.65,
+   "home_win_rate": 0.437,
+   "draw_rate": 0.258,
+   "margin_home_win": 1.883,
+   "margin_away_win": 1.691,
+   "one_goal_share_home": 0.493,
+   "one_goal_share_away": 0.565
+  },
+  "europe/greece:gr1": {
+   "n": 960,
+   "goals_per_match": 2.46,
+   "home_win_rate": 0.439,
+   "draw_rate": 0.267,
+   "margin_home_win": 1.926,
+   "margin_away_win": 1.686,
+   "one_goal_share_home": 0.458,
+   "one_goal_share_away": 0.555
+  },
+  "europe/hungary:hu1": {
+   "n": 594,
+   "goals_per_match": 2.88,
+   "home_win_rate": 0.475,
+   "draw_rate": 0.224,
+   "margin_home_win": 1.936,
+   "margin_away_win": 1.765,
+   "one_goal_share_home": 0.475,
+   "one_goal_share_away": 0.553
+  },
+  "europe/netherlands:nl1": {
+   "n": 1762,
+   "goals_per_match": 3.12,
+   "home_win_rate": 0.455,
+   "draw_rate": 0.227,
+   "margin_home_win": 2.231,
+   "margin_away_win": 1.954,
+   "one_goal_share_home": 0.372,
+   "one_goal_share_away": 0.463
+  },
+  "europe/portugal:pt1": {
+   "n": 1836,
+   "goals_per_match": 2.6,
+   "home_win_rate": 0.436,
+   "draw_rate": 0.237,
+   "margin_home_win": 1.846,
+   "margin_away_win": 1.679,
+   "one_goal_share_home": 0.514,
+   "one_goal_share_away": 0.577
+  },
+  "europe/russia:ru1": {
+   "n": 960,
+   "goals_per_match": 2.5,
+   "home_win_rate": 0.435,
+   "draw_rate": 0.261,
+   "margin_home_win": 1.852,
+   "margin_away_win": 1.601,
+   "one_goal_share_home": 0.505,
+   "one_goal_share_away": 0.591
+  },
+  "europe/scotland:sco1": {
+   "n": 803,
+   "goals_per_match": 2.61,
+   "home_win_rate": 0.43,
+   "draw_rate": 0.244,
+   "margin_home_win": 2.032,
+   "margin_away_win": 1.794,
+   "one_goal_share_home": 0.449,
+   "one_goal_share_away": 0.527
+  },
+  "europe/switzerland:ch1": {
+   "n": 948,
+   "goals_per_match": 2.92,
+   "home_win_rate": 0.438,
+   "draw_rate": 0.257,
+   "margin_home_win": 1.896,
+   "margin_away_win": 1.727,
+   "one_goal_share_home": 0.484,
+   "one_goal_share_away": 0.55
+  },
+  "europe/turkey:tr1": {
+   "n": 1412,
+   "goals_per_match": 2.76,
+   "home_win_rate": 0.437,
+   "draw_rate": 0.275,
+   "margin_home_win": 1.89,
+   "margin_away_win": 1.65,
+   "one_goal_share_home": 0.467,
+   "one_goal_share_away": 0.581
+  },
+  "italy:1-seriea": {
+   "n": 4180,
+   "goals_per_match": 2.77,
+   "home_win_rate": 0.432,
+   "draw_rate": 0.255,
+   "margin_home_win": 1.856,
+   "margin_away_win": 1.693,
+   "one_goal_share_home": 0.485,
+   "one_goal_share_away": 0.552
+  },
+  "south-america/argentina:ar1": {
+   "n": 1887,
+   "goals_per_match": 2.26,
+   "home_win_rate": 0.431,
+   "draw_rate": 0.299,
+   "margin_home_win": 1.641,
+   "margin_away_win": 1.578,
+   "one_goal_share_home": 0.554,
+   "one_goal_share_away": 0.582
+  },
+  "south-america/brazil:br1": {
+   "n": 2404,
+   "goals_per_match": 2.35,
+   "home_win_rate": 0.472,
+   "draw_rate": 0.279,
+   "margin_home_win": 1.657,
+   "margin_away_win": 1.501,
+   "one_goal_share_home": 0.569,
+   "one_goal_share_away": 0.658
+  },
+  "south-america/colombia:co1": {
+   "n": 668,
+   "goals_per_match": 2.23,
+   "home_win_rate": 0.473,
+   "draw_rate": 0.305,
+   "margin_home_win": 1.646,
+   "margin_away_win": 1.399,
+   "one_goal_share_home": 0.566,
+   "one_goal_share_away": 0.73
+  },
+  "world/africa:gh1": {
+   "n": 1464,
+   "goals_per_match": 2.13,
+   "home_win_rate": 0.577,
+   "draw_rate": 0.264,
+   "margin_home_win": 1.603,
+   "margin_away_win": 1.386,
+   "one_goal_share_home": 0.591,
+   "one_goal_share_away": 0.721
+  },
+  "world/africa:ke1": {
+   "n": 612,
+   "goals_per_match": 2.13,
+   "home_win_rate": 0.364,
+   "draw_rate": 0.289,
+   "margin_home_win": 1.587,
+   "margin_away_win": 1.585,
+   "one_goal_share_home": 0.628,
+   "one_goal_share_away": 0.642
+  },
+  "world/africa:rw1": {
+   "n": 720,
+   "goals_per_match": 2.22,
+   "home_win_rate": 0.438,
+   "draw_rate": 0.267,
+   "margin_home_win": 1.594,
+   "margin_away_win": 1.404,
+   "one_goal_share_home": 0.622,
+   "one_goal_share_away": 0.704
+  },
+  "world/africa:sn1": {
+   "n": 546,
+   "goals_per_match": 1.78,
+   "home_win_rate": 0.427,
+   "draw_rate": 0.328,
+   "margin_home_win": 1.536,
+   "margin_away_win": 1.463,
+   "one_goal_share_home": 0.627,
+   "one_goal_share_away": 0.642
+  },
+  "world/africa:tz1": {
+   "n": 786,
+   "goals_per_match": 2.03,
+   "home_win_rate": 0.439,
+   "draw_rate": 0.313,
+   "margin_home_win": 1.704,
+   "margin_away_win": 1.497,
+   "one_goal_share_home": 0.565,
+   "one_goal_share_away": 0.682
+  },
+  "world/africa:zm1": {
+   "n": 612,
+   "goals_per_match": 1.91,
+   "home_win_rate": 0.408,
+   "draw_rate": 0.342,
+   "margin_home_win": 1.52,
+   "margin_away_win": 1.373,
+   "one_goal_share_home": 0.624,
+   "one_goal_share_away": 0.739
+  },
+  "world/africa:zw1": {
+   "n": 765,
+   "goals_per_match": 1.89,
+   "home_win_rate": 0.433,
+   "draw_rate": 0.339,
+   "margin_home_win": 1.556,
+   "margin_away_win": 1.434,
+   "one_goal_share_home": 0.662,
+   "one_goal_share_away": 0.674
+  },
+  "world/asia:cn1": {
+   "n": 1498,
+   "goals_per_match": 2.9,
+   "home_win_rate": 0.445,
+   "draw_rate": 0.241,
+   "margin_home_win": 1.949,
+   "margin_away_win": 1.83,
+   "one_goal_share_home": 0.466,
+   "one_goal_share_away": 0.528
+  },
+  "world/asia:jp1": {
+   "n": 1813,
+   "goals_per_match": 2.58,
+   "home_win_rate": 0.406,
+   "draw_rate": 0.259,
+   "margin_home_win": 1.765,
+   "margin_away_win": 1.645,
+   "one_goal_share_home": 0.522,
+   "one_goal_share_away": 0.584
+  },
+  "world/north-america:mls": {
+   "n": 6669,
+   "goals_per_match": 2.8,
+   "home_win_rate": 0.496,
+   "draw_rate": 0.259,
+   "margin_home_win": 1.802,
+   "margin_away_win": 1.539,
+   "one_goal_share_home": 0.512,
+   "one_goal_share_away": 0.626
+  },
+  "world/north-america:mx1": {
+   "n": 4640,
+   "goals_per_match": 2.63,
+   "home_win_rate": 0.44,
+   "draw_rate": 0.278,
+   "margin_home_win": 1.764,
+   "margin_away_win": 1.551,
+   "one_goal_share_home": 0.521,
+   "one_goal_share_away": 0.617
+  },
+  "world/pacific:au1": {
+   "n": 944,
+   "goals_per_match": 3.03,
+   "home_win_rate": 0.447,
+   "draw_rate": 0.234,
+   "margin_home_win": 1.86,
+   "margin_away_win": 1.708,
+   "one_goal_share_home": 0.509,
+   "one_goal_share_away": 0.561
+  }
+ },
+ "heterogeneity_development_window": {
+  "goals_per_match": {
+   "ca_min": 2.46,
+   "ca_median": 2.76,
+   "ca_max": 3.12,
+   "ca_sd": 0.202,
+   "target": {
+    "deutschland:1-bundesliga": 3.0,
+    "espana:1-liga": 2.66
+   },
+   "target_inside_ca_range": true,
+   "target_z_vs_ca": [
+    1.18,
+    -0.5
+   ]
+  },
+  "margin_home_win": {
+   "ca_min": 1.846,
+   "ca_median": 1.926,
+   "ca_max": 2.231,
+   "ca_sd": 0.112,
+   "target": {
+    "deutschland:1-bundesliga": 2.067,
+    "espana:1-liga": 1.893
+   },
+   "target_inside_ca_range": true,
+   "target_z_vs_ca": [
+    0.99,
+    -0.56
+   ]
+  },
+  "margin_away_win": {
+   "ca_min": 1.601,
+   "ca_median": 1.73,
+   "ca_max": 1.954,
+   "ca_sd": 0.105,
+   "target": {
+    "deutschland:1-bundesliga": 1.856,
+    "espana:1-liga": 1.668
+   },
+   "target_inside_ca_range": true,
+   "target_z_vs_ca": [
+    0.98,
+    -0.81
+   ]
+  },
+  "one_goal_share_home": {
+   "ca_min": 0.372,
+   "ca_median": 0.467,
+   "ca_max": 0.514,
+   "ca_sd": 0.038,
+   "target": {
+    "deutschland:1-bundesliga": 0.414,
+    "espana:1-liga": 0.492
+   },
+   "target_inside_ca_range": true,
+   "target_z_vs_ca": [
+    -1.24,
+    0.79
+   ]
+  },
+  "one_goal_share_away": {
+   "ca_min": 0.463,
+   "ca_median": 0.551,
+   "ca_max": 0.591,
+   "ca_sd": 0.041,
+   "target": {
+    "deutschland:1-bundesliga": 0.481,
+    "espana:1-liga": 0.573
+   },
+   "target_inside_ca_range": true,
+   "target_z_vs_ca": [
+    -1.47,
+    0.8
+   ]
+  },
+  "draw_rate": {
+   "ca_min": 0.224,
+   "ca_median": 0.244,
+   "ca_max": 0.275,
+   "ca_sd": 0.017,
+   "target": {
+    "deutschland:1-bundesliga": 0.244,
+    "espana:1-liga": 0.254
+   },
+   "target_inside_ca_range": true,
+   "target_z_vs_ca": [
+    -0.24,
+    0.36
+   ]
+  }
+ },
+ "n_ca_leagues_compared": 11
+}

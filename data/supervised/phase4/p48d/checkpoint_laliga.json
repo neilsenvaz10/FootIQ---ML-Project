@@ -1,0 +1,1372 @@
+{
+ "step": "laliga",
+ "started_utc": "2026-10-27T14:18:47Z",
+ "execute": true,
+ "preconditions": {
+  "step": "laliga",
+  "expected_previous": "bundesliga checkpoint",
+  "path": "D:\\Foot IQ\\data\\footiq.sqlite",
+  "bytes": 228659200,
+  "physical_sha256": "40f4475ce7f9276736db83880c2c60e2cb5347884c913a2b977f04dbdc0a309b",
+  "logical_sha256": "f66de9343abd43d7b7b4cba1dc7fc6342ce071c723d73f25348ea074c045ca07",
+  "integrity_check": "ok",
+  "physical_matches_record": true,
+  "logical_matches_record": true,
+  "git_staged": [],
+  "git_head": "970f461 Mini Project Scope Update",
+  "live_enabled": false,
+  "application_processes": [],
+  "exclusive_lock_available": true,
+  "snapshot_sha256": "efe9e2a94ae06151f39947cbcb04e73e5c8e5f1534447bc96c5f3284afc11508",
+  "snapshot_matches_record": true,
+  "failed": []
+ },
+ "backup": {
+  "path": "data\\backups\\footiq.20261027T141855Z.pre-laliga.sqlite",
+  "bytes": 228659200,
+  "physical_sha256": "85b75212b366d82adac2ac89039bcca85fe484e2fbc128332762d1e28b6bad40",
+  "logical_equals_production": true,
+  "integrity_check": "ok",
+  "restore": {
+   "logical_equals_production": true,
+   "integrity_check": "ok",
+   "matches": 223510
+  },
+  "restored_path": "D:\\Foot IQ\\data\\supervised\\phase4\\p48d\\restore_test_laliga.sqlite"
+ },
+ "reconciliation_on_private_copy": {
+  "import_result": {
+   "run_id": 10,
+   "stats": {
+    "inserted": 0,
+    "updated": 4,
+    "unchanged": 0,
+    "confirmed": 0,
+    "quarantined": 0
+   },
+   "allowed_source_refs": [
+    "85426",
+    "85428",
+    "85432",
+    "85429"
+   ],
+   "started_utc": "2026-10-27T14:19:10Z"
+  },
+  "verification": {
+   "problems": [],
+   "row_changes": {
+    "espana:1-liga:2026-27:L179": {
+     "model_home_entity": [
+      null,
+      "CLUB:ESP:athletic-club-bilbao"
+     ],
+     "model_away_entity": [
+      null,
+      "CLUB:ESP:getafe-cf"
+     ],
+     "status": [
+      "scheduled",
+      "completed"
+     ],
+     "home_goals_final": [
+      null,
+      4
+     ],
+     "away_goals_final": [
+      null,
+      0
+     ],
+     "home_goals_90": [
+      null,
+      4
+     ],
+     "away_goals_90": [
+      null,
+      0
+     ],
+     "label_90_status": [
+      null,
+      "confirmed"
+     ],
+     "outcome": [
+      null,
+      "H"
+     ],
+     "rated": [
+      null,
+      1
+     ],
+     "regular": [
+      null,
+      1
+     ],
+     "in_universe": [
+      0,
+      1
+     ],
+     "source_system": [
+      "openfootball (CC0 / public domain)",
+      "openligadb"
+     ],
+     "licence": [
+      "CC0-1.0",
+      "ODbL-1.0"
+     ]
+    },
+    "espana:1-liga:2026-27:L182": {
+     "model_home_entity": [
+      null,
+      "CLUB:ESP:fc-barcelona"
+     ],
+     "model_away_entity": [
+      null,
+      "CLUB:ESP:real-madrid"
+     ],
+     "status": [
+      "scheduled",
+      "completed"
+     ],
+     "home_goals_final": [
+      null,
+      1
+     ],
+     "away_goals_final": [
+      null,
+      2
+     ],
+     "home_goals_90": [
+      null,
+      1
+     ],
+     "away_goals_90": [
+      null,
+      2
+     ],
+     "label_90_status": [
+      null,
+      "confirmed"
+     ],
+     "outcome": [
+      null,
+      "A"
+     ],
+     "rated": [
+      null,
+      1
+     ],
+     "regular": [
+      null,
+      1
+     ],
+     "in_universe": [
+      0,
+      1
+     ],
+     "source_system": [
+      "openfootball (CC0 / public domain)",
+      "openligadb"
+     ],
+     "licence": [
+      "CC0-1.0",
+      "ODbL-1.0"
+     ]
+    },
+    "espana:1-liga:2026-27:L184": {
+     "model_home_entity": [
+      null,
+      "CLUB:ESP:rc-celta-vigo"
+     ],
+     "model_away_entity": [
+      null,
+      "CLUB:ESP:real-betis"
+     ],
+     "status": [
+      "scheduled",
+      "completed"
+     ],
+     "home_goals_final": [
+      null,
+      0
+     ],
+     "away_goals_final": [
+      null,
+      0
+     ],
+     "home_goals_90": [
+      null,
+      0
+     ],
+     "away_goals_90": [
+      null,
+      0
+     ],
+     "label_90_status": [
+      null,
+      "confirmed"
+     ],
+     "outcome": [
+      null,
+      "D"
+     ],
+     "rated": [
+      null,
+      1
+     ],
+     "regular": [
+      null,
+      1
+     ],
+     "in_universe": [
+      0,
+      1
+     ],
+     "source_system": [
+      "openfootball (CC0 / public domain)",
+      "openligadb"
+     ],
+     "licence": [
+      "CC0-1.0",
+      "ODbL-1.0"
+     ]
+    },
+    "espana:1-liga:2026-27:L185": {
+     "model_home_entity": [
+      null,
+      "CLUB:ESP:real-sociedad"
+     ],
+     "model_away_entity": [
+      null,
+      "CLUB:ESP:levante-ud"
+     ],
+     "status": [
+      "scheduled",
+      "completed"
+     ],
+     "home_goals_final": [
+      null,
+      2
+     ],
+     "away_goals_final": [
+      null,
+      1
+     ],
+     "home_goals_90": [
+      null,
+      2
+     ],
+     "away_goals_90": [
+      null,
+      1
+     ],
+     "label_90_status": [
+      null,
+      "confirmed"
+     ],
+     "outcome": [
+      null,
+      "H"
+     ],
+     "rated": [
+      null,
+      1
+     ],
+     "regular": [
+      null,
+      1
+     ],
+     "in_universe": [
+      0,
+      1
+     ],
+     "source_system": [
+      "openfootball (CC0 / public domain)",
+      "openligadb"
+     ],
+     "licence": [
+      "CC0-1.0",
+      "ODbL-1.0"
+     ]
+    }
+   },
+   "tables_changed": [
+    "match_sources",
+    "matches",
+    "source_snapshots",
+    "sync_runs"
+   ],
+   "links_changed": {
+    "openligadb:85426": {
+     "before": {
+      "source": "openligadb",
+      "source_ref": "85426",
+      "record_id": "espana:1-liga:2026-27:L179",
+      "role": "confirmation",
+      "snapshot_id": "20261025T090713Z_investigation_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-25T09:07:13Z",
+      "source_revision": "2026-10-17T09:07:38.827",
+      "provenance": "openligadb matchID 85426"
+     },
+     "after": {
+      "source": "openligadb",
+      "source_ref": "85426",
+      "record_id": "espana:1-liga:2026-27:L179",
+      "role": "primary",
+      "snapshot_id": "20261027T130112Z_p48c_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-27T13:01:12Z",
+      "source_revision": "2026-10-25T23:35:09.133",
+      "provenance": "openligadb matchID 85426 | upgraded to primary by snapshot 20261027T130112Z_p48c_la1.json (retrieved 2026-10-27T13:01:12Z); was confirmation via snapshot 20261025T090713Z_investigation_la1.json (retrieved 2026-10-25T09:07:13Z)"
+     }
+    },
+    "openligadb:85428": {
+     "before": {
+      "source": "openligadb",
+      "source_ref": "85428",
+      "record_id": "espana:1-liga:2026-27:L184",
+      "role": "confirmation",
+      "snapshot_id": "20261025T090713Z_investigation_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-25T09:07:13Z",
+      "source_revision": "2026-10-17T09:07:51.31",
+      "provenance": "openligadb matchID 85428"
+     },
+     "after": {
+      "source": "openligadb",
+      "source_ref": "85428",
+      "record_id": "espana:1-liga:2026-27:L184",
+      "role": "primary",
+      "snapshot_id": "20261027T130112Z_p48c_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-27T13:01:12Z",
+      "source_revision": "2026-10-25T23:35:26.243",
+      "provenance": "openligadb matchID 85428 | upgraded to primary by snapshot 20261027T130112Z_p48c_la1.json (retrieved 2026-10-27T13:01:12Z); was confirmation via snapshot 20261025T090713Z_investigation_la1.json (retrieved 2026-10-25T09:07:13Z)"
+     }
+    },
+    "openligadb:85432": {
+     "before": {
+      "source": "openligadb",
+      "source_ref": "85432",
+      "record_id": "espana:1-liga:2026-27:L185",
+      "role": "confirmation",
+      "snapshot_id": "20261025T090713Z_investigation_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-25T09:07:13Z",
+      "source_revision": "2026-10-17T09:08:02.883",
+      "provenance": "openligadb matchID 85432"
+     },
+     "after": {
+      "source": "openligadb",
+      "source_ref": "85432",
+      "record_id": "espana:1-liga:2026-27:L185",
+      "role": "primary",
+      "snapshot_id": "20261027T130112Z_p48c_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-27T13:01:12Z",
+      "source_revision": "2026-10-25T23:38:58.757",
+      "provenance": "openligadb matchID 85432 | upgraded to primary by snapshot 20261027T130112Z_p48c_la1.json (retrieved 2026-10-27T13:01:12Z); was confirmation via snapshot 20261025T090713Z_investigation_la1.json (retrieved 2026-10-25T09:07:13Z)"
+     }
+    },
+    "openligadb:85429": {
+     "before": {
+      "source": "openligadb",
+      "source_ref": "85429",
+      "record_id": "espana:1-liga:2026-27:L182",
+      "role": "confirmation",
+      "snapshot_id": "20261025T090713Z_investigation_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-25T09:07:13Z",
+      "source_revision": "2026-10-17T09:08:16.73",
+      "provenance": "openligadb matchID 85429"
+     },
+     "after": {
+      "source": "openligadb",
+      "source_ref": "85429",
+      "record_id": "espana:1-liga:2026-27:L182",
+      "role": "primary",
+      "snapshot_id": "20261027T130112Z_p48c_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-27T13:01:12Z",
+      "source_revision": "2026-10-25T23:09:09.857",
+      "provenance": "openligadb matchID 85429 | upgraded to primary by snapshot 20261027T130112Z_p48c_la1.json (retrieved 2026-10-27T13:01:12Z); was confirmation via snapshot 20261025T090713Z_investigation_la1.json (retrieved 2026-10-25T09:07:13Z)"
+     }
+    }
+   },
+   "integrity": {
+    "integrity_check": "ok",
+    "foreign_key_check": 0,
+    "forecasts": 0,
+    "forecast_runs": 0,
+    "simulation_runs": 0,
+    "quarantine": 273,
+    "team_aliases": 7447,
+    "matches": 223510
+   },
+   "standings": {
+    "Deportivo Alavés": {
+     "before": {
+      "played": 9,
+      "points": 11,
+      "gf": 13,
+      "ga": 10,
+      "gd": 3,
+      "rank": 7,
+      "last5": "LLDLL"
+     },
+     "after": {
+      "played": 9,
+      "points": 11,
+      "gf": 13,
+      "ga": 10,
+      "gd": 3,
+      "rank": 9,
+      "last5": "LLDLL"
+     }
+    },
+    "Getafe CF": {
+     "before": {
+      "played": 9,
+      "points": 9,
+      "gf": 5,
+      "ga": 11,
+      "gd": -6,
+      "rank": 15,
+      "last5": "DLWLD"
+     },
+     "after": {
+      "played": 10,
+      "points": 9,
+      "gf": 5,
+      "ga": 15,
+      "gd": -10,
+      "rank": 15,
+      "last5": "LWLDL"
+     }
+    },
+    "Villarreal CF": {
+     "before": {
+      "played": 9,
+      "points": 9,
+      "gf": 13,
+      "ga": 13,
+      "gd": 0,
+      "rank": 12,
+      "last5": "LWWLD"
+     },
+     "after": {
+      "played": 9,
+      "points": 9,
+      "gf": 13,
+      "ga": 13,
+      "gd": 0,
+      "rank": 13,
+      "last5": "LWWLD"
+     }
+    },
+    "Levante UD": {
+     "before": {
+      "played": 9,
+      "points": 10,
+      "gf": 15,
+      "ga": 17,
+      "gd": -2,
+      "rank": 11,
+      "last5": "LLDDW"
+     },
+     "after": {
+      "played": 10,
+      "points": 10,
+      "gf": 16,
+      "ga": 19,
+      "gd": -3,
+      "rank": 12,
+      "last5": "LDDWL"
+     }
+    },
+    "RC Deportivo La Coruña": {
+     "before": {
+      "played": 9,
+      "points": 11,
+      "gf": 13,
+      "ga": 12,
+      "gd": 1,
+      "rank": 9,
+      "last5": "DLDLD"
+     },
+     "after": {
+      "played": 9,
+      "points": 11,
+      "gf": 13,
+      "ga": 12,
+      "gd": 1,
+      "rank": 10,
+      "last5": "DLDLD"
+     }
+    },
+    "Club Atlético de Madrid": {
+     "before": {
+      "played": 9,
+      "points": 22,
+      "gf": 19,
+      "ga": 8,
+      "gd": 11,
+      "rank": 2,
+      "last5": "WWWWW"
+     },
+     "after": {
+      "played": 9,
+      "points": 22,
+      "gf": 19,
+      "ga": 8,
+      "gd": 11,
+      "rank": 3,
+      "last5": "WWWWW"
+     }
+    },
+    "Real Betis Balompié": {
+     "before": {
+      "played": 9,
+      "points": 19,
+      "gf": 16,
+      "ga": 14,
+      "gd": 2,
+      "rank": 4,
+      "last5": "WWDWL"
+     },
+     "after": {
+      "played": 10,
+      "points": 20,
+      "gf": 16,
+      "ga": 14,
+      "gd": 2,
+      "rank": 4,
+      "last5": "WDWLD"
+     }
+    },
+    "Real Sociedad de Fútbol": {
+     "before": {
+      "played": 9,
+      "points": 16,
+      "gf": 17,
+      "ga": 17,
+      "gd": 0,
+      "rank": 5,
+      "last5": "WLWWW"
+     },
+     "after": {
+      "played": 10,
+      "points": 19,
+      "gf": 19,
+      "ga": 18,
+      "gd": 1,
+      "rank": 5,
+      "last5": "LWWWW"
+     }
+    },
+    "Athletic Club": {
+     "before": {
+      "played": 8,
+      "points": 9,
+      "gf": 8,
+      "ga": 9,
+      "gd": -1,
+      "rank": 13,
+      "last5": "WDDDL"
+     },
+     "after": {
+      "played": 9,
+      "points": 12,
+      "gf": 12,
+      "ga": 9,
+      "gd": 3,
+      "rank": 7,
+      "last5": "DDDLW"
+     }
+    },
+    "RC Celta de Vigo": {
+     "before": {
+      "played": 9,
+      "points": 11,
+      "gf": 10,
+      "ga": 7,
+      "gd": 3,
+      "rank": 8,
+      "last5": "DDWDW"
+     },
+     "after": {
+      "played": 10,
+      "points": 12,
+      "gf": 10,
+      "ga": 7,
+      "gd": 3,
+      "rank": 8,
+      "last5": "DWDWD"
+     }
+    },
+    "Real Madrid CF": {
+     "before": {
+      "played": 9,
+      "points": 21,
+      "gf": 23,
+      "ga": 9,
+      "gd": 14,
+      "rank": 3,
+      "last5": "WWLWW"
+     },
+     "after": {
+      "played": 10,
+      "points": 24,
+      "gf": 25,
+      "ga": 10,
+      "gd": 15,
+      "rank": 2,
+      "last5": "WLWWW"
+     }
+    },
+    "FC Barcelona": {
+     "before": {
+      "played": 9,
+      "points": 27,
+      "gf": 39,
+      "ga": 9,
+      "gd": 30,
+      "rank": 1,
+      "last5": "WWWWW"
+     },
+     "after": {
+      "played": 10,
+      "points": 27,
+      "gf": 40,
+      "ga": 11,
+      "gd": 29,
+      "rank": 1,
+      "last5": "WWWWL"
+     }
+    },
+    "CA Osasuna": {
+     "before": {
+      "played": 9,
+      "points": 11,
+      "gf": 10,
+      "ga": 18,
+      "gd": -8,
+      "rank": 10,
+      "last5": "LLDLW"
+     },
+     "after": {
+      "played": 9,
+      "points": 11,
+      "gf": 10,
+      "ga": 18,
+      "gd": -8,
+      "rank": 11,
+      "last5": "LLDLW"
+     }
+    }
+   },
+   "logical_sha256": "d05f4033c184398fadaafe6093b91b0a14df0911dd85cb5cfffe62d63f294540",
+   "physical_sha256": "54b3475291fbbdcedeb0dae31e35b1090cbcc0e092178984c4ed9e83d9dc65f9"
+  }
+ },
+ "production_import": {
+  "import_result": {
+   "run_id": 10,
+   "stats": {
+    "inserted": 0,
+    "updated": 4,
+    "unchanged": 0,
+    "confirmed": 0,
+    "quarantined": 0
+   },
+   "allowed_source_refs": [
+    "85426",
+    "85428",
+    "85432",
+    "85429"
+   ],
+   "started_utc": "2026-10-27T14:19:42Z"
+  },
+  "verification": {
+   "problems": [],
+   "row_changes": {
+    "espana:1-liga:2026-27:L179": {
+     "model_home_entity": [
+      null,
+      "CLUB:ESP:athletic-club-bilbao"
+     ],
+     "model_away_entity": [
+      null,
+      "CLUB:ESP:getafe-cf"
+     ],
+     "status": [
+      "scheduled",
+      "completed"
+     ],
+     "home_goals_final": [
+      null,
+      4
+     ],
+     "away_goals_final": [
+      null,
+      0
+     ],
+     "home_goals_90": [
+      null,
+      4
+     ],
+     "away_goals_90": [
+      null,
+      0
+     ],
+     "label_90_status": [
+      null,
+      "confirmed"
+     ],
+     "outcome": [
+      null,
+      "H"
+     ],
+     "rated": [
+      null,
+      1
+     ],
+     "regular": [
+      null,
+      1
+     ],
+     "in_universe": [
+      0,
+      1
+     ],
+     "source_system": [
+      "openfootball (CC0 / public domain)",
+      "openligadb"
+     ],
+     "licence": [
+      "CC0-1.0",
+      "ODbL-1.0"
+     ]
+    },
+    "espana:1-liga:2026-27:L182": {
+     "model_home_entity": [
+      null,
+      "CLUB:ESP:fc-barcelona"
+     ],
+     "model_away_entity": [
+      null,
+      "CLUB:ESP:real-madrid"
+     ],
+     "status": [
+      "scheduled",
+      "completed"
+     ],
+     "home_goals_final": [
+      null,
+      1
+     ],
+     "away_goals_final": [
+      null,
+      2
+     ],
+     "home_goals_90": [
+      null,
+      1
+     ],
+     "away_goals_90": [
+      null,
+      2
+     ],
+     "label_90_status": [
+      null,
+      "confirmed"
+     ],
+     "outcome": [
+      null,
+      "A"
+     ],
+     "rated": [
+      null,
+      1
+     ],
+     "regular": [
+      null,
+      1
+     ],
+     "in_universe": [
+      0,
+      1
+     ],
+     "source_system": [
+      "openfootball (CC0 / public domain)",
+      "openligadb"
+     ],
+     "licence": [
+      "CC0-1.0",
+      "ODbL-1.0"
+     ]
+    },
+    "espana:1-liga:2026-27:L184": {
+     "model_home_entity": [
+      null,
+      "CLUB:ESP:rc-celta-vigo"
+     ],
+     "model_away_entity": [
+      null,
+      "CLUB:ESP:real-betis"
+     ],
+     "status": [
+      "scheduled",
+      "completed"
+     ],
+     "home_goals_final": [
+      null,
+      0
+     ],
+     "away_goals_final": [
+      null,
+      0
+     ],
+     "home_goals_90": [
+      null,
+      0
+     ],
+     "away_goals_90": [
+      null,
+      0
+     ],
+     "label_90_status": [
+      null,
+      "confirmed"
+     ],
+     "outcome": [
+      null,
+      "D"
+     ],
+     "rated": [
+      null,
+      1
+     ],
+     "regular": [
+      null,
+      1
+     ],
+     "in_universe": [
+      0,
+      1
+     ],
+     "source_system": [
+      "openfootball (CC0 / public domain)",
+      "openligadb"
+     ],
+     "licence": [
+      "CC0-1.0",
+      "ODbL-1.0"
+     ]
+    },
+    "espana:1-liga:2026-27:L185": {
+     "model_home_entity": [
+      null,
+      "CLUB:ESP:real-sociedad"
+     ],
+     "model_away_entity": [
+      null,
+      "CLUB:ESP:levante-ud"
+     ],
+     "status": [
+      "scheduled",
+      "completed"
+     ],
+     "home_goals_final": [
+      null,
+      2
+     ],
+     "away_goals_final": [
+      null,
+      1
+     ],
+     "home_goals_90": [
+      null,
+      2
+     ],
+     "away_goals_90": [
+      null,
+      1
+     ],
+     "label_90_status": [
+      null,
+      "confirmed"
+     ],
+     "outcome": [
+      null,
+      "H"
+     ],
+     "rated": [
+      null,
+      1
+     ],
+     "regular": [
+      null,
+      1
+     ],
+     "in_universe": [
+      0,
+      1
+     ],
+     "source_system": [
+      "openfootball (CC0 / public domain)",
+      "openligadb"
+     ],
+     "licence": [
+      "CC0-1.0",
+      "ODbL-1.0"
+     ]
+    }
+   },
+   "tables_changed": [
+    "match_sources",
+    "matches",
+    "source_snapshots",
+    "sync_runs"
+   ],
+   "links_changed": {
+    "openligadb:85426": {
+     "before": {
+      "source": "openligadb",
+      "source_ref": "85426",
+      "record_id": "espana:1-liga:2026-27:L179",
+      "role": "confirmation",
+      "snapshot_id": "20261025T090713Z_investigation_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-25T09:07:13Z",
+      "source_revision": "2026-10-17T09:07:38.827",
+      "provenance": "openligadb matchID 85426"
+     },
+     "after": {
+      "source": "openligadb",
+      "source_ref": "85426",
+      "record_id": "espana:1-liga:2026-27:L179",
+      "role": "primary",
+      "snapshot_id": "20261027T130112Z_p48c_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-27T13:01:12Z",
+      "source_revision": "2026-10-25T23:35:09.133",
+      "provenance": "openligadb matchID 85426 | upgraded to primary by snapshot 20261027T130112Z_p48c_la1.json (retrieved 2026-10-27T13:01:12Z); was confirmation via snapshot 20261025T090713Z_investigation_la1.json (retrieved 2026-10-25T09:07:13Z)"
+     }
+    },
+    "openligadb:85428": {
+     "before": {
+      "source": "openligadb",
+      "source_ref": "85428",
+      "record_id": "espana:1-liga:2026-27:L184",
+      "role": "confirmation",
+      "snapshot_id": "20261025T090713Z_investigation_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-25T09:07:13Z",
+      "source_revision": "2026-10-17T09:07:51.31",
+      "provenance": "openligadb matchID 85428"
+     },
+     "after": {
+      "source": "openligadb",
+      "source_ref": "85428",
+      "record_id": "espana:1-liga:2026-27:L184",
+      "role": "primary",
+      "snapshot_id": "20261027T130112Z_p48c_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-27T13:01:12Z",
+      "source_revision": "2026-10-25T23:35:26.243",
+      "provenance": "openligadb matchID 85428 | upgraded to primary by snapshot 20261027T130112Z_p48c_la1.json (retrieved 2026-10-27T13:01:12Z); was confirmation via snapshot 20261025T090713Z_investigation_la1.json (retrieved 2026-10-25T09:07:13Z)"
+     }
+    },
+    "openligadb:85432": {
+     "before": {
+      "source": "openligadb",
+      "source_ref": "85432",
+      "record_id": "espana:1-liga:2026-27:L185",
+      "role": "confirmation",
+      "snapshot_id": "20261025T090713Z_investigation_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-25T09:07:13Z",
+      "source_revision": "2026-10-17T09:08:02.883",
+      "provenance": "openligadb matchID 85432"
+     },
+     "after": {
+      "source": "openligadb",
+      "source_ref": "85432",
+      "record_id": "espana:1-liga:2026-27:L185",
+      "role": "primary",
+      "snapshot_id": "20261027T130112Z_p48c_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-27T13:01:12Z",
+      "source_revision": "2026-10-25T23:38:58.757",
+      "provenance": "openligadb matchID 85432 | upgraded to primary by snapshot 20261027T130112Z_p48c_la1.json (retrieved 2026-10-27T13:01:12Z); was confirmation via snapshot 20261025T090713Z_investigation_la1.json (retrieved 2026-10-25T09:07:13Z)"
+     }
+    },
+    "openligadb:85429": {
+     "before": {
+      "source": "openligadb",
+      "source_ref": "85429",
+      "record_id": "espana:1-liga:2026-27:L182",
+      "role": "confirmation",
+      "snapshot_id": "20261025T090713Z_investigation_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-25T09:07:13Z",
+      "source_revision": "2026-10-17T09:08:16.73",
+      "provenance": "openligadb matchID 85429"
+     },
+     "after": {
+      "source": "openligadb",
+      "source_ref": "85429",
+      "record_id": "espana:1-liga:2026-27:L182",
+      "role": "primary",
+      "snapshot_id": "20261027T130112Z_p48c_la1.json",
+      "licence": "ODbL-1.0",
+      "retrieved_utc": "2026-10-27T13:01:12Z",
+      "source_revision": "2026-10-25T23:09:09.857",
+      "provenance": "openligadb matchID 85429 | upgraded to primary by snapshot 20261027T130112Z_p48c_la1.json (retrieved 2026-10-27T13:01:12Z); was confirmation via snapshot 20261025T090713Z_investigation_la1.json (retrieved 2026-10-25T09:07:13Z)"
+     }
+    }
+   },
+   "integrity": {
+    "integrity_check": "ok",
+    "foreign_key_check": 0,
+    "forecasts": 0,
+    "forecast_runs": 0,
+    "simulation_runs": 0,
+    "quarantine": 273,
+    "team_aliases": 7447,
+    "matches": 223510
+   },
+   "standings": {
+    "Deportivo Alavés": {
+     "before": {
+      "played": 9,
+      "points": 11,
+      "gf": 13,
+      "ga": 10,
+      "gd": 3,
+      "rank": 7,
+      "last5": "LLDLL"
+     },
+     "after": {
+      "played": 9,
+      "points": 11,
+      "gf": 13,
+      "ga": 10,
+      "gd": 3,
+      "rank": 9,
+      "last5": "LLDLL"
+     }
+    },
+    "Getafe CF": {
+     "before": {
+      "played": 9,
+      "points": 9,
+      "gf": 5,
+      "ga": 11,
+      "gd": -6,
+      "rank": 15,
+      "last5": "DLWLD"
+     },
+     "after": {
+      "played": 10,
+      "points": 9,
+      "gf": 5,
+      "ga": 15,
+      "gd": -10,
+      "rank": 15,
+      "last5": "LWLDL"
+     }
+    },
+    "Villarreal CF": {
+     "before": {
+      "played": 9,
+      "points": 9,
+      "gf": 13,
+      "ga": 13,
+      "gd": 0,
+      "rank": 12,
+      "last5": "LWWLD"
+     },
+     "after": {
+      "played": 9,
+      "points": 9,
+      "gf": 13,
+      "ga": 13,
+      "gd": 0,
+      "rank": 13,
+      "last5": "LWWLD"
+     }
+    },
+    "Levante UD": {
+     "before": {
+      "played": 9,
+      "points": 10,
+      "gf": 15,
+      "ga": 17,
+      "gd": -2,
+      "rank": 11,
+      "last5": "LLDDW"
+     },
+     "after": {
+      "played": 10,
+      "points": 10,
+      "gf": 16,
+      "ga": 19,
+      "gd": -3,
+      "rank": 12,
+      "last5": "LDDWL"
+     }
+    },
+    "RC Deportivo La Coruña": {
+     "before": {
+      "played": 9,
+      "points": 11,
+      "gf": 13,
+      "ga": 12,
+      "gd": 1,
+      "rank": 9,
+      "last5": "DLDLD"
+     },
+     "after": {
+      "played": 9,
+      "points": 11,
+      "gf": 13,
+      "ga": 12,
+      "gd": 1,
+      "rank": 10,
+      "last5": "DLDLD"
+     }
+    },
+    "Club Atlético de Madrid": {
+     "before": {
+      "played": 9,
+      "points": 22,
+      "gf": 19,
+      "ga": 8,
+      "gd": 11,
+      "rank": 2,
+      "last5": "WWWWW"
+     },
+     "after": {
+      "played": 9,
+      "points": 22,
+      "gf": 19,
+      "ga": 8,
+      "gd": 11,
+      "rank": 3,
+      "last5": "WWWWW"
+     }
+    },
+    "Real Betis Balompié": {
+     "before": {
+      "played": 9,
+      "points": 19,
+      "gf": 16,
+      "ga": 14,
+      "gd": 2,
+      "rank": 4,
+      "last5": "WWDWL"
+     },
+     "after": {
+      "played": 10,
+      "points": 20,
+      "gf": 16,
+      "ga": 14,
+      "gd": 2,
+      "rank": 4,
+      "last5": "WDWLD"
+     }
+    },
+    "Real Sociedad de Fútbol": {
+     "before": {
+      "played": 9,
+      "points": 16,
+      "gf": 17,
+      "ga": 17,
+      "gd": 0,
+      "rank": 5,
+      "last5": "WLWWW"
+     },
+     "after": {
+      "played": 10,
+      "points": 19,
+      "gf": 19,
+      "ga": 18,
+      "gd": 1,
+      "rank": 5,
+      "last5": "LWWWW"
+     }
+    },
+    "Athletic Club": {
+     "before": {
+      "played": 8,
+      "points": 9,
+      "gf": 8,
+      "ga": 9,
+      "gd": -1,
+      "rank": 13,
+      "last5": "WDDDL"
+     },
+     "after": {
+      "played": 9,
+      "points": 12,
+      "gf": 12,
+      "ga": 9,
+      "gd": 3,
+      "rank": 7,
+      "last5": "DDDLW"
+     }
+    },
+    "RC Celta de Vigo": {
+     "before": {
+      "played": 9,
+      "points": 11,
+      "gf": 10,
+      "ga": 7,
+      "gd": 3,
+      "rank": 8,
+      "last5": "DDWDW"
+     },
+     "after": {
+      "played": 10,
+      "points": 12,
+      "gf": 10,
+      "ga": 7,
+      "gd": 3,
+      "rank": 8,
+      "last5": "DWDWD"
+     }
+    },
+    "Real Madrid CF": {
+     "before": {
+      "played": 9,
+      "points": 21,
+      "gf": 23,
+      "ga": 9,
+      "gd": 14,
+      "rank": 3,
+      "last5": "WWLWW"
+     },
+     "after": {
+      "played": 10,
+      "points": 24,
+      "gf": 25,
+      "ga": 10,
+      "gd": 15,
+      "rank": 2,
+      "last5": "WLWWW"
+     }
+    },
+    "FC Barcelona": {
+     "before": {
+      "played": 9,
+      "points": 27,
+      "gf": 39,
+      "ga": 9,
+      "gd": 30,
+      "rank": 1,
+      "last5": "WWWWW"
+     },
+     "after": {
+      "played": 10,
+      "points": 27,
+      "gf": 40,
+      "ga": 11,
+      "gd": 29,
+      "rank": 1,
+      "last5": "WWWWL"
+     }
+    },
+    "CA Osasuna": {
+     "before": {
+      "played": 9,
+      "points": 11,
+      "gf": 10,
+      "ga": 18,
+      "gd": -8,
+      "rank": 10,
+      "last5": "LLDLW"
+     },
+     "after": {
+      "played": 9,
+      "points": 11,
+      "gf": 10,
+      "ga": 18,
+      "gd": -8,
+      "rank": 11,
+      "last5": "LLDLW"
+     }
+    }
+   },
+   "logical_sha256": "b3dcf8c0d04aa4538da77f4dc21c267b6414bb7e3c61692ad24a0ec4c2c1d95f",
+   "physical_sha256": "1bfad5bd4663e70776ef9da35f5c89eeed11b1ed7274ee7fdb562e266a9cb278"
+  }
+ },
+ "after": {
+  "physical_sha256": "1bfad5bd4663e70776ef9da35f5c89eeed11b1ed7274ee7fdb562e266a9cb278",
+  "logical_sha256": "b3dcf8c0d04aa4538da77f4dc21c267b6414bb7e3c61692ad24a0ec4c2c1d95f",
+  "last_baseline_run_id": 10,
+  "tables": {
+   "competitions": {
+    "rows": 162,
+    "sha256": "85b44c27cc9c9a00d9a7c76bcf0b44fa9729b45398b6263734c6f84771c61d2f"
+   },
+   "forecast_runs": {
+    "rows": 0,
+    "sha256": "850569778d27abd5b4e61a48c78bb0cd1abb19dbda197c263306187f8513cdb6"
+   },
+   "forecasts": {
+    "rows": 0,
+    "sha256": "538f1380cf6c02df1a3974c6709a8ea50d16f5cb873632cb1f644a4cab6b4e77"
+   },
+   "match_sources": {
+    "rows": 224519,
+    "sha256": "71ad9aedb28885496d95e697758ec0cfa10854c3cca66e9b924d09a6ecb12aab"
+   },
+   "matches": {
+    "rows": 223510,
+    "sha256": "29e2e362227b6511d3f41ce7e6e5e40c4155b9712976ad474af33be89fa7422d"
+   },
+   "meta": {
+    "rows": 2,
+    "sha256": "1cccfb03fe5880cdf150bf0016d8525aeb3c3ba3fec5cd441a078e672b898547"
+   },
+   "quarantine": {
+    "rows": 273,
+    "sha256": "d56af970e4b86b07393d9cd56234f0442ff4f0a8e0a3e95468ce1188864b7f90"
+   },
+   "simulation_runs": {
+    "rows": 0,
+    "sha256": "01b673b8d2934adb871975c99cb1cb7f892d2b598030cc1ccca943263f2d72c7"
+   },
+   "source_snapshots": {
+    "rows": 11,
+    "sha256": "b4a75112bce622d500a66da313354e9bc7a7324a850769b54f0b248237d248ae"
+   },
+   "source_state": {
+    "rows": 1,
+    "sha256": "53da816b6ea8d9a9f5577973661e6e7e376c7db93f3f52fbcb0b654a2c850407"
+   },
+   "sync_errors": {
+    "rows": 0,
+    "sha256": "97be2992efdb7b9b0842d0720464560dc353abdb1561df8748a073d1c713f68b"
+   },
+   "sync_runs": {
+    "rows": 10,
+    "sha256": "4767dd3bd59066f8ed681d674b69f6364913781642b47a8edbaebfdee945cadb"
+   },
+   "team_aliases": {
+    "rows": 7447,
+    "sha256": "42dcf199a77d43e070b20cd20ae6aa974643cd5b26a09df9fad881d588b4bc81"
+   },
+   "teams": {
+    "rows": 5188,
+    "sha256": "23a7dfe70da5a0f63e6203a11e9c78b88afc8a8f0304aeca85008b9abd6341f1"
+   }
+  },
+  "excluded_rows": [],
+  "journal_mode": "wal",
+  "integrity_check": "ok"
+ },
+ "result": "IMPORTED"
+}

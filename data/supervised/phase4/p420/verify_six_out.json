@@ -1,0 +1,294 @@
+{
+ "competitions": [
+  "EPL",
+  "LALIGA",
+  "BUNDESLIGA",
+  "SERIEA",
+  "LIGUE1",
+  "UCL"
+ ],
+ "health": {
+  "status": "ok",
+  "club_prediction_ready": true,
+  "data_rows": 15754
+ },
+ "per_competition": {
+  "EPL": {
+   "hub": [
+    200,
+    {
+     "upcoming": 300,
+     "awaiting_result": 20,
+     "completed": 60,
+     "other": 0,
+     "all": 380
+    },
+    {
+     "EPL": "2026-27"
+    },
+    20
+   ],
+   "dashboard": [
+    200,
+    60,
+    true
+   ],
+   "predict": [
+    200,
+    "Validated"
+   ],
+   "team": 200,
+   "coverage": 200,
+   "freshness": [
+    "2026-10-12",
+    "historical_only"
+   ]
+  },
+  "LALIGA": {
+   "hub": [
+    200,
+    {
+     "upcoming": 280,
+     "awaiting_result": 7,
+     "completed": 93,
+     "other": 0,
+     "all": 380
+    },
+    {
+     "LALIGA": "2026-27"
+    },
+    20
+   ],
+   "dashboard": [
+    200,
+    93,
+    true
+   ],
+   "predict": [
+    200,
+    "Validated"
+   ],
+   "team": 200,
+   "coverage": 200,
+   "freshness": [
+    "2026-10-25",
+    "startup_updated"
+   ]
+  },
+  "BUNDESLIGA": {
+   "hub": [
+    200,
+    {
+     "upcoming": 243,
+     "awaiting_result": 0,
+     "completed": 63,
+     "other": 0,
+     "all": 306
+    },
+    {
+     "BUNDESLIGA": "2026-27"
+    },
+    18
+   ],
+   "dashboard": [
+    200,
+    63,
+    true
+   ],
+   "predict": [
+    200,
+    "Validated"
+   ],
+   "team": 200,
+   "coverage": 200,
+   "freshness": [
+    "2026-10-25",
+    "startup_updated"
+   ]
+  },
+  "SERIEA": {
+   "hub": [
+    200,
+    {
+     "upcoming": 297,
+     "awaiting_result": 33,
+     "completed": 50,
+     "other": 0,
+     "all": 380
+    },
+    {
+     "SERIEA": "2026-27"
+    },
+    20
+   ],
+   "dashboard": [
+    200,
+    50,
+    true
+   ],
+   "predict": [
+    200,
+    "Validated"
+   ],
+   "team": 200,
+   "coverage": 200,
+   "freshness": [
+    "2026-09-20",
+    "historical_only"
+   ]
+  },
+  "LIGUE1": {
+   "hub": [
+    200,
+    {
+     "upcoming": 234,
+     "awaiting_result": 27,
+     "completed": 45,
+     "other": 0,
+     "all": 306
+    },
+    {
+     "LIGUE1": "2026-27"
+    },
+    18
+   ],
+   "dashboard": [
+    200,
+    45,
+    true
+   ],
+   "predict": [
+    200,
+    "Validated"
+   ],
+   "team": 200,
+   "coverage": 200,
+   "freshness": [
+    "2026-09-20",
+    "historical_only"
+   ]
+  },
+  "UCL": {
+   "hub": [
+    200,
+    {
+     "upcoming": 0,
+     "awaiting_result": 0,
+     "completed": 36,
+     "other": 0,
+     "all": 36
+    },
+    {
+     "UCL": "2026-27"
+    },
+    36
+   ],
+   "dashboard": [
+    200,
+    36,
+    "league-phase endpoint"
+   ],
+   "predict": [
+    200,
+    "Not validated (indicative only)"
+   ],
+   "team": 200,
+   "coverage": 200,
+   "freshness": [
+    "2026-10-14",
+    "historical_only"
+   ]
+  }
+ },
+ "ucl_league_phase": [
+  200,
+  36,
+  144,
+  36,
+  "1-5 (provisional: the league phase is not finished)"
+ ],
+ "saved_simulations": [
+  [
+   {
+    "run_id": 1,
+    "created_utc": "2026-10-28T04:36:39Z",
+    "n_simulations": 10000,
+    "seed": 1398654699,
+    "model_id": "club_v1 multinomial_logreg (frozen 2026-10-20)",
+    "data_cutoff_date": "2026-10-25",
+    "mode": "points_only"
+   }
+  ],
+  [
+   {
+    "run_id": 2,
+    "created_utc": "2026-10-28T04:37:39Z",
+    "n_simulations": 10000,
+    "seed": 1499656622,
+    "model_id": "club_v1 multinomial_logreg (frozen 2026-10-20)",
+    "data_cutoff_date": "2026-10-25",
+    "mode": "points_only"
+   }
+  ]
+ ],
+ "archived_404": {
+  "UEL": [
+   404,
+   422
+  ],
+  "UECL": [
+   404,
+   422
+  ],
+  "WC": [
+   404,
+   422
+  ],
+  "UNL": [
+   404,
+   422
+  ],
+  "COPA": [
+   404,
+   422
+  ]
+ },
+ "sync": {
+  "mode": "startup",
+  "approved": [
+   "openligadb"
+  ],
+  "last": [
+   [
+    "startup_check",
+    "2026-10-28T09:53:46Z",
+    "ok",
+    2
+   ],
+   [
+    "startup_check",
+    "2026-10-28T09:24:11Z",
+    "ok",
+    2
+   ]
+  ]
+ },
+ "hub_all": [
+  200,
+  [
+   "EPL",
+   "LALIGA",
+   "BUNDESLIGA",
+   "SERIEA",
+   "LIGUE1",
+   "UCL"
+  ],
+  {
+   "upcoming": 1354,
+   "awaiting_result": 87,
+   "completed": 347,
+   "other": 0,
+   "all": 1788
+  }
+ ]
+}

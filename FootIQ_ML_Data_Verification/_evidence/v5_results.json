@@ -1,0 +1,189 @@
+{
+ "players_rows": 25288,
+ "players_unique_ids": 25288,
+ "players_by_id_scope": {
+  "source_native_id_StatsBomb": 9906,
+  "derived_squad_scoped_key": 9583,
+  "derived_team_scoped_name_key": 5799
+ },
+ "players_missing_nationality_pct_by_scope": {
+  "derived_squad_scoped_key": 68.7,
+  "derived_team_scoped_name_key": 100.0,
+  "source_native_id_StatsBomb": 0.0
+ },
+ "players_missing_position_pct_by_scope": {
+  "derived_squad_scoped_key": 0.0,
+  "derived_team_scoped_name_key": 100.0,
+  "source_native_id_StatsBomb": 0.0
+ },
+ "statsbomb_normalised_names_with_multiple_ids": 6,
+ "openfootball_lineup_keys": 5799,
+ "openfootball_names_under_multiple_team_keys": 584,
+ "squad_scoped_keys": 9583,
+ "names_present_in_both_statsbomb_and_openfootball_NOT_merged": 873,
+ "statsbomb_players_with_2plus_teams": 2478,
+ "statsbomb_players_total_with_stats_rows": 9906,
+ "statsbomb_player_dates_with_two_teams": 0,
+ "memberships_lineup_rows": 24694,
+ "memberships_n_matches_mismatch_vs_05": 0,
+ "memberships_squad_list_rows": 9583,
+ "memberships_squad_rows_without_dates": 9583,
+ "players_with_two_teams_in_same_competition_season": 155,
+ "memberships_by_team_type": {
+  "club": 27202,
+  "national": 7075
+ },
+ "player_match_rows": 180172,
+ "rows_by_source": {
+  "StatsBomb Open Data": 113623,
+  "openfootball match files (CC0)": 66549
+ },
+ "duplicates_match_player_team": 0,
+ "statsbomb_rows_event_level": 113623,
+ "statsbomb_rows_lineup_only": 0,
+ "xA_expected_assists_available": false,
+ "minutes_missing_pct_statsbomb": 0.0,
+ "minutes_missing_pct_openfootball": 0.0,
+ "minutes_basis_values": {
+  "derived from StatsBomb lineup position intervals (from/to match clock); end of match = last non-shootout event": 113623,
+  "estimated from substitution/red-card minutes; 90 assumed otherwise; stoppage time ignored": 66549
+ },
+ "statsbomb_rows_minutes_zero": 1,
+ "started_without_minutes": 0,
+ "statsbomb_event_rows_with_zero_events_total": 812,
+ "statsbomb_goal_reconciliation_matches_ok": 3961,
+ "statsbomb_goal_reconciliation_matches_mismatch": 0,
+ "rows_by_gender": {
+  "male": 74937,
+  "female": 38686
+ },
+ "matches_by_gender": {
+  "male": 2651,
+  "female": 1310
+ },
+ "openfootball_gender_label": {
+  "unlabelled in source (men's competition assumed from competition name)": 66549
+ },
+ "position_group_counts_statsbomb_rows": {
+  "MID": 38416,
+  "DEF": 37713,
+  "FWD": 29489,
+  "GK": 8005
+ },
+ "coverage_rows": 427,
+ "recent_form_rows": 113623,
+ "recent_form_with_ge3_prior": 89780,
+ "recent_form_with_ge5_prior": 79617,
+ "recent_form_with_ge10_prior": 60015,
+ "recent_form_median_gap_days_prev_match": 7.0,
+ "recent_form_share_gap_gt_21_days": 0.168,
+ "recent_form_w5_span_median": 36.0,
+ "recent_form_w5_span_gt_60d_share_of_w5_complete": 0.306,
+ "recent_form_players": 9906,
+ "recent_form_bruteforce_mismatches_of_500": 0,
+ "recent_form_prefix_test_rows_before_2018": 55354,
+ "season_rows": 18481,
+ "players_with_2plus_observed_seasons": 3406,
+ "openfootball_form_rows": 66549,
+ "openfootball_form_with_ge5_team_matches": 53993,
+ "openfootball_competitions_seasons": 27,
+ "clustering_cohorts_male": [
+  {
+   "position_group": "GK",
+   "player_seasons": 982,
+   ">=450min": 212,
+   ">=900min": 134,
+   ">=1350min": 110,
+   "distinct_competitions": 17
+  },
+  {
+   "position_group": "DEF",
+   "player_seasons": 4891,
+   ">=450min": 972,
+   ">=900min": 670,
+   ">=1350min": 513,
+   "distinct_competitions": 17
+  },
+  {
+   "position_group": "MID",
+   "player_seasons": 4491,
+   ">=450min": 789,
+   ">=900min": 543,
+   ">=1350min": 422,
+   "distinct_competitions": 17
+  },
+  {
+   "position_group": "FWD",
+   "player_seasons": 3840,
+   ">=450min": 627,
+   ">=900min": 421,
+   ">=1350min": 292,
+   "distinct_competitions": 17
+  },
+  {
+   "position_group": "UNKNOWN",
+   "player_seasons": 0,
+   ">=450min": 0,
+   ">=900min": 0,
+   ">=1350min": 0,
+   "distinct_competitions": 0
+  }
+ ],
+ "clustering_female_player_seasons_ge900": 1204,
+ "clustering_male_player_seasons_ge900_total": 1768,
+ "per90_feature_zero_share_ge900": {
+  "goals_p90": 0.352,
+  "assists_p90": 0.364,
+  "shots_p90": 0.08,
+  "key_passes_p90": 0.064,
+  "tackles_p90": 0.072,
+  "interceptions_p90": 0.074,
+  "clearances_p90": 0.042
+ },
+ "per90_feature_null_share_ge900": {
+  "goals_p90": 0.0,
+  "xg_p90": 0.0,
+  "pass_completion": 0.0
+ },
+ "prediction_rows_male_ge5_prior": 51138,
+ "prediction_rows_male_ge5_prior_and_gap_le_21d": 44142,
+ "target_goals_mean": 0.0977,
+ "target_goals_zero_share": 0.913,
+ "target_minutes_mean": 72.7,
+ "prediction_rows_after_2018-12-31_with_ge5_prior": 36448,
+ "prediction_rows_after_2022-12-31_with_ge5_prior": 22695,
+ "prediction_competition_seasons_with_ge5_prior_rows": 66,
+ "prediction_rows_by_year": {
+  "1970": 11,
+  "1974": 18,
+  "1977": 2,
+  "1978": 2,
+  "1986": 3,
+  "1989": 3,
+  "1990": 1,
+  "1997": 1,
+  "2003": 156,
+  "2004": 251,
+  "2005": 131,
+  "2006": 200,
+  "2007": 406,
+  "2008": 362,
+  "2009": 440,
+  "2010": 586,
+  "2011": 605,
+  "2012": 662,
+  "2013": 450,
+  "2014": 638,
+  "2015": 13333,
+  "2016": 21496,
+  "2017": 915,
+  "2018": 2497,
+  "2019": 3500,
+  "2020": 2874,
+  "2021": 3770,
+  "2022": 3609,
+  "2023": 9653,
+  "2024": 12278,
+  "2025": 764
+ }
+}

@@ -1,0 +1,87 @@
+{
+  "_comment": "Season-specific league rule profiles for the season simulator. A profile is USED only when status is 'verified' AND implemented is true; every other status BLOCKS final-position predictions for that league and season. A rule is verified only from the regulation or federation/league document named in 'sources' (document text read, sha256 recorded under data/supervised/rules_research/ which is git-ignored).",
+  "schema": 1,
+  "profiles": {
+    "BUNDESLIGA|2026-27": {
+      "league": "Bundesliga", "season": "2026-27", "clubs": 18,
+      "status": "verified", "implemented": true,
+      "points": {"win": 3, "draw": 1},
+      "criteria": {
+        "two_clubs": ["goal_difference", "goals_scored", "h2h_goal_difference", "h2h_away_goals", "away_goals_total"],
+        "multi_clubs": ["goal_difference", "goals_scored", "h2h_goal_difference", "h2h_away_goals", "away_goals_total"]
+      },
+      "h2h_scope": "current_group",
+      "bounds_multi_club_prefix": 2,
+      "bounds_notes": [
+        "Direct relegation means places 17 and 18 only. The club in 16th place plays a relegation play-off against the third-placed club of the 2. Bundesliga (SpOL para 3 no. 2); that play-off is never simulated and is not part of the ranges.",
+        "Two clubs level on points are separated by overall goal difference, then goals scored, then the head-to-head criteria. For three or more clubs level on points only overall goal difference and goals scored are used, because the rule text does not say how the head-to-head criteria work for three clubs: whatever they would have to settle stays unresolved.",
+        "The final decider (a match on neutral ground) is never simulated: clubs still level after every criterion above stay unresolved."
+      ],
+      "terminal": {"kind": "neutral_ground_decider", "resolved_by": "unresolved_not_simulated", "decision": "D6 (approved 2026-10-25: never a coin)"},
+      "bands": {"title": [1], "top4": [1, 2, 3, 4], "relegation": [17, 18], "relegation_playoff": [16]},
+      "interpretation_notes": [
+        "SpOL para 2 no. 3 c) lists the criteria for 'Punktgleichheit' of two or more clubs; the text does not say how a three-club tie is handled for the head-to-head criteria. The engine applies them to the clubs still tied (mini-table of those clubs). Reported as interpretation-dependent when it occurs.",
+        "Criterion 6 (decider on neutral ground) is not a result we can predict: such outcomes are left UNRESOLVED (decision D6) and the affected probabilities are withheld."
+      ],
+      "sources": [{"title": "DFL Spielordnung (SpOL), Stand 11.06.2026, para 2 no. 3 c) and para 3 no. 2", "url": "https://media.dfl.de/sites/2/2026/07/Spielordnung-SpOL-2026-06-11-Stand.pdf", "kind": "league regulation (primary)", "sha256": "c7374facb74af7e1c66ebb305523b2fd843c359ce74ff65a995a2c6f3dedb19f", "retrieved": "2026-10-25"}]
+    },
+    "LALIGA|2026-27": {
+      "league": "La Liga", "season": "2026-27", "clubs": 20,
+      "live_confirmation": "PENDING: the text was read from the Internet Archive capture of the federation URL (2026-07-14); it has NOT been confirmed against the live federation file. Compare the SHA-256 of the live file with 35b0a9e4a011325a5dd1144b790cf986bdcdb33a2c2b1c4cf6fed7872d6146ac (instructions: docs/mini-project/LALIGA_VERIFICATION.md).",
+      "status": "verified", "implemented": true,
+      "points": {"win": 3, "draw": 1},
+      "criteria": {
+        "two_clubs": ["h2h_goal_difference", "goal_difference", "goals_scored", "fair_play"],
+        "multi_clubs": ["h2h_points", "h2h_goal_difference", "goal_difference", "goals_scored", "fair_play"]
+      },
+      "h2h_scope": "original_group",
+      "bounds_multi_club_prefix": 1,
+      "bounds_notes": [
+        "Two clubs level on points are separated by the goal difference in the matches between them, then overall goal difference, then goals scored. The next criteria (fair play from card data, then a match on neutral ground) cannot be simulated and stay unresolved.",
+        "Three or more clubs level on points: only the points in the matches among them (the mini-table) decide. The rule text is not explicit about what happens to a pair that is still level afterwards, so everything beyond the mini-table points stays unresolved and the ranges hold under every reading of the text.",
+        "The fair-play criterion needs card data that FootIQ does not hold, and the neutral-ground match is never simulated.",
+        "The rule text was read from an archive copy of the federation file; the live file has not been checked against its checksum yet (see docs/mini-project/LALIGA_VERIFICATION.md)."
+      ],
+      "terminal": {"kind": "neutral_ground_match", "resolved_by": "unresolved_not_simulated", "decision": "D6 (approved 2026-10-25: never a coin)"},
+      "bands": {"title": [1], "top4": [1, 2, 3, 4], "relegation": [18, 19, 20], "relegation_playoff": []},
+      "interpretation_notes": [
+        "Art. 10 gives separate orders for two clubs and for more than two clubs. For more than two clubs the mini-table (a) and (b) are computed among the original tied group; the text is not explicit about a two-club remainder, so it continues down the multi-club list (interpretation-dependent, reported when it occurs).",
+        "Criterion 'fair play' needs card data that FootIQ does not hold. When a tie reaches it, the outcome stays unresolved and the frequency is reported.",
+        "The neutral-ground match (final criterion) is not simulated: such outcomes stay unresolved (decision D6)."
+      ],
+      "sources": [{"title": "RFEF, Normas reguladoras y bases de competicion de los Campeonatos Nacionales de Liga de Primera y Segunda Division, temporada 2026-2027, art. 10 (tie-break) and art. 8 no. 7 (positions 18-20 relegated)", "url": "https://rfef.es/sites/default/files/2026-06/1._CNL_Primera_y_Segunda_Division.pdf", "kind": "federation regulation (primary)", "sha256": "35b0a9e4a011325a5dd1144b790cf986bdcdb33a2c2b1c4cf6fed7872d6146ac", "retrieved": "2026-10-25", "access_note": "rfef.es refuses automated downloads (Cloudflare); the text was read from the Internet Archive capture of this exact URL taken 2026-07-14 11:27:22 UTC (origin last-modified 2026-06-30); a search index of the live URL confirms the same title and that art. 10 (tie-break) is on page 6. Rechecked 2026-10-25: the live URL still returns HTTP 403 to automated access. Please re-check it against the live federation page."}]
+    },
+    "EPL|2026-27": {
+      "league": "Premier League", "season": "2026-27", "clubs": 20,
+      "status": "verified", "implemented": true,
+      "points": {"win": 3, "draw": 1},
+      "criteria": {
+        "two_clubs": ["goal_difference", "goals_scored", "h2h_points", "h2h_away_goals"],
+        "multi_clubs": ["goal_difference", "goals_scored", "h2h_points", "h2h_away_goals"]
+      },
+      "h2h_scope": "current_group",
+      "terminal": {"kind": "playoff_neutral_ground", "resolved_by": "unresolved_not_simulated", "decision": "D6 (approved 2026-10-25: never a coin)"},
+      "bands": {"title": [1], "top4": [1, 2, 3, 4], "relegation": [18, 19, 20], "relegation_playoff": []},
+      "interpretation_notes": [
+        "Rule C.17.3 provides a play-off only for two clubs; for three or more clubs still level after C.17.2 the Handbook is silent. Such ties stay unresolved and are reported.",
+        "The play-off is not simulated: such outcomes stay unresolved (decision D6)."
+      ],
+      "sources": [{"title": "Premier League Handbook 2026/27, Section C rules C.5, C.6, C.7, C.14, C.17", "url": "https://resources.premierleague.pulselive.com/premierleague/document/2026/07/31/8a890ff9-176c-4364-a8ff-e08f995e2c86/TM2040_PL-Handbook-and-Collateral-2026-27_Digital_31.07.pdf", "kind": "league regulation (primary)", "sha256": "7a4ed7bd08bc08da53a9586e04ea2873c9548ec1179b1ca921ea9eecb3dc8613", "retrieved": "2026-10-25"}]
+    },
+    "SERIEA|2026-27": {
+      "league": "Serie A", "season": "2026-27", "clubs": 20,
+      "status": "blocked", "implemented": false,
+      "blocked_reason": "The 2026/27 rule text is verified (FIGC CU 244/A, read in full 2026-10-26; relegation of the 18th, 19th and 20th places from NOIF art. 49) but the profile stays blocked: (1) the engine cannot yet apply it: a tie between exactly two clubs for 1st place or between 17th and 18th is decided by a play-off, never by goal difference, so it must be an unresolved decider before any criterion, and the UEFA-finalist clause (iv) needs data the store does not hold; (2) CU 244/A does not state the criteria for a tie between exactly two clubs in any other place; (3) points penalties and sports-justice results (CGS art. 10) are not in the data; (4) the Serie A data are not eligible today; (5) Serie A is outside the approved scope.",
+      "bands": {"title": [1], "top4": [1, 2, 3, 4], "relegation": [], "relegation_playoff": []},
+      "sources": [{"title": "FIGC Comunicato Ufficiale 244/A (Federal Council 26 May 2026, published 27 May 2026)", "url": "https://files.figc.it/version/c:ZmUzYzk0MzUtMzU0Zi00:YTk3YzZiZGEtYmExYi00/244%20-%20Deroga%20art.%2051%20NOIF%20-%20Determinazione%20classifica%20Campionato%20Serie%20A%20ss%202026%20-%202027.pdf", "kind": "federation decision (primary)", "sha256": "cace74eac2fe039b9f61f37556fe0e429caddc7046cdd386166f36254bcfc6bf", "retrieved": "2026-10-26"}]
+    },
+    "LIGUE1|2026-27": {
+      "league": "Ligue 1", "season": "2026-27", "clubs": 18,
+      "status": "blocked", "implemented": false,
+      "blocked_reason": "The 2026/27 rule text is now verified from the official LFP document (Statuts et Reglements 2026/27, art. 518 bis, 518 ter, 519, 519 ter; read in full 2026-10-26) but the profile stays blocked: (1) the engine has no criteria for wins and away wins, for fair-play points (card data the store does not hold) or for the final draw by lots, and the head-to-head criteria are defined only for the clubs' two matches; (2) the relegation band includes a 16th-place two-leg barrage that is never simulated; (3) administrative results (art. 518 bis no. 3, art. 521, disciplinary point removals) are not in the data; (4) the Ligue 1 data are not eligible today; (5) Ligue 1 is outside the approved scope.",
+      "bands": {"title": [1], "top4": [1, 2, 3, 4], "relegation": [], "relegation_playoff": []},
+      "sources": [{"title": "LFP Statuts et Reglements 2026/2027 (file dated 08/09/2026), art. 518 bis, 518 ter, 519, 519 ter, 521", "url": "https://www.lfp.fr/assets/26_27_LFP_STATUTS_REGLEMENTS_08_09_2026_f2aaaaa325.pdf", "kind": "league regulation (primary)", "sha256": "c57b88f6fb997d4cc5d2f116eaf3afdc0a14670787d38875984329303fc04871", "retrieved": "2026-10-26"},
+                  {"title": "LFP Reglement des Competitions 2025/2026, art. 518 bis/518 ter (previous season; identical text to 2026/27 for these articles)", "url": "https://www.lfp.fr/assets/25_26_Reglement_Competitions_29_07_2024_5055b664e4.pdf", "kind": "league regulation (primary, previous season)", "sha256": "eaa8f37169d6b9d57c948b64e582a9fd69b70d89d9eee681af32b96792e1b591", "retrieved": "2026-10-25"}]
+    }
+  }
+}

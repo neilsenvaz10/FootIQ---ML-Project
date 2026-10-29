@@ -1,0 +1,42 @@
+{
+ "repos_checked": 17,
+ "repos_with_cc0_file": 16,
+ "extended_rows": 129829,
+ "provenance_null": 0,
+ "source_license_null": 0,
+ "extraction_date_null": 0,
+ "source_license_values": {
+  "CC0-1.0": 128258,
+  "CC BY-SA 4.0": 1571
+ },
+ "openfootball_rows_traced": 128101,
+ "openfootball_rows_source_line_missing": 0,
+ "openfootball_rows_team_names_not_on_source_line": 0,
+ "openfootball_rows_score_not_on_source_line": 0,
+ "openfootball_commit_prefixes_seen": 11,
+ "wikipedia_rows_in_extended": 1571,
+ "wikipedia_rows_revision_not_in_cache": 0,
+ "wikipedia_rows_offset_not_a_football_box": 0,
+ "wikipedia_distinct_revisions": 48,
+ "wikipedia_pages_cached": 103,
+ "wikipedia_share_of_extended_pct": 1.21,
+ "wikipedia_rows_by_split": {
+  "forward_holdout": 830,
+  "train": 697,
+  "validation": 44
+ },
+ "wikipedia_rows_by_competition": {
+  "UEFA Europa League": 549,
+  "Coupe de France": 243,
+  "EFL Cup": 165,
+  "UEFA Conference League": 153,
+  "Copa del Rey": 152,
+  "Coppa Italia": 148,
+  "FA Cup": 104,
+  "DFB-Pokal": 39,
+  "UEFA Champions League": 18
+ },
+ "wikipedia_rows_label_status": {
+  "confirmed": 1571
+ }
+}

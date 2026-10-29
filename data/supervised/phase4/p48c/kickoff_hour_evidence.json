@@ -1,0 +1,42 @@
+{
+ "EPL": {
+  "n": 299,
+  "earliest_local_hour": 12.5,
+  "p1": 12.5,
+  "latest": 20.25,
+  "after_midnight_utc_date_differs": null,
+  "local_date_differs_from_utc_date": 0
+ },
+ "LALIGA": {
+  "n": 287,
+  "earliest_local_hour": 14.0,
+  "p1": 14.0,
+  "latest": 21.0,
+  "after_midnight_utc_date_differs": null,
+  "local_date_differs_from_utc_date": 0
+ },
+ "BUNDESLIGA": {
+  "n": 270,
+  "earliest_local_hour": 15.5,
+  "p1": 15.5,
+  "latest": 20.5,
+  "after_midnight_utc_date_differs": null,
+  "local_date_differs_from_utc_date": 0
+ },
+ "SERIEA": {
+  "n": 0,
+  "earliest_local_hour": null,
+  "p1": null,
+  "latest": null,
+  "after_midnight_utc_date_differs": null,
+  "local_date_differs_from_utc_date": 0
+ },
+ "LIGUE1": {
+  "n": 0,
+  "earliest_local_hour": null,
+  "p1": null,
+  "latest": null,
+  "after_midnight_utc_date_differs": null,
+  "local_date_differs_from_utc_date": 0
+ }
+}

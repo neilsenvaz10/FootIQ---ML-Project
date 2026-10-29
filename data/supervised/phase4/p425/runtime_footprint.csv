@@ -1,0 +1,24 @@
+﻿path,bytes,modes
+FootIQ_Club_Model_Baseline_v1/04_TEST_METRICS.csv,764,r
+FootIQ_Club_Model_Baseline_v1/05_FORWARD_HOLDOUT_METRICS.csv,819,r
+FootIQ_Club_Model_Baseline_v1/06a_LEAGUE_WISE_METRICS.csv,36719,r
+FootIQ_Club_Model_Baseline_v1/artifacts/FROZEN.json,968,r
+FootIQ_Club_Model_Baseline_v1/artifacts/baseline_parameters.json,359,r
+FootIQ_Club_Model_Baseline_v1/artifacts/coverage_categories.json,9797,r
+FootIQ_Club_Model_Baseline_v1/artifacts/multinomial_logreg.pkl,1348,r
+FootIQ_Club_Model_Baseline_v1/artifacts/multinomial_logreg_coefficients.json,2758,r
+FootIQ_Club_Model_Baseline_v1/artifacts/preprocessing_train_fitted.json,2975,r
+FootIQ_Club_Model_Development_v2/08_LEAGUE_GROUP_PERFORMANCE.csv,8087,r
+FootIQ_Club_Model_Development_v2/_work/features_v2_meta.json,1954,r
+FootIQ_Club_Model_Development_v2/final_refit_v2_r1/artifacts/FROZEN.json,3159,r
+FootIQ_Club_Model_Development_v2/final_refit_v2_r1/artifacts/club_v2_lr_final_candidate.pkl,7477,r
+FootIQ_Club_Model_Development_v2/final_refit_v2_r1/artifacts/feature_contract_v2_final.json,10075,r
+FootIQ_Club_Model_Development_v2/final_refit_v2_r1/artifacts/model_coefficients.json,6700,r
+FootIQ_ML_Data_Readiness/01_COMPETITION_SEASON_COVERAGE_MATRIX.csv,198901,r
+FootIQ_ML_Training_Preparation/feature_contract_v1.1.json,861,r
+app/main.py,20675,r
+config/season_rules.json,11106,r
+config/season_sim.json,1453,r
+config/sync.json,1014,r
+data/model_artifacts/v27/live_match_model.pkl,894426,r
+file:D:/Foot IQ/data/footiq.sqlite?mode=ro,0,sqlite

@@ -1,0 +1,17 @@
+scope,tier,bucket,matches,coverage_pct,accuracy_pct
+historical_v26_test,Strong Pick,all,1631,46.72,76.82
+historical_v26_test,Model Lean,all,499,14.29,55.31
+historical_v26_test,Pass,all,1361,38.99,
+historical_v26_test,Model Lean,continental_finals,105,3.01,54.29
+historical_v26_test,Model Lean,friendly,152,4.35,50.66
+historical_v26_test,Model Lean,nations_league,64,1.83,67.19
+historical_v26_test,Model Lean,other_competitive,62,1.78,56.45
+historical_v26_test,Model Lean,qualifier,116,3.32,55.17
+historical_v26_test,Strong Pick,continental_finals,468,13.41,73.72
+historical_v26_test,Strong Pick,friendly,289,8.28,77.85
+historical_v26_test,Strong Pick,nations_league,173,4.96,78.03
+historical_v26_test,Strong Pick,other_competitive,177,5.07,75.71
+historical_v26_test,Strong Pick,qualifier,524,15.01,79.01
+known_live_validation,Strong Pick,all,0,0.0,
+known_live_validation,Model Lean,all,0,0.0,
+known_live_validation,Pass,all,7,100.0,

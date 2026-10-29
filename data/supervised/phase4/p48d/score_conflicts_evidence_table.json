@@ -1,0 +1,32 @@
+[
+ {
+  "quarantine_id": 217,
+  "kind": "CONFLICT",
+  "competition": "Premier League",
+  "matchday": 4,
+  "home": "AFC Bournemouth",
+  "away": "Brentford FC",
+  "date": "2026-09-12",
+  "stored_score": "2-2",
+  "stored_origin": "openfootball (CC0)",
+  "source_claim": "CONFLICT: stored 2-2 vs source 2-1",
+  "authoritative_source_required": "premierleague.com official fixtures/results and match centre; plus the clubs' official match reports",
+  "independent_confirmation": "a second results provider (not OpenLigaDB, not openfootball)",
+  "resolution_rule": "keep the stored score and the quarantine until the official record is read by a person; correct the row only in a reviewed one-row change with a backup"
+ },
+ {
+  "quarantine_id": 218,
+  "kind": "CONTRADICTORY SOURCE RESULT",
+  "competition": "Premier League",
+  "matchday": 4,
+  "home": "Aston Villa FC",
+  "away": "Nottingham Forest FC",
+  "date": "2026-09-12",
+  "stored_score": "1-2",
+  "stored_origin": "openfootball (CC0)",
+  "source_claim": "CONTRADICTORY SOURCE RESULT: the source holds several differing final scores (none); Aston Villa v Nottingham Forest is not imported",
+  "authoritative_source_required": "premierleague.com official fixtures/results and match centre; plus the clubs' official match reports",
+  "independent_confirmation": "a second results provider (not OpenLigaDB, not openfootball)",
+  "resolution_rule": "keep the stored score and the quarantine until the official record is read by a person; correct the row only in a reviewed one-row change with a backup"
+ }
+]

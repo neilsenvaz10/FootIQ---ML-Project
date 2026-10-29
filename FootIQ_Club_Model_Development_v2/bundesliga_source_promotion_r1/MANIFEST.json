@@ -1,0 +1,23 @@
+{
+ "frozen_models_unchanged": {
+  "v2": true,
+  "matched_v1": true,
+  "v1": true
+ },
+ "frozen_protocol_unchanged": true,
+ "universe_sha_prefix": "1c4d758b01d3d30a",
+ "approval_json_exists": false,
+ "live_requests_this_step": 0,
+ "files": {
+  "00_BUNDESLIGA_SOURCE_PROMOTION_READINESS_REPORT.md": "f8f1d1a4d345db82518dfcf8a751e7aea9e6b68dd2777b2ca3c82c7fc8e8eed4",
+  "01_pilot_snapshot_integrity.csv": "74921e2e140374952682dfd806fdb22c622047d3aa131e3810d95285995eda72",
+  "02_PROTOCOL_AMENDMENT_COMPARISON.md": "fdcaa63052e344c1b1b52e647fea5eb04a3bd4bd52d8271d8842311c1a3125a6",
+  "03_added_results_with_provenance.csv": "029e86fcf87209b857d3e4791612564d8e5f66d38c5ed7e662043a80db7f2b9b",
+  "04_feature_differences_vs_stale_state.csv": "372f39b47112d7be63d18843cc572303bc9655d5572064824ffce67090f2ad40",
+  "05_bundesliga_fixture_eligibility.csv": "b6a74e87400256f7630e5c115578af3e24b820f911eaf5e109f2061d023ee28b",
+  "05b_eligibility_by_matchday.csv": "8b72b223cdc1201f04f310c46c4e8175cce8950475fdb403597748a07c03ea72",
+  "g1.log": "f5eaa448483de8668308f004da8af48e259b9cf9913de09c68502545aa938abc",
+  "g1_bundesliga_promotion.py": "c8056bafbfcc42db385e383b81a85440e4d7943c31f8f0cb230f4ec0f10803c8",
+  "g1_results.json": "d52b9b779818a04191d1cb3e6a25c740bc1dc16570b57583a521030c4f3829a1"
+ }
+}

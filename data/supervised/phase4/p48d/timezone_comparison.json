@@ -1,0 +1,409 @@
+{
+ "disputes_not_matching_an_unplayed_fixture_in_the_window": 31,
+ "fixtures_compared": 190,
+ "horizon_date": "2026-11-10",
+ "disputed_fixtures_among_them": 24,
+ "instants": {
+  "2026-10-27T15:00:00Z": {
+   "EPL": {
+    "unplayed": 40,
+    "old_yes": 20,
+    "new_yes": 20,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 0,
+    "no": 20,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "LALIGA": {
+    "unplayed": 27,
+    "old_yes": 20,
+    "new_yes": 20,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 1,
+    "no": 6,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "BUNDESLIGA": {
+    "unplayed": 18,
+    "old_yes": 18,
+    "new_yes": 18,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 0,
+    "no": 0,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "SERIEA": {
+    "unplayed": 60,
+    "old_yes": 22,
+    "new_yes": 27,
+    "gained": 5,
+    "lost": 0,
+    "old_unknown": 8,
+    "new_unknown": 3,
+    "no": 30,
+    "gained_date_only": 3,
+    "gained_local_time": 2
+   },
+   "LIGUE1": {
+    "unplayed": 45,
+    "old_yes": 18,
+    "new_yes": 18,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 0,
+    "no": 27,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   }
+  },
+  "2026-10-28T09:00:00Z": {
+   "EPL": {
+    "unplayed": 40,
+    "old_yes": 20,
+    "new_yes": 20,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 0,
+    "no": 20,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "LALIGA": {
+    "unplayed": 27,
+    "old_yes": 20,
+    "new_yes": 20,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 1,
+    "no": 6,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "BUNDESLIGA": {
+    "unplayed": 18,
+    "old_yes": 18,
+    "new_yes": 18,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 0,
+    "no": 0,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "SERIEA": {
+    "unplayed": 60,
+    "old_yes": 22,
+    "new_yes": 22,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 8,
+    "new_unknown": 5,
+    "no": 33,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "LIGUE1": {
+    "unplayed": 45,
+    "old_yes": 18,
+    "new_yes": 18,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 0,
+    "no": 27,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   }
+  },
+  "2026-10-30T09:00:00Z": {
+   "EPL": {
+    "unplayed": 40,
+    "old_yes": 20,
+    "new_yes": 20,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 0,
+    "no": 20,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "LALIGA": {
+    "unplayed": 27,
+    "old_yes": 20,
+    "new_yes": 20,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 1,
+    "no": 6,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "BUNDESLIGA": {
+    "unplayed": 18,
+    "old_yes": 18,
+    "new_yes": 18,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 0,
+    "no": 0,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "SERIEA": {
+    "unplayed": 60,
+    "old_yes": 20,
+    "new_yes": 20,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 2,
+    "new_unknown": 0,
+    "no": 40,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "LIGUE1": {
+    "unplayed": 45,
+    "old_yes": 16,
+    "new_yes": 16,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 2,
+    "new_unknown": 2,
+    "no": 27,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   }
+  },
+  "2026-10-30T23:30:00Z": {
+   "EPL": {
+    "unplayed": 40,
+    "old_yes": 20,
+    "new_yes": 20,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 0,
+    "no": 20,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "LALIGA": {
+    "unplayed": 27,
+    "old_yes": 20,
+    "new_yes": 19,
+    "gained": 0,
+    "lost": 1,
+    "old_unknown": 0,
+    "new_unknown": 2,
+    "no": 6,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "BUNDESLIGA": {
+    "unplayed": 18,
+    "old_yes": 17,
+    "new_yes": 17,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 0,
+    "no": 1,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "SERIEA": {
+    "unplayed": 60,
+    "old_yes": 17,
+    "new_yes": 17,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 3,
+    "new_unknown": 3,
+    "no": 40,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "LIGUE1": {
+    "unplayed": 45,
+    "old_yes": 12,
+    "new_yes": 12,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 6,
+    "new_unknown": 4,
+    "no": 29,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   }
+  },
+  "2026-10-31T09:00:00Z": {
+   "EPL": {
+    "unplayed": 40,
+    "old_yes": 20,
+    "new_yes": 20,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 0,
+    "no": 20,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "LALIGA": {
+    "unplayed": 27,
+    "old_yes": 20,
+    "new_yes": 19,
+    "gained": 0,
+    "lost": 1,
+    "old_unknown": 0,
+    "new_unknown": 2,
+    "no": 6,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "BUNDESLIGA": {
+    "unplayed": 18,
+    "old_yes": 17,
+    "new_yes": 17,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 0,
+    "no": 1,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "SERIEA": {
+    "unplayed": 60,
+    "old_yes": 17,
+    "new_yes": 17,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 3,
+    "new_unknown": 3,
+    "no": 40,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "LIGUE1": {
+    "unplayed": 45,
+    "old_yes": 12,
+    "new_yes": 12,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 6,
+    "new_unknown": 4,
+    "no": 29,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   }
+  },
+  "2026-10-31T11:00:00Z": {
+   "EPL": {
+    "unplayed": 40,
+    "old_yes": 20,
+    "new_yes": 20,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 0,
+    "no": 20,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "LALIGA": {
+    "unplayed": 27,
+    "old_yes": 14,
+    "new_yes": 15,
+    "gained": 1,
+    "lost": 0,
+    "old_unknown": 6,
+    "new_unknown": 6,
+    "no": 6,
+    "gained_date_only": 1,
+    "gained_local_time": 0
+   },
+   "BUNDESLIGA": {
+    "unplayed": 18,
+    "old_yes": 17,
+    "new_yes": 17,
+    "gained": 0,
+    "lost": 0,
+    "old_unknown": 0,
+    "new_unknown": 0,
+    "no": 1,
+    "gained_date_only": 0,
+    "gained_local_time": 0
+   },
+   "SERIEA": {
+    "unplayed": 60,
+    "old_yes": 12,
+    "new_yes": 17,
+    "gained": 5,
+    "lost": 0,
+    "old_unknown": 8,
+    "new_unknown": 3,
+    "no": 40,
+    "gained_date_only": 1,
+    "gained_local_time": 4
+   },
+   "LIGUE1": {
+    "unplayed": 45,
+    "old_yes": 9,
+    "new_yes": 12,
+    "gained": 3,
+    "lost": 0,
+    "old_unknown": 9,
+    "new_unknown": 4,
+    "no": 29,
+    "gained_date_only": 0,
+    "gained_local_time": 3
+   }
+  }
+ },
+ "per_league_knowledge": {
+  "BUNDESLIGA|utc_kickoff": 18,
+  "EPL|date_only": 6,
+  "EPL|utc_kickoff": 34,
+  "LALIGA|date_only": 17,
+  "LALIGA|local_time_no_zone": 1,
+  "LALIGA|utc_kickoff": 9,
+  "LIGUE1|date_only": 14,
+  "LIGUE1|local_time_no_zone": 31,
+  "SERIEA|date_only": 10,
+  "SERIEA|local_time_no_zone": 50
+ },
+ "invariant_violations": [
+  {
+   "instant": "2026-10-30T23:30:00Z",
+   "record_id": "espana:1-liga:2026-27:L192",
+   "old": "yes",
+   "new": "unknown",
+   "disputed": true
+  },
+  {
+   "instant": "2026-10-31T09:00:00Z",
+   "record_id": "espana:1-liga:2026-27:L192",
+   "old": "yes",
+   "new": "unknown",
+   "disputed": true
+  }
+ ],
+ "lost_only_for_disputed_fixtures": true
+}

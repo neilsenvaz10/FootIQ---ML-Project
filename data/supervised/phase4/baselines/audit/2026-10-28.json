@@ -1,0 +1,57 @@
+{
+ "generated_utc": "2026-10-28T01:53:05Z",
+ "verdict": "PASS",
+ "baseline_verdict": "EXPECTED_LOG_ONLY",
+ "operational_reviewer": "project owner",
+ "reviewer_assigned": "2026-10-27",
+ "quarantine_needing_review": 57,
+ "requests_last_24h": 8,
+ "items": [
+  {
+   "level": "OK",
+   "text": "database integrity_check ok, no foreign-key problems"
+  },
+  {
+   "level": "OK",
+   "text": "baseline monitor: EXPECTED_LOG_ONLY against checkpoint 2 (first supervised production cycle (log-only change: sync_runs 11-12, snapshot register, source state))"
+  },
+  {
+   "level": "OK",
+   "text": "BUNDESLIGA: last successful source check 0.0 h ago; Source checked successfully at 2026-10-28T01:52:38Z: reachable, and it returned no new results (the stored history is unchanged)."
+  },
+  {
+   "level": "OK",
+   "text": "BUNDESLIGA: no failed cycles in a row"
+  },
+  {
+   "level": "OK",
+   "text": "LALIGA: last successful source check 0.0 h ago; Source checked successfully at 2026-10-28T01:52:43Z: reachable, and it returned no new results (the stored history is unchanged)."
+  },
+  {
+   "level": "OK",
+   "text": "LALIGA: no failed cycles in a row"
+  },
+  {
+   "level": "OK",
+   "text": "scheduler: startup refresh only (no recurring schedule); last attempt 2026-10-28T01:52:26Z: ok"
+  },
+  {
+   "level": "OK",
+   "text": "8 provider request(s) in the last 24 h"
+  },
+  {
+   "level": "INFO",
+   "text": "57 unresolved sync finding(s) are open ({'contradictory_record': 1, 'date_disagreement': 55, 'score_conflict': 1}); none is new since the last audit"
+  },
+  {
+   "level": "OK",
+   "text": "backend answering (pid 8456); startup-refresh mode, no recurring scheduler (threads here: 0); startup refresh finished at 2026-10-28T01:52:43Z: all leagues ok"
+  },
+  {
+   "level": "INFO",
+   "text": "7 verified backup file(s) kept; newest: footiq.20261027T180815Z.pre-laliga-import.sqlite"
+  }
+ ],
+ "owner_actions": [],
+ "rule": "This audit is read-only: it never approves a checkpoint, resolves a finding or changes data. An ALERT means: set live_enabled=false, restart, keep the evidence."
+}

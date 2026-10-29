@@ -1,0 +1,271 @@
+D:\Foot IQ\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+{
+ "production_sha256_before": "afe71c445bfeddcb5cca6276e448e4faee460b774b70434381820f21974cb17c",
+ "copy_before": {
+  "integrity": "ok",
+  "fk": 0,
+  "matches": 223636,
+  "completed": {
+   "BUNDESLIGA": 63,
+   "EPL": 77,
+   "LALIGA": 93,
+   "LIGUE1": 70,
+   "SERIEA": 79,
+   "UCL": 54
+  },
+  "open_past": {
+   "EPL": 3,
+   "LALIGA": 7,
+   "LIGUE1": 2,
+   "SERIEA": 4
+  },
+  "postponed": 0,
+  "sims": 2,
+  "quarantine": 273,
+  "duplicates": 0,
+  "orphans": 0,
+  "other_rows_hash": "46c718f18e0fbc40f053c73117dbaf93cb09a2f3830b1a1147b27910a25b2054"
+ },
+ "first_apply": {
+  "counts": {
+   "apply": 104
+  },
+  "applied": {
+   "inserted": 0,
+   "updated": 104,
+   "unchanged": 0,
+   "quarantined": 0,
+   "run_id": 37
+  }
+ },
+ "second_apply": {
+  "counts": {
+   "unchanged": 104
+  },
+  "applied": {
+   "inserted": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "quarantined": 0,
+   "run_id": 38
+  }
+ },
+ "copy_after": {
+  "integrity": "ok",
+  "fk": 0,
+  "matches": 223636,
+  "completed": {
+   "BUNDESLIGA": 63,
+   "EPL": 80,
+   "LALIGA": 99,
+   "LIGUE1": 72,
+   "SERIEA": 80,
+   "UCL": 54
+  },
+  "open_past": {
+   "SERIEA": 3
+  },
+  "postponed": 1,
+  "sims": 2,
+  "quarantine": 273,
+  "duplicates": 0,
+  "orphans": 0,
+  "other_rows_hash": "ec6034c68c65a21f045ea3544593f22753d0b1b33ced71d22fdc5c6207be222d"
+ },
+ "rows_changed_vs_production": 104,
+ "rows_added_vs_production": 0,
+ "changed_by_type": {
+  "EPL: awaiting_result -> completed, date changed=False": 3,
+  "EPL: scheduled -> scheduled, date changed=True": 31,
+  "LALIGA: scheduled -> completed, date changed=True": 6,
+  "LALIGA: awaiting_result -> postponed, date changed=False": 1,
+  "LIGUE1: scheduled -> completed, date changed=True": 2,
+  "LIGUE1: scheduled -> scheduled, date changed=True": 21,
+  "SERIEA: scheduled -> completed, date changed=False": 1,
+  "SERIEA: scheduled -> scheduled, date changed=True": 39
+ },
+ "app_on_copy": {
+  "EPL": {
+   "matches": 80,
+   "standings_games": 80,
+   "top2": [
+    [
+     "Manchester City FC",
+     8,
+     21
+    ],
+    [
+     "Arsenal FC",
+     8,
+     21
+    ]
+   ],
+   "hub": {
+    "upcoming": 300,
+    "awaiting_result": 0,
+    "completed": 80,
+    "other": 0,
+    "all": 380
+   },
+   "predict": [
+    200,
+    "Validated"
+   ]
+  },
+  "LALIGA": {
+   "matches": 99,
+   "standings_games": 99,
+   "top2": [
+    [
+     "FC Barcelona",
+     10,
+     27
+    ],
+    [
+     "Club Atlético de Madrid",
+     10,
+     25
+    ]
+   ],
+   "hub": {
+    "upcoming": 280,
+    "awaiting_result": 0,
+    "completed": 99,
+    "other": 1,
+    "all": 380
+   },
+   "predict": [
+    200,
+    "Validated"
+   ]
+  },
+  "BUNDESLIGA": {
+   "matches": 63,
+   "standings_games": 63,
+   "top2": [
+    [
+     "FC Bayern München",
+     7,
+     17
+    ],
+    [
+     "Borussia Dortmund",
+     7,
+     17
+    ]
+   ],
+   "hub": {
+    "upcoming": 243,
+    "awaiting_result": 0,
+    "completed": 63,
+    "other": 0,
+    "all": 306
+   },
+   "predict": [
+    200,
+    "Validated"
+   ]
+  },
+  "SERIEA": {
+   "matches": 80,
+   "standings_games": 80,
+   "top2": [
+    [
+     "FC Internazionale Milano",
+     8,
+     22
+    ],
+    [
+     "SS Lazio",
+     8,
+     22
+    ]
+   ],
+   "hub": {
+    "upcoming": 297,
+    "awaiting_result": 3,
+    "completed": 80,
+    "other": 0,
+    "all": 380
+   },
+   "predict": [
+    200,
+    "Validated"
+   ]
+  },
+  "LIGUE1": {
+   "matches": 72,
+   "standings_games": 72,
+   "top2": [
+    [
+     "Paris Saint-Germain FC",
+     8,
+     17
+    ],
+    [
+     "Stade Rennais FC 1901",
+     8,
+     16
+    ]
+   ],
+   "hub": {
+    "upcoming": 234,
+    "awaiting_result": 0,
+    "completed": 72,
+    "other": 0,
+    "all": 306
+   },
+   "predict": [
+    200,
+    "Validated"
+   ]
+  },
+  "UCL": {
+   "matches": 54,
+   "standings_games": null,
+   "top2": [],
+   "hub": {
+    "upcoming": 90,
+    "awaiting_result": 0,
+    "completed": 54,
+    "other": 0,
+    "all": 144
+   },
+   "predict": [
+    200,
+    "Not validated (indicative only)"
+   ]
+  }
+ },
+ "laliga_postponed_in_hub": [
+  [
+   "Rayo Vallecano de Madrid",
+   "Athletic Club",
+   "2026-10-10",
+   "postponed"
+  ]
+ ],
+ "seriea_sample_after_date_change": [
+  [
+   "2026-11-06",
+   "Venezia FC",
+   "Udinese Calcio",
+   "local_without_time_zone"
+  ],
+  [
+   "2026-11-07",
+   "Torino FC",
+   "US Lecce",
+   "local_without_time_zone"
+  ],
+  [
+   "2026-11-07",
+   "Cagliari Calcio",
+   "Frosinone Calcio",
+   "unknown"
+  ]
+ ],
+ "production_sha256_after": "afe71c445bfeddcb5cca6276e448e4faee460b774b70434381820f21974cb17c",
+ "production_unchanged": true
+}

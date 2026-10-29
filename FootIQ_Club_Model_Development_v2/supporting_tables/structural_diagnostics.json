@@ -1,0 +1,39 @@
+{
+ "entities": 2793,
+ "connected_components": 36,
+ "largest_component_entities": 2043,
+ "largest_component_share": 0.7314715359828142,
+ "rated_graph_components": 59,
+ "rated_graph_largest_share": 0.6224161690399632,
+ "competitions_total": 112,
+ "competitions_in_own_island_(share of rated matches that are in a component of its own competition only)": null,
+ "share_rated_matches_in_single_competition_islands": 0.14063803295335034,
+ "n_single_competition_islands": 53,
+ "multi_competition_components": 6,
+ "dev_rows": 81934,
+ "dev_primary_rows": 65575,
+ "dev_secondary_rows_calendar_year": 15021,
+ "universe_competition_type_counts": {
+  "domestic_league": 164980,
+  "continental_club": 6819,
+  "domestic_cup": 2851,
+  "league_cup": 518,
+  "global_club": 160
+ },
+ "share_dev_rows_with_any_cup_recorded_365d_home": 0.37854858788781215,
+ "share_dev_rows_with_any_cup_recorded_365d_away": 0.37821905436082703,
+ "competitions_with_zero_cup_coverage": 45,
+ "competitions_total_dev": 93,
+ "share_dev_rows_in_zero_cup_coverage_competitions": 0.36723460346132253,
+ "share_rest_gt_14_days": 0.0734005418995777,
+ "home_win_rate_range_competitions_n>=600": [
+  0.3795811518324607,
+  0.5777972027972028
+ ],
+ "draw_rate_range_competitions_n>=600": [
+  0.21628498727735368,
+  0.3170391061452514
+ ],
+ "n_competitions_n>=600": 35,
+ "share_rows_a_side_under_10_prior": 0.046049259159811555
+}

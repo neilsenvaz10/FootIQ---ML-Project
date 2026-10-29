@@ -1,0 +1,29 @@
+{
+  "version": "v2.4 / v4 live-data slice",
+  "model_base": "World Cup model v2.3",
+  "api_provider": "API-Football / API-Sports",
+  "api_base_url": "https://v3.football.api-sports.io",
+  "official_fixture_source": "https://roadto26.com/",
+  "daily_api_limit": 100,
+  "reserve_requests": 15,
+  "fixture_ttl_hours": 2.0,
+  "detail_ttl_hours": 0.5,
+  "friendly_confidence_cap": "Medium",
+  "notes": [
+    "No API key is stored in code; scripts read API_FOOTBALL_KEY from .env.",
+    "Provider data is cached under data/provider_cache/api_football.",
+    "This Road to 26 test uses the v2.3 match engine plus fallback ratings for teams outside the 2026 World Cup field."
+  ],
+  "run_timestamp": "2026-06-06T13:05:03",
+  "fetch_provider": true,
+  "fetch_details": true,
+  "force_refresh": false,
+  "api_budget_snapshot": {
+    "date": "2026-06-06",
+    "daily_limit": 100,
+    "reserve_requests": 15,
+    "usable_before_stop": 85,
+    "used_today": 4,
+    "remaining_before_stop": 81
+  }
+}

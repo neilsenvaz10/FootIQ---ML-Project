@@ -1,0 +1,156 @@
+{
+ "production_sha256_before": "692903ece2513a87faab8b59497afc84cf60a31d22d67a8bc7ad99c1f444a0da",
+ "baseline": {
+  "integrity": "ok",
+  "fk_problems": 0,
+  "matches": 223510,
+  "ucl_2026_27": 18,
+  "other_rows_hash": "4cfb13e4dc45d8b8c265baa9ef705f9782473c1c13463c105bbcf0e1d90fa12a",
+  "sim_runs": 2,
+  "quarantine": 273
+ },
+ "results_only_first_apply": {
+  "counts": {
+   "unchanged": 18,
+   "insert_result": 18,
+   "skip_fixture_not_requested": 108
+  },
+  "applied": {
+   "inserted": 18,
+   "updated": 0,
+   "unchanged": 0,
+   "quarantined": 0,
+   "run_id": 24
+  },
+  "after": {
+   "integrity": "ok",
+   "fk_problems": 0,
+   "matches": 223528,
+   "ucl_2026_27": 36,
+   "other_rows_hash": "4cfb13e4dc45d8b8c265baa9ef705f9782473c1c13463c105bbcf0e1d90fa12a",
+   "sim_runs": 2,
+   "quarantine": 273
+  }
+ },
+ "results_only_second_apply": {
+  "counts": {
+   "unchanged": 36,
+   "skip_fixture_not_requested": 108
+  },
+  "applied": {
+   "inserted": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "quarantined": 0,
+   "run_id": 25
+  },
+  "after": {
+   "integrity": "ok",
+   "fk_problems": 0,
+   "matches": 223528,
+   "ucl_2026_27": 36,
+   "other_rows_hash": "4cfb13e4dc45d8b8c265baa9ef705f9782473c1c13463c105bbcf0e1d90fa12a",
+   "sim_runs": 2,
+   "quarantine": 273
+  }
+ },
+ "with_fixtures_first_apply": {
+  "counts": {
+   "unchanged": 18,
+   "insert_result": 18,
+   "insert_fixture": 108
+  },
+  "applied": {
+   "inserted": 126,
+   "updated": 0,
+   "unchanged": 0,
+   "quarantined": 0,
+   "run_id": 24
+  },
+  "after": {
+   "integrity": "ok",
+   "fk_problems": 0,
+   "matches": 223636,
+   "ucl_2026_27": 144,
+   "other_rows_hash": "4cfb13e4dc45d8b8c265baa9ef705f9782473c1c13463c105bbcf0e1d90fa12a",
+   "sim_runs": 2,
+   "quarantine": 273
+  }
+ },
+ "with_fixtures_second_apply": {
+  "counts": {
+   "unchanged": 144
+  },
+  "applied": {
+   "inserted": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "quarantined": 0,
+   "run_id": 25
+  },
+  "after": {
+   "integrity": "ok",
+   "fk_problems": 0,
+   "matches": 223636,
+   "ucl_2026_27": 144,
+   "other_rows_hash": "4cfb13e4dc45d8b8c265baa9ef705f9782473c1c13463c105bbcf0e1d90fa12a",
+   "sim_runs": 2,
+   "quarantine": 273
+  }
+ },
+ "with_fixtures_status_counts": {
+  "awaiting_result": 18,
+  "completed": 36,
+  "scheduled": 90
+ },
+ "no_other_row_changed": true,
+ "conflict_case": {
+  "counts": {
+   "quarantine_conflict": 1,
+   "unchanged": 17,
+   "insert_result": 18,
+   "skip_fixture_not_requested": 108
+  },
+  "applied": {
+   "inserted": 18,
+   "updated": 0,
+   "unchanged": 0,
+   "quarantined": 1,
+   "run_id": 24
+  },
+  "stored_score_still": 9,
+  "quarantined": [
+   [
+    "quarantine_conflict: store has 2026-09-08 9-0"
+   ]
+  ]
+ },
+ "fixture_then_result": {
+  "matchday2_before": {
+   "scheduled": 18
+  },
+  "rows_before": 144,
+  "rows_after": 144,
+  "counts": {
+   "unchanged": 126,
+   "complete_fixture": 18
+  },
+  "applied": {
+   "inserted": 0,
+   "updated": 18,
+   "unchanged": 0,
+   "quarantined": 0,
+   "run_id": 25
+  },
+  "matchday2_after": {
+   "completed": 18
+  }
+ },
+ "production_guard": {
+  "no_production_flag": "refused: refusing to write to the production store without --production",
+  "production_flag_without_backup": "refused: refusing to write to the production store: --backup must be a copy of it (identical sha256) taken just before the import",
+  "production_flag_with_wrong_backup": "refused: refusing to write to the production store: --backup must be a copy of it (identical sha256) taken just before the import"
+ },
+ "production_sha256_after": "692903ece2513a87faab8b59497afc84cf60a31d22d67a8bc7ad99c1f444a0da",
+ "production_unchanged": true
+}

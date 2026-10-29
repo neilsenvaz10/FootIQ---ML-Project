@@ -1,0 +1,8 @@
+dataset,status,path,license_or_terms,model_use,production_readiness
+international_results,downloaded,data/raw/international_results,Kaggle source lists CC0 public domain; verify before commercial release,"historical results, Elo, recent form, baseline backtests",prototype_ok
+StatsBomb open data,downloaded_subset_2018_2022_world_cup,data/raw/statsbomb,StatsBomb open-data terms; attribution required; verify commercial scope,tactical event features and model prototyping,prototype_ok_not_live
+OpenFootball World Cup 2026,downloaded,data/raw/openfootball/worldcup_2026.json,Open data project terms; verify before commercial release,fixture and group simulation structure,prototype_ok
+World Bank WDI GDP/population,downloaded,data/raw/worldbank,World Bank Open Data / CC BY 4.0 unless otherwise marked,small macro prior only,production_ok_with_attribution
+FIFA rankings,raw_page_snapshot_downloaded,data/raw/fifa/men_rankings_page_id3.html,FIFA terms; use official data carefully,ranking reference / optional feature,needs_clean_feed_or_permission
+licensed live football feed,not_acquired,data/contracts,Required: API contract with provider,"live fixtures, injuries, suspensions, lineups, player stats",required_for_sellable_product
+odds feed,not_acquired,data/contracts/odds_snapshots_contract.csv,Required: API contract with odds provider,market comparison and odds movement tracker,required_for_sellable_product

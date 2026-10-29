@@ -1,0 +1,106 @@
+{
+ "EPL": {
+  "wikipedia_revision": 1382295803,
+  "wikipedia_revision_time": "2026-10-27T21:28:37Z",
+  "grid_abbreviations": 20,
+  "grid_clubs_mapped": 20,
+  "grid_ambiguous": [],
+  "grid_scores": 72,
+  "footballdatauk_rows": 80,
+  "footballdatauk_unmatched": [],
+  "store_completed": 60,
+  "store_open_past_date": 20,
+  "staged_verified": 17,
+  "held": 3,
+  "counters": {
+   "stored_completed_checked": 60,
+   "verified_two_sources": 17,
+   "single_source_footballdatauk": 3
+  },
+  "still_open_past_date_after_staging": 3,
+  "staged_latest": "2026-10-25"
+ },
+ "SERIEA": {
+  "wikipedia_revision": 1382310697,
+  "wikipedia_revision_time": "2026-10-27T23:43:20Z",
+  "grid_abbreviations": 20,
+  "grid_clubs_mapped": 20,
+  "grid_ambiguous": [],
+  "grid_scores": 81,
+  "footballdatauk_rows": 80,
+  "footballdatauk_unmatched": [],
+  "store_completed": 50,
+  "store_open_past_date": 33,
+  "staged_verified": 29,
+  "held": 4,
+  "counters": {
+   "stored_completed_checked": 50,
+   "verified_two_sources": 29,
+   "single_source_footballdatauk": 1,
+   "single_source_wikipedia": 3
+  },
+  "still_open_past_date_after_staging": 4,
+  "staged_latest": "2026-10-25"
+ },
+ "LIGUE1": {
+  "wikipedia_revision": 1382140063,
+  "wikipedia_revision_time": "2026-10-26T21:23:49Z",
+  "grid_abbreviations": 18,
+  "grid_clubs_mapped": 18,
+  "grid_ambiguous": [],
+  "grid_scores": 71,
+  "footballdatauk_rows": 72,
+  "footballdatauk_unmatched": [],
+  "store_completed": 45,
+  "store_open_past_date": 27,
+  "staged_verified": 25,
+  "held": 2,
+  "counters": {
+   "stored_completed_checked": 45,
+   "verified_two_sources": 25,
+   "date_differs": 2
+  },
+  "still_open_past_date_after_staging": 2,
+  "staged_latest": "2026-10-25"
+ },
+ "BUNDESLIGA": {
+  "wikipedia_revision": 1381935013,
+  "wikipedia_revision_time": "2026-10-25T18:26:16Z",
+  "grid_abbreviations": 18,
+  "grid_clubs_mapped": 18,
+  "grid_ambiguous": [],
+  "grid_scores": 62,
+  "footballdatauk_rows": 63,
+  "footballdatauk_unmatched": [],
+  "store_completed": 63,
+  "store_open_past_date": 0,
+  "staged_verified": 0,
+  "held": 0,
+  "counters": {
+   "stored_completed_checked": 63
+  },
+  "still_open_past_date_after_staging": 0,
+  "staged_latest": null
+ },
+ "LALIGA": {
+  "wikipedia_revision": 1382144799,
+  "wikipedia_revision_time": "2026-10-26T21:57:53Z",
+  "grid_abbreviations": 20,
+  "grid_clubs_mapped": 20,
+  "grid_ambiguous": [],
+  "grid_scores": 96,
+  "footballdatauk_rows": 99,
+  "footballdatauk_unmatched": [],
+  "store_completed": 93,
+  "store_open_past_date": 7,
+  "staged_verified": 0,
+  "held": 6,
+  "counters": {
+   "stored_completed_checked": 93,
+   "date_differs": 5,
+   "single_source_footballdatauk": 1
+  },
+  "still_open_past_date_after_staging": 7,
+  "staged_latest": null
+ }
+}

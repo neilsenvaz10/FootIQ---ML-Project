@@ -1,0 +1,49 @@
+group,team,top2_probability_pct,predicted_group_finish,predicted_advances,predicted_advancement_route,source
+A,South Korea,72,1,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+A,Czechia,52,2,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+A,Mexico,44,3,true,best_third_place,Panmure Liberum FIFA World Cup Predictions 2026
+A,South Africa,33,4,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+B,Switzerland,90,1,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+B,Canada,35,2,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+B,Qatar,43,3,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+B,Bosnia-Herzegovina,32,4,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+C,Brazil,99,1,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+C,Morocco,59,2,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+C,Scotland,38,3,true,best_third_place,Panmure Liberum FIFA World Cup Predictions 2026
+C,Haiti,5,4,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+D,Australia,61,1,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+D,Turkey,59,2,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+D,USA,43,3,true,best_third_place,Panmure Liberum FIFA World Cup Predictions 2026
+D,Paraguay,37,4,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+E,Germany,93,1,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+E,Ecuador,65,2,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+E,Ivory Coast,37,3,true,best_third_place,Panmure Liberum FIFA World Cup Predictions 2026
+E,Curacao,5,4,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+F,Netherlands,73,1,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+F,Japan,58,2,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+F,Sweden,41,3,true,best_third_place,Panmure Liberum FIFA World Cup Predictions 2026
+F,Tunisia,28,4,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+G,Belgium,85,1,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+G,Iran,57,2,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+G,Egypt,43,3,true,best_third_place,Panmure Liberum FIFA World Cup Predictions 2026
+G,New Zealand,15,4,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+H,Spain,99,1,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+H,Uruguay,63,2,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+H,Saudi Arabia,25,3,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+H,Cape Verde,13,4,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+I,France,85,1,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+I,Senegal,48,2,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+I,Norway,41,3,true,best_third_place,Panmure Liberum FIFA World Cup Predictions 2026
+I,Iraq,25,4,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+J,Argentina,91,1,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+J,Austria,52,2,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+J,Algeria,40,3,true,best_third_place,Panmure Liberum FIFA World Cup Predictions 2026
+J,Jordan,17,4,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+K,Portugal,77,1,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+K,Colombia,73,2,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+K,Uzbekistan,28,3,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+K,DR Congo,23,4,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+L,England,89,1,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+L,Croatia,70,2,true,top_two,Panmure Liberum FIFA World Cup Predictions 2026
+L,Panama,36,3,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026
+L,Ghana,5,4,false,eliminated,Panmure Liberum FIFA World Cup Predictions 2026

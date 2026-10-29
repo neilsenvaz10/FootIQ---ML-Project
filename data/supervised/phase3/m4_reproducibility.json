@@ -1,0 +1,9 @@
+{
+ "stored_vs_same_seed_max_abs_difference": 0.0,
+ "identical_with_same_seed": true,
+ "n_acceptance_rates_compared": 296,
+ "different_seed_max_abs_difference": 0.07399999999999998,
+ "different_seed_mean_abs_difference": 0.013652027027027029,
+ "share_within_2_standard_errors": 0.972972972972973,
+ "largest_standardised_difference": 4.242640687119286
+}

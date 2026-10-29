@@ -1,0 +1,32 @@
+{
+ "hgb|full_v2": {
+  "hyperparameters": "{\"learning_rate\": 0.03, \"max_depth\": 3, \"max_iter\": 300, \"l2_regularization\": 1.0, \"min_samples_leaf\": 200}",
+  "mean_log_loss": 1.0174631642109695,
+  "std": 0.009014482460755355
+ },
+ "hgb|selected": {
+  "hyperparameters": "{\"learning_rate\": 0.03, \"max_depth\": 2, \"max_iter\": 400, \"l2_regularization\": 1.0, \"min_samples_leaf\": 100}",
+  "mean_log_loss": 1.0187485107187435,
+  "std": 0.00864706410709364
+ },
+ "lr|full_v2": {
+  "hyperparameters": "{\"C\": 0.01}",
+  "mean_log_loss": 1.0163070638475526,
+  "std": 0.007070586621241692
+ },
+ "lr|selected": {
+  "hyperparameters": "{\"C\": 0.01}",
+  "mean_log_loss": 1.0176051641794992,
+  "std": 0.007079613900355345
+ },
+ "rf|full_v2": {
+  "hyperparameters": "{\"n_estimators\": 300, \"max_depth\": 8, \"min_samples_leaf\": 50, \"max_features\": 0.5}",
+  "mean_log_loss": 1.0173020526266796,
+  "std": 0.008246068893854956
+ },
+ "rf|selected": {
+  "hyperparameters": "{\"n_estimators\": 300, \"max_depth\": 8, \"min_samples_leaf\": 50, \"max_features\": 0.5}",
+  "mean_log_loss": 1.01781677174923,
+  "std": 0.008121762027806814
+ }
+}

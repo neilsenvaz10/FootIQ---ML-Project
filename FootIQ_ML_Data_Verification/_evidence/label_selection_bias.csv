@@ -1,0 +1,10 @@
+phase,set,n,labelled,draw_rate,home_rate
+league,all_results,127791,127610,0.2631,0.4436
+league,strict,121523,121523,0.2631,0.4433
+league,extended,121523,121523,0.2631,0.4433
+league_phase,all_results,3060,3058,0.2233,0.4797
+league_phase,strict,1891,1891,0.2115,0.4765
+league_phase,extended,1891,1891,0.2115,0.4765
+knockout,all_results,12204,11641,0.1962,0.4102
+knockout,strict,2287,2287,0.307,0.3861
+knockout,extended,6258,6258,0.2066,0.4369

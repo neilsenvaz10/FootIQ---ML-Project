@@ -1,0 +1,4 @@
+﻿record_id,competition_key,home,away,home_entity,away_entity,expected_store_date,expected_store_status,reason
+italy:1-seriea:2026-27:L143,SERIEA,US Sassuolo Calcio,SS Lazio,CLUB:ITA:us-sassuolo-calcio,CLUB:ITA:ss-lazio,2026-10-27,scheduled,single source for the score (wikipedia): not verified
+italy:1-seriea:2026-27:L144,SERIEA,AS Roma,Cagliari Calcio,CLUB:ITA:as-roma,CLUB:ITA:cagliari-calcio,2026-10-27,scheduled,single source for the score (wikipedia): not verified
+italy:1-seriea:2026-27:L145,SERIEA,Torino FC,Como 1907,CLUB:ITA:torino-fc,CLUB:ITA:como-1907,2026-10-27,scheduled,single source for the score (wikipedia): not verified

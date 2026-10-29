@@ -1,0 +1,28 @@
+{
+  "version": "v2.8",
+  "purpose": "Confidence-gate calibration for v2.7 predictions.",
+  "base_model": "v2.7 calibrated ensemble; no model retraining.",
+  "tiers": {
+    "Strong Pick": "Ensemble and logistic public gates agree on the same non-pass outcome.",
+    "Model Lean": "Ensemble has a usable directional signal, but the logistic safety layer blocks a strong public pick.",
+    "Pass": "Signal is too close, too draw-heavy, or data quality is too weak."
+  },
+  "rules": {
+    "strong_pick": {
+      "requires_consensus_non_pass": true
+    },
+    "model_lean": {
+      "ensemble_public_non_pass": true,
+      "or_non_draw_top_probability_min": 0.6,
+      "or_non_draw_top_gap_min": 0.18,
+      "or_draw_probability_min": 0.38,
+      "or_draw_gap_min": 0.03,
+      "minimum_data_quality": 50
+    },
+    "pass": {
+      "default": true
+    }
+  },
+  "calibration_source": "data/processed/model_v26_test_predictions.csv",
+  "note": "Model Lean is intentionally not marketed as a high-confidence pick."
+}

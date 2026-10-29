@@ -1,0 +1,209 @@
+canonical,source_names,min_token_jaccard
+CLUB:AUT:fc-marchfeld,FC Marchfeld Donauauen | FC Marchfeld Mannsdorf | SC Mannsdorf,0.0
+CLUB:AUT:fc-mauerwerk,FC Karabakh Wien | FC Mauerwerk,0.0
+CLUB:AUT:fc-rb-salzburg,FC Red Bull Salzburg | FC Salzburg | RB Salzburg,0.25
+CLUB:AUT:floridsdorfer-ac,FAC Team für Wien | Floridsdorfer AC,0.0
+CLUB:AUT:sw-bregenz,SC Bregenz | Schwarz-Weiß Bregenz,0.33
+CLUB:AUT:twl-elektra,SC Team Wiener Linien | TWL Elektra,0.0
+CLUB:AUT:wiener-sport-club,Wiener Sport-Club | Wiener Sportklub,0.33
+CLUB:AUT:wolfsberger-ac,WAC/St. Andrä | Wolfsberger AC,0.0
+CLUB:AUT:wsg-tirol,WSG Tirol | WSG Wattens,0.33
+CLUB:BEL:oud-heverlee-leuven,OH Leuven | Oud-Heverlee Leuven,0.25
+CLUB:BEL:rsc-anderlecht,R.S.C. Anderlecht | RSC Anderlecht,0.2
+CLUB:CZE:ac-sparta-praha,AC Sparta Prague | AC Sparta Praha | Sparta Praha,0.33
+CLUB:CZE:sk-slavia-praha,SK Slavia Prague | SK Slavia Praha | Slavia Praha,0.33
+CLUB:DEN:agf-aarhus,Aarhus GF | Aarhus Gymnastikforening,0.33
+CLUB:DEN:fc-kbenhavn,F.C. Copenhagen | FC København,0.0
+CLUB:ENG:altrincham-fc,Altrincham F.C. | Altrincham FC,0.33
+CLUB:ENG:arsenal-fc,Arsenal | Arsenal F.C. | Arsenal FC,0.33
+CLUB:ENG:barnet-fc,Barnet | Barnet F.C. | Barnet FC,0.33
+CLUB:ENG:barnsley-fc,Barnsley | Barnsley F.C. | Barnsley FC,0.33
+CLUB:ENG:barrow-afc,Barrow A.F.C. | Barrow AFC,0.25
+CLUB:ENG:birmingham-city-fc,Birmingham | Birmingham City | Birmingham City F.C. | Birmingham City FC | Small Heath FC,0.0
+CLUB:ENG:blackburn-rovers-fc,Blackburn | Blackburn Rovers | Blackburn Rovers F.C. | Blackburn Rovers FC,0.25
+CLUB:ENG:blackpool-fc,Blackpool | Blackpool F.C. | Blackpool FC,0.33
+CLUB:ENG:bolton-wanderers-fc,Bolton | Bolton Wanderers | Bolton Wanderers F.C. | Bolton Wanderers FC,0.25
+CLUB:ENG:bradford-city-afc,Bradford | Bradford City | Bradford City A.F.C.,0.25
+CLUB:ENG:brentford-fc,Brentford | Brentford F.C. | Brentford FC,0.33
+CLUB:ENG:brighton-and-hove-albion-fc,Brighton | Brighton & Hove Albion | Brighton & Hove Albion F.C. | Brighton & Hove Albion FC,0.2
+CLUB:ENG:bristol-city-fc,Bristol City | Bristol City F.C. | Bristol City FC,0.33
+CLUB:ENG:bromley-fc,Bromley F.C. | Bromley FC,0.33
+CLUB:ENG:burnley-fc,Burnley | Burnley F.C. | Burnley FC,0.33
+CLUB:ENG:bury-fc,Bury | Bury F.C. | Bury FC,0.33
+CLUB:ENG:cambridge-united-fc,Cambridge United | Cambridge United F.C. | Cambridge Utd,0.25
+CLUB:ENG:carlisle-united-fc,Carlisle | Carlisle United | Carlisle United F.C.,0.33
+CLUB:ENG:charlton-athletic-fc,Charlton | Charlton Athletic | Charlton Athletic F.C. | Charlton Athletic FC,0.25
+CLUB:ENG:chelsea-fc,Chelsea | Chelsea F.C. | Chelsea FC,0.33
+CLUB:ENG:cheltenham-town-fc,Cheltenham | Cheltenham Town | Cheltenham Town F.C.,0.25
+CLUB:ENG:chester-fc,Chester | Chester F.C. | Chester FC,0.33
+CLUB:ENG:chesterfield-fc,Chesterfield | Chesterfield F.C. | Chesterfield FC,0.33
+CLUB:ENG:chorley-fc,Chorley F.C. | Chorley FC,0.33
+CLUB:ENG:colchester-united-fc,Colchester | Colchester United | Colchester United F.C.,0.33
+CLUB:ENG:coventry-city-fc,Coventry | Coventry City | Coventry City F.C. | Coventry City FC,0.33
+CLUB:ENG:crewe-alexandra-fc,Crewe | Crewe Alexandra | Crewe Alexandra F.C. | Crewe Alexandra FC,0.25
+CLUB:ENG:derby-county-fc,Derby | Derby County | Derby County F.C. | Derby County FC,0.25
+CLUB:ENG:eastleigh-fc,Eastleigh F.C. | Eastleigh FC,0.33
+CLUB:ENG:ebbsfleet-united-fc,Ebbsfleet United | Ebbsfleet United F.C.,0.33
+CLUB:ENG:everton-fc,Everton | Everton F.C. | Everton FC,0.33
+CLUB:ENG:exeter-city-fc,Exeter | Exeter City | Exeter City F.C.,0.33
+CLUB:ENG:fulham-fc,Fulham | Fulham F.C. | Fulham FC,0.33
+CLUB:ENG:gateshead-fc,Gateshead F.C. | Gateshead FC,0.33
+CLUB:ENG:gillingham-fc,Gillingham F.C. | Gillingham FC,0.33
+CLUB:ENG:grimsby-town-fc,Grimsby | Grimsby Town | Grimsby Town F.C. | Grimsby Town FC,0.25
+CLUB:ENG:guiseley-afc,Guiseley A.F.C. | Guiseley AFC,0.25
+CLUB:ENG:huddersfield-town-afc,Huddersfield | Huddersfield Town | Huddersfield Town A.F.C. | Huddersfield Town AFC,0.2
+CLUB:ENG:hull-city-afc,Hull City | Hull City A.F.C. | Hull City AFC,0.25
+CLUB:ENG:ipswich-town-fc,Ipswich | Ipswich Town | Ipswich Town F.C. | Ipswich Town FC,0.25
+CLUB:ENG:leeds-united-fc,Leeds | Leeds United | Leeds United F.C. | Leeds United FC,0.33
+CLUB:ENG:leicester-city-fc,Leicester | Leicester City | Leicester City F.C. | Leicester City FC,0.33
+CLUB:ENG:lincoln-city-fc,Lincoln City | Lincoln City F.C. | Lincoln City FC,0.33
+CLUB:ENG:liverpool-fc,Liverpool | Liverpool F.C. | Liverpool FC,0.33
+CLUB:ENG:luton-town-fc,Luton | Luton Town | Luton Town F.C. | Luton Town FC,0.25
+CLUB:ENG:macclesfield-town-fc,Macclesfield | Macclesfield F.C. | Macclesfield Town,0.25
+CLUB:ENG:maidenhead-united-fc,Maidenhead United | Maidenhead United F.C.,0.33
+CLUB:ENG:maidstone-united-fc,Maidstone United | Maidstone United F.C.,0.33
+CLUB:ENG:manchester-city-fc,Ardwick FC | Manchester City | Manchester City F.C. | Manchester City FC,0.0
+CLUB:ENG:manchester-united-fc,Manchester United | Manchester United F.C. | Manchester United FC | Newton Heath FC,0.0
+CLUB:ENG:mansfield-town-fc,Mansfield | Mansfield Town | Mansfield Town F.C.,0.25
+CLUB:ENG:middlesbrough-fc,Middlesbrough | Middlesbrough F.C. | Middlesbrough FC,0.33
+CLUB:ENG:millwall-fc,Millwall | Millwall F.C. | Millwall FC,0.33
+CLUB:ENG:morecambe-fc,Morecambe F.C. | Morecambe FC,0.33
+CLUB:ENG:newcastle-united-fc,Newcastle United | Newcastle United F.C. | Newcastle United FC | Newcastle Utd,0.25
+CLUB:ENG:northampton-town-fc,Northampton | Northampton Town | Northampton Town F.C.,0.25
+CLUB:ENG:norwich-city-fc,Norwich | Norwich City | Norwich City F.C. | Norwich City FC,0.33
+CLUB:ENG:oldham-athletic-afc,Oldham | Oldham Athletic | Oldham Athletic A.F.C. | Oldham Athletic AFC,0.2
+CLUB:ENG:oxford-city-fc,Oxford City | Oxford City F.C.,0.33
+CLUB:ENG:oxford-united-fc,Oxford United | Oxford United F.C. | Oxford United FC | Oxford Utd,0.25
+CLUB:ENG:peterborough-united-fc,Peterborough | Peterborough United | Peterborough United F.C. | Peterborough United FC,0.33
+CLUB:ENG:plymouth-argyle-fc,Plymouth | Plymouth Argyle | Plymouth Argyle F.C. | Plymouth Argyle FC,0.25
+CLUB:ENG:portsmouth-fc,Portsmouth | Portsmouth F.C. | Portsmouth FC,0.33
+CLUB:ENG:preston-north-end-fc,Preston | Preston North End | Preston North End F.C. | Preston North End FC,0.2
+CLUB:ENG:queens-park-rangers-fc,QPR | Queens Park Rangers | Queens Park Rangers F.C. | Queens Park Rangers FC,0.0
+CLUB:ENG:reading-fc,Reading | Reading F.C. | Reading FC,0.33
+CLUB:ENG:rochdale-afc,Rochdale | Rochdale A.F.C. | Rochdale AFC,0.25
+CLUB:ENG:rotherham-united-fc,Rotherham | Rotherham United | Rotherham United F.C. | Rotherham United FC,0.33
+CLUB:ENG:salford-city-fc,Salford City | Salford City F.C.,0.33
+CLUB:ENG:scunthorpe-united-fc,Scunthorpe | Scunthorpe United | Scunthorpe United F.C.,0.33
+CLUB:ENG:sheffield-united-fc,Sheffield United | Sheffield United F.C. | Sheffield United FC | Sheffield Utd,0.25
+CLUB:ENG:sheffield-wednesday-fc,Sheffield Wed | Sheffield Wednesday | Sheffield Wednesday F.C. | Sheffield Wednesday FC | The Wednesday FC,0.0
+CLUB:ENG:shrewsbury-town-fc,Shrewsbury | Shrewsbury Town | Shrewsbury Town F.C.,0.25
+CLUB:ENG:southampton-fc,Southampton | Southampton F.C. | Southampton FC,0.33
+CLUB:ENG:southend-united-fc,Southend | Southend United | Southend United F.C.,0.33
+CLUB:ENG:stevenage-fc,Stevenage F.C. | Stevenage FC,0.33
+CLUB:ENG:stockport-county-fc,Stockport | Stockport County | Stockport County F.C.,0.25
+CLUB:ENG:stoke-city-fc,Stoke City | Stoke City F.C. | Stoke City FC | Stoke FC,0.33
+CLUB:ENG:sunderland-afc,Sunderland | Sunderland A.F.C. | Sunderland AFC,0.25
+CLUB:ENG:sutton-united-fc,Sutton United | Sutton United F.C.,0.33
+CLUB:ENG:swindon-town-fc,Swindon | Swindon Town | Swindon Town F.C. | Swindon Town FC,0.25
+CLUB:ENG:tamworth-fc,Tamworth F.C. | Tamworth FC,0.33
+CLUB:ENG:tottenham-hotspur-fc,Tottenham | Tottenham Hotspur | Tottenham Hotspur F.C. | Tottenham Hotspur FC,0.25
+CLUB:ENG:tranmere-rovers-fc,Tranmere | Tranmere Rovers | Tranmere Rovers F.C.,0.25
+CLUB:ENG:walsall-fc,Walsall | Walsall F.C. | Walsall FC | Walsall Town Swifts FC,0.2
+CLUB:ENG:watford-fc,Watford | Watford F.C. | Watford FC,0.33
+CLUB:ENG:wealdstone-fc,Wealdstone F.C. | Wealdstone FC,0.33
+CLUB:ENG:west-bromwich-albion-fc,West Brom | West Bromwich Albion | West Bromwich Albion F.C. | West Bromwich Albion FC,0.17
+CLUB:ENG:wigan-athletic-fc,Wigan | Wigan Athletic | Wigan Athletic F.C. | Wigan Athletic FC,0.25
+CLUB:ENG:woking-fc,Woking F.C. | Woking FC,0.33
+CLUB:ENG:wolverhampton-wanderers-fc,Wolverhampton Wanderers | Wolverhampton Wanderers F.C. | Wolverhampton Wanderers FC | Wolves,0.0
+CLUB:ENG:wycombe-wanderers-fc,Wycombe | Wycombe Wanderers | Wycombe Wanderers F.C. | Wycombe Wanderers FC,0.25
+CLUB:ENG:york-city-fc,York | York City | York City F.C.,0.33
+CLUB:ESP:cultural-leonesa,CD Leonesa | Cultural Leonesa | Cultural y Deportiva Leonesa,0.25
+CLUB:ESP:rcd-espanyol,Espanyol Barcelona | RCD Espanyol | RCD Espanyol de Barcelona,0.33
+CLUB:FIN:hjk-helsinki,HJK Helsinki | Helsingin Jalkapalloklubi,0.0
+CLUB:FIN:kups-kuopio,Kuopion PS | Kuopion Palloseura,0.33
+CLUB:FRA:angouleme-soyaux-charente,Angoulême CFC | Angoulême Charente FC | Angoulême-Soyaux Charente,0.25
+CLUB:FRA:bourg-en-bresse-01,FC Bourg-Péronnas | Football Bourg-en-Bresse Péronnas 01,0.33
+CLUB:FRA:ea-guingamp,EA Guingamp | En Avant Guingamp | En Avant de Guingamp,0.25
+CLUB:FRA:es-troyes-ac,ES Troyes AC | ESTAC Troyes | Troyes AC,0.33
+CLUB:FRA:lille-osc,LOSC Lille | Lille | Lille OSC,0.33
+CLUB:FRA:rc-lens,Lens | RC Lens | Racing Club de Lens,0.33
+CLUB:FRA:rc-strasbourg,RC Strasbourg | RC Strasbourg Alsace | Racing Club de Strasbourg Alsace,0.25
+CLUB:FRA:stade-malherbe-caen,SM Caen | Stade Malherbe Caen,0.25
+CLUB:FRA:stade-rennais-fc,Rennes | Stade Rennais | Stade Rennais F.C. | Stade Rennais FC | Stade Rennais FC 1901,0.0
+CLUB:GEO:fc-iberia-1999-tbilisi,FC Iberia 1999 | FC Saburtalo,0.0
+CLUB:GER:1-fc-heidenheim,1. FC Heidenheim | 1. FC Heidenheim 1846 | Heidenheim,0.33
+CLUB:GER:bayern-munchen,Bayern München | FC Bayern Munich | FC Bayern München,0.33
+CLUB:GER:bfc-dynamo-berlin,BFC Dynamo | Berliner FC Dynamo,0.33
+CLUB:GER:bor-monchengladbach,Bor. Mönchengladbach | Borussia M'gladbach | Borussia Mönchengladbach,0.0
+CLUB:GER:fc-teutonia-05,FC Teutonia 05 | FC Teutonia Ottensen,0.33
+CLUB:GRE:aek-athens-fc,AEK | AEK Athen | AEK Athens F.C.,0.2
+CLUB:GRE:aris-thessaloniki-fc,Aris Saloniki | Aris Thessaloniki,0.33
+CLUB:GRE:ofi-crete-fc,OFI | OFI Crete F.C. | OFI Heraklion,0.2
+CLUB:GRE:olympiacos-piraeus-fc,Olympiacos F.C. | PAE Olympiakos SFP,0.0
+CLUB:GRE:panathinaikos-fc,Panathinaikos | Panathinaikos F.C.,0.33
+CLUB:HUN:videoton-fc,Fehérvár FC | Vidi FC,0.0
+CLUB:IRL:shelbourne-fc,Shelbourne F.C. | Shelbourne FC,0.33
+CLUB:ISL:breiablik,Breiðablik | Breiðablik (men's football),0.25
+CLUB:ISL:vikingur-reykjavik,Knattspyrnufélagið Víkingur | Víkingur Reykjavík,0.33
+CLUB:ITA:ac-chievo-verona,A.C. ChievoVerona | Chievo Verona,0.0
+CLUB:ITA:ac-milan,A.C. Milan | AC Milan | Milan,0.33
+CLUB:ITA:ac-monza,A.C. Monza | AC Monza | S.S. Monza 1912,0.2
+CLUB:ITA:ac-pisa,A.C. Pisa 1909 | AC Pisa | AC Pisa 1909 | Pisa | Pisa SC,0.25
+CLUB:ITA:ac-renate,A.C. Renate | AC Renate,0.33
+CLUB:ITA:as-livorno-calcio,A.S. Livorno Calcio | AS Livorno,0.2
+CLUB:ITA:as-roma,A.S. Roma | AS Roma,0.25
+CLUB:ITA:ascoli,Ascoli Calcio | Ascoli Calcio 1898 F.C. | Ascoli Calcio 1898 FC | Ascoli Picchio F.C. 1898 | Ascoli Picchio FC,0.17
+CLUB:ITA:atalanta-bergamo,Atalanta | Atalanta B.C. | Atalanta BC,0.25
+CLUB:ITA:avellino,AS Avellino | U.S. Avellino 1912 | US Avellino | US Avellino 1912,0.2
+CLUB:ITA:bari,AS Bari | FC Bari 1908 | S.S.C. Bari | SSC Bari,0.25
+CLUB:ITA:bologna-fc,Bologna | Bologna F.C. 1909 | Bologna FC | Bologna FC 1909,0.25
+CLUB:ITA:carpi,Carpi F.C. 1909 | Carpi FC,0.25
+CLUB:ITA:cittadella,A.S. Cittadella | AS Cittadella,0.25
+CLUB:ITA:como-1907,Como | Como 1907 | Como Calcio,0.33
+CLUB:ITA:empoli-fc,Empoli F.C. | Empoli FC,0.33
+CLUB:ITA:fc-crotone,F.C. Crotone | FC Crotone,0.33
+CLUB:ITA:fc-internazionale-milano,FC Internazionale Milano | Inter | Inter Milan,0.0
+CLUB:ITA:fc-sudtirol,F.C. Südtirol | FC Südtirol,0.33
+CLUB:ITA:genoa-cfc,Genoa | Genoa C.F.C. | Genoa CFC,0.25
+CLUB:ITA:lr-vicenza-virtus,L.R. Vicenza Virtus | LR Vicenza | Vicenza Calcio,0.2
+CLUB:ITA:modena-fc,Modena F.C. 2018 | Modena FC | Modena FC 2018,0.25
+CLUB:ITA:palermo-fc,Palermo F.C. | Palermo FC | U.S. Città di Palermo | US Palermo,0.14
+CLUB:ITA:parma-calcio,Parma | Parma Calcio 1913 | Parma FC,0.33
+CLUB:ITA:ravenna-fc,Ravenna F.C. | Ravenna FC,0.33
+CLUB:ITA:reggina-1914,Reggina 1914 | Reggina Calcio,0.33
+CLUB:ITA:salernitana,Salernitana Calcio | U.S. Salernitana 1919 | US Salernitana 1919,0.2
+CLUB:ITA:sambenedettese,S.S. Sambenedettese Calcio | Sambenedettese,0.33
+CLUB:ITA:spal-ferrara,S.P.A.L. | S.P.A.L. 2013 | SPAL 2013 Ferrara,0.0
+CLUB:ITA:ss-arezzo,S.S. Arezzo | SS Arezzo,0.33
+CLUB:ITA:ss-lazio,Lazio | Lazio Roma | S.S. Lazio | SS Lazio,0.33
+CLUB:ITA:ssc-napoli,Napoli | S.S.C. Napoli | SSC Napoli,0.25
+CLUB:ITA:torino-fc,Torino | Torino F.C. | Torino FC,0.33
+CLUB:ITA:uc-sampdoria,Sampdoria | U.C. Sampdoria | UC Sampdoria,0.25
+CLUB:ITA:unione-calcio-albinoleffe,U.C. AlbinoLeffe | UC AlbinoLeffe,0.25
+CLUB:ITA:us-catanzaro,U.S. Catanzaro 1929 | US Catanzaro | US Catanzaro 1929,0.2
+CLUB:ITA:us-cremonese,Cremonese | U.S. Cremonese | US Cremonese,0.25
+CLUB:ITA:us-lecce,Lecce | U.S. Lecce | US Lecce,0.25
+CLUB:ITA:us-sassuolo-calcio,Sassuolo | Sassuolo Calcio | U.S. Sassuolo Calcio | US Sassuolo Calcio,0.25
+CLUB:ITA:venezia-fc,Venezia F.C. | Venezia FC,0.33
+CLUB:KOS:kf-drita,Drita Gjilan | FC Drita | KF Drita,0.33
+CLUB:MDA:cs-petrocub-hincesti,CS Petrocub | FC Petrocub Hîncești,0.33
+CLUB:NIR:larne-fc,Larne F.C. | Larne FC,0.33
+CLUB:NOR:sarpsborg-08,Sarpsborg 08 | Sarpsborg 08 FF | Sarpsborg FK,0.33
+CLUB:POL:legia-warszawa,Legia Warsaw | Legia Warszawa,0.33
+CLUB:POR:os-belenenses,Belenenses SAD | Os Belenenses,0.33
+CLUB:POR:sc-braga,S.C. Braga | Sporting Braga | Sporting Clube de Braga,0.2
+CLUB:POR:sc-uniao-torreense,S.C.U. Torreense | União Torreense,0.2
+CLUB:POR:sl-benfica,S.L. Benfica | SL Benfica | Sport Lisboa e Benfica,0.17
+CLUB:POR:sporting-cp,Sporting CP | Sporting Clube de Portugal,0.25
+CLUB:POR:vitoria-de-guimaraes,Vitória Guimarães | Vitória S.C.,0.25
+CLUB:ROU:steaua-bucuresti,FC Steaua Bucureşti | FCSB,0.0
+CLUB:RUS:fc-spartak-moskva,FC Spartak Moscow | Spartak Moskva,0.33
+CLUB:RUS:pfc-cska-moskva,CSKA Moskva | PFC CSKA Moscow,0.25
+CLUB:SCO:aberdeen-fc,Aberdeen | Aberdeen F.C. | Aberdeen FC,0.33
+CLUB:SCO:celtic-fc,Celtic | Celtic F.C. | Celtic FC,0.33
+CLUB:SCO:rangers-fc,Rangers | Rangers F.C. | Rangers FC,0.33
+CLUB:SCO:st-johnstone-fc,Saint Johnstone FC | St. Johnstone FC,0.33
+CLUB:SRB:backa-topola,FK TSC | TSC Bačka Topola,0.33
+CLUB:SRB:red-star-belgrade,Crvena Zvezda | FK Crvena Zvezda | Red Star Belgrade,0.0
+CLUB:SUI:fc-st-gallen,FC Sankt Gallen | FC St. Gallen,0.33
+CLUB:SUI:fc-thun,FC Thun | FC Thun Berner Oberland,0.33
+CLUB:SUI:grasshoppers-zurich,Grasshopper Club Zürich | Grasshoppers,0.0
+CLUB:TUR:akhisarspor,Akhisar Belediyespor | Akhisarspor,0.0
+CLUB:TUR:besiktas-istanbul,Beşiktaş | Beşiktaş J.K.,0.33
+CLUB:TUR:fenerbahce-istanbul,Fenerbahçe | Fenerbahçe S.K. (football),0.25
+CLUB:TUR:galatasaray-istanbul,Galatasaray | Galatasaray S.K. (football) | Galatasaray SK,0.25
+CLUB:TUR:osmanlspor-ankara,Ankaraspor | Osmanlıspor FK,0.0
+CLUB:UKR:fc-dynamo-kyiv,Dinamo Kiev | FC Dynamo Kyiv,0.0
+CLUB:WAL:cardiff-city-fc,Cardiff | Cardiff City | Cardiff City F.C. | Cardiff City FC,0.33
+CLUB:WAL:swansea-city-afc,Swansea | Swansea City | Swansea City A.F.C. | Swansea City AFC,0.25
+CLUB:WAL:wrexham-afc,Wrexham | Wrexham A.F.C. | Wrexham AFC | Wrexham FC,0.25

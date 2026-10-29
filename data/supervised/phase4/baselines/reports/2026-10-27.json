@@ -1,0 +1,14 @@
+{
+ "generated_utc": "2026-10-27T17:15:55Z",
+ "checkpoint_id": 2,
+ "checkpoint_label": "first supervised production cycle (log-only change: sync_runs 11-12, snapshot register, source state)",
+ "checkpoint_physical": "2f5126efddf963d472af5b032db355d92dee6e9fcffacd63a9355c8ce4252f67",
+ "checkpoint_logical": "28902313e4e9dd87a988f1a9eec1d3d511ebcf6430b2a239c8cc9faf093f5706",
+ "current_physical": "2f5126efddf963d472af5b032db355d92dee6e9fcffacd63a9355c8ce4252f67",
+ "current_logical": "28902313e4e9dd87a988f1a9eec1d3d511ebcf6430b2a239c8cc9faf093f5706",
+ "integrity_check": "ok",
+ "changed_tables": [],
+ "verdict": "NO_CHANGE",
+ "reasons": [],
+ "approvable": false
+}

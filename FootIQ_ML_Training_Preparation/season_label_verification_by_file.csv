@@ -1,0 +1,842 @@
+﻿source_file,competition_id,label_in_original_submission,folder_label,rows,rows_compatible_with_label,rows_compatible_with_folder_label,title,win_start,win_end,win_span_days,label_verdict
+austria/2010-11/1-bundesliga.txt,austria:1-bundesliga,2010-11,2010-11,180,180,180,Österr. Bundesliga 2010/11,2010-07-17,2011-05-25,312.0,verified_compatible
+austria/2010-11/2-liga1.txt,austria:2-liga1,2010-11,2010-11,180,180,180,Österr. Erste Liga 2010/11,2010-07-12,2011-05-24,316.0,verified_compatible
+austria/2010-11/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2010-11,2010-11,240,240,240,Österr. Regionalliga Ost 2010/11,2010-08-13,2011-06-01,292.0,verified_compatible
+austria/2010-11/cup.txt,austria:cup,2010-11,2010-11,63,63,63,ÖFB Cup 2010/11,2010-08-12,2011-05-29,290.0,verified_compatible
+austria/2011-12/1-bundesliga.txt,austria:1-bundesliga,2011-12,2011-12,180,180,180,Österr. Bundesliga 2011/12,2011-07-16,2012-05-17,306.0,verified_compatible
+austria/2011-12/2-liga1.txt,austria:2-liga1,2011-12,2011-12,180,180,180,Österr. Erste Liga 2011/12,2011-07-11,2012-05-18,312.0,verified_compatible
+austria/2011-12/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2011-12,2011-12,240,240,240,Österr. Regionalliga Ost 2011/12,2011-08-05,2012-05-31,300.0,verified_compatible
+austria/2011-12/cup.txt,austria:cup,2011-12,2011-12,63,63,63,ÖFB Cup 2011/12,2011-08-05,2012-05-20,289.0,verified_compatible
+austria/2012-13/1-bundesliga.txt,austria:1-bundesliga,2012-13,2012-13,180,180,180,Österr. Bundesliga 2012/13,2012-07-21,2013-05-26,309.0,verified_compatible
+austria/2012-13/2-liga1.txt,austria:2-liga1,2012-13,2012-13,180,180,180,Österr. Erste Liga 2012/13,2012-07-20,2013-05-24,308.0,verified_compatible
+austria/2012-13/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2012-13,2012-13,240,240,240,Österr. Regionalliga Ost 2012/13,2012-08-03,2013-05-29,299.0,verified_compatible
+austria/2012-13/cup.txt,austria:cup,2012-13,2012-13,63,63,63,ÖFB Cup 2012/13,2012-07-12,2013-05-30,322.0,verified_compatible
+austria/2013-14/1-bundesliga.txt,austria:1-bundesliga,2013-14,2013-14,180,180,180,Österr. Bundesliga 2013/14,2013-07-20,2014-05-12,296.0,verified_compatible
+austria/2013-14/2-liga1.txt,austria:2-liga1,2013-14,2013-14,180,180,180,Österr. Erste Liga 2013/14,2013-07-19,2014-05-23,308.0,verified_compatible
+austria/2013-14/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2013-14,2013-14,241,241,241,Österr. Regionalliga Ost 2013/14,2013-08-02,2014-05-28,299.0,verified_compatible
+austria/2013-14/cup.txt,austria:cup,2013-14,2013-14,63,63,63,ÖFB Cup 2013/14,2013-07-12,2014-05-18,310.0,verified_compatible
+austria/2014-15/1-bundesliga.txt,austria:1-bundesliga,2014-15,2014-15,180,180,180,Österr. Bundesliga 2014/15,2014-07-19,2015-05-31,316.0,verified_compatible
+austria/2014-15/2-liga1.txt,austria:2-liga1,2014-15,2014-15,180,180,180,Österr. Erste Liga 2014/15,2014-07-18,2015-05-29,315.0,verified_compatible
+austria/2014-15/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2014-15,2014-15,240,240,240,Österr. Regionalliga Ost 2014/15,2014-08-01,2015-05-30,302.0,verified_compatible
+austria/2014-15/cup.txt,austria:cup,2014-15,2014-15,63,63,63,ÖFB Cup 2014/15,2014-07-11,2015-06-03,327.0,verified_compatible
+austria/2015-16/1-bundesliga.txt,austria:1-bundesliga,2015-16,2015-16,180,180,180,Österr. Bundesliga 2015/16,2015-07-25,2016-05-15,295.0,verified_compatible
+austria/2015-16/2-liga1.txt,austria:2-liga1,2015-16,2015-16,180,180,180,Österr. Erste Liga 2015/16,2015-07-24,2016-05-25,306.0,verified_compatible
+austria/2015-16/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2015-16,2015-16,240,240,240,Österr. Regionalliga Ost 2015/16,2015-07-31,2016-06-03,308.0,verified_compatible
+austria/2015-16/cup.txt,austria:cup,2015-16,2015-16,63,63,63,ÖFB Cup 2015/16,2015-07-17,2016-05-19,307.0,verified_compatible
+austria/2016-17/1-bundesliga.txt,austria:1-bundesliga,2016-17,2016-17,180,180,180,Österr. Bundesliga 2016/17,2016-07-23,2017-05-28,309.0,verified_compatible
+austria/2016-17/2-liga1.txt,austria:2-liga1,2016-17,2016-17,180,180,180,Österr. Erste Liga 2016/17,2016-07-22,2017-05-26,308.0,verified_compatible
+austria/2016-17/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2016-17,2016-17,210,210,210,Österr. Regionalliga Ost 2016/17,2016-08-05,2017-05-26,294.0,verified_compatible
+austria/2016-17/cup.txt,austria:cup,2016-17,2016-17,63,63,63,ÖFB Cup 2016/17,2016-07-08,2017-06-01,328.0,verified_compatible
+austria/2017-18/1-bundesliga.txt,austria:1-bundesliga,2017-18,2017-18,180,180,180,Österr. Bundesliga 2017/18,2017-07-22,2018-05-27,309.0,verified_compatible
+austria/2017-18/2-liga1.txt,austria:2-liga1,2017-18,2017-18,180,180,180,Österr. Erste Liga 2017/18,2017-07-21,2018-05-25,308.0,verified_compatible
+austria/2018-19/1-bundesliga.txt,austria:1-bundesliga,2018-19,2018-19,195,195,195,Österr. Bundesliga 2018/19,2018-07-27,2019-06-02,310.0,verified_compatible
+austria/2018-19/2-liga2.txt,austria:2-liga2,2018-19,2018-19,240,240,240,Österr. 2. Liga 2018/19,2018-07-27,2019-06-01,309.0,verified_compatible
+austria/2018-19/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2018-19,2018-19,240,240,240,Österr. Regionalliga Ost 2018/19,2018-08-03,2019-06-07,308.0,verified_compatible
+austria/2018-19/cup.txt,austria:cup,2018-19,2018-19,63,63,63,ÖFB Cup 2018/19,2018-07-20,2019-05-01,285.0,verified_compatible
+austria/2019-20/1-bundesliga.txt,austria:1-bundesliga,2019-20,2019-20,195,195,195,Österr. Bundesliga 2019/20,2019-07-26,2020-07-15,355.0,verified_compatible
+austria/2019-20/2-liga2.txt,austria:2-liga2,2019-20,2019-20,240,240,240,Österr. 2. Liga 2019/20,2019-07-26,2020-07-31,371.0,verified_compatible
+austria/2019-20/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2019-20,2019-20,240,240,240,Österr. Regionalliga Ost 2019/20,2019-08-02,2020-05-30,302.0,verified_compatible
+austria/2019-20/cup.txt,austria:cup,2019-20,2019-20,63,63,63,ÖFB Cup 2019/20,2019-07-19,2020-05-29,315.0,verified_compatible
+austria/2020-21/1-bundesliga.txt,austria:1-bundesliga,2020-21,2020-21,195,195,195,Österr. Bundesliga 2020/21,2020-09-11,2021-05-30,261.0,verified_compatible
+austria/2020-21/2-liga2.txt,austria:2-liga2,2020-21,2020-21,240,240,240,Österr. 2. Liga 2020/21,2020-09-11,2021-05-23,254.0,verified_compatible
+austria/2020-21/3-regionalliga-mitte.txt,austria:3-regionalliga-mitte,2020-21,2020-21,240,240,240,Österr. Regionalliga Mitte 2020/21,2020-08-14,2021-06-04,294.0,verified_compatible
+austria/2020-21/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2020-21,2020-21,156,156,156,Österr. Regionalliga Ost 2020/21,2020-08-21,2021-06-06,289.0,verified_compatible
+austria/2020-21/cup.txt,austria:cup,2020-21,2020-21,62,62,62,ÖFB Cup 2020/21,2020-08-28,2021-05-01,246.0,verified_compatible
+austria/2021-22/1-bundesliga.txt,austria:1-bundesliga,2021-22,2021-22,195,195,195,Österr. Bundesliga 2021/22,2021-07-23,2022-05-29,310.0,verified_compatible
+austria/2021-22/2-liga2.txt,austria:2-liga2,2021-22,2021-22,240,240,240,Österr. 2. Liga 2021/22,2021-07-23,2022-05-22,303.0,verified_compatible
+austria/2021-22/3-regionalliga-mitte.txt,austria:3-regionalliga-mitte,2021-22,2021-22,272,272,272,Österr. Regionalliga Mitte 2021/22,2021-07-22,2022-06-10,323.0,verified_compatible
+austria/2021-22/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2021-22,2021-22,182,182,182,Österr. Regionalliga Ost 2021/22,2021-07-30,2022-05-28,302.0,verified_compatible
+austria/2021-22/cup.txt,austria:cup,2021-22,2021-22,63,63,63,ÖFB Cup 2021/22,2021-07-16,2022-05-01,289.0,verified_compatible
+austria/2022-23/1-bundesliga.txt,austria:1-bundesliga,2022-23,2022-23,195,195,195,Österr. Bundesliga 2022/23,2022-07-22,2023-06-11,324.0,verified_compatible
+austria/2022-23/2-liga2.txt,austria:2-liga2,2022-23,2022-23,240,240,240,Österr. 2. Liga 2022/23,2022-07-22,2023-06-04,317.0,verified_compatible
+austria/2022-23/3-regionalliga-mitte.txt,austria:3-regionalliga-mitte,2022-23,2022-23,240,240,240,Österr. Regionalliga Mitte 2022/23,2022-07-22,2023-06-09,322.0,verified_compatible
+austria/2022-23/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2022-23,2022-23,240,240,240,Österr. Regionalliga Ost 2022/23,2022-07-29,2023-05-27,302.0,verified_compatible
+austria/2022-23/cup.txt,austria:cup,2022-23,2022-23,63,63,63,ÖFB Cup 2022/23,2022-07-15,2023-04-30,289.0,verified_compatible
+austria/2023-24/1-bundesliga.txt,austria:1-bundesliga,2023-24,2023-24,195,195,195,Österr. Bundesliga 2023/24,2023-07-28,2024-05-28,305.0,verified_compatible
+austria/2023-24/2-liga2.txt,austria:2-liga2,2023-24,2023-24,240,240,240,Österr. 2. Liga 2023/24,2023-07-28,2024-05-25,302.0,verified_compatible
+austria/2023-24/3-regionalliga-mitte.txt,austria:3-regionalliga-mitte,2023-24,2023-24,240,240,240,Österr. Regionalliga Mitte 2023/24,2023-07-28,2024-06-07,315.0,verified_compatible
+austria/2023-24/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2023-24,2023-24,240,240,240,Österr. Regionalliga Ost 2023/24,2023-07-28,2024-06-03,311.0,verified_compatible
+austria/2023-24/cup.txt,austria:cup,2023-24,2023-24,63,63,63,ÖFB Cup 2023/24,2023-07-20,2024-05-01,286.0,verified_compatible
+austria/2024-25/1-bundesliga.txt,austria:1-bundesliga,2024-25,2024-25,195,195,195,Österr. Bundesliga 2024/25,2024-08-02,2025-06-01,303.0,verified_compatible
+austria/2024-25/2-liga2.txt,austria:2-liga2,2024-25,2024-25,240,240,240,Österr. 2. Liga 2024/25,2024-08-02,2025-05-25,296.0,verified_compatible
+austria/2024-25/3-regionalliga-mitte.txt,austria:3-regionalliga-mitte,2024-25,2024-25,240,240,240,Österr. Regionalliga Mitte 2024/25,2024-08-02,2025-06-06,308.0,verified_compatible
+austria/2024-25/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2024-25,2024-25,240,240,240,Österr. Regionalliga Ost 2024/25,2024-08-02,2025-06-06,308.0,verified_compatible
+austria/2024-25/cup.txt,austria:cup,2024-25,2024-25,63,63,63,ÖFB Cup 2024/25,2024-07-26,2025-05-01,279.0,verified_compatible
+austria/2025-26/1-bundesliga.txt,austria:1-bundesliga,2025-26,2025-26,195,195,195,Austria | Bundesliga 2025/26,2025-08-01,2026-05-25,297.0,verified_compatible
+austria/2025-26/2-liga2.txt,austria:2-liga2,2025-26,2025-26,240,240,240,Österr. 2. Liga 2025/26,2025-08-01,2026-05-14,286.0,verified_compatible
+austria/2025-26/3-regionalliga-ost.txt,austria:3-regionalliga-ost,2025-26,2025-26,272,272,272,Österr. Regionalliga Ost 2025/26,2025-08-01,2026-06-06,309.0,verified_compatible
+austria/2025-26/cup.txt,austria:cup,2025-26,2025-26,56,56,56,ÖFB Cup 2025/26,2025-07-25,2025-10-30,97.0,verified_compatible
+austria/2026-27/1-bundesliga.txt,austria:1-bundesliga,2026-27,2026-27,132,132,132,Austria | Bundesliga 2026/27,2026-07-31,2027-02-27,211.0,verified_compatible
+belgium/2018-19/be1.txt,belgium:be1,2018-19,2018-19,270,270,270,Belgium First Division A 2018/19,2018-07-27,2019-05-19,296.0,verified_compatible
+belgium/2019-20/be1.txt,belgium:be1,2019-20,2019-20,240,240,240,Belgium First Division A 2019/20,2019-07-26,2020-03-15,233.0,verified_compatible
+belgium/2021-22/be1.txt,belgium:be1,2020-21,2021-22,330,330,162,Belgium First Division A 2020/21,2020-08-08,2021-05-23,288.0,CORRECTED_FOLDER_LABEL_CONTRADICTED_BY_TITLE_AND_DATES
+belgium/2023-24/be1.txt,belgium:be1,2023-24,2023-24,313,313,313,Belgium First Division A 2023/24,2023-07-28,2024-06-02,310.0,verified_compatible
+belgium/2024-25/be1.txt,belgium:be1,2024-25,2024-25,313,313,313,Belgium First Division A 2024/25,2024-07-26,2025-05-29,307.0,verified_compatible
+belgium/2024-25/becup.txt,belgium:becup,2024-25,2024-25,49,49,49,Belgium Beker van België 2024/25,2024-09-06,2025-05-04,240.0,verified_compatible
+belgium/2025-26/be1.txt,belgium:be1,2025-26,2025-26,240,240,240,Belgium First Division A 2025/26,2025-07-25,2026-03-21,239.0,verified_compatible
+belgium/2026-27/be1.txt,belgium:be1,2026-27,2026-27,306,306,306,Jupiler Pro League 2026/27 (Belgium First Division A),,,,verified_compatible
+champions-league/2011-12/cl.txt,champions-league:cl,2011-12,2011-12,125,125,125,UEFA Champions League 2011/12,2011-09-13,2012-05-19,249.0,verified_compatible
+champions-league/2012-13/cl.txt,champions-league:cl,2012-13,2012-13,125,125,125,UEFA Champions League 2012/13,2012-09-18,2013-05-25,249.0,verified_compatible
+champions-league/2013-14/cl.txt,champions-league:cl,2013-14,2013-14,125,125,125,UEFA Champions League 2013/14,2013-09-17,2014-05-24,249.0,verified_compatible
+champions-league/2014-15/cl.txt,champions-league:cl,2014-15,2014-15,125,125,125,UEFA Champions League 2014/15,2014-09-16,2015-06-06,263.0,verified_compatible
+champions-league/2015-16/cl.txt,champions-league:cl,2015-16,2015-16,125,125,125,UEFA Champions League 2015/16,2015-09-15,2016-05-28,256.0,verified_compatible
+champions-league/2016-17/cl.txt,champions-league:cl,2016-17,2016-17,125,125,125,UEFA Champions League 2016/17,2016-09-13,2017-06-03,263.0,verified_compatible
+champions-league/2017-18/cl.txt,champions-league:cl,2017-18,2017-18,125,125,125,UEFA Champions League 2017/18,2017-09-12,2018-05-26,256.0,verified_compatible
+champions-league/2018-19/cl.txt,champions-league:cl,2018-19,2018-19,125,125,125,UEFA Champions League 2018/19,2018-09-18,2019-06-01,256.0,verified_compatible
+champions-league/2019-20/cl.txt,champions-league:cl,2019-20,2019-20,119,119,119,UEFA Champions League 2019/20,2019-09-17,2020-08-23,341.0,verified_compatible
+champions-league/2020-21/cl.txt,champions-league:cl,2020-21,2020-21,125,125,125,UEFA Champions League 2020/21,2020-10-20,2021-05-29,221.0,verified_compatible
+champions-league/2020-21/el.txt,champions-league:el,2020-21,2020-21,205,205,205,UEFA Europa League 2020/21,2020-10-22,2021-05-26,216.0,verified_compatible
+champions-league/2021-22/cl.txt,champions-league:cl,2021-22,2021-22,125,125,125,UEFA Champions League 2021/22,2021-09-14,2022-05-28,256.0,verified_compatible
+champions-league/2021-22/conf.txt,champions-league:conf,2021-22,2021-22,141,141,141,UEFA Conference League 2021/22,2021-09-14,2022-05-25,253.0,verified_compatible
+champions-league/2021-22/el.txt,champions-league:el,2021-22,2021-22,141,141,141,UEFA Europa League 2021/22,2021-09-15,2022-05-18,245.0,verified_compatible
+champions-league/2022-23/cl.txt,champions-league:cl,2022-23,2022-23,125,125,125,UEFA Champions League 2022/23,2022-09-06,2023-06-10,277.0,verified_compatible
+champions-league/2022-23/conf.txt,champions-league:conf,2022-23,2022-23,141,141,141,UEFA Conference League 2022/23,2022-09-08,2023-06-07,272.0,verified_compatible
+champions-league/2022-23/el.txt,champions-league:el,2022-23,2022-23,141,141,141,UEFA Europa League 2022/23,2022-09-08,2023-05-31,265.0,verified_compatible
+champions-league/2023-24/cl.txt,champions-league:cl,2023-24,2023-24,125,125,125,UEFA Champions League 2023/24,2023-09-19,2024-06-01,256.0,verified_compatible
+champions-league/2023-24/conf.txt,champions-league:conf,2023-24,2023-24,141,141,141,UEFA Conference League 2023/24,2023-09-20,2024-05-29,252.0,verified_compatible
+champions-league/2023-24/el.txt,champions-league:el,2023-24,2023-24,141,141,141,UEFA Europa League 2023/24,2023-09-21,2024-05-22,244.0,verified_compatible
+champions-league/2024-25/cl.txt,champions-league:cl,2024-25,2024-25,189,189,189,UEFA Champions League 2024/25,2024-09-17,2025-05-31,256.0,verified_compatible
+champions-league/2024-25/clq.txt,champions-league:clq,2024-25,2024-25,90,90,90,UEFA Champions League - Quali 2024/25,2024-07-09,2024-08-28,50.0,verified_compatible
+champions-league/2024-25/conf.txt,champions-league:conf,2024-25,2024-25,153,153,153,UEFA Conference League 2024/25,2024-10-02,2025-05-28,238.0,verified_compatible
+champions-league/2024-25/confq.txt,champions-league:confq,2024-25,2024-25,256,256,256,UEFA Conference League - Quali 2024/25,2024-07-10,2024-08-29,50.0,verified_compatible
+champions-league/2024-25/el.txt,champions-league:el,2024-25,2024-25,189,189,189,UEFA Europa League 2024/25,2024-09-25,2025-05-21,238.0,verified_compatible
+champions-league/2024-25/elq.txt,champions-league:elq,2024-25,2024-25,80,80,80,UEFA Europa League - Quali 2024/25,2024-07-11,2024-08-29,49.0,verified_compatible
+champions-league/2025-26/cl.txt,champions-league:cl,2025-26,2025-26,189,189,189,UEFA Champions League 2025/26,2025-09-16,2026-05-30,256.0,verified_compatible
+champions-league/2025-26/clq.txt,champions-league:clq,2025-26,2025-26,92,92,92,UEFA Champions League - Quali 2025/26,2025-07-08,2025-08-27,50.0,verified_compatible
+champions-league/2025-26/confq.txt,champions-league:confq,2025-26,2025-26,256,256,256,UEFA Conference League - Quali 2025/26,2025-07-08,2025-08-28,51.0,verified_compatible
+champions-league/2025-26/elq.txt,champions-league:elq,2025-26,2025-26,82,82,82,UEFA Europa League - Quali 2025/26,2025-07-10,2025-08-28,49.0,verified_compatible
+club-worldcup/2000/clubworldcup.txt,club-worldcup:clubworldcup,2000,2000,14,14,14,Club World Cup 2000,2000-01-05,2000-01-14,9.0,verified_compatible
+club-worldcup/2005/clubworldcup.txt,club-worldcup:clubworldcup,2005,2005,7,7,7,Club World Cup 2005,2005-12-11,2005-12-18,7.0,verified_compatible
+club-worldcup/2006/clubworldcup.txt,club-worldcup:clubworldcup,2006,2006,7,7,7,Club World Cup 2006,2006-12-10,2006-12-17,7.0,verified_compatible
+club-worldcup/2007/clubworldcup.txt,club-worldcup:clubworldcup,2007,2007,7,7,7,Club World Cup 2007,2007-12-07,2007-12-16,9.0,verified_compatible
+club-worldcup/2008/clubworldcup.txt,club-worldcup:clubworldcup,2008,2008,8,8,8,Club World Cup 2008,2008-12-11,2008-12-21,10.0,verified_compatible
+club-worldcup/2009/clubworldcup.txt,club-worldcup:clubworldcup,2009,2009,8,8,8,Club World Cup 2009,2009-12-09,2009-12-19,10.0,verified_compatible
+club-worldcup/2010/clubworldcup.txt,club-worldcup:clubworldcup,2010,2010,8,8,8,Club World Cup 2010,2010-12-08,2010-12-18,10.0,verified_compatible
+club-worldcup/2011/clubworldcup.txt,club-worldcup:clubworldcup,2011,2011,8,8,8,Club World Cup 2011,2011-12-08,2011-12-18,10.0,verified_compatible
+club-worldcup/2012/clubworldcup.txt,club-worldcup:clubworldcup,2012,2012,8,8,8,Club World Cup 2012,2012-12-06,2012-12-16,10.0,verified_compatible
+club-worldcup/2013/clubworldcup.txt,club-worldcup:clubworldcup,2013,2013,8,8,8,Club World Cup 2013,2013-12-11,2013-12-21,10.0,verified_compatible
+club-worldcup/2014/clubworldcup.txt,club-worldcup:clubworldcup,2014,2014,8,8,8,Club World Cup 2014,2014-12-10,2014-12-20,10.0,verified_compatible
+club-worldcup/2015/clubworldcup.txt,club-worldcup:clubworldcup,2015,2015,8,8,8,Club World Cup 2015,2015-12-10,2015-12-20,10.0,verified_compatible
+club-worldcup/2016/clubworldcup.txt,club-worldcup:clubworldcup,2016,2016,8,8,8,Club World Cup 2016,2016-12-08,2016-12-18,10.0,verified_compatible
+club-worldcup/2017/clubworldcup.txt,club-worldcup:clubworldcup,2017,2017,8,8,8,Club World Cup 2017,2017-12-06,2017-12-16,10.0,verified_compatible
+club-worldcup/2018/clubworldcup.txt,club-worldcup:clubworldcup,2018,2018,8,8,8,Club World Cup 2018,2018-12-12,2018-12-22,10.0,verified_compatible
+club-worldcup/2019/clubworldcup.txt,club-worldcup:clubworldcup,2019,2019,8,8,8,Club World Cup 2019,2019-12-11,2019-12-21,10.0,verified_compatible
+club-worldcup/2020/clubworldcup.txt,club-worldcup:clubworldcup,2020,2020,8,8,8,Club World Cup 2020,2021-02-01,2021-02-11,10.0,verified_compatible
+club-worldcup/2021/clubworldcup.txt,club-worldcup:clubworldcup,2021,2021,8,8,8,Club World Cup 2021,2022-02-03,2022-02-12,9.0,verified_compatible
+club-worldcup/2022/clubworldcup.txt,club-worldcup:clubworldcup,2022,2022,7,7,7,Club World Cup 2022,2023-02-01,2023-02-11,10.0,verified_compatible
+club-worldcup/2023/clubworldcup.txt,club-worldcup:clubworldcup,2023,2023,7,7,7,Club World Cup 2023,2023-12-12,2023-12-22,10.0,verified_compatible
+club-worldcup/2025/clubworldcup.txt,club-worldcup:clubworldcup,2025,2025,64,64,64,Club World Cup 2025,2025-05-31,2025-07-13,43.0,verified_compatible
+deutschland/2010-11/1-bundesliga.txt,deutschland:1-bundesliga,2010-11,2010-11,306,306,306,Deutsche Bundesliga 2010/11,2010-08-20,2011-05-14,267.0,verified_compatible
+deutschland/2011-12/1-bundesliga.txt,deutschland:1-bundesliga,2011-12,2011-12,306,306,306,Deutsche Bundesliga 2011/12,2011-08-05,2012-05-05,274.0,verified_compatible
+deutschland/2012-13/1-bundesliga.txt,deutschland:1-bundesliga,2012-13,2012-13,306,306,306,Deutsche Bundesliga 2012/13,2012-08-24,2013-05-18,267.0,verified_compatible
+deutschland/2012-13/2-bundesliga2.txt,deutschland:2-bundesliga2,2012-13,2012-13,306,306,306,Deutsche 2. Bundesliga 2012/13,2012-08-03,2013-05-19,289.0,verified_compatible
+deutschland/2013-14/1-bundesliga.txt,deutschland:1-bundesliga,2013-14,2013-14,306,306,306,Deutsche Bundesliga 2013/14,2013-08-09,2014-05-10,274.0,verified_compatible
+deutschland/2013-14/2-bundesliga2.txt,deutschland:2-bundesliga2,2013-14,2013-14,306,306,306,Deutsche 2. Bundesliga 2013/14,2013-07-19,2014-05-11,296.0,verified_compatible
+deutschland/2014-15/1-bundesliga.txt,deutschland:1-bundesliga,2014-15,2014-15,306,306,306,Deutsche Bundesliga 2014/15,2014-08-22,2015-05-23,274.0,verified_compatible
+deutschland/2014-15/2-bundesliga2.txt,deutschland:2-bundesliga2,2014-15,2014-15,306,306,306,Deutsche 2. Bundesliga 2014/15,2014-08-01,2015-05-24,296.0,verified_compatible
+deutschland/2014-15/3-liga3.txt,deutschland:3-liga3,2014-15,2014-15,380,380,380,Deutsche 3. Liga 2014/15,2014-07-26,2015-05-23,301.0,verified_compatible
+deutschland/2015-16/1-bundesliga.txt,deutschland:1-bundesliga,2015-16,2015-16,306,306,306,Deutsche Bundesliga 2015/16,2015-08-14,2016-05-14,274.0,verified_compatible
+deutschland/2015-16/2-bundesliga2.txt,deutschland:2-bundesliga2,2015-16,2015-16,306,306,306,Deutsche 2. Bundesliga 2015/16,2015-07-24,2016-05-15,296.0,verified_compatible
+deutschland/2015-16/3-liga3.txt,deutschland:3-liga3,2015-16,2015-16,380,380,380,Deutsche 3. Liga 2015/16,2015-07-24,2016-05-14,295.0,verified_compatible
+deutschland/2016-17/1-bundesliga.txt,deutschland:1-bundesliga,2016-17,2016-17,306,306,306,Deutsche Bundesliga 2016/17,2016-08-26,2017-05-20,267.0,verified_compatible
+deutschland/2016-17/2-bundesliga2.txt,deutschland:2-bundesliga2,2016-17,2016-17,306,306,306,Deutsche 2. Bundesliga 2016/17,2016-08-05,2017-05-21,289.0,verified_compatible
+deutschland/2016-17/3-liga3.txt,deutschland:3-liga3,2016-17,2016-17,380,380,380,Deutsche 3. Liga 2016/17,2016-07-29,2017-05-20,295.0,verified_compatible
+deutschland/2017-18/1-bundesliga.txt,deutschland:1-bundesliga,2017-18,2017-18,306,306,306,Deutsche Bundesliga 2017/18,2017-08-18,2018-05-12,267.0,verified_compatible
+deutschland/2017-18/2-bundesliga2.txt,deutschland:2-bundesliga2,2017-18,2017-18,306,306,306,Deutsche 2. Bundesliga 2017/18,2017-07-28,2018-05-13,289.0,verified_compatible
+deutschland/2017-18/3-liga3.txt,deutschland:3-liga3,2017-18,2017-18,380,380,380,Deutsche 3. Liga 2017/18,2017-07-21,2018-05-12,295.0,verified_compatible
+deutschland/2018-19/1-bundesliga.txt,deutschland:1-bundesliga,2018-19,2018-19,306,306,306,Deutsche Bundesliga 2018/19,2018-08-24,2019-05-18,267.0,verified_compatible
+deutschland/2018-19/2-bundesliga2.txt,deutschland:2-bundesliga2,2018-19,2018-19,306,306,306,Deutsche 2. Bundesliga 2018/19,2018-08-03,2019-05-19,289.0,verified_compatible
+deutschland/2018-19/3-liga3.txt,deutschland:3-liga3,2018-19,2018-19,380,380,380,Deutsche 3. Liga 2018/19,2018-07-27,2019-05-18,295.0,verified_compatible
+deutschland/2018-19/cup.txt,deutschland:cup,2018-19,2018-19,63,63,63,DFB Pokal 2018/19,2018-08-17,2019-05-25,281.0,verified_compatible
+deutschland/2019-20/1-bundesliga.txt,deutschland:1-bundesliga,2019-20,2019-20,306,306,306,Deutsche Bundesliga 2019/20,2019-08-16,2020-06-27,316.0,verified_compatible
+deutschland/2019-20/2-bundesliga2.txt,deutschland:2-bundesliga2,2019-20,2019-20,306,306,306,Deutsche 2. Bundesliga 2019/20,2019-07-26,2020-06-28,338.0,verified_compatible
+deutschland/2019-20/3-liga3.txt,deutschland:3-liga3,2019-20,2019-20,380,380,380,Deutsche 3. Liga 2019/20,2019-07-19,2020-07-04,351.0,verified_compatible
+deutschland/2019-20/cup.txt,deutschland:cup,2019-20,2019-20,63,63,63,DFB Pokal 2019/20,2019-08-09,2020-07-04,330.0,verified_compatible
+deutschland/2020-21/1-bundesliga.txt,deutschland:1-bundesliga,2020-21,2020-21,306,306,306,Deutsche Bundesliga 2020/21,2020-09-18,2021-05-22,246.0,verified_compatible
+deutschland/2020-21/2-bundesliga2.txt,deutschland:2-bundesliga2,2020-21,2020-21,306,306,306,Deutsche 2. Bundesliga 2020/21,2020-09-18,2021-05-23,247.0,verified_compatible
+deutschland/2020-21/3-liga3.txt,deutschland:3-liga3,2020-21,2020-21,380,380,380,Deutsche 3. Liga 2020/21,2020-09-18,2021-05-22,246.0,verified_compatible
+deutschland/2020-21/cup.txt,deutschland:cup,2020-21,2020-21,63,63,63,DFB Pokal 2020/21,2020-09-11,2021-05-13,244.0,verified_compatible
+deutschland/2021-22/1-bundesliga.txt,deutschland:1-bundesliga,2021-22,2021-22,306,306,306,Deutsche Bundesliga 2021/22,2021-08-13,2022-05-14,274.0,verified_compatible
+deutschland/2021-22/2-bundesliga2.txt,deutschland:2-bundesliga2,2021-22,2021-22,306,306,306,Deutsche 2. Bundesliga 2021/22,2021-07-23,2022-05-15,296.0,verified_compatible
+deutschland/2021-22/3-liga3.txt,deutschland:3-liga3,2021-22,2021-22,380,380,380,Deutsche 3. Liga 2021/22,2021-07-24,2022-05-14,294.0,verified_compatible
+deutschland/2021-22/cup.txt,deutschland:cup,2021-22,2021-22,63,63,63,DFB Pokal 2021/22,2021-08-06,2022-05-21,288.0,verified_compatible
+deutschland/2022-23/1-bundesliga.txt,deutschland:1-bundesliga,2022-23,2022-23,306,306,306,Deutsche Bundesliga 2022/23,2022-08-05,2023-05-27,295.0,verified_compatible
+deutschland/2022-23/2-bundesliga2.txt,deutschland:2-bundesliga2,2022-23,2022-23,306,306,306,Deutsche 2. Bundesliga 2022/23,2022-07-15,2023-05-28,317.0,verified_compatible
+deutschland/2022-23/3-liga3.txt,deutschland:3-liga3,2022-23,2022-23,380,380,380,Deutsche 3. Liga 2022/23,2022-07-22,2023-05-27,309.0,verified_compatible
+deutschland/2022-23/cup.txt,deutschland:cup,2022-23,2022-23,63,63,63,DFB Pokal 2022/23,2022-07-29,2023-06-03,309.0,verified_compatible
+deutschland/2023-24/1-bundesliga.txt,deutschland:1-bundesliga,2023-24,2023-24,306,306,306,Deutsche Bundesliga 2023/24,2023-08-18,2024-05-18,274.0,verified_compatible
+deutschland/2023-24/2-bundesliga2.txt,deutschland:2-bundesliga2,2023-24,2023-24,306,306,306,Deutsche 2. Bundesliga 2023/24,2023-07-28,2024-05-19,296.0,verified_compatible
+deutschland/2023-24/3-liga3.txt,deutschland:3-liga3,2023-24,2023-24,380,380,380,Deutsche 3. Liga 2023/24,2023-08-04,2024-05-18,288.0,verified_compatible
+deutschland/2023-24/cup.txt,deutschland:cup,2023-24,2023-24,63,63,63,DFB Pokal 2023/24,2023-08-11,2024-05-25,288.0,verified_compatible
+deutschland/2024-25/1-bundesliga.txt,deutschland:1-bundesliga,2024-25,2024-25,306,306,306,Deutsche Bundesliga 2024/25,2024-08-23,2025-05-17,267.0,verified_compatible
+deutschland/2024-25/2-bundesliga2.txt,deutschland:2-bundesliga2,2024-25,2024-25,306,306,306,Deutsche 2. Bundesliga 2024/25,2024-08-02,2025-05-18,289.0,verified_compatible
+deutschland/2024-25/3-liga3.txt,deutschland:3-liga3,2024-25,2024-25,380,380,380,Deutsche 3. Liga 2024/25,2024-08-02,2025-05-17,288.0,verified_compatible
+deutschland/2024-25/4-regionalliga-bayern.txt,deutschland:4-regionalliga-bayern,2024-25,2024-25,306,306,306,Deutsche Regionalliga Bayern 2024/25,2024-07-18,2025-05-17,303.0,verified_compatible
+deutschland/2024-25/4-regionalliga-nord.txt,deutschland:4-regionalliga-nord,2024-25,2024-25,306,306,306,Deutsche Regionalliga Nord 2024/25,2024-07-26,2025-05-18,296.0,verified_compatible
+deutschland/2024-25/4-regionalliga-nordost.txt,deutschland:4-regionalliga-nordost,2024-25,2024-25,306,306,306,Deutsche Regionalliga Nordost 2024/25,2024-07-25,2025-05-18,297.0,verified_compatible
+deutschland/2024-25/4-regionalliga-suedwest.txt,deutschland:4-regionalliga-suedwest,2024-25,2024-25,306,306,306,Deutsche Regionalliga Südwest 2024/25,2024-07-26,2025-05-17,295.0,verified_compatible
+deutschland/2024-25/4-regionalliga-west.txt,deutschland:4-regionalliga-west,2024-25,2024-25,306,306,306,Deutsche Regionalliga West 2024/25,2024-07-26,2025-05-17,295.0,verified_compatible
+deutschland/2024-25/cup.txt,deutschland:cup,2024-25,2024-25,63,63,63,DFB Pokal 2024/25,2024-08-16,2025-05-24,281.0,verified_compatible
+deutschland/2025-26/1-bundesliga.txt,deutschland:1-bundesliga,2025-26,2025-26,306,306,306,Germany | Bundesliga 2025/26,2025-08-22,2026-05-16,267.0,verified_compatible
+deutschland/2025-26/2-bundesliga2.txt,deutschland:2-bundesliga2,2025-26,2025-26,306,306,306,Deutsche 2. Bundesliga 2025/26,2025-08-01,2026-05-17,289.0,verified_compatible
+deutschland/2025-26/3-liga3.txt,deutschland:3-liga3,2025-26,2025-26,380,380,380,Deutsche 3. Liga 2025/26,2025-08-01,2026-05-16,288.0,verified_compatible
+deutschland/2025-26/cup.txt,deutschland:cup,2025-26,2025-26,59,59,59,DFB Pokal 2025/26,2025-08-15,2026-05-23,281.0,verified_compatible
+deutschland/2026-27/1-bundesliga.txt,deutschland:1-bundesliga,2026-27,2026-27,306,306,306,Deutsche Bundesliga 2026/27,2026-08-28,2027-05-22,267.0,verified_compatible
+england/2000-01/1-premierleague.txt,england:1-premierleague,2000-01,2000-01,380,380,380,English Premier League 2000/01,2000-08-19,2001-05-19,273.0,verified_compatible
+england/2000-01/2-division1.txt,england:2-division1,2000-01,2000-01,552,552,552,English Division One 2000/01,2000-08-12,2001-05-06,267.0,verified_compatible
+england/2000-01/3-division2.txt,england:3-division2,2000-01,2000-01,552,552,552,English Division Two 2000/01,2000-08-12,2001-05-05,266.0,verified_compatible
+england/2000-01/4-division3.txt,england:4-division3,2000-01,2000-01,552,552,552,English Division Three 2000/01,2000-08-12,2001-05-08,269.0,verified_compatible
+england/2001-02/1-premierleague.txt,england:1-premierleague,2001-02,2001-02,380,380,380,English Premier League 2001/02,2001-08-18,2002-05-11,266.0,verified_compatible
+england/2001-02/2-division1.txt,england:2-division1,2001-02,2001-02,552,552,552,English Division One 2001/02,2001-08-11,2002-04-21,253.0,verified_compatible
+england/2001-02/3-division2.txt,england:3-division2,2001-02,2001-02,552,552,552,English Division Two 2001/02,2001-08-11,2002-04-20,252.0,verified_compatible
+england/2001-02/4-division3.txt,england:4-division3,2001-02,2001-02,552,552,552,English Division Three 2001/02,2001-08-11,2002-04-20,252.0,verified_compatible
+england/2002-03/1-premierleague.txt,england:1-premierleague,2002-03,2002-03,380,380,380,English Premier League 2002/03,2002-08-17,2003-05-11,267.0,verified_compatible
+england/2002-03/2-division1.txt,england:2-division1,2002-03,2002-03,552,552,552,English Division One 2002/03,2002-08-10,2003-05-04,267.0,verified_compatible
+england/2002-03/3-division2.txt,england:3-division2,2002-03,2002-03,552,552,552,English Division Two 2002/03,2002-08-10,2003-05-03,266.0,verified_compatible
+england/2002-03/4-division3.txt,england:4-division3,2002-03,2002-03,552,552,552,English Division Three 2002/03,2002-08-10,2003-05-03,266.0,verified_compatible
+england/2003-04/1-premierleague.txt,england:1-premierleague,2003-04,2003-04,380,380,380,English Premier League 2003/04,2003-08-16,2004-05-15,273.0,verified_compatible
+england/2003-04/2-division1.txt,england:2-division1,2003-04,2003-04,552,552,552,English Division One 2003/04,2003-08-09,2004-05-09,274.0,verified_compatible
+england/2003-04/3-division2.txt,england:3-division2,2003-04,2003-04,552,552,552,English Division Two 2003/04,2003-08-09,2004-05-08,273.0,verified_compatible
+england/2003-04/4-division3.txt,england:4-division3,2003-04,2003-04,552,552,552,English Division Three 2003/04,2003-08-09,2004-05-08,273.0,verified_compatible
+england/2004-05/1-premierleague.txt,england:1-premierleague,2004-05,2004-05,380,380,380,English Premier League 2004/05,2004-08-14,2005-05-15,274.0,verified_compatible
+england/2004-05/2-championship.txt,england:2-championship,2004-05,2004-05,552,552,552,English Championship 2004/05,2004-08-07,2005-05-08,274.0,verified_compatible
+england/2004-05/3-league1.txt,england:3-league1,2004-05,2004-05,552,552,552,English League One 2004/05,2004-08-07,2005-05-07,273.0,verified_compatible
+england/2004-05/4-league2.txt,england:4-league2,2004-05,2004-05,552,552,552,English League Two 2004/05,2004-08-07,2005-05-07,273.0,verified_compatible
+england/2005-06/1-premierleague.txt,england:1-premierleague,2005-06,2005-06,380,380,380,English Premier League 2005/06,2005-08-13,2006-05-07,267.0,verified_compatible
+england/2005-06/2-championship.txt,england:2-championship,2005-06,2005-06,552,552,552,English Championship 2005/06,2005-08-06,2006-04-30,267.0,verified_compatible
+england/2005-06/3-league1.txt,england:3-league1,2005-06,2005-06,552,552,552,English League One 2005/06,2005-08-06,2006-05-06,273.0,verified_compatible
+england/2005-06/4-league2.txt,england:4-league2,2005-06,2005-06,552,552,552,English League Two 2005/06,2005-08-06,2006-05-06,273.0,verified_compatible
+england/2006-07/1-premierleague.txt,england:1-premierleague,2006-07,2006-07,380,380,380,English Premier League 2006/07,2006-08-19,2007-05-13,267.0,verified_compatible
+england/2006-07/2-championship.txt,england:2-championship,2006-07,2006-07,552,552,552,English Championship 2006/07,2006-08-05,2007-05-06,274.0,verified_compatible
+england/2006-07/3-league1.txt,england:3-league1,2006-07,2006-07,552,552,552,English League One 2006/07,2006-08-05,2007-05-05,273.0,verified_compatible
+england/2006-07/4-league2.txt,england:4-league2,2006-07,2006-07,552,552,552,English League Two 2006/07,2006-08-05,2007-05-05,273.0,verified_compatible
+england/2007-08/1-premierleague.txt,england:1-premierleague,2007-08,2007-08,380,380,380,English Premier League 2007/08,2007-08-11,2008-05-11,274.0,verified_compatible
+england/2007-08/2-championship.txt,england:2-championship,2007-08,2007-08,552,552,552,English Championship 2007/08,2007-08-11,2008-05-04,267.0,verified_compatible
+england/2007-08/3-league1.txt,england:3-league1,2007-08,2007-08,552,552,552,English League One 2007/08,2007-08-11,2008-05-03,266.0,verified_compatible
+england/2007-08/4-league2.txt,england:4-league2,2007-08,2007-08,552,552,552,English League Two 2007/08,2007-08-11,2008-05-03,266.0,verified_compatible
+england/2008-09/1-premierleague.txt,england:1-premierleague,2008-09,2008-09,380,380,380,English Premier League 2008/09,2008-08-16,2009-05-24,281.0,verified_compatible
+england/2008-09/2-championship.txt,england:2-championship,2008-09,2008-09,552,552,552,English Championship 2008/09,2008-08-09,2009-05-03,267.0,verified_compatible
+england/2008-09/3-league1.txt,england:3-league1,2008-09,2008-09,552,552,552,English League One 2008/09,2008-08-09,2009-05-02,266.0,verified_compatible
+england/2008-09/4-league2.txt,england:4-league2,2008-09,2008-09,552,552,552,English League Two 2008/09,2008-08-09,2009-05-02,266.0,verified_compatible
+england/2009-10/1-premierleague.txt,england:1-premierleague,2009-10,2009-10,380,380,380,English Premier League 2009/10,2009-08-15,2010-05-09,267.0,verified_compatible
+england/2009-10/2-championship.txt,england:2-championship,2009-10,2009-10,552,552,552,English Championship 2009/10,2009-08-07,2010-05-02,268.0,verified_compatible
+england/2009-10/3-league1.txt,england:3-league1,2009-10,2009-10,552,552,552,English League One 2009/10,2009-08-08,2010-05-08,273.0,verified_compatible
+england/2009-10/4-league2.txt,england:4-league2,2009-10,2009-10,552,552,552,English League Two 2009/10,2009-08-08,2010-05-08,273.0,verified_compatible
+england/2010-11/1-premierleague.txt,england:1-premierleague,2010-11,2010-11,380,380,380,English Premier League 2010/11,2010-08-14,2011-05-22,281.0,verified_compatible
+england/2010-11/2-championship.txt,england:2-championship,2010-11,2010-11,552,552,552,English Championship 2010/11,2010-08-06,2011-05-07,274.0,verified_compatible
+england/2010-11/3-league1.txt,england:3-league1,2010-11,2010-11,552,552,552,English League One 2010/11,2010-08-07,2011-05-07,273.0,verified_compatible
+england/2010-11/4-league2.txt,england:4-league2,2010-11,2010-11,552,552,552,English League Two 2010/11,2010-08-07,2011-05-07,273.0,verified_compatible
+england/2011-12/1-premierleague.txt,england:1-premierleague,2011-12,2011-12,380,380,380,English Premier League 2011/12,2011-08-13,2012-05-13,274.0,verified_compatible
+england/2011-12/2-championship.txt,england:2-championship,2011-12,2011-12,552,552,552,English Championship 2011/12,2011-08-05,2012-04-28,267.0,verified_compatible
+england/2011-12/3-league1.txt,england:3-league1,2011-12,2011-12,552,552,552,English League One 2011/12,2011-08-06,2012-05-05,273.0,verified_compatible
+england/2011-12/4-league2.txt,england:4-league2,2011-12,2011-12,552,552,552,English League Two 2011/12,2011-08-06,2012-05-05,273.0,verified_compatible
+england/2012-13/1-premierleague.txt,england:1-premierleague,2012-13,2012-13,380,380,380,English Premier League 2012/13,2012-08-18,2013-05-19,274.0,verified_compatible
+england/2012-13/2-championship.txt,england:2-championship,2012-13,2012-13,552,552,552,English Championship 2012/13,2012-08-17,2013-05-04,260.0,verified_compatible
+england/2012-13/3-league1.txt,england:3-league1,2012-13,2012-13,552,552,552,English League One 2012/13,2012-08-18,2013-04-27,252.0,verified_compatible
+england/2012-13/4-league2.txt,england:4-league2,2012-13,2012-13,552,552,552,English League Two 2012/13,2012-08-18,2013-04-27,252.0,verified_compatible
+england/2013-14/1-premierleague.txt,england:1-premierleague,2013-14,2013-14,380,380,380,English Premier League 2013/14,2013-08-17,2014-05-11,267.0,verified_compatible
+england/2013-14/2-championship.txt,england:2-championship,2013-14,2013-14,552,552,552,English Championship 2013/14,2013-08-03,2014-05-03,273.0,verified_compatible
+england/2013-14/3-league1.txt,england:3-league1,2013-14,2013-14,552,552,552,English League One 2013/14,2013-08-02,2014-05-03,274.0,verified_compatible
+england/2013-14/4-league2.txt,england:4-league2,2013-14,2013-14,552,552,552,English League Two 2013/14,2013-08-03,2014-05-03,273.0,verified_compatible
+england/2014-15/1-premierleague.txt,england:1-premierleague,2014-15,2014-15,380,380,380,English Premier League 2014/15,2014-08-16,2015-05-24,281.0,verified_compatible
+england/2014-15/2-championship.txt,england:2-championship,2014-15,2014-15,552,552,552,English Championship 2014/15,2014-08-08,2015-05-02,267.0,verified_compatible
+england/2014-15/3-league1.txt,england:3-league1,2014-15,2014-15,552,552,552,English League One 2014/15,2014-08-09,2015-05-03,267.0,verified_compatible
+england/2014-15/4-league2.txt,england:4-league2,2014-15,2014-15,552,552,552,English League Two 2014/15,2014-08-09,2015-05-02,266.0,verified_compatible
+england/2015-16/1-premierleague.txt,england:1-premierleague,2015-16,2015-16,380,380,380,English Premier League 2015/16,2015-08-08,2016-05-17,283.0,verified_compatible
+england/2015-16/2-championship.txt,england:2-championship,2015-16,2015-16,552,552,552,English Championship 2015/16,2015-08-07,2016-05-07,274.0,verified_compatible
+england/2015-16/3-league1.txt,england:3-league1,2015-16,2015-16,552,552,552,English League One 2015/16,2015-08-08,2016-05-08,274.0,verified_compatible
+england/2015-16/4-league2.txt,england:4-league2,2015-16,2015-16,552,552,552,English League Two 2015/16,2015-08-08,2016-05-07,273.0,verified_compatible
+england/2015-16/5-nationalleague.txt,england:5-nationalleague,2015-16,2015-16,552,552,552,English National League 2015/16,2015-08-08,2016-04-30,266.0,verified_compatible
+england/2016-17/1-premierleague.txt,england:1-premierleague,2016-17,2016-17,380,380,380,English Premier League 2016/17,2016-08-13,2017-05-21,281.0,verified_compatible
+england/2016-17/2-championship.txt,england:2-championship,2016-17,2016-17,552,552,552,English Championship 2016/17,2016-08-05,2017-05-07,275.0,verified_compatible
+england/2016-17/3-league1.txt,england:3-league1,2016-17,2016-17,552,552,552,English League One 2016/17,2016-08-06,2017-04-30,267.0,verified_compatible
+england/2016-17/4-league2.txt,england:4-league2,2016-17,2016-17,552,552,552,English League Two 2016/17,2016-08-06,2017-05-06,273.0,verified_compatible
+england/2016-17/5-nationalleague.txt,england:5-nationalleague,2016-17,2016-17,552,552,552,English National League 2016/17,2016-08-06,2017-04-29,266.0,verified_compatible
+england/2017-18/1-premierleague.txt,england:1-premierleague,2017-18,2017-18,380,380,380,English Premier League 2017/18,2017-08-11,2018-05-13,275.0,verified_compatible
+england/2017-18/2-championship.txt,england:2-championship,2017-18,2017-18,552,552,552,English Championship 2017/18,2017-08-04,2018-05-06,275.0,verified_compatible
+england/2017-18/3-league1.txt,england:3-league1,2017-18,2017-18,552,552,552,English League One 2017/18,2017-08-05,2018-05-05,273.0,verified_compatible
+england/2017-18/4-league2.txt,england:4-league2,2017-18,2017-18,552,552,552,English League Two 2017/18,2017-08-05,2018-05-05,273.0,verified_compatible
+england/2017-18/5-nationalleague.txt,england:5-nationalleague,2017-18,2017-18,552,552,552,English National League 2017/18,2017-08-05,2018-04-28,266.0,verified_compatible
+england/2018-19/1-premierleague.txt,england:1-premierleague,2018-19,2018-19,380,380,380,English Premier League 2018/19,2018-08-10,2019-05-12,275.0,verified_compatible
+england/2018-19/2-championship.txt,england:2-championship,2018-19,2018-19,552,552,552,English Championship 2018/19,2018-08-03,2019-05-05,275.0,verified_compatible
+england/2018-19/3-league1.txt,england:3-league1,2018-19,2018-19,552,552,552,English League One 2018/19,2018-08-04,2019-05-04,273.0,verified_compatible
+england/2018-19/4-league2.txt,england:4-league2,2018-19,2018-19,552,552,552,English League Two 2018/19,2018-08-04,2019-05-04,273.0,verified_compatible
+england/2018-19/5-nationalleague.txt,england:5-nationalleague,2018-19,2018-19,552,552,552,English National League 2018/19,2018-08-04,2019-04-27,266.0,verified_compatible
+england/2018-19/eflcup.txt,england:eflcup,2018-19,2018-19,93,93,93,English EFL Cup 2018/19,2018-08-14,2019-02-24,194.0,verified_compatible
+england/2018-19/facup.txt,england:facup,2018-19,2018-19,150,150,150,English FA Cup 2018/19,2018-11-09,2019-05-18,190.0,verified_compatible
+england/2019-20/1-premierleague.txt,england:1-premierleague,2019-20,2019-20,380,380,380,English Premier League 2019/20,2019-08-09,2020-07-26,352.0,verified_compatible
+england/2019-20/2-championship.txt,england:2-championship,2019-20,2019-20,552,552,552,English Championship 2019/20,2019-08-02,2020-07-22,355.0,verified_compatible
+england/2019-20/3-league1.txt,england:3-league1,2019-20,2019-20,506,506,506,English League One 2019/20,2019-08-03,2020-05-03,274.0,verified_compatible
+england/2019-20/4-league2.txt,england:4-league2,2019-20,2019-20,552,552,552,English League Two 2019/20,2019-08-03,2020-04-25,266.0,verified_compatible
+england/2019-20/5-nationalleague.txt,england:5-nationalleague,2019-20,2019-20,552,552,552,English National League 2019/20,2019-08-03,2020-04-25,266.0,verified_compatible
+england/2019-20/eflcup.txt,england:eflcup,2019-20,2019-20,93,93,93,English EFL Cup 2019/20,2019-08-06,2020-03-01,208.0,verified_compatible
+england/2019-20/facup.txt,england:facup,2019-20,2019-20,156,156,156,English FA Cup 2019/20,2019-11-08,2020-08-01,267.0,verified_compatible
+england/2020-21/1-premierleague.txt,england:1-premierleague,2020-21,2020-21,380,380,380,English Premier League 2020/21,2020-09-12,2021-05-23,253.0,verified_compatible
+england/2020-21/2-championship.txt,england:2-championship,2020-21,2020-21,552,552,552,English Championship 2020/21,2020-09-11,2021-05-08,239.0,verified_compatible
+england/2020-21/3-league1.txt,england:3-league1,2020-21,2020-21,552,552,552,English League One 2020/21,2020-09-12,2021-05-09,239.0,verified_compatible
+england/2020-21/4-league2.txt,england:4-league2,2020-21,2020-21,552,552,552,English League Two 2020/21,2020-09-12,2021-05-08,238.0,verified_compatible
+england/2020-21/5-nationalleague.txt,england:5-nationalleague,2020-21,2020-21,506,506,506,English National League 2020/21,2020-10-03,2021-05-29,238.0,verified_compatible
+england/2020-21/eflcup.txt,england:eflcup,2020-21,2020-21,91,91,91,English EFL Cup 2020/21,2020-08-29,2021-04-25,239.0,verified_compatible
+england/2020-21/facup.txt,england:facup,2020-21,2020-21,123,123,123,English FA Cup 2020/21,2020-11-06,2021-05-15,190.0,verified_compatible
+england/2021-22/1-premierleague.txt,england:1-premierleague,2021-22,2021-22,380,380,380,English Premier League 2021/22,2021-08-13,2022-05-22,282.0,verified_compatible
+england/2021-22/2-championship.txt,england:2-championship,2021-22,2021-22,557,557,557,English Championship 2021/22,2021-08-06,2022-05-29,296.0,verified_compatible
+england/2021-22/3-league1.txt,england:3-league1,2021-22,2021-22,552,552,552,English League One 2021/22,2021-08-07,2022-04-30,266.0,verified_compatible
+england/2021-22/4-league2.txt,england:4-league2,2021-22,2021-22,552,552,552,English League Two 2021/22,2021-08-07,2022-05-07,273.0,verified_compatible
+england/2021-22/5-nationalleague.txt,england:5-nationalleague,2021-22,2021-22,506,506,506,English National League 2021/22,2021-08-21,2022-05-15,267.0,verified_compatible
+england/2021-22/eflcup.txt,england:eflcup,2021-22,2021-22,93,93,93,English EFL Cup 2021/22,2021-07-31,2022-02-27,211.0,verified_compatible
+england/2021-22/facup.txt,england:facup,2021-22,2021-22,136,136,136,English FA Cup 2021/22,2021-11-05,2022-05-14,190.0,verified_compatible
+england/2022-23/1-premierleague.txt,england:1-premierleague,2022-23,2022-23,380,380,380,English Premier League 2022/23,2022-08-05,2023-05-28,296.0,verified_compatible
+england/2022-23/2-championship.txt,england:2-championship,2022-23,2022-23,557,557,557,English Championship 2022/23,2022-07-29,2023-05-27,302.0,verified_compatible
+england/2022-23/3-league1.txt,england:3-league1,2022-23,2022-23,552,552,552,English League One 2022/23,2022-07-30,2023-05-07,281.0,verified_compatible
+england/2022-23/4-league2.txt,england:4-league2,2022-23,2022-23,552,552,552,English League Two 2022/23,2022-07-30,2023-05-08,282.0,verified_compatible
+england/2022-23/5-nationalleague.txt,england:5-nationalleague,2022-23,2022-23,552,552,552,English National League 2022/23,2022-08-06,2023-04-29,266.0,verified_compatible
+england/2022-23/eflcup.txt,england:eflcup,2022-23,2022-23,93,93,93,English EFL Cup 2022/23,2022-08-02,2023-02-26,208.0,verified_compatible
+england/2022-23/facup.txt,england:facup,2022-23,2022-23,144,144,144,English FA Cup 2022/23,2022-11-04,2023-06-03,211.0,verified_compatible
+england/2023-24/1-premierleague.txt,england:1-premierleague,2023-24,2023-24,380,380,380,English Premier League 2023/24,2023-08-11,2024-05-19,282.0,verified_compatible
+england/2023-24/2-championship.txt,england:2-championship,2023-24,2023-24,557,557,557,English Championship 2023/24,2023-08-04,2024-05-26,296.0,verified_compatible
+england/2023-24/3-league1.txt,england:3-league1,2023-24,2023-24,552,552,552,English League One 2023/24,2023-08-05,2024-04-27,266.0,verified_compatible
+england/2023-24/4-league2.txt,england:4-league2,2023-24,2023-24,552,552,552,English League Two 2023/24,2023-08-05,2024-04-27,266.0,verified_compatible
+england/2023-24/5-nationalleague.txt,england:5-nationalleague,2023-24,2023-24,552,552,552,English National League 2023/24,2023-08-05,2024-04-20,259.0,verified_compatible
+england/2023-24/eflcup.txt,england:eflcup,2023-24,2023-24,93,93,93,English EFL Cup 2023/24,2023-08-08,2024-02-25,201.0,verified_compatible
+england/2023-24/facup.txt,england:facup,2023-24,2023-24,149,149,149,English FA Cup 2023/24,2023-11-03,2024-05-25,204.0,verified_compatible
+england/2024-25/1-premierleague.txt,england:1-premierleague,2024-25,2024-25,380,380,380,English Premier League 2024/25,2024-08-16,2025-05-25,282.0,verified_compatible
+england/2024-25/2-championship.txt,england:2-championship,2024-25,2024-25,557,557,557,English Championship 2024/25,2024-08-09,2025-05-24,288.0,verified_compatible
+england/2024-25/3-league1.txt,england:3-league1,2024-25,2024-25,552,552,552,English League One 2024/25,2024-08-09,2025-05-03,267.0,verified_compatible
+england/2024-25/4-league2.txt,england:4-league2,2024-25,2024-25,552,552,552,English League Two 2024/25,2024-08-09,2025-05-03,267.0,verified_compatible
+england/2024-25/5-nationalleague.txt,england:5-nationalleague,2024-25,2024-25,552,552,552,English National League 2024/25,2024-08-10,2025-05-05,268.0,verified_compatible
+england/2024-25/eflcup.txt,england:eflcup,2024-25,2024-25,93,93,93,English EFL Cup 2024/25,2024-08-13,2025-03-16,215.0,verified_compatible
+england/2024-25/facup.txt,england:facup,2024-25,2024-25,123,123,123,English FA Cup 2024/25,2024-11-01,2025-05-17,197.0,verified_compatible
+england/2025-26/1-premierleague.txt,england:1-premierleague,2025-26,2025-26,380,380,380,England | Premier League 2025/26,2025-08-15,2026-05-24,282.0,verified_compatible
+england/2025-26/2-championship.txt,england:2-championship,2025-26,2025-26,557,557,557,English Championship 2025/26,2025-08-08,2026-05-23,288.0,verified_compatible
+england/2025-26/3-league1.txt,england:3-league1,2025-26,2025-26,552,552,552,English League One 2025/26,2025-08-01,2026-12-29,515.0,verified_compatible
+england/2025-26/4-league2.txt,england:4-league2,2025-26,2025-26,564,564,564,English League Two 2025/26,2025-08-02,2026-05-02,273.0,verified_compatible
+england/2025-26/5-nationalleague.txt,england:5-nationalleague,2025-26,2025-26,564,564,564,English National League 2025/26,2025-08-09,2026-12-30,508.0,verified_compatible
+england/2026-27/1-premierleague.txt,england:1-premierleague,2026-27,2026-27,380,380,380,English Premier League 2026/27,2026-08-21,2027-05-30,282.0,verified_compatible
+england/2026-27/2-championship.txt,england:2-championship,2026-27,2026-27,552,552,552,English Championship 2026/27,2026-08-14,2027-05-01,260.0,verified_compatible
+england/archive/1880s/1888-89/1-footballleague.txt,england:1-footballleague,1888-89,1888-89,132,132,132,English Football League 1888/89,,,,verified_compatible
+england/archive/1880s/1889-90/1-footballleague.txt,england:1-footballleague,1889-90,1889-90,132,132,132,English Football League 1889/90,,,,verified_compatible
+england/archive/1890s/1890-91/1-footballleague.txt,england:1-footballleague,1890-91,1890-91,132,132,132,English Football League 1890/91,,,,verified_compatible
+england/archive/1890s/1891-92/1-footballleague.txt,england:1-footballleague,1891-92,1891-92,182,182,182,English Football League 1891/92,,,,verified_compatible
+england/archive/1890s/1892-93/1-division1.txt,england:1-division1,1892-93,1892-93,240,240,240,English Division One 1892/93,,,,verified_compatible
+england/archive/1890s/1892-93/2-division2.txt,england:2-division2,1892-93,1892-93,132,132,132,English Division Two 1892/93,,,,verified_compatible
+england/archive/1990s/1992-93/1-premierleague.txt,england:1-premierleague,1992-93,1992-93,462,462,462,English Premier League 1992/93,,,,verified_compatible
+england/archive/1990s/1993-94/1-premierleague.txt,england:1-premierleague,1993-94,1993-94,462,462,462,English Premier League 1993/94,,,,verified_compatible
+england/archive/1990s/1994-95/1-premierleague.txt,england:1-premierleague,1994-95,1994-95,462,462,462,English Premier League 1994/95,,,,verified_compatible
+england/archive/1990s/1995-96/1-premierleague.txt,england:1-premierleague,1995-96,1995-96,380,380,380,English Premier League 1995/96,,,,verified_compatible
+england/archive/1990s/1996-97/1-premierleague.txt,england:1-premierleague,1996-97,1996-97,380,380,380,English Premier League 1996/97,,,,verified_compatible
+england/archive/1990s/1997-98/1-premierleague.txt,england:1-premierleague,1997-98,1997-98,380,380,380,English Premier League 1997/98,,,,verified_compatible
+england/archive/1990s/1998-99/1-premierleague.txt,england:1-premierleague,1998-99,1998-99,380,380,380,English Premier League 1998/99,,,,verified_compatible
+england/archive/1990s/1998-99/2-division1.txt,england:2-division1,1998-99,1998-99,552,552,552,English Division One 1998/99,,,,verified_compatible
+england/archive/1990s/1998-99/3-division2.txt,england:3-division2,1998-99,1998-99,552,552,552,English Division Two 1998/99,,,,verified_compatible
+england/archive/1990s/1998-99/4-division3.txt,england:4-division3,1998-99,1998-99,552,552,552,English Division Three 1998/99,,,,verified_compatible
+england/archive/1990s/1999-00/1-premierleague.txt,england:1-premierleague,1999-00,1999-00,380,380,380,English Premier League 1999/00,,,,verified_compatible
+england/archive/1990s/1999-00/2-division1.txt,england:2-division1,1999-00,1999-00,552,552,552,English Division One 1999/00,,,,verified_compatible
+england/archive/1990s/1999-00/3-division2.txt,england:3-division2,1999-00,1999-00,552,552,552,English Division Two 1999/00,,,,verified_compatible
+england/archive/1990s/1999-00/4-division3.txt,england:4-division3,1999-00,1999-00,552,552,552,English Division Three 1999/00,,,,verified_compatible
+espana/2012-13/1-liga.txt,espana:1-liga,2012-13,2012-13,380,380,380,Primera División de España 2012/13,2012-08-18,2013-06-01,287.0,verified_compatible
+espana/2012-13/2-liga2.txt,espana:2-liga2,2012-13,2012-13,462,462,462,Segunda División de España 2012/13,2012-08-17,2013-06-09,296.0,verified_compatible
+espana/2013-14/1-liga.txt,espana:1-liga,2013-14,2013-14,380,380,380,Primera División de España 2013/14,2013-08-17,2014-05-18,274.0,verified_compatible
+espana/2013-14/2-liga2.txt,espana:2-liga2,2013-14,2013-14,462,462,462,Segunda División de España 2013/14,2013-08-16,2014-06-08,296.0,verified_compatible
+espana/2014-15/1-liga.txt,espana:1-liga,2014-15,2014-15,380,380,380,Primera División de España 2014/15,2014-08-23,2015-05-23,273.0,verified_compatible
+espana/2014-15/2-liga2.txt,espana:2-liga2,2014-15,2014-15,462,462,462,Segunda División de España 2014/15,2014-08-23,2015-06-07,288.0,verified_compatible
+espana/2015-16/1-liga.txt,espana:1-liga,2015-16,2015-16,380,380,380,Primera División de España 2015/16,2015-08-21,2016-05-15,268.0,verified_compatible
+espana/2015-16/2-liga2.txt,espana:2-liga2,2015-16,2015-16,462,462,462,Segunda División de España 2015/16,2015-08-22,2016-06-04,287.0,verified_compatible
+espana/2016-17/1-liga.txt,espana:1-liga,2016-17,2016-17,380,380,380,Primera División de España 2016/17,2016-08-19,2017-05-21,275.0,verified_compatible
+espana/2016-17/2-liga2.txt,espana:2-liga2,2016-17,2016-17,462,462,462,Segunda División de España 2016/17,2016-08-19,2017-06-11,296.0,verified_compatible
+espana/2017-18/1-liga.txt,espana:1-liga,2017-18,2017-18,380,380,380,Primera División de España 2017/18,2017-08-18,2018-05-20,275.0,verified_compatible
+espana/2017-18/2-liga2.txt,espana:2-liga2,2017-18,2017-18,462,462,462,Segunda División de España 2017/18,2017-08-18,2018-06-02,288.0,verified_compatible
+espana/2018-19/1-liga.txt,espana:1-liga,2018-19,2018-19,380,380,380,Primera División de España 2018/19,2018-08-17,2019-05-19,275.0,verified_compatible
+espana/2018-19/2-liga2.txt,espana:2-liga2,2018-19,2018-19,462,462,462,Segunda División de España 2018/19,2018-08-17,2019-06-09,296.0,verified_compatible
+espana/2019-20/1-liga.txt,espana:1-liga,2019-20,2019-20,380,380,380,Primera División de España 2019/20,2019-08-16,2020-07-19,338.0,verified_compatible
+espana/2019-20/2-liga2.txt,espana:2-liga2,2019-20,2019-20,462,462,462,Segunda División de España 2019/20,2019-08-17,2020-08-07,356.0,verified_compatible
+espana/2020-21/1-liga.txt,espana:1-liga,2020-21,2020-21,380,380,380,Primera División de España 2020/21,2020-09-12,2021-05-23,253.0,verified_compatible
+espana/2020-21/2-liga2.txt,espana:2-liga2,2020-21,2020-21,462,462,462,Segunda División de España 2020/21,2020-09-12,2021-05-30,260.0,verified_compatible
+espana/2020-21/cup.txt,espana:cup,2020-21,2020-21,127,127,127,Copa del Rey de España 2020/21,2020-11-11,2021-04-17,157.0,verified_compatible
+espana/2021-22/1-liga.txt,espana:1-liga,2021-22,2021-22,380,380,380,Primera División de España 2021/22,2021-08-13,2022-05-22,282.0,verified_compatible
+espana/2021-22/2-liga2.txt,espana:2-liga2,2021-22,2021-22,462,462,462,Segunda División de España 2021/22,2021-08-13,2022-05-29,289.0,verified_compatible
+espana/2021-22/cup.txt,espana:cup,2021-22,2021-22,127,127,127,Copa del Rey de España 2021/22,2021-11-17,2022-04-23,157.0,verified_compatible
+espana/2022-23/1-liga.txt,espana:1-liga,2022-23,2022-23,380,380,380,Primera División de España 2022/23,2022-08-12,2023-06-04,296.0,verified_compatible
+espana/2022-23/2-liga2.txt,espana:2-liga2,2022-23,2022-23,462,462,462,Segunda División de España 2022/23,2022-08-12,2023-05-28,289.0,verified_compatible
+espana/2022-23/cup.txt,espana:cup,2022-23,2022-23,126,126,126,Copa del Rey de España 2022/23,2022-10-19,2023-05-06,199.0,verified_compatible
+espana/2023-24/1-liga.txt,espana:1-liga,2023-24,2023-24,380,380,380,Primera División de España 2023/24,2023-08-11,2024-05-26,289.0,verified_compatible
+espana/2023-24/2-liga2.txt,espana:2-liga2,2023-24,2023-24,462,462,462,Segunda División de España 2023/24,2023-08-11,2024-06-02,296.0,verified_compatible
+espana/2023-24/cup.txt,espana:cup,2023-24,2023-24,126,126,126,Copa del Rey de España 2023/24,2023-10-11,2024-04-06,178.0,verified_compatible
+espana/2024-25/1-liga.txt,espana:1-liga,2024-25,2024-25,380,380,380,Spain Primera División 2024/25,2024-08-15,2025-05-25,283.0,verified_compatible
+espana/2024-25/2-liga2.txt,espana:2-liga2,2024-25,2024-25,462,462,462,Spain Segunda División 2024/25,2024-08-15,2025-06-01,290.0,verified_compatible
+espana/2024-25/cup.txt,espana:cup,2024-25,2024-25,126,126,126,Spain Copa del Rey 2024/25,2024-10-09,2025-04-26,199.0,verified_compatible
+espana/2025-26/1-liga.txt,espana:1-liga,2025-26,2025-26,380,380,380,Spain | Primera División 2025/26,2025-08-15,2026-05-24,282.0,verified_compatible
+espana/2025-26/2-liga2.txt,espana:2-liga2,2025-26,2025-26,462,462,462,Spain Segunda División 2025/26,2025-08-15,2026-05-31,289.0,verified_compatible
+espana/2026-27/1-liga.txt,espana:1-liga,2026-27,2026-27,380,380,380,Spain Primera División 2026/27,2026-08-15,2027-05-30,288.0,verified_compatible
+europe/albania/2023-24_al1.txt,europe/albania:al1,2023-24,2023-24,184,184,184,Albania Super League 2023/24,2023-08-26,2024-05-26,274.0,verified_compatible
+europe/albania/2024-25_al1.txt,europe/albania:al1,2024-25,2024-25,184,184,184,Albania Super League 2024/25,2024-08-18,2025-05-12,267.0,verified_compatible
+europe/andorra/2023-24_ad1.txt,europe/andorra:ad1,2023-24,2023-24,135,135,135,Andorra Premier Division 2023/24,2023-09-16,2024-05-19,246.0,verified_compatible
+europe/andorra/2024-25_ad1.txt,europe/andorra:ad1,2024-25,2024-25,135,135,135,Andorra Premier Division 2024/25,2024-09-14,2025-05-18,246.0,verified_compatible
+europe/armenia/2023-24_am1.txt,europe/armenia:am1,2023-24,2023-24,180,180,180,Armenia Premier League 2023/24,2023-07-29,2024-05-26,302.0,verified_compatible
+europe/armenia/2024-25_am1.txt,europe/armenia:am1,2024-25,2024-25,165,165,165,Armenia Premier League 2024/25,2024-08-02,2025-05-28,299.0,verified_compatible
+europe/azerbaijan/2023-24_az1.txt,europe/azerbaijan:az1,2023-24,2023-24,180,180,180,Azerbaijan Premier League A 2023/24,2023-08-04,2024-05-26,296.0,verified_compatible
+europe/azerbaijan/2024-25_az1.txt,europe/azerbaijan:az1,2024-25,2024-25,180,180,180,Azerbaijan Premier League A 2024/25,2024-08-02,2025-05-25,296.0,verified_compatible
+europe/belarus/2023_by1.txt,europe/belarus:by1,2023,2023,210,210,210,Belarus Premier League 2023,2023-03-17,2023-12-02,260.0,verified_compatible
+europe/belarus/2024_by1.txt,europe/belarus:by1,2024,2024,240,240,240,Belarus Premier League 2024,2024-03-15,2024-12-07,267.0,verified_compatible
+europe/belarus/2025_by1.txt,europe/belarus:by1,2025,2025,240,240,240,Belarus Premier League 2025,2025-03-13,2025-11-29,261.0,verified_compatible
+europe/bosnia-herzegovina/2023-24_ba1.txt,europe/bosnia-herzegovina:ba1,2023-24,2023-24,198,198,198,Bosnia and Herzegovina Premier Liga 2023/24,2023-07-29,2024-05-26,302.0,verified_compatible
+europe/bosnia-herzegovina/2024-25_ba1.txt,europe/bosnia-herzegovina:ba1,2024-25,2024-25,198,198,198,Bosnia and Herzegovina Premier Liga 2024/25,2024-08-03,2025-05-31,301.0,verified_compatible
+europe/bosnia-herzegovina/2024-25_bacup.txt,europe/bosnia-herzegovina:bacup,2024-25,2024-25,38,38,38,Bosnia and Herzegovina Cup 2024/25,2024-10-29,2025-05-14,197.0,verified_compatible
+europe/bulgaria/2023-24_bg1.txt,europe/bulgaria:bg1,2023-24,2023-24,283,283,283,Bulgaria Premier League 2023/24,2023-07-14,2024-05-31,322.0,verified_compatible
+europe/bulgaria/2024-25_bg1.txt,europe/bulgaria:bg1,2024-25,2024-25,293,293,293,Bulgaria Premier League 2024/25,2024-07-19,2025-05-31,316.0,verified_compatible
+europe/bulgaria/2024-25_bgcup.txt,europe/bulgaria:bgcup,2024-25,2024-25,33,33,33,Bulgaria Cup 2024/25,2024-10-28,2025-05-22,206.0,verified_compatible
+europe/croatia/2023-24_hr1.txt,europe/croatia:hr1,2023-24,2023-24,180,180,180,Croatia HNL 2023/24,2023-07-21,2024-05-26,310.0,verified_compatible
+europe/croatia/2024-25_hr1.txt,europe/croatia:hr1,2024-25,2024-25,180,180,180,Croatia HNL 2024/25,2024-08-02,2025-05-25,296.0,verified_compatible
+europe/cyprus/2023-24_cy1.txt,europe/cyprus:cy1,2023-24,2023-24,268,268,268,Cyprus First Division 2023/24,2023-08-18,2024-05-12,268.0,verified_compatible
+europe/cyprus/2024-25_cy1.txt,europe/cyprus:cy1,2024-25,2024-25,240,240,240,Cyprus First Division 2024/25,2024-08-23,2025-05-18,268.0,verified_compatible
+europe/cyprus/2024-25_cycup.txt,europe/cyprus:cycup,2024-25,2024-25,27,27,27,Cyprus Cypriot Cup 2024/25,2024-09-25,2025-05-07,224.0,verified_compatible
+europe/czech-republic/2018-19_cz1.txt,europe/czech-republic:cz1,2018-19,2018-19,277,277,277,Czech Republic First League 2018/19,2018-07-20,2019-06-01,316.0,verified_compatible
+europe/czech-republic/2020-21_cz1.txt,europe/czech-republic:cz1,2020-21,2020-21,306,306,306,Czech Republic First League 2020/21,2020-08-21,2021-05-29,281.0,verified_compatible
+europe/czech-republic/2023-24_cz1.txt,europe/czech-republic:cz1,2023-24,2023-24,277,277,277,Czech Republic First League 2023/24,2023-07-22,2024-05-31,314.0,verified_compatible
+europe/czech-republic/2024-25_cz1.txt,europe/czech-republic:cz1,2024-25,2024-25,276,276,276,Czech Republic First League 2024/25,2024-07-19,2025-05-25,310.0,verified_compatible
+europe/czech-republic/2024-25_cz2.txt,europe/czech-republic:cz2,2024-25,2024-25,240,240,240,Czech Republic National League 2024/25,2024-07-19,2025-05-25,310.0,verified_compatible
+europe/czech-republic/2024-25_czcup.txt,europe/czech-republic:czcup,2024-25,2024-25,101,101,101,Czech Republic Cup 2024/25,2024-08-13,2025-05-14,274.0,verified_compatible
+europe/czech-republic/2026-27_cz1.txt,europe/czech-republic:cz1,2026-27,2026-27,240,240,240,Czech Republic | First League 2026/27,2026-07-25,2027-04-24,273.0,verified_compatible
+europe/denmark/2023-24_dk1.txt,europe/denmark:dk1,2023-24,2023-24,193,193,193,Denmark Superligaen 2023/24,2023-07-21,2024-05-31,315.0,verified_compatible
+europe/denmark/2024-25_dk1.txt,europe/denmark:dk1,2024-25,2024-25,193,193,193,Denmark Superligaen 2024/25,2024-07-19,2025-06-01,317.0,verified_compatible
+europe/denmark/2024-25_dk2.txt,europe/denmark:dk2,2024-25,2024-25,192,192,192,Denmark 1. Division 2024/25,2024-07-19,2025-05-23,308.0,verified_compatible
+europe/denmark/2024-25_dkcup.txt,europe/denmark:dkcup,2024-25,2024-25,108,108,108,Denmark Landspokalturneringen 2024/25,2024-08-05,2025-05-08,276.0,verified_compatible
+europe/estonia/2023_ee1.txt,europe/estonia:ee1,2023,2023,180,180,180,Estonia Meistriliiga 2023,2023-03-03,2023-11-11,253.0,verified_compatible
+europe/estonia/2024_ee1.txt,europe/estonia:ee1,2024,2024,180,180,180,Estonia Meistriliiga 2024,2024-03-01,2024-11-09,253.0,verified_compatible
+europe/estonia/2025_ee1.txt,europe/estonia:ee1,2025,2025,180,180,180,Estonia Meistriliiga 2025,2025-02-28,2025-11-08,253.0,verified_compatible
+europe/faroe-islands/2023_fo1.txt,europe/faroe-islands:fo1,2023,2023,135,135,135,Faroe Islands Premier Division 2023,2023-03-04,2023-10-29,239.0,verified_compatible
+europe/faroe-islands/2024_fo1.txt,europe/faroe-islands:fo1,2024,2024,135,135,135,Faroe Islands Premier Division 2024,2024-03-09,2024-10-26,231.0,verified_compatible
+europe/faroe-islands/2025_fo1.txt,europe/faroe-islands:fo1,2025,2025,135,135,135,Faroe Islands Premier Division 2025,2025-03-07,2025-10-25,232.0,verified_compatible
+europe/finland/2023_fi1.txt,europe/finland:fi1,2023,2023,167,167,167,Finland Veikkausliiga 2023,2023-04-05,2023-11-05,214.0,verified_compatible
+europe/finland/2024_fi1.txt,europe/finland:fi1,2024,2024,167,167,167,Finland Veikkausliiga 2024,2024-04-06,2024-11-02,210.0,verified_compatible
+europe/finland/2025_fi1.txt,europe/finland:fi1,2025,2025,132,132,132,Finland Veikkausliiga 2025,2025-04-05,2025-08-31,148.0,verified_compatible
+europe/france/2014-15_fr1.txt,europe/france:fr1,2014-15,2014-15,380,380,380,French Ligue 1 2014/15,2014-08-08,2015-05-23,288.0,verified_compatible
+europe/france/2014-15_fr2.txt,europe/france:fr2,2014-15,2014-15,380,380,380,French Ligue 2 2014/15,2014-08-01,2015-05-22,294.0,verified_compatible
+europe/france/2015-16_fr1.txt,europe/france:fr1,2015-16,2015-16,380,380,380,French Ligue 1 2015/16,2015-08-07,2016-05-14,281.0,verified_compatible
+europe/france/2015-16_fr2.txt,europe/france:fr2,2015-16,2015-16,380,380,380,French Ligue 2 2015/16,2015-07-31,2016-05-13,287.0,verified_compatible
+europe/france/2016-17_fr1.txt,europe/france:fr1,2016-17,2016-17,380,380,380,French Ligue 1 2016/17,2016-08-12,2017-05-20,281.0,verified_compatible
+europe/france/2016-17_fr2.txt,europe/france:fr2,2016-17,2016-17,380,380,380,French Ligue 2 2016/17,2016-07-29,2017-05-19,294.0,verified_compatible
+europe/france/2017-18_fr1.txt,europe/france:fr1,2017-18,2017-18,380,380,380,French Ligue 1 2017/18,2017-08-04,2018-05-19,288.0,verified_compatible
+europe/france/2017-18_fr2.txt,europe/france:fr2,2017-18,2017-18,380,380,380,French Ligue 2 2017/18,2017-07-28,2018-05-11,287.0,verified_compatible
+europe/france/2018-19_fr1.txt,europe/france:fr1,2018-19,2018-19,380,380,380,French Ligue 1 2018/19,2018-08-10,2019-05-24,287.0,verified_compatible
+europe/france/2018-19_fr2.txt,europe/france:fr2,2018-19,2018-19,380,380,380,French Ligue 2 2018/19,2018-07-27,2019-05-17,294.0,verified_compatible
+europe/france/2019-20_fr1.txt,europe/france:fr1,2019-20,2019-20,380,380,380,French Ligue 1 2019/20,2019-08-09,2020-05-23,288.0,verified_compatible
+europe/france/2019-20_fr2.txt,europe/france:fr2,2019-20,2019-20,380,380,380,French Ligue 2 2019/20,2019-07-26,2020-05-15,294.0,verified_compatible
+europe/france/2020-21_fr1.txt,europe/france:fr1,2020-21,2020-21,380,380,380,French Ligue 1 2020/21,2020-08-21,2021-05-23,275.0,verified_compatible
+europe/france/2020-21_fr2.txt,europe/france:fr2,2020-21,2020-21,380,380,380,French Ligue 2 2020/21,2020-08-22,2021-05-15,266.0,verified_compatible
+europe/france/2021-22_fr1.txt,europe/france:fr1,2021-22,2021-22,380,380,380,French Ligue 1 2021/22,2021-08-06,2022-05-21,288.0,verified_compatible
+europe/france/2021-22_fr2.txt,europe/france:fr2,2021-22,2021-22,380,380,380,French Ligue 2 2021/22,2021-07-24,2022-05-14,294.0,verified_compatible
+europe/france/2022-23_fr1.txt,europe/france:fr1,2022-23,2022-23,380,380,380,French Ligue 1 2022/23,2022-08-05,2023-06-03,302.0,verified_compatible
+europe/france/2022-23_fr2.txt,europe/france:fr2,2022-23,2022-23,380,380,380,French Ligue 2 2022/23,2022-07-30,2023-06-02,307.0,verified_compatible
+europe/france/2023-24_fr1.txt,europe/france:fr1,2023-24,2023-24,306,306,306,French Ligue 1 2023/24,2023-08-11,2024-05-19,282.0,verified_compatible
+europe/france/2023-24_fr2.txt,europe/france:fr2,2023-24,2023-24,380,380,380,French Ligue 2 2023/24,2023-08-05,2024-05-17,286.0,verified_compatible
+europe/france/2024-25_fr1.txt,europe/france:fr1,2024-25,2024-25,306,306,306,French Ligue 1 2024/25,2024-08-16,2025-05-17,274.0,verified_compatible
+europe/france/2024-25_fr2.txt,europe/france:fr2,2024-25,2024-25,306,306,306,French Ligue 2 2024/25,2024-08-16,2025-05-10,267.0,verified_compatible
+europe/france/2024-25_frcup.txt,europe/france:frcup,2024-25,2024-25,200,200,200,French Coupe de France 2024/25,2024-11-10,2025-05-24,195.0,verified_compatible
+europe/france/2025-26_fr1.txt,europe/france:fr1,2025-26,2025-26,306,306,306,France | Ligue 1 2025/26,2025-08-15,2026-05-17,275.0,verified_compatible
+europe/france/2025-26_fr2.txt,europe/france:fr2,2025-26,2025-26,306,306,306,French Ligue 2 2025/26,2025-08-09,2026-05-08,272.0,verified_compatible
+europe/france/2026-27_fr1.txt,europe/france:fr1,2026-27,2026-27,306,306,306,French Ligue 1 2026/27,2026-08-21,2027-05-29,281.0,verified_compatible
+europe/georgia/2023_ge1.txt,europe/georgia:ge1,2023,2023,180,180,180,Georgia Premier League A 2023,2023-02-25,2023-12-02,280.0,verified_compatible
+europe/georgia/2024_ge1.txt,europe/georgia:ge1,2024,2024,180,180,180,Georgia Premier League A 2024,2024-03-01,2024-12-08,282.0,verified_compatible
+europe/georgia/2025_ge1.txt,europe/georgia:ge1,2025,2025,180,180,180,Georgia Premier League A 2025,2025-02-28,2025-12-13,288.0,verified_compatible
+europe/gibraltar/2023-24_gi1.txt,europe/gibraltar:gi1,2023-24,2023-24,125,125,125,Gibraltar Premier League A 2023/24,2023-09-16,2024-05-12,239.0,verified_compatible
+europe/gibraltar/2024-25_gi1.txt,europe/gibraltar:gi1,2024-25,2024-25,125,125,125,Gibraltar Premier League A 2024/25,2024-08-16,2025-05-04,261.0,verified_compatible
+europe/greece/2018-19_gr1.txt,europe/greece:gr1,2018-19,2018-19,240,240,240,Greek Super League 2018/19,2018-08-25,2019-05-05,253.0,verified_compatible
+europe/greece/2019-20_gr1.txt,europe/greece:gr1,2019-20,2019-20,240,240,240,Greek Super League 2019/20,2019-08-24,2020-07-19,330.0,verified_compatible
+europe/greece/2020-21_gr1.txt,europe/greece:gr1,2020-21,2020-21,240,240,240,Greek Super League 2020/21,2020-09-11,2021-05-19,250.0,verified_compatible
+europe/greece/2023-24_gr1.txt,europe/greece:gr1,2023-24,2023-24,240,240,240,Greek Super League 2023/24,2023-08-18,2024-05-19,275.0,verified_compatible
+europe/greece/2024-25_gr1.txt,europe/greece:gr1,2024-25,2024-25,236,236,236,Greek Super League 2024/25,2024-08-17,2025-05-22,278.0,verified_compatible
+europe/greece/2025-26_gr1.txt,europe/greece:gr1,2025-26,2025-26,182,182,182,Greek Super League 2025/26,2025-08-23,2026-03-21,210.0,verified_compatible
+europe/greece/2026-27_gr1.txt,europe/greece:gr1,2026-27,2026-27,182,182,182,Greece | Super League 2026/27,2026-08-22,2027-03-20,210.0,verified_compatible
+europe/hungary/2018-19_hu1.txt,europe/hungary:hu1,2018-19,2018-19,198,198,198,Hungarian Nemzeti Bajnokság I 2018/19,2018-07-21,2019-05-19,302.0,verified_compatible
+europe/hungary/2020-21_hu1.txt,europe/hungary:hu1,2020-21,2020-21,198,198,198,Hungarian Nemzeti Bajnokság I 2020/21,2020-08-14,2021-05-09,268.0,verified_compatible
+europe/hungary/2023-24_hu1.txt,europe/hungary:hu1,2023-24,2023-24,198,198,198,Hungarian Nemzeti Bajnokság I 2023/24,2023-07-28,2024-05-19,296.0,verified_compatible
+europe/hungary/2024-25_hu1.txt,europe/hungary:hu1,2024-25,2024-25,198,198,198,Hungarian Nemzeti Bajnokság I 2024/25,2024-07-26,2025-05-25,303.0,verified_compatible
+europe/hungary/2024-25_hucup.txt,europe/hungary:hucup,2024-25,2024-25,63,63,63,Hungarian Cup 2024/25,2024-09-14,2025-05-14,242.0,verified_compatible
+europe/iceland/2023_is1.txt,europe/iceland:is1,2023,2023,162,162,162,Iceland Urvalsdeild 2023,2023-04-10,2023-10-08,181.0,verified_compatible
+europe/iceland/2024_is1.txt,europe/iceland:is1,2024,2024,162,162,162,Iceland Úrvalsdeild 2024,2024-04-06,2024-10-27,204.0,verified_compatible
+europe/iceland/2025_is1.txt,europe/iceland:is1,2025,2025,132,132,132,Iceland Úrvalsdeild 2025,2025-04-05,2025-09-14,162.0,verified_compatible
+europe/iceland/2025_iscup.txt,europe/iceland:iscup,2025,2025,68,68,68,Iceland Cup 2025,2025-03-28,2025-05-15,48.0,verified_compatible
+europe/ireland/2023_ie1.txt,europe/ireland:ie1,2023,2023,180,180,180,Irish Premier Division 2023,2023-02-17,2023-11-03,259.0,verified_compatible
+europe/ireland/2024_ie1.txt,europe/ireland:ie1,2024,2024,180,180,180,Irish Premier Division 2024,2024-02-16,2024-11-01,259.0,verified_compatible
+europe/ireland/2025_ie1.txt,europe/ireland:ie1,2025,2025,180,180,180,Irish Premier Division 2025,2025-02-14,2025-11-01,260.0,verified_compatible
+europe/kosovo/2023-24_kos1.txt,europe/kosovo:kos1,2023-24,2023-24,180,180,180,Kosovo Superliga A 2023/24,2023-08-12,2024-05-25,287.0,verified_compatible
+europe/kosovo/2024-25_kos1.txt,europe/kosovo:kos1,2024-25,2024-25,180,180,180,Kosovo Superliga A 2024/25,2024-08-10,2025-05-25,288.0,verified_compatible
+europe/latvia/2023_lv1.txt,europe/latvia:lv1,2023,2023,180,180,180,Latvia Higher League 2023,2023-03-11,2023-11-11,245.0,verified_compatible
+europe/latvia/2024_lv1.txt,europe/latvia:lv1,2024,2024,180,180,180,Latvia Higher League 2024,2024-03-08,2024-11-10,247.0,verified_compatible
+europe/latvia/2025_lv1.txt,europe/latvia:lv1,2025,2025,180,180,180,Latvia Higher League 2025,2025-03-05,2025-11-09,249.0,verified_compatible
+europe/liechtenstein/2023-24_licup.txt,europe/liechtenstein:licup,2023-24,2023-24,16,16,16,Liechtensteiner Pokal 2023/24,2023-08-11,2024-05-08,271.0,verified_compatible
+europe/liechtenstein/2024-25_licup.txt,europe/liechtenstein:licup,2024-25,2024-25,16,16,16,Liechtensteiner Pokal 2024/25,2024-08-14,2025-05-20,279.0,verified_compatible
+europe/lithuania/2023_lt1.txt,europe/lithuania:lt1,2023,2023,180,180,180,Lithuania First Division 2023,2023-03-03,2023-11-12,254.0,verified_compatible
+europe/lithuania/2024_lt1.txt,europe/lithuania:lt1,2024,2024,180,180,180,Lithuania First Division 2024,2024-03-01,2024-11-09,253.0,verified_compatible
+europe/lithuania/2025_lt1.txt,europe/lithuania:lt1,2025,2025,90,90,90,Lithuania First Division 2025,2025-02-28,2025-06-30,122.0,verified_compatible
+europe/luxembourg/2023-24_lu1.txt,europe/luxembourg:lu1,2023-24,2023-24,240,240,240,Luxembourg National Division 2023/24,2023-08-05,2024-05-26,295.0,verified_compatible
+europe/luxembourg/2024-25_lu1.txt,europe/luxembourg:lu1,2024-25,2024-25,240,240,240,Luxembourg National Division 2024/25,2024-08-03,2025-05-25,295.0,verified_compatible
+europe/malta/2023-24_mt1.txt,europe/malta:mt1,2023-24,2023-24,182,182,182,Malta Premier League 2023/24,2023-09-15,2024-05-04,232.0,verified_compatible
+europe/malta/2024-25_mt1.txt,europe/malta:mt1,2024-25,2024-25,197,197,197,Malta Premier League 2024/25,2024-08-16,2025-05-10,267.0,verified_compatible
+europe/moldova/2023-24_md1.txt,europe/moldova:md1,2023-24,2023-24,86,86,86,Moldova First Division 2023/24,2023-08-05,2024-05-18,287.0,verified_compatible
+europe/moldova/2024-25_md1.txt,europe/moldova:md1,2024-25,2024-25,86,86,86,Moldova First Division 2024/25,2024-08-03,2025-05-18,288.0,verified_compatible
+europe/montenegro/2023-24_me1.txt,europe/montenegro:me1,2023-24,2023-24,180,180,180,Montenegro First League 2023/24,2023-07-22,2024-05-25,308.0,verified_compatible
+europe/montenegro/2024-25_me1.txt,europe/montenegro:me1,2024-25,2024-25,180,180,180,Montenegro First League 2024/25,2024-08-04,2025-05-24,293.0,verified_compatible
+europe/netherlands/2018-19_nl1.txt,europe/netherlands:nl1,2018-19,2018-19,306,306,306,Netherlands Eredivisie 2018/19,2018-08-10,2019-05-15,278.0,verified_compatible
+europe/netherlands/2019-20_nl1.txt,europe/netherlands:nl1,2019-20,2019-20,306,306,306,Netherlands Eredivisie 2019/20,2019-08-02,2020-05-10,282.0,verified_compatible
+europe/netherlands/2020-21_nl1.txt,europe/netherlands:nl1,2020-21,2020-21,306,306,306,Netherlands Eredivisie 2020/21,2020-09-12,2021-05-16,246.0,verified_compatible
+europe/netherlands/2020-21_nl2.txt,europe/netherlands:nl2,2020-21,2020-21,380,380,380,Netherlands Eerste Divisie 2020/21,2020-08-28,2021-05-12,257.0,verified_compatible
+europe/netherlands/2021-22_nl1.txt,europe/netherlands:nl1,2021-22,2021-22,306,306,306,Netherlands Eredivisie 2021/22,2021-08-13,2022-05-15,275.0,verified_compatible
+europe/netherlands/2021-22_nl2.txt,europe/netherlands:nl2,2021-22,2021-22,380,380,380,Netherlands Eerste Divisie 2021/22,2021-08-06,2022-05-06,273.0,verified_compatible
+europe/netherlands/2022-23_nl1.txt,europe/netherlands:nl1,2022-23,2022-23,306,306,306,Netherlands Eredivisie 2022/23,2022-08-05,2023-05-28,296.0,verified_compatible
+europe/netherlands/2022-23_nl2.txt,europe/netherlands:nl2,2022-23,2022-23,380,380,380,Netherlands Eerste Divisie 2022/23,2022-08-05,2023-05-19,287.0,verified_compatible
+europe/netherlands/2023-24_nl1.txt,europe/netherlands:nl1,2023-24,2023-24,306,306,306,Netherlands Eredivisie 2023/24,2023-08-11,2024-05-19,282.0,verified_compatible
+europe/netherlands/2023-24_nl2.txt,europe/netherlands:nl2,2023-24,2023-24,380,380,380,Netherlands Eerste Divisie 2023/24,2023-08-11,2024-05-10,273.0,verified_compatible
+europe/netherlands/2024-25_nl1.txt,europe/netherlands:nl1,2024-25,2024-25,306,306,306,Netherlands Eredivisie 2024/25,2024-08-09,2025-05-18,282.0,verified_compatible
+europe/netherlands/2024-25_nl2.txt,europe/netherlands:nl2,2024-25,2024-25,380,380,380,Netherlands Eerste Divisie 2024/25,2024-08-09,2025-05-09,273.0,verified_compatible
+europe/netherlands/2024-25_nlcup.txt,europe/netherlands:nlcup,2024-25,2024-25,109,109,109,Netherlands Cup 2024/25,2024-09-03,2025-04-21,230.0,verified_compatible
+europe/netherlands/2025-26_nl1.txt,europe/netherlands:nl1,2025-26,2025-26,306,306,306,Netherlands Eredivisie 2025/26,2025-08-08,2026-05-17,282.0,verified_compatible
+europe/netherlands/2026-27_nl1.txt,europe/netherlands:nl1,2026-27,2026-27,306,306,306,Netherlands Eredivisie 2026/27,2026-08-07,2027-05-23,289.0,verified_compatible
+europe/north-macedonia/2023-24_mk1.txt,europe/north-macedonia:mk1,2023-24,2023-24,198,198,198,North Macedonia First League 2023/24,2023-08-06,2024-05-18,286.0,verified_compatible
+europe/north-macedonia/2024-25_mk1.txt,europe/north-macedonia:mk1,2024-25,2024-25,198,198,198,North Macedonia First League 2024/25,2024-08-11,2025-05-18,280.0,verified_compatible
+europe/northern-ireland/2023-24_nir1.txt,europe/northern-ireland:nir1,2023-24,2023-24,198,198,198,Northern Irish Premiership 2023/24,2023-08-04,2024-04-02,242.0,verified_compatible
+europe/northern-ireland/2024-25_nir1.txt,europe/northern-ireland:nir1,2024-25,2024-25,231,231,231,Northern Irish Premiership 2024/25,2024-08-09,2025-05-11,275.0,verified_compatible
+europe/norway/2023_no1.txt,europe/norway:no1,2023,2023,240,240,240,Norway Eliteserien 2023,2023-04-10,2023-12-03,237.0,verified_compatible
+europe/norway/2024_no1.txt,europe/norway:no1,2024,2024,240,240,240,Norway Eliteserien 2024,2024-03-31,2024-12-01,245.0,verified_compatible
+europe/norway/2025_no1.txt,europe/norway:no1,2025,2025,240,240,240,Norway Eliteserien 2025,2025-03-29,2025-11-30,246.0,verified_compatible
+europe/norway/2025_no2.txt,europe/norway:no2,2025,2025,240,240,240,Norway 1. Division 2025,2025-03-31,2025-11-08,222.0,verified_compatible
+europe/norway/2025_nocup.txt,europe/norway:nocup,2025,2025,112,112,112,Norway Cupen 2025,2025-03-26,2025-05-12,47.0,verified_compatible
+europe/poland/2023-24_pl1.txt,europe/poland:pl1,2023-24,2023-24,306,306,306,Poland Ekstraklasa 2023/24,2023-07-21,2024-05-25,309.0,verified_compatible
+europe/poland/2024-25_pl1.txt,europe/poland:pl1,2024-25,2024-25,306,306,306,Poland Ekstraklasa 2024/25,2024-07-19,2025-05-24,309.0,verified_compatible
+europe/poland/2024-25_pl2.txt,europe/poland:pl2,2024-25,2024-25,306,306,306,Poland I Liga 2024/25,2024-07-19,2025-05-25,310.0,verified_compatible
+europe/portugal/2018-19_pt1.txt,europe/portugal:pt1,2018-19,2018-19,306,306,306,Portuguese Primeira Liga 2018/19,2018-08-10,2019-05-19,282.0,verified_compatible
+europe/portugal/2019-20_pt1.txt,europe/portugal:pt1,2019-20,2019-20,306,306,306,Portuguese Primeira Liga 2019/20,2019-08-09,2020-07-26,352.0,verified_compatible
+europe/portugal/2020-21_pt1.txt,europe/portugal:pt1,2020-21,2020-21,306,306,306,Portuguese Primeira Liga 2020/21,2020-09-18,2021-05-19,243.0,verified_compatible
+europe/portugal/2020-21_pt2.txt,europe/portugal:pt2,2020-21,2020-21,306,306,306,Portuguese Segunda Liga 2020/21,2020-09-10,2021-05-22,254.0,verified_compatible
+europe/portugal/2021-22_pt1.txt,europe/portugal:pt1,2021-22,2021-22,306,306,306,Portuguese Primeira Liga 2021/22,2021-08-06,2022-05-15,282.0,verified_compatible
+europe/portugal/2021-22_pt2.txt,europe/portugal:pt2,2021-22,2021-22,306,306,306,Portuguese Segunda Liga 2021/22,2021-08-07,2022-05-15,281.0,verified_compatible
+europe/portugal/2022-23_pt1.txt,europe/portugal:pt1,2022-23,2022-23,306,306,306,Portuguese Primeira Liga 2022/23,2022-08-05,2023-05-27,295.0,verified_compatible
+europe/portugal/2022-23_pt2.txt,europe/portugal:pt2,2022-23,2022-23,306,306,306,Portuguese Segunda Liga 2022/23,2022-08-06,2023-05-28,295.0,verified_compatible
+europe/portugal/2023-24_pt1.txt,europe/portugal:pt1,2023-24,2023-24,306,306,306,Portuguese Primeira Liga 2023/24,2023-08-11,2024-05-18,281.0,verified_compatible
+europe/portugal/2023-24_pt2.txt,europe/portugal:pt2,2023-24,2023-24,306,306,306,Portuguese Segunda Liga 2023/24,2023-08-12,2024-05-19,281.0,verified_compatible
+europe/portugal/2024-25_pt1.txt,europe/portugal:pt1,2024-25,2024-25,306,306,306,Portuguese Primeira Liga 2024/25,2024-08-09,2025-05-17,281.0,verified_compatible
+europe/portugal/2024-25_pt2.txt,europe/portugal:pt2,2024-25,2024-25,306,306,306,Portuguese Segunda Liga 2024/25,2024-08-10,2025-05-17,280.0,verified_compatible
+europe/portugal/2024-25_ptcup.txt,europe/portugal:ptcup,2024-25,2024-25,111,111,111,Portuguese Taça de Portugal 2024/25,2024-09-20,2025-05-25,247.0,verified_compatible
+europe/portugal/2025-26_pt1.txt,europe/portugal:pt1,2025-26,2025-26,306,306,306,Portuguese Primeira Liga 2025/26,2025-08-08,2026-05-16,281.0,verified_compatible
+europe/portugal/2026-27_pt1.txt,europe/portugal:pt1,2026-27,2026-27,306,306,306,Portuguese Primeira Liga 2026/27,2026-08-07,2027-05-16,282.0,verified_compatible
+europe/romania/2023-24_ro1.txt,europe/romania:ro1,2023-24,2023-24,317,317,317,Romania Liga 1 2023/24,2023-07-14,2024-05-26,317.0,verified_compatible
+europe/romania/2024-25_ro1.txt,europe/romania:ro1,2024-25,2024-25,315,315,315,Romania Liga 1 2024/25,2024-07-12,2025-05-24,316.0,verified_compatible
+europe/romania/2024-25_rocup.txt,europe/romania:rocup,2024-25,2024-25,61,61,61,Romania Cup 2024/25,2024-08-27,2025-05-14,260.0,verified_compatible
+europe/russia/2018-19_ru1.txt,europe/russia:ru1,2018-19,2018-19,240,240,240,Russia Premier League 2018/19,2018-07-28,2019-05-26,302.0,verified_compatible
+europe/russia/2019-20_ru1.txt,europe/russia:ru1,2019-20,2019-20,240,240,240,Russia Premier League 2019/20,2019-07-12,2020-07-22,376.0,verified_compatible
+europe/russia/2019-20_ru2.txt,europe/russia:ru2,2019-20,2019-20,240,240,240,Russia 1. Division 2019/20,2019-07-12,2020-07-22,376.0,verified_compatible
+europe/russia/2020-21_ru1.txt,europe/russia:ru1,2020-21,2020-21,240,240,240,Russia Premier League 2020/21,2020-08-08,2021-05-16,281.0,verified_compatible
+europe/russia/2023-24_ru1.txt,europe/russia:ru1,2023-24,2023-24,240,240,240,Russia Premier League 2023/24,2023-07-21,2024-05-25,309.0,verified_compatible
+europe/russia/2024-25_ru1.txt,europe/russia:ru1,2024-25,2024-25,240,240,240,Russia Premier League 2024/25,2024-07-20,2025-05-24,308.0,verified_compatible
+europe/san-marino/2023-24_sm1.txt,europe/san-marino:sm1,2023-24,2023-24,256,256,256,San Marinese Championship 2023/24,2023-09-15,2024-05-18,246.0,verified_compatible
+europe/san-marino/2024-25_sm1.txt,europe/san-marino:sm1,2024-25,2024-25,256,256,256,San Marinese Championship 2024/25,2024-08-30,2025-05-17,260.0,verified_compatible
+europe/scotland/2018-19_sco1.txt,europe/scotland:sco1,2018-19,2018-19,198,198,198,Scottish Premiership 2018/19,2018-08-04,2019-04-07,246.0,verified_compatible
+europe/scotland/2019-20_sco1.txt,europe/scotland:sco1,2019-20,2019-20,198,198,198,Scottish Premiership 2019/20,2019-08-03,2020-04-05,246.0,verified_compatible
+europe/scotland/2020-21_sco1.txt,europe/scotland:sco1,2020-21,2020-21,198,198,198,Scottish Premiership 2020/21,2020-08-01,2021-03-21,232.0,verified_compatible
+europe/scotland/2023-24_sco1.txt,europe/scotland:sco1,2023-24,2023-24,228,228,228,Scottish Premiership 2023/24,2023-08-05,2024-05-19,288.0,verified_compatible
+europe/scotland/2024-25_sco1.txt,europe/scotland:sco1,2024-25,2024-25,228,228,228,Scottish Premiership 2024/25,2024-08-03,2025-05-18,288.0,verified_compatible
+europe/scotland/2025-26_sco1.txt,europe/scotland:sco1,2025-26,2025-26,198,198,198,Scottish Premiership 2025/26,2025-08-02,2026-04-11,252.0,verified_compatible
+europe/scotland/2026-27_sco1.txt,europe/scotland:sco1,2026-27,2026-27,198,198,198,Scotland | Premiership 2026/27,2026-07-31,2027-04-10,253.0,verified_compatible
+europe/serbia/2023-24_rs1.txt,europe/serbia:rs1,2023-24,2023-24,296,296,296,Serbia Super League 2023/24,2023-07-29,2024-05-25,301.0,verified_compatible
+europe/serbia/2024-25_rs1.txt,europe/serbia:rs1,2024-25,2024-25,296,296,296,Serbia Super League 2024/25,2024-07-19,2025-05-25,310.0,verified_compatible
+europe/slovakia/2023-24_sk1.txt,europe/slovakia:sk1,2023-24,2023-24,192,192,192,Slovakia First League 2023/24,2023-07-28,2024-05-18,295.0,verified_compatible
+europe/slovakia/2024-25_sk1.txt,europe/slovakia:sk1,2024-25,2024-25,195,195,195,Slovakia First League 2024/25,2024-07-27,2025-05-23,300.0,verified_compatible
+europe/slovenia/2023-24_si1.txt,europe/slovenia:si1,2023-24,2023-24,180,180,180,Slovenia First League 2023/24,2023-07-22,2024-05-19,302.0,verified_compatible
+europe/slovenia/2024-25_si1.txt,europe/slovenia:si1,2024-25,2024-25,180,180,180,Slovenia First League 2024/25,2024-07-19,2025-05-25,310.0,verified_compatible
+europe/slovenia/2024-25_sicup.txt,europe/slovenia:sicup,2024-25,2024-25,123,123,123,Slovenia Cup 2024/25,2024-08-27,2025-05-14,260.0,verified_compatible
+europe/sweden/2023_se1.txt,europe/sweden:se1,2023,2023,240,240,240,Sweden Allsvenskan 2023,2023-04-01,2023-11-12,225.0,verified_compatible
+europe/sweden/2024_se1.txt,europe/sweden:se1,2024,2024,240,240,240,Sweden Allsvenskan 2024,2024-03-30,2024-11-10,225.0,verified_compatible
+europe/sweden/2025_se1.txt,europe/sweden:se1,2025,2025,240,240,240,Sweden Allsvenskan 2025,2025-03-29,2025-11-09,225.0,verified_compatible
+europe/sweden/2025_se2.txt,europe/sweden:se2,2025,2025,240,240,240,Sweden Superettan 2025,2025-03-29,2025-11-08,224.0,verified_compatible
+europe/sweden/2025_se3s.txt,europe/sweden:se3s,2025,2025,240,240,240,Sweden Div 1 Södra 2025,2025-03-28,2025-11-09,226.0,verified_compatible
+europe/switzerland/2014-15_ch1.txt,europe/switzerland:ch1,2014-15,2014-15,180,180,180,Swiss Super League 2014/15,2014-07-19,2015-05-29,314.0,verified_compatible
+europe/switzerland/2018-19_ch1.txt,europe/switzerland:ch1,2018-19,2018-19,180,180,180,Swiss Super League 2018/19,2018-07-21,2019-05-25,308.0,verified_compatible
+europe/switzerland/2019-20_ch1.txt,europe/switzerland:ch1,2019-20,2019-20,180,180,180,Swiss Super League 2019/20,2019-07-19,2020-08-03,381.0,verified_compatible
+europe/switzerland/2019-20_ch2.txt,europe/switzerland:ch2,2019-20,2019-20,180,180,180,Swiss Challenge League 2019/20,2019-07-20,2020-08-02,379.0,verified_compatible
+europe/switzerland/2020-21_ch1.txt,europe/switzerland:ch1,2020-21,2020-21,180,180,180,Swiss Super League 2020/21,2020-09-19,2021-05-21,244.0,verified_compatible
+europe/switzerland/2020-21_ch2.txt,europe/switzerland:ch2,2020-21,2020-21,180,180,180,Swiss Challenge League 2020/21,2020-09-18,2021-05-20,244.0,verified_compatible
+europe/switzerland/2023-24_ch1.txt,europe/switzerland:ch1,2023-24,2023-24,228,228,228,Swiss Super League 2023/24,2023-07-22,2024-05-25,308.0,verified_compatible
+europe/switzerland/2023-24_ch2.txt,europe/switzerland:ch2,2023-24,2023-24,180,180,180,Swiss Challenge League 2023/24,2023-07-21,2024-05-20,304.0,verified_compatible
+europe/switzerland/2023-24_chcup.txt,europe/switzerland:chcup,2023-24,2023-24,63,63,63,Swiss Cup 2023/24,2023-08-18,2024-06-02,289.0,verified_compatible
+europe/switzerland/2024-25_ch1.txt,europe/switzerland:ch1,2024-25,2024-25,228,228,228,Swiss Super League 2024/25,2024-07-20,2025-05-24,308.0,verified_compatible
+europe/switzerland/2024-25_ch2.txt,europe/switzerland:ch2,2024-25,2024-25,180,180,180,Swiss Challenge League 2024/25,2024-07-19,2025-05-23,308.0,verified_compatible
+europe/switzerland/2024-25_chcup.txt,europe/switzerland:chcup,2024-25,2024-25,63,63,63,Swiss Cup 2024/25,2024-08-16,2025-06-01,289.0,verified_compatible
+europe/switzerland/2026-27_ch1.txt,europe/switzerland:ch1,2026-27,2026-27,132,132,132,Switzerland | Super League 2026/27,2026-07-25,2027-02-07,197.0,verified_compatible
+europe/turkey/2018-19_tr1.txt,europe/turkey:tr1,2018-19,2018-19,306,306,306,Turkish Süper Lig 2018/19,2018-08-10,2019-05-26,289.0,verified_compatible
+europe/turkey/2019-20_tr1.txt,europe/turkey:tr1,2019-20,2019-20,306,306,306,Turkish Süper Lig 2019/20,2019-08-16,2020-07-26,345.0,verified_compatible
+europe/turkey/2019-20_tr2.txt,europe/turkey:tr2,2019-20,2019-20,311,311,311,Turkish 1. Lig 2019/20,2019-08-16,2020-07-30,349.0,verified_compatible
+europe/turkey/2020-21_tr1.txt,europe/turkey:tr1,2020-21,2020-21,420,420,420,Turkish Süper Lig 2020/21,2020-09-11,2021-05-15,246.0,verified_compatible
+europe/turkey/2023-24_tr1.txt,europe/turkey:tr1,2023-24,2023-24,380,380,380,Turkish Süper Lig 2023/24,2023-08-11,2024-05-26,289.0,verified_compatible
+europe/turkey/2024-25_tr1.txt,europe/turkey:tr1,2024-25,2024-25,342,342,342,Turkish Süper Lig 2024/25,2024-08-09,2025-06-01,296.0,verified_compatible
+europe/turkey/2024-25_trcup.txt,europe/turkey:trcup,2024-25,2024-25,158,158,158,Türkiye Kupasi 2024/25,2024-10-08,2025-05-14,218.0,verified_compatible
+europe/turkey/2025-26_tr1.txt,europe/turkey:tr1,2025-26,2025-26,306,306,306,Turkish Süper Lig 2025/26,2025-08-08,2026-05-17,282.0,verified_compatible
+europe/turkey/2026-27_tr1.txt,europe/turkey:tr1,2026-27,2026-27,306,306,306,Turkey | Süper Lig 2026/27,2026-08-14,2027-05-23,282.0,verified_compatible
+europe/ukraine/2023-24_ua1.txt,europe/ukraine:ua1,2023-24,2023-24,240,240,240,Ukraine Premier League 2023/24,2023-07-28,2024-05-25,302.0,verified_compatible
+europe/ukraine/2024-25_ua1.txt,europe/ukraine:ua1,2024-25,2024-25,240,240,240,Ukraine Premier League 2024/25,2024-08-03,2025-05-25,295.0,verified_compatible
+europe/wales/2023-24_wal1.txt,europe/wales:wal1,2023-24,2023-24,195,195,195,Welsh Premier League 2023/24,2023-08-11,2024-05-18,281.0,verified_compatible
+europe/wales/2024-25_wal1.txt,europe/wales:wal1,2024-25,2024-25,196,196,196,Welsh Premier League 2024/25,2024-08-09,2025-05-18,282.0,verified_compatible
+italy/2013-14/1-seriea.txt,italy:1-seriea,2013-14,2013-14,380,380,380,Italian Serie A 2013/14,2013-08-24,2014-05-18,267.0,verified_compatible
+italy/2013-14/2-serieb.txt,italy:2-serieb,2013-14,2013-14,472,472,472,Italian Serie B 2013/14,2013-08-23,2014-06-18,299.0,verified_compatible
+italy/2014-15/1-seriea.txt,italy:1-seriea,2014-15,2014-15,380,380,380,Italian Serie A 2014/15,2014-08-30,2015-05-31,274.0,verified_compatible
+italy/2014-15/2-serieb.txt,italy:2-serieb,2014-15,2014-15,472,472,472,Italian Serie B 2014/15,2014-08-29,2015-06-09,284.0,verified_compatible
+italy/2015-16/1-seriea.txt,italy:1-seriea,2015-16,2015-16,380,380,380,Italian Serie A 2015/16,2015-08-22,2016-05-15,267.0,verified_compatible
+italy/2015-16/2-serieb.txt,italy:2-serieb,2015-16,2015-16,472,472,472,Italian Serie B 2015/16,2015-09-05,2016-06-09,278.0,verified_compatible
+italy/2016-17/1-seriea.txt,italy:1-seriea,2016-17,2016-17,380,380,380,Italian Serie A 2016/17,2016-08-20,2017-05-28,281.0,verified_compatible
+italy/2016-17/2-serieb.txt,italy:2-serieb,2016-17,2016-17,470,470,470,Italian Serie B 2016/17,2016-08-26,2017-06-08,286.0,verified_compatible
+italy/2017-18/1-seriea.txt,italy:1-seriea,2017-18,2017-18,380,380,380,Italian Serie A 2017/18,2017-08-19,2018-05-20,274.0,verified_compatible
+italy/2017-18/2-serieb.txt,italy:2-serieb,2017-18,2017-18,472,472,472,Italian Serie B 2017/18,2017-08-25,2018-06-16,295.0,verified_compatible
+italy/2018-19/1-seriea.txt,italy:1-seriea,2018-19,2018-19,380,380,380,Italian Serie A 2018/19,2018-08-18,2019-05-26,281.0,verified_compatible
+italy/2018-19/2-serieb.txt,italy:2-serieb,2018-19,2018-19,352,352,352,Italian Serie B 2018/19,2018-08-24,2019-06-09,289.0,verified_compatible
+italy/2019-20/1-seriea.txt,italy:1-seriea,2019-20,2019-20,380,380,380,Italian Serie A 2019/20,2019-08-24,2020-08-02,344.0,verified_compatible
+italy/2019-20/2-serieb.txt,italy:2-serieb,2019-20,2019-20,390,390,390,Italian Serie B 2019/20,2019-08-23,2020-08-20,363.0,verified_compatible
+italy/2020-21/1-seriea.txt,italy:1-seriea,2020-21,2020-21,380,380,380,Italian Serie A 2020/21,2020-09-19,2021-05-23,246.0,verified_compatible
+italy/2020-21/2-serieb.txt,italy:2-serieb,2020-21,2020-21,388,388,388,= Aufstieg,2020-09-25,2021-05-27,244.0,verified_compatible
+italy/2020-21/cup.txt,italy:cup,2020-21,2020-21,79,79,79,Coppa Italia 2020/21,2020-09-22,2021-05-19,239.0,verified_compatible
+italy/2021-22/1-seriea.txt,italy:1-seriea,2021-22,2021-22,380,380,380,Italian Serie A 2021/22,2021-08-21,2022-05-22,274.0,verified_compatible
+italy/2021-22/2-serieb.txt,italy:2-serieb,2021-22,2021-22,390,390,390,= Aufstieg,2021-08-20,2022-05-29,282.0,verified_compatible
+italy/2021-22/cup.txt,italy:cup,2021-22,2021-22,45,45,45,Coppa Italia 2021/22,2021-08-07,2022-05-11,277.0,verified_compatible
+italy/2022-23/1-seriea.txt,italy:1-seriea,2022-23,2022-23,380,380,380,Italian Serie A 2022/23,2022-08-13,2023-06-04,295.0,verified_compatible
+italy/2022-23/2-serieb.txt,italy:2-serieb,2022-23,2022-23,390,390,390,= Playoff,2022-08-12,2023-06-11,303.0,verified_compatible
+italy/2022-23/cup.txt,italy:cup,2022-23,2022-23,45,45,45,Coppa Italia 2022/23,2022-07-30,2023-05-24,298.0,verified_compatible
+italy/2023-24/1-seriea.txt,italy:1-seriea,2023-24,2023-24,380,380,380,Italian Serie A 2023/24,2023-08-19,2024-06-02,288.0,verified_compatible
+italy/2023-24/2-serieb.txt,italy:2-serieb,2023-24,2023-24,390,390,390,= Playoff,2023-08-18,2024-06-02,289.0,verified_compatible
+italy/2023-24/cup.txt,italy:cup,2023-24,2023-24,45,45,45,Coppa Italia 2023/24,2023-08-05,2024-05-15,284.0,verified_compatible
+italy/2024-25/1-seriea.txt,italy:1-seriea,2024-25,2024-25,380,380,380,Italian Serie A 2024/25,2024-08-17,2025-05-25,281.0,verified_compatible
+italy/2024-25/2-serieb.txt,italy:2-serieb,2024-25,2024-25,390,390,390,Italian Serie B 2024/25,2024-08-16,2025-06-01,289.0,verified_compatible
+italy/2024-25/3-seriec_a.txt,italy:3-seriec_a,2024-25,2024-25,380,380,380,Italian Serie C (North & Central West) 2024/25,2024-08-23,2025-04-27,247.0,verified_compatible
+italy/2024-25/3-seriec_b.txt,italy:3-seriec_b,2024-25,2024-25,380,380,380,Italian Serie C (North & Central East) 2024/25,2024-08-23,2025-04-27,247.0,verified_compatible
+italy/2024-25/3-seriec_c.txt,italy:3-seriec_c,2024-25,2024-25,380,380,380,Italian Serie C (South) 2024/25,2024-08-23,2025-04-27,247.0,verified_compatible
+italy/2024-25/cup.txt,italy:cup,2024-25,2024-25,45,45,45,Coppa Italia 2024/25,2024-08-03,2025-05-14,284.0,verified_compatible
+italy/2025-26/1-seriea.txt,italy:1-seriea,2025-26,2025-26,380,380,380,Italy | Serie A 2025/26,2025-08-23,2026-05-24,274.0,verified_compatible
+italy/2025-26/2-serieb.txt,italy:2-serieb,2025-26,2025-26,380,380,380,Italian Serie B 2025/26,2025-08-22,2026-05-09,260.0,verified_compatible
+italy/2026-27/1-seriea.txt,italy:1-seriea,2026-27,2026-27,380,380,380,Italian Serie A 2026/27,2026-08-22,2027-05-30,281.0,verified_compatible
+south-america/argentina/2018-19_ar1.txt,south-america/argentina:ar1,2018-19,2018-19,325,325,325,Argentina Primera Division 2018/19,2018-08-10,2019-04-07,240.0,verified_compatible
+south-america/argentina/2019-20_ar1.txt,south-america/argentina:ar1,2019-20,2019-20,276,276,276,Argentina Primera Division 2019/20,2019-07-26,2020-03-09,227.0,verified_compatible
+south-america/argentina/2020_ar1.txt,south-america/argentina:ar1,2020,2020,135,135,135,Argentina Primera Division 2020,2020-10-30,2021-03-31,152.0,verified_compatible
+south-america/argentina/2021_ar1.txt,south-america/argentina:ar1,2021,2021,325,325,325,Argentina Primera Division 2021,2021-07-16,2021-12-13,150.0,verified_compatible
+south-america/argentina/2022_ar1.txt,south-america/argentina:ar1,2022,2022,378,378,378,Argentina Primera Division 2022,2022-06-03,2022-10-25,144.0,verified_compatible
+south-america/argentina/2023_ar1.txt,south-america/argentina:ar1,2023,2023,378,378,378,Argentina Primera Division 2023,2023-01-27,2023-07-30,184.0,verified_compatible
+south-america/argentina/2024_ar1.txt,south-america/argentina:ar1,2024,2024,378,378,378,Argentina Primera Division 2024,2024-05-10,2024-12-16,220.0,verified_compatible
+south-america/argentina/2025_ar1.txt,south-america/argentina:ar1,2025,2025,240,240,240,Argentina Primera Division 2025,2025-01-23,2025-05-04,101.0,verified_compatible
+south-america/brazil/2018_br1.txt,south-america/brazil:br1,2018,2018,380,380,380,Brasileiro Série A 2018,2018-04-14,2018-12-02,232.0,verified_compatible
+south-america/brazil/2018_br2.txt,south-america/brazil:br2,2018,2018,380,380,380,Brasileiro Série B 2018,2018-04-13,2018-11-24,225.0,verified_compatible
+south-america/brazil/2019_br1.txt,south-america/brazil:br1,2019,2019,380,380,380,Brasileiro Série A 2019,2019-04-27,2019-12-08,225.0,verified_compatible
+south-america/brazil/2019_br2.txt,south-america/brazil:br2,2019,2019,380,380,380,Brasileiro Série B 2019,2019-04-26,2019-11-30,218.0,verified_compatible
+south-america/brazil/2020_br1.txt,south-america/brazil:br1,2020,2020,380,380,380,Brasileiro Série A 2020,2020-08-08,2021-02-25,201.0,verified_compatible
+south-america/brazil/2020_br2.txt,south-america/brazil:br2,2020,2020,380,380,380,Brasileiro Série B 2020,2020-08-07,2021-01-29,175.0,verified_compatible
+south-america/brazil/2021_br1.txt,south-america/brazil:br1,2021,2021,380,380,380,Brasileiro Série A 2021,2021-05-29,2021-12-09,194.0,verified_compatible
+south-america/brazil/2021_br2.txt,south-america/brazil:br2,2021,2021,380,380,380,Brasileiro Série B 2021,2021-05-28,2021-11-28,184.0,verified_compatible
+south-america/brazil/2022_br1.txt,south-america/brazil:br1,2022,2022,380,380,380,Brasileiro Série A 2022,2022-04-09,2022-11-13,218.0,verified_compatible
+south-america/brazil/2022_br2.txt,south-america/brazil:br2,2022,2022,380,380,380,Brasileiro Série B 2022,2022-04-08,2022-11-06,212.0,verified_compatible
+south-america/brazil/2023_br1.txt,south-america/brazil:br1,2023,2023,380,380,380,Brasileiro Série A 2023,2023-04-15,2023-12-06,235.0,verified_compatible
+south-america/brazil/2023_br2.txt,south-america/brazil:br2,2023,2023,380,380,380,Brasileiro Série B 2023,2023-04-14,2023-11-25,225.0,verified_compatible
+south-america/brazil/2024_br1.txt,south-america/brazil:br1,2024,2024,380,380,380,Brasileiro Série A 2024,2024-04-13,2024-12-08,239.0,verified_compatible
+south-america/brazil/2024_br2.txt,south-america/brazil:br2,2024,2024,380,380,380,Brasileiro Série B 2024,2024-04-19,2024-11-24,219.0,verified_compatible
+south-america/brazil/2025_br1.txt,south-america/brazil:br1,2025,2025,380,380,380,Brasileiro Série A 2025,2025-03-29,2025-12-07,253.0,verified_compatible
+south-america/brazil/2025_br2.txt,south-america/brazil:br2,2025,2025,380,380,380,Brasileiro Série B 2025,2025-04-04,2025-11-22,232.0,verified_compatible
+south-america/brazil/2025_brcup.txt,south-america/brazil:brcup,2025,2025,92,92,92,Copa do Brasil 2025,2025-02-18,2025-05-22,93.0,verified_compatible
+south-america/brazil/2026_br1.txt,south-america/brazil:br1,2026,2026,380,380,380,Brasileiro Série A 2026,2026-01-28,2026-12-02,308.0,verified_compatible
+south-america/colombia/2023_co1.txt,south-america/colombia:co1,2023,2023,452,452,452,Colombia Primera A 2023,2023-01-24,2023-12-13,323.0,verified_compatible
+south-america/colombia/2024_co1.txt,south-america/colombia:co1,2024,2024,432,432,432,Colombia Primera A 2024,2024-01-19,2024-12-22,338.0,verified_compatible
+south-america/colombia/2025_co1.txt,south-america/colombia:co1,2025,2025,200,200,200,Colombia Primera A 2025,2025-01-24,2025-05-25,121.0,verified_compatible
+south-america/copa-libertadores/2012_copal.txt,south-america:copal,2012,2012,138,138,138,Copa Libertadores 2012,2012-01-24,2012-07-04,162.0,verified_compatible
+south-america/copa-libertadores/2012_copas.txt,south-america:copas,2012,2012,92,92,92,Copa Sudamericana 2012,2012-07-24,2012-12-12,141.0,verified_compatible
+south-america/copa-libertadores/2013_copal.txt,south-america:copal,2013,2013,138,138,138,Copa Libertadores 2013,2013-01-22,2013-07-24,183.0,verified_compatible
+south-america/copa-libertadores/2013_copas.txt,south-america:copas,2013,2013,92,92,92,Copa Sudamericana 2013,2013-07-30,2013-12-11,134.0,verified_compatible
+south-america/copa-libertadores/2014_copal.txt,south-america:copal,2014,2014,138,138,138,Copa Libertadores 2014,2014-01-28,2014-08-13,197.0,verified_compatible
+south-america/copa-libertadores/2014_copas.txt,south-america:copas,2014,2014,92,92,92,Copa Sudamericana 2014,2014-08-19,2014-12-10,113.0,verified_compatible
+south-america/copa-libertadores/2015_copal.txt,south-america:copal,2015,2015,138,138,138,Copa Libertadores 2015,2015-02-03,2015-08-05,183.0,verified_compatible
+south-america/copa-libertadores/2015_copas.txt,south-america:copas,2015,2015,92,92,92,Copa Sudamericana 2015,2015-08-11,2015-12-09,120.0,verified_compatible
+south-america/copa-libertadores/2016_copal.txt,south-america:copal,2016,2016,138,138,138,Copa Libertadores 2016,2016-02-02,2016-07-27,176.0,verified_compatible
+south-america/copa-libertadores/2016_copas.txt,south-america:copas,2016,2016,92,92,92,Copa Sudamericana 2016,2016-08-09,2016-12-08,121.0,verified_compatible
+south-america/copa-libertadores/2017_copal.txt,south-america:copal,2017,2017,156,156,156,Copa Libertadores 2017,2017-01-23,2017-11-29,310.0,verified_compatible
+south-america/copa-libertadores/2017_copas.txt,south-america:copas,2017,2017,106,106,106,Copa Sudamericana 2017,2017-02-28,2017-12-13,288.0,verified_compatible
+south-america/copa-libertadores/2018_copal.txt,south-america:copal,2018,2018,156,156,156,Copa Libertadores 2018,2018-01-22,2018-12-09,321.0,verified_compatible
+south-america/copa-libertadores/2018_copas.txt,south-america:copas,2018,2018,106,106,106,Copa Sudamericana 2018,2018-02-13,2018-12-12,302.0,verified_compatible
+south-america/copa-libertadores/2019_copal.txt,south-america:copal,2019,2019,155,155,155,Copa Libertadores 2019,2019-01-22,2019-11-23,305.0,verified_compatible
+south-america/copa-libertadores/2019_copas.txt,south-america:copas,2019,2019,105,105,105,Copa Sudamericana 2019,2019-02-05,2019-11-09,277.0,verified_compatible
+south-america/copa-libertadores/2020_copal.txt,south-america:copal,2020,2020,155,155,155,Copa Libertadores 2020,2020-01-21,2021-01-30,375.0,verified_compatible
+south-america/copa-libertadores/2020_copas.txt,south-america:copas,2020,2020,105,105,105,Copa Sudamericana 2020,2020-02-04,2021-01-23,354.0,verified_compatible
+south-america/copa-libertadores/2021_copal.txt,south-america:copal,2021,2021,155,155,155,Copa Libertadores 2021,2021-02-23,2021-11-27,277.0,verified_compatible
+south-america/copa-libertadores/2021_copas.txt,south-america:copas,2021,2021,157,157,157,Copa Sudamericana 2021,2021-03-16,2021-11-20,249.0,verified_compatible
+south-america/copa-libertadores/2022_copal.txt,south-america:copal,2022,2022,155,155,155,Copa Libertadores 2022,2022-02-08,2022-10-29,263.0,verified_compatible
+south-america/copa-libertadores/2022_copas.txt,south-america:copas,2022,2022,157,157,157,Copa Sudamericana 2022,2022-03-08,2022-10-01,207.0,verified_compatible
+south-america/copa-libertadores/2023_copal.txt,south-america:copal,2023,2023,155,155,155,Copa Libertadores 2023,2023-02-07,2023-11-04,270.0,verified_compatible
+south-america/copa-libertadores/2023_copas.txt,south-america:copas,2023,2023,157,157,157,Copa Sudamericana 2023,2023-03-07,2023-10-28,235.0,verified_compatible
+south-america/copa-libertadores/2024_copal.txt,south-america:copal,2024,2024,155,155,155,Copa Libertadores 2024,2024-02-06,2024-11-30,298.0,verified_compatible
+south-america/copa-libertadores/2024_copas.txt,south-america:copas,2024,2024,157,157,157,Copa Sudamericana 2024,2024-03-05,2024-11-23,263.0,verified_compatible
+south-america/copa-libertadores/2025_copal.txt,south-america:copal,2025,2025,155,155,155,Copa Libertadores 2025,2025-02-04,2025-11-29,298.0,verified_compatible
+south-america/copa-libertadores/2025_copas.txt,south-america:copas,2025,2025,121,121,121,Copa Sudamericana 2025,2025-03-04,2025-11-22,263.0,verified_compatible
+south-america/copa-libertadores/2026_copal.txt,south-america:copal,2026,2026,147,147,147,Copa Libertadores 2026,2026-02-03,2026-11-28,298.0,verified_compatible
+south-america/ecuador/2025_ec1.txt,south-america/ecuador:ec1,2025,2025,240,240,240,Ecuador Serie A 2025,2025-02-14,2025-09-28,226.0,verified_compatible
+south-america/paraguay/2025_py1.txt,south-america/paraguay:py1,2025,2025,138,138,138,Paraguay Primera Division 2025,2025-01-24,2025-07-04,161.0,verified_compatible
+world/africa/african-football-league/2023_afl.txt,world/africa:afl,2023,2023,14,14,14,African Football League 2023,2023-10-20,2023-11-12,23.0,verified_compatible
+world/africa/algeria/2023-24_dz1.txt,world/africa:dz1,2023-24,2023-24,240,240,240,Algeria | Ligue 1 2023/24,2023-09-15,2024-06-14,273.0,verified_compatible
+world/africa/algeria/2024-25_dz1.txt,world/africa:dz1,2024-25,2024-25,240,240,240,Algeria | Ligue 1 2024/25,2024-09-19,2025-05-31,254.0,verified_compatible
+world/africa/champions-league/2023-24_cafcl.txt,world/africa:cafcl,2023-24,2023-24,138,138,138,CAF Champions League 2023/24,2023-08-18,2024-05-25,281.0,verified_compatible
+world/africa/champions-league/2024-25_cafcl.txt,world/africa:cafcl,2024-25,2024-25,148,148,148,CAF Champions League 2024/25,2024-08-16,2025-06-01,289.0,verified_compatible
+world/africa/egypt/2023-24_eg1.txt,world/africa:eg1,2023-24,2023-24,306,306,306,Egypt | Premiership 2023/24,2023-09-18,2024-08-18,335.0,verified_compatible
+world/africa/egypt/2024-25_eg1.txt,world/africa:eg1,2024-25,2024-25,225,225,225,Egypt | Premiership 2024/25,2024-10-30,2025-05-30,212.0,verified_compatible
+world/africa/ghana/2016-17_gh1.txt,world/africa:gh1,2016-17,2016-17,240,240,240,Ghana | Premier League 2016/17,2017-02-12,2017-10-22,252.0,verified_compatible
+world/africa/ghana/2020-21_gh1.txt,world/africa:gh1,2020-21,2020-21,306,306,306,Ghana | Premier League 2020/21,2020-11-14,2021-07-18,246.0,verified_compatible
+world/africa/ghana/2021-22_gh1.txt,world/africa:gh1,2021-22,2021-22,306,306,306,Ghana | Premier League 2021/22,2021-10-29,2022-06-19,233.0,verified_compatible
+world/africa/ghana/2022-23_gh1.txt,world/africa:gh1,2022-23,2022-23,306,306,306,Ghana | Premier League 2022/23,2022-09-10,2023-06-11,274.0,verified_compatible
+world/africa/ghana/2023-24_gh1.txt,world/africa:gh1,2023-24,2023-24,306,306,306,Ghana | Premier League 2023/24,2023-09-15,2024-06-16,275.0,verified_compatible
+world/africa/ghana/2024-25_gh1.txt,world/africa:gh1,2024-25,2024-25,306,306,306,Ghana | Premier League 2024/25,2024-09-07,2025-06-08,274.0,verified_compatible
+world/africa/kenya/2022-23_ke1.txt,world/africa:ke1,2022-23,2022-23,306,306,306,Kenya | Premier League 2022/23,2022-11-19,2023-06-25,218.0,verified_compatible
+world/africa/kenya/2023-24_ke1.txt,world/africa:ke1,2023-24,2023-24,306,306,306,Kenya | Premier League 2023/24,2023-08-26,2024-06-23,302.0,verified_compatible
+world/africa/kenya/2024-25_ke1.txt,world/africa:ke1,2024-25,2024-25,306,306,306,Kenya | Premier League 2024/25,2024-08-24,2025-06-22,302.0,verified_compatible
+world/africa/kenya/2025-26_ke1.txt,world/africa:ke1,2025-26,2025-26,306,306,306,Kenya | Premier League 2025/26,2025-09-19,2026-05-31,254.0,verified_compatible
+world/africa/malawi/2023_mw1.txt,world/africa:mw1,2023,2023,240,240,240,Malawi | Super League 2023,2023-04-15,2023-12-03,232.0,verified_compatible
+world/africa/malawi/2024_mw1.txt,world/africa:mw1,2024,2024,240,240,240,Malawi | Super League 2024,2024-04-06,2024-12-07,245.0,verified_compatible
+world/africa/malawi/2025_mw1.txt,world/africa:mw1,2025,2025,240,240,240,Malawi | Super League 2025,2025-04-05,2025-12-27,266.0,verified_compatible
+world/africa/morocco/2023-24_ma1.txt,world/africa:ma1,2023-24,2023-24,240,240,240,Morocco | Botola Pro 1 2023/24,2023-08-25,2024-06-14,294.0,verified_compatible
+world/africa/morocco/2024-25_ma1.txt,world/africa:ma1,2024-25,2024-25,200,200,200,Morocco | Botola Pro 1 2024/25,2024-08-30,2025-03-16,198.0,verified_compatible
+world/africa/nigeria/2009-10_ng1.txt,world/africa:ng1,2009-10,2009-10,380,380,380,Nigeria | Premier Football League 2009/2010,2009-01-09,2009-12-23,348.0,verified_compatible
+world/africa/nigeria/2010-11_ng1.txt,world/africa:ng1,2010-11,2010-11,380,380,380,Nigeria | Premier Football League 2010/2011,2010-01-01,2010-12-23,356.0,verified_compatible
+world/africa/nigeria/2011-12_ng1.txt,world/africa:ng1,2011-12,2011-12,374,355,355,Nigeria | Premier Football League 2011/2012,2011-01-07,2011-09-07,243.0,ROWS_INCOMPATIBLE_WITH_LABEL
+world/africa/nigeria/2012-13_ng1.txt,world/africa:ng1,2012-13,2012-13,380,380,380,Nigeria | Premier Football League 2012/2013,2012-03-09,2012-10-20,225.0,verified_compatible
+world/africa/nigeria/2013-14_ng1.txt,world/africa:ng1,2013-14,2013-14,380,380,380,Nigeria | Premier Football League 2013/2014,2013-03-07,2013-11-16,254.0,verified_compatible
+world/africa/nigeria/2014-15_ng1.txt,world/africa:ng1,2014-15,2014-15,380,380,380,Nigeria | Premier Football League 2014/2015,2014-03-07,2014-11-16,254.0,verified_compatible
+world/africa/nigeria/2015-16_ng1.txt,world/africa:ng1,2015-16,2015-16,360,360,360,Nigeria | Premier Football League 2015/2016,2015-02-20,2015-10-02,224.0,verified_compatible
+world/africa/nigeria/2016-17_ng1.txt,world/africa:ng1,2016-17,2016-17,380,380,380,Nigeria | Premier Football League 2016/2017,2016-01-14,2016-09-16,246.0,verified_compatible
+world/africa/nigeria/2017-18_ng1.txt,world/africa:ng1,2017-18,2017-18,240,240,240,Nigeria | Premier Football League 2017/2018,2017-01-13,2017-06-13,151.0,verified_compatible
+world/africa/nigeria/2017-18_ng2.txt,world/africa:ng2,2017-18,2017-18,297,284,284,Nigeria National League 2017/2018,,,,ROWS_INCOMPATIBLE_WITH_LABEL
+world/africa/nigeria/2018-19_ng1.txt,world/africa:ng1,2018-19,2018-19,279,279,279,Nigeria Professional Football League 2018/2019,,,,verified_compatible
+world/africa/nigeria/2018-19_ng2.txt,world/africa:ng2,2018-19,2018-19,184,184,184,Nigeria National League 2018/2019,,,,verified_compatible
+world/africa/nigeria/2020-21_ng1.txt,world/africa:ng1,2020-21,2020-21,380,380,380,Nigeria | Premier Football League 2020/2021,2020-01-02,2020-12-30,363.0,verified_compatible
+world/africa/nigeria/2020-21_ng2.txt,world/africa:ng2,2020-21,2020-21,480,480,480,Nigeria National League 2020/2021,,,,verified_compatible
+world/africa/nigeria/2021-22_ng1.txt,world/africa:ng1,2021-22,2021-22,380,380,380,Nigeria Professional League 2021/2022,2021-01-02,2021-12-30,362.0,verified_compatible
+world/africa/nigeria/2021-22_ng2.txt,world/africa:ng2,2021-22,2021-22,494,494,494,Nigeria National League 2021/2022,,,,verified_compatible
+world/africa/nigeria/2022-23_ng1.txt,world/africa:ng1,2022-23,2022-23,195,195,195,Nigeria Professional Football League 2022/2023,,,,verified_compatible
+world/africa/nigeria/2022-23_ng2.txt,world/africa:ng2,2022-23,2022-23,215,215,215,Nigeria National League 2022/2023,,,,verified_compatible
+world/africa/nigeria/2023-24_ng1.txt,world/africa:ng1,2023-24,2023-24,380,380,380,Nigeria Professional League 2023/2024,2023-01-06,2023-12-28,356.0,verified_compatible
+world/africa/nigeria/2023-24_ng2.txt,world/africa:ng2,2023-24,2023-24,378,378,378,Nigeria National League 2023/2024,,,,verified_compatible
+world/africa/nigeria/2024-25_ng1.txt,world/africa:ng1,2024-25,2024-25,380,380,380,Nigeria Professional League 2024/2025,2024-01-08,2024-12-31,358.0,verified_compatible
+world/africa/nigeria/2024-25_ng2.txt,world/africa:ng2,2024-25,2024-25,311,311,311,Nigeria National League 2024/2025,,,,verified_compatible
+world/africa/nigeria/2025-26_ng1.txt,world/africa:ng1,2025-26,2025-26,380,380,380,Nigeria Professional League 2025/2026,2025-08-22,2026-05-24,275.0,verified_compatible
+world/africa/nigeria/2025-26_ng2.txt,world/africa:ng2,2025-26,2025-26,275,275,275,Nigeria National League 2025/2026,2025-11-08,2026-05-08,181.0,verified_compatible
+world/africa/rwanda/2021-22_rw1.txt,world/africa:rw1,2021-22,2021-22,240,240,240,Rwanda | Premier League 2021/22,2021-10-30,2022-06-18,231.0,verified_compatible
+world/africa/rwanda/2022-23_rw1.txt,world/africa:rw1,2022-23,2022-23,240,240,240,Rwanda | Premier League 2022/23,2022-08-19,2023-05-28,282.0,verified_compatible
+world/africa/rwanda/2023-24_rw1.txt,world/africa:rw1,2023-24,2023-24,240,240,240,Rwanda | Premier League 2023/24,2023-08-18,2024-05-12,268.0,verified_compatible
+world/africa/rwanda/2024-25_rw1.txt,world/africa:rw1,2024-25,2024-25,240,240,240,Rwanda | Premier League 2024/25,2024-08-15,2025-05-28,286.0,verified_compatible
+world/africa/rwanda/2025-26_rw1.txt,world/africa:rw1,2025-26,2025-26,306,306,306,Rwanda | Premier League 2025/26,2025-09-12,2026-05-31,261.0,verified_compatible
+world/africa/senegal/2020-21_sn1.txt,world/africa:sn1,2020-21,2020-21,182,182,182,Senegal | Ligue 1 2020/21,2020-07-01,2021-06-30,364.0,verified_compatible
+world/africa/senegal/2021-22_sn1.txt,world/africa:sn1,2021-22,2021-22,182,182,182,Senegal | Ligue 1 2021/22,2021-11-20,2022-06-12,204.0,verified_compatible
+world/africa/senegal/2022-23_sn1.txt,world/africa:sn1,2022-23,2022-23,182,182,182,Senegal | Ligue 1 2022/23,2022-07-06,2023-06-25,354.0,verified_compatible
+world/africa/senegal/2024-25_sn1.txt,world/africa:sn1,2024-25,2024-25,240,240,240,Senegal | Ligue 1 2024/25,2024-10-19,2025-06-29,253.0,verified_compatible
+world/africa/senegal/2025-26_sn1.txt,world/africa:sn1,2025-26,2025-26,240,240,240,Senegal | Ligue 1 2025/26,2025-11-01,2026-06-04,215.0,verified_compatible
+world/africa/south-africa/2024-25_za1.txt,world/africa:za1,2024-25,2024-25,240,240,240,South Africa Premier League 2024/25,2024-09-14,2025-05-24,252.0,verified_compatible
+world/africa/tanzania/2020-21_tz1.txt,world/africa:tz1,2020-21,2020-21,306,306,306,Tanzania | Premier League 2020/21,2020-09-06,2021-07-18,315.0,verified_compatible
+world/africa/tanzania/2021-22_tz1.txt,world/africa:tz1,2021-22,2021-22,240,240,240,Tanzania | Premier League 2021/22,2021-09-27,2022-06-29,275.0,verified_compatible
+world/africa/tanzania/2023-24_tz1.txt,world/africa:tz1,2023-24,2023-24,240,240,240,Tanzania | Premier League 2023/24,2023-08-15,2024-05-28,287.0,verified_compatible
+world/africa/tanzania/2024-25_tz1.txt,world/africa:tz1,2024-25,2024-25,240,240,240,Tanzania | Premier League 2024/25,2024-08-16,2025-06-25,313.0,verified_compatible
+world/africa/tanzania/2025-26_tz1.txt,world/africa:tz1,2025-26,2025-26,240,240,240,Tanzania | Premier League 2025/26,2025-09-17,2026-06-30,286.0,verified_compatible
+world/africa/uganda/2023-24_ug1.txt,world/africa:ug1,2023-24,2023-24,225,225,225,Uganda Premier League 2023/2024,2023-09-15,2024-05-18,246.0,verified_compatible
+world/africa/uganda/2024-25_ug1.txt,world/africa:ug1,2024-25,2024-25,240,240,240,Uganda Premier League 2024/2025,2024-09-13,2025-05-24,253.0,verified_compatible
+world/africa/uganda/2025-26_ug1.txt,world/africa:ug1,2025-26,2025-26,240,240,240,Uganda Premier League 2025/2026,2025-09-26,2026-05-23,239.0,verified_compatible
+world/africa/zambia/2021-22_zm1.txt,world/africa:zm1,2021-22,2021-22,306,306,306,Zambia Super League 2021/2022,2021-09-11,2022-05-08,239.0,verified_compatible
+world/africa/zambia/2023-24_zm1.txt,world/africa:zm1,2023-24,2023-24,306,306,306,Zambia Super League 2023/2024,2023-08-18,2024-06-01,288.0,verified_compatible
+world/africa/zambia/2024-25_zm1.txt,world/africa:zm1,2024-25,2024-25,306,306,306,Zambia Super League 2024/2025,2024-08-18,2025-05-17,272.0,verified_compatible
+world/africa/zambia/2025-26_zm1.txt,world/africa:zm1,2025-26,2025-26,306,306,306,Zambia Super League 2025/2026,2025-08-16,2026-05-24,281.0,verified_compatible
+world/africa/zimbabwe/2021-22_zw1.txt,world/africa:zw1,2021-22,2021-22,306,306,306,Zimbabwe | Premier Soccer League 2021/22,2021-07-02,2022-06-26,359.0,verified_compatible
+world/africa/zimbabwe/2023_zw1.txt,world/africa:zw1,2023,2023,306,306,306,Zimbabwe | Premier Soccer League 2023,2023-03-18,2023-11-26,253.0,verified_compatible
+world/africa/zimbabwe/2024_zw1.txt,world/africa:zw1,2024,2024,306,306,306,Zimbabwe | Premier Soccer League 2024,2024-03-09,2024-11-24,260.0,verified_compatible
+world/africa/zimbabwe/2025_zw1.txt,world/africa:zw1,2025,2025,306,306,306,Zimbabwe | Premier Soccer League 2025,2025-02-28,2025-11-23,268.0,verified_compatible
+world/asia/china/2018_cn1.txt,world/asia:cn1,2018,2018,240,240,240,China | Super League 2018,2018-03-02,2018-11-11,254.0,verified_compatible
+world/asia/china/2019_cn1.txt,world/asia:cn1,2019,2019,240,240,240,China | Super League 2019,2019-03-01,2019-12-01,275.0,verified_compatible
+world/asia/china/2020_cn1.txt,world/asia:cn1,2020,2020,160,160,160,China | Super League 2020,2020-07-25,2020-11-12,110.0,verified_compatible
+world/asia/china/2021_cn1.txt,world/asia:cn1,2021,2021,176,176,176,China | Super League 2021,2021-04-20,2022-01-04,259.0,verified_compatible
+world/asia/china/2022_cn1.txt,world/asia:cn1,2022,2022,306,306,306,China | Super League 2022,2022-06-03,2022-12-31,211.0,verified_compatible
+world/asia/china/2023_cn1.txt,world/asia:cn1,2023,2023,240,240,240,China | Super League 2023,2023-04-15,2023-11-04,203.0,verified_compatible
+world/asia/china/2024_cn1.txt,world/asia:cn1,2024,2024,240,240,240,China | Super League 2024,2024-03-01,2024-11-02,246.0,verified_compatible
+world/asia/china/2025_cn1.txt,world/asia:cn1,2025,2025,240,240,240,China | Super League 2025,2025-02-22,2025-11-22,273.0,verified_compatible
+world/asia/japan/2019_jp1.txt,world/asia:jp1,2019,2019,306,306,306,Japan | J1 League 2019,2019-02-22,2019-12-07,288.0,verified_compatible
+world/asia/japan/2020_jp1.txt,world/asia:jp1,2020,2020,306,306,306,Japan | J1 League 2020,2020-02-21,2020-12-19,302.0,verified_compatible
+world/asia/japan/2021_jp1.txt,world/asia:jp1,2021,2021,380,380,380,Japan | J1 League 2021,2021-02-26,2021-12-04,281.0,verified_compatible
+world/asia/japan/2022_jp1.txt,world/asia:jp1,2022,2022,306,306,306,Japan | J1 League 2022,2022-02-18,2022-11-05,260.0,verified_compatible
+world/asia/japan/2023_jp1.txt,world/asia:jp1,2023,2023,306,306,306,Japan | J1 League 2023,2023-02-17,2023-12-03,289.0,verified_compatible
+world/asia/japan/2024_jp1.txt,world/asia:jp1,2024,2024,380,380,380,Japan | J1 League 2024,2024-02-23,2024-12-08,289.0,verified_compatible
+world/asia/japan/2025_jp1.txt,world/asia:jp1,2025,2025,380,380,380,Japan | J1 League 2025,2025-02-14,2025-12-06,295.0,verified_compatible
+world/asia/kazakhstan/2023_kz1.txt,world/asia:kz1,2023,2023,182,182,182,Kazakhstan | Premier League 2023,2023-03-04,2023-10-29,239.0,verified_compatible
+world/asia/kazakhstan/2024_kz1.txt,world/asia:kz1,2024,2024,156,156,156,Kazakhstan | Premier League 2024,2024-03-01,2024-11-10,254.0,verified_compatible
+world/asia/kazakhstan/2025_kz1.txt,world/asia:kz1,2025,2025,182,182,182,Kazakhstan | Premier League 2025,2025-03-01,2025-10-26,239.0,verified_compatible
+world/central-america/costa-rica/2024-25_cr1.txt,world/central-america:cr1,2024-25,2024-25,272,272,272,Costa Rica Primera División 2024/25,2024-07-19,2025-05-07,292.0,verified_compatible
+world/middle-east/israel/2023-24_il1.txt,world/middle-east:il1,2023-24,2023-24,240,240,240,Israel | Premier League 2023/24,2023-08-26,2024-05-25,273.0,verified_compatible
+world/middle-east/israel/2024-25_il1.txt,world/middle-east:il1,2024-25,2024-25,240,240,240,Israel | Premier League 2024/25,2024-08-24,2025-05-24,273.0,verified_compatible
+world/middle-east/israel/2024-25_il2.txt,world/middle-east:il2,2024-25,2024-25,296,296,296,Israel National League 2024/25,2024-08-22,2025-05-19,270.0,verified_compatible
+world/middle-east/israel/2024-25_ilcup.txt,world/middle-east:ilcup,2024-25,2024-25,31,31,31,Israel State Cup 2024/25,2024-12-26,2025-05-29,154.0,verified_compatible
+world/middle-east/saudi-arabia/2024-25_sa1.txt,world/middle-east:sa1,2024-25,2024-25,306,306,306,Saudi Arabia Saudi Professional League 2024/25,2024-08-22,2025-05-26,277.0,verified_compatible
+world/north-america/champions-league/2010-11_concacafcl.txt,world/north-america:concacafcl,2010-11,2010-11,62,62,62,CONCACAF Champions League 2010/11,2010-08-17,2011-04-27,253.0,verified_compatible
+world/north-america/champions-league/2011-12_concacafcl.txt,world/north-america:concacafcl,2011-12,2011-12,62,62,62,CONCACAF Champions League 2011/12,2011-08-16,2012-04-25,253.0,verified_compatible
+world/north-america/champions-league/2012-13_concacafcl.txt,world/north-america:concacafcl,2012-13,2012-13,62,62,62,CONCACAF Champions League 2012/13,2012-07-31,2013-05-01,274.0,verified_compatible
+world/north-america/champions-league/2013-14_concacafcl.txt,world/north-america:concacafcl,2013-14,2013-14,62,62,62,CONCACAF Champions League 2013/14,2013-08-06,2014-04-23,260.0,verified_compatible
+world/north-america/champions-league/2014-15_concacafcl.txt,world/north-america:concacafcl,2014-15,2014-15,62,62,62,CONCACAF Champions League 2014/15,2014-08-05,2015-04-29,267.0,verified_compatible
+world/north-america/champions-league/2015-16_concacafcl.txt,world/north-america:concacafcl,2015-16,2015-16,62,62,62,CONCACAF Champions League 2015/16,2015-08-04,2016-04-27,267.0,verified_compatible
+world/north-america/champions-league/2016-17_concacafcl.txt,world/north-america:concacafcl,2016-17,2016-17,62,62,62,CONCACAF Champions League 2016/17,2016-08-02,2017-04-26,267.0,verified_compatible
+world/north-america/champions-league/2018_concacafcl.txt,world/north-america:concacafcl,2018,2018,30,30,30,CONCACAF Champions League 2018,2018-02-20,2018-04-25,64.0,verified_compatible
+world/north-america/champions-league/2019_concacafcl.txt,world/north-america:concacafcl,2019,2019,30,30,30,CONCACAF Champions League 2019,2019-02-19,2019-05-01,71.0,verified_compatible
+world/north-america/champions-league/2020_concacafcl.txt,world/north-america:concacafcl,2020,2020,27,27,27,CONCACAF Champions League 2020,2020-02-18,2020-12-22,308.0,verified_compatible
+world/north-america/champions-league/2021_concacafcl.txt,world/north-america:concacafcl,2021,2021,29,29,29,CONCACAF Champions League 2021,2021-04-06,2021-10-28,205.0,verified_compatible
+world/north-america/champions-league/2022_concacafcl.txt,world/north-america:concacafcl,2022,2022,30,30,30,CONCACAF Champions League 2022,2022-02-15,2022-05-04,78.0,verified_compatible
+world/north-america/champions-league/2023_concacafcl.txt,world/north-america:concacafcl,2023,2023,30,30,30,CONCACAF Champions League 2023,2023-03-07,2023-06-04,89.0,verified_compatible
+world/north-america/champions-league/2024_concacafcl.txt,world/north-america:concacafcl,2024,2024,51,51,51,CONCACAF Champions League 2024,2024-02-06,2024-06-01,116.0,verified_compatible
+world/north-america/champions-league/2025_concacafcl.txt,world/north-america:concacafcl,2025,2025,51,51,51,CONCACAF Champions League 2025,2025-02-04,2025-06-01,117.0,verified_compatible
+world/north-america/major-league-soccer/2005_mls.txt,world/north-america:mls,2005,2005,203,203,203,Major League Soccer 2005,2005-04-02,2005-11-13,225.0,verified_compatible
+world/north-america/major-league-soccer/2006_mls.txt,world/north-america:mls,2006,2006,203,203,203,Major League Soccer 2006,2006-04-01,2006-11-12,225.0,verified_compatible
+world/north-america/major-league-soccer/2007_mls.txt,world/north-america:mls,2007,2007,206,206,206,Major League Soccer 2007,2007-04-07,2007-11-18,225.0,verified_compatible
+world/north-america/major-league-soccer/2008_mls.txt,world/north-america:mls,2008,2008,221,221,221,Major League Soccer 2008,2008-03-29,2008-11-23,239.0,verified_compatible
+world/north-america/major-league-soccer/2009_mls.txt,world/north-america:mls,2009,2009,236,236,236,Major League Soccer 2009,2009-03-19,2009-11-22,248.0,verified_compatible
+world/north-america/major-league-soccer/2010_mls.txt,world/north-america:mls,2010,2010,251,251,251,Major League Soccer 2010,2010-03-25,2010-11-21,241.0,verified_compatible
+world/north-america/major-league-soccer/2011_mls.txt,world/north-america:mls,2011,2011,319,319,319,Major League Soccer 2011,2011-03-15,2011-11-20,250.0,verified_compatible
+world/north-america/major-league-soccer/2012_mls.txt,world/north-america:mls,2012,2012,338,338,338,Major League Soccer 2012,2012-03-10,2012-12-01,266.0,verified_compatible
+world/north-america/major-league-soccer/2013_mls.txt,world/north-america:mls,2013,2013,338,338,338,Major League Soccer 2013,2013-03-02,2013-12-07,280.0,verified_compatible
+world/north-america/major-league-soccer/2014_mls.txt,world/north-america:mls,2014,2014,338,338,338,Major League Soccer 2014,2014-03-08,2014-12-07,274.0,verified_compatible
+world/north-america/major-league-soccer/2015_mls.txt,world/north-america:mls,2015,2015,357,357,357,Major League Soccer 2015,2015-03-06,2015-12-06,275.0,verified_compatible
+world/north-america/major-league-soccer/2016_mls.txt,world/north-america:mls,2016,2016,357,357,357,Major League Soccer 2016,2016-03-06,2016-12-10,279.0,verified_compatible
+world/north-america/major-league-soccer/2017_mls.txt,world/north-america:mls,2017,2017,391,391,391,Major League Soccer 2017,2017-03-03,2017-12-09,281.0,verified_compatible
+world/north-america/major-league-soccer/2018_mls.txt,world/north-america:mls,2018,2018,408,408,408,Major League Soccer 2018,2018-03-03,2018-12-08,280.0,verified_compatible
+world/north-america/major-league-soccer/2019_mls.txt,world/north-america:mls,2019,2019,421,421,421,Major League Soccer 2019,2019-03-02,2019-11-10,253.0,verified_compatible
+world/north-america/major-league-soccer/2020_mls.txt,world/north-america:mls,2020,2020,316,316,316,Major League Soccer 2020,2020-02-29,2020-12-12,287.0,verified_compatible
+world/north-america/major-league-soccer/2021_mls.txt,world/north-america:mls,2021,2021,472,472,472,Major League Soccer 2021,2021-04-16,2021-12-11,239.0,verified_compatible
+world/north-america/major-league-soccer/2022_mls.txt,world/north-america:mls,2022,2022,489,489,489,Major League Soccer 2022,2022-02-26,2022-11-05,252.0,verified_compatible
+world/north-america/major-league-soccer/2023_mls.txt,world/north-america:mls,2023,2023,521,521,521,Major League Soccer 2023,2023-02-25,2023-12-09,287.0,verified_compatible
+world/north-america/major-league-soccer/2024_mls.txt,world/north-america:mls,2024,2024,522,522,522,Major League Soccer 2024,2024-02-21,2024-12-07,290.0,verified_compatible
+world/north-america/major-league-soccer/2025_mls.txt,world/north-america:mls,2025,2025,510,510,510,Major League Soccer 2025,2025-02-22,2025-10-18,238.0,verified_compatible
+world/north-america/mexico/2010-11_mx1.txt,world/north-america:mx1,2010-11,2010-11,334,334,334,Liga MX 2010/11,2010-07-23,2011-05-22,303.0,verified_compatible
+world/north-america/mexico/2010-11_mx2ascenso.txt,world/north-america:mx2ascenso,2010-11,2010-11,315,315,315,Ascenso MX 2010/11,2010-07-17,2011-05-21,308.0,verified_compatible
+world/north-america/mexico/2011-12_mx1.txt,world/north-america:mx1,2011-12,2011-12,334,334,334,Liga MX 2011/12,2011-07-22,2012-05-20,303.0,verified_compatible
+world/north-america/mexico/2011-12_mx2ascenso.txt,world/north-america:mx2ascenso,2011-12,2011-12,251,251,251,Ascenso MX 2011/12,2011-07-29,2012-05-12,288.0,verified_compatible
+world/north-america/mexico/2012-13_mx1.txt,world/north-america:mx1,2012-13,2012-13,334,334,334,Liga MX 2012/13,2012-07-20,2013-05-26,310.0,verified_compatible
+world/north-america/mexico/2012-13_mx2ascenso.txt,world/north-america:mx2ascenso,2012-13,2012-13,236,236,236,Ascenso MX 2012/13,2012-07-20,2013-05-18,302.0,verified_compatible
+world/north-america/mexico/2013-14_mx1.txt,world/north-america:mx1,2013-14,2013-14,334,334,334,Liga MX 2013/14,2013-07-19,2014-05-18,303.0,verified_compatible
+world/north-america/mexico/2013-14_mx2ascenso.txt,world/north-america:mx2ascenso,2013-14,2013-14,236,236,236,Ascenso MX 2013/14,2013-07-19,2014-05-10,295.0,verified_compatible
+world/north-america/mexico/2014-15_mx1.txt,world/north-america:mx1,2014-15,2014-15,334,334,334,Liga MX 2014/15,2014-07-18,2015-05-31,317.0,verified_compatible
+world/north-america/mexico/2014-15_mx2ascenso.txt,world/north-america:mx2ascenso,2014-15,2014-15,208,207,207,Ascenso MX 2014/15,2012-05-23,2015-05-16,1088.0,ROWS_INCOMPATIBLE_WITH_LABEL
+world/north-america/mexico/2015-16_mx1.txt,world/north-america:mx1,2015-16,2015-16,334,334,334,Liga MX 2015/16,2015-07-24,2016-05-29,310.0,verified_compatible
+world/north-america/mexico/2015-16_mx2ascenso.txt,world/north-america:mx2ascenso,2015-16,2015-16,266,266,266,Ascenso MX 2015/16,2015-07-24,2016-05-21,302.0,verified_compatible
+world/north-america/mexico/2016-17_mx1.txt,world/north-america:mx1,2016-17,2016-17,334,334,334,Liga MX 2016/17,2016-07-15,2017-05-28,317.0,verified_compatible
+world/north-america/mexico/2016-17_mx2ascenso.txt,world/north-america:mx2ascenso,2016-17,2016-17,336,336,336,Ascenso MX 2016/17,2016-07-15,2017-05-20,309.0,verified_compatible
+world/north-america/mexico/2017-18_mx1.txt,world/north-america:mx1,2017-18,2017-18,334,334,334,Liga MX 2017/18,2017-07-21,2018-05-20,303.0,verified_compatible
+world/north-america/mexico/2017-18_mx2ascenso.txt,world/north-america:mx2ascenso,2017-18,2017-18,270,270,270,Ascenso MX 2017/18,2017-07-21,2018-05-12,295.0,verified_compatible
+world/north-america/mexico/2018-19_mx1.txt,world/north-america:mx1,2018-19,2018-19,334,334,334,Liga MX 2018/19,2018-07-20,2019-05-26,310.0,verified_compatible
+world/north-america/mexico/2018-19_mx2ascenso.txt,world/north-america:mx2ascenso,2018-19,2018-19,238,238,238,Ascenso MX 2018/19,2018-07-20,2019-05-05,289.0,verified_compatible
+world/north-america/mexico/2019-20_mx1.txt,world/north-america:mx1,2019-20,2019-20,338,338,338,Liga MX 2019/20,2019-07-19,2020-05-11,297.0,verified_compatible
+world/north-america/mexico/2019-20_mx2ascenso.txt,world/north-america:mx2ascenso,2019-20,2019-20,169,169,169,Ascenso MX 2019/20,2019-08-01,2020-04-12,255.0,verified_compatible
+world/north-america/mexico/2020-21_mx1.txt,world/north-america:mx1,2020-21,2020-21,342,342,342,Liga MX 2020/21,2020-07-24,2021-05-30,310.0,verified_compatible
+world/north-america/mexico/2020-21_mx2expansion.txt,world/north-america:mx2expansion,2020-21,2020-21,276,276,276,Liga de Expansión MX 2020/21,2020-08-18,2021-05-22,277.0,verified_compatible
+world/north-america/mexico/2021-22_mx1.txt,world/north-america:mx1,2021-22,2021-22,342,342,342,Liga MX 2021/22,2021-07-22,2022-05-29,311.0,verified_compatible
+world/north-america/mexico/2021-22_mx2expansion.txt,world/north-america:mx2expansion,2021-22,2021-22,310,310,310,Liga de Expansión MX 2021/22,2021-07-27,2022-05-22,299.0,verified_compatible
+world/north-america/mexico/2022-23_mx1.txt,world/north-america:mx1,2022-23,2022-23,342,342,342,Liga MX 2022/23,2022-07-01,2023-05-28,331.0,verified_compatible
+world/north-america/mexico/2022-23_mx2expansion.txt,world/north-america:mx2expansion,2022-23,2022-23,344,344,344,Liga de Expansión MX 2022/23,2022-06-24,2023-06-03,344.0,verified_compatible
+world/north-america/mexico/2023-24_mx1.txt,world/north-america:mx1,2023-24,2023-24,340,340,340,Liga MX 2023/24,2023-06-30,2024-05-26,331.0,verified_compatible
+world/north-america/mexico/2023-24_mx2expansion.txt,world/north-america:mx2expansion,2023-24,2023-24,246,246,246,Liga de Expansión MX 2023/24,2023-07-21,2024-05-18,302.0,verified_compatible
+world/north-america/mexico/2024-25_mx1.txt,world/north-america:mx1,2024-25,2024-25,340,340,340,Liga MX 2024/25,2024-07-05,2025-05-25,324.0,verified_compatible
+world/north-america/mexico/2024-25_mx2expansion.txt,world/north-america:mx2expansion,2024-25,2024-25,224,224,224,Liga de Expansión MX 2024/25,2024-07-26,2025-04-19,267.0,verified_compatible
+world/pacific/australia/2018-19_au1.txt,world/pacific:au1,2018-19,2018-19,140,140,140,Australia | A-League 2018/19,2018-10-19,2019-05-19,212.0,verified_compatible
+world/pacific/australia/2019-20_au1.txt,world/pacific:au1,2019-20,2019-20,148,148,148,Australia | A-League 2019/20,2019-10-11,2020-08-30,324.0,verified_compatible
+world/pacific/australia/2020-21_au1.txt,world/pacific:au1,2020-21,2020-21,161,161,161,Australia | A-League 2020/21,2020-12-28,2021-06-27,181.0,verified_compatible
+world/pacific/australia/2021-22_au1.txt,world/pacific:au1,2021-22,2021-22,163,163,163,Australia | A-League 2021/22,2021-11-19,2022-05-28,190.0,verified_compatible
+world/pacific/australia/2022-23_au1.txt,world/pacific:au1,2022-23,2022-23,163,163,163,Australia | A-League 2022/23,2022-10-07,2023-06-03,239.0,verified_compatible
+world/pacific/australia/2023-24_au1.txt,world/pacific:au1,2023-24,2023-24,169,169,169,Australia | A-League 2023/24,2023-10-20,2024-05-25,218.0,verified_compatible
+world/pacific/australia/2024-25_au1.txt,world/pacific:au1,2024-25,2024-25,176,176,176,Australia | A-League 2024/25,2024-10-18,2025-05-31,225.0,verified_compatible

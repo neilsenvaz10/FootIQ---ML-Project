@@ -1,0 +1,15 @@
+{
+ "active_python_processes": "none",
+ "physical": "1bfad5bd4663e70776ef9da35f5c89eeed11b1ed7274ee7fdb562e266a9cb278",
+ "physical_equals_v3": true,
+ "logical": "b3dcf8c0d04aa4538da77f4dc21c267b6414bb7e3c61692ad24a0ec4c2c1d95f",
+ "logical_equals_v3": true,
+ "integrity": "ok",
+ "journal": "wal",
+ "live_enabled": false,
+ "sidecars": [
+  "footiq.sqlite-shm",
+  "footiq.sqlite-wal"
+ ],
+ "git_staged": "none"
+}

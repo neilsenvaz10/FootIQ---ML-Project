@@ -1,0 +1,15 @@
+{
+ "files": {
+  "00_FRESHNESS_VALIDATION_REPORT.md": "adc6eda1c9ec1ecfd0ee38ba64a599e7836780606c97b99ced782436422b1d76",
+  "01_upstream_plan_2026-10-21T132958Z.json": "349dfaf6f324693993112d454bd3809c7b4615bfe53c66307ff19a7f0da7e325",
+  "02_competition_coverage.csv": "032d1c71a261003bb54984f1dced4998048e113eef5cc803735f85e4cb79ca1b",
+  "05_unresolved_fixture_teams.csv": "b0589a8e25d8711d3766c9740f31fab9519c716f7298e513fb191903c7e9c3b6",
+  "06_kickoff_time_coverage.csv": "944e6b0315a23104e14acb042d09c7ec7a893c15546b123f5195dbe7106b3471",
+  "07_current_eligibility_per_fixture.csv": "ffb278f9c9743d731e2e2c0c44c6dd70ddbefb07a9185c05f8b06ade2a3ad7c5",
+  "freshness_results.json": "6596d5642c43edd4caf27043ccdf4a325b51aaa6efa959f4def15d41fd76b0e1"
+ },
+ "frozen_v2_unchanged": true,
+ "matched_v1_unchanged": true,
+ "fetch_executed": false,
+ "official_approval_file_exists": false
+}

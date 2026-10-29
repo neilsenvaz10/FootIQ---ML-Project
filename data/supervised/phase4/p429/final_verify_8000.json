@@ -1,0 +1,568 @@
+{
+ "base": "http://127.0.0.1:8000",
+ "checks": [
+  {
+   "name": "health ok and club models ready",
+   "ok": true,
+   "detail": "{'status': 'ok', 'club_prediction_ready': True, 'data_rows': 15855}"
+  },
+  {
+   "name": "exactly the six competitions",
+   "ok": true,
+   "detail": "['EPL', 'LALIGA', 'BUNDESLIGA', 'SERIEA', 'LIGUE1', 'UCL']"
+  },
+  {
+   "name": "EPL dashboard",
+   "ok": true,
+   "detail": "80 matches (expected 80)"
+  },
+  {
+   "name": "EPL results listed on the dashboard",
+   "ok": true,
+   "detail": "30 recent results, newest 2026-10-25"
+  },
+  {
+   "name": "EPL match results (hub)",
+   "ok": true,
+   "detail": "{'upcoming': 300, 'awaiting_result': 0, 'completed': 80, 'other': 0, 'all': 380}"
+  },
+  {
+   "name": "EPL upcoming fixtures",
+   "ok": true,
+   "detail": "300 upcoming, next 2026-10-31 Chelsea FC v Manchester United FC"
+  },
+  {
+   "name": "EPL standings",
+   "ok": true,
+   "detail": "20 clubs, 80 games counted"
+  },
+  {
+   "name": "EPL team information and statistics",
+   "ok": true,
+   "detail": "Chelsea FC: ['form']"
+  },
+  {
+   "name": "EPL prediction for the next stored fixture",
+   "ok": true,
+   "detail": "Chelsea FC v Manchester United FC: H 0.426 D 0.212 A 0.362; models Club v1 (fro / Club v2-r1 (fr"
+  },
+  {
+   "name": "EPL prediction label",
+   "ok": true,
+   "detail": "Validated"
+  },
+  {
+   "name": "EPL data freshness indicator",
+   "ok": true,
+   "detail": "historical_only, newest result 2026-10-25"
+  },
+  {
+   "name": "LALIGA dashboard",
+   "ok": true,
+   "detail": "99 matches (expected 99)"
+  },
+  {
+   "name": "LALIGA results listed on the dashboard",
+   "ok": true,
+   "detail": "30 recent results, newest 2026-10-26"
+  },
+  {
+   "name": "LALIGA match results (hub)",
+   "ok": true,
+   "detail": "{'upcoming': 280, 'awaiting_result': 1, 'completed': 99, 'other': 0, 'all': 380}"
+  },
+  {
+   "name": "LALIGA upcoming fixtures",
+   "ok": true,
+   "detail": "280 upcoming, next 2026-11-01 Real Betis Balompié v Málaga CF"
+  },
+  {
+   "name": "LALIGA standings",
+   "ok": true,
+   "detail": "20 clubs, 99 games counted"
+  },
+  {
+   "name": "LALIGA team information and statistics",
+   "ok": true,
+   "detail": "Real Betis Balompié: ['form']"
+  },
+  {
+   "name": "LALIGA prediction for the next stored fixture",
+   "ok": true,
+   "detail": "Real Betis Balompié v Málaga CF: H 0.747 D 0.175 A 0.078; models Club v1 (fro / Club v2-r1 (fr"
+  },
+  {
+   "name": "LALIGA prediction label",
+   "ok": true,
+   "detail": "Validated"
+  },
+  {
+   "name": "LALIGA data freshness indicator",
+   "ok": true,
+   "detail": "startup_updated, newest result 2026-10-26"
+  },
+  {
+   "name": "BUNDESLIGA dashboard",
+   "ok": true,
+   "detail": "63 matches (expected 63)"
+  },
+  {
+   "name": "BUNDESLIGA results listed on the dashboard",
+   "ok": true,
+   "detail": "30 recent results, newest 2026-10-25"
+  },
+  {
+   "name": "BUNDESLIGA match results (hub)",
+   "ok": true,
+   "detail": "{'upcoming': 243, 'awaiting_result': 0, 'completed': 63, 'other': 0, 'all': 306}"
+  },
+  {
+   "name": "BUNDESLIGA upcoming fixtures",
+   "ok": true,
+   "detail": "243 upcoming, next 2026-10-30 SV 07 Elversberg v 1. FSV Mainz 05"
+  },
+  {
+   "name": "BUNDESLIGA standings",
+   "ok": true,
+   "detail": "18 clubs, 63 games counted"
+  },
+  {
+   "name": "BUNDESLIGA team information and statistics",
+   "ok": true,
+   "detail": "SV 07 Elversberg: ['form']"
+  },
+  {
+   "name": "BUNDESLIGA prediction for the next stored fixture",
+   "ok": true,
+   "detail": "SV 07 Elversberg v 1. FSV Mainz 05: H 0.336 D 0.233 A 0.431; models Club v1 (fro / Club v2-r1 (fr"
+  },
+  {
+   "name": "BUNDESLIGA prediction label",
+   "ok": true,
+   "detail": "Validated"
+  },
+  {
+   "name": "BUNDESLIGA data freshness indicator",
+   "ok": true,
+   "detail": "startup_updated, newest result 2026-10-25"
+  },
+  {
+   "name": "SERIEA dashboard",
+   "ok": true,
+   "detail": "80 matches (expected 80)"
+  },
+  {
+   "name": "SERIEA results listed on the dashboard",
+   "ok": true,
+   "detail": "30 recent results, newest 2026-10-25"
+  },
+  {
+   "name": "SERIEA match results (hub)",
+   "ok": true,
+   "detail": "{'upcoming': 297, 'awaiting_result': 3, 'completed': 80, 'other': 0, 'all': 380}"
+  },
+  {
+   "name": "SERIEA upcoming fixtures",
+   "ok": true,
+   "detail": "297 upcoming, next 2026-10-29 Frosinone Calcio v US Lecce"
+  },
+  {
+   "name": "SERIEA standings",
+   "ok": true,
+   "detail": "20 clubs, 80 games counted"
+  },
+  {
+   "name": "SERIEA team information and statistics",
+   "ok": true,
+   "detail": "Frosinone Calcio: ['form']"
+  },
+  {
+   "name": "SERIEA prediction for the next stored fixture",
+   "ok": true,
+   "detail": "Frosinone Calcio v US Lecce: H 0.555 D 0.227 A 0.218; models Club v1 (fro / Club v2-r1 (fr"
+  },
+  {
+   "name": "SERIEA prediction label",
+   "ok": true,
+   "detail": "Validated"
+  },
+  {
+   "name": "SERIEA data freshness indicator",
+   "ok": true,
+   "detail": "historical_only, newest result 2026-10-25"
+  },
+  {
+   "name": "LIGUE1 dashboard",
+   "ok": true,
+   "detail": "72 matches (expected 72)"
+  },
+  {
+   "name": "LIGUE1 results listed on the dashboard",
+   "ok": true,
+   "detail": "30 recent results, newest 2026-10-26"
+  },
+  {
+   "name": "LIGUE1 match results (hub)",
+   "ok": true,
+   "detail": "{'upcoming': 234, 'awaiting_result': 0, 'completed': 72, 'other': 0, 'all': 306}"
+  },
+  {
+   "name": "LIGUE1 upcoming fixtures",
+   "ok": true,
+   "detail": "234 upcoming, next 2026-10-30 Le Havre AC v Paris Saint-Germain FC"
+  },
+  {
+   "name": "LIGUE1 standings",
+   "ok": true,
+   "detail": "18 clubs, 72 games counted"
+  },
+  {
+   "name": "LIGUE1 team information and statistics",
+   "ok": true,
+   "detail": "Le Havre AC: ['form']"
+  },
+  {
+   "name": "LIGUE1 prediction for the next stored fixture",
+   "ok": true,
+   "detail": "Le Havre AC v Paris Saint-Germain FC: H 0.093 D 0.184 A 0.723; models Club v1 (fro / Club v2-r1 (fr"
+  },
+  {
+   "name": "LIGUE1 prediction label",
+   "ok": true,
+   "detail": "Validated"
+  },
+  {
+   "name": "LIGUE1 data freshness indicator",
+   "ok": true,
+   "detail": "historical_only, newest result 2026-10-26"
+  },
+  {
+   "name": "UCL dashboard",
+   "ok": true,
+   "detail": "54 matches (expected 54)"
+  },
+  {
+   "name": "UCL results listed on the dashboard",
+   "ok": true,
+   "detail": "30 recent results, newest 2026-10-21"
+  },
+  {
+   "name": "UCL match results (hub)",
+   "ok": true,
+   "detail": "{'upcoming': 90, 'awaiting_result': 0, 'completed': 54, 'other': 0, 'all': 144}"
+  },
+  {
+   "name": "UCL upcoming fixtures",
+   "ok": true,
+   "detail": "90 upcoming, next 2026-11-03 LASK Linz v ŠK Slovan Bratislava"
+  },
+  {
+   "name": "UCL league-phase table",
+   "ok": true,
+   "detail": "36 clubs, 54 played, provisional: True"
+  },
+  {
+   "name": "UCL team information and statistics",
+   "ok": true,
+   "detail": "LASK Linz: ['form']"
+  },
+  {
+   "name": "UCL prediction for the next stored fixture",
+   "ok": true,
+   "detail": "LASK Linz v ŠK Slovan Bratislava: H 0.626 D 0.206 A 0.168; models Club v1 (fro / Club v2-r1 (fr"
+  },
+  {
+   "name": "UCL prediction label",
+   "ok": true,
+   "detail": "Not validated (indicative only)"
+  },
+  {
+   "name": "UCL data freshness indicator",
+   "ok": true,
+   "detail": "historical_only, newest result 2026-10-21"
+  },
+  {
+   "name": "UCL 54 completed + 90 scheduled league-phase fixtures",
+   "ok": true,
+   "detail": "{'upcoming': 90, 'awaiting_result': 0, 'completed': 54, 'other': 0, 'all': 144}"
+  },
+  {
+   "name": "UCL matchday and team filters",
+   "ok": true,
+   "detail": "matchday 5 = 18 fixtures; Arsenal = 8 matches"
+  },
+  {
+   "name": "saved simulation 1 (BUNDESLIGA) retrievable",
+   "ok": true,
+   "detail": "Experimental — Points-only simulation, seed 1398654699"
+  },
+  {
+   "name": "saved simulation 2 (LALIGA) retrievable",
+   "ok": true,
+   "detail": "Experimental — Points-only simulation, seed 1499656622"
+  },
+  {
+   "name": "archived UEL excluded",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "archived UECL excluded",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "archived WC excluded",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "archived UNL excluded",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "archived COPA excluded",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "synchronisation startup-only, OpenLigaDB only",
+   "ok": true,
+   "detail": "startup ['openligadb']"
+  },
+  {
+   "name": "meta lists club models only and the attribution",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "details": {
+  "EPL": {
+   "table_top3": [
+    [
+     "Manchester City FC",
+     8,
+     21
+    ],
+    [
+     "Arsenal FC",
+     8,
+     21
+    ],
+    [
+     "Brighton & Hove Albion FC",
+     8,
+     16
+    ]
+   ],
+   "prediction": {
+    "home": "Chelsea FC",
+    "away": "Manchester United FC",
+    "probs": [
+     0.426,
+     0.212,
+     0.362
+    ]
+   },
+   "freshness": "Historical only: no automatic updates",
+   "latest": "2026-10-25",
+   "next_fixture": [
+    "2026-10-31",
+    "Chelsea FC",
+    "Manchester United FC"
+   ]
+  },
+  "LALIGA": {
+   "table_top3": [
+    [
+     "FC Barcelona",
+     10,
+     27
+    ],
+    [
+     "Club Atlético de Madrid",
+     10,
+     25
+    ],
+    [
+     "Real Madrid CF",
+     10,
+     24
+    ]
+   ],
+   "prediction": {
+    "home": "Real Betis Balompié",
+    "away": "Málaga CF",
+    "probs": [
+     0.747,
+     0.175,
+     0.078
+    ]
+   },
+   "freshness": "Updated when FootIQ starts",
+   "latest": "2026-10-26",
+   "next_fixture": [
+    "2026-11-01",
+    "Real Betis Balompié",
+    "Málaga CF"
+   ]
+  },
+  "BUNDESLIGA": {
+   "table_top3": [
+    [
+     "FC Bayern München",
+     7,
+     17
+    ],
+    [
+     "Borussia Dortmund",
+     7,
+     17
+    ],
+    [
+     "SC Freiburg",
+     7,
+     13
+    ]
+   ],
+   "prediction": {
+    "home": "SV 07 Elversberg",
+    "away": "1. FSV Mainz 05",
+    "probs": [
+     0.336,
+     0.233,
+     0.431
+    ]
+   },
+   "freshness": "Updated when FootIQ starts",
+   "latest": "2026-10-25",
+   "next_fixture": [
+    "2026-10-30",
+    "SV 07 Elversberg",
+    "1. FSV Mainz 05"
+   ]
+  },
+  "SERIEA": {
+   "table_top3": [
+    [
+     "FC Internazionale Milano",
+     8,
+     22
+    ],
+    [
+     "SS Lazio",
+     8,
+     22
+    ],
+    [
+     "AS Roma",
+     8,
+     18
+    ]
+   ],
+   "prediction": {
+    "home": "Frosinone Calcio",
+    "away": "US Lecce",
+    "probs": [
+     0.555,
+     0.227,
+     0.218
+    ]
+   },
+   "freshness": "Historical only: no automatic updates",
+   "latest": "2026-10-25",
+   "next_fixture": [
+    "2026-10-29",
+    "Frosinone Calcio",
+    "US Lecce"
+   ]
+  },
+  "LIGUE1": {
+   "table_top3": [
+    [
+     "Paris Saint-Germain FC",
+     8,
+     17
+    ],
+    [
+     "Stade Rennais FC 1901",
+     8,
+     16
+    ],
+    [
+     "Lille OSC",
+     8,
+     15
+    ]
+   ],
+   "prediction": {
+    "home": "Le Havre AC",
+    "away": "Paris Saint-Germain FC",
+    "probs": [
+     0.093,
+     0.184,
+     0.723
+    ]
+   },
+   "freshness": "Historical only: no automatic updates",
+   "latest": "2026-10-26",
+   "next_fixture": [
+    "2026-10-30",
+    "Le Havre AC",
+    "Paris Saint-Germain FC"
+   ]
+  },
+  "UCL": {
+   "table_top3": [
+    [
+     1,
+     "Paris Saint-Germain FC",
+     3,
+     9,
+     9
+    ],
+    [
+     2,
+     "Aston Villa FC",
+     3,
+     9,
+     9
+    ],
+    [
+     3,
+     "Liverpool FC",
+     3,
+     9,
+     5
+    ]
+   ],
+   "prediction": {
+    "home": "LASK Linz",
+    "away": "ŠK Slovan Bratislava",
+    "probs": [
+     0.626,
+     0.206,
+     0.168
+    ]
+   },
+   "freshness": "Historical only: no automatic updates",
+   "latest": "2026-10-21",
+   "next_fixture": [
+    "2026-11-03",
+    "LASK Linz",
+    "ŠK Slovan Bratislava"
+   ]
+  },
+  "simulation_1": {
+   "key": "BUNDESLIGA",
+   "seed": 1398654699,
+   "model": "club_v1 multinomial_logreg (frozen 2026-10-20)"
+  },
+  "simulation_2": {
+   "key": "LALIGA",
+   "seed": 1499656622,
+   "model": "club_v1 multinomial_logreg (frozen 2026-10-20)"
+  }
+ }
+}

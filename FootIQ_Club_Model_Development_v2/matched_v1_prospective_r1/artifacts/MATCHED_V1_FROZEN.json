@@ -1,0 +1,32 @@
+{
+ "version": "matched-v1-r1",
+ "description": "original v1 multinomial LR recipe refit on the frozen v2-r1 training rows; not tuned; comparator, not a replacement of v1",
+ "seed": 20261020,
+ "C": 100.0,
+ "training_cutoff_last_match_date": "2026-09-20",
+ "training_rows": 116854,
+ "record_id_hash": "f1137ab4164ef60ebe95147e83bbc236f95ac3405e87532a5bd3a977a9f58c94",
+ "target_hash": "5f9f76bdbdc2c5a56ca1e715c67e7a0110e6f01c2d52e6f6b29c47ce0221eaa6",
+ "dependency_versions": {
+  "python": "3.12.14",
+  "numpy": "1.26.4",
+  "pandas": "2.2.1",
+  "scipy": "1.17.1",
+  "sklearn": "1.5.1",
+  "platform": "Windows-11-10.0.26300-SP0"
+ },
+ "git_head": "f8a2068c10833490a2283d7cf587881e10935e8c",
+ "script_sha256": "9740b0cf63c2688cce98bb7c5008feaa7020a1880d0a2404d0999507bbd0dfa3",
+ "artifact_sha256": {
+  "matched_v1_coefficients.json": "10aae47208c74c3147d9bb7d561f824e8e8f8170df05864e91147d84e03a091c",
+  "matched_v1_lr_refit.pkl": "33bd80f6a3268256e250294f4c9b4ffc4f530489c332878fd70655fea145ec34",
+  "matched_v1_preprocessing.json": "77a30670d0f0c0ff3d25bedad84b52b90ed5c359f3196953852a687c5b740b61"
+ },
+ "in_sample_log_loss": 1.020544242559198,
+ "n_iter": 29,
+ "mean_pred": [
+  0.43620384803177253,
+  0.2644962990265567,
+  0.29929985294167744
+ ]
+}

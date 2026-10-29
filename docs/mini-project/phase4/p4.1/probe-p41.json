@@ -1,0 +1,839 @@
+{
+ "desktop": [
+  {
+   "path": "/",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Home · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "FootIQ"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 320,
+    "gradientBackgroundSkipped": 5,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 1,
+    "smallSamples": [
+     {
+      "t": "Football analytics · mat",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 8
+   },
+   "targets": {
+    "controls": 43,
+    "inlineTextLinks": 0,
+    "below44": 25,
+    "below24": 3,
+    "below44Samples": [
+     "a \"Full table →\" 66x16",
+     "a \"See how the models were ev\" 222x16",
+     "a \"EPLEnglish Premier League3\" 515x36",
+     "a \"Predict\" 65x24",
+     "a \"LIGLa Liga3,129 matches · \" 515x36",
+     "a \"Predict\" 65x24",
+     "a \"BUNBundesliga2,509 matches\" 515x36",
+     "a \"Predict\" 65x24",
+     "a \"SASerie A3,090 matches · 9\" 515x36",
+     "a \"Predict\" 65x24",
+     "a \"LIGLigue 12,762 matches · \" 515x36",
+     "a \"Predict\" 65x24"
+    ]
+   }
+  },
+  {
+   "path": "/matches",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Matches · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Matches"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 52,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 11,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/analytics",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Leagues · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Leagues & cups"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 393,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 23
+   },
+   "targets": {
+    "controls": 14,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/compare",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Compare · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Compare teams"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 50,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 2,
+    "smallSamples": [
+     {
+      "t": "Team A",
+      "fs": 11
+     },
+     {
+      "t": "Team B",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 13,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/predict",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Predictions · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 204,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 20
+   },
+   "targets": {
+    "controls": 27,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/simulations",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Simulations · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "World Cup simulator"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 60,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 18,
+    "inlineTextLinks": 0,
+    "below44": 2,
+    "below24": 2,
+    "below44Samples": [
+     "input \"INPUT\" 13x13",
+     "input \"INPUT\" 13x13"
+    ]
+   }
+  },
+  {
+   "path": "/models",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Models · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Model performance"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 229,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 12,
+    "inlineTextLinks": 0,
+    "below44": 1,
+    "below24": 1,
+    "below44Samples": [
+     "summary \"Evaluation files used\" 1062x16"
+    ]
+   }
+  }
+ ],
+ "tablet": [
+  {
+   "path": "/",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Home · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "FootIQ"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 316,
+    "gradientBackgroundSkipped": 5,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 1,
+    "smallSamples": [
+     {
+      "t": "Football analytics · mat",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 8
+   },
+   "targets": {
+    "controls": 43,
+    "inlineTextLinks": 0,
+    "below44": 25,
+    "below24": 3,
+    "below44Samples": [
+     "a \"Full table →\" 66x16",
+     "a \"See how the models were ev\" 222x16",
+     "a \"EPLEnglish Premier League3\" 305x36",
+     "a \"Predict\" 65x24",
+     "a \"LIGLa Liga3,129 matches · \" 305x36",
+     "a \"Predict\" 65x24",
+     "a \"BUNBundesliga2,509 matches\" 305x36",
+     "a \"Predict\" 65x24",
+     "a \"SASerie A3,090 matches · 9\" 305x36",
+     "a \"Predict\" 65x24",
+     "a \"LIGLigue 12,762 matches · \" 305x36",
+     "a \"Predict\" 65x24"
+    ]
+   }
+  },
+  {
+   "path": "/matches",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Matches · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Matches"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 48,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 11,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/analytics",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Leagues · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Leagues & cups"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 389,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 23
+   },
+   "targets": {
+    "controls": 14,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/compare",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Compare · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Compare teams"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 46,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 2,
+    "smallSamples": [
+     {
+      "t": "Team A",
+      "fs": 11
+     },
+     {
+      "t": "Team B",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 13,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/predict",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Predictions · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 200,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 20
+   },
+   "targets": {
+    "controls": 27,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/simulations",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Simulations · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "World Cup simulator"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 56,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 18,
+    "inlineTextLinks": 0,
+    "below44": 2,
+    "below24": 2,
+    "below44Samples": [
+     "input \"INPUT\" 13x13",
+     "input \"INPUT\" 13x13"
+    ]
+   }
+  },
+  {
+   "path": "/models",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Models · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Model performance"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 225,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 12,
+    "inlineTextLinks": 0,
+    "below44": 1,
+    "below24": 1,
+    "below44Samples": [
+     "summary \"Evaluation files used\" 642x16"
+    ]
+   }
+  }
+ ],
+ "mobile": [
+  {
+   "path": "/",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Home · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "FootIQ"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 318,
+    "gradientBackgroundSkipped": 5,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 1,
+    "smallSamples": [
+     {
+      "t": "Football analytics · mat",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 8
+   },
+   "targets": {
+    "controls": 42,
+    "inlineTextLinks": 0,
+    "below44": 25,
+    "below24": 3,
+    "below44Samples": [
+     "a \"Full table →\" 66x16",
+     "a \"See how the models were ev\" 222x16",
+     "a \"EPLEnglish Premier League3\" 309x36",
+     "a \"Predict\" 65x24",
+     "a \"LIGLa Liga3,129 matches · \" 309x36",
+     "a \"Predict\" 65x24",
+     "a \"BUNBundesliga2,509 matches\" 309x36",
+     "a \"Predict\" 65x24",
+     "a \"SASerie A3,090 matches · 9\" 309x36",
+     "a \"Predict\" 65x24",
+     "a \"LIGLigue 12,762 matches · \" 309x36",
+     "a \"Predict\" 65x24"
+    ]
+   }
+  },
+  {
+   "path": "/matches",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Matches · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Matches"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 50,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 10,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/analytics",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Leagues · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Leagues & cups"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 185,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 20
+   },
+   "targets": {
+    "controls": 13,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/compare",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Compare · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Compare teams"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 48,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 2,
+    "smallSamples": [
+     {
+      "t": "Team A",
+      "fs": 11
+     },
+     {
+      "t": "Team B",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 12,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/predict",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Predictions · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 202,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 20
+   },
+   "targets": {
+    "controls": 26,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/simulations",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Simulations · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "World Cup simulator"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 58,
+    "gradientBackgroundSkipped": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 17,
+    "inlineTextLinks": 0,
+    "below44": 2,
+    "below24": 2,
+    "below44Samples": [
+     "input \"INPUT\" 13x13",
+     "input \"INPUT\" 13x13"
+    ]
+   }
+  },
+  {
+   "path": "/models",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Models · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Model performance"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 227,
+    "gradientBackgroundSkipped": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 11,
+    "inlineTextLinks": 0,
+    "below44": 1,
+    "below24": 1,
+    "below44Samples": [
+     "summary \"Evaluation files used\" 309x16"
+    ]
+   }
+  }
+ ]
+}

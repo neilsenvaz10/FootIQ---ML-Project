@@ -1,0 +1,62 @@
+record_id,competition,home,away,match_date,field,before,after
+england:1-premierleague:2026-27:L132,EPL,Liverpool FC,Brighton & Hove Albion FC,2026-10-25,status,scheduled,awaiting_result
+england:1-premierleague:2026-27:L133,EPL,Crystal Palace FC,Newcastle United FC,2026-10-25,status,scheduled,awaiting_result
+england:1-premierleague:2026-27:L134,EPL,Manchester United FC,AFC Bournemouth,2026-10-25,status,scheduled,awaiting_result
+england:1-premierleague:2026-27:L135,EPL,Hull City AFC,Brentford FC,2026-10-25,status,scheduled,awaiting_result
+england:1-premierleague:2026-27:L136,EPL,Sunderland AFC,Leeds United FC,2026-10-25,status,scheduled,awaiting_result
+espana:1-liga:2026-27:L179,LALIGA,Athletic Club,Getafe CF,2026-10-25,model_home_entity,,CLUB:ESP:athletic-club-bilbao
+espana:1-liga:2026-27:L179,LALIGA,Athletic Club,Getafe CF,2026-10-25,model_away_entity,,CLUB:ESP:getafe-cf
+espana:1-liga:2026-27:L179,LALIGA,Athletic Club,Getafe CF,2026-10-25,status,scheduled,completed
+espana:1-liga:2026-27:L179,LALIGA,Athletic Club,Getafe CF,2026-10-25,home_goals_final,,4
+espana:1-liga:2026-27:L179,LALIGA,Athletic Club,Getafe CF,2026-10-25,away_goals_final,,0
+espana:1-liga:2026-27:L179,LALIGA,Athletic Club,Getafe CF,2026-10-25,home_goals_90,,4
+espana:1-liga:2026-27:L179,LALIGA,Athletic Club,Getafe CF,2026-10-25,away_goals_90,,0
+espana:1-liga:2026-27:L179,LALIGA,Athletic Club,Getafe CF,2026-10-25,label_90_status,,confirmed
+espana:1-liga:2026-27:L179,LALIGA,Athletic Club,Getafe CF,2026-10-25,outcome,,H
+espana:1-liga:2026-27:L179,LALIGA,Athletic Club,Getafe CF,2026-10-25,rated,,1
+espana:1-liga:2026-27:L179,LALIGA,Athletic Club,Getafe CF,2026-10-25,regular,,1
+espana:1-liga:2026-27:L179,LALIGA,Athletic Club,Getafe CF,2026-10-25,in_universe,0,1
+espana:1-liga:2026-27:L179,LALIGA,Athletic Club,Getafe CF,2026-10-25,source_system,openfootball (CC0 / public domain),openligadb
+espana:1-liga:2026-27:L179,LALIGA,Athletic Club,Getafe CF,2026-10-25,licence,CC0-1.0,ODbL-1.0
+espana:1-liga:2026-27:L182,LALIGA,FC Barcelona,Real Madrid CF,2026-10-25,model_home_entity,,CLUB:ESP:fc-barcelona
+espana:1-liga:2026-27:L182,LALIGA,FC Barcelona,Real Madrid CF,2026-10-25,model_away_entity,,CLUB:ESP:real-madrid
+espana:1-liga:2026-27:L182,LALIGA,FC Barcelona,Real Madrid CF,2026-10-25,status,scheduled,completed
+espana:1-liga:2026-27:L182,LALIGA,FC Barcelona,Real Madrid CF,2026-10-25,home_goals_final,,1
+espana:1-liga:2026-27:L182,LALIGA,FC Barcelona,Real Madrid CF,2026-10-25,away_goals_final,,2
+espana:1-liga:2026-27:L182,LALIGA,FC Barcelona,Real Madrid CF,2026-10-25,home_goals_90,,1
+espana:1-liga:2026-27:L182,LALIGA,FC Barcelona,Real Madrid CF,2026-10-25,away_goals_90,,2
+espana:1-liga:2026-27:L182,LALIGA,FC Barcelona,Real Madrid CF,2026-10-25,label_90_status,,confirmed
+espana:1-liga:2026-27:L182,LALIGA,FC Barcelona,Real Madrid CF,2026-10-25,outcome,,A
+espana:1-liga:2026-27:L182,LALIGA,FC Barcelona,Real Madrid CF,2026-10-25,rated,,1
+espana:1-liga:2026-27:L182,LALIGA,FC Barcelona,Real Madrid CF,2026-10-25,regular,,1
+espana:1-liga:2026-27:L182,LALIGA,FC Barcelona,Real Madrid CF,2026-10-25,in_universe,0,1
+espana:1-liga:2026-27:L182,LALIGA,FC Barcelona,Real Madrid CF,2026-10-25,source_system,openfootball (CC0 / public domain),openligadb
+espana:1-liga:2026-27:L182,LALIGA,FC Barcelona,Real Madrid CF,2026-10-25,licence,CC0-1.0,ODbL-1.0
+espana:1-liga:2026-27:L184,LALIGA,RC Celta de Vigo,Real Betis Balompié,2026-10-25,model_home_entity,,CLUB:ESP:rc-celta-vigo
+espana:1-liga:2026-27:L184,LALIGA,RC Celta de Vigo,Real Betis Balompié,2026-10-25,model_away_entity,,CLUB:ESP:real-betis
+espana:1-liga:2026-27:L184,LALIGA,RC Celta de Vigo,Real Betis Balompié,2026-10-25,status,scheduled,completed
+espana:1-liga:2026-27:L184,LALIGA,RC Celta de Vigo,Real Betis Balompié,2026-10-25,home_goals_final,,0
+espana:1-liga:2026-27:L184,LALIGA,RC Celta de Vigo,Real Betis Balompié,2026-10-25,away_goals_final,,0
+espana:1-liga:2026-27:L184,LALIGA,RC Celta de Vigo,Real Betis Balompié,2026-10-25,home_goals_90,,0
+espana:1-liga:2026-27:L184,LALIGA,RC Celta de Vigo,Real Betis Balompié,2026-10-25,away_goals_90,,0
+espana:1-liga:2026-27:L184,LALIGA,RC Celta de Vigo,Real Betis Balompié,2026-10-25,label_90_status,,confirmed
+espana:1-liga:2026-27:L184,LALIGA,RC Celta de Vigo,Real Betis Balompié,2026-10-25,outcome,,D
+espana:1-liga:2026-27:L184,LALIGA,RC Celta de Vigo,Real Betis Balompié,2026-10-25,rated,,1
+espana:1-liga:2026-27:L184,LALIGA,RC Celta de Vigo,Real Betis Balompié,2026-10-25,regular,,1
+espana:1-liga:2026-27:L184,LALIGA,RC Celta de Vigo,Real Betis Balompié,2026-10-25,in_universe,0,1
+espana:1-liga:2026-27:L184,LALIGA,RC Celta de Vigo,Real Betis Balompié,2026-10-25,source_system,openfootball (CC0 / public domain),openligadb
+espana:1-liga:2026-27:L184,LALIGA,RC Celta de Vigo,Real Betis Balompié,2026-10-25,licence,CC0-1.0,ODbL-1.0
+espana:1-liga:2026-27:L185,LALIGA,Real Sociedad de Fútbol,Levante UD,2026-10-25,model_home_entity,,CLUB:ESP:real-sociedad
+espana:1-liga:2026-27:L185,LALIGA,Real Sociedad de Fútbol,Levante UD,2026-10-25,model_away_entity,,CLUB:ESP:levante-ud
+espana:1-liga:2026-27:L185,LALIGA,Real Sociedad de Fútbol,Levante UD,2026-10-25,status,scheduled,completed
+espana:1-liga:2026-27:L185,LALIGA,Real Sociedad de Fútbol,Levante UD,2026-10-25,home_goals_final,,2
+espana:1-liga:2026-27:L185,LALIGA,Real Sociedad de Fútbol,Levante UD,2026-10-25,away_goals_final,,1
+espana:1-liga:2026-27:L185,LALIGA,Real Sociedad de Fútbol,Levante UD,2026-10-25,home_goals_90,,2
+espana:1-liga:2026-27:L185,LALIGA,Real Sociedad de Fútbol,Levante UD,2026-10-25,away_goals_90,,1
+espana:1-liga:2026-27:L185,LALIGA,Real Sociedad de Fútbol,Levante UD,2026-10-25,label_90_status,,confirmed
+espana:1-liga:2026-27:L185,LALIGA,Real Sociedad de Fútbol,Levante UD,2026-10-25,outcome,,H
+espana:1-liga:2026-27:L185,LALIGA,Real Sociedad de Fútbol,Levante UD,2026-10-25,rated,,1
+espana:1-liga:2026-27:L185,LALIGA,Real Sociedad de Fútbol,Levante UD,2026-10-25,regular,,1
+espana:1-liga:2026-27:L185,LALIGA,Real Sociedad de Fútbol,Levante UD,2026-10-25,in_universe,0,1
+espana:1-liga:2026-27:L185,LALIGA,Real Sociedad de Fútbol,Levante UD,2026-10-25,source_system,openfootball (CC0 / public domain),openligadb
+espana:1-liga:2026-27:L185,LALIGA,Real Sociedad de Fútbol,Levante UD,2026-10-25,licence,CC0-1.0,ODbL-1.0

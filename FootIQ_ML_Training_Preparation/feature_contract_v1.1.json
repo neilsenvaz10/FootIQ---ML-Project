@@ -1,0 +1,38 @@
+{
+ "contract_version": "v1.1",
+ "feature_order": [
+  "home_elo",
+  "away_elo",
+  "elo_diff",
+  "home_n_prior",
+  "away_n_prior",
+  "home_ppg5",
+  "away_ppg5",
+  "home_ppg10",
+  "away_ppg10",
+  "home_gf5",
+  "home_ga5",
+  "away_gf5",
+  "away_ga5",
+  "home_gf10",
+  "home_ga10",
+  "away_gf10",
+  "away_ga10",
+  "home_venue_ppg5",
+  "away_venue_ppg5",
+  "ppg5_diff",
+  "gd5_diff",
+  "home_days_rest",
+  "away_days_rest",
+  "rest_diff",
+  "league_tier"
+ ],
+ "rating": {
+  "initial": 1500.0,
+  "K": 20.0,
+  "home_advantage": 60.0
+ },
+ "cutoff_rule": "features of a fixture on calendar day D use only matches dated < D; the state absorbs day D only after all fixtures of D were featurised",
+ "history_rule": "rated state = CONFIRMED 90-minute results only; rest days use every completed dated match",
+ "scope": "regular round-robin league matches (stage whitelist)"
+}

@@ -1,0 +1,15 @@
+{
+ "always_home_class_priors": {
+  "H": 0.4359121234584541,
+  "D": 0.2649268818653548,
+  "A": 0.2991609946761911
+ },
+ "elo_ordered_logit": {
+  "scale_per_100_elo": 0.49351729512025283,
+  "threshold_away_draw": -0.9107621313068124,
+  "threshold_draw_home": 0.2794051942673339,
+  "fitted_on": "train",
+  "train_nll": 1.0308938327664277,
+  "converged": true
+ }
+}

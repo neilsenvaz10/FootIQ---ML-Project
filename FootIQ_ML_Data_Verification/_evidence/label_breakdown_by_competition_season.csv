@@ -1,0 +1,613 @@
+competition_id,competition_name,competition_type,season,confirmed,inferred_no_marker,not_completed,unknown
+austria:1-bundesliga,Austrian Bundesliga,domestic_league,2018-19,195,0,0,0
+austria:1-bundesliga,Austrian Bundesliga,domestic_league,2019-20,195,0,0,0
+austria:1-bundesliga,Austrian Bundesliga,domestic_league,2020-21,195,0,0,0
+austria:1-bundesliga,Austrian Bundesliga,domestic_league,2021-22,195,0,0,0
+austria:1-bundesliga,Austrian Bundesliga,domestic_league,2022-23,195,0,0,0
+austria:1-bundesliga,Austrian Bundesliga,domestic_league,2023-24,195,0,0,0
+austria:1-bundesliga,Austrian Bundesliga,domestic_league,2024-25,194,0,0,0
+austria:1-bundesliga,Austrian Bundesliga,domestic_league,2025-26,192,3,0,0
+austria:1-bundesliga,Austrian Bundesliga,domestic_league,2026-27,42,0,0,0
+austria:2-liga2,Austrian 2. Liga (tier 2),domestic_league,2018-19,240,0,0,0
+austria:2-liga2,Austrian 2. Liga (tier 2),domestic_league,2019-20,240,0,0,0
+austria:2-liga2,Austrian 2. Liga (tier 2),domestic_league,2020-21,240,0,0,0
+austria:2-liga2,Austrian 2. Liga (tier 2),domestic_league,2021-22,240,0,0,0
+austria:2-liga2,Austrian 2. Liga (tier 2),domestic_league,2022-23,240,0,0,0
+austria:2-liga2,Austrian 2. Liga (tier 2),domestic_league,2023-24,240,0,0,0
+austria:2-liga2,Austrian 2. Liga (tier 2),domestic_league,2024-25,239,0,0,1
+austria:2-liga2,Austrian 2. Liga (tier 2),domestic_league,2025-26,96,0,0,0
+austria:3-regionalliga-mitte,Austrian Regionalliga Mitte (tier 3),domestic_league,2020-21,101,0,0,0
+austria:3-regionalliga-mitte,Austrian Regionalliga Mitte (tier 3),domestic_league,2021-22,272,0,0,0
+austria:3-regionalliga-mitte,Austrian Regionalliga Mitte (tier 3),domestic_league,2022-23,240,0,0,0
+austria:3-regionalliga-mitte,Austrian Regionalliga Mitte (tier 3),domestic_league,2023-24,239,0,0,1
+austria:3-regionalliga-mitte,Austrian Regionalliga Mitte (tier 3),domestic_league,2024-25,200,0,0,0
+austria:3-regionalliga-ost,Austrian Regionalliga Ost (tier 3),domestic_league,2018-19,238,0,0,2
+austria:3-regionalliga-ost,Austrian Regionalliga Ost (tier 3),domestic_league,2019-20,144,0,0,0
+austria:3-regionalliga-ost,Austrian Regionalliga Ost (tier 3),domestic_league,2020-21,52,0,0,0
+austria:3-regionalliga-ost,Austrian Regionalliga Ost (tier 3),domestic_league,2021-22,182,0,0,0
+austria:3-regionalliga-ost,Austrian Regionalliga Ost (tier 3),domestic_league,2022-23,226,0,0,14
+austria:3-regionalliga-ost,Austrian Regionalliga Ost (tier 3),domestic_league,2023-24,240,0,0,0
+austria:3-regionalliga-ost,Austrian Regionalliga Ost (tier 3),domestic_league,2024-25,232,0,0,0
+austria:3-regionalliga-ost,Austrian Regionalliga Ost (tier 3),domestic_league,2025-26,112,0,0,0
+austria:cup,Austrian Cup,domestic_cup,2018-19,7,55,0,1
+austria:cup,Austrian Cup,domestic_cup,2019-20,9,54,0,0
+austria:cup,Austrian Cup,domestic_cup,2020-21,8,51,0,3
+austria:cup,Austrian Cup,domestic_cup,2021-22,6,56,0,1
+austria:cup,Austrian Cup,domestic_cup,2022-23,6,57,0,0
+austria:cup,Austrian Cup,domestic_cup,2023-24,12,49,0,2
+austria:cup,Austrian Cup,domestic_cup,2024-25,8,54,0,1
+austria:cup,Austrian Cup,domestic_cup,2025-26,8,46,0,2
+belgium:be1,Belgian First Division A,domestic_league,2018-19,240,29,0,1
+belgium:be1,Belgian First Division A,domestic_league,2019-20,232,0,0,0
+belgium:be1,Belgian First Division A,domestic_league,2020-21,330,0,0,0
+belgium:be1,Belgian First Division A,domestic_league,2023-24,311,1,0,1
+belgium:be1,Belgian First Division A,domestic_league,2024-25,312,1,0,0
+belgium:be1,Belgian First Division A,domestic_league,2025-26,121,0,0,0
+belgium:be1,Belgian First Division A,domestic_league,2026-27,1,0,0,0
+belgium:becup,Belgian Cup,domestic_cup,2024-25,9,40,0,0
+champions-league:cl,UEFA Champions League,continental_club,2018-19,97,28,0,0
+champions-league:cl,UEFA Champions League,continental_club,2019-20,97,22,0,0
+champions-league:cl,UEFA Champions League,continental_club,2020-21,73,52,0,0
+champions-league:cl,UEFA Champions League,continental_club,2021-22,74,51,0,0
+champions-league:cl,UEFA Champions League,continental_club,2022-23,72,53,0,0
+champions-league:cl,UEFA Champions League,continental_club,2023-24,99,26,0,0
+champions-league:cl,UEFA Champions League,continental_club,2024-25,146,43,0,0
+champions-league:cl,UEFA Champions League,continental_club,2025-26,189,0,0,0
+champions-league:cl,UEFA Champions League,continental_club,2026-27,18,0,0,0
+champions-league:clq,UEFA Champions League (qualifying),continental_club,2024-25,6,84,0,0
+champions-league:clq,UEFA Champions League (qualifying),continental_club,2025-26,6,86,0,0
+champions-league:conf,UEFA Conference League,continental_club,2021-22,74,66,0,1
+champions-league:conf,UEFA Conference League,continental_club,2022-23,78,63,0,0
+champions-league:conf,UEFA Conference League,continental_club,2023-24,77,62,0,2
+champions-league:conf,UEFA Conference League,continental_club,2024-25,149,4,0,0
+champions-league:conf,UEFA Conference League,continental_club,2025-26,153,0,0,0
+champions-league:confq,UEFA Conference League (qualifying),continental_club,2024-25,24,230,0,2
+champions-league:confq,UEFA Conference League (qualifying),continental_club,2025-26,25,230,0,1
+champions-league:el,UEFA Europa League,continental_club,2018-19,205,0,0,0
+champions-league:el,UEFA Europa League,continental_club,2019-20,197,0,0,0
+champions-league:el,UEFA Europa League,continental_club,2020-21,74,130,0,1
+champions-league:el,UEFA Europa League,continental_club,2021-22,77,62,0,0
+champions-league:el,UEFA Europa League,continental_club,2022-23,78,63,0,0
+champions-league:el,UEFA Europa League,continental_club,2023-24,76,65,0,0
+champions-league:el,UEFA Europa League,continental_club,2024-25,187,2,0,0
+champions-league:el,UEFA Europa League,continental_club,2025-26,189,0,0,0
+champions-league:el,UEFA Europa League,continental_club,2026-27,18,0,0,0
+champions-league:elq,UEFA Europa League (qualifying),continental_club,2024-25,7,72,0,1
+champions-league:elq,UEFA Europa League (qualifying),continental_club,2025-26,6,71,0,5
+club-worldcup:clubworldcup,FIFA Club World Cup,global_club,2018,2,5,0,1
+club-worldcup:clubworldcup,FIFA Club World Cup,global_club,2019,1,5,0,2
+club-worldcup:clubworldcup,FIFA Club World Cup,global_club,2020,0,6,0,1
+club-worldcup:clubworldcup,FIFA Club World Cup,global_club,2021,1,7,0,0
+club-worldcup:clubworldcup,FIFA Club World Cup,global_club,2022,1,6,0,0
+club-worldcup:clubworldcup,FIFA Club World Cup,global_club,2023,0,7,0,0
+club-worldcup:clubworldcup,FIFA Club World Cup,global_club,2025,51,12,0,1
+deutschland:1-bundesliga,German Bundesliga,domestic_league,2018-19,306,0,0,0
+deutschland:1-bundesliga,German Bundesliga,domestic_league,2019-20,306,0,0,0
+deutschland:1-bundesliga,German Bundesliga,domestic_league,2020-21,306,0,0,0
+deutschland:1-bundesliga,German Bundesliga,domestic_league,2021-22,306,0,0,0
+deutschland:1-bundesliga,German Bundesliga,domestic_league,2022-23,306,0,0,0
+deutschland:1-bundesliga,German Bundesliga,domestic_league,2023-24,306,0,0,0
+deutschland:1-bundesliga,German Bundesliga,domestic_league,2024-25,305,0,0,1
+deutschland:1-bundesliga,German Bundesliga,domestic_league,2025-26,306,0,0,0
+deutschland:1-bundesliga,German Bundesliga,domestic_league,2026-27,36,0,0,0
+deutschland:2-bundesliga2,German 2. Bundesliga,domestic_league,2018-19,306,0,0,0
+deutschland:2-bundesliga2,German 2. Bundesliga,domestic_league,2019-20,306,0,0,0
+deutschland:2-bundesliga2,German 2. Bundesliga,domestic_league,2020-21,306,0,0,0
+deutschland:2-bundesliga2,German 2. Bundesliga,domestic_league,2021-22,306,0,0,0
+deutschland:2-bundesliga2,German 2. Bundesliga,domestic_league,2022-23,306,0,0,0
+deutschland:2-bundesliga2,German 2. Bundesliga,domestic_league,2023-24,306,0,0,0
+deutschland:2-bundesliga2,German 2. Bundesliga,domestic_league,2024-25,306,0,0,0
+deutschland:2-bundesliga2,German 2. Bundesliga,domestic_league,2025-26,99,0,0,0
+deutschland:3-liga3,German 3. Liga,domestic_league,2018-19,380,0,0,0
+deutschland:3-liga3,German 3. Liga,domestic_league,2019-20,380,0,0,0
+deutschland:3-liga3,German 3. Liga,domestic_league,2020-21,380,0,0,0
+deutschland:3-liga3,German 3. Liga,domestic_league,2021-22,342,0,0,0
+deutschland:3-liga3,German 3. Liga,domestic_league,2022-23,379,0,0,1
+deutschland:3-liga3,German 3. Liga,domestic_league,2023-24,380,0,0,0
+deutschland:3-liga3,German 3. Liga,domestic_league,2024-25,380,0,0,0
+deutschland:3-liga3,German 3. Liga,domestic_league,2025-26,130,0,0,0
+deutschland:4-regionalliga-bayern,Deutsche Regionalliga Bayern,domestic_league,2024-25,303,0,0,3
+deutschland:4-regionalliga-nord,Deutsche Regionalliga Nord,domestic_league,2024-25,306,0,0,0
+deutschland:4-regionalliga-nordost,Deutsche Regionalliga Nordost,domestic_league,2024-25,306,0,0,0
+deutschland:4-regionalliga-suedwest,Deutsche Regionalliga Südwest,domestic_league,2024-25,306,0,0,0
+deutschland:4-regionalliga-west,Deutsche Regionalliga West,domestic_league,2024-25,240,0,0,0
+deutschland:cup,DFB-Pokal,domestic_cup,2018-19,11,52,0,0
+deutschland:cup,DFB-Pokal,domestic_cup,2019-20,14,48,0,1
+deutschland:cup,DFB-Pokal,domestic_cup,2020-21,11,49,0,3
+deutschland:cup,DFB-Pokal,domestic_cup,2021-22,17,43,0,3
+deutschland:cup,DFB-Pokal,domestic_cup,2022-23,10,52,0,1
+deutschland:cup,DFB-Pokal,domestic_cup,2023-24,12,50,0,1
+deutschland:cup,DFB-Pokal,domestic_cup,2024-25,62,1,0,0
+deutschland:cup,DFB-Pokal,domestic_cup,2025-26,63,3,0,0
+deutschland:cup,DFB-Pokal,domestic_cup,2026-27,32,0,0,0
+england:1-premierleague,English Premier League,domestic_league,2018-19,380,0,0,0
+england:1-premierleague,English Premier League,domestic_league,2019-20,380,0,0,0
+england:1-premierleague,English Premier League,domestic_league,2020-21,380,0,0,0
+england:1-premierleague,English Premier League,domestic_league,2021-22,380,0,0,0
+england:1-premierleague,English Premier League,domestic_league,2022-23,380,0,0,0
+england:1-premierleague,English Premier League,domestic_league,2023-24,380,0,0,0
+england:1-premierleague,English Premier League,domestic_league,2024-25,380,0,0,0
+england:1-premierleague,English Premier League,domestic_league,2025-26,380,0,0,0
+england:1-premierleague,English Premier League,domestic_league,2026-27,50,0,0,0
+england:2-championship,English Championship (tier 2),domestic_league,2018-19,551,0,0,1
+england:2-championship,English Championship (tier 2),domestic_league,2019-20,552,0,0,0
+england:2-championship,English Championship (tier 2),domestic_league,2020-21,552,0,0,0
+england:2-championship,English Championship (tier 2),domestic_league,2021-22,553,4,0,0
+england:2-championship,English Championship (tier 2),domestic_league,2022-23,553,4,0,0
+england:2-championship,English Championship (tier 2),domestic_league,2023-24,557,0,0,0
+england:2-championship,English Championship (tier 2),domestic_league,2024-25,557,0,0,0
+england:2-championship,English Championship (tier 2),domestic_league,2025-26,552,4,0,1
+england:2-championship,English Championship (tier 2),domestic_league,2026-27,95,0,0,0
+england:3-league1,English League One (tier 3),domestic_league,2018-19,552,0,0,0
+england:3-league1,English League One (tier 3),domestic_league,2019-20,400,0,0,0
+england:3-league1,English League One (tier 3),domestic_league,2020-21,552,0,0,0
+england:3-league1,English League One (tier 3),domestic_league,2021-22,552,0,0,0
+england:3-league1,English League One (tier 3),domestic_league,2022-23,552,0,0,0
+england:3-league1,English League One (tier 3),domestic_league,2023-24,552,0,0,0
+england:3-league1,English League One (tier 3),domestic_league,2024-25,552,0,0,0
+england:3-league1,English League One (tier 3),domestic_league,2025-26,356,0,0,0
+england:4-league2,English League Two (tier 4),domestic_league,2018-19,552,0,0,0
+england:4-league2,English League Two (tier 4),domestic_league,2019-20,440,0,0,0
+england:4-league2,English League Two (tier 4),domestic_league,2020-21,552,0,0,0
+england:4-league2,English League Two (tier 4),domestic_league,2021-22,552,0,0,0
+england:4-league2,English League Two (tier 4),domestic_league,2022-23,552,0,0,0
+england:4-league2,English League Two (tier 4),domestic_league,2023-24,552,0,0,0
+england:4-league2,English League Two (tier 4),domestic_league,2024-25,552,0,0,0
+england:4-league2,English League Two (tier 4),domestic_league,2025-26,276,0,0,0
+england:5-nationalleague,English National League (tier 5),domestic_league,2018-19,552,0,0,0
+england:5-nationalleague,English National League (tier 5),domestic_league,2019-20,451,0,0,0
+england:5-nationalleague,English National League (tier 5),domestic_league,2020-21,462,0,0,0
+england:5-nationalleague,English National League (tier 5),domestic_league,2021-22,506,0,0,0
+england:5-nationalleague,English National League (tier 5),domestic_league,2022-23,552,0,0,0
+england:5-nationalleague,English National League (tier 5),domestic_league,2023-24,552,0,0,0
+england:5-nationalleague,English National League (tier 5),domestic_league,2024-25,552,0,0,0
+england:5-nationalleague,English National League (tier 5),domestic_league,2025-26,296,0,0,0
+england:eflcup,EFL Cup,league_cup,2025-26,91,0,0,2
+england:eflcup,EFL Cup,league_cup,2026-27,74,0,0,2
+england:eflcup,EFL Cup (League Cup),league_cup,2018-19,2,73,0,15
+england:eflcup,EFL Cup (League Cup),league_cup,2019-20,0,69,0,18
+england:eflcup,EFL Cup (League Cup),league_cup,2020-21,0,70,0,14
+england:eflcup,EFL Cup (League Cup),league_cup,2021-22,1,62,0,18
+england:eflcup,EFL Cup (League Cup),league_cup,2022-23,0,75,0,11
+england:eflcup,EFL Cup (League Cup),league_cup,2023-24,0,68,0,22
+england:eflcup,EFL Cup (League Cup),league_cup,2024-25,91,0,0,0
+england:facup,FA Cup,domestic_cup,2018-19,10,139,0,1
+england:facup,FA Cup,domestic_cup,2019-20,8,146,0,2
+england:facup,FA Cup,domestic_cup,2020-21,20,95,0,8
+england:facup,FA Cup,domestic_cup,2021-22,14,118,0,4
+england:facup,FA Cup,domestic_cup,2022-23,4,138,0,2
+england:facup,FA Cup,domestic_cup,2023-24,10,138,0,1
+england:facup,FA Cup,domestic_cup,2024-25,116,7,0,0
+england:facup,FA Cup,domestic_cup,2025-26,120,0,0,2
+espana:1-liga,Spanish La Liga,domestic_league,2018-19,380,0,0,0
+espana:1-liga,Spanish La Liga,domestic_league,2019-20,380,0,0,0
+espana:1-liga,Spanish La Liga,domestic_league,2020-21,380,0,0,0
+espana:1-liga,Spanish La Liga,domestic_league,2021-22,380,0,0,0
+espana:1-liga,Spanish La Liga,domestic_league,2022-23,380,0,0,0
+espana:1-liga,Spanish La Liga,domestic_league,2023-24,380,0,0,0
+espana:1-liga,Spanish La Liga,domestic_league,2024-25,380,0,0,0
+espana:1-liga,Spanish La Liga,domestic_league,2025-26,380,0,0,0
+espana:1-liga,Spanish La Liga,domestic_league,2026-27,69,0,0,0
+espana:2-liga2,Spanish Segunda Division,domestic_league,2018-19,441,0,0,21
+espana:2-liga2,Spanish Segunda Division,domestic_league,2019-20,462,0,0,0
+espana:2-liga2,Spanish Segunda Division,domestic_league,2020-21,462,0,0,0
+espana:2-liga2,Spanish Segunda Division,domestic_league,2021-22,462,0,0,0
+espana:2-liga2,Spanish Segunda Division,domestic_league,2022-23,462,0,0,0
+espana:2-liga2,Spanish Segunda Division,domestic_league,2023-24,462,0,0,0
+espana:2-liga2,Spanish Segunda Division,domestic_league,2024-25,453,0,0,0
+espana:2-liga2,Spanish Segunda Division,domestic_league,2025-26,131,0,0,0
+espana:cup,Copa del Rey,domestic_cup,2018-19,111,0,0,1
+espana:cup,Copa del Rey,domestic_cup,2019-20,122,0,0,4
+espana:cup,Copa del Rey,domestic_cup,2020-21,65,58,0,3
+espana:cup,Copa del Rey,domestic_cup,2021-22,68,59,0,0
+espana:cup,Copa del Rey,domestic_cup,2022-23,57,65,0,4
+espana:cup,Copa del Rey,domestic_cup,2023-24,65,57,0,4
+espana:cup,Copa del Rey,domestic_cup,2024-25,55,67,0,4
+espana:cup,Copa del Rey,domestic_cup,2025-26,72,0,0,65
+espana:cup,Copa del Rey,domestic_cup,2026-27,9,0,0,1
+europe/albania:al1,Albania Super League,domestic_league,2023-24,180,4,0,0
+europe/albania:al1,Albania Super League,domestic_league,2024-25,180,4,0,0
+europe/andorra:ad1,Andorra Premier Division,domestic_league,2023-24,135,0,0,0
+europe/andorra:ad1,Andorra Premier Division,domestic_league,2024-25,135,0,0,0
+europe/armenia:am1,Armenia Premier League,domestic_league,2023-24,180,0,0,0
+europe/armenia:am1,Armenia Premier League,domestic_league,2024-25,159,0,0,6
+europe/azerbaijan:az1,Azerbaijan Premier League A,domestic_league,2023-24,180,0,0,0
+europe/azerbaijan:az1,Azerbaijan Premier League A,domestic_league,2024-25,180,0,0,0
+europe/belarus:by1,Belarus Premier League,domestic_league,2023,209,0,0,1
+europe/belarus:by1,Belarus Premier League,domestic_league,2024,240,0,0,0
+europe/belarus:by1,Belarus Premier League,domestic_league,2025,8,0,0,0
+europe/bosnia-herzegovina:ba1,Bosnia and Herzegovina Premier Liga,domestic_league,2023-24,198,0,0,0
+europe/bosnia-herzegovina:ba1,Bosnia and Herzegovina Premier Liga,domestic_league,2024-25,198,0,0,0
+europe/bosnia-herzegovina:bacup,Bosnia and Herzegovina Cup,domestic_cup,2024-25,0,32,0,2
+europe/bulgaria:bg1,Bulgaria Premier League,domestic_league,2023-24,282,1,0,0
+europe/bulgaria:bg1,Bulgaria Premier League,domestic_league,2024-25,292,0,0,0
+europe/bulgaria:bgcup,Bulgaria Cup,domestic_cup,2024-25,6,25,0,1
+europe/croatia:hr1,Croatia HNL,domestic_league,2023-24,180,0,0,0
+europe/croatia:hr1,Croatia HNL,domestic_league,2024-25,180,0,0,0
+europe/cyprus:cy1,Cyprus First Division,domestic_league,2023-24,267,0,0,1
+europe/cyprus:cy1,Cyprus First Division,domestic_league,2024-25,239,0,0,1
+europe/cyprus:cycup,Cyprus Cypriot Cup,domestic_cup,2024-25,4,21,0,0
+europe/czech-republic:cz1,Czech Republic First League,domestic_league,2018-19,277,0,0,0
+europe/czech-republic:cz1,Czech Republic First League,domestic_league,2020-21,306,0,0,0
+europe/czech-republic:cz1,Czech Republic First League,domestic_league,2023-24,276,1,0,0
+europe/czech-republic:cz1,Czech Republic First League,domestic_league,2024-25,270,6,0,0
+europe/czech-republic:cz1,Czech Republic | First League,domestic_league,2026-27,71,0,0,0
+europe/czech-republic:cz2,Czech Republic National League,domestic_league,2024-25,208,0,0,0
+europe/czech-republic:czcup,Czech Republic Cup,domestic_cup,2024-25,2,82,0,14
+europe/denmark:dk1,Denmark Superligaen,domestic_league,2023-24,192,1,0,0
+europe/denmark:dk1,Denmark Superligaen,domestic_league,2024-25,192,0,0,0
+europe/denmark:dk2,Denmark 1. Division,domestic_league,2024-25,174,0,0,0
+europe/denmark:dkcup,Denmark Landspokalturneringen,domestic_cup,2024-25,10,96,0,0
+europe/estonia:ee1,Estonia Meistriliiga,domestic_league,2023,180,0,0,0
+europe/estonia:ee1,Estonia Meistriliiga,domestic_league,2024,180,0,0,0
+europe/estonia:ee1,Estonia Meistriliiga,domestic_league,2025,15,0,0,0
+europe/faroe-islands:fo1,Faroe Islands Premier Division,domestic_league,2023,135,0,0,0
+europe/faroe-islands:fo1,Faroe Islands Premier Division,domestic_league,2024,135,0,0,0
+europe/faroe-islands:fo1,Faroe Islands Premier Division,domestic_league,2025,40,0,0,0
+europe/finland:fi1,Finland Veikkausliiga,domestic_league,2023,164,3,0,0
+europe/finland:fi1,Finland Veikkausliiga,domestic_league,2024,164,3,0,0
+europe/finland:fi1,Finland Veikkausliiga,domestic_league,2025,32,0,0,0
+europe/france:fr1,France | Ligue 1,domestic_league,2025-26,306,0,0,0
+europe/france:fr1,French Ligue 1,domestic_league,2018-19,380,0,0,0
+europe/france:fr1,French Ligue 1,domestic_league,2019-20,279,0,0,0
+europe/france:fr1,French Ligue 1,domestic_league,2020-21,380,0,0,0
+europe/france:fr1,French Ligue 1,domestic_league,2021-22,380,0,0,0
+europe/france:fr1,French Ligue 1,domestic_league,2022-23,380,0,0,0
+europe/france:fr1,French Ligue 1,domestic_league,2023-24,306,0,0,0
+europe/france:fr1,French Ligue 1,domestic_league,2024-25,305,0,0,1
+europe/france:fr1,French Ligue 1,domestic_league,2026-27,45,0,0,0
+europe/france:fr2,French Ligue 2,domestic_league,2018-19,380,0,0,0
+europe/france:fr2,French Ligue 2,domestic_league,2019-20,280,0,0,0
+europe/france:fr2,French Ligue 2,domestic_league,2020-21,379,0,0,1
+europe/france:fr2,French Ligue 2,domestic_league,2021-22,380,0,0,0
+europe/france:fr2,French Ligue 2,domestic_league,2022-23,380,0,0,0
+europe/france:fr2,French Ligue 2,domestic_league,2023-24,380,0,0,0
+europe/france:fr2,French Ligue 2,domestic_league,2024-25,306,0,0,0
+europe/france:fr2,French Ligue 2,domestic_league,2025-26,116,0,0,0
+europe/france:frcup,Coupe de France,domestic_cup,2018-19,189,0,0,6
+europe/france:frcup,Coupe de France,domestic_cup,2019-20,189,0,0,6
+europe/france:frcup,Coupe de France,domestic_cup,2020-21,155,0,0,18
+europe/france:frcup,Coupe de France,domestic_cup,2021-22,177,0,0,16
+europe/france:frcup,Coupe de France,domestic_cup,2022-23,174,0,0,21
+europe/france:frcup,Coupe de France,domestic_cup,2023-24,193,0,0,8
+europe/france:frcup,Coupe de France,domestic_cup,2025-26,61,0,0,19
+europe/france:frcup,French Coupe de France,domestic_cup,2024-25,43,118,0,27
+europe/georgia:ge1,Georgia Premier League A,domestic_league,2023,180,0,0,0
+europe/georgia:ge1,Georgia Premier League A,domestic_league,2024,180,0,0,0
+europe/georgia:ge1,Georgia Premier League A,domestic_league,2025,17,0,0,0
+europe/gibraltar:gi1,Gibraltar Premier League A,domestic_league,2023-24,125,0,0,0
+europe/gibraltar:gi1,Gibraltar Premier League A,domestic_league,2024-25,125,0,0,0
+europe/greece:gr1,Greece | Super League,domestic_league,2026-27,35,0,0,0
+europe/greece:gr1,Greek Super League,domestic_league,2018-19,239,0,0,1
+europe/greece:gr1,Greek Super League,domestic_league,2019-20,240,0,0,0
+europe/greece:gr1,Greek Super League,domestic_league,2020-21,240,0,0,0
+europe/greece:gr1,Greek Super League,domestic_league,2023-24,239,0,0,1
+europe/greece:gr1,Greek Super League,domestic_league,2024-25,224,12,0,0
+europe/greece:gr1,Greek Super League,domestic_league,2025-26,62,0,0,0
+europe/hungary:hu1,Hungarian Nemzeti Bajnokság I,domestic_league,2018-19,198,0,0,0
+europe/hungary:hu1,Hungarian Nemzeti Bajnokság I,domestic_league,2020-21,197,0,0,1
+europe/hungary:hu1,Hungarian Nemzeti Bajnokság I,domestic_league,2023-24,198,0,0,0
+europe/hungary:hu1,Hungarian Nemzeti Bajnokság I,domestic_league,2024-25,198,0,0,0
+europe/hungary:hucup,Hungarian Cup,domestic_cup,2024-25,12,49,0,1
+europe/iceland:is1,Iceland Urvalsdeild,domestic_league,2023,162,0,0,0
+europe/iceland:is1,Iceland Úrvalsdeild,domestic_league,2024,162,0,0,0
+europe/iceland:is1,Iceland Úrvalsdeild,domestic_league,2025,27,0,0,0
+europe/iceland:iscup,Iceland Cup,domestic_cup,2025,8,52,0,0
+europe/ireland:ie1,Irish Premier Division,domestic_league,2023,180,0,0,0
+europe/ireland:ie1,Irish Premier Division,domestic_league,2024,180,0,0,0
+europe/ireland:ie1,Irish Premier Division,domestic_league,2025,65,0,0,0
+europe/kosovo:kos1,Kosovo Superliga A,domestic_league,2023-24,180,0,0,0
+europe/kosovo:kos1,Kosovo Superliga A,domestic_league,2024-25,180,0,0,0
+europe/latvia:lv1,Latvia Higher League,domestic_league,2023,180,0,0,0
+europe/latvia:lv1,Latvia Higher League,domestic_league,2024,180,0,0,0
+europe/latvia:lv1,Latvia Higher League,domestic_league,2025,51,0,0,0
+europe/liechtenstein:licup,Liechtensteiner Pokal,domestic_cup,2023-24,0,13,0,2
+europe/liechtenstein:licup,Liechtensteiner Pokal,domestic_cup,2024-25,0,14,0,2
+europe/lithuania:lt1,Lithuania First Division,domestic_league,2023,179,0,0,1
+europe/lithuania:lt1,Lithuania First Division,domestic_league,2024,179,0,0,1
+europe/lithuania:lt1,Lithuania First Division,domestic_league,2025,15,0,0,0
+europe/luxembourg:lu1,Luxembourg National Division,domestic_league,2023-24,240,0,0,0
+europe/luxembourg:lu1,Luxembourg National Division,domestic_league,2024-25,239,0,0,1
+europe/malta:mt1,Malta Premier League,domestic_league,2023-24,182,0,0,0
+europe/malta:mt1,Malta Premier League,domestic_league,2024-25,194,2,0,1
+europe/moldova:md1,Moldova First Division,domestic_league,2023-24,86,0,0,0
+europe/moldova:md1,Moldova First Division,domestic_league,2024-25,85,0,0,1
+europe/montenegro:me1,Montenegro First League,domestic_league,2023-24,180,0,0,0
+europe/montenegro:me1,Montenegro First League,domestic_league,2024-25,179,0,0,0
+europe/netherlands:nl1,Netherlands Eredivisie,domestic_league,2018-19,306,0,0,0
+europe/netherlands:nl1,Netherlands Eredivisie,domestic_league,2019-20,232,0,0,0
+europe/netherlands:nl1,Netherlands Eredivisie,domestic_league,2020-21,306,0,0,0
+europe/netherlands:nl1,Netherlands Eredivisie,domestic_league,2021-22,306,0,0,0
+europe/netherlands:nl1,Netherlands Eredivisie,domestic_league,2022-23,306,0,0,0
+europe/netherlands:nl1,Netherlands Eredivisie,domestic_league,2023-24,306,0,0,0
+europe/netherlands:nl1,Netherlands Eredivisie,domestic_league,2024-25,306,0,0,0
+europe/netherlands:nl1,Netherlands Eredivisie,domestic_league,2025-26,305,0,0,0
+europe/netherlands:nl1,Netherlands Eredivisie,domestic_league,2026-27,63,0,0,0
+europe/netherlands:nl2,Netherlands Eerste Divisie,domestic_league,2020-21,380,0,0,0
+europe/netherlands:nl2,Netherlands Eerste Divisie,domestic_league,2021-22,380,0,0,0
+europe/netherlands:nl2,Netherlands Eerste Divisie,domestic_league,2022-23,380,0,0,0
+europe/netherlands:nl2,Netherlands Eerste Divisie,domestic_league,2023-24,380,0,0,0
+europe/netherlands:nl2,Netherlands Eerste Divisie,domestic_league,2024-25,370,0,0,0
+europe/netherlands:nlcup,Netherlands Cup,domestic_cup,2024-25,23,83,0,3
+europe/north-macedonia:mk1,North Macedonia First League,domestic_league,2023-24,198,0,0,0
+europe/north-macedonia:mk1,North Macedonia First League,domestic_league,2024-25,187,0,0,11
+europe/northern-ireland:nir1,Northern Irish Premiership,domestic_league,2023-24,198,0,0,0
+europe/northern-ireland:nir1,Northern Irish Premiership,domestic_league,2024-25,228,3,0,0
+europe/norway:no1,Norway Eliteserien,domestic_league,2023,240,0,0,0
+europe/norway:no1,Norway Eliteserien,domestic_league,2024,240,0,0,0
+europe/norway:no1,Norway Eliteserien,domestic_league,2025,44,0,0,0
+europe/norway:no2,Norway 1. Division,domestic_league,2025,40,0,0,0
+europe/norway:nocup,Norway Cupen,domestic_cup,2025,14,82,0,0
+europe/poland:pl1,Poland Ekstraklasa,domestic_league,2023-24,306,0,0,0
+europe/poland:pl1,Poland Ekstraklasa,domestic_league,2024-25,306,0,0,0
+europe/poland:pl2,Poland I Liga,domestic_league,2024-25,277,0,0,1
+europe/portugal:pt1,Portuguese Primeira Liga,domestic_league,2018-19,306,0,0,0
+europe/portugal:pt1,Portuguese Primeira Liga,domestic_league,2019-20,306,0,0,0
+europe/portugal:pt1,Portuguese Primeira Liga,domestic_league,2020-21,306,0,0,0
+europe/portugal:pt1,Portuguese Primeira Liga,domestic_league,2021-22,306,0,0,0
+europe/portugal:pt1,Portuguese Primeira Liga,domestic_league,2022-23,306,0,0,0
+europe/portugal:pt1,Portuguese Primeira Liga,domestic_league,2023-24,306,0,0,0
+europe/portugal:pt1,Portuguese Primeira Liga,domestic_league,2024-25,306,0,0,0
+europe/portugal:pt1,Portuguese Primeira Liga,domestic_league,2025-26,306,0,0,0
+europe/portugal:pt1,Portuguese Primeira Liga,domestic_league,2026-27,62,0,0,0
+europe/portugal:pt2,Portuguese Segunda Liga,domestic_league,2020-21,306,0,0,0
+europe/portugal:pt2,Portuguese Segunda Liga,domestic_league,2021-22,306,0,0,0
+europe/portugal:pt2,Portuguese Segunda Liga,domestic_league,2022-23,306,0,0,0
+europe/portugal:pt2,Portuguese Segunda Liga,domestic_league,2023-24,306,0,0,0
+europe/portugal:pt2,Portuguese Segunda Liga,domestic_league,2024-25,234,0,0,0
+europe/portugal:ptcup,Portuguese Taça de Portugal,domestic_cup,2024-25,18,91,0,1
+europe/romania:ro1,Romania Liga 1,domestic_league,2023-24,315,1,0,1
+europe/romania:ro1,Romania Liga 1,domestic_league,2024-25,315,0,0,0
+europe/romania:rocup,Romania Cup,domestic_cup,2024-25,4,54,0,2
+europe/russia:ru1,Russia Premier League,domestic_league,2018-19,240,0,0,0
+europe/russia:ru1,Russia Premier League,domestic_league,2019-20,236,0,0,4
+europe/russia:ru1,Russia Premier League,domestic_league,2020-21,238,0,0,2
+europe/russia:ru1,Russia Premier League,domestic_league,2023-24,240,0,0,0
+europe/russia:ru1,Russia Premier League,domestic_league,2024-25,240,0,0,0
+europe/russia:ru2,Russia 1. Division,domestic_league,2019-20,236,0,0,4
+europe/san-marino:sm1,San Marinese Championship,domestic_league,2023-24,241,15,0,0
+europe/san-marino:sm1,San Marinese Championship,domestic_league,2024-25,240,16,0,0
+europe/scotland:sco1,Scotland | Premiership,domestic_league,2026-27,42,0,0,0
+europe/scotland:sco1,Scottish Premiership,domestic_league,2018-19,198,0,0,0
+europe/scotland:sco1,Scottish Premiership,domestic_league,2019-20,179,0,0,0
+europe/scotland:sco1,Scottish Premiership,domestic_league,2020-21,198,0,0,0
+europe/scotland:sco1,Scottish Premiership,domestic_league,2023-24,228,0,0,0
+europe/scotland:sco1,Scottish Premiership,domestic_league,2024-25,228,0,0,0
+europe/scotland:sco1,Scottish Premiership,domestic_league,2025-26,63,0,0,0
+europe/serbia:rs1,Serbia Super League,domestic_league,2023-24,295,0,0,1
+europe/serbia:rs1,Serbia Super League,domestic_league,2024-25,296,0,0,0
+europe/slovakia:sk1,Slovakia First League,domestic_league,2023-24,192,0,0,0
+europe/slovakia:sk1,Slovakia First League,domestic_league,2024-25,193,2,0,0
+europe/slovenia:si1,Slovenia First League,domestic_league,2023-24,178,0,0,2
+europe/slovenia:si1,Slovenia First League,domestic_league,2024-25,180,0,0,0
+europe/slovenia:sicup,Slovenia Cup,domestic_cup,2024-25,3,110,0,4
+europe/sweden:se1,Sweden Allsvenskan,domestic_league,2023,240,0,0,0
+europe/sweden:se1,Sweden Allsvenskan,domestic_league,2024,240,0,0,0
+europe/sweden:se1,Sweden Allsvenskan,domestic_league,2025,53,0,0,0
+europe/sweden:se2,Sweden Superettan,domestic_league,2025,45,0,0,0
+europe/sweden:se3s,Sweden Div 1 Södra,domestic_league,2025,47,0,0,0
+europe/switzerland:ch1,Swiss Super League,domestic_league,2018-19,178,0,0,2
+europe/switzerland:ch1,Swiss Super League,domestic_league,2019-20,180,0,0,0
+europe/switzerland:ch1,Swiss Super League,domestic_league,2020-21,180,0,0,0
+europe/switzerland:ch1,Swiss Super League,domestic_league,2023-24,228,0,0,0
+europe/switzerland:ch1,Swiss Super League,domestic_league,2024-25,228,0,0,0
+europe/switzerland:ch1,Switzerland | Super League,domestic_league,2026-27,54,0,0,0
+europe/switzerland:ch2,Swiss Challenge League,domestic_league,2019-20,180,0,0,0
+europe/switzerland:ch2,Swiss Challenge League,domestic_league,2020-21,180,0,0,0
+europe/switzerland:ch2,Swiss Challenge League,domestic_league,2023-24,180,0,0,0
+europe/switzerland:ch2,Swiss Challenge League,domestic_league,2024-25,129,0,0,1
+europe/switzerland:chcup,Swiss Cup,domestic_cup,2023-24,6,55,0,2
+europe/switzerland:chcup,Swiss Cup,domestic_cup,2024-25,8,52,0,2
+europe/turkey:tr1,Turkey | Süper Lig,domestic_league,2026-27,36,0,0,0
+europe/turkey:tr1,Turkish Süper Lig,domestic_league,2018-19,306,0,0,0
+europe/turkey:tr1,Turkish Süper Lig,domestic_league,2019-20,306,0,0,0
+europe/turkey:tr1,Turkish Süper Lig,domestic_league,2020-21,420,0,0,0
+europe/turkey:tr1,Turkish Süper Lig,domestic_league,2023-24,380,0,0,0
+europe/turkey:tr1,Turkish Süper Lig,domestic_league,2024-25,337,0,0,1
+europe/turkey:tr1,Turkish Süper Lig,domestic_league,2025-26,99,0,0,0
+europe/turkey:tr2,Turkish 1. Lig,domestic_league,2019-20,307,4,0,0
+europe/turkey:trcup,Türkiye Kupasi,domestic_cup,2024-25,13,132,0,8
+europe/ukraine:ua1,Ukraine Premier League,domestic_league,2023-24,239,0,0,1
+europe/ukraine:ua1,Ukraine Premier League,domestic_league,2024-25,240,0,0,0
+europe/wales:wal1,Welsh Premier League,domestic_league,2023-24,192,3,0,0
+europe/wales:wal1,Welsh Premier League,domestic_league,2024-25,193,3,0,0
+italy:1-seriea,Italian Serie A,domestic_league,2018-19,380,0,0,0
+italy:1-seriea,Italian Serie A,domestic_league,2019-20,380,0,0,0
+italy:1-seriea,Italian Serie A,domestic_league,2020-21,379,0,0,1
+italy:1-seriea,Italian Serie A,domestic_league,2021-22,380,0,0,0
+italy:1-seriea,Italian Serie A,domestic_league,2022-23,380,0,0,0
+italy:1-seriea,Italian Serie A,domestic_league,2023-24,380,0,0,0
+italy:1-seriea,Italian Serie A,domestic_league,2024-25,380,0,0,0
+italy:1-seriea,Italian Serie A,domestic_league,2025-26,380,0,0,0
+italy:1-seriea,Italian Serie A,domestic_league,2026-27,50,0,0,0
+italy:2-serieb,Italian Serie B,domestic_league,2018-19,351,0,0,1
+italy:2-serieb,Italian Serie B,domestic_league,2019-20,389,0,0,1
+italy:2-serieb,Italian Serie B,domestic_league,2020-21,387,0,0,1
+italy:2-serieb,Italian Serie B,domestic_league,2021-22,390,0,0,0
+italy:2-serieb,Italian Serie B,domestic_league,2022-23,389,0,0,1
+italy:2-serieb,Italian Serie B,domestic_league,2023-24,390,0,0,0
+italy:2-serieb,Italian Serie B,domestic_league,2024-25,379,7,0,1
+italy:2-serieb,Italian Serie B,domestic_league,2025-26,309,0,0,0
+italy:3-seriec_a,Italian Serie C (North & Central West),domestic_league,2024-25,329,0,0,0
+italy:3-seriec_b,Italian Serie C (North & Central East),domestic_league,2024-25,330,0,0,0
+italy:3-seriec_c,Italian Serie C (South),domestic_league,2024-25,266,0,0,0
+italy:cup,Coppa Italia,domestic_cup,2018-19,78,0,0,1
+italy:cup,Coppa Italia,domestic_cup,2019-20,76,0,0,3
+italy:cup,Coppa Italia,domestic_cup,2020-21,55,20,0,4
+italy:cup,Coppa Italia,domestic_cup,2021-22,41,3,0,1
+italy:cup,Coppa Italia,domestic_cup,2022-23,44,1,0,0
+italy:cup,Coppa Italia,domestic_cup,2023-24,44,1,0,0
+italy:cup,Coppa Italia,domestic_cup,2024-25,42,1,0,0
+italy:cup,Coppa Italia,domestic_cup,2025-26,42,0,0,3
+italy:cup,Coppa Italia,domestic_cup,2026-27,28,0,0,0
+south-america/argentina:ar1,Argentina Primera Division,domestic_league,2018-19,325,0,0,0
+south-america/argentina:ar1,Argentina Primera Division,domestic_league,2019-20,276,0,0,0
+south-america/argentina:ar1,Argentina Primera Division,domestic_league,2020,135,0,0,0
+south-america/argentina:ar1,Argentina Primera Division,domestic_league,2021,325,0,0,0
+south-america/argentina:ar1,Argentina Primera Division,domestic_league,2022,378,0,0,0
+south-america/argentina:ar1,Argentina Primera Division,domestic_league,2023,378,0,0,0
+south-america/argentina:ar1,Argentina Primera Division,domestic_league,2024,378,0,0,0
+south-america/argentina:ar1,Argentina Primera Division,domestic_league,2025,240,0,0,0
+south-america/brazil:br1,Brasileiro Série A,domestic_league,2018,380,0,0,0
+south-america/brazil:br1,Brasileiro Série A,domestic_league,2019,380,0,0,0
+south-america/brazil:br1,Brasileiro Série A,domestic_league,2020,380,0,0,0
+south-america/brazil:br1,Brasileiro Série A,domestic_league,2021,380,0,0,0
+south-america/brazil:br1,Brasileiro Série A,domestic_league,2022,380,0,0,0
+south-america/brazil:br1,Brasileiro Série A,domestic_league,2023,380,0,0,0
+south-america/brazil:br1,Brasileiro Série A,domestic_league,2024,380,0,0,0
+south-america/brazil:br1,Brasileiro Série A,domestic_league,2025,380,0,0,0
+south-america/brazil:br1,Brasileiro Série A,domestic_league,2026,277,0,0,0
+south-america/brazil:br2,Brasileiro Série B,domestic_league,2018,380,0,0,0
+south-america/brazil:br2,Brasileiro Série B,domestic_league,2019,379,0,0,1
+south-america/brazil:br2,Brasileiro Série B,domestic_league,2020,380,0,0,0
+south-america/brazil:br2,Brasileiro Série B,domestic_league,2021,380,0,0,0
+south-america/brazil:br2,Brasileiro Série B,domestic_league,2022,380,0,0,0
+south-america/brazil:br2,Brasileiro Série B,domestic_league,2023,380,0,0,0
+south-america/brazil:br2,Brasileiro Série B,domestic_league,2024,380,0,0,0
+south-america/brazil:br2,Brasileiro Série B,domestic_league,2025,57,0,0,0
+south-america/brazil:brcup,Copa do Brasil,domestic_cup,2025,2,70,0,14
+south-america/colombia:co1,Colombia Primera A,domestic_league,2023,401,50,0,1
+south-america/colombia:co1,Colombia Primera A,domestic_league,2024,377,51,0,4
+south-america/colombia:co1,Colombia Primera A,domestic_league,2025,167,0,0,0
+south-america/ecuador:ec1,Ecuador Serie A,domestic_league,2025,86,0,0,0
+south-america/paraguay:py1,Paraguay Primera Division,domestic_league,2025,101,0,0,0
+south-america:copal,Copa Libertadores,continental_club,2018,1,153,0,2
+south-america:copal,Copa Libertadores,continental_club,2019,0,151,0,3
+south-america:copal,Copa Libertadores,continental_club,2020,0,150,0,4
+south-america:copal,Copa Libertadores,continental_club,2021,1,152,0,0
+south-america:copal,Copa Libertadores,continental_club,2022,72,78,0,1
+south-america:copal,Copa Libertadores,continental_club,2023,97,53,0,4
+south-america:copal,Copa Libertadores,continental_club,2024,96,53,0,5
+south-america:copal,Copa Libertadores,continental_club,2025,95,53,0,7
+south-america:copal,Copa Libertadores,continental_club,2026,95,23,0,7
+south-america:copas,Copa Sudamericana,continental_club,2018,1,95,0,8
+south-america:copas,Copa Sudamericana,continental_club,2019,0,92,0,12
+south-america:copas,Copa Sudamericana,continental_club,2020,0,102,0,3
+south-america:copas,Copa Sudamericana,continental_club,2021,72,84,0,0
+south-america:copas,Copa Sudamericana,continental_club,2022,72,78,0,6
+south-america:copas,Copa Sudamericana,continental_club,2023,73,77,0,6
+south-america:copas,Copa Sudamericana,continental_club,2024,73,75,0,4
+south-america:copas,Copa Sudamericana,continental_club,2025,48,8,0,5
+world/africa:afl,African Football League,continental_club,2023,0,13,0,0
+world/africa:cafcl,CAF Champions League,continental_club,2023-24,48,82,0,6
+world/africa:cafcl,CAF Champions League,continental_club,2024-25,48,93,0,4
+world/africa:dz1,Algeria | Ligue 1,domestic_league,2023-24,240,0,0,0
+world/africa:dz1,Algeria | Ligue 1,domestic_league,2024-25,160,0,0,0
+world/africa:eg1,Egypt | Premiership,domestic_league,2023-24,305,0,0,1
+world/africa:eg1,Egypt | Premiership,domestic_league,2024-25,182,0,0,1
+world/africa:gh1,Ghana | Premier League,domestic_league,2020-21,305,0,0,1
+world/africa:gh1,Ghana | Premier League,domestic_league,2021-22,306,0,0,0
+world/africa:gh1,Ghana | Premier League,domestic_league,2022-23,306,0,0,0
+world/africa:gh1,Ghana | Premier League,domestic_league,2023-24,305,0,0,1
+world/africa:gh1,Ghana | Premier League,domestic_league,2024-25,290,0,0,16
+world/africa:ke1,Kenya | Premier League,domestic_league,2022-23,304,0,0,2
+world/africa:ke1,Kenya | Premier League,domestic_league,2023-24,305,0,0,1
+world/africa:ke1,Kenya | Premier League,domestic_league,2024-25,306,0,0,0
+world/africa:ke1,Kenya | Premier League,domestic_league,2025-26,305,0,0,1
+world/africa:ma1,Morocco | Botola Pro 1,domestic_league,2023-24,240,0,0,0
+world/africa:ma1,Morocco | Botola Pro 1,domestic_league,2024-25,200,0,0,0
+world/africa:mw1,Malawi | Super League,domestic_league,2023,239,0,0,1
+world/africa:mw1,Malawi | Super League,domestic_league,2024,240,0,0,0
+world/africa:mw1,Malawi | Super League,domestic_league,2025,240,0,0,0
+world/africa:ng1,Nigeria Professional Football League,domestic_league,2018-19,279,0,0,0
+world/africa:ng1,Nigeria Professional Football League,domestic_league,2022-23,195,0,0,0
+world/africa:ng1,Nigeria Professional League,domestic_league,2021-22,380,0,0,0
+world/africa:ng1,Nigeria Professional League,domestic_league,2023-24,380,0,0,0
+world/africa:ng1,Nigeria Professional League,domestic_league,2024-25,380,0,0,0
+world/africa:ng1,Nigeria Professional League,domestic_league,2025-26,379,0,0,1
+world/africa:ng1,Nigeria | Premier Football League,domestic_league,2020-21,380,0,0,0
+world/africa:ng2,Nigeria National League,domestic_league,2018-19,184,0,0,0
+world/africa:ng2,Nigeria National League,domestic_league,2020-21,480,0,0,0
+world/africa:ng2,Nigeria National League,domestic_league,2021-22,494,0,0,0
+world/africa:ng2,Nigeria National League,domestic_league,2022-23,215,0,0,0
+world/africa:ng2,Nigeria National League,domestic_league,2023-24,378,0,0,0
+world/africa:ng2,Nigeria National League,domestic_league,2024-25,311,0,0,0
+world/africa:ng2,Nigeria National League,domestic_league,2025-26,266,0,0,0
+world/africa:rw1,Rwanda | Premier League,domestic_league,2021-22,240,0,0,0
+world/africa:rw1,Rwanda | Premier League,domestic_league,2022-23,240,0,0,0
+world/africa:rw1,Rwanda | Premier League,domestic_league,2023-24,239,0,0,1
+world/africa:rw1,Rwanda | Premier League,domestic_league,2024-25,239,0,0,1
+world/africa:rw1,Rwanda | Premier League,domestic_league,2025-26,305,0,0,1
+world/africa:sn1,Senegal | Ligue 1,domestic_league,2020-21,181,0,1,0
+world/africa:sn1,Senegal | Ligue 1,domestic_league,2021-22,181,0,0,1
+world/africa:sn1,Senegal | Ligue 1,domestic_league,2022-23,179,0,1,2
+world/africa:sn1,Senegal | Ligue 1,domestic_league,2024-25,240,0,0,0
+world/africa:sn1,Senegal | Ligue 1,domestic_league,2025-26,238,0,1,1
+world/africa:tz1,Tanzania | Premier League,domestic_league,2020-21,306,0,0,0
+world/africa:tz1,Tanzania | Premier League,domestic_league,2021-22,239,0,0,1
+world/africa:tz1,Tanzania | Premier League,domestic_league,2023-24,240,0,0,0
+world/africa:tz1,Tanzania | Premier League,domestic_league,2024-25,240,0,0,0
+world/africa:tz1,Tanzania | Premier League,domestic_league,2025-26,239,0,0,1
+world/africa:ug1,Uganda Premier League,domestic_league,2023-24,225,0,0,0
+world/africa:ug1,Uganda Premier League,domestic_league,2024-25,239,0,0,1
+world/africa:ug1,Uganda Premier League,domestic_league,2025-26,237,0,0,3
+world/africa:za1,South Africa Premier League,domestic_league,2024-25,189,0,0,0
+world/africa:zm1,Zambia Super League,domestic_league,2021-22,306,0,0,0
+world/africa:zm1,Zambia Super League,domestic_league,2023-24,305,0,0,1
+world/africa:zm1,Zambia Super League,domestic_league,2024-25,306,0,0,0
+world/africa:zm1,Zambia Super League,domestic_league,2025-26,304,0,0,2
+world/africa:zw1,Zimbabwe | Premier Soccer League,domestic_league,2021-22,304,0,0,2
+world/africa:zw1,Zimbabwe | Premier Soccer League,domestic_league,2023,304,0,0,2
+world/africa:zw1,Zimbabwe | Premier Soccer League,domestic_league,2024,304,0,0,2
+world/africa:zw1,Zimbabwe | Premier Soccer League,domestic_league,2025,303,0,0,3
+world/asia:cn1,China | Super League,domestic_league,2018,240,0,0,0
+world/asia:cn1,China | Super League,domestic_league,2019,240,0,0,0
+world/asia:cn1,China | Super League,domestic_league,2020,133,26,0,1
+world/asia:cn1,China | Super League,domestic_league,2021,144,32,0,0
+world/asia:cn1,China | Super League,domestic_league,2022,297,0,0,9
+world/asia:cn1,China | Super League,domestic_league,2023,240,0,0,0
+world/asia:cn1,China | Super League,domestic_league,2024,240,0,0,0
+world/asia:cn1,China | Super League,domestic_league,2025,79,0,0,0
+world/asia:jp1,Japan | J1 League,domestic_league,2019,306,0,0,0
+world/asia:jp1,Japan | J1 League,domestic_league,2020,306,0,0,0
+world/asia:jp1,Japan | J1 League,domestic_league,2021,380,0,0,0
+world/asia:jp1,Japan | J1 League,domestic_league,2022,306,0,0,0
+world/asia:jp1,Japan | J1 League,domestic_league,2023,306,0,0,0
+world/asia:jp1,Japan | J1 League,domestic_league,2024,380,0,0,0
+world/asia:jp1,Japan | J1 League,domestic_league,2025,136,0,0,0
+world/asia:kz1,Kazakhstan | Premier League,domestic_league,2023,181,0,0,1
+world/asia:kz1,Kazakhstan | Premier League,domestic_league,2024,156,0,0,0
+world/asia:kz1,Kazakhstan | Premier League,domestic_league,2025,14,0,0,0
+world/central-america:cr1,Costa Rica Primera División,domestic_league,2024-25,254,8,0,5
+world/middle-east:il1,Israel | Premier League,domestic_league,2023-24,240,0,0,0
+world/middle-east:il1,Israel | Premier League,domestic_league,2024-25,238,0,0,2
+world/middle-east:il2,Israel National League,domestic_league,2024-25,277,0,0,0
+world/middle-east:ilcup,Israel State Cup,domestic_cup,2024-25,6,24,0,0
+world/middle-east:sa1,Saudi Arabia Saudi Professional League,domestic_league,2024-25,267,0,0,0
+world/north-america:concacafcl,CONCACAF Champions Cup/League,continental_club,2018,0,29,0,1
+world/north-america:concacafcl,CONCACAF Champions Cup/League,continental_club,2019,0,30,0,0
+world/north-america:concacafcl,CONCACAF Champions Cup/League,continental_club,2020,0,24,0,2
+world/north-america:concacafcl,CONCACAF Champions Cup/League,continental_club,2021,0,29,0,0
+world/north-america:concacafcl,CONCACAF Champions Cup/League,continental_club,2022,0,27,0,3
+world/north-america:concacafcl,CONCACAF Champions Cup/League,continental_club,2023,0,30,0,0
+world/north-america:concacafcl,CONCACAF Champions Cup/League,continental_club,2024,2,49,0,0
+world/north-america:concacafcl,CONCACAF Champions Cup/League,continental_club,2025,0,50,0,0
+world/north-america:mls,Major League Soccer,domestic_league,2018,393,15,0,0
+world/north-america:mls,Major League Soccer,domestic_league,2019,411,10,0,0
+world/north-america:mls,Major League Soccer,domestic_league,2020,294,12,0,2
+world/north-america:mls,Major League Soccer,domestic_league,2021,463,8,0,1
+world/north-america:mls,Major League Soccer,domestic_league,2022,479,10,0,0
+world/north-america:mls,Major League Soccer,domestic_league,2023,494,22,0,4
+world/north-america:mls,Major League Soccer,domestic_league,2024,494,19,0,5
+world/north-america:mls,Major League Soccer,domestic_league,2025,164,0,0,0
+world/north-america:mx1,Liga MX,domestic_league,2018-19,306,28,0,0
+world/north-america:mx1,Liga MX,domestic_league,2019-20,262,12,0,0
+world/north-america:mx1,Liga MX,domestic_league,2020-21,305,34,0,3
+world/north-america:mx1,Liga MX,domestic_league,2021-22,307,31,0,4
+world/north-america:mx1,Liga MX,domestic_league,2022-23,307,33,0,2
+world/north-america:mx1,Liga MX,domestic_league,2023-24,306,31,0,2
+world/north-america:mx1,Liga MX,domestic_league,2024-25,306,32,0,2
+world/north-america:mx2ascenso,Ascenso MX,domestic_league,2018-19,211,26,0,1
+world/north-america:mx2ascenso,Ascenso MX,domestic_league,2019-20,139,12,0,0
+world/north-america:mx2expansion,Liga de Expansión MX,domestic_league,2020-21,245,30,0,1
+world/north-america:mx2expansion,Liga de Expansión MX,domestic_league,2021-22,274,34,0,2
+world/north-america:mx2expansion,Liga de Expansión MX,domestic_league,2022-23,310,33,0,1
+world/north-america:mx2expansion,Liga de Expansión MX,domestic_league,2023-24,212,32,0,2
+world/north-america:mx2expansion,Liga de Expansión MX,domestic_league,2024-25,182,14,0,0
+world/pacific:au1,Australia | A-League,domestic_league,2018-19,139,0,0,1
+world/pacific:au1,Australia | A-League,domestic_league,2019-20,147,0,0,1
+world/pacific:au1,Australia | A-League,domestic_league,2020-21,160,0,0,1
+world/pacific:au1,Australia | A-League,domestic_league,2021-22,163,0,0,0
+world/pacific:au1,Australia | A-League,domestic_league,2022-23,163,0,0,0
+world/pacific:au1,Australia | A-League,domestic_league,2023-24,169,0,0,0
+world/pacific:au1,Australia | A-League,domestic_league,2024-25,169,0,0,0

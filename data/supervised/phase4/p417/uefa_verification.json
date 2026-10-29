@@ -1,0 +1,57 @@
+{
+ "sources": {
+  "UCL": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-and-results/",
+  "UEL": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/",
+  "UECL": "https://www.uefa.com/uefaconferenceleague/news/02a8-2174cb200f25-b94693ddff4e-1000--2026-27-conference-league-all-the-league-phase-fixtures/"
+ },
+ "retrieved": "2026-10-28",
+ "results": {
+  "UCL matchday 2": {
+   "official": 18,
+   "staged_played": 18,
+   "verified": 18,
+   "problems": [],
+   "name_variants": [
+    "SK Slavia Prague = Slavia Praha"
+   ],
+   "staged_without_official": []
+  },
+  "UEL matchday 1": {
+   "official": 18,
+   "staged_played": 18,
+   "verified": 18,
+   "problems": [],
+   "name_variants": [
+    "AC Sparta Prague = Sparta Praha",
+    "Stade Rennais FC = Rennes",
+    "Royale Union Saint-Gilloise = Union SG"
+   ],
+   "staged_without_official": []
+  },
+  "UEL matchday 2": {
+   "official": 18,
+   "staged_played": 18,
+   "verified": 18,
+   "problems": [],
+   "name_variants": [
+    "AC Sparta Prague = Sparta Praha",
+    "Royale Union Saint-Gilloise = Union SG",
+    "Stade Rennais FC = Rennes"
+   ],
+   "staged_without_official": []
+  },
+  "UECL matchday 1": {
+   "official": 18,
+   "staged_played": 18,
+   "verified": 18,
+   "problems": [],
+   "name_variants": [
+    "Red Star Belgrade = Crvena Zvezda",
+    "Kuopion Palloseura = KuPS Kuopio",
+    "Heart of Midlothian F.C. = Hearts",
+    "FC Iberia 1999 = Iberia Tbilisi"
+   ],
+   "staged_without_official": []
+  }
+ }
+}

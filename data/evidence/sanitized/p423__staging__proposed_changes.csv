@@ -1,0 +1,105 @@
+﻿change_id,record_id,competition_key,home,away,home_entity,away_entity,action,tier,expected_store_status,expected_store_date,new_date,home_goals,away_goals,wikipedia_score,wikipedia_revision,openfootball_date,openligadb_date
+R001,england:1-premierleague:2026-27:L116,EPL,Leeds United FC,Manchester United FC,CLUB:ENG:leeds-united-fc,CLUB:ENG:manchester-united-fc,add_result,strong,awaiting_result,2026-10-18,2026-10-18,1,1,1-1,1382367540.0,2026-10-18,
+R002,england:1-premierleague:2026-27:L117,EPL,Brighton & Hove Albion FC,Crystal Palace FC,CLUB:ENG:brighton-and-hove-albion-fc,CLUB:ENG:crystal-palace-fc,add_result,strong,awaiting_result,2026-10-18,2026-10-18,5,0,5-0,1382367540.0,2026-10-18,
+R003,england:1-premierleague:2026-27:L130,EPL,Chelsea FC,Tottenham Hotspur FC,CLUB:ENG:chelsea-fc,CLUB:ENG:tottenham-hotspur-fc,add_result,strong,awaiting_result,2026-10-24,2026-10-24,0,2,0-2,1382367540.0,2026-10-24,
+R004,italy:1-seriea:2026-27:L131,SERIEA,SSC Napoli,AS Roma,CLUB:ITA:ssc-napoli,CLUB:ITA:as-roma,add_result,strong,scheduled,2026-10-24,2026-10-24,3,3,3-3,1382310697.0,2026-10-24,
+R005,europe/france:fr1:2026-27:L119,LIGUE1,Toulouse FC,ES Troyes AC,CLUB:FRA:toulouse-fc,CLUB:FRA:es-troyes-ac,add_result_with_date,strong,scheduled,2026-10-24,,0,0,0-0,1382140063.0,2026-10-24,
+R006,europe/france:fr1:2026-27:L127,LIGUE1,Paris Saint-Germain FC,Olympique Lyonnais,CLUB:FRA:paris-saint-germain,CLUB:FRA:olympique-lyonnais,add_result_with_date,strong,scheduled,2026-10-25,,2,0,2-0,1382140063.0,2026-10-25,
+R007,espana:1-liga:2026-27:L140,LALIGA,Rayo Vallecano de Madrid,Athletic Club,CLUB:ESP:rayo-vallecano,CLUB:ESP:athletic-club-bilbao,set_postponed,decision,awaiting_result,2026-10-10,,,,,,2026-10-10,
+R008,espana:1-liga:2026-27:L177,LALIGA,Rayo Vallecano de Madrid,Elche CF,CLUB:ESP:rayo-vallecano,CLUB:ESP:elche-cf,add_result_with_date,strong,scheduled,2026-10-25,,0,3,0-3,1382144799.0,2026-10-25,
+R009,espana:1-liga:2026-27:L178,LALIGA,Deportivo Alavés,Málaga CF,CLUB:ESP:deportivo-alaves,CLUB:ESP:malaga-cf,add_result_with_date,strong,scheduled,2026-10-25,,1,1,1-1,1382144799.0,2026-10-25,
+R010,espana:1-liga:2026-27:L180,LALIGA,Sevilla FC,CA Osasuna,CLUB:ESP:sevilla-fc,CLUB:ESP:ca-osasuna,add_result_with_date,strong,scheduled,2026-10-25,,2,0,2-0,1382144799.0,2026-10-25,
+R011,espana:1-liga:2026-27:L181,LALIGA,Valencia CF,Villarreal CF,CLUB:ESP:valencia-cf,CLUB:ESP:villarreal-cf,add_result_with_date,strong,scheduled,2026-10-25,,1,2,1-2,1382144799.0,2026-10-25,
+R012,espana:1-liga:2026-27:L183,LALIGA,Club Atlético de Madrid,RC Deportivo La Coruña,CLUB:ESP:atletico-madrid,CLUB:ESP:rcd-la-coruna,add_result_with_date,strong,scheduled,2026-10-25,,1,0,1-0,1382144799.0,2026-10-25,
+R013,espana:1-liga:2026-27:L186,LALIGA,Real Racing Club de Santander,RCD Espanyol de Barcelona,CLUB:ESP:real-racing-santander,CLUB:ESP:rcd-espanyol,add_result_with_date,strong,scheduled,2026-10-25,,2,1,2-1,1382144799.0,2026-10-25,
+D014,england:1-premierleague:2026-27:L161,EPL,Everton FC,Coventry City FC,CLUB:ENG:everton-fc,CLUB:ENG:coventry-city-fc,correct_date,strong,scheduled,2026-11-07,2026-11-06,,,,,2026-11-07,2026-11-06
+D015,england:1-premierleague:2026-27:L162,EPL,Crystal Palace FC,Liverpool FC,CLUB:ENG:crystal-palace-fc,CLUB:ENG:liverpool-fc,correct_date,strong,scheduled,2026-11-07,2026-11-08,,,,,2026-11-07,2026-11-08
+D016,england:1-premierleague:2026-27:L163,EPL,Sunderland AFC,Chelsea FC,CLUB:ENG:sunderland-afc,CLUB:ENG:chelsea-fc,correct_date,strong,scheduled,2026-11-07,2026-11-08,,,,,2026-11-07,2026-11-08
+D017,england:1-premierleague:2026-27:L164,EPL,Ipswich Town FC,AFC Bournemouth,CLUB:ENG:ipswich-town-fc,CLUB:ENG:afc-bournemouth,correct_date,strong,scheduled,2026-11-07,2026-11-08,,,,,2026-11-07,2026-11-08
+D018,england:1-premierleague:2026-27:L165,EPL,Brighton & Hove Albion FC,Brentford FC,CLUB:ENG:brighton-and-hove-albion-fc,CLUB:ENG:brentford-fc,correct_date,strong,scheduled,2026-11-07,2026-11-08,,,,,2026-11-07,2026-11-08
+D019,england:1-premierleague:2026-27:L166,EPL,Manchester United FC,Aston Villa FC,CLUB:ENG:manchester-united-fc,CLUB:ENG:aston-villa-fc,correct_date,strong,scheduled,2026-11-07,2026-11-08,,,,,2026-11-07,2026-11-08
+D020,england:1-premierleague:2026-27:L175,EPL,Hull City AFC,Brighton & Hove Albion FC,CLUB:ENG:hull-city-afc,CLUB:ENG:brighton-and-hove-albion-fc,correct_date,strong,scheduled,2026-11-21,2026-11-22,,,,,2026-11-21,2026-11-22
+D021,england:1-premierleague:2026-27:L174,EPL,Liverpool FC,Manchester United FC,CLUB:ENG:liverpool-fc,CLUB:ENG:manchester-united-fc,correct_date,strong,scheduled,2026-11-21,2026-11-22,,,,,2026-11-21,2026-11-22
+D022,england:1-premierleague:2026-27:L178,EPL,Brentford FC,Everton FC,CLUB:ENG:brentford-fc,CLUB:ENG:everton-fc,correct_date,strong,scheduled,2026-11-21,2026-11-23,,,,,2026-11-21,2026-11-23
+D023,england:1-premierleague:2026-27:L191,EPL,Nottingham Forest FC,Chelsea FC,CLUB:ENG:nottingham-forest-fc,CLUB:ENG:chelsea-fc,correct_date,strong,scheduled,2026-11-28,2026-11-27,,,,,2026-11-28,2026-11-27
+D024,england:1-premierleague:2026-27:L189,EPL,Everton FC,Liverpool FC,CLUB:ENG:everton-fc,CLUB:ENG:liverpool-fc,correct_date,strong,scheduled,2026-11-28,2026-11-29,,,,,2026-11-28,2026-11-29
+D025,england:1-premierleague:2026-27:L190,EPL,Fulham FC,AFC Bournemouth,CLUB:ENG:fulham-fc,CLUB:ENG:afc-bournemouth,correct_date,strong,scheduled,2026-11-28,2026-11-29,,,,,2026-11-28,2026-11-29
+D026,england:1-premierleague:2026-27:L192,EPL,Brighton & Hove Albion FC,Newcastle United FC,CLUB:ENG:brighton-and-hove-albion-fc,CLUB:ENG:newcastle-united-fc,correct_date,strong,scheduled,2026-11-28,2026-11-29,,,,,2026-11-28,2026-11-29
+D027,england:1-premierleague:2026-27:L193,EPL,Sunderland AFC,Tottenham Hotspur FC,CLUB:ENG:sunderland-afc,CLUB:ENG:tottenham-hotspur-fc,correct_date,strong,scheduled,2026-11-28,2026-11-29,,,,,2026-11-28,2026-11-29
+D028,england:1-premierleague:2026-27:L194,EPL,Crystal Palace FC,Hull City AFC,CLUB:ENG:crystal-palace-fc,CLUB:ENG:hull-city-afc,correct_date,strong,scheduled,2026-11-28,2026-11-29,,,,,2026-11-28,2026-11-29
+D029,england:1-premierleague:2026-27:L187,EPL,Arsenal FC,Manchester City FC,CLUB:ENG:arsenal-fc,CLUB:ENG:manchester-city-fc,correct_date,strong,scheduled,2026-11-28,2026-11-29,,,,,2026-11-28,2026-11-29
+D030,england:1-premierleague:2026-27:L205,EPL,Coventry City FC,Ipswich Town FC,CLUB:ENG:coventry-city-fc,CLUB:ENG:ipswich-town-fc,correct_date,strong,scheduled,2026-12-02,2026-12-01,,,,,2026-12-02,2026-12-01
+D031,england:1-premierleague:2026-27:L199,EPL,Tottenham Hotspur FC,Fulham FC,CLUB:ENG:tottenham-hotspur-fc,CLUB:ENG:fulham-fc,correct_date,strong,scheduled,2026-12-02,2026-12-03,,,,,2026-12-02,2026-12-03
+D032,england:1-premierleague:2026-27:L216,EPL,Newcastle United FC,Sunderland AFC,CLUB:ENG:newcastle-united-fc,CLUB:ENG:sunderland-afc,correct_date,strong,scheduled,2026-12-05,2026-12-06,,,,,2026-12-05,2026-12-06
+D033,england:1-premierleague:2026-27:L222,EPL,Everton FC,Fulham FC,CLUB:ENG:everton-fc,CLUB:ENG:fulham-fc,correct_date,strong,scheduled,2026-12-05,2026-12-06,,,,,2026-12-05,2026-12-06
+D034,england:1-premierleague:2026-27:L213,EPL,Tottenham Hotspur FC,Arsenal FC,CLUB:ENG:tottenham-hotspur-fc,CLUB:ENG:arsenal-fc,correct_date,strong,scheduled,2026-12-05,2026-12-06,,,,,2026-12-05,2026-12-06
+D035,england:1-premierleague:2026-27:L227,EPL,Sunderland AFC,Nottingham Forest FC,CLUB:ENG:sunderland-afc,CLUB:ENG:nottingham-forest-fc,correct_date,strong,scheduled,2026-12-12,2026-12-13,,,,,2026-12-12,2026-12-13
+D036,england:1-premierleague:2026-27:L230,EPL,Brighton & Hove Albion FC,Everton FC,CLUB:ENG:brighton-and-hove-albion-fc,CLUB:ENG:everton-fc,correct_date,strong,scheduled,2026-12-12,2026-12-13,,,,,2026-12-12,2026-12-13
+D037,england:1-premierleague:2026-27:L233,EPL,Arsenal FC,AFC Bournemouth,CLUB:ENG:arsenal-fc,CLUB:ENG:afc-bournemouth,correct_date,strong,scheduled,2026-12-12,2026-12-13,,,,,2026-12-12,2026-12-13
+D038,england:1-premierleague:2026-27:L232,EPL,Coventry City FC,Aston Villa FC,CLUB:ENG:coventry-city-fc,CLUB:ENG:aston-villa-fc,correct_date,strong,scheduled,2026-12-12,2026-12-13,,,,,2026-12-12,2026-12-13
+D039,england:1-premierleague:2026-27:L228,EPL,Crystal Palace FC,Manchester United FC,CLUB:ENG:crystal-palace-fc,CLUB:ENG:manchester-united-fc,correct_date,strong,scheduled,2026-12-12,2026-12-13,,,,,2026-12-12,2026-12-13
+D040,england:1-premierleague:2026-27:L229,EPL,Hull City AFC,Tottenham Hotspur FC,CLUB:ENG:hull-city-afc,CLUB:ENG:tottenham-hotspur-fc,correct_date,strong,scheduled,2026-12-12,2026-12-14,,,,,2026-12-12,2026-12-14
+D041,england:1-premierleague:2026-27:L242,EPL,Brighton & Hove Albion FC,Ipswich Town FC,CLUB:ENG:brighton-and-hove-albion-fc,CLUB:ENG:ipswich-town-fc,correct_date,strong,scheduled,2026-12-19,2026-12-20,,,,,2026-12-19,2026-12-20
+D042,england:1-premierleague:2026-27:L246,EPL,Sunderland AFC,Crystal Palace FC,CLUB:ENG:sunderland-afc,CLUB:ENG:crystal-palace-fc,correct_date,strong,scheduled,2026-12-19,2026-12-20,,,,,2026-12-19,2026-12-20
+D043,england:1-premierleague:2026-27:L248,EPL,Arsenal FC,Manchester United FC,CLUB:ENG:arsenal-fc,CLUB:ENG:manchester-united-fc,correct_date,strong,scheduled,2026-12-19,2026-12-20,,,,,2026-12-19,2026-12-20
+D044,england:1-premierleague:2026-27:L250,EPL,Chelsea FC,Aston Villa FC,CLUB:ENG:chelsea-fc,CLUB:ENG:aston-villa-fc,correct_date,strong,scheduled,2026-12-19,2026-12-21,,,,,2026-12-19,2026-12-21
+D045,italy:1-seriea:2026-27:L202,SERIEA,Juventus FC,Venezia FC,CLUB:ITA:juventus,CLUB:ITA:venezia-fc,correct_date,needed_restricted_source,scheduled,2026-11-23,,,,,,2026-11-23,
+D046,italy:1-seriea:2026-27:L213,SERIEA,Venezia FC,Bologna FC 1909,CLUB:ITA:venezia-fc,CLUB:ITA:bologna-fc,correct_date,needed_restricted_source,scheduled,2026-11-29,,,,,,2026-11-29,
+D047,italy:1-seriea:2026-27:L211,SERIEA,Frosinone Calcio,Parma Calcio 1913,CLUB:ITA:frosinone-calcio,CLUB:ITA:parma-calcio,correct_date,needed_restricted_source,scheduled,2026-11-29,,,,,,2026-11-29,
+D048,italy:1-seriea:2026-27:L212,SERIEA,Torino FC,SS Lazio,CLUB:ITA:torino-fc,CLUB:ITA:ss-lazio,correct_date,needed_restricted_source,scheduled,2026-11-29,,,,,,2026-11-29,
+D049,italy:1-seriea:2026-27:L216,SERIEA,FC Internazionale Milano,Genoa CFC,CLUB:ITA:fc-internazionale-milano,CLUB:ITA:genoa-cfc,correct_date,needed_restricted_source,scheduled,2026-11-29,,,,,,2026-11-29,
+D050,italy:1-seriea:2026-27:L214,SERIEA,US Lecce,Atalanta BC,CLUB:ITA:us-lecce,CLUB:ITA:atalanta-bergamo,correct_date,needed_restricted_source,scheduled,2026-11-29,,,,,,2026-11-29,
+D051,italy:1-seriea:2026-27:L208,SERIEA,Cagliari Calcio,AC Milan,CLUB:ITA:cagliari-calcio,CLUB:ITA:ac-milan,correct_date,needed_restricted_source,scheduled,2026-11-29,,,,,,2026-11-29,
+D052,italy:1-seriea:2026-27:L224,SERIEA,Bologna FC 1909,AS Roma,CLUB:ITA:bologna-fc,CLUB:ITA:as-roma,correct_date,needed_restricted_source,scheduled,2026-12-06,,,,,,2026-12-06,
+D053,italy:1-seriea:2026-27:L229,SERIEA,AC Monza,Como 1907,CLUB:ITA:ac-monza,CLUB:ITA:como-1907,correct_date,needed_restricted_source,scheduled,2026-12-06,,,,,,2026-12-06,
+D054,italy:1-seriea:2026-27:L223,SERIEA,Frosinone Calcio,FC Internazionale Milano,CLUB:ITA:frosinone-calcio,CLUB:ITA:fc-internazionale-milano,correct_date,needed_restricted_source,scheduled,2026-12-06,,,,,,2026-12-06,
+D055,italy:1-seriea:2026-27:L230,SERIEA,SSC Napoli,US Lecce,CLUB:ITA:ssc-napoli,CLUB:ITA:us-lecce,correct_date,needed_restricted_source,scheduled,2026-12-06,,,,,,2026-12-06,
+D056,italy:1-seriea:2026-27:L228,SERIEA,Venezia FC,US Sassuolo Calcio,CLUB:ITA:venezia-fc,CLUB:ITA:us-sassuolo-calcio,correct_date,needed_restricted_source,scheduled,2026-12-06,,,,,,2026-12-06,
+D057,italy:1-seriea:2026-27:L225,SERIEA,ACF Fiorentina,Cagliari Calcio,CLUB:ITA:acf-fiorentina,CLUB:ITA:cagliari-calcio,correct_date,needed_restricted_source,scheduled,2026-12-06,,,,,,2026-12-06,
+D058,italy:1-seriea:2026-27:L237,SERIEA,Udinese Calcio,Frosinone Calcio,CLUB:ITA:udinese-calcio,CLUB:ITA:frosinone-calcio,correct_date,needed_restricted_source,scheduled,2026-12-13,,,,,,2026-12-13,
+D059,italy:1-seriea:2026-27:L240,SERIEA,Cagliari Calcio,Venezia FC,CLUB:ITA:cagliari-calcio,CLUB:ITA:venezia-fc,correct_date,needed_restricted_source,scheduled,2026-12-13,,,,,,2026-12-13,
+D060,italy:1-seriea:2026-27:L238,SERIEA,US Lecce,US Sassuolo Calcio,CLUB:ITA:us-lecce,CLUB:ITA:us-sassuolo-calcio,correct_date,needed_restricted_source,scheduled,2026-12-13,,,,,,2026-12-13,
+D061,italy:1-seriea:2026-27:L236,SERIEA,Como 1907,Bologna FC 1909,CLUB:ITA:como-1907,CLUB:ITA:bologna-fc,correct_date,needed_restricted_source,scheduled,2026-12-13,,,,,,2026-12-13,
+D062,italy:1-seriea:2026-27:L243,SERIEA,Atalanta BC,Genoa CFC,CLUB:ITA:atalanta-bergamo,CLUB:ITA:genoa-cfc,correct_date,needed_restricted_source,scheduled,2026-12-13,,,,,,2026-12-13,
+D063,italy:1-seriea:2026-27:L242,SERIEA,Juventus FC,AC Monza,CLUB:ITA:juventus,CLUB:ITA:ac-monza,correct_date,needed_restricted_source,scheduled,2026-12-13,,,,,,2026-12-13,
+D064,italy:1-seriea:2026-27:L252,SERIEA,Frosinone Calcio,SS Lazio,CLUB:ITA:frosinone-calcio,CLUB:ITA:ss-lazio,correct_date,needed_restricted_source,scheduled,2026-12-20,,,,,,2026-12-20,
+D065,italy:1-seriea:2026-27:L256,SERIEA,US Lecce,FC Internazionale Milano,CLUB:ITA:us-lecce,CLUB:ITA:fc-internazionale-milano,correct_date,needed_restricted_source,scheduled,2026-12-20,,,,,,2026-12-20,
+D066,italy:1-seriea:2026-27:L250,SERIEA,US Sassuolo Calcio,Parma Calcio 1913,CLUB:ITA:us-sassuolo-calcio,CLUB:ITA:parma-calcio,correct_date,needed_restricted_source,scheduled,2026-12-20,,,,,,2026-12-20,
+D067,italy:1-seriea:2026-27:L249,SERIEA,AC Milan,Como 1907,CLUB:ITA:ac-milan,CLUB:ITA:como-1907,correct_date,needed_restricted_source,scheduled,2026-12-20,,,,,,2026-12-20,
+D068,italy:1-seriea:2026-27:L251,SERIEA,AS Roma,Juventus FC,CLUB:ITA:as-roma,CLUB:ITA:juventus,correct_date,needed_restricted_source,scheduled,2026-12-20,,,,,,2026-12-20,
+D069,italy:1-seriea:2026-27:L267,SERIEA,Cagliari Calcio,Genoa CFC,CLUB:ITA:cagliari-calcio,CLUB:ITA:genoa-cfc,correct_date,needed_restricted_source,scheduled,2027-01-03,,,,,,2027-01-03,
+D070,italy:1-seriea:2026-27:L268,SERIEA,Torino FC,Venezia FC,CLUB:ITA:torino-fc,CLUB:ITA:venezia-fc,correct_date,needed_restricted_source,scheduled,2027-01-03,,,,,,2027-01-03,
+D071,italy:1-seriea:2026-27:L272,SERIEA,ACF Fiorentina,SS Lazio,CLUB:ITA:acf-fiorentina,CLUB:ITA:ss-lazio,correct_date,needed_restricted_source,scheduled,2027-01-03,,,,,,2027-01-03,
+D072,italy:1-seriea:2026-27:L265,SERIEA,AS Roma,Frosinone Calcio,CLUB:ITA:as-roma,CLUB:ITA:frosinone-calcio,correct_date,needed_restricted_source,scheduled,2027-01-03,,,,,,2027-01-03,
+D073,italy:1-seriea:2026-27:L269,SERIEA,AC Monza,AC Milan,CLUB:ITA:ac-monza,CLUB:ITA:ac-milan,correct_date,needed_restricted_source,scheduled,2027-01-03,,,,,,2027-01-03,
+D074,italy:1-seriea:2026-27:L279,SERIEA,Genoa CFC,AC Monza,CLUB:ITA:genoa-cfc,CLUB:ITA:ac-monza,correct_date,needed_restricted_source,scheduled,2027-01-06,,,,,,2027-01-06,
+D075,italy:1-seriea:2026-27:L280,SERIEA,Venezia FC,AS Roma,CLUB:ITA:venezia-fc,CLUB:ITA:as-roma,correct_date,needed_restricted_source,scheduled,2027-01-06,,,,,,2027-01-06,
+D076,italy:1-seriea:2026-27:L282,SERIEA,AC Milan,ACF Fiorentina,CLUB:ITA:ac-milan,CLUB:ITA:acf-fiorentina,correct_date,needed_restricted_source,scheduled,2027-01-06,,,,,,2027-01-06,
+D077,italy:1-seriea:2026-27:L278,SERIEA,US Sassuolo Calcio,Udinese Calcio,CLUB:ITA:us-sassuolo-calcio,CLUB:ITA:udinese-calcio,correct_date,needed_restricted_source,scheduled,2027-01-06,,,,,,2027-01-06,
+D078,italy:1-seriea:2026-27:L281,SERIEA,SSC Napoli,Cagliari Calcio,CLUB:ITA:ssc-napoli,CLUB:ITA:cagliari-calcio,correct_date,needed_restricted_source,scheduled,2027-01-06,,,,,,2027-01-06,
+D079,italy:1-seriea:2026-27:L294,SERIEA,AC Monza,Frosinone Calcio,CLUB:ITA:ac-monza,CLUB:ITA:frosinone-calcio,correct_date,needed_restricted_source,scheduled,2027-01-10,,,,,,2027-01-10,
+D080,italy:1-seriea:2026-27:L300,SERIEA,AS Roma,AC Milan,CLUB:ITA:as-roma,CLUB:ITA:ac-milan,correct_date,needed_restricted_source,scheduled,2027-01-10,,,,,,2027-01-10,
+D081,italy:1-seriea:2026-27:L297,SERIEA,Bologna FC 1909,Genoa CFC,CLUB:ITA:bologna-fc,CLUB:ITA:genoa-cfc,correct_date,needed_restricted_source,scheduled,2027-01-10,,,,,,2027-01-10,
+D082,italy:1-seriea:2026-27:L298,SERIEA,Cagliari Calcio,US Sassuolo Calcio,CLUB:ITA:cagliari-calcio,CLUB:ITA:us-sassuolo-calcio,correct_date,needed_restricted_source,scheduled,2027-01-10,,,,,,2027-01-10,
+D083,italy:1-seriea:2026-27:L292,SERIEA,Udinese Calcio,SSC Napoli,CLUB:ITA:udinese-calcio,CLUB:ITA:ssc-napoli,correct_date,needed_restricted_source,scheduled,2027-01-10,,,,,,2027-01-10,
+D084,europe/france:fr1:2026-27:L198,LIGUE1,Toulouse FC,Paris Saint-Germain FC,CLUB:FRA:toulouse-fc,CLUB:FRA:paris-saint-germain,correct_date,needed_restricted_source,scheduled,2026-12-05,,,,,,2026-12-05,
+D085,europe/france:fr1:2026-27:L192,LIGUE1,ES Troyes AC,Olympique Lyonnais,CLUB:FRA:es-troyes-ac,CLUB:FRA:olympique-lyonnais,correct_date,needed_restricted_source,scheduled,2026-12-05,,,,,,2026-12-05,
+D086,europe/france:fr1:2026-27:L197,LIGUE1,Stade Rennais FC 1901,Stade Brestois 29,CLUB:FRA:stade-rennais-fc,CLUB:FRA:stade-brestois-29,correct_date,needed_restricted_source,scheduled,2026-12-05,,,,,,2026-12-05,
+D087,europe/france:fr1:2026-27:L196,LIGUE1,Olympique de Marseille,OGC Nice,CLUB:FRA:olympique-de-marseille,CLUB:FRA:ogc-nice,correct_date,needed_restricted_source,scheduled,2026-12-05,,,,,,2026-12-05,
+D088,europe/france:fr1:2026-27:L212,LIGUE1,AJ Auxerre,Toulouse FC,CLUB:FRA:aj-auxerre,CLUB:FRA:toulouse-fc,correct_date,needed_restricted_source,scheduled,2026-12-12,,,,,,2026-12-12,
+D089,europe/france:fr1:2026-27:L211,LIGUE1,FC Lorient,Lille OSC,CLUB:FRA:fc-lorient,CLUB:FRA:lille-osc,correct_date,needed_restricted_source,scheduled,2026-12-12,,,,,,2026-12-12,
+D090,europe/france:fr1:2026-27:L210,LIGUE1,Stade Rennais FC 1901,AS Monaco FC,CLUB:FRA:stade-rennais-fc,CLUB:MCO:as-monaco,correct_date,needed_restricted_source,scheduled,2026-12-12,,,,,,2026-12-12,
+D091,europe/france:fr1:2026-27:L219,LIGUE1,Le Mans FC,Olympique Lyonnais,CLUB:FRA:le-mans-fc,CLUB:FRA:olympique-lyonnais,correct_date,needed_restricted_source,scheduled,2027-01-02,,,,,,2027-01-02,
+D092,europe/france:fr1:2026-27:L226,LIGUE1,Lille OSC,RC Strasbourg Alsace,CLUB:FRA:lille-osc,CLUB:FRA:rc-strasbourg,correct_date,needed_restricted_source,scheduled,2027-01-02,,,,,,2027-01-02,
+D093,europe/france:fr1:2026-27:L233,LIGUE1,Olympique de Marseille,Lille OSC,CLUB:FRA:olympique-de-marseille,CLUB:FRA:lille-osc,correct_date,needed_restricted_source,scheduled,2027-01-16,,,,,,2027-01-16,
+D094,europe/france:fr1:2026-27:L235,LIGUE1,Paris FC,Toulouse FC,CLUB:FRA:paris-fc,CLUB:FRA:toulouse-fc,correct_date,needed_restricted_source,scheduled,2027-01-16,,,,,,2027-01-16,
+D095,europe/france:fr1:2026-27:L240,LIGUE1,AS Monaco FC,Stade Brestois 29,CLUB:MCO:as-monaco,CLUB:FRA:stade-brestois-29,correct_date,needed_restricted_source,scheduled,2027-01-16,,,,,,2027-01-16,
+D096,europe/france:fr1:2026-27:L234,LIGUE1,Olympique Lyonnais,FC Lorient,CLUB:FRA:olympique-lyonnais,CLUB:FRA:fc-lorient,correct_date,needed_restricted_source,scheduled,2027-01-16,,,,,,2027-01-16,
+D097,europe/france:fr1:2026-27:L251,LIGUE1,ES Troyes AC,AS Monaco FC,CLUB:FRA:es-troyes-ac,CLUB:MCO:as-monaco,correct_date,needed_restricted_source,scheduled,2027-01-23,,,,,,2027-01-23,
+D098,europe/france:fr1:2026-27:L246,LIGUE1,Le Havre AC,Stade Rennais FC 1901,CLUB:FRA:le-havre-ac,CLUB:FRA:stade-rennais-fc,correct_date,needed_restricted_source,scheduled,2027-01-23,,,,,,2027-01-23,
+D099,europe/france:fr1:2026-27:L252,LIGUE1,FC Lorient,Olympique de Marseille,CLUB:FRA:fc-lorient,CLUB:FRA:olympique-de-marseille,correct_date,needed_restricted_source,scheduled,2027-01-23,,,,,,2027-01-23,
+D100,europe/france:fr1:2026-27:L247,LIGUE1,RC Strasbourg Alsace,Olympique Lyonnais,CLUB:FRA:rc-strasbourg,CLUB:FRA:olympique-lyonnais,correct_date,needed_restricted_source,scheduled,2027-01-23,,,,,,2027-01-23,
+D101,europe/france:fr1:2026-27:L265,LIGUE1,Stade Brestois 29,RC Strasbourg Alsace,CLUB:FRA:stade-brestois-29,CLUB:FRA:rc-strasbourg,correct_date,needed_restricted_source,scheduled,2027-01-30,,,,,,2027-01-30,
+D102,europe/france:fr1:2026-27:L261,LIGUE1,Stade Rennais FC 1901,FC Lorient,CLUB:FRA:stade-rennais-fc,CLUB:FRA:fc-lorient,correct_date,needed_restricted_source,scheduled,2027-01-30,,,,,,2027-01-30,
+D103,europe/france:fr1:2026-27:L263,LIGUE1,Olympique de Marseille,ES Troyes AC,CLUB:FRA:olympique-de-marseille,CLUB:FRA:es-troyes-ac,correct_date,needed_restricted_source,scheduled,2027-01-30,,,,,,2027-01-30,
+D104,europe/france:fr1:2026-27:L260,LIGUE1,Olympique Lyonnais,Lille OSC,CLUB:FRA:olympique-lyonnais,CLUB:FRA:lille-osc,correct_date,needed_restricted_source,scheduled,2027-01-30,,,,,,2027-01-30,

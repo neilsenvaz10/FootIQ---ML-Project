@@ -1,0 +1,367 @@
+{
+ "A4_delete": [
+  [
+   "data/supervised/phase4/p417/private_ratings/A_parity_local/processed/international_matches.csv",
+   8206008,
+   "f3b2408af0d0ddf1dab1b4a3ab0b8544e90330365f7b75e4170cc7bf950fd877",
+   "data/processed/international_matches.csv"
+  ],
+  [
+   "data/supervised/phase4/p417/private_ratings/A_parity_local/processed/team_elo_latest.csv",
+   12909,
+   "c8e68862f0a84d8b306a26413a94554c7c03d189da01ad03abf11edfcd1a930c",
+   "data/processed/team_elo_latest.csv"
+  ],
+  [
+   "data/supervised/phase4/p417/private_ratings/A_parity_local/processed/team_elo_match_history.csv",
+   11029669,
+   "8fed296837eff9016d71779e1e26eb94aa956e32c6762cf82dad42167c458440",
+   "data/processed/team_elo_match_history.csv"
+  ],
+  [
+   "data/supervised/phase4/p417/private_ratings/A_parity_local/processed/team_recent_form_latest.csv",
+   43396,
+   "45fa138ad54d42b220beb95a328cc5977b508966342eaaca05744fa52dd84aac",
+   "data/processed/team_recent_form_latest.csv"
+  ],
+  [
+   "data/supervised/phase4/p417/private_ratings/A_parity_local/raw/international_results/results.csv",
+   3720482,
+   "25452026a4305a54b43b41e6ec88c9b7e994f6dd121072a9da06480b7ab3565c",
+   "data/raw/international_results/results.csv"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/martj42/unpacked/international_results-master/former_names.csv",
+   1691,
+   "2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e",
+   "data/raw/international_results/former_names.csv"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/martj42/unpacked/international_results-master/goalscorers.csv",
+   3442482,
+   "e02b25cfcad3fca9af79a5cf075c33a6875416d6d80e5ab42514535cb0d639fe",
+   "FootIQ_Dataset_Submission/_raw_sources/martj42_refresh/goalscorers.csv"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/martj42/unpacked/international_results-master/results.csv",
+   3764617,
+   "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+   "FootIQ_Dataset_Submission/_raw_sources/martj42_refresh/results.csv"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/martj42/unpacked/international_results-master/shootouts.csv",
+   29789,
+   "072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa",
+   "FootIQ_Dataset_Submission/_raw_sources/martj42_refresh/shootouts.csv"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/.gitignore",
+   174,
+   "cfdb0f7ecfeece89c143ce56c129cbd39b472b171cc3bcf5c9089041523d77a9",
+   "FootIQ_Dataset_Submission/_raw_sources/belgium/.gitignore"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/LICENSE.md",
+   6555,
+   "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+   "FootIQ_Dataset_Submission/_raw_sources/austria/LICENSE.md"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/NOTES.md",
+   2651,
+   "f14a8f20059f5ae4be5d81d80cc0f05f37f65b86f483f10c778cda0f69286f68",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/NOTES.md"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/README.md",
+   2129,
+   "16445303b84e92f828605f74895abd26d2d098f41eac85577fd6799330ecb6aa",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/README.md"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2011-12/cl.txt",
+   10477,
+   "5820927a22fdf615d88120a50f770eeed2e2105daf9b0582963a5d67331b9060",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2011-12/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2012-13/cl.txt",
+   10400,
+   "1a60314a79ce760cc718eaab7cc5ab1d4f1534eeb788e19f0d102926988ccff5",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2012-13/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2013-14/cl.txt",
+   10476,
+   "94f5ad78f136f476075bfc2efa15e0993e7a3646b3cd6792bd5bbf43f990b2ad",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2013-14/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2014-15/cl.txt",
+   10454,
+   "d6d77f60e415ae5e61e1fdb274d61fe54d6525e2fa6bd7284e343c2e7deee479",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2014-15/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2015-16/cl.txt",
+   10471,
+   "09b7c605a6c723ffd85b9cb8a36f6bcf427485b9b0427b49014da22d455a8d8c",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2015-16/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2016-17/cl.txt",
+   10446,
+   "fe604207c9e945d2a76ed9d660b5499c4680d8b474aeeb166d585f819c029a31",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2016-17/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2017-18/cl.txt",
+   10389,
+   "5f022938be481f3f9fa88fa7580033aab631a9dd321170d2e7b7ee558c92e468",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2017-18/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2018-19/cl.txt",
+   10379,
+   "7ae98396b779c3e97d049e77bbd0af6dabedcecdd73fa17d27a212aadd18c727",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2018-19/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2019-20/cl.txt",
+   9967,
+   "e0f6d8990b3110108193eecdcd698dfa48b6f324ffa7532cdc11aea19f7ee419",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2019-20/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2020-21/cl.txt",
+   10495,
+   "9d94e40aa2fe2e98cbe5eedcffb7b9223daaaf3acf682411f4965f92a65d666e",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2020-21/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2020-21/el.txt",
+   16559,
+   "d494cc0c88c951d92b3839f2e425752a382f2779de251a0df115a1f19b308f21",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2020-21/el.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2021-22/cl.txt",
+   10428,
+   "36241f4479aa9efda62c62318366bbf36f84cc8719f6387c5747cb5dea7ec519",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2021-22/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2021-22/conf.txt",
+   11542,
+   "5537cd70cc73898f2c44c1c512be6cd7abfc147df1aa6716a41a2a66dbc4aff1",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2021-22/conf.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2021-22/el.txt",
+   11655,
+   "0bd953fd4927f096a8e4162c414b639801d4c5d33b49cba33ac54fcf565bf788",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2021-22/el.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2022-23/cl.txt",
+   10399,
+   "bf9cd05939b055f12ee9b095bec1c20a0922277bef8940172218548de2e7b93a",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2022-23/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2022-23/conf.txt",
+   11629,
+   "a40da4aab99944bdcd2976f9419ea817badb5dfc8f165d18242945109532b555",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2022-23/conf.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2022-23/el.txt",
+   11642,
+   "e71450d2a60478dbcb253ce4eef1f95c262caafaaa715735f9d838bb2920311a",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2022-23/el.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2023-24/cl.txt",
+   10428,
+   "5872bee720b32410f28c5272fb7fe7b07aa0f66bcb31ffe157893d75c14c47c5",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2023-24/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2023-24/conf.txt",
+   11715,
+   "d7030d077ffe5f4d8ddc6eae3e50b846b9409bd085593fde08342ddbae80f909",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2023-24/conf.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2023-24/el.txt",
+   11623,
+   "2655fbfb3b636e3584664531463719711e79ea58a17cb27543a9521bfc1c1818",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2023-24/el.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2024-25/cl.txt",
+   15374,
+   "c2692b22af02c5df4587b69c5f430aebf7d936845b5337aee462ce8e649eb1b5",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2024-25/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2024-25/clq.txt",
+   7157,
+   "a39cc3ed20233ce2fcc490d4feda4a67dacf0d8080c83f4078ab34eca4632c25",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2024-25/clq.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2024-25/conf.txt",
+   11947,
+   "b2534794b2e8f70ed8734c2fd7baf9dc0f500c0ab9dd4fc575d82815340574d7",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2024-25/conf.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2024-25/confq.txt",
+   19830,
+   "1e248f3fbd2c9c8860a795373eba7b9f1f943a9dc672a4d4a3c3ad5452723fea",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2024-25/confq.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2024-25/el.txt",
+   14594,
+   "4f004729005e45fb26e5a4adff614d5c6081564e504137705cceaa15a9213bd9",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2024-25/el.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2024-25/elq.txt",
+   6384,
+   "6bd4db7e8993c35c4e57d9474bf3e1062d46a51a27c089c901e68bb0581a78ff",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2024-25/elq.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2025-26/cl.txt",
+   15265,
+   "2b1877308587ff1004c21b8e961b9050b8754f968244e0635eb005040fd9d5cb",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2025-26/cl.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2025-26/clq.txt",
+   7287,
+   "2212922ca831a0ebb4bb8be07575392f53f1294acc47ffab15c7a1ad121f7d37",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2025-26/clq.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2025-26/confq.txt",
+   19716,
+   "417d8fd7f0b79771f4293476a3815a0db6cfd3391e457b46e0fa2ddea81965c4",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2025-26/confq.txt"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/openfootball/unpacked/champions-league-master/2025-26/elq.txt",
+   6474,
+   "91f6d5440da9d100322be0de8ad95df8d873040abba4af8986147d9da55e5e32",
+   "FootIQ_Dataset_Submission/_raw_sources/champions-league/2025-26/elq.txt"
+  ]
+ ],
+ "A4_keep": [
+  [
+   "data/supervised/phase4/p417/private_ratings/staged_results_identity_normalised.csv",
+   "no file of the same size elsewhere"
+  ],
+  [
+   "data/supervised/phase4/p417/private_ratings/B_refresh_staged/processed/international_matches.csv",
+   "no file of the same size elsewhere"
+  ],
+  [
+   "data/supervised/phase4/p417/private_ratings/B_refresh_staged/processed/team_elo_latest.csv",
+   "no file of the same size elsewhere"
+  ],
+  [
+   "data/supervised/phase4/p417/private_ratings/B_refresh_staged/processed/team_elo_match_history.csv",
+   "no file of the same size elsewhere"
+  ],
+  [
+   "data/supervised/phase4/p417/private_ratings/B_refresh_staged/processed/team_recent_form_latest.csv",
+   "no file of the same size elsewhere"
+  ],
+  [
+   "data/supervised/phase4/p417/private_ratings/B_refresh_staged/raw/international_results/results.csv",
+   "no file of the same size elsewhere"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/martj42/unpacked/international_results-master/LICENSE",
+   "no file of the same size elsewhere"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/martj42/unpacked/international_results-master/README.md",
+   "no file of the same size elsewhere"
+  ],
+  [
+   "data/supervised/phase4/p417/staging/martj42/unpacked/international_results-master/.github/FUNDING.yml",
+   "no file of the same size elsewhere"
+  ]
+ ],
+ "A12": {
+  "members": 34,
+  "identical": 34,
+  "missing": [],
+  "n_missing": 0,
+  "differ": [],
+  "n_differ": 0
+ },
+ "A14": {
+  "data/supervised/demo_backend.log": [
+   "data/supervised/phase4/p425/analysis_stdout.txt"
+  ],
+  "data/supervised/demo_frontend.log": [
+   "data/supervised/phase4/p425/analysis_stdout.txt"
+  ],
+  "data/supervised/full_backend_run.txt": [
+   "data/supervised/phase4/p425/analysis_stdout.txt"
+  ],
+  "data/supervised/full_backend_run_2.txt": [
+   "data/supervised/phase4/p425/analysis_stdout.txt"
+  ],
+  "data/supervised/full_backend_run_3.txt": [
+   "data/supervised/phase4/p425/analysis_stdout.txt"
+  ],
+  "data/supervised/full_backend_run_4.txt": [
+   "data/supervised/phase4/p425/analysis_stdout.txt"
+  ],
+  "data/supervised/investigation_analysis.txt": [
+   "data/supervised/phase4/p425/analysis_stdout.txt"
+  ],
+  "data/supervised/investigation_output.txt": [
+   "data/supervised/phase4/p425/analysis_stdout.txt"
+  ],
+  "data/supervised/live_test_backend.log": [
+   "data/supervised/phase4/p425/analysis_stdout.txt"
+  ],
+  "data/supervised/live_test_backend2.log": [
+   "data/supervised/phase4/p425/analysis_stdout.txt"
+  ],
+  "data/supervised/live_test_backend3.log": [
+   "data/supervised/phase4/p425/analysis_stdout.txt"
+  ],
+  "data/supervised/rehearsal_run_output.txt": [
+   "data/supervised/phase4/p425/analysis_stdout.txt"
+  ],
+  "logs/backend-20261027-231734.err.log": [],
+  "logs/backend-20261027-231734.out.log": [],
+  "logs/backend-20261027-231843.err.log": [],
+  "logs/backend-20261027-231843.out.log": [],
+  "logs/backend-20261027-234007.err.log": [],
+  "logs/backend-20261027-234007.out.log": [],
+  "logs/supervisor.log": [
+   "data/supervised/phase4/p414/experiment_evidence.txt",
+   "data/supervised/phase4/p414/supervisor_experiment.ps1",
+   "data/supervised/phase4/p415/private_launch_trial.ps1",
+   "data/supervised/phase4/p48f/lifecycle_check.ps1",
+   "data/supervised/phase4/p48f/lifecycle_console.txt",
+   "data/supervised/phase4/p48f/lifecycle_evidence.txt",
+   "docs/mini-project/phase4/P4_14_SUPERVISOR_RELIABILITY.md",
+   "docs/mini-project/phase4/P4_8D_ACTIVATION_CHECKLIST.md",
+   "scripts/ops/footiq_service.ps1"
+  ],
+  "logs/uvicorn-20261028-072217.err.log": [],
+  "logs/uvicorn-20261028-072217.out.log": [],
+  "logs/uvicorn-20261028-095524.err.log": [],
+  "logs/uvicorn-20261028-095524.out.log": []
+ }
+}

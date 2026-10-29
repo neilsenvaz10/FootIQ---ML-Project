@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------------------------------------------------------
+   FootIQ design tokens (Phase 4, stage P4.1). One source of truth for colour, type, radius and elevation.
+   `static` makes Tailwind emit every variable, so scripts and inline styles can use var(--color-...) as well.
+   tests/design-tokens.test.jsx reads this block and fails if a text pair drops below 4.5:1 or a control edge below 3:1
+   (WCAG 2.2 AA: 1.4.3 text contrast, 1.4.11 non-text contrast).
+   ------------------------------------------------------------------------------------------------------------------ */
+@theme static {
+  /* surfaces, darkest to lightest */
+  --color-bg: #0a0a1a;
+  --color-sidebar: #080816;
+  --color-panel: #13132b;
+  --color-panel-2: #1b1b3a;
+  --color-panel-3: #242448;
+
+  /* borders: `line` is decoration (dividers, card edges); `line-strong` marks anything the user must find to operate it */
+  --color-line: #2b2b50;
+  --color-line-strong: #6d6d9a;
+
+  /* text */
+  --color-ink: #f4f4fb;
+  --color-ink-2: #d2d2e8;
+  --color-mute: #a4a4c4;
+  --color-mute-2: #8c8cae;
+
+  /* brand: `accent` for text, icons and active states on dark surfaces; `primary` for solid action fills (white text) */
+  --color-accent: #a094ff;
+  --color-accent-strong: #8b7bff;
+  --color-primary: #5b47e0;
+  --color-primary-hi: #6a52f0;
+  --color-primary-lo: #4a3fd1;
+  --color-on-primary: #ffffff;
+
+  /* status */
+  --color-ok: #34d98b;
+  --color-warn: #f6c94c;
+  --color-bad: #ff7676;
+  --color-info: #82b0ff;
+
+  /* the gradient behind the featured match on Home (its third stop is `panel`); text on it is `ink` or `ink-2`, checked against every stop */
+  --color-hero-from: #3b2a9a;
+  --color-hero-via: #1d1656;
+
+  /* match outcomes (probability bars); restyled together with the prediction screens in a later stage */
+  --color-home: #27d17f;
+  --color-draw: #f4c542;
+  --color-away: #ff6b6b;
+
+  /* names used by pages that have not been restyled yet; they now point at the tokens above */
+  --color-pitch: var(--color-accent);
+  --color-pitch-dim: var(--color-primary-lo);
+
+  --font-sans: "Inter Variable", "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --radius-control: 0.75rem;
+  --radius-card: 1rem;
+  --shadow-card: inset 0 1px 0 0 rgb(255 255 255 / 0.04), 0 14px 32px -18px rgb(0 0 0 / 0.7);
+  --shadow-glow: 0 10px 28px -10px rgb(106 82 240 / 0.75);
+}
+
+@layer base {
+  :root {
+    --tabbar-height: 4.5rem;
+  }
+
+  html {
+    color-scheme: dark;
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 4.5rem;
+  }
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+
+  body {
+    background:
+      radial-gradient(1000px 520px at 82% -10%, rgb(91 71 224 / 0.3), transparent 62%),
+      radial-gradient(760px 460px at -8% 108%, rgb(74 63 209 / 0.18), transparent 60%),
+      var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-optical-sizing: auto;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  ::selection {
+    background: rgb(160 148 255 / 0.35);
+  }
+
+  /* keyboard focus: a 2 px accent ring (7:1 on every surface) that is only drawn for keyboard users */
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+  /* the page area is focused by script after a navigation; it is not a control, so it gets no ring */
+  [tabindex="-1"]:focus {
+    outline: none;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-line-strong) transparent;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* horizontally scrolling pill rows without a visible scrollbar */
+@utility no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* keep content clear of the fixed bottom navigation bar (and the iPhone home indicator) */
+@utility pb-tabbar {
+  padding-bottom: calc(var(--tabbar-height) + env(safe-area-inset-bottom) + 1.5rem);
+  @media (min-width: 768px) {
+    padding-bottom: 2.5rem;
+  }
+}
+
+@layer components {
+  /* gradient card behind the featured match on Home */
+  .hero {
+    background: linear-gradient(135deg, var(--color-hero-from) 0%, var(--color-hero-via) 55%, var(--color-panel) 100%);
+    border: 1px solid rgb(160 148 255 / 0.28);
+  }
+  .glass {
+    background: rgb(27 27 58 / 0.6);
+    border: 1px solid rgb(255 255 255 / 0.06);
+    backdrop-filter: blur(6px);
+  }
+}

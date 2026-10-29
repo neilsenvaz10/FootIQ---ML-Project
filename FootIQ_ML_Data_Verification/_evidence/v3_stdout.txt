@@ -1,0 +1,51 @@
+D:\Foot IQ\FootIQ_ML_Data_Verification\_scripts\v3_uefa_identity.py:90: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  R["cross_validation_date_not_equal"] = int((~xv.date_equal.fillna(True)).sum()) if "date_equal" in xv else None
+D:\Foot IQ\FootIQ_ML_Data_Verification\_scripts\v3_uefa_identity.py:91: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  R["cross_validation_pen_disagree"] = int((~xv.pen_agree.fillna(True)).sum())
+D:\Foot IQ\FootIQ_ML_Data_Verification\_scripts\v3_uefa_identity.py:168: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  I["canonical_reserve_teams_used"] = int(res.canonical_name.str.contains(r"\b(B|II|U2[0-3]|Jong|Reserves?)\b", regex=True).sum())
+[{"competition": "UEFA Champions League", "season": "2025-26", "score_agree": 181}, {"competition": "UEFA Conference League", "season": "2024-25", "score_agree": 143}, {"competition": "UEFA Europa League", "season": "2024-25", "score_agree": 179}]
+{'competition': 'UEFA Europa League', 'season': '2025-26', 'rows': 189, 'duplicate_rows_by_date_teams': 0, 'date_min': '2025-09-24', 'date_max': '2026-05-20', 'rows_without_score': 0, 'rows_without_date': 0, 'pens_but_unequal_final_score': 1, 'goal_lists_consistent_pct': 95.8, 'league_phase_teams': 36, 'league_phase_matches_per_team_distribution': {8: 36}, 'league_phase_home_games_distribution': {4: 36}, 'aggregate_notes_found': 20, 'aggregate_notes_matching_computed_ties': 20, 'aggregate_notes_not_matching': 0, 'aggregate_mismatch_examples': []}
+{'competition': 'UEFA Conference League', 'season': '2025-26', 'rows': 153, 'duplicate_rows_by_date_teams': 0, 'date_min': '2025-10-02', 'date_max': '2026-05-27', 'rows_without_score': 0, 'rows_without_date': 0, 'pens_but_unequal_final_score': 0, 'goal_lists_consistent_pct': 92.8, 'league_phase_teams': 36, 'league_phase_matches_per_team_distribution': {6: 36}, 'league_phase_home_games_distribution': {3: 36}, 'aggregate_notes_found': 22, 'aggregate_notes_matching_computed_ties': 22, 'aggregate_notes_not_matching': 0, 'aggregate_mismatch_examples': []}
+{'competition': 'UEFA Europa League', 'season': '2018-19', 'rows': 205, 'duplicate_rows_by_date_teams': 0, 'date_min': '2018-09-20', 'date_max': '2019-05-29', 'rows_without_score': 0, 'rows_without_date': 0, 'pens_but_unequal_final_score': 0, 'goal_lists_consistent_pct': 92.2, 'league_phase_teams': 48, 'league_phase_matches_per_team_distribution': {6: 48}, 'league_phase_home_games_distribution': {3: 48}, 'aggregate_notes_found': 27, 'aggregate_notes_matching_computed_ties': 27, 'aggregate_notes_not_matching': 0, 'aggregate_mismatch_examples': []}
+{'competition': 'UEFA Europa League', 'season': '2019-20', 'rows': 197, 'duplicate_rows_by_date_teams': 0, 'date_min': '2019-09-19', 'date_max': '2020-08-21', 'rows_without_score': 0, 'rows_without_date': 0, 'pens_but_unequal_final_score': 0, 'goal_lists_consistent_pct': 96.4, 'league_phase_teams': 48, 'league_phase_matches_per_team_distribution': {6: 48}, 'league_phase_home_games_distribution': {3: 48}, 'aggregate_notes_found': 20, 'aggregate_notes_matching_computed_ties': 20, 'aggregate_notes_not_matching': 0, 'aggregate_mismatch_examples': []}
+{'competition': 'UEFA Europa League', 'season': '2024-25', 'rows': 189, 'duplicate_rows_by_date_teams': 0, 'date_min': '2024-09-25', 'date_max': '2025-05-21', 'rows_without_score': 0, 'rows_without_date': 0, 'pens_but_unequal_final_score': 2, 'goal_lists_consistent_pct': 95.8, 'league_phase_teams': 36, 'league_phase_matches_per_team_distribution': {8: 36}, 'league_phase_home_games_distribution': {4: 36}, 'aggregate_notes_found': 20, 'aggregate_notes_matching_computed_ties': 20, 'aggregate_notes_not_matching': 0, 'aggregate_mismatch_examples': []}
+{'competition': 'UEFA Conference League', 'season': '2024-25', 'rows': 153, 'duplicate_rows_by_date_teams': 0, 'date_min': '2024-10-02', 'date_max': '2025-05-28', 'rows_without_score': 0, 'rows_without_date': 0, 'pens_but_unequal_final_score': 2, 'goal_lists_consistent_pct': 96.7, 'league_phase_teams': 36, 'league_phase_matches_per_team_distribution': {6: 36}, 'league_phase_home_games_distribution': {3: 36}, 'aggregate_notes_found': 20, 'aggregate_notes_matching_computed_ties': 20, 'aggregate_notes_not_matching': 0, 'aggregate_mismatch_examples': []}
+{'competition': 'UEFA Champions League', 'season': '2025-26', 'rows': 189, 'duplicate_rows_by_date_teams': 0, 'date_min': '2025-09-16', 'date_max': '2026-05-30', 'rows_without_score': 0, 'rows_without_date': 0, 'pens_but_unequal_final_score': 0, 'goal_lists_consistent_pct': 94.7, 'league_phase_teams': 36, 'league_phase_matches_per_team_distribution': {8: 36}, 'league_phase_home_games_distribution': {4: 36}, 'aggregate_notes_found': 22, 'aggregate_notes_matching_computed_ties': 22, 'aggregate_notes_not_matching': 0, 'aggregate_mismatch_examples': []}
+{
+"mapping_rows": 6741,
+"mapping_status": {
+"resolved_exact_alias": 2964,
+"no_alias_match": 2308,
+"no_country": 1466,
+"ambiguous_multiple_clubs": 3
+},
+"mapping_duplicate_keys": 0,
+"entities_in_04d": 4969,
+"entities_resolved_to_canonical": 1656,
+"entities_unresolved": 3313,
+"match_sides_with_unresolved_entity": 98878,
+"match_sides_total": 286110,
+"unresolved_share_by_competition_type": {
+"continental_club": 0.423,
+"domestic_cup": 0.31,
+"domestic_league": 0.345,
+"global_club": 0.693,
+"league_cup": 0.0
+},
+"same_normalised_name_multiple_entity_ids_groups": 310,
+"matches_touching_those_groups": 32046,
+"possible_split_candidates_unresolved_vs_resolved": 80,
+"canonical_ids_with_dissimilar_source_names_for_review": 208,
+"canonical_reserve_teams_used": 35
+}
+{'search': 'AS Monaco', 'entity_ids': 'CLUB:MCO:as-monaco', 'names': 'AS Monaco | AS Monaco FC', 'competitions': 'champions-league:cl | champions-league:el | europe/france:fr1 | europe/france:frcup', 'matches': 354, 'seasons': '2018-19..2026-27'}
+{'search': 'Monaco', 'entity_ids': 'CLUB:MCO:as-monaco', 'names': 'AS Monaco | AS Monaco FC', 'competitions': 'champions-league:cl | champions-league:el | europe/france:fr1 | europe/france:frcup', 'matches': 354, 'seasons': '2018-19..2026-27'}
+{'search': 'Cardiff City', 'entity_ids': 'CLUB:WAL:cardiff-city-fc', 'names': 'Cardiff City | Cardiff City F.C. | Cardiff City FC', 'competitions': 'england:1-premierleague | england:2-championship | england:3-league1 | england:eflcup | england:facup', 'matches': 385, 'seasons': '2018-19..2026-27'}
+{'search': 'Swansea City', 'entity_ids': 'CLUB:WAL:swansea-city-afc', 'names': 'Swansea City | Swansea City A.F.C. | Swansea City AFC', 'competitions': 'england:2-championship | england:eflcup | england:facup', 'matches': 409, 'seasons': '2018-19..2026-27'}
+{'search': 'Wrexham', 'entity_ids': 'CLUB:WAL:wrexham-afc', 'names': 'Wrexham A.F.C. | Wrexham AFC', 'competitions': 'england:2-championship | england:3-league1 | england:4-league2 | england:5-nationalleague | england:eflcup | england:facup', 'matches': 387, 'seasons': '2018-19..2026-27'}
+{'search': 'Newport County', 'entity_ids': 'CLUB:WAL:newport-county-afc', 'names': 'Newport County | Newport County A.F.C.', 'competitions': 'england:4-league2 | england:eflcup | england:facup', 'matches': 380, 'seasons': '2018-19..2026-27'}
+{'search': 'Merthyr', 'entity_ids': 'CLUB:WAL:merthyr-town-fc', 'names': 'Merthyr Town', 'competitions': 'england:facup', 'matches': 1, 'seasons': '2022-23..2022-23'}
+{'search': 'Barry Town', 'entity_ids': 'CLUB:WAL:barry-town-afc', 'names': 'Barry Town United', 'competitions': 'europe/wales:wal1', 'matches': 65, 'seasons': '2023-24..2024-25'}
+{'search': 'The New Saints', 'entity_ids': 'CLUB:WAL:the-new-saints-fc', 'names': 'The New Saints', 'competitions': 'champions-league:clq | champions-league:conf | champions-league:confq | champions-league:elq | europe/wales:wal1', 'matches': 82, 'seasons': '2023-24..2025-26'}
+{'search': 'Bala Town', 'entity_ids': 'CLUB:WAL:bala-town-fc', 'names': 'Bala Town', 'competitions': 'champions-league:confq | europe/wales:wal1', 'matches': 67, 'seasons': '2023-24..2024-25'}

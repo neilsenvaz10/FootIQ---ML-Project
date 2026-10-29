@@ -1,0 +1,142 @@
+{
+ "production_sha256_before": "5e8433c3bab517d6b2a09c2d91e91a9115fea9c91088a6b4183f27546d7bf488",
+ "first_apply": {
+  "counts": {
+   "update_result": 71
+  },
+  "applied": {
+   "inserted": 0,
+   "updated": 71,
+   "unchanged": 0,
+   "quarantined": 0,
+   "run_id": 32
+  }
+ },
+ "second_apply": {
+  "counts": {
+   "unchanged": 71
+  },
+  "applied": {
+   "inserted": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "quarantined": 0,
+   "run_id": 33
+  }
+ },
+ "integrity": "ok",
+ "fk_problems": 0,
+ "completed_2026_27": {
+  "null": 501,
+  "BUNDESLIGA": 63,
+  "EPL": 77,
+  "LALIGA": 93,
+  "LIGUE1": 70,
+  "SERIEA": 79,
+  "UCL": 54,
+  "UEL": 18
+ },
+ "awaiting_past_date": {
+  "null": 365,
+  "EPL": 3,
+  "LALIGA": 7,
+  "LIGUE1": 2,
+  "SERIEA": 4
+ },
+ "simulations": 2,
+ "duplicates": 0,
+ "app_on_copy": {
+  "EPL": {
+   "matches_in_dashboard": 77,
+   "top3": [
+    [
+     "Manchester City FC",
+     8,
+     21
+    ],
+    [
+     "Arsenal FC",
+     8,
+     21
+    ],
+    [
+     "Liverpool FC",
+     8,
+     15
+    ]
+   ],
+   "hub_counts": {
+    "upcoming": 300,
+    "awaiting_result": 3,
+    "completed": 77,
+    "other": 0,
+    "all": 380
+   },
+   "predict_status": 200,
+   "badge": "Validated",
+   "probs_sum": null
+  },
+  "SERIEA": {
+   "matches_in_dashboard": 79,
+   "top3": [
+    [
+     "FC Internazionale Milano",
+     8,
+     22
+    ],
+    [
+     "SS Lazio",
+     8,
+     22
+    ],
+    [
+     "AC Milan",
+     8,
+     18
+    ]
+   ],
+   "hub_counts": {
+    "upcoming": 297,
+    "awaiting_result": 4,
+    "completed": 79,
+    "other": 0,
+    "all": 380
+   },
+   "predict_status": 200,
+   "badge": "Validated",
+   "probs_sum": null
+  },
+  "LIGUE1": {
+   "matches_in_dashboard": 70,
+   "top3": [
+    [
+     "Stade Rennais FC 1901",
+     8,
+     16
+    ],
+    [
+     "Lille OSC",
+     8,
+     15
+    ],
+    [
+     "AS Monaco FC",
+     8,
+     15
+    ]
+   ],
+   "hub_counts": {
+    "upcoming": 234,
+    "awaiting_result": 2,
+    "completed": 70,
+    "other": 0,
+    "all": 306
+   },
+   "predict_status": 200,
+   "badge": "Validated",
+   "probs_sum": null
+  }
+ },
+ "production_sha256_after": "5e8433c3bab517d6b2a09c2d91e91a9115fea9c91088a6b4183f27546d7bf488",
+ "production_unchanged": true
+}

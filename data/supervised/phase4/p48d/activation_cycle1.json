@@ -1,0 +1,149 @@
+{
+ "started_utc": "2026-10-27T16:59:54Z",
+ "execute": true,
+ "preconditions": {
+  "path": "D:\\Foot IQ\\data\\footiq.sqlite",
+  "bytes": 228663296,
+  "physical_sha256": "1bfad5bd4663e70776ef9da35f5c89eeed11b1ed7274ee7fdb562e266a9cb278",
+  "logical_sha256": "b3dcf8c0d04aa4538da77f4dc21c267b6414bb7e3c61692ad24a0ec4c2c1d95f",
+  "integrity_check": "ok",
+  "physical_equals_v3": true,
+  "logical_equals_v3": true,
+  "config_live_enabled": false,
+  "enabled_competitions": [
+   "BUNDESLIGA"
+  ],
+  "git_staged": [],
+  "git_head": "970f461 Mini Project Scope Update",
+  "application_processes": [],
+  "exclusive_lock_available": true,
+  "forecasts": 0,
+  "forecast_runs": 0,
+  "frozen_files_changed_vs_recorded": [
+   "config/sync.json"
+  ],
+  "prospective_evaluation_files_in_manifest_changed": [],
+  "failed": []
+ },
+ "backup": {
+  "path": "data\\backups\\footiq.20261027T170018Z.pre-activation.sqlite",
+  "bytes": 228663296,
+  "physical_sha256": "a5f319c4e91c78533d6af05c64e45d76575d6cfec121b8ef4e688201193cd23c",
+  "logical_equals_production": true,
+  "integrity_check": "ok",
+  "restore": {
+   "logical_equals_production": true,
+   "integrity_check": "ok",
+   "matches": 223510
+  },
+  "restored_path": "D:\\Foot IQ\\data\\supervised\\phase4\\p48d\\restore_test_activation.sqlite"
+ },
+ "config_used_in_process": {
+  "live_enabled": true,
+  "periodic_minutes": 360,
+  "max_retries": 0,
+  "refresh_mode": "full_season",
+  "competitions": [
+   "BUNDESLIGA"
+  ],
+  "request_cap": 1,
+  "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+  "note": "config/sync.json was NOT edited: it stays live_enabled=false, so nothing outlives this process"
+ },
+ "due_before": "2026-10-25T14:38:27Z",
+ "cycle": {
+  "outcome": "ok",
+  "changed": 0,
+  "details": [
+   {
+    "competition": "BUNDESLIGA",
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 243,
+    "confirmed": 63,
+    "quarantined": 0,
+    "requests": 1,
+    "snapshot_reused": false
+   }
+  ],
+  "requests_made": 1
+ },
+ "verification": {
+  "matches_changed": {},
+  "match_rows_before_after": [
+   223510,
+   223510
+  ],
+  "table_row_counts_changed": {
+   "source_snapshots": [
+    11,
+    12
+   ],
+   "sync_runs": [
+    10,
+    12
+   ]
+  },
+  "sync_runs": [
+   {
+    "run_id": 11,
+    "kind": "startup_check",
+    "competition_key": null,
+    "outcome": "ok",
+    "requests": 1,
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "quarantined": 0,
+    "detail": "[{\"competition\": \"BUNDESLIGA\", \"inserted\": 0, \"updated\": 0, \"unchanged\": 243, \"confirmed\": 63, \"quarantined\": 0, \"requests\": 1, \"snapshot_reused\": false}]"
+   },
+   {
+    "run_id": 12,
+    "kind": "sync",
+    "competition_key": "BUNDESLIGA",
+    "outcome": "ok",
+    "requests": 1,
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 243,
+    "quarantined": 0,
+    "detail": "{\"inserted\": 0, \"updated\": 0, \"unchanged\": 243, \"confirmed\": 63, \"quarantined\": 0, \"source_url\": \"https://api.openligadb.de/getmatchdata/bl1/2026\", \"response_sha256\": \"b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46\", \"snapshot_id\": \"20261027T170038Z_bl1_2026_season.json\", \"snapshot_reused\": false, \"origin\": \"provider_http\", \"http_attempts\": 1, \"checked_utc\": \"2026-10-27T17:00:39Z\"}"
+   }
+  ],
+  "integrity_check": "ok",
+  "unexpected": []
+ },
+ "snapshot": {
+  "file": "20261027T170038Z_bl1_2026_season.json",
+  "sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46",
+  "bytes": 316983,
+  "origin": "provider_http",
+  "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+  "status": 200,
+  "saved_utc": "2026-10-27T17:00:38Z",
+  "sha256_matches_file": true
+ },
+ "ledger_tail": [
+  "{\"ts\": \"2026-10-25T08:38:29Z\", \"source\": \"openligadb\", \"url\": \"https://api.openligadb.de/getmatchdata/bl1/2026\", \"status\": 200, \"attempt\": 0}",
+  "{\"ts\": \"2026-10-27T17:00:38Z\", \"source\": \"openligadb\", \"url\": \"https://api.openligadb.de/getmatchdata/bl1/2026\", \"status\": 200, \"attempt\": 0}"
+ ],
+ "baseline_monitor": {
+  "changed_tables": [
+   "source_snapshots",
+   "source_state"
+  ],
+  "scope_changes": {},
+  "verdict": "EXPECTED_LOG_ONLY",
+  "reasons": [],
+  "approvable": true
+ },
+ "hashes_after": {
+  "physical_sha256": "2f5126efddf963d472af5b032db355d92dee6e9fcffacd63a9355c8ce4252f67",
+  "logical_sha256_v3_cutoff": "9aec344a457602e657922b84665de4103c7153b16fd44cfd02acbeba02f23b30",
+  "baseline_v3_physical": "1bfad5bd4663e70776ef9da35f5c89eeed11b1ed7274ee7fdb562e266a9cb278",
+  "baseline_v3_logical": "b3dcf8c0d04aa4538da77f4dc21c267b6414bb7e3c61692ad24a0ec4c2c1d95f"
+ },
+ "baseline_approved": false,
+ "result": "CYCLE DONE",
+ "finished_utc": "2026-10-27T17:01:05Z"
+}

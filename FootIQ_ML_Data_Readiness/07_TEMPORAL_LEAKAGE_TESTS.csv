@@ -1,0 +1,7 @@
+﻿test,passed,detail
+T1 latest information date < kickoff date for every eligible row,True,129829 rows checked
+T2 prefix invariance: features for matches before 2023-07-01 are identical when all later data is removed,True,"157700 rows, columns ['home_elo', 'away_elo', 'home_n_prior', 'away_n_prior', 'home_ppg5', 'away_ppg5', 'home_gf10', 'away_ga10', 'home_days_rest']"
+T3 brute-force recomputation (strictly earlier matches only) of n_prior and ppg5,True,"400 random rows x 2 teams, mismatches=0"
+T4 no outcome-derived column is in the declared feature list,True,31 declared features
+T5 same-day matches do not inform each other (state updated after the whole date is processed),True,by construction + T3 (strict < date); teams with >1 match on one date: 237
+T6 splits are chronological (max train date < min validation date < min test date < min holdout date),True,"[{""suggested_split"": ""forward_holdout"", ""min"": ""2025-07-01"", ""max"": ""2026-09-20"", ""size"": 10592}, {""suggested_split"": ""test"", ""min"": ""2024-07-01"", ""max"": ""2025-06-29"", ""size"": 28376}, {""suggested_split"": ""train"", ""min"": ""2018-08-01"", ""max"": ""2023-06-30"", ""size"": 66485}, {""suggested_split"": ""validation"", ""min"": ""2023-07-01"", ""max"": ""2024-06-30"", ""size"": 24376}]"

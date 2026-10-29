@@ -1,0 +1,57 @@
+............s.......sss................................................. [ 30%]
+.........................................F.............................. [ 60%]
+...........................F............................................ [ 90%]
+..................F....                                                  [100%]
+================================== FAILURES ===================================
+___________________ test_endpoint_shape_headers_and_content ___________________
+
+client = <starlette.testclient.TestClient object at 0x0000022667BE5AF0>
+
+    def test_endpoint_shape_headers_and_content(client):
+        r = client.get("/api/featured-fixture")
+        assert r.status_code == 200
+        body = r.json()
+        assert set(body) == {"generated_utc", "today_utc", "scope", "featured", "empty_state", "upcoming", "recent_results", "leagues", "freshness", "notes"}
+>       assert body["featured"]["record_id"] == "lal:2a" and body["today_utc"] == body["generated_utc"][:10]
+E       AssertionError: assert ('epl:4b' == 'lal:2a'
+E         
+E         - lal:2a
+E         + epl:4b)
+
+tests\test_featured.py:462: AssertionError
+_____ test_the_shipped_configuration_and_the_periodic_mode_are_unchanged ______
+
+rig = {'cfg': SyncConfig(live_enabled=True, startup_check=True, startup_delay_seconds=0, periodic_minutes=60.0, max_retries=...nction rig.<locals>.finish at 0x0000022670A01E40>, 'launch': <function rig.<locals>.launch at 0x0000022670A00D60>, ...}
+
+    def test_the_shipped_configuration_and_the_periodic_mode_are_unchanged(rig):
+>       assert sync.SyncConfig.load().sync_mode == "periodic" and sync.SyncConfig().sync_mode == "periodic" and sync.SyncConfig().startup_min_gap_minutes == 15.0
+E       AssertionError: assert ('startup' == 'periodic'
+E         
+E         - periodic
+E         + startup)
+
+tests\test_startup_sync.py:274: AssertionError
+_____ test_shipped_config_has_live_access_on_only_for_the_approved_source _____
+
+    def test_shipped_config_has_live_access_on_only_for_the_approved_source():
+        cfg = sync.SyncConfig.load()                                                         # Phase 4.8E: Bundesliga synchronisation activated by the project owner
+>       assert cfg.live_enabled is True and cfg.approved_competitions() == ["BUNDESLIGA"] and cfg.startup_check and cfg.periodic_minutes >= 30
+E       AssertionError: assert (True is True and ['BUNDESLIGA', 'LALIGA'] == ['BUNDESLIGA']
+E        +  where True = SyncConfig(live_enabled=True, startup_check=True, startup_delay_seconds=5, periodic_minutes=360, max_retries=2, stale_...: False, 'competitions': [], 'token_env': 'FOOTBALL_DATA_API_TOKEN'}}, sync_mode='startup', startup_min_gap_minutes=15).live_enabled
+E         
+E         Left contains one more item: 'LALIGA'
+E         Use -v to get more diff)
+
+tests\test_store.py:321: AssertionError
+============================== warnings summary ===============================
+.venv\Lib\site-packages\fastapi\testclient.py:1
+  D:\Foot IQ\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_featured.py::test_endpoint_shape_headers_and_content - Asse...
+FAILED tests/test_startup_sync.py::test_the_shipped_configuration_and_the_periodic_mode_are_unchanged
+FAILED tests/test_store.py::test_shipped_config_has_live_access_on_only_for_the_approved_source
+3 failed, 232 passed, 4 skipped, 1 warning in 608.87s (0:10:08)
+done

@@ -1,0 +1,349 @@
+{
+ "kind": "REPLAYED-SNAPSHOT TRIAL (no real network request)",
+ "network_blocked": true,
+ "started_utc": "2026-10-27T14:24:09Z",
+ "clock_start": "2026-10-27T15:00:00Z",
+ "production_sha256_before": "1bfad5bd4663e70776ef9da35f5c89eeed11b1ed7274ee7fdb562e266a9cb278",
+ "snapshot": {
+  "file": "20261027T125704Z_p48c_bl1.json",
+  "sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46"
+ },
+ "1_disabled_scheduler": {
+  "thread_started": false,
+  "results": [
+   {
+    "outcome": "skipped_live_disabled",
+    "run_id": null
+   },
+   {
+    "outcome": "skipped_live_disabled",
+    "run_id": null
+   }
+  ],
+  "file_unchanged": true,
+  "tables_unchanged": true,
+  "requests": 0
+ },
+ "2_due_before_first_cycle": "2026-10-25T14:38:27Z",
+ "2_supervised_cycle": {
+  "outcome": "ok",
+  "changed": 2,
+  "requests_replayed": 5,
+  "urls": [
+   "/getcurrentgroup/bl1",
+   "/getlastchangedate/bl1/2026/6",
+   "/getmatchdata/bl1/2026/6",
+   "/getlastchangedate/bl1/2026/7",
+   "/getmatchdata/bl1/2026/7"
+  ],
+  "on_change_callbacks": 1,
+  "rows_changed": {
+   "deutschland:1-bundesliga:2026-27:L110": [
+    [
+     "TSG 1899 Hoffenheim",
+     "Bayer 04 Leverkusen",
+     3,
+     0
+    ]
+   ],
+   "deutschland:1-bundesliga:2026-27:L111": [
+    [
+     "SC Freiburg",
+     "FC Bayern München",
+     1,
+     3
+    ]
+   ]
+  },
+  "fields_changed": [
+   "away_goals_90",
+   "away_goals_final",
+   "home_goals_90",
+   "home_goals_final",
+   "in_universe",
+   "label_90_status",
+   "licence",
+   "model_away_entity",
+   "model_home_entity",
+   "outcome",
+   "rated",
+   "regular",
+   "source_system",
+   "status"
+  ],
+  "sync_runs": [
+   {
+    "run_id": 9,
+    "kind": "startup_check",
+    "competition_key": null,
+    "outcome": "ok",
+    "requests": 5,
+    "inserted": 2,
+    "updated": 0,
+    "unchanged": 0,
+    "quarantined": 0
+   },
+   {
+    "run_id": 10,
+    "kind": "sync",
+    "competition_key": "BUNDESLIGA",
+    "outcome": "ok",
+    "requests": 5,
+    "inserted": 0,
+    "updated": 2,
+    "unchanged": 0,
+    "quarantined": 0
+   }
+  ],
+  "links_upgraded": [
+   {
+    "source_ref": "83213",
+    "role": "primary",
+    "snapshot_id": "20261027T142425Z_bl1_2026_md6.json"
+   },
+   {
+    "source_ref": "83214",
+    "role": "primary",
+    "snapshot_id": "20261027T142425Z_bl1_2026_md6.json"
+   }
+  ],
+  "next_due": "2026-10-27T21:00:00Z"
+ },
+ "3_due_logic": {
+  "at_5h59": "not_due",
+  "at_6h01": "ok",
+  "requests_in_the_second_cycle": 3,
+  "second_cycle_changed": 0,
+  "idempotent": true
+ },
+ "4_restart": {
+  "outcome": "not_due",
+  "next_due": "2026-10-28T03:01:00Z",
+  "requests": 0,
+  "file_unchanged": true
+ },
+ "5_lock": {
+  "young_running_row": "skipped_already_running",
+  "requests_while_locked": 0,
+  "after_30_min": "ok",
+  "abandoned_row": [
+   {
+    "run_id": 13,
+    "outcome": "abandoned"
+   }
+  ]
+ },
+ "6_failure_backoff": {
+  "first_failure": "error",
+  "wait_after_first_hours": 12,
+  "next_due_after_first": "2026-10-28T21:31:00Z",
+  "second_failure": "error",
+  "next_due_after_second": "2026-10-29T21:31:00Z",
+  "recovered": "ok",
+  "next_due_after_recovery": "2026-10-30T03:31:00Z",
+  "data_changed_by_failures": 0,
+  "sync_errors": [
+   {
+    "run_id": 16,
+    "source": "openligadb",
+    "error": "SourceUnavailable: https://api.openligadb.de/getcurrentgroup/bl1: retries exhausted"
+   },
+   {
+    "run_id": 18,
+    "source": "openligadb",
+    "error": "SourceUnavailable: https://api.openligadb.de/getcurrentgroup/bl1: retries exhausted"
+   }
+  ]
+ },
+ "7_quarantine": {
+  "outcome": "ok",
+  "new_quarantine_rows": 4,
+  "reasons": [
+   "DATE_DIFFERENCE: stored 2026-10-24 vs source 2026-10-25: RB Leipzig v SV 07 Elversberg (a completed result is ",
+   "CONFLICT: stored 2-3 vs source 3-3",
+   "DATE_DIFFERENCE: stored 2026-10-17 vs source 2026-10-18: 1. FC Union Berlin v Borussia Dortmund (a completed r",
+   "CONFLICT: stored 1-0 vs source 2-0"
+  ],
+  "stored_scores_and_dates_unchanged": true
+ },
+ "8_logging": {
+  "sync_runs": [
+   {
+    "run_id": 9,
+    "kind": "startup_check",
+    "source": "all approved",
+    "competition_key": null,
+    "outcome": "ok",
+    "requests": 5,
+    "inserted": 2,
+    "updated": 0,
+    "quarantined": 0
+   },
+   {
+    "run_id": 10,
+    "kind": "sync",
+    "source": "openligadb",
+    "competition_key": "BUNDESLIGA",
+    "outcome": "ok",
+    "requests": 5,
+    "inserted": 0,
+    "updated": 2,
+    "quarantined": 0
+   },
+   {
+    "run_id": 11,
+    "kind": "periodic_check",
+    "source": "all approved",
+    "competition_key": null,
+    "outcome": "ok",
+    "requests": 3,
+    "inserted": 0,
+    "updated": 0,
+    "quarantined": 0
+   },
+   {
+    "run_id": 12,
+    "kind": "sync",
+    "source": "openligadb",
+    "competition_key": "BUNDESLIGA",
+    "outcome": "ok",
+    "requests": 3,
+    "inserted": 0,
+    "updated": 0,
+    "quarantined": 0
+   },
+   {
+    "run_id": 13,
+    "kind": "periodic_check",
+    "source": "all approved",
+    "competition_key": null,
+    "outcome": "abandoned",
+    "requests": 0,
+    "inserted": 0,
+    "updated": 0,
+    "quarantined": 0
+   },
+   {
+    "run_id": 14,
+    "kind": "periodic_check",
+    "source": "all approved",
+    "competition_key": null,
+    "outcome": "ok",
+    "requests": 3,
+    "inserted": 0,
+    "updated": 0,
+    "quarantined": 0
+   },
+   {
+    "run_id": 15,
+    "kind": "sync",
+    "source": "openligadb",
+    "competition_key": "BUNDESLIGA",
+    "outcome": "ok",
+    "requests": 3,
+    "inserted": 0,
+    "updated": 0,
+    "quarantined": 0
+   },
+   {
+    "run_id": 16,
+    "kind": "periodic_check",
+    "source": "all approved",
+    "competition_key": null,
+    "outcome": "error",
+    "requests": 0,
+    "inserted": 0,
+    "updated": 0,
+    "quarantined": 0
+   },
+   {
+    "run_id": 17,
+    "kind": "sync",
+    "source": "openligadb",
+    "competition_key": "BUNDESLIGA",
+    "outcome": "error",
+    "requests": 0,
+    "inserted": 0,
+    "updated": 0,
+    "quarantined": 0
+   },
+   {
+    "run_id": 18,
+    "kind": "periodic_check",
+    "source": "all approved",
+    "competition_key": null,
+    "outcome": "error",
+    "requests": 0,
+    "inserted": 0,
+    "updated": 0,
+    "quarantined": 0
+   },
+   {
+    "run_id": 19,
+    "kind": "sync",
+    "source": "openligadb",
+    "competition_key": "BUNDESLIGA",
+    "outcome": "error",
+    "requests": 0,
+    "inserted": 0,
+    "updated": 0,
+    "quarantined": 0
+   },
+   {
+    "run_id": 20,
+    "kind": "periodic_check",
+    "source": "all approved",
+    "competition_key": null,
+    "outcome": "ok",
+    "requests": 3,
+    "inserted": 0,
+    "updated": 0,
+    "quarantined": 0
+   },
+   {
+    "run_id": 21,
+    "kind": "sync",
+    "source": "openligadb",
+    "competition_key": "BUNDESLIGA",
+    "outcome": "ok",
+    "requests": 3,
+    "inserted": 0,
+    "updated": 0,
+    "quarantined": 0
+   },
+   {
+    "run_id": 22,
+    "kind": "periodic_check",
+    "source": "all approved",
+    "competition_key": null,
+    "outcome": "ok",
+    "requests": 5,
+    "inserted": 0,
+    "updated": 0,
+    "quarantined": 0
+   },
+   {
+    "run_id": 23,
+    "kind": "sync",
+    "source": "openligadb",
+    "competition_key": "BUNDESLIGA",
+    "outcome": "ok",
+    "requests": 5,
+    "inserted": 0,
+    "updated": 0,
+    "quarantined": 4
+   }
+  ],
+  "ledger_lines": 29,
+  "snapshot_files": 8,
+  "real_network_attempts_blocked": 0,
+  "total_replayed_requests": 29
+ },
+ "integrity": {
+  "integrity_check": "ok",
+  "matches": 223510
+ },
+ "production_sha256_after": "1bfad5bd4663e70776ef9da35f5c89eeed11b1ed7274ee7fdb562e266a9cb278",
+ "production_untouched_by_trial": true,
+ "config_sync_json_live_enabled": false
+}

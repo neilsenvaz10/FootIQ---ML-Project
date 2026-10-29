@@ -1,0 +1,120 @@
+{
+ "frozen_files_in_hashes_before_json": {
+  "count": 6,
+  "changed": [
+   "config/sync.json"
+  ]
+ },
+ "protected_manifest": {
+  "files": 17,
+  "identical_to_start_of_phase_4": false,
+  "differences_from_start": [
+   "config/sync.json",
+   "data/footiq.sqlite"
+  ],
+  "identical_to_end_of_phase_3": false,
+  "differences_from_phase_3": [
+   "config/sync.json",
+   "data/footiq.sqlite"
+  ]
+ },
+ "backend_sources": {
+  "files": 86,
+  "identical_to_start_of_phase_4": false,
+  "differences": [
+   "app/featured.py",
+   "app/forecast.py",
+   "app/gameweeks.py",
+   "app/kickoff.py",
+   "app/kickoff_tz.py",
+   "app/main.py",
+   "app/matches.py",
+   "app/predict.py",
+   "app/store/baseline_hash.py",
+   "app/store/db.py",
+   "app/store/import_p48d_stage1.py",
+   "app/store/sync.py",
+   "app/store/verify_openligadb_p48c.py",
+   "config/sync.json",
+   "tests/test_baseline_hash.py",
+   "tests/test_featured.py",
+   "tests/test_gameweeks.py",
+   "tests/test_kickoff_tz.py",
+   "tests/test_matches.py",
+   "tests/test_provenance_link.py",
+   "tests/test_refresh_integration.py",
+   "tests/test_seasonsim_service.py",
+   "tests/test_store.py",
+   "tests/test_sync_scheduler.py",
+   "tests/test_team_form_hint.py"
+  ],
+  "expected_since_p4_2": [
+   "app/featured.py",
+   "app/main.py",
+   "tests/test_featured.py",
+   "app/gameweeks.py",
+   "app/matches.py",
+   "tests/test_matches.py",
+   "tests/test_team_form_hint.py"
+  ],
+  "only_the_expected_differences": true,
+  "expected_since_p4_8b": [
+   "app/kickoff.py",
+   "app/predict.py",
+   "app/store/sync.py",
+   "app/store/db.py",
+   "app/forecast.py",
+   "config/sync.json",
+   "tests/test_gameweeks.py",
+   "tests/test_store.py",
+   "tests/test_sync_scheduler.py",
+   "tests/test_refresh_integration.py"
+  ],
+  "expected_since_p4_8c": [
+   "app/store/baseline_hash.py",
+   "app/store/verify_openligadb_p48c.py",
+   "tests/test_baseline_hash.py",
+   "app/kickoff_tz.py",
+   "tests/test_kickoff_tz.py"
+  ]
+ },
+ "production_database": {
+  "sha256_matches_post_import_record": false,
+  "baseline_v3": {
+   "physical_sha256_matches": true,
+   "logical_sha256_matches": true,
+   "excluded_rows": [],
+   "recorded_excluded_rows": [],
+   "current": true
+  },
+  "baseline_v2": {
+   "physical_sha256_matches": false,
+   "logical_sha256_matches": false,
+   "excluded_rows": [
+    8,
+    9,
+    10
+   ],
+   "recorded_excluded_rows": [
+    8
+   ],
+   "current": false
+  },
+  "integrity_check": "ok",
+  "simulation_runs": 0
+ },
+ "settings": {
+  "live_enabled": false,
+  "scoreline_method": null,
+  "scoreline_validation_status": "failed_predeclared_criteria",
+  "position_bounds_enabled": true
+ },
+ "git": {
+  "staged_files": [],
+  "head_unchanged": true,
+  "head": "970f461 Mini Project Scope Update",
+  "branch": "feat/club-ml-v2",
+  "tracked_files_under_frontend": 0
+ },
+ "prospective_evaluation_files_in_manifest": 6
+}

@@ -1,0 +1,329 @@
+{
+ "validation_matches": 1752,
+ "fit_matches": 9029,
+ "by_k": {
+  "1.0": {
+   "worst_normalised_deviation": 1.441,
+   "leagues_passing": 1,
+   "per_league": {
+    "EPL": {
+     "max_normalised_deviation": 1.173,
+     "passes": false,
+     "mean_margin_home_win": 0.1,
+     "mean_margin_away_win": -0.117,
+     "share_one_goal_home_win": -0.003,
+     "share_one_goal_away_win": 0.045
+    },
+    "LALIGA": {
+     "max_normalised_deviation": 1.441,
+     "passes": false,
+     "mean_margin_home_win": 0.084,
+     "mean_margin_away_win": -0.011,
+     "share_one_goal_home_win": -0.072,
+     "share_one_goal_away_win": 0.03
+    },
+    "BUNDESLIGA": {
+     "max_normalised_deviation": 1.403,
+     "passes": false,
+     "mean_margin_home_win": -0.12,
+     "mean_margin_away_win": -0.068,
+     "share_one_goal_home_win": 0.07,
+     "share_one_goal_away_win": -0.016
+    },
+    "SERIEA": {
+     "max_normalised_deviation": 0.581,
+     "passes": true,
+     "mean_margin_home_win": 0.032,
+     "mean_margin_away_win": -0.04,
+     "share_one_goal_home_win": -0.029,
+     "share_one_goal_away_win": 0.011
+    },
+    "LIGUE1": {
+     "max_normalised_deviation": 1.004,
+     "passes": false,
+     "mean_margin_home_win": -0.026,
+     "mean_margin_away_win": 0.087,
+     "share_one_goal_home_win": 0.05,
+     "share_one_goal_away_win": -0.029
+    }
+   }
+  },
+  "0.9": {
+   "worst_normalised_deviation": 1.492,
+   "leagues_passing": 1,
+   "per_league": {
+    "EPL": {
+     "max_normalised_deviation": 1.465,
+     "passes": false,
+     "mean_margin_home_win": 0.046,
+     "mean_margin_away_win": -0.146,
+     "share_one_goal_home_win": 0.008,
+     "share_one_goal_away_win": 0.052
+    },
+    "LALIGA": {
+     "max_normalised_deviation": 1.374,
+     "passes": false,
+     "mean_margin_home_win": 0.066,
+     "mean_margin_away_win": -0.024,
+     "share_one_goal_home_win": -0.069,
+     "share_one_goal_away_win": 0.034
+    },
+    "BUNDESLIGA": {
+     "max_normalised_deviation": 1.492,
+     "passes": false,
+     "mean_margin_home_win": -0.146,
+     "mean_margin_away_win": -0.092,
+     "share_one_goal_home_win": 0.075,
+     "share_one_goal_away_win": -0.01
+    },
+    "SERIEA": {
+     "max_normalised_deviation": 0.567,
+     "passes": true,
+     "mean_margin_home_win": 0.024,
+     "mean_margin_away_win": -0.046,
+     "share_one_goal_home_win": -0.028,
+     "share_one_goal_away_win": 0.011
+    },
+    "LIGUE1": {
+     "max_normalised_deviation": 1.043,
+     "passes": false,
+     "mean_margin_home_win": -0.036,
+     "mean_margin_away_win": 0.08,
+     "share_one_goal_home_win": 0.052,
+     "share_one_goal_away_win": -0.027
+    }
+   }
+  },
+  "0.8": {
+   "worst_normalised_deviation": 1.735,
+   "leagues_passing": 1,
+   "per_league": {
+    "EPL": {
+     "max_normalised_deviation": 1.735,
+     "passes": false,
+     "mean_margin_home_win": -0.005,
+     "mean_margin_away_win": -0.173,
+     "share_one_goal_home_win": 0.019,
+     "share_one_goal_away_win": 0.06
+    },
+    "LALIGA": {
+     "max_normalised_deviation": 1.306,
+     "passes": false,
+     "mean_margin_home_win": 0.05,
+     "mean_margin_away_win": -0.036,
+     "share_one_goal_home_win": -0.065,
+     "share_one_goal_away_win": 0.038
+    },
+    "BUNDESLIGA": {
+     "max_normalised_deviation": 1.708,
+     "passes": false,
+     "mean_margin_home_win": -0.171,
+     "mean_margin_away_win": -0.113,
+     "share_one_goal_home_win": 0.079,
+     "share_one_goal_away_win": -0.005
+    },
+    "SERIEA": {
+     "max_normalised_deviation": 0.553,
+     "passes": true,
+     "mean_margin_home_win": 0.017,
+     "mean_margin_away_win": -0.051,
+     "share_one_goal_home_win": -0.028,
+     "share_one_goal_away_win": 0.012
+    },
+    "LIGUE1": {
+     "max_normalised_deviation": 1.081,
+     "passes": false,
+     "mean_margin_home_win": -0.046,
+     "mean_margin_away_win": 0.074,
+     "share_one_goal_home_win": 0.054,
+     "share_one_goal_away_win": -0.025
+    }
+   }
+  },
+  "0.7": {
+   "worst_normalised_deviation": 1.986,
+   "leagues_passing": 1,
+   "per_league": {
+    "EPL": {
+     "max_normalised_deviation": 1.986,
+     "passes": false,
+     "mean_margin_home_win": -0.052,
+     "mean_margin_away_win": -0.199,
+     "share_one_goal_home_win": 0.03,
+     "share_one_goal_away_win": 0.068
+    },
+    "LALIGA": {
+     "max_normalised_deviation": 1.239,
+     "passes": false,
+     "mean_margin_home_win": 0.035,
+     "mean_margin_away_win": -0.047,
+     "share_one_goal_home_win": -0.062,
+     "share_one_goal_away_win": 0.042
+    },
+    "BUNDESLIGA": {
+     "max_normalised_deviation": 1.935,
+     "passes": false,
+     "mean_margin_home_win": -0.194,
+     "mean_margin_away_win": -0.133,
+     "share_one_goal_home_win": 0.084,
+     "share_one_goal_away_win": 0.001
+    },
+    "SERIEA": {
+     "max_normalised_deviation": 0.547,
+     "passes": true,
+     "mean_margin_home_win": 0.011,
+     "mean_margin_away_win": -0.055,
+     "share_one_goal_home_win": -0.027,
+     "share_one_goal_away_win": 0.012
+    },
+    "LIGUE1": {
+     "max_normalised_deviation": 1.119,
+     "passes": false,
+     "mean_margin_home_win": -0.054,
+     "mean_margin_away_win": 0.069,
+     "share_one_goal_home_win": 0.056,
+     "share_one_goal_away_win": -0.024
+    }
+   }
+  },
+  "0.6": {
+   "worst_normalised_deviation": 2.218,
+   "leagues_passing": 1,
+   "per_league": {
+    "EPL": {
+     "max_normalised_deviation": 2.218,
+     "passes": false,
+     "mean_margin_home_win": -0.095,
+     "mean_margin_away_win": -0.222,
+     "share_one_goal_home_win": 0.041,
+     "share_one_goal_away_win": 0.075
+    },
+    "LALIGA": {
+     "max_normalised_deviation": 1.173,
+     "passes": false,
+     "mean_margin_home_win": 0.022,
+     "mean_margin_away_win": -0.058,
+     "share_one_goal_home_win": -0.059,
+     "share_one_goal_away_win": 0.046
+    },
+    "BUNDESLIGA": {
+     "max_normalised_deviation": 2.144,
+     "passes": false,
+     "mean_margin_home_win": -0.214,
+     "mean_margin_away_win": -0.151,
+     "share_one_goal_home_win": 0.088,
+     "share_one_goal_away_win": 0.006
+    },
+    "SERIEA": {
+     "max_normalised_deviation": 0.58,
+     "passes": true,
+     "mean_margin_home_win": 0.006,
+     "mean_margin_away_win": -0.058,
+     "share_one_goal_home_win": -0.026,
+     "share_one_goal_away_win": 0.012
+    },
+    "LIGUE1": {
+     "max_normalised_deviation": 1.156,
+     "passes": false,
+     "mean_margin_home_win": -0.062,
+     "mean_margin_away_win": 0.064,
+     "share_one_goal_home_win": 0.058,
+     "share_one_goal_away_win": -0.023
+    }
+   }
+  },
+  "0.5": {
+   "worst_normalised_deviation": 2.435,
+   "leagues_passing": 1,
+   "per_league": {
+    "EPL": {
+     "max_normalised_deviation": 2.435,
+     "passes": false,
+     "mean_margin_home_win": -0.135,
+     "mean_margin_away_win": -0.243,
+     "share_one_goal_home_win": 0.052,
+     "share_one_goal_away_win": 0.083
+    },
+    "LALIGA": {
+     "max_normalised_deviation": 1.107,
+     "passes": false,
+     "mean_margin_home_win": 0.009,
+     "mean_margin_away_win": -0.067,
+     "share_one_goal_home_win": -0.055,
+     "share_one_goal_away_win": 0.049
+    },
+    "BUNDESLIGA": {
+     "max_normalised_deviation": 2.336,
+     "passes": false,
+     "mean_margin_home_win": -0.234,
+     "mean_margin_away_win": -0.168,
+     "share_one_goal_home_win": 0.092,
+     "share_one_goal_away_win": 0.012
+    },
+    "SERIEA": {
+     "max_normalised_deviation": 0.606,
+     "passes": true,
+     "mean_margin_home_win": 0.001,
+     "mean_margin_away_win": -0.061,
+     "share_one_goal_home_win": -0.026,
+     "share_one_goal_away_win": 0.013
+    },
+    "LIGUE1": {
+     "max_normalised_deviation": 1.192,
+     "passes": false,
+     "mean_margin_home_win": -0.07,
+     "mean_margin_away_win": 0.059,
+     "share_one_goal_home_win": 0.06,
+     "share_one_goal_away_win": -0.021
+    }
+   }
+  },
+  "0.4": {
+   "worst_normalised_deviation": 2.636,
+   "leagues_passing": 1,
+   "per_league": {
+    "EPL": {
+     "max_normalised_deviation": 2.636,
+     "passes": false,
+     "mean_margin_home_win": -0.172,
+     "mean_margin_away_win": -0.264,
+     "share_one_goal_home_win": 0.063,
+     "share_one_goal_away_win": 0.09
+    },
+    "LALIGA": {
+     "max_normalised_deviation": 1.056,
+     "passes": false,
+     "mean_margin_home_win": -0.002,
+     "mean_margin_away_win": -0.076,
+     "share_one_goal_home_win": -0.052,
+     "share_one_goal_away_win": 0.053
+    },
+    "BUNDESLIGA": {
+     "max_normalised_deviation": 2.511,
+     "passes": false,
+     "mean_margin_home_win": -0.251,
+     "mean_margin_away_win": -0.184,
+     "share_one_goal_home_win": 0.097,
+     "share_one_goal_away_win": 0.017
+    },
+    "SERIEA": {
+     "max_normalised_deviation": 0.625,
+     "passes": true,
+     "mean_margin_home_win": -0.002,
+     "mean_margin_away_win": -0.063,
+     "share_one_goal_home_win": -0.025,
+     "share_one_goal_away_win": 0.013
+    },
+    "LIGUE1": {
+     "max_normalised_deviation": 1.226,
+     "passes": false,
+     "mean_margin_home_win": -0.076,
+     "mean_margin_away_win": 0.055,
+     "share_one_goal_home_win": 0.061,
+     "share_one_goal_away_win": -0.02
+    }
+   }
+  }
+ },
+ "best_k_on_validation": 1.0
+}

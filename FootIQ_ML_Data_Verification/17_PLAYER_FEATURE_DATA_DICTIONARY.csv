@@ -1,0 +1,26 @@
+﻿feature,type,definition,unit,null_handling,leakage_or_quality_note
+player_id,id,Dataset player id (SB:P<id> native StatsBomb),key,n/a,never merge by name
+source_player_id,id,StatsBomb player id,key,n/a,
+record_id,id,player_match_id from file 05,key,n/a,
+match_date,date,ISO date of the target match,date,n/a,windows use dates strictly before this
+n_prior_observed_matches,count,Number of earlier observed matches of this player in the dataset,matches,0 = no history,not the player's real career length
+days_since_previous_observed_match,days,Days to the previous observed match,days,NaN if none,
+"w{3,5,10}_n",count,Matches inside the window,matches,,
+"w{3,5,10}_span_days",days,Days from the first to the last match in the window,days,NaN if empty,large values = non-contiguous window
+"w{3,5,10}_minutes_mean",minutes,Mean derived minutes per observed match,min/match,NaN if empty,StatsBomb derived
+"w{3,5,10}_start_rate",ratio,Share of window matches started,0-1,NaN if empty,
+"w{3,5,10}_goals_p90",per 90,sum(goals)/sum(minutes)*90,goals/90,NaN if minutes = 0,excludes shoot-out kicks
+"w{3,5,10}_assists_p90",per 90,sum(assists)/sum(minutes)*90,assists/90,NaN if minutes = 0,StatsBomb goal_assist only
+"w{3,5,10}_shots_p90 / sot_p90",per 90,"shots, shots on target",per 90,NaN,
+"w{3,5,10}_xg_p90",per 90,StatsBomb xG,xG/90,NaN,StatsBomb model xG
+"w{3,5,10}_key_passes_p90 / passes_p90",per 90,"key passes, pass attempts",per 90,NaN,
+"w{3,5,10}_pass_completion",ratio,completed / attempted passes in window,0-1,NaN if no passes,
+"w{3,5,10}_tackles_p90 / interceptions_p90 / clearances_p90 / blocks_p90 / pressures_p90",per 90,defensive actions,per 90,NaN,
+"w{3,5,10}_yellow_rate",ratio,yellow cards per match in window,cards/match,NaN if empty,
+TARGET_minutes_played / goals / assists / shots / shots_on_target / xg / passes / tackles / interceptions,target,Observed value in the current match,as stat,NaN if unavailable,MUST NOT be used as features
+team_matches_before,count,(openfootball file) team matches before this one in the data,matches,,
+"w{3,5,10}_appearance_rate",ratio,(openfootball file) appearances / team matches in window,0-1,NaN if no earlier team match,non-appearance cause unknown
+"w{3,5,10}_minutes_est_mean_per_team_match",minutes,(openfootball file) ESTIMATED minutes,min,NaN,"estimate, not verified"
+"w{3,5,10}_goals / start_count",count,(openfootball file) goals and starts in window,count,NaN,
+minutes_basis,text,derived (StatsBomb) or ESTIMATED (openfootball),,,never merge the two
+dataset_version,text,v1.0,,,

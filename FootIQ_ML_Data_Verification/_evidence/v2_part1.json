@@ -1,0 +1,132 @@
+{
+ "labels": {
+  "strict_rows": 125858,
+  "extended_rows": 129829,
+  "strict_status_values": {
+   "confirmed": 125858
+  },
+  "extended_status_values": {
+   "confirmed": 125858,
+   "inferred_no_marker": 3971
+  },
+  "strict_subset_of_extended": true,
+  "extended_minus_strict": 3971,
+  "extra_rows_all_inferred": true,
+  "strict_ids_in_04d": false,
+  "rows_with_label_status_confirmed_or_inferred": 142309,
+  "outcome_mismatch_vs_recomputed": 0,
+  "outcome_present_without_label_status": 0,
+  "label_status_without_outcome": 0,
+  "strict_knockout_rows": 2287,
+  "strict_knockout_with_reg_basis": {
+   "derived_from_goal_minutes": 1042,
+   "confirmed_by_wikipedia_goal_minutes": 745,
+   "source_bracket_regulation_score_with_aet_marker": 487,
+   "goalless_no_extra_time_flag": 11,
+   "league_or_group_phase_no_extra_time_possible": 2
+  },
+  "strict_rows_where_regulation_missing_and_not_league_phase": 0,
+  "strict_rows_extra_time_yes": 624,
+  "strict_rows_with_penalties": 419,
+  "strict_penalty_rows_where_90min_outcome_is_not_draw": 49,
+  "strict_penalty_rows_where_label_equals_shootout_winner_but_not_draw": 0,
+  "strict_extra_time_rows_regulation_equals_final": 240,
+  "strict_extra_time_rows_regulation_not_draw": 106,
+  "strict_extra_time_rows": 624,
+  "inferred_openfootball_rows": 7873,
+  "inferred_rows_whose_raw_line_contains_aet_or_pen_marker": 0,
+  "confirmed_knockout_openfootball_rows": 1553,
+  "confirmed_bracket_rows_failing_raw_check": 0,
+  "wikipedia_confirmed_rows": 2791,
+  "wikipedia_confirmed_rows_goal_minute_recompute_mismatch": 0,
+  "status_by_match_status": [
+   {
+    "match_status": "abandoned",
+    "label_90_status": "not_completed",
+    "n": 3
+   },
+   {
+    "match_status": "awarded",
+    "label_90_status": "unknown",
+    "n": 202
+   },
+   {
+    "match_status": "completed",
+    "label_90_status": "confirmed",
+    "n": 134436
+   },
+   {
+    "match_status": "completed",
+    "label_90_status": "inferred_no_marker",
+    "n": 7873
+   },
+   {
+    "match_status": "completed",
+    "label_90_status": "unknown",
+    "n": 541
+   }
+  ],
+  "knockout_rows_unknown_label": 563,
+  "knockout_unknown_with_penalties": 374
+ },
+ "international": {
+  "shootout_matches": 688,
+  "rows_total": 49362,
+  "score_basis_values": {
+   "full-time score including extra time, excluding penalty shootout; regulation/extra-time split not provided": 49362
+  },
+  "regulation_score_columns_present": [],
+  "edition_mismatches": [
+   {
+    "competition_id": "INTL:uefa-euro",
+    "competition_name": "UEFA Euro",
+    "season": "2020",
+    "expected_matches": 51,
+    "expected_evidence": "tournament format (matches played)",
+    "verified_scores": 0,
+    "dup": 0,
+    "latest": NaN
+   },
+   {
+    "competition_id": "INTL:african-cup-of-nations",
+    "competition_name": "African Cup of Nations",
+    "season": "2021",
+    "expected_matches": 52,
+    "expected_evidence": "tournament format (matches played)",
+    "verified_scores": 0,
+    "dup": 0,
+    "latest": NaN
+   },
+   {
+    "competition_id": "INTL:african-cup-of-nations",
+    "competition_name": "African Cup of Nations",
+    "season": "2023",
+    "expected_matches": 52,
+    "expected_evidence": "tournament format (matches played)",
+    "verified_scores": 0,
+    "dup": 0,
+    "latest": NaN
+   },
+   {
+    "competition_id": "INTL:afc-asian-cup",
+    "competition_name": "AFC Asian Cup",
+    "season": "2023",
+    "expected_matches": 51,
+    "expected_evidence": "tournament format (matches played)",
+    "verified_scores": 0,
+    "dup": 0,
+    "latest": NaN
+   }
+  ],
+  "friendly_rows": 18102,
+  "rows_by_category": {
+   "friendly": 18102,
+   "world_cup_qualification": 8771,
+   "qualification": 7169,
+   "other_international_tournament": 6835,
+   "continental_or_regional_tournament": 6441,
+   "nations_league": 1080,
+   "world_cup_finals": 964
+  }
+ }
+}

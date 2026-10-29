@@ -1,0 +1,50 @@
+{
+ "old, idle": {
+  "cold_s": {
+   "median": 2.338,
+   "min": 2.326,
+   "max": 4.546
+  },
+  "warm_s": {
+   "median": 2.578,
+   "min": 2.374,
+   "max": 2.848
+  }
+ },
+ "new, idle": {
+  "cold_s": {
+   "median": 0.157,
+   "min": 0.156,
+   "max": 0.17
+  },
+  "warm_s": {
+   "median": 0.155,
+   "min": 0.154,
+   "max": 0.159
+  }
+ },
+ "old, 24 busy processes": {
+  "cold_s": {
+   "median": 12.684,
+   "min": 2.348,
+   "max": 13.487
+  },
+  "warm_s": {
+   "median": 3.035,
+   "min": 2.751,
+   "max": 21.156
+  }
+ },
+ "new, 24 busy processes": {
+  "cold_s": {
+   "median": 0.198,
+   "min": 0.164,
+   "max": 0.204
+  },
+  "warm_s": {
+   "median": 0.16,
+   "min": 0.156,
+   "max": 0.179
+  }
+ }
+}

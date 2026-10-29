@@ -1,0 +1,387 @@
+{
+ "rule": "a league is well_covered when it has >=3 league-seasons in the TRAIN period and >=80% of them are verified complete (season_completeness_by_league_season.csv); other leagues with train evidence are incomplete_history; leagues absent from train are no_training_history. Match-level history depth = min(home_n_prior, away_n_prior), shallow < q33, deep >= q67 of the train distribution",
+ "history_depth_cut_points": {
+  "q33": 63.0,
+  "q67": 257.0
+ },
+ "league_table": [
+  {
+   "competition_id": "austria:1-bundesliga",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "austria:2-liga2",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "austria:3-regionalliga-mitte",
+   "train_league_seasons": 3,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "austria:3-regionalliga-ost",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "belgium:be1",
+   "train_league_seasons": 3,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "deutschland:1-bundesliga",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "deutschland:2-bundesliga2",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "deutschland:3-liga3",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "england:1-premierleague",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "england:2-championship",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "england:3-league1",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "england:4-league2",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "england:5-nationalleague",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "espana:1-liga",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "espana:2-liga2",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "europe/belarus:by1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "europe/czech-republic:cz1",
+   "train_league_seasons": 2,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "europe/estonia:ee1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "europe/faroe-islands:fo1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "europe/finland:fi1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "europe/france:fr1",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "europe/france:fr2",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "europe/georgia:ge1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "europe/greece:gr1",
+   "train_league_seasons": 3,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "europe/hungary:hu1",
+   "train_league_seasons": 2,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "europe/iceland:is1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "europe/ireland:ie1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "europe/latvia:lv1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "europe/lithuania:lt1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "europe/netherlands:nl1",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "europe/netherlands:nl2",
+   "train_league_seasons": 3,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "europe/norway:no1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "europe/portugal:pt1",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "europe/portugal:pt2",
+   "train_league_seasons": 3,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "europe/russia:ru1",
+   "train_league_seasons": 3,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "europe/scotland:sco1",
+   "train_league_seasons": 3,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "europe/sweden:se1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "europe/switzerland:ch1",
+   "train_league_seasons": 3,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "europe/switzerland:ch2",
+   "train_league_seasons": 2,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "europe/turkey:tr1",
+   "train_league_seasons": 3,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "europe/turkey:tr2",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "italy:1-seriea",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "italy:2-serieb",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "south-america/argentina:ar1",
+   "train_league_seasons": 6,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "south-america/brazil:br1",
+   "train_league_seasons": 6,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "south-america/brazil:br2",
+   "train_league_seasons": 6,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "south-america/colombia:co1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "world/africa:gh1",
+   "train_league_seasons": 3,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "world/africa:ke1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "world/africa:mw1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "world/africa:rw1",
+   "train_league_seasons": 2,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "world/africa:sn1",
+   "train_league_seasons": 3,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "world/africa:tz1",
+   "train_league_seasons": 2,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "world/africa:zm1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "world/africa:zw1",
+   "train_league_seasons": 2,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "world/asia:cn1",
+   "train_league_seasons": 6,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "world/asia:jp1",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "world/asia:kz1",
+   "train_league_seasons": 1,
+   "complete_share": 1.0,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "world/north-america:mls",
+   "train_league_seasons": 6,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "world/north-america:mx1",
+   "train_league_seasons": 6,
+   "complete_share": 0.8333333333333334,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "world/north-america:mx2ascenso",
+   "train_league_seasons": 2,
+   "complete_share": 0.5,
+   "coverage_group": "incomplete_history"
+  },
+  {
+   "competition_id": "world/north-america:mx2expansion",
+   "train_league_seasons": 3,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  },
+  {
+   "competition_id": "world/pacific:au1",
+   "train_league_seasons": 5,
+   "complete_share": 1.0,
+   "coverage_group": "well_covered"
+  }
+ ]
+}

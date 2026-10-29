@@ -1,0 +1,163 @@
+{
+ "integrity": "ok",
+ "foreign_key_problems": 0,
+ "journal_mode": "wal",
+ "matches": {
+  "before": 223546,
+  "after": 223636
+ },
+ "completed_2026_27": {
+  "BUNDESLIGA": 63,
+  "EPL": 77,
+  "LALIGA": 93,
+  "LIGUE1": 70,
+  "SERIEA": 79,
+  "UCL": 54
+ },
+ "ucl_2026_27_by_status": {
+  "completed": 54,
+  "scheduled": 90
+ },
+ "ucl_2026_27_by_stage": {
+  "Matches > Matchday 1": 18,
+  "Matches > Matchday 2": 18,
+  "Matches > Matchday 3": 18,
+  "Matches > Matchday 4": 18,
+  "Matches > Matchday 5": 18,
+  "Matches > Matchday 6": 18,
+  "Matches > Matchday 7": 18,
+  "Matches > Matchday 8": 18
+ },
+ "ucl_non_league_phase_rows": 0,
+ "ucl_fixture_dates": {
+  "Matches > Matchday 4": "2026-11-03 to 2026-11-04",
+  "Matches > Matchday 5": "2026-11-24 to 2026-11-25",
+  "Matches > Matchday 6": "2026-12-08 to 2026-12-09",
+  "Matches > Matchday 7": "2027-01-19 to 2027-01-20",
+  "Matches > Matchday 8": "2027-01-27 to 2027-01-27"
+ },
+ "rows_missing_after": [],
+ "changed_existing_rows": 71,
+ "new_rows": 90,
+ "changed_rows_by_competition": {
+  "EPL": 17,
+  "LIGUE1": 25,
+  "SERIEA": 29
+ },
+ "changed_rows_were_open_fixtures": true,
+ "changed_rows_keep_date_clubs_and_id": true,
+ "changed_rows_now_completed_wikipedia_in_universe": true,
+ "new_rows_are_ucl_scheduled_fixtures": true,
+ "archived_rows_unchanged": true,
+ "duplicates_same_pair_2026_27": 0,
+ "duplicates_ucl_all_seasons_same_day": 0,
+ "orphan_team_ids": 0,
+ "completed_without_score": 0,
+ "match_sources_new": [
+  [
+   "wikipedia",
+   "primary",
+   "uefa-ucl-2026-27-staging-rev1381604353",
+   108
+  ],
+  [
+   "wikipedia",
+   "primary",
+   "wikipedia-EPL-season-rev1382295803",
+   17
+  ],
+  [
+   "wikipedia",
+   "primary",
+   "wikipedia-LIGUE1-season-rev1382140063",
+   25
+  ],
+  [
+   "wikipedia",
+   "primary",
+   "wikipedia-SERIEA-season-rev1382310697",
+   29
+  ]
+ ],
+ "source_snapshots_new": [
+  [
+   "uefa-ucl-2026-27-staging-rev1380990679",
+   "1380990679",
+   "CC BY-SA 4.0"
+  ],
+  [
+   "uefa-ucl-2026-27-staging-rev1381604353",
+   "1381604353",
+   "CC BY-SA 4.0"
+  ],
+  [
+   "wikipedia-EPL-season-rev1382295803",
+   "1382295803",
+   "CC BY-SA 4.0"
+  ],
+  [
+   "wikipedia-LIGUE1-season-rev1382140063",
+   "1382140063",
+   "CC BY-SA 4.0"
+  ],
+  [
+   "wikipedia-SERIEA-season-rev1382310697",
+   "1382310697",
+   "CC BY-SA 4.0"
+  ]
+ ],
+ "sync_runs_new": [
+  [
+   33,
+   "uefa_import",
+   "ok",
+   90,
+   0,
+   0,
+   0
+  ],
+  [
+   32,
+   "league_results_import",
+   "ok",
+   0,
+   71,
+   0,
+   0
+  ],
+  [
+   31,
+   "uefa_import",
+   "ok",
+   18,
+   0,
+   0,
+   0
+  ]
+ ],
+ "simulations": {
+  "rows": [
+   [
+    1,
+    "BUNDESLIGA",
+    "2026-27",
+    10000
+   ],
+   [
+    2,
+    "LALIGA",
+    "2026-27",
+    10000
+   ]
+  ],
+  "sha_before": "33fbf4afae52d531639daff2ce57c68cd4e73908c4b802db425f2baa8cb99c01",
+  "sha_after": "33fbf4afae52d531639daff2ce57c68cd4e73908c4b802db425f2baa8cb99c01"
+ },
+ "simulations_unchanged": true,
+ "quarantine": {
+  "before": 273,
+  "after": 273
+ },
+ "backup_sha256": "5e8433c3bab517d6b2a09c2d91e91a9115fea9c91088a6b4183f27546d7bf488",
+ "wal_bytes": 0
+}

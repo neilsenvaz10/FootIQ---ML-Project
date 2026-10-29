@@ -1,0 +1,366 @@
+{
+ "A_parity_with_production_processed": {
+  "international_matches.csv": true,
+  "team_elo_latest.csv": true,
+  "team_elo_match_history.csv": true,
+  "team_recent_form_latest.csv": true
+ },
+ "B_name_map_applied": {
+  "China": "China PR",
+  "Canton Ticino": "Ticino"
+ },
+ "B_rows": {
+  "matches_before": 49296,
+  "matches_after": 49945,
+  "last_date_before": "2026-06-02",
+  "last_date_after": "2026-10-06",
+  "teams_before": 336,
+  "teams_after": 337
+ },
+ "B_new_teams": [
+  "Rouet-Provence"
+ ],
+ "B_teams_dropped": [],
+ "B_biggest_rating_moves": [
+  [
+   "Guinea-Bissau",
+   1363.5,
+   1497.2,
+   133.7
+  ],
+  [
+   "Spain",
+   2219.4,
+   2347.9,
+   128.5
+  ],
+  [
+   "England",
+   2084.1,
+   2212.1,
+   128.0
+  ],
+  [
+   "Turkey",
+   1964.0,
+   1847.6,
+   -116.4
+  ],
+  [
+   "Tunisia",
+   1734.6,
+   1623.0,
+   -111.7
+  ],
+  [
+   "Barbados",
+   1120.5,
+   1223.6,
+   103.1
+  ],
+  [
+   "Pakistan",
+   1004.8,
+   1099.5,
+   94.7
+  ],
+  [
+   "Bosnia and Herzegovina",
+   1633.3,
+   1727.5,
+   94.2
+  ],
+  [
+   "Eritrea",
+   1198.9,
+   1286.1,
+   87.2
+  ],
+  [
+   "Panama",
+   1850.7,
+   1764.5,
+   -86.1
+  ]
+ ],
+ "B_top10_before": [
+  [
+   "Spain",
+   2219.0
+  ],
+  [
+   "Argentina",
+   2182.0
+  ],
+  [
+   "France",
+   2141.0
+  ],
+  [
+   "England",
+   2084.0
+  ],
+  [
+   "Brazil",
+   2059.0
+  ],
+  [
+   "Colombia",
+   2055.0
+  ],
+  [
+   "Portugal",
+   2031.0
+  ],
+  [
+   "Netherlands",
+   2025.0
+  ],
+  [
+   "Ecuador",
+   2019.0
+  ],
+  [
+   "Germany",
+   2006.0
+  ]
+ ],
+ "B_top10_after": [
+  [
+   "Spain",
+   2348.0
+  ],
+  [
+   "Argentina",
+   2250.0
+  ],
+  [
+   "England",
+   2212.0
+  ],
+  [
+   "France",
+   2171.0
+  ],
+  [
+   "Portugal",
+   2107.0
+  ],
+  [
+   "Brazil",
+   2083.0
+  ],
+  [
+   "Colombia",
+   2072.0
+  ],
+  [
+   "Netherlands",
+   2049.0
+  ],
+  [
+   "Switzerland",
+   2039.0
+  ],
+  [
+   "Belgium",
+   2036.0
+  ]
+ ],
+ "B_historical_rows_whose_score_changed_in_the_new_file": 2,
+ "C_chronology": {
+  "rows": 99890,
+  "dates_sorted_in_match_order": true,
+  "rows_whose_pre_rating_is_not_the_previous_post": 0,
+  "first_match_rating_is_1500": true,
+  "same_team_twice_on_one_date": 151
+ },
+ "D_predictions_before_production_ratings": [
+  [
+   "WC",
+   "Spain",
+   "Argentina",
+   "ok",
+   "2026-06-02",
+   [
+    0.31,
+    0.397,
+    0.293
+   ],
+   "pass",
+   2219,
+   2182
+  ],
+  [
+   "WC",
+   "France",
+   "England",
+   "ok",
+   "2026-06-02",
+   [
+    0.328,
+    0.394,
+    0.278
+   ],
+   "pass",
+   2141,
+   2084
+  ],
+  [
+   "UNL",
+   "Portugal",
+   "Spain",
+   "ok",
+   "2026-06-02",
+   [
+    0.189,
+    0.396,
+    0.415
+   ],
+   "pass",
+   2031,
+   2219
+  ],
+  [
+   "UNL",
+   "Netherlands",
+   "Germany",
+   "ok",
+   "2026-06-02",
+   [
+    0.364,
+    0.424,
+    0.212
+   ],
+   "pass",
+   2025,
+   2006
+  ],
+  [
+   "COPA",
+   "Argentina",
+   "Colombia",
+   "ok",
+   "2026-06-02",
+   [
+    0.395,
+    0.382,
+    0.223
+   ],
+   "pass",
+   2182,
+   2055
+  ],
+  [
+   "COPA",
+   "Brazil",
+   "Uruguay",
+   "ok",
+   "2026-06-02",
+   [
+    0.438,
+    0.358,
+    0.203
+   ],
+   "pass",
+   2059,
+   1971
+  ]
+ ],
+ "D_predictions_after_private_refresh": [
+  [
+   "WC",
+   "Spain",
+   "Argentina",
+   "ok",
+   "2026-10-06",
+   [
+    0.396,
+    0.375,
+    0.229
+   ],
+   "pass",
+   2348,
+   2250
+  ],
+  [
+   "WC",
+   "France",
+   "England",
+   "ok",
+   "2026-10-06",
+   [
+    0.211,
+    0.407,
+    0.381
+   ],
+   "pass",
+   2171,
+   2212
+  ],
+  [
+   "UNL",
+   "Portugal",
+   "Spain",
+   "ok",
+   "2026-10-06",
+   [
+    0.193,
+    0.358,
+    0.448
+   ],
+   "pass",
+   2107,
+   2348
+  ],
+  [
+   "UNL",
+   "Netherlands",
+   "Germany",
+   "ok",
+   "2026-10-06",
+   [
+    0.438,
+    0.344,
+    0.217
+   ],
+   "pass",
+   2049,
+   1979
+  ],
+  [
+   "COPA",
+   "Argentina",
+   "Colombia",
+   "ok",
+   "2026-10-06",
+   [
+    0.459,
+    0.344,
+    0.198
+   ],
+   "pass",
+   2250,
+   2072
+  ],
+  [
+   "COPA",
+   "Brazil",
+   "Uruguay",
+   "ok",
+   "2026-10-06",
+   [
+    0.427,
+    0.397,
+    0.177
+   ],
+   "pass",
+   2083,
+   1940
+  ]
+ ],
+ "D_production_processed_untouched": {
+  "international_matches.csv": true,
+  "team_elo_latest.csv": true
+ }
+}

@@ -1,0 +1,236 @@
+{
+  "375": {
+    "table": {
+      "path": "/analytics",
+      "vw": 375,
+      "overflowX": 0,
+      "title": "Leagues · FootIQ",
+      "landmarks": {
+        "header": 0,
+        "nav": 2,
+        "main": 1,
+        "footer": 1,
+        "aside": 1
+      },
+      "h1": [
+        "Leagues & cups"
+      ],
+      "interFaces": [
+        "Inter Variable"
+      ],
+      "text": {
+        "nodes": 475,
+        "gradientBackgroundSkipped": 0,
+        "gradientBackgroundsChecked": 4,
+        "contrastFailures": 0,
+        "failSamples": [],
+        "under12px": 0,
+        "smallSamples": [],
+        "decorativeUnder12px": 0
+      },
+      "targets": {
+        "controls": 20,
+        "inlineTextLinks": 0,
+        "below44": 0,
+        "below24": 0,
+        "below44Samples": []
+      }
+    },
+    "matches": {
+      "path": "/analytics",
+      "vw": 375,
+      "overflowX": 0,
+      "title": "Leagues · FootIQ",
+      "landmarks": {
+        "header": 0,
+        "nav": 2,
+        "main": 1,
+        "footer": 1,
+        "aside": 1
+      },
+      "h1": [
+        "Leagues & cups"
+      ],
+      "interFaces": [
+        "Inter Variable"
+      ],
+      "text": {
+        "nodes": 475,
+        "gradientBackgroundSkipped": 0,
+        "gradientBackgroundsChecked": 4,
+        "contrastFailures": 0,
+        "failSamples": [],
+        "under12px": 0,
+        "smallSamples": [],
+        "decorativeUnder12px": 0
+      },
+      "targets": {
+        "controls": 20,
+        "inlineTextLinks": 0,
+        "below44": 0,
+        "below24": 0,
+        "below44Samples": []
+      }
+    },
+    "keyboard": {
+      "active": "Matches",
+      "selected": "false"
+    }
+  },
+  "820": {
+    "table": {
+      "path": "/analytics",
+      "vw": 820,
+      "overflowX": 0,
+      "title": "Leagues · FootIQ",
+      "landmarks": {
+        "header": 0,
+        "nav": 2,
+        "main": 1,
+        "footer": 1,
+        "aside": 1
+      },
+      "h1": [
+        "Leagues & cups"
+      ],
+      "interFaces": [
+        "Inter Variable"
+      ],
+      "text": {
+        "nodes": 389,
+        "gradientBackgroundSkipped": 0,
+        "gradientBackgroundsChecked": 4,
+        "contrastFailures": 0,
+        "failSamples": [],
+        "under12px": 0,
+        "smallSamples": [],
+        "decorativeUnder12px": 0
+      },
+      "targets": {
+        "controls": 21,
+        "inlineTextLinks": 0,
+        "below44": 0,
+        "below24": 0,
+        "below44Samples": []
+      }
+    },
+    "matches": {
+      "path": "/analytics",
+      "vw": 820,
+      "overflowX": 0,
+      "title": "Leagues · FootIQ",
+      "landmarks": {
+        "header": 0,
+        "nav": 2,
+        "main": 1,
+        "footer": 1,
+        "aside": 1
+      },
+      "h1": [
+        "Leagues & cups"
+      ],
+      "interFaces": [
+        "Inter Variable"
+      ],
+      "text": {
+        "nodes": 389,
+        "gradientBackgroundSkipped": 0,
+        "gradientBackgroundsChecked": 4,
+        "contrastFailures": 0,
+        "failSamples": [],
+        "under12px": 0,
+        "smallSamples": [],
+        "decorativeUnder12px": 0
+      },
+      "targets": {
+        "controls": 21,
+        "inlineTextLinks": 0,
+        "below44": 0,
+        "below24": 0,
+        "below44Samples": []
+      }
+    },
+    "keyboard": {
+      "active": "Matches",
+      "selected": "false"
+    }
+  },
+  "1440": {
+    "table": {
+      "path": "/analytics",
+      "vw": 1440,
+      "overflowX": 0,
+      "title": "Leagues · FootIQ",
+      "landmarks": {
+        "header": 0,
+        "nav": 2,
+        "main": 1,
+        "footer": 1,
+        "aside": 1
+      },
+      "h1": [
+        "Leagues & cups"
+      ],
+      "interFaces": [
+        "Inter Variable"
+      ],
+      "text": {
+        "nodes": 393,
+        "gradientBackgroundSkipped": 0,
+        "gradientBackgroundsChecked": 4,
+        "contrastFailures": 0,
+        "failSamples": [],
+        "under12px": 0,
+        "smallSamples": [],
+        "decorativeUnder12px": 0
+      },
+      "targets": {
+        "controls": 21,
+        "inlineTextLinks": 0,
+        "below44": 0,
+        "below24": 0,
+        "below44Samples": []
+      }
+    },
+    "matches": {
+      "path": "/analytics",
+      "vw": 1440,
+      "overflowX": 0,
+      "title": "Leagues · FootIQ",
+      "landmarks": {
+        "header": 0,
+        "nav": 2,
+        "main": 1,
+        "footer": 1,
+        "aside": 1
+      },
+      "h1": [
+        "Leagues & cups"
+      ],
+      "interFaces": [
+        "Inter Variable"
+      ],
+      "text": {
+        "nodes": 393,
+        "gradientBackgroundSkipped": 0,
+        "gradientBackgroundsChecked": 4,
+        "contrastFailures": 0,
+        "failSamples": [],
+        "under12px": 0,
+        "smallSamples": [],
+        "decorativeUnder12px": 0
+      },
+      "targets": {
+        "controls": 21,
+        "inlineTextLinks": 0,
+        "below44": 0,
+        "below24": 0,
+        "below44Samples": []
+      }
+    },
+    "keyboard": {
+      "active": "Matches",
+      "selected": "false"
+    }
+  }
+}

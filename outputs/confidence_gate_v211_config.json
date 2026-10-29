@@ -1,0 +1,41 @@
+{
+  "version": "v2.11",
+  "role": "Shadow challenger to v2.8; does not overwrite the production matchday gate.",
+  "probability_calibration": {
+    "temperature": 1.15,
+    "draw_multiplier": 1.1,
+    "note": "Softens extreme probabilities and applies a conservative group-stage draw prior."
+  },
+  "strong_pick": {
+    "minimum_calibrated_top_probability": 0.76,
+    "minimum_calibrated_gap": 0.58,
+    "maximum_calibrated_draw_probability": 0.18,
+    "minimum_xg_margin_when_available": 0.75,
+    "minimum_data_quality": 85,
+    "requires_ensemble_logistic_consensus": true,
+    "requires_confirmed_lineups_live": true
+  },
+  "model_lean": {
+    "minimum_calibrated_top_probability": 0.6,
+    "minimum_calibrated_gap": 0.3,
+    "minimum_data_quality": 70,
+    "requires_non_draw_direction": true
+  },
+  "draw_risk": {
+    "minimum_calibrated_draw_probability": 0.26,
+    "maximum_xg_margin": 0.65,
+    "high_draw_probability_without_xg": 0.34
+  },
+  "honesty_note": "The 21 completed live fixtures informed these guardrails and are diagnostic development data, not unbiased v2.11 proof.",
+  "freeze_timestamp_et": "2026-06-22T16:22:42-04:00",
+  "inputs": [
+    "data/processed/model_v26_test_predictions.csv",
+    "data/processed/matchday_validation_v210.csv",
+    "data/processed/worldcup_matchday_v29_snapshots.csv"
+  ],
+  "outputs": [
+    "data/processed/confidence_gate_v211_shadow_predictions.csv",
+    "data/processed/confidence_gate_v211_metrics.csv",
+    "outputs/confidence_gate_v211_report.md"
+  ]
+}

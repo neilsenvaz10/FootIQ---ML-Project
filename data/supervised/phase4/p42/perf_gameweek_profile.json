@@ -1,0 +1,37 @@
+{
+ "today_utc": "2026-10-27",
+ "matchday": 9,
+ "fixtures": 10,
+ "seconds_per_run": [
+  7.19,
+  11.04,
+  10.74
+ ],
+ "team_form_calls": 20,
+ "team_form_seconds_total": 8.81,
+ "team_form_ms_each": {
+  "min": 193,
+  "median": 512,
+  "max": 633
+ },
+ "share_of_run_spent_in_team_form": 0.91,
+ "sql_statements_over_3_runs": {
+  "SELECT matches": 112,
+  "SELECT competitions": 20,
+  "SELECT forecasts": 8
+ },
+ "cprofile_top_by_own_time": [
+  "         1049 function calls in 5.949 seconds",
+  "   Ordered by: internal time",
+  "   List reduced from 43 to 8 due to restriction <8>",
+  "   ncalls  tottime  percall  cumtime  percall filename:lineno(function)",
+  "       25    5.912    0.236    5.913    0.237 {method 'execute' of 'sqlite3.Connection' objects}",
+  "        1    0.012    0.012    0.024    0.024 D:\\Foot IQ\\app\\gameweeks.py:43(_fixture_rows)",
+  "       23    0.010    0.000    0.010    0.000 {method 'fetchall' of 'sqlite3.Cursor' objects}",
+  "        1    0.007    0.007    0.008    0.008 D:\\Foot IQ\\app\\gameweeks.py:38(seasons)",
+  "       10    0.005    0.000    0.005    0.001 D:\\Foot IQ\\app\\gameweeks.py:101(assess)",
+  "        1    0.001    0.001    5.948    5.948 D:\\Foot IQ\\app\\gameweeks.py:136(gameweek_fixtures)",
+  "       20    0.001    0.000    5.906    0.295 D:\\Foot IQ\\app\\gameweeks.py:86(team_form)",
+  "       25    0.000    0.000    0.001    0.000 D:\\Foot IQ\\data\\supervised\\phase4\\p42\\perf_gameweek_profile.py:30(<lambda>)"
+ ]
+}

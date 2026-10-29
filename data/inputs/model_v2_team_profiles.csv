@@ -1,0 +1,49 @@
+team,normalized_team,manager_name,preferred_style,squad_quality_score,expected_xi_score,bench_depth_score,manager_pedigree_score,tactical_flexibility_score,profile_source_status,notes
+Czech Republic,Czech Republic,manual_required,profile proxy / manual review required,71,71,68,49.53,47.53,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Mexico,Mexico,Javier Aguirre,pragmatic tournament management,76,76,74,78,72,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+South Africa,South Africa,Hugo Broos,compact / tournament pragmatism,37.0,38.0,33.0,76,70,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+South Korea,South Korea,Hong Myung-bo,balanced / transition pace,72,72,69,70,70,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Bosnia & Herzegovina,Bosnia and Herzegovina,manual_required,profile proxy / manual review required,36.0,37.0,32.0,45.0,42.0,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Canada,Canada,Jesse Marsch,pressing / vertical transitions,74,75,70,72,80,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Qatar,Qatar,Julen Lopetegui,possession / positional play,35.0,36.0,31.0,78,80,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Switzerland,Switzerland,Murat Yakin,compact tournament pragmatism,77,77,75,76,74,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Brazil,Brazil,Carlo Ancelotti,adaptive possession / star-led attack,90,90,89,89,86,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Haiti,Haiti,manual_required,profile proxy / manual review required,40.0,41.0,36.0,45.0,42.77,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Morocco,Morocco,Walid Regragui,compact block / transition,80,81,76,84,80,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Scotland,Scotland,Steve Clarke,compact 3/5-back structure,55.0,56.0,51.0,73,70,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Australia,Australia,Tony Popovic,compact / physical transitions,72,72,69,70,70,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Paraguay,Paraguay,Gustavo Alfaro,defensive block / set pieces,73,73,70,76,72,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Turkey,Turkey,Vincenzo Montella,technical midfield / transitions,78,78,75,74,76,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+USA,United States,Mauricio Pochettino,pressing / vertical possession,77,77,75,82,86,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Curaçao,Curaçao,manual_required,profile proxy / manual review required,35.0,36.0,31.0,45.0,42.0,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Ecuador,Ecuador,Sebastian Beccacece,aggressive pressing / transitions,78,79,74,73,76,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Germany,Germany,Julian Nagelsmann,high-tempo positional play,86,86,85,82,90,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Ivory Coast,Ivory Coast,manual_required,profile proxy / manual review required,74,74,72,50.21,48.21,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Japan,Japan,Hajime Moriyasu,compact transitions / tactical flexibility,79,78,78,80,82,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Netherlands,Netherlands,Ronald Koeman,possession / wing progression,86,86,84,76,74,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Sweden,Sweden,manual_required,profile proxy / manual review required,72,72,69,48.17,46.17,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Tunisia,Tunisia,manual_required,profile proxy / manual review required,41.0,42.0,37.0,45.45,43.45,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Belgium,Belgium,Rudi Garcia,possession / direct attacking phases,81,82,77,74,72,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Egypt,Egypt,manual_required,profile proxy / manual review required,72,73,68,56.89,54.89,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Iran,Iran,manual_required,profile proxy / manual review required,71,72,68,61.66,59.66,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+New Zealand,New Zealand,Darren Bazeley,compact / direct play,42.0,43.0,38.0,62,62,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Cape Verde,Cape Verde,manual_required,profile proxy / manual review required,38.0,39.0,34.0,45.0,42.0,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Saudi Arabia,Saudi Arabia,manual_required,profile proxy / manual review required,39.0,40.0,35.0,45.0,42.09,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Spain,Spain,Luis de la Fuente,possession / high technical control,91,92,88,86,84,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Uruguay,Uruguay,Marcelo Bielsa,high press / direct verticality,83,84,79,82,88,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+France,France,Didier Deschamps,pragmatic elite-transition,94,93,96,94,82,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Iraq,Iraq,manual_required,profile proxy / manual review required,43.0,44.0,39.0,46.81,44.81,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Norway,Norway,Stale Solbakken,direct attack / star focal points,76,78,70,68,70,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Senegal,Senegal,Pape Thiaw,athletic transitions,76,76,73,70,68,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Algeria,Algeria,Vladimir Petkovic,balanced / experienced setup,73,73,70,74,72,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Argentina,Argentina,Lionel Scaloni,balanced possession / transition,90,91,86,91,84,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Austria,Austria,Ralf Rangnick,pressing / vertical attacks,77,77,74,84,88,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Jordan,Jordan,manual_required,profile proxy / manual review required,46.0,47.0,42.0,48.85,46.85,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Colombia,Colombia,Nestor Lorenzo,balanced possession / counters,84,84,81,78,78,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+DR Congo,DR Congo,Sebastien Desabre,transition / athletic structure,44.0,45.0,40.0,70,72,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Portugal,Portugal,Roberto Martinez,possession / attacking width,89,89,88,78,76,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Uzbekistan,Uzbekistan,Timur Kapadze,compact / fast transitions,56.0,57.0,52.0,66,68,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Croatia,Croatia,Zlatko Dalic,midfield control / tournament management,82,82,78,87,78,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+England,England,Thomas Tuchel,structured possession / pressing,92,91,93,86,88,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Ghana,Ghana,Carlos Queiroz,defensive structure / tournament experience,72,72,69,86,78,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun
+Panama,Panama,Thomas Christiansen,compact / direct transitions,57.0,58.0,53.0,72,70,public/manual seed; replace with licensed squad + analyst feed,V2 seed value; editable before rerun

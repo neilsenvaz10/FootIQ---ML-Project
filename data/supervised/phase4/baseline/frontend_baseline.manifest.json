@@ -1,0 +1,207 @@
+{
+ "purpose": "Baseline snapshot of the frontend taken before any Phase 4 edit (stage P4.0).",
+ "created_utc": "2026-10-26T16:10:40Z",
+ "source_folder": "frontend/",
+ "excluded_directories": [
+  "dist",
+  "node_modules"
+ ],
+ "file_count": 45,
+ "total_bytes": 369035,
+ "files": {
+  ".env.example": {
+   "bytes": 116,
+   "sha256": "0d2f86e0d17e84a1fdfe973d9caaacc5092c8afc538ec005bdf9e5b1b38dfd8a"
+  },
+  ".env.local": {
+   "bytes": 35,
+   "sha256": "b6c1fbff255bd57a7aa621707f39317bc4bf282efe01570819ae7ed392f9c56f"
+  },
+  ".gitignore": {
+   "bytes": 35,
+   "sha256": "f2d67b5d34451788e6403bd93de5408f74785908c543092a20190869787bee66"
+  },
+  "index.html": {
+   "bytes": 375,
+   "sha256": "539311042e49367b7938a5ad322292459713c156fc675f4d890650d329b7eada"
+  },
+  "package-lock.json": {
+   "bytes": 105269,
+   "sha256": "b8346e6cf2d79650482329e72ef060b3544adec785854b48e89064d35a03e666"
+  },
+  "package.json": {
+   "bytes": 682,
+   "sha256": "ccd9230715fcb8329991265569f8c8fbe87b7c05917354d3fc530ff105c14813"
+  },
+  "README.md": {
+   "bytes": 7553,
+   "sha256": "22a0bbe103c631afc8b424fe858fcdcec3af16e45ee0abe4006d13e681d7f2c1"
+  },
+  "src/App.jsx": {
+   "bytes": 1366,
+   "sha256": "3e7b6c8feaff0e5bc2d266213c6a5718c16126b5c38cb608770d2eb85637a4ed"
+  },
+  "src/components/Bracket.jsx": {
+   "bytes": 5305,
+   "sha256": "3a1a3a6cb18116289d79f5c1beac475ce75aeaf6cfbcae9a99a45ad303db7895"
+  },
+  "src/components/CompetitionSelect.jsx": {
+   "bytes": 867,
+   "sha256": "aef6c9ce5b3898426cde2b5d2dea698147280cd5b9e595b42db162917bdaa23c"
+  },
+  "src/components/FixtureCard.jsx": {
+   "bytes": 7281,
+   "sha256": "73a24a0bb682e0acaadaac507b5120ba5a0c53f5a9811784d0d1bd4999420d62"
+  },
+  "src/components/Layout.jsx": {
+   "bytes": 4034,
+   "sha256": "349414c1d3d2ff4207f43e2a143dbfee0716c8f82c243a35378074a1bf49e89d"
+  },
+  "src/components/MetaContext.jsx": {
+   "bytes": 489,
+   "sha256": "0a0fc71db96ab8b84028fe6f812c9b38465b77265f4773acaf93a7ef312cf081"
+  },
+  "src/components/PageHeader.jsx": {
+   "bytes": 293,
+   "sha256": "cf5586f212b488dffa5506ca6fae307755e9782628947b3b5b4144b9c9a743e4"
+  },
+  "src/components/ProbBar.jsx": {
+   "bytes": 2510,
+   "sha256": "f59a8c11522b567e3ea3cc2b538ddbeb14065823b97960052b986c485cd9bcad"
+  },
+  "src/components/SourceDetails.jsx": {
+   "bytes": 1075,
+   "sha256": "655c3d8697dedb2150fc4d0b3edb5539353022e90eb5a2efed1f34a991f4e764"
+  },
+  "src/components/SyncStatus.jsx": {
+   "bytes": 4170,
+   "sha256": "4d0078ad44be50543ccf894776fd3741794307273deeede2c843522ce607e723"
+  },
+  "src/components/TeamPool.jsx": {
+   "bytes": 1641,
+   "sha256": "99f2289fc177e1d61ee5185ae7e5555e67255b3e02d1bafa5a0643ca55d4c9fd"
+  },
+  "src/components/ui.jsx": {
+   "bytes": 15179,
+   "sha256": "50a644acf0d987a606320408c29785d949cbc13f9f0287c04cb3f836bdc029c3"
+  },
+  "src/index.css": {
+   "bytes": 1831,
+   "sha256": "a69eb398ead7b0d2fbbfbbb566ce6933e1dbfc9a2d8f8e571b896200ee686ce8"
+  },
+  "src/lib/api.js": {
+   "bytes": 1440,
+   "sha256": "279c11b450ea0dec23a6d6718cc305dce4885f2af75ed5cb815b60f63ceca404"
+  },
+  "src/lib/chart.js": {
+   "bytes": 555,
+   "sha256": "beb6ffe13f992d3d7bc5c7292e1408f328fc1ac2c03c436e63deb842ba3c26f1"
+  },
+  "src/lib/competitions.js": {
+   "bytes": 942,
+   "sha256": "4526957765f91eceacd5eb90306111b0bce2b5fa01bed71ae059ae52281f97bd"
+  },
+  "src/lib/format.js": {
+   "bytes": 645,
+   "sha256": "ebb2c9ce0fffbeace1b4c1e9af368125c7085f26422ff4ea818b83d1f08ce272"
+  },
+  "src/lib/hooks.js": {
+   "bytes": 1966,
+   "sha256": "f9821bbf30f4d31d3ff78cad37fba86d8a31dca592a1cf191c14865f3d948d28"
+  },
+  "src/lib/sources.js": {
+   "bytes": 741,
+   "sha256": "53ad453cce4137cc7a3f2c8cd3b0cdf146a2ff8d163d6b582432c2909a87a8ce"
+  },
+  "src/lib/team.js": {
+   "bytes": 926,
+   "sha256": "cb134c61aac17a4d43f3b00d70d41bb7037c5fe7e900008bccc5413b59acb590"
+  },
+  "src/main.jsx": {
+   "bytes": 330,
+   "sha256": "c1f4a215697389906be75331c87195fbb6b23a2bf1afec683b5d3b4ffc908ea5"
+  },
+  "src/pages/Analytics.jsx": {
+   "bytes": 12790,
+   "sha256": "f3ed818b2b91c74a806313f8901ff28849c91b7367444b2f6362e4ebd4e91355"
+  },
+  "src/pages/GameweekPredict.jsx": {
+   "bytes": 10269,
+   "sha256": "5cb01fb42deb515e60f63171184c837f7aa125788b646df1ea7965d4d87f0b55"
+  },
+  "src/pages/Models.jsx": {
+   "bytes": 9374,
+   "sha256": "97bd6156c1809908e617521655219f3d59afe9c6b9626468b396932911e78de9"
+  },
+  "src/pages/Overview.jsx": {
+   "bytes": 10567,
+   "sha256": "8e54c66282039677908cba3b767e6e500255cd4a7aeb467d7b655a70463b5d94"
+  },
+  "src/pages/Predict.jsx": {
+   "bytes": 15251,
+   "sha256": "87b55baefcc05b2eadef43ae7ffd18677a733a9b1c70ade1a38f4da130a0a962"
+  },
+  "src/pages/Predictions.jsx": {
+   "bytes": 1431,
+   "sha256": "35fe9bf7d0fd162d837bcf1b95ed3b22030e5c222d153bb3105614d9e1a5c1d7"
+  },
+  "src/pages/SeasonSimulator.jsx": {
+   "bytes": 43300,
+   "sha256": "f283827de899c9c1555f811b7a3e2b35de4f07d235472c87d10e48a52f07685f"
+  },
+  "src/pages/Simulations.jsx": {
+   "bytes": 1128,
+   "sha256": "3c46e833ca1cce98ff9c585452dc6b3fa9a49662f69714c7befb005f0f55c29b"
+  },
+  "src/pages/Simulator.jsx": {
+   "bytes": 12956,
+   "sha256": "e2a4d5b0a8c0146ef20ddc8f9485572f4583bb5c50c0848a8e2a97de211afdf9"
+  },
+  "src/pages/TeamComparison.jsx": {
+   "bytes": 8098,
+   "sha256": "bbe74f3206510297a169c419cd8ab3aa1230fb52a546dec46830995bc65b32b6"
+  },
+  "tests/app.test.jsx": {
+   "bytes": 15651,
+   "sha256": "19b472099d430088580a08a442c22aa31c40b1538fbf242cb61945c478d4bb5d"
+  },
+  "tests/gameweek.test.jsx": {
+   "bytes": 12378,
+   "sha256": "62c4d91d6b1507df1150d9ac53d40aba169d4e3ce100eb4efd3889515a32b8d4"
+  },
+  "tests/live-api.test.js": {
+   "bytes": 7946,
+   "sha256": "e8f372f880ed610417c9181f166eddc3eddafcb22f791d1d9506fb9071cca9b2"
+  },
+  "tests/redesign.test.jsx": {
+   "bytes": 15089,
+   "sha256": "373dd508eabf60a5ccf1502e52ca4ba6687f4863a1ef53a970acb1e4aa6b2299"
+  },
+  "tests/season.test.jsx": {
+   "bytes": 24659,
+   "sha256": "4992aa5ebda256d7667e979dc8646ac2c303512a0a666c49273a2cceb17a286d"
+  },
+  "tests/setup.js": {
+   "bytes": 43,
+   "sha256": "9b328c4843431fa76d8de00008fc159e95f99a840211085ff3b8f25e53d14409"
+  },
+  "vite.config.js": {
+   "bytes": 454,
+   "sha256": "2dcb606332a55cfb1e108dff0e770065ef98b2df9b3a0144f590fd49a9d8561f"
+  }
+ },
+ "zip": {
+  "name": "frontend_baseline.zip",
+  "bytes": 115502,
+  "sha256": "542320c6b0118142fb1aa5528778b8234a1b8f921ae2e4edcd37e8ff4d682aa7"
+ },
+ "package_lock_sha256": "b8346e6cf2d79650482329e72ef060b3544adec785854b48e89064d35a03e666",
+ "node": "v24.13.1",
+ "npm": "11.8.0",
+ "git": {
+  "branch": "feat/club-ml-v2",
+  "head": "970f461 Mini Project Scope Update",
+  "tracked_files_under_frontend": 0,
+  "staged_files": []
+ }
+}

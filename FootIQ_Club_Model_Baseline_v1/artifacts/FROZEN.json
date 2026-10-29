@@ -1,0 +1,23 @@
+{
+ "frozen_at": "2026-10-20 23:22:58",
+ "selected_model_by_validation_primary_log_loss": "multinomial_logreg",
+ "selected_C": 100.0,
+ "selection_criterion": "multiclass log loss on validation primary rows",
+ "random_seed": 20261020,
+ "train_rows": 59356,
+ "validation_rows": 22578,
+ "validation_primary_rows": 17092,
+ "dependency_versions": {
+  "numpy": "1.26.4",
+  "pandas": "2.2.1",
+  "scikit-learn": "1.5.1",
+  "scipy": "1.17.1"
+ },
+ "artifact_sha256": {
+  "baseline_parameters.json": "24533586d2c76e89df6fb5e6d44e60088e4aa633f52ac77abfbf8dde35861d1c",
+  "coverage_categories.json": "cf4513a549fd518c7ac6382c2aab351fd460d65173a0c97dc5e3e809e8fe0f08",
+  "multinomial_logreg.pkl": "067426e83d2d5f66aaf6c4aef933ac58e17f04d911ae55ede336c1bad3c0c5b9",
+  "multinomial_logreg_coefficients.json": "769467b2816d70821cf9f87af07d5c9a9c6a7f3f7025029a3e8236335530e32a",
+  "preprocessing_train_fitted.json": "5952ffff95612dd9c308100182edcfb156284102fd4f41a33e64cbdad77e8727"
+ }
+}

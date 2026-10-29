@@ -1,0 +1,457 @@
+{
+ "after": {
+  "integrity": "ok",
+  "fk_problems": 0,
+  "matches": 223546,
+  "ucl_by_season": {
+   "2018-19": 125,
+   "2019-20": 119,
+   "2020-21": 125,
+   "2021-22": 125,
+   "2022-23": 125,
+   "2023-24": 125,
+   "2024-25": 189,
+   "2025-26": 189,
+   "2026-27": 54
+  },
+  "other_rows_hash": "4cfb13e4dc45d8b8c265baa9ef705f9782473c1c13463c105bbcf0e1d90fa12a",
+  "old_ucl_2026_27_rows_hash": "effc62d3b25954686e4946719348934ca3694ecad1b9406b2ba367a3e103582c",
+  "simulations": [
+   [
+    1,
+    "BUNDESLIGA",
+    "2026-27",
+    10000
+   ],
+   [
+    2,
+    "LALIGA",
+    "2026-27",
+    10000
+   ]
+  ],
+  "simulations_sha": "33fbf4afae52d531639daff2ce57c68cd4e73908c4b802db425f2baa8cb99c01",
+  "quarantine": 273,
+  "teams": 5188,
+  "team_aliases": 7447,
+  "new_rows": [
+   [
+    "2026-10-13",
+    "Arsenal F.C.",
+    3,
+    0,
+    "Lille OSC",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-13",
+    "Atlético Madrid",
+    2,
+    0,
+    "Manchester United F.C.",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-13",
+    "Galatasaray S.K. (football)",
+    1,
+    4,
+    "FC Barcelona",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-13",
+    "Inter Milan",
+    3,
+    4,
+    "Club Brugge KV",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-13",
+    "RB Leipzig",
+    1,
+    0,
+    "PSV Eindhoven",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-13",
+    "RC Lens",
+    0,
+    2,
+    "Sporting CP",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-13",
+    "Sabah FK (Azerbaijan)",
+    2,
+    0,
+    "SK Slavia Prague",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-13",
+    "Viking FK",
+    3,
+    3,
+    "FC Bayern Munich",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-13",
+    "Villarreal CF",
+    3,
+    1,
+    "SSC Napoli",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-14",
+    "AS Roma",
+    3,
+    4,
+    "Real Madrid CF",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-14",
+    "Aston Villa F.C.",
+    6,
+    0,
+    "Fenerbahçe S.K. (football)",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-14",
+    "FC Shakhtar Donetsk",
+    3,
+    1,
+    "AEK Athens F.C.",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-14",
+    "FK Bodø/Glimt",
+    1,
+    0,
+    "Borussia Dortmund",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-14",
+    "Feyenoord",
+    3,
+    2,
+    "Como 1907",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-14",
+    "LASK",
+    3,
+    6,
+    "Liverpool F.C.",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-14",
+    "Manchester City F.C.",
+    2,
+    4,
+    "Paris Saint-Germain FC",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-14",
+    "Real Betis",
+    3,
+    2,
+    "FC Porto",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-14",
+    "ŠK Slovan Bratislava",
+    0,
+    3,
+    "VfB Stuttgart",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-20",
+    "AS Roma",
+    4,
+    0,
+    "ŠK Slovan Bratislava",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-20",
+    "FC Porto",
+    0,
+    1,
+    "PSV Eindhoven",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-20",
+    "Fenerbahçe S.K. (football)",
+    2,
+    2,
+    "SK Slavia Prague",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-20",
+    "Liverpool F.C.",
+    4,
+    3,
+    "Villarreal CF",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-20",
+    "Manchester City F.C.",
+    5,
+    1,
+    "AEK Athens F.C.",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-20",
+    "Paris Saint-Germain FC",
+    4,
+    2,
+    "FC Barcelona",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-20",
+    "SSC Napoli",
+    4,
+    3,
+    "FK Bodø/Glimt",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-20",
+    "Sabah FK (Azerbaijan)",
+    1,
+    2,
+    "Borussia Dortmund",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-20",
+    "VfB Stuttgart",
+    1,
+    1,
+    "Atlético Madrid",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-21",
+    "Aston Villa F.C.",
+    3,
+    1,
+    "Viking FK",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-21",
+    "Club Brugge KV",
+    3,
+    0,
+    "RC Lens",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-21",
+    "Como 1907",
+    4,
+    1,
+    "Manchester United F.C.",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-21",
+    "FC Bayern Munich",
+    2,
+    2,
+    "Arsenal F.C.",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-21",
+    "Inter Milan",
+    1,
+    0,
+    "FC Shakhtar Donetsk",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-21",
+    "Lille OSC",
+    2,
+    4,
+    "Galatasaray S.K. (football)",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-21",
+    "Real Betis",
+    1,
+    0,
+    "Feyenoord",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-21",
+    "Real Madrid CF",
+    4,
+    1,
+    "RB Leipzig",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ],
+   [
+    "2026-10-21",
+    "Sporting CP",
+    2,
+    3,
+    "LASK",
+    "completed",
+    "wikipedia",
+    "CC BY-SA 4.0",
+    0
+   ]
+  ],
+  "duplicates_same_pair": 0,
+  "duplicates_same_day_any": 0,
+  "bad_scores": 0,
+  "match_sources": [
+   [
+    "wikipedia",
+    "uefa-ucl-2026-27-staging-rev1380990679",
+    "CC BY-SA 4.0",
+    "1380990679",
+    18
+   ],
+   [
+    "wikipedia",
+    "uefa-ucl-2026-27-staging-rev1381604353",
+    "CC BY-SA 4.0",
+    "1381604353",
+    18
+   ]
+  ],
+  "snapshot": [
+   [
+    "uefa-ucl-2026-27-staging-rev1380990679",
+    "771be21541faddba1b2b94

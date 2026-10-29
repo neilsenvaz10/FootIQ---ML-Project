@@ -1,0 +1,5 @@
+defect,current_entity_id,competition_id,source_country_folder,proposed_entity_id,rows_in_source,evidence
+club-id collision,world/africa|Police FC,world/africa:rw1,rwanda,world/africa/rwanda|Police FC,154,identical id string for different clubs; the openfootball files sit in different country folders (rwanda/uganda/ghana)
+club-id collision,world/africa|Police FC,world/africa:ug1,uganda,world/africa/uganda|Police FC,60,identical id string for different clubs; the openfootball files sit in different country folders (rwanda/uganda/ghana)
+club-id collision,world/africa|Vision FC,world/africa:gh1,ghana,world/africa/ghana|Vision FC,34,identical id string for different clubs; the openfootball files sit in different country folders (rwanda/uganda/ghana)
+club-id collision,world/africa|Vision FC,world/africa:rw1,rwanda,world/africa/rwanda|Vision FC,30,identical id string for different clubs; the openfootball files sit in different country folders (rwanda/uganda/ghana)

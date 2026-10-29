@@ -1,0 +1,16 @@
+competition_id,fixtures,kickoff_time_known_share
+austria:1-bundesliga,78.0,0.4358974358974359
+deutschland:1-bundesliga,252.0,0.1111111111111111
+england:1-premierleague,310.0,0.19032258064516128
+england:2-championship,420.0,0.10238095238095238
+espana:1-liga,291.0,0.003436426116838488
+europe/czech-republic:cz1,152.0,0.2565789473684211
+europe/france:fr1,243.0,0.1522633744855967
+europe/greece:gr1,133.0,0.44360902255639095
+europe/netherlands:nl1,225.0,0.41333333333333333
+europe/portugal:pt1,234.0,0.12393162393162394
+europe/scotland:sco1,144.0,0.3263888888888889
+europe/switzerland:ch1,72.0,0.6666666666666666
+europe/turkey:tr1,234.0,0.0
+italy:1-seriea,310.0,0.12903225806451613
+south-america/brazil:br1,70.0,0.0

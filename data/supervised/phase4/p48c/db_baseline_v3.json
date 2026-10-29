@@ -1,0 +1,87 @@
+{
+ "algorithm": "footiq-logical-v1",
+ "logical_sha256": "b3dcf8c0d04aa4538da77f4dc21c267b6414bb7e3c61692ad24a0ec4c2c1d95f",
+ "tables": {
+  "competitions": {
+   "rows": 162,
+   "sha256": "85b44c27cc9c9a00d9a7c76bcf0b44fa9729b45398b6263734c6f84771c61d2f"
+  },
+  "forecast_runs": {
+   "rows": 0,
+   "sha256": "850569778d27abd5b4e61a48c78bb0cd1abb19dbda197c263306187f8513cdb6"
+  },
+  "forecasts": {
+   "rows": 0,
+   "sha256": "538f1380cf6c02df1a3974c6709a8ea50d16f5cb873632cb1f644a4cab6b4e77"
+  },
+  "match_sources": {
+   "rows": 224519,
+   "sha256": "71ad9aedb28885496d95e697758ec0cfa10854c3cca66e9b924d09a6ecb12aab"
+  },
+  "matches": {
+   "rows": 223510,
+   "sha256": "29e2e362227b6511d3f41ce7e6e5e40c4155b9712976ad474af33be89fa7422d"
+  },
+  "meta": {
+   "rows": 2,
+   "sha256": "1cccfb03fe5880cdf150bf0016d8525aeb3c3ba3fec5cd441a078e672b898547"
+  },
+  "quarantine": {
+   "rows": 273,
+   "sha256": "d56af970e4b86b07393d9cd56234f0442ff4f0a8e0a3e95468ce1188864b7f90"
+  },
+  "simulation_runs": {
+   "rows": 0,
+   "sha256": "01b673b8d2934adb871975c99cb1cb7f892d2b598030cc1ccca943263f2d72c7"
+  },
+  "source_snapshots": {
+   "rows": 11,
+   "sha256": "b4a75112bce622d500a66da313354e9bc7a7324a850769b54f0b248237d248ae"
+  },
+  "source_state": {
+   "rows": 1,
+   "sha256": "53da816b6ea8d9a9f5577973661e6e7e376c7db93f3f52fbcb0b654a2c850407"
+  },
+  "sync_errors": {
+   "rows": 0,
+   "sha256": "97be2992efdb7b9b0842d0720464560dc353abdb1561df8748a073d1c713f68b"
+  },
+  "sync_runs": {
+   "rows": 10,
+   "sha256": "4767dd3bd59066f8ed681d674b69f6364913781642b47a8edbaebfdee945cadb"
+  },
+  "team_aliases": {
+   "rows": 7447,
+   "sha256": "42dcf199a77d43e070b20cd20ae6aa974643cd5b26a09df9fad881d588b4bc81"
+  },
+  "teams": {
+   "rows": 5188,
+   "sha256": "23a7dfe70da5a0f63e6203a11e9c78b88afc8a8f0304aeca85008b9abd6341f1"
+  }
+ },
+ "exclusions": {
+  "sync_runs": "run_id > 10"
+ },
+ "excluded_rows": [],
+ "integrity_check": "ok",
+ "journal_mode": "wal",
+ "physical_sha256": "1bfad5bd4663e70776ef9da35f5c89eeed11b1ed7274ee7fdb562e266a9cb278",
+ "physical_bytes": 228663296,
+ "file": "data/footiq.sqlite (hashed from a byte-identical copy)",
+ "baseline_version": "v3",
+ "last_baseline_run_id": 10,
+ "recorded_utc": "2026-10-27",
+ "chain": {
+  "v2": {
+   "physical": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+   "logical": "e32d759bddef1688116c1c91430cbf10384724e525971994f4e085312a96f29d",
+   "last_baseline_run_id": 7
+  },
+  "after_bundesliga": {
+   "physical": "40f4475ce7f9276736db83880c2c60e2cb5347884c913a2b977f04dbdc0a309b",
+   "logical": "f66de9343abd43d7b7b4cba1dc7fc6342ce071c723d73f25348ea074c045ca07",
+   "last_baseline_run_id": 9
+  }
+ },
+ "note": "Logical hash uses algorithm footiq-logical-v1 with the cut-off run id 10 (the La Liga import run): sync_runs rows 1-10 are hashed, later rows are operational diary lines and are listed, not hashed."
+}

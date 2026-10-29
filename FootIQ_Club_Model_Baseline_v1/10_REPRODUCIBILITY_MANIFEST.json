@@ -1,0 +1,390 @@
+{
+ "experiment": "FootIQ club 90-minute 1X2 controlled baseline v1",
+ "generated": "2026-10-20 23:25",
+ "dataset": {
+  "version": "v1.1",
+  "dataset_file": "FootIQ_ML_Training_Preparation/01_CORRECTED_LEAGUE_TRAINING_DATASET_v1.1.csv",
+  "dataset_sha256": "0d7b73117b442298e4e050f690c55e32c1d25798e244052ec12e41b54ff10da7",
+  "feature_file": "FootIQ_ML_Training_Preparation/02_CORRECTED_FEATURE_DATASET_v1.1.csv",
+  "feature_file_sha256": "4e74c21586bc31651462d7408637cd3f894fd21d034a8f6236c6b34cff54be19",
+  "rows": 116854,
+  "split_rows": {
+   "train": 59356,
+   "test": 26000,
+   "validation": 22578,
+   "forward_holdout": 8920
+  }
+ },
+ "feature_order": [
+  "home_elo",
+  "away_elo",
+  "elo_diff",
+  "home_n_prior",
+  "away_n_prior",
+  "home_ppg5",
+  "away_ppg5",
+  "home_ppg10",
+  "away_ppg10",
+  "home_gf5",
+  "home_ga5",
+  "away_gf5",
+  "away_ga5",
+  "home_gf10",
+  "home_ga10",
+  "away_gf10",
+  "away_ga10",
+  "home_venue_ppg5",
+  "away_venue_ppg5",
+  "ppg5_diff",
+  "gd5_diff",
+  "home_days_rest",
+  "away_days_rest",
+  "rest_diff",
+  "league_tier"
+ ],
+ "model_input_columns": [
+  "home_elo",
+  "away_elo",
+  "elo_diff",
+  "home_n_prior",
+  "away_n_prior",
+  "home_ppg5",
+  "away_ppg5",
+  "home_ppg10",
+  "away_ppg10",
+  "home_gf5",
+  "home_ga5",
+  "away_gf5",
+  "away_ga5",
+  "home_gf10",
+  "home_ga10",
+  "away_gf10",
+  "away_ga10",
+  "home_venue_ppg5",
+  "away_venue_ppg5",
+  "ppg5_diff",
+  "gd5_diff",
+  "home_days_rest",
+  "away_days_rest",
+  "rest_diff",
+  "league_tier",
+  "missing_indicator__away_venue_ppg5",
+  "missing_indicator__home_venue_ppg5"
+ ],
+ "preprocessing": {
+  "feature_order": [
+   "home_elo",
+   "away_elo",
+   "elo_diff",
+   "home_n_prior",
+   "away_n_prior",
+   "home_ppg5",
+   "away_ppg5",
+   "home_ppg10",
+   "away_ppg10",
+   "home_gf5",
+   "home_ga5",
+   "away_gf5",
+   "away_ga5",
+   "home_gf10",
+   "home_ga10",
+   "away_gf10",
+   "away_ga10",
+   "home_venue_ppg5",
+   "away_venue_ppg5",
+   "ppg5_diff",
+   "gd5_diff",
+   "home_days_rest",
+   "away_days_rest",
+   "rest_diff",
+   "league_tier"
+  ],
+  "median_train": {
+   "home_elo": 1506.3398281530758,
+   "away_elo": 1506.676436654514,
+   "elo_diff": -0.36460922069738894,
+   "home_n_prior": 178.0,
+   "away_n_prior": 178.0,
+   "home_ppg5": 1.4,
+   "away_ppg5": 1.4,
+   "home_ppg10": 1.3,
+   "away_ppg10": 1.4,
+   "home_gf5": 1.2,
+   "home_ga5": 1.2,
+   "away_gf5": 1.2,
+   "away_ga5": 1.2,
+   "home_gf10": 1.2,
+   "home_ga10": 1.3,
+   "away_gf10": 1.3,
+   "away_ga10": 1.3,
+   "home_venue_ppg5": 1.6,
+   "away_venue_ppg5": 1.2,
+   "ppg5_diff": 0.0,
+   "gd5_diff": 0.0,
+   "home_days_rest": 7.0,
+   "away_days_rest": 7.0,
+   "rest_diff": 0.0,
+   "league_tier": 1.0
+  },
+  "indicator_columns": [
+   "away_venue_ppg5",
+   "home_venue_ppg5"
+  ],
+  "mean_train": {
+   "home_elo": 1525.5742213531676,
+   "away_elo": 1525.4603755393246,
+   "elo_diff": 0.1138458138430039,
+   "home_n_prior": 302.50956937799043,
+   "away_n_prior": 302.53920412426714,
+   "home_ppg5": 1.346697890693443,
+   "away_ppg5": 1.384466608262012,
+   "home_ppg10": 1.3565125334676857,
+   "away_ppg10": 1.3744798536032783,
+   "home_gf5": 1.294719994608801,
+   "home_ga5": 1.322090437361008,
+   "away_gf5": 1.320176561762922,
+   "away_ga5": 1.2946795606172923,
+   "home_gf10": 1.3010422583346972,
+   "home_ga10": 1.3139508034383869,
+   "away_gf10": 1.3125428675187758,
+   "away_ga10": 1.3006023447971187,
+   "home_venue_ppg5": 1.5687422782307883,
+   "away_venue_ppg5": 1.1621178426219199,
+   "ppg5_diff": -0.0377687175685693,
+   "gd5_diff": -0.05286744389783679,
+   "home_days_rest": 9.507362355953905,
+   "away_days_rest": 9.808578745198464,
+   "rest_diff": -0.30121638924455824,
+   "league_tier": 1.7765853494170767
+  },
+  "std_train": {
+   "home_elo": 122.22881423356836,
+   "away_elo": 122.22000507418979,
+   "elo_diff": 118.77285184200713,
+   "home_n_prior": 337.7395236580514,
+   "away_n_prior": 337.73516330289823,
+   "home_ppg5": 0.6413482904538185,
+   "away_ppg5": 0.644496446120189,
+   "home_ppg10": 0.50737839532793,
+   "away_ppg10": 0.5071557392844066,
+   "home_gf5": 0.6065680619460635,
+   "home_ga5": 0.5988155050371693,
+   "away_gf5": 0.6118111644651707,
+   "away_ga5": 0.5942958379876527,
+   "home_gf10": 0.49202424827902386,
+   "home_ga10": 0.4727853049211342,
+   "away_gf10": 0.49349243104086943,
+   "away_ga10": 0.46981081058160545,
+   "home_venue_ppg5": 0.661852441824973,
+   "away_venue_ppg5": 0.6367264427142876,
+   "ppg5_diff": 0.9033696502526269,
+   "gd5_diff": 1.2505106576097686,
+   "home_days_rest": 22.824337090343434,
+   "away_days_rest": 35.378418182172815,
+   "rest_diff": 32.47501840505505,
+   "league_tier": 1.0663377781626862
+  },
+  "fitted_on": "split == train",
+  "n_fit_rows": 59356
+ },
+ "hyperparameters": {
+  "multinomial_logreg": {
+   "C": 100.0,
+   "penalty": "l2",
+   "solver": "lbfgs",
+   "max_iter": 3000,
+   "random_state": 20261020
+  },
+  "elo_ordered_logit": {
+   "scale_per_100_elo": 0.49351729512025283,
+   "threshold_away_draw": -0.9107621313068124,
+   "threshold_draw_home": 0.2794051942673339,
+   "fitted_on": "train",
+   "train_nll": 1.0308938327664277,
+   "converged": true
+  },
+  "always_home": {
+   "H": 0.4359121234584541,
+   "D": 0.2649268818653548,
+   "A": 0.2991609946761911
+  },
+  "c_grid": [
+   {
+    "C": 0.0001,
+    "accuracy": 0.4987713550198923,
+    "macro_f1": 0.3614190791911154,
+    "log_loss": 1.0163955793535613,
+    "brier": 0.6087149771438328,
+    "n_validation_primary": 17092,
+    "iterations": 10
+   },
+   {
+    "C": 0.001,
+    "accuracy": 0.5002340276152586,
+    "macro_f1": 0.3657168855509536,
+    "log_loss": 1.0121163978192318,
+    "brier": 0.6058439979001299,
+    "n_validation_primary": 17092,
+    "iterations": 19
+   },
+   {
+    "C": 0.01,
+    "accuracy": 0.5010531242686637,
+    "macro_f1": 0.3668881526207725,
+    "log_loss": 1.0117822627588835,
+    "brier": 0.6056134303795333,
+    "n_validation_primary": 17092,
+    "iterations": 28
+   },
+   {
+    "C": 0.1,
+    "accuracy": 0.5009946173648491,
+    "macro_f1": 0.3669476206924305,
+    "log_loss": 1.0117564541738986,
+    "brier": 0.6055944270022345,
+    "n_validation_primary": 17092,
+    "iterations": 28
+   },
+   {
+    "C": 1.0,
+    "accuracy": 0.5008776035572198,
+    "macro_f1": 0.3668469542085256,
+    "log_loss": 1.0117539310945798,
+    "brier": 0.6055924707552567,
+    "n_validation_primary": 17092,
+    "iterations": 28
+   },
+   {
+    "C": 10.0,
+    "accuracy": 0.5008776035572198,
+    "macro_f1": 0.3668469542085256,
+    "log_loss": 1.011753686997115,
+    "brier": 0.60559227960935,
+    "n_validation_primary": 17092,
+    "iterations": 28
+   },
+   {
+    "C": 100.0,
+    "accuracy": 0.5008776035572198,
+    "macro_f1": 0.3668469542085256,
+    "log_loss": 1.0117536624551735,
+    "brier": 0.6055922604162777,
+    "n_validation_primary": 17092,
+    "iterations": 28
+   }
+  ]
+ },
+ "random_seed": 20261020,
+ "dependency_versions": {
+  "numpy": "1.26.4",
+  "pandas": "2.2.1",
+  "scikit-learn": "1.5.1",
+  "scipy": "1.17.1"
+ },
+ "python": "3.12.14 (project .venv)",
+ "split_boundaries": {
+  "train": [
+   "2018-08-01",
+   "2023-06-30"
+  ],
+  "validation": [
+   "2023-07-01",
+   "2024-06-30"
+  ],
+  "test": [
+   "2024-07-01",
+   "2025-06-30"
+  ],
+  "forward_holdout": [
+   "2025-07-01",
+   "2026-09-30"
+  ]
+ },
+ "evaluation_split_hashes": {
+  "evaluation_set_sha256": {
+   "validation_primary": "3384f7967f23c80e0337951b6ce1ca6b6453f631e413280f377ea6b9c302af06",
+   "test_primary": "08855d5c4189ca3d8665368928437088caef8aaece0c5cd05f0af6b3d21f7b1e",
+   "forward_holdout_primary": "6133903bdb5dbd17ebce7038d19a6bf2a3aa93f97c2f5ddaa9d02922e4edc376",
+   "test_secondary_calendar_year": "53092feb90733913fbf9d852f98fd0ce7e605e7eb76c91a02dca33ff78ebec12",
+   "forward_holdout_secondary_calendar_year": "ea44df5e5d6a044e0a465c825007599c50a534331b55fdea40d5ccb819d9f3da",
+   "validation_secondary_calendar_year": "2e57e9deed5fbc45e38c76a9e31a4387b807e1ca46d02746b2adc805f8b895e6",
+   "train_ids": "b773818383eaeb07550ef7b631744310cda23f4c5217a55a85e423d894a18ae7"
+  },
+  "evaluation_set_sizes": {
+   "validation_primary": 17092,
+   "test_primary": 15645,
+   "forward_holdout_primary": 5770,
+   "test_secondary_calendar_year": 3449,
+   "forward_holdout_secondary_calendar_year": 570,
+   "validation_secondary_calendar_year": 5015
+  }
+ },
+ "artifacts_sha256": {
+  "FROZEN.json": "098290228d8a621213110bb64fea9058006b49c15bd08d511e5f211ce4c32d81",
+  "baseline_parameters.json": "24533586d2c76e89df6fb5e6d44e60088e4aa633f52ac77abfbf8dde35861d1c",
+  "coverage_categories.json": "cf4513a549fd518c7ac6382c2aab351fd460d65173a0c97dc5e3e809e8fe0f08",
+  "multinomial_logreg.pkl": "067426e83d2d5f66aaf6c4aef933ac58e17f04d911ae55ede336c1bad3c0c5b9",
+  "multinomial_logreg_coefficients.json": "769467b2816d70821cf9f87af07d5c9a9c6a7f3f7025029a3e8236335530e32a",
+  "preprocessing_train_fitted.json": "5952ffff95612dd9c308100182edcfb156284102fd4f41a33e64cbdad77e8727"
+ },
+ "output_files_sha256": {
+  "01_TRAINING_EXECUTION_REPORT.md": "e7d7bc09338ee377f6dcdd7a82ea1891590d03c7f182b88fe1246341002db5db",
+  "02_MODEL_COMPARISON_REPORT.md": "f0bea90526df9f4aec4f293ccc233f39b3b622338390bd9ccb177750bbb983e5",
+  "02b_PAIRED_BOOTSTRAP_LOGLOSS_DIFFERENCES.csv": "c7eb8a8e101c71fb5c81b6559789cd5cabea1c2037f796f3fe25d86303d7f9dc",
+  "03_VALIDATION_METRICS.csv": "007687849a6c5932a418c43cf2eef9a2f240ba718c93eefc1af4bb2fffb4a5b2",
+  "03_VALIDATION_METRICS_RECOMPUTED.csv": "1ac7b6e90a6e43e68964093b230f31237e676420c036dd1af50dc6871a81fdc8",
+  "03b_VALIDATION_C_GRID.csv": "d140fbfef5b08840ffe7bbe9b23450f8957bf849e3ce08f4201e1acf15b62ca0",
+  "04_TEST_METRICS.csv": "6f3bd6268e44ad62b1c6db11066897c91c9ed259e5110780d82c4f3b390d3050",
+  "05_FORWARD_HOLDOUT_METRICS.csv": "3df5255306a6ef132cff35301f579f4898824164bb322f1abd06832d438bde2c",
+  "06_LEAGUE_WISE_PERFORMANCE_REPORT.md": "2e96d58886c16f2ffdc82ed962483dba309e1708a03deda5f1e33ed5d658f151",
+  "06a_LEAGUE_WISE_METRICS.csv": "a19e13f532e7354cc5e706c6f6c1e8e7bbfa84e8f00d8b2996e3344bfa3785ac",
+  "06b_LEAGUE_GROUP_METRICS.csv": "827b939a3ab52e371cdd34a350ea2b3db8e3267a768d2e6573cacc14bd10956a",
+  "06c_LEAGUE_WISE_LOGREG_VS_BASELINES.csv": "8c044d25e4d0febe371e28dca6b9a1433d8da24f9c1905f31495a4b0f42095e4",
+  "07_CALIBRATION_AND_CONFUSION_ANALYSIS.md": "44f79a26811cf1a84b57074b8b8229b9e4a9232ffa9327b262723d0f0be91431",
+  "07a_PER_CLASS_PERFORMANCE.csv": "bc0fa2fbc1f0c78b637000d87bbf9f59efcca0f2ca684cafb26455a7f56aa244",
+  "07b_CONFUSION_MATRICES.csv": "f74fbf8ef4bd5fcd72aadbba60de15eafdd487308b90c27d598b4043201a1920",
+  "07c_CALIBRATION_BINS.csv": "a93cc147719666e306660adf8fad588e37e78ff56408b0c9eff466cd89bdb7f5",
+  "07d_CALIBRATION_ECE.csv": "e4cf604de26ed0ff87a6a517365d5fcf4f57f177be620ade0a5f975a7cb47830",
+  "08_MISSING_HISTORY_SENSITIVITY_REPORT.md": "69d477437c43bc6b05e8febc1a08ad97b047cc028293534126153bc77fff340f",
+  "08a_COVERAGE_GROUP_METRICS.csv": "5bbb332deacc2c5261822060df0806829fab1506201ab1739c299d25a3946cc5",
+  "08b_HISTORY_DEPTH_METRICS.csv": "0e520e50c47f8fc2c1a00a5f2704916d4b7d482843f318668ba57150a865f2ff",
+  "EVALUATION_LOCK.json": "e3b847644d4183a61212e38831cff5d40de4858daa15df14f4f65b2e4c7f0f8b",
+  "_eval_tables.pkl": "aa91505f0158965f1d1f84669f1b92355bc8b54956d8c165b112c21cbf9c4ce6",
+  "_evaluation_split_hashes.json": "af2d928a746050da5d362e139d2f20eefb97defe979d9585c59b511dd632c062",
+  "_pretraining_checks.json": "e70c073369f6cede1785f5073b8581fcea87b1c25babf1aa655fa479f6154feb",
+  "predictions_validation.csv": "d16b5591d22550add2d271655c12e2b18f8a0bea7a8c7c412b09f939dc629cf5",
+  "predictions_validation_test_holdout.csv": "7989c36e80e8a45280f71899993016aafa25ec6f5dcf17e80716edce96df7ea5"
+ },
+ "freeze_record": {
+  "frozen_at": "2026-10-20 23:22:58",
+  "selected_model_by_validation_primary_log_loss": "multinomial_logreg",
+  "selected_C": 100.0,
+  "selection_criterion": "multiclass log loss on validation primary rows",
+  "random_seed": 20261020,
+  "train_rows": 59356,
+  "validation_rows": 22578,
+  "validation_primary_rows": 17092,
+  "dependency_versions": {
+   "numpy": "1.26.4",
+   "pandas": "2.2.1",
+   "scikit-learn": "1.5.1",
+   "scipy": "1.17.1"
+  },
+  "artifact_sha256": {
+   "baseline_parameters.json": "24533586d2c76e89df6fb5e6d44e60088e4aa633f52ac77abfbf8dde35861d1c",
+   "coverage_categories.json": "cf4513a549fd518c7ac6382c2aab351fd460d65173a0c97dc5e3e809e8fe0f08",
+   "multinomial_logreg.pkl": "067426e83d2d5f66aaf6c4aef933ac58e17f04d911ae55ede336c1bad3c0c5b9",
+   "multinomial_logreg_coefficients.json": "769467b2816d70821cf9f87af07d5c9a9c6a7f3f7025029a3e8236335530e32a",
+   "preprocessing_train_fitted.json": "5952ffff95612dd9c308100182edcfb156284102fd4f41a33e64cbdad77e8727"
+  }
+ },
+ "evaluation_lock": {
+  "started": "2026-10-20 23:23:38",
+  "frozen_at": "2026-10-20 23:22:58",
+  "note": "evaluation of test and forward holdout executed once from frozen artifacts",
+  "finished": "2026-10-20 23:23:44"
+ },
+ "selected_model_by_validation": "multinomial_logreg",
+ "procedure": "b1 -> b2 -> b3 (once) -> b4; re-running b2 or b3 is refused by the freeze / lock files",
+ "notes": "Scripts are in _scripts/. Running them again requires deleting artifacts/FROZEN.json and EVALUATION_LOCK.json by hand, which would void the controlled-experiment guarantee."
+}

@@ -1,0 +1,105 @@
+{
+ "checks": {
+  "manifest_has_1960_files": {
+   "ok": true,
+   "detail": "1960 rows, unique=True"
+  },
+  "manifest_total_is_15.10_GB": {
+   "ok": true,
+   "detail": "15.100 GB"
+  },
+  "all_candidates_exist": {
+   "ok": true,
+   "detail": "0 missing []"
+  },
+  "sizes_match_the_audit": {
+   "ok": true,
+   "detail": "0 differ []"
+  },
+  "modification_times_match_the_audit": {
+   "ok": true,
+   "detail": "0 changed []"
+  },
+  "sqlite_identity_matches_the_survey": {
+   "ok": true,
+   "detail": "147 database files hashed, 0 differ"
+  },
+  "no_protected_path_in_the_manifest": {
+   "ok": true,
+   "detail": "[]"
+  },
+  "manifest_contains_only_approved_kinds": {
+   "ok": true,
+   "detail": "0 []"
+  },
+  "none_is_opened_by_the_application": {
+   "ok": true,
+   "detail": "0 overlap"
+  },
+  "no_runtime_test_or_config_reference": {
+   "ok": true,
+   "detail": "{}"
+  },
+  "test_and_importer_inputs_exist_and_are_outside_the_manifest": {
+   "ok": true,
+   "detail": "ok"
+  },
+  "production_integrity_ok": {
+   "ok": true,
+   "detail": ""
+  },
+  "two_saved_simulations_unchanged": {
+   "ok": true,
+   "detail": "33fbf4afae52"
+  },
+  "rollback_backup_hash_matches_its_note": {
+   "ok": true,
+   "detail": "afe71c445bfe"
+  },
+  "rollback_backup_integrity_ok": {
+   "ok": true,
+   "detail": ""
+  },
+  "before_sync_baseline_exists": {
+   "ok": true,
+   "detail": ""
+  },
+  "code_rollback_snapshots_exist": {
+   "ok": true,
+   "detail": ""
+  }
+ },
+ "problems": [],
+ "code_references": {
+  "pytest_baseline": [],
+  "chrome-profile": [],
+  "production-build": [],
+  "live_test_copy": [],
+  "demo.sqlite": [],
+  "preview.sqlite": [],
+  "tests.sqlite": [],
+  "footiq.20261027": [],
+  "pre_import_20261028": [],
+  "p422_after_domestic": [],
+  "rehearsal/": [
+   "app/store/rehearse_openligadb.py"
+  ]
+ },
+ "production_sha256": "376afad6e428e5244b3a92f6388486148e1e51da0069f31153c49d84d04ca6e5",
+ "simulations": {
+  "rows": [
+   [
+    1,
+    "BUNDESLIGA",
+    10000
+   ],
+   [
+    2,
+    "LALIGA",
+    10000
+   ]
+  ],
+  "sha": "33fbf4afae52d531639daff2ce57c68cd4e73908c4b802db425f2baa8cb99c01"
+ },
+ "backup_sha256": "afe71c445bfeddcb5cca6276e448e4faee460b774b70434381820f21974cb17c"
+}

@@ -1,0 +1,13 @@
+date,fixture,predicted_qualifier,actual_qualifier,correct
+2026-06-29,Brazil v Japan,Brazil,Brazil,true
+2026-06-29,Germany v Paraguay,Germany,Paraguay,false
+2026-06-29,Netherlands v Morocco,Morocco,Morocco,true
+2026-06-30,Ivory Coast v Norway,Norway,Norway,true
+2026-06-30,France v Sweden,France,France,true
+2026-06-30,Mexico v Ecuador,Mexico,Mexico,true
+2026-07-01,England v DR Congo,England,England,true
+2026-07-01,Belgium v Senegal,Belgium,Belgium,true
+2026-07-01,USA v Bosnia & Herzegovina,USA,USA,true
+2026-07-02,Spain v Austria,Spain,Spain,true
+2026-07-02,Portugal v Croatia,Portugal,Portugal,true
+2026-07-02,Switzerland v Algeria,Switzerland,Switzerland,true

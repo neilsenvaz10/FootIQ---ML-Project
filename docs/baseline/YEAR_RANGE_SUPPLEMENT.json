@@ -1,0 +1,57 @@
+[
+  {
+    "path": "data/raw/statsbomb/competitions.json",
+    "year_fields": {
+      "season_name": {
+        "min": 1958,
+        "max": 2025,
+        "values": 22
+      }
+    },
+    "note": "Year-only values supplement ISO dates; no invented day or retrieval date."
+  },
+  {
+    "path": "data/raw/statsbomb/matches/43/106.json",
+    "year_fields": {
+      "season_name": {
+        "min": 2022,
+        "max": 2022,
+        "values": 64
+      }
+    },
+    "note": "Year-only values supplement ISO dates; no invented day or retrieval date."
+  },
+  {
+    "path": "data/raw/statsbomb/matches/43/3.json",
+    "year_fields": {
+      "season_name": {
+        "min": 2018,
+        "max": 2018,
+        "values": 64
+      }
+    },
+    "note": "Year-only values supplement ISO dates; no invented day or retrieval date."
+  },
+  {
+    "path": "data/raw/worldbank/gdp_per_capita_all.json",
+    "year_fields": {
+      "date": {
+        "min": 1960,
+        "max": 2025,
+        "values": 17556
+      }
+    },
+    "note": "Year-only values supplement ISO dates; no invented day or retrieval date."
+  },
+  {
+    "path": "data/raw/worldbank/population_all.json",
+    "year_fields": {
+      "date": {
+        "min": 1960,
+        "max": 2025,
+        "values": 17556
+      }
+    },
+    "note": "Year-only values supplement ISO dates; no invented day or retrieval date."
+  }
+]

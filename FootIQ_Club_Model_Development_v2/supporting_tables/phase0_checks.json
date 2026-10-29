@@ -1,0 +1,67 @@
+{
+ "checks": [
+  {
+   "check": "v1 artifacts match the v1 manifest hashes (model pickle byte-identical; text files identical up to git line-ending normalisation)",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "v1 output files match the v1 manifest hashes (up to line-ending normalisation)",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "check": "v1 dataset hash unchanged",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "v1 feature contract has 25 features",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "v1.1 split manifest rows 59,356 / 22,578 / 26,000 / 8,920",
+   "passed": true,
+   "detail": "[59356, 22578, 26000, 8920]"
+  },
+  {
+   "check": "on branch feat/club-ml-v2",
+   "passed": true,
+   "detail": "feat/club-ml-v2"
+  },
+  {
+   "check": "local main equals origin/main and contains the merged baseline v1",
+   "passed": true,
+   "detail": "f8a2068c10"
+  },
+  {
+   "check": "working tree: only untracked docs and the new v2 folder, nothing modified or staged",
+   "passed": true,
+   "detail": "['FootIQ_Club_Model_Development_v2/', 'docs/baseline/', 'docs/data-sources/']"
+  },
+  {
+   "check": "verified results universe present (derived from CC0 openfootball by the v1.1 pipeline)",
+   "passed": true,
+   "detail": "1c4d758b01d3d30a"
+  },
+  {
+   "check": "xgboost installed",
+   "passed": true,
+   "detail": "NOT installed - not installed by this task, algorithm skipped"
+  },
+  {
+   "check": "lightgbm installed",
+   "passed": true,
+   "detail": "NOT installed - not installed by this task, algorithm skipped"
+  },
+  {
+   "check": "catboost installed",
+   "passed": true,
+   "detail": "NOT installed - not installed by this task, algorithm skipped"
+  }
+ ],
+ "universe_sha256": "1c4d758b01d3d30acba6f059c17de1f12d31aa7de9a6849ad81bcfc4a300ebd9",
+ "branch": "feat/club-ml-v2",
+ "main_commit": "f8a2068c10833490a2283d7cf587881e10935e8c"
+}

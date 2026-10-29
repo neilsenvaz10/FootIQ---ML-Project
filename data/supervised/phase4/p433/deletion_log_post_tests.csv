@@ -1,0 +1,17 @@
+timestamp_utc,group,path,bytes,status
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-0/.lock,5,deleted
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-0/store0/base.sqlite,228200448,deleted
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-0/store0/base.sqlite-shm,32768,deleted
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-0/store0/base.sqlite-wal,0,deleted
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-0/test_results_added_by_a_sync_n0/work.sqlite,228200448,deleted
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-0/test_results_added_by_a_sync_n0/work.sqlite-shm,32768,deleted
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-0/test_results_added_by_a_sync_n0/work.sqlite-wal,671592,deleted
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/p429/simcurrent,0,link unlinked
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-current,0,link unlinked
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-0/storecurrent,0,link unlinked
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-0/test_results_added_by_a_sync_ncurrent,0,link unlinked
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-0/test_baseline_import_is_idempocurrent,0,link unlinked
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-0/test_conflicting_score_is_quarcurrent,0,link unlinked
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-0/test_replay_never_creates_a_securrent,0,link unlinked
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-0/test_replay_recovers_the_18_micurrent,0,link unlinked
+2026-10-28T16:31:36Z,S2-regenerated,data/supervised/pytest_tmp/pytest-of-DELL/pytest-0/test_unresolved_team_and_missicurrent,0,link unlinked

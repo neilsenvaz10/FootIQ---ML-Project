@@ -1,0 +1,685 @@
+{
+ "split": "2024-07-01",
+ "fit_matches": 10781,
+ "eval_matches": 3809,
+ "probabilities": "p1",
+ "tolerance": {
+  "margin": 0.1,
+  "share": 0.05
+ },
+ "leagues": {
+  "EPL": {
+   "n": 820,
+   "actual": {
+    "mean_margin_home_win": 1.8441176470588236,
+    "mean_margin_away_win": 1.7424242424242424,
+    "share_one_goal_home_win": 0.4647058823529412,
+    "share_one_goal_away_win": 0.5416666666666666,
+    "share_00_in_draws": 0.2222222222222222,
+    "share_11_in_draws": 0.4537037037037037,
+    "share_22plus_in_draws": 0.32407407407407407,
+    "mean_total_goals": 2.85
+   },
+   "actual_95ci": {
+    "mean_margin_home_win": [
+     1.7391828297069694,
+     1.9590513811792678
+    ],
+    "mean_margin_away_win": [
+     1.6202061994006351,
+     1.8669715769609725
+    ],
+    "share_one_goal_home_win": [
+     0.4146973513162171,
+     0.5191082802547771
+    ],
+    "share_one_goal_away_win": [
+     0.4795011459876457,
+     0.6036380471380471
+    ]
+   },
+   "methods": {
+    "S1": {
+     "model": {
+      "mean_margin_home_win": 1.9998114830731342,
+      "mean_margin_away_win": 1.7346481120600177,
+      "share_one_goal_home_win": 0.4410258607496038,
+      "share_one_goal_away_win": 0.5354331128410965,
+      "share_00_in_draws": 0.24122252701473734,
+      "share_11_in_draws": 0.45436749997032205,
+      "share_22plus_in_draws": 0.3044099730149406,
+      "mean_total_goals": 3.0006487938071795
+     },
+     "deviation": {
+      "mean_margin_home_win": 0.15569383601431053,
+      "mean_margin_away_win": -0.007776130364224754,
+      "share_one_goal_home_win": -0.023680021603337376,
+      "share_one_goal_away_win": -0.006233553825570115,
+      "share_00_in_draws": 0.019000304792515132,
+      "share_11_in_draws": 0.0006637962666183328,
+      "share_22plus_in_draws": -0.019664101059133465,
+      "mean_total_goals": 0.15064879380717944
+     },
+     "C1_margin_ok": false,
+     "C2_one_goal_share_ok": true,
+     "passes": false,
+     "mean_log_score_of_actual_scoreline": 2.991021582166103,
+     "info": {
+      "method": "S1 conditional Poisson",
+      "fallback_fixtures": 0,
+      "missing_expected_goals": 0
+     }
+    },
+    "S2": {
+     "model": {
+      "mean_margin_home_win": 1.9407905134158645,
+      "mean_margin_away_win": 1.7858265795545334,
+      "share_one_goal_home_win": 0.4561923093111446,
+      "share_one_goal_away_win": 0.5136453693045395,
+      "share_00_in_draws": 0.2553105042545047,
+      "share_11_in_draws": 0.4631838579839405,
+      "share_22plus_in_draws": 0.281505637761555,
+      "mean_total_goals": 2.9033100496881263
+     },
+     "deviation": {
+      "mean_margin_home_win": 0.09667286635704087,
+      "mean_margin_away_win": 0.04340233713029096,
+      "share_one_goal_home_win": -0.008513573041796618,
+      "share_one_goal_away_win": -0.028021297362127107,
+      "share_00_in_draws": 0.03308828203228248,
+      "share_11_in_draws": 0.009480154280236797,
+      "share_22plus_in_draws": -0.04256843631251905,
+      "mean_total_goals": 0.05331004968812625
+     },
+     "C1_margin_ok": true,
+     "C2_one_goal_share_ok": true,
+     "passes": true,
+     "mean_log_score_of_actual_scoreline": 2.95427499645268,
+     "info": {
+      "method": "S2 outcome-matched Poisson",
+      "fallback_fixtures": 0,
+      "fallback_to": "S1",
+      "missing_expected_goals": 0
+     }
+    },
+    "S3": {
+     "model": {
+      "mean_margin_home_win": 1.9569371271753402,
+      "mean_margin_away_win": 1.8345361071886197,
+      "share_one_goal_home_win": 0.44551996536965144,
+      "share_one_goal_away_win": 0.4955289915766129,
+      "share_00_in_draws": 0.2608308954004707,
+      "share_11_in_draws": 0.4727055437972154,
+      "share_22plus_in_draws": 0.2664635608023138,
+      "mean_total_goals": 2.8487220645974736
+     },
+     "deviation": {
+      "mean_margin_home_win": 0.11281948011651655,
+      "mean_margin_away_win": 0.09211186476437727,
+      "share_one_goal_home_win": -0.019185916983289752,
+      "share_one_goal_away_win": -0.04613767509005373,
+      "share_00_in_draws": 0.03860867317824851,
+      "share_11_in_draws": 0.01900184009351169,
+      "share_22plus_in_draws": -0.057610513271760255,
+      "mean_total_goals": -0.00127793540252652
+     },
+     "C1_margin_ok": false,
+     "C2_one_goal_share_ok": true,
+     "passes": false,
+     "mean_log_score_of_actual_scoreline": 3.0405908300253315,
+     "info": {
+      "method": "S3 empirical conditional bootstrap",
+      "fallback_fixtures": 0,
+      "missing_expected_goals": 0
+     }
+    }
+   }
+  },
+  "LALIGA": {
+   "n": 849,
+   "actual": {
+    "mean_margin_home_win": 1.7614213197969544,
+    "mean_margin_away_win": 1.5791666666666666,
+    "share_one_goal_home_win": 0.5532994923857868,
+    "share_one_goal_away_win": 0.6166666666666667,
+    "share_00_in_draws": 0.20465116279069767,
+    "share_11_in_draws": 0.5953488372093023,
+    "share_22plus_in_draws": 0.2,
+    "mean_total_goals": 2.700824499411072
+   },
+   "actual_95ci": {
+    "mean_margin_home_win": [
+     1.65978181220942,
+     1.868033714480088
+    ],
+    "mean_margin_away_win": [
+     1.4667730198200835,
+     1.693049199084668
+    ],
+    "share_one_goal_home_win": [
+     0.5074789562289562,
+     0.6048413129954497
+    ],
+    "share_one_goal_away_win": [
+     0.5521245852977126,
+     0.6828322320117474
+    ]
+   },
+   "methods": {
+    "S1": {
+     "model": {
+      "mean_margin_home_win": 1.9032857383556872,
+      "mean_margin_away_win": 1.6671577450193373,
+      "share_one_goal_home_win": 0.4725094564012113,
+      "share_one_goal_away_win": 0.5630821594943097,
+      "share_00_in_draws": 0.3037545135718301,
+      "share_11_in_draws": 0.4534355495377844,
+      "share_22plus_in_draws": 0.24280993689038557,
+      "mean_total_goals": 2.7215576366898264
+     },
+     "deviation": {
+      "mean_margin_home_win": 0.14186441855873277,
+      "mean_margin_away_win": 0.08799107835267073,
+      "share_one_goal_home_win": -0.08079003598457551,
+      "share_one_goal_away_win": -0.053584507172356965,
+      "share_00_in_draws": 0.09910335078113242,
+      "share_11_in_draws": -0.1419132876715179,
+      "share_22plus_in_draws": 0.042809936890385564,
+      "mean_total_goals": 0.020733137278754477
+     },
+     "C1_margin_ok": false,
+     "C2_one_goal_share_ok": false,
+     "passes": false,
+     "mean_log_score_of_actual_scoreline": 2.808289642382858,
+     "info": {
+      "method": "S1 conditional Poisson",
+      "fallback_fixtures": 0,
+      "missing_expected_goals": 0
+     }
+    },
+    "S2": {
+     "model": {
+      "mean_margin_home_win": 1.8878707637233927,
+      "mean_margin_away_win": 1.7053440412290055,
+      "share_one_goal_home_win": 0.475781806193305,
+      "share_one_goal_away_win": 0.5469010591689051,
+      "share_00_in_draws": 0.32627074946153567,
+      "share_11_in_draws": 0.4652222325159611,
+      "share_22plus_in_draws": 0.2085070180225032,
+      "mean_total_goals": 2.583974270900172
+     },
+     "deviation": {
+      "mean_margin_home_win": 0.1264494439264383,
+      "mean_margin_away_win": 0.1261773745623389,
+      "share_one_goal_home_win": -0.07751768619248178,
+      "share_one_goal_away_win": -0.06976560749776162,
+      "share_00_in_draws": 0.121619586670838,
+      "share_11_in_draws": -0.1301266046933412,
+      "share_22plus_in_draws": 0.008507018022503199,
+      "mean_total_goals": -0.11685022851089988
+     },
+     "C1_margin_ok": false,
+     "C2_one_goal_share_ok": false,
+     "passes": false,
+     "mean_log_score_of_actual_scoreline": 2.8183686115167443,
+     "info": {
+      "method": "S2 outcome-matched Poisson",
+      "fallback_fixtures": 0,
+      "fallback_to": "S1",
+      "missing_expected_goals": 0
+     }
+    },
+    "S3": {
+     "model": {
+      "mean_margin_home_win": 1.7585692702141336,
+      "mean_margin_away_win": 1.6123987650988345,
+      "share_one_goal_home_win": 0.5304948263087731,
+      "share_one_goal_away_win": 0.5825984290199923,
+      "share_00_in_draws": 0.29510313900053836,
+      "share_11_in_draws": 0.478944473063426,
+      "share_22plus_in_draws": 0.22595238793603561,
+      "mean_total_goals": 2.572770673025118
+     },
+     "deviation": {
+      "mean_margin_home_win": -0.0028520495828208148,
+      "mean_margin_away_win": 0.0332320984321679,
+      "share_one_goal_home_win": -0.022804666077013702,
+      "share_one_goal_away_win": -0.03406823764667444,
+      "share_00_in_draws": 0.09045197620984069,
+      "share_11_in_draws": -0.1164043641458763,
+      "share_22plus_in_draws": 0.025952387936035604,
+      "mean_total_goals": -0.12805382638595386
+     },
+     "C1_margin_ok": true,
+     "C2_one_goal_share_ok": true,
+     "passes": true,
+     "mean_log_score_of_actual_scoreline": 2.9379864953773893,
+     "info": {
+      "method": "S3 empirical conditional bootstrap",
+      "fallback_fixtures": 0,
+      "missing_expected_goals": 0
+     }
+    }
+   }
+  },
+  "BUNDESLIGA": {
+   "n": 673,
+   "actual": {
+    "mean_margin_home_win": 2.11660777385159,
+    "mean_margin_away_win": 1.8266666666666667,
+    "share_one_goal_home_win": 0.4204946996466431,
+    "share_one_goal_away_win": 0.49777777777777776,
+    "share_00_in_draws": 0.23636363636363636,
+    "share_11_in_draws": 0.37575757575757573,
+    "share_22plus_in_draws": 0.3878787878787879,
+    "mean_total_goals": 3.2184249628528976
+   },
+   "actual_95ci": {
+    "mean_margin_home_win": [
+     1.9587222456570923,
+     2.2628166984026237
+    ],
+    "mean_margin_away_win": [
+     1.7018310076324106,
+     1.9687509717543403
+    ],
+    "share_one_goal_home_win": [
+     0.3652477132165688,
+     0.4806550108750209
+    ],
+    "share_one_goal_away_win": [
+     0.43675095785440615,
+     0.5617716633466134
+    ]
+   },
+   "methods": {
+    "S1": {
+     "model": {
+      "mean_margin_home_win": 2.0802811848590723,
+      "mean_margin_away_win": 1.8338650201023974,
+      "share_one_goal_home_win": 0.42040373477929016,
+      "share_one_goal_away_win": 0.5007752815366048,
+      "share_00_in_draws": 0.19544793972644958,
+      "share_11_in_draws": 0.43624368848288464,
+      "share_22plus_in_draws": 0.36830837179066583,
+      "mean_total_goals": 3.3151840665851164
+     },
+     "deviation": {
+      "mean_margin_home_win": -0.03632658899251773,
+      "mean_margin_away_win": 0.00719835343573072,
+      "share_one_goal_home_win": -9.09648673529384e-05,
+      "share_one_goal_away_win": 0.0029975037588270137,
+      "share_00_in_draws": -0.04091569663718678,
+      "share_11_in_draws": 0.060486112725308905,
+      "share_22plus_in_draws": -0.019570416088122045,
+      "mean_total_goals": 0.09675910373221885
+     },
+     "C1_margin_ok": true,
+     "C2_one_goal_share_ok": true,
+     "passes": true,
+     "mean_log_score_of_actual_scoreline": 3.137557887288886,
+     "info": {
+      "method": "S1 conditional Poisson",
+      "fallback_fixtures": 0,
+      "missing_expected_goals": 0
+     }
+    },
+    "S2": {
+     "model": {
+      "mean_margin_home_win": 1.981585424017965,
+      "mean_margin_away_win": 1.8168323369546264,
+      "share_one_goal_home_win": 0.44670091103383974,
+      "share_one_goal_away_win": 0.506084188894729,
+      "share_00_in_draws": 0.2566838169348898,
+      "share_11_in_draws": 0.4627695485469163,
+      "share_22plus_in_draws": 0.28054663451819384,
+      "mean_total_goals": 2.932230441694018
+     },
+     "deviation": {
+      "mean_margin_home_win": -0.13502234983362515,
+      "mean_margin_away_win": -0.009834329712040235,
+      "share_one_goal_home_win": 0.026206211387196643,
+      "share_one_goal_away_win": 0.008306411116951185,
+      "share_00_in_draws": 0.020320180571253427,
+      "share_11_in_draws": 0.08701197278934059,
+      "share_22plus_in_draws": -0.10733215336059404,
+      "mean_total_goals": -0.28619452115887967
+     },
+     "C1_margin_ok": false,
+     "C2_one_goal_share_ok": true,
+     "passes": false,
+     "mean_log_score_of_actual_scoreline": 3.156681894704824,
+     "info": {
+      "method": "S2 outcome-matched Poisson",
+      "fallback_fixtures": 0,
+      "fallback_to": "S1",
+      "missing_expected_goals": 0
+     }
+    },
+    "S3": {
+     "model": {
+      "mean_margin_home_win": 2.2019449706053797,
+      "mean_margin_away_win": 1.9273635249202008,
+      "share_one_goal_home_win": 0.3810041650775867,
+      "share_one_goal_away_win": 0.45985317672132586,
+      "share_00_in_draws": 0.19933884097575807,
+      "share_11_in_draws": 0.5145645117617338,
+      "share_22plus_in_draws": 0.2860966472625082,
+      "mean_total_goals": 3.1797943111444646
+     },
+     "deviation": {
+      "mean_margin_home_win": 0.0853371967537897,
+      "mean_margin_away_win": 0.10069685825353414,
+      "share_one_goal_home_win": -0.03949053456905638,
+      "share_one_goal_away_win": -0.0379246010564519,
+      "share_00_in_draws": -0.037024795387878284,
+      "share_11_in_draws": 0.13880693600415805,
+      "share_22plus_in_draws": -0.10178214061627966,
+      "mean_total_goals": -0.03863065170843294
+     },
+     "C1_margin_ok": false,
+     "C2_one_goal_share_ok": true,
+     "passes": false,
+     "mean_log_score_of_actual_scoreline": 3.2941028088818616,
+     "info": {
+      "method": "S3 empirical conditional bootstrap",
+      "fallback_fixtures": 0,
+      "missing_expected_goals": 0
+     }
+    }
+   }
+  },
+  "SERIEA": {
+   "n": 810,
+   "actual": {
+    "mean_margin_home_win": 1.7165109034267914,
+    "mean_margin_away_win": 1.6666666666666667,
+    "share_one_goal_home_win": 0.5700934579439252,
+    "share_one_goal_away_win": 0.5824175824175825,
+    "share_00_in_draws": 0.2962962962962963,
+    "share_11_in_draws": 0.4444444444444444,
+    "share_22plus_in_draws": 0.25925925925925924,
+    "mean_total_goals": 2.5185185185185186
+   },
+   "actual_95ci": {
+    "mean_margin_home_win": [
+     1.5987644491625383,
+     1.827949832425639
+    ],
+    "mean_margin_away_win": [
+     1.5655754851344135,
+     1.793103448275862
+    ],
+    "share_one_goal_home_win": [
+     0.5172084339995607,
+     0.6286827070173064
+    ],
+    "share_one_goal_away_win": [
+     0.5258852054420756,
+     0.6364292746964226
+    ]
+   },
+   "methods": {
+    "S1": {
+     "model": {
+      "mean_margin_home_win": 1.7875712814749252,
+      "mean_margin_away_win": 1.6572136379558626,
+      "share_one_goal_home_win": 0.5104837666406359,
+      "share_one_goal_away_win": 0.5648610246461467,
+      "share_00_in_draws": 0.3560778020527749,
+      "share_11_in_draws": 0.45292589249048726,
+      "share_22plus_in_draws": 0.19099630545673787,
+      "mean_total_goals": 2.467884523029489
+     },
+     "deviation": {
+      "mean_margin_home_win": 0.07106037804813381,
+      "mean_margin_away_win": -0.009453028710804112,
+      "share_one_goal_home_win": -0.0596096913032893,
+      "share_one_goal_away_win": -0.01755655777143572,
+      "share_00_in_draws": 0.059781505756478615,
+      "share_11_in_draws": 0.008481448046042839,
+      "share_22plus_in_draws": -0.06826295380252137,
+      "mean_total_goals": -0.050633995489029804
+     },
+     "C1_margin_ok": true,
+     "C2_one_goal_share_ok": false,
+     "passes": false,
+     "mean_log_score_of_actual_scoreline": 2.789677582858969,
+     "info": {
+      "method": "S1 conditional Poisson",
+      "fallback_fixtures": 0,
+      "missing_expected_goals": 0
+     }
+    },
+    "S2": {
+     "model": {
+      "mean_margin_home_win": 1.8797162098358555,
+      "mean_margin_away_win": 1.7046979888947342,
+      "share_one_goal_home_win": 0.4765934026306895,
+      "share_one_goal_away_win": 0.5453388308687421,
+      "share_00_in_draws": 0.3418222323367208,
+      "share_11_in_draws": 0.4631222477649341,
+      "share_22plus_in_draws": 0.1950555198983451,
+      "mean_total_goals": 2.5244956097251134
+     },
+     "deviation": {
+      "mean_margin_home_win": 0.16320530640906417,
+      "mean_margin_away_win": 0.03803132222806749,
+      "share_one_goal_home_win": -0.09350005531323569,
+      "share_one_goal_away_win": -0.03707875154884033,
+      "share_00_in_draws": 0.04552593604042454,
+      "share_11_in_draws": 0.018677803320489683,
+      "share_22plus_in_draws": -0.06420373936091414,
+      "mean_total_goals": 0.005977091206594842
+     },
+     "C1_margin_ok": false,
+     "C2_one_goal_share_ok": false,
+     "passes": false,
+     "mean_log_score_of_actual_scoreline": 2.763046256099708,
+     "info": {
+      "method": "S2 outcome-matched Poisson",
+      "fallback_fixtures": 0,
+      "fallback_to": "S1",
+      "missing_expected_goals": 0
+     }
+    },
+    "S3": {
+     "model": {
+      "mean_margin_home_win": 1.8264286356828237,
+      "mean_margin_away_win": 1.7007927167562007,
+      "share_one_goal_home_win": 0.5050701866815628,
+      "share_one_goal_away_win": 0.5520941515601333,
+      "share_00_in_draws": 0.24519468157382274,
+      "share_11_in_draws": 0.4667094384861292,
+      "share_22plus_in_draws": 0.2880958799400481,
+      "mean_total_goals": 2.810530376262199
+     },
+     "deviation": {
+      "mean_margin_home_win": 0.1099177322560323,
+      "mean_margin_away_win": 0.034126050089533955,
+      "share_one_goal_home_win": -0.0650232712623624,
+      "share_one_goal_away_win": -0.030323430857449152,
+      "share_00_in_draws": -0.05110161472247354,
+      "share_11_in_draws": 0.022264994041684805,
+      "share_22plus_in_draws": 0.02883662068078885,
+      "mean_total_goals": 0.29201185774368055
+     },
+     "C1_margin_ok": false,
+     "C2_one_goal_share_ok": false,
+     "passes": false,
+     "mean_log_score_of_actual_scoreline": 2.8395092945656675,
+     "info": {
+      "method": "S3 empirical conditional bootstrap",
+      "fallback_fixtures": 0,
+      "missing_expected_goals": 0
+     }
+    }
+   }
+  },
+  "LIGUE1": {
+   "n": 657,
+   "actual": {
+    "mean_margin_home_win": 1.8841059602649006,
+    "mean_margin_away_win": 1.8487804878048781,
+    "share_one_goal_home_win": 0.46357615894039733,
+    "share_one_goal_away_win": 0.47804878048780486,
+    "share_00_in_draws": 0.28,
+    "share_11_in_draws": 0.43333333333333335,
+    "share_22plus_in_draws": 0.2866666666666667,
+    "mean_total_goals": 2.894977168949772
+   },
+   "actual_95ci": {
+    "mean_margin_home_win": [
+     1.7681703855827584,
+     2.0132257727652463
+    ],
+    "mean_margin_away_win": [
+     1.7094601328903654,
+     1.995506912442396
+    ],
+    "share_one_goal_home_win": [
+     0.4112564480471629,
+     0.5131622807017544
+    ],
+    "share_one_goal_away_win": [
+     0.41113222731212085,
+     0.5450885804558789
+    ]
+   },
+   "methods": {
+    "S1": {
+     "model": {
+      "mean_margin_home_win": 1.9740784481870914,
+      "mean_margin_away_win": 1.761008890446719,
+      "share_one_goal_home_win": 0.4479857622421419,
+      "share_one_goal_away_win": 0.5240851185616536,
+      "share_00_in_draws": 0.23436355815692725,
+      "share_11_in_draws": 0.4509113834456293,
+      "share_22plus_in_draws": 0.3147250583974436,
+      "mean_total_goals": 3.035536485451376
+     },
+     "deviation": {
+      "mean_margin_home_win": 0.08997248792219081,
+      "mean_margin_away_win": -0.0877715973581592,
+      "share_one_goal_home_win": -0.015590396698255404,
+      "share_one_goal_away_win": 0.04603633807384877,
+      "share_00_in_draws": -0.04563644184307278,
+      "share_11_in_draws": 0.017578050112295962,
+      "share_22plus_in_draws": 0.0280583917307769,
+      "mean_total_goals": 0.14055931650160414
+     },
+     "C1_margin_ok": true,
+     "C2_one_goal_share_ok": true,
+     "passes": true,
+     "mean_log_score_of_actual_scoreline": 3.0576348135717994,
+     "info": {
+      "method": "S1 conditional Poisson",
+      "fallback_fixtures": 0,
+      "missing_expected_goals": 0
+     }
+    },
+    "S2": {
+     "model": {
+      "mean_margin_home_win": 1.908778521077601,
+      "mean_margin_away_win": 1.7414558398422135,
+      "share_one_goal_home_win": 0.4664206357393544,
+      "share_one_goal_away_win": 0.5318486530896496,
+      "share_00_in_draws": 0.29595755128860424,
+      "share_11_in_draws": 0.46695031459097064,
+      "share_22plus_in_draws": 0.23709213412042532,
+      "mean_total_goals": 2.710287003693585
+     },
+     "deviation": {
+      "mean_margin_home_win": 0.024672560812700306,
+      "mean_margin_away_win": -0.10732464796266461,
+      "share_one_goal_home_win": 0.002844476798957052,
+      "share_one_goal_away_win": 0.05379987260184471,
+      "share_00_in_draws": 0.01595755128860421,
+      "share_11_in_draws": 0.03361698125763729,
+      "share_22plus_in_draws": -0.04957453254624136,
+      "mean_total_goals": -0.18469016525618676
+     },
+     "C1_margin_ok": false,
+     "C2_one_goal_share_ok": false,
+     "passes": false,
+     "mean_log_score_of_actual_scoreline": 3.0334421531212987,
+     "info": {
+      "method": "S2 outcome-matched Poisson",
+      "fallback_fixtures": 0,
+      "fallback_to": "S1",
+      "missing_expected_goals": 0
+     }
+    },
+    "S3": {
+     "model": {
+      "mean_margin_home_win": 1.8934234939901222,
+      "mean_margin_away_win": 1.6857302036138087,
+      "share_one_goal_home_win": 0.489124724957479,
+      "share_one_goal_away_win": 0.5578270714972656,
+      "share_00_in_draws": 0.2860330799716054,
+      "share_11_in_draws": 0.47187172758438445,
+      "share_22plus_in_draws": 0.2420951924440102,
+      "mean_total_goals": 2.751198850059738
+     },
+     "deviation": {
+      "mean_margin_home_win": 0.009317533725221594,
+      "mean_margin_away_win": -0.16305028419106948,
+      "share_one_goal_home_win": 0.025548566017081664,
+      "share_one_goal_away_win": 0.07977829100946077,
+      "share_00_in_draws": 0.0060330799716053485,
+      "share_11_in_draws": 0.0385383942510511,
+      "share_22plus_in_draws": -0.044571474222656476,
+      "mean_total_goals": -0.14377831889003367
+     },
+     "C1_margin_ok": false,
+     "C2_one_goal_share_ok": false,
+     "passes": false,
+     "mean_log_score_of_actual_scoreline": 3.1782459199354363,
+     "info": {
+      "method": "S3 empirical conditional bootstrap",
+      "fallback_fixtures": 0,
+      "missing_expected_goals": 0
+     }
+    }
+   }
+  }
+ },
+ "verdict": {
+  "S1": {
+   "per_league": {
+    "EPL": false,
+    "LALIGA": false,
+    "BUNDESLIGA": true,
+    "SERIEA": false,
+    "LIGUE1": true
+   },
+   "passes_every_league": false,
+   "passes_bundesliga_and_la_liga_only": false,
+   "mean_log_score": 2.9568363016537234
+  },
+  "S2": {
+   "per_league": {
+    "EPL": true,
+    "LALIGA": false,
+    "BUNDESLIGA": false,
+    "SERIEA": false,
+    "LIGUE1": false
+   },
+   "passes_every_league": false,
+   "passes_bundesliga_and_la_liga_only": false,
+   "mean_log_score": 2.945162782379051
+  },
+  "S3": {
+   "per_league": {
+    "EPL": false,
+    "LALIGA": true,
+    "BUNDESLIGA": false,
+    "SERIEA": false,
+    "LIGUE1": false
+   },
+   "passes_every_league": false,
+   "passes_bundesliga_and_la_liga_only": false,
+   "mean_log_score": 3.0580870697571374
+  }
+ }
+}

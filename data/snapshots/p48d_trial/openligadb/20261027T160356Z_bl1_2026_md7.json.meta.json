@@ -1,0 +1,18 @@
+{
+ "url": "https://api.openligadb.de/getmatchdata/bl1/2026/7",
+ "status": 200,
+ "retrieved_utc": "2026-10-27T16:03:56Z",
+ "headers": {
+  "Content-Type": "application/json; charset=utf-8",
+  "Date": "Tue, 27 Oct 2026 16:03:54 GMT"
+ },
+ "last_change_date": "2026-10-25T19:26:44.59",
+ "source": "openligadb",
+ "licence": "ODbL-1.0",
+ "attribution": "Daten von OpenLigaDB (www.openligadb.de), lizenziert unter ODbL 1.0",
+ "snapshot_id": "20261027T160356Z_bl1_2026_md7.json",
+ "sha256": "6776eeb58d8843ad723d8dc39d43caa1b5787e3612b5fd9c0285c28b73d9962d",
+ "bytes": 15878,
+ "saved_utc": "2026-10-27T16:03:56Z",
+ "adapter_version": "1.0.0"
+}

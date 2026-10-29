@@ -1,0 +1,100 @@
+Supervisor experiment 2026-10-28 00:33:51Z
+
+== 1. an ORPHAN backend (no supervisor) is already running on 8123
+orphan healthy: True; listeners: 1
+status with no supervisor: 
+
+Supervisor            : NOT running
+Backend on port 8123   : answering (listener pid 16588), models ready: True
+Scheduler             : not scheduling here: FOOTIQ_DISABLE_SYNC=1
+  live sync / interval: True / 360 min, competitions BUNDESLIGA,LALIGA, mode full_season
+  scheduler threads   : 0 (lock: not_applicable), failed cycles in a row: 0
+  next scheduled check: 2026-10-27T23:00:36Z
+  last source check   : 2026-10-27T17:00:39Z; Source checked successfully at 2026-10-27T17:00:39Z: reachable, and it 
+returned no new results (the stored history is unchanged).
+Quarantine            : 57 sync finding(s) need the owner
+Operational reviewer  : project owner (daily: scripts\ops\footiq_service.ps1 audit)
+Supervisor log        : D:\Foot IQ\data\supervised\phase4\p414\work\logs\supervisor.log
+
+
+
+
+== 2. the supervisor (what the scheduled task runs: 'run') starts while the orphan is alive
+supervisor pid 26432 alive: True; backend processes on 8123 (python shim + child count): 2; listeners: 1
+2026-10-27T19:04:19Z [26432] supervisor started (port 8123, python D:\Foot IQ\.venv\Scripts\python.exe)
+2026-10-27T19:04:20Z [26432] port 8123 is already in use by process 16588: not starting a second backend, waiting 15 s
+2026-10-27T19:04:35Z [26432] port 8123 is already in use by process 16588: not starting a second backend, waiting 15 s
+
+status: 
+
+Supervisor            : running (pid 26432)
+Backend on port 8123   : answering (listener pid 16588), models ready: True
+Scheduler             : not scheduling here: FOOTIQ_DISABLE_SYNC=1
+  live sync / interval: True / 360 min, competitions BUNDESLIGA,LALIGA, mode full_season
+  scheduler threads   : 0 (lock: not_applicable), failed cycles in a row: 0
+  next scheduled check: 2026-10-27T23:00:36Z
+  last source check   : 2026-10-27T17:00:39Z; Source checked successfully at 2026-10-27T17:00:39Z: reachable, and it 
+returned no new results (the stored history is unchanged).
+Quarantine            : 57 sync finding(s) need the owner
+Operational reviewer  : project owner (daily: scripts\ops\footiq_service.ps1 audit)
+Supervisor log        : D:\Foot IQ\data\supervised\phase4\p414\work\logs\supervisor.log
+
+
+
+
+== 3. the orphan dies: the supervisor must take over within about 15 s, with ONE backend
+healthy again: True; listeners: 1
+2026-10-27T19:04:19Z [26432] supervisor started (port 8123, python D:\Foot IQ\.venv\Scripts\python.exe)
+2026-10-27T19:04:20Z [26432] port 8123 is already in use by process 16588: not starting a second backend, waiting 15 s
+2026-10-27T19:04:35Z [26432] port 8123 is already in use by process 16588: not starting a second backend, waiting 15 s
+2026-10-27T19:04:50Z [26432] backend started (pid 25348); logs D:\Foot IQ\data\supervised\phase4\p414\work\logs\backend-20261028-003450.out.log
+== 4. hard-kill ONLY the supervisor (TerminateProcess, no tree), the way the production supervisor disappeared
+supervisor alive: False; backend still answering: ok; pid file left behind: True; 'supervisor stopped' logged: False
+status now (the production state seen on 2026-10-28):
+
+Supervisor            : NOT running
+Backend on port 8123   : answering (listener pid 20848), models ready: False
+Scheduler             : not scheduling here: FOOTIQ_DISABLE_SYNC=1
+  live sync / interval: True / 360 min, competitions BUNDESLIGA,LALIGA, mode full_season
+  scheduler threads   : 0 (lock: not_applicable), failed cycles in a row: 0
+  next scheduled check: 2026-10-27T23:00:36Z
+  last source check   : 2026-10-27T17:00:39Z; Source checked successfully at 2026-10-27T17:00:39Z: reachable, and it 
+returned no new results (the stored history is unchanged).
+Quarantine            : 57 sync finding(s) need the owner
+Operational reviewer  : project owner (daily: scripts\ops\footiq_service.ps1 audit)
+Latest backend log    : D:\Foot IQ\data\supervised\phase4\p414\work\logs\backend-20261028-003450.err.log
+Supervisor log        : D:\Foot IQ\data\supervised\phase4\p414\work\logs\supervisor.log
+
+
+
+
+start while an unsupervised backend runs: 2026-10-27T19:05:09Z [22360] port 8123 is in use by process 20848 (not started by this supervisor): stop it first (for example the editor's preview server)
+== 5. a NEW supervisor adopts the surviving backend without a duplicate
+supervisor2 alive: True; listeners: 1; backend answering: ok
+2026-10-27T19:05:10Z [25728] supervisor started (port 8123, python D:\Foot IQ\.venv\Scripts\python.exe)
+2026-10-27T19:05:10Z [25728] port 8123 is already in use by process 20848: not starting a second backend, waiting 15 s
+2026-10-27T19:05:25Z [25728] port 8123 is already in use by process 20848: not starting a second backend, waiting 15 s
+status: 
+
+Supervisor            : running (pid 25728)
+Backend on port 8123   : answering (listener pid 20848), models ready: True
+Scheduler             : not scheduling here: FOOTIQ_DISABLE_SYNC=1
+  live sync / interval: True / 360 min, competitions BUNDESLIGA,LALIGA, mode full_season
+  scheduler threads   : 0 (lock: not_applicable), failed cycles in a row: 0
+  next scheduled check: 2026-10-27T23:00:36Z
+  last source check   : 2026-10-27T17:00:39Z; Source checked successfully at 2026-10-27T17:00:39Z: reachable, and it 
+returned no new results (the stored history is unchanged).
+Quarantine            : 57 sync finding(s) need the owner
+Operational reviewer  : project owner (daily: scripts\ops\footiq_service.ps1 audit)
+Latest backend log    : D:\Foot IQ\data\supervised\phase4\p414\work\logs\backend-20261028-003450.err.log
+Supervisor log        : D:\Foot IQ\data\supervised\phase4\p414\work\logs\supervisor.log
+
+
+
+
+== 6. cleanup (private port only)
+listeners on 8123 after cleanup: 0
+== 7. production untouched
+production hash unchanged: True
+production listener on 8000 unchanged: True (was 6688, now 6688)
+request ledger lines before/after: 7/7

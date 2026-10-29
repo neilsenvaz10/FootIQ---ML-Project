@@ -1,0 +1,241 @@
+{
+ "kind": "FINAL SUPERVISED TRIAL: 3 REAL full-season requests (mocked six-hour clock) + REPLAYED failure injection",
+ "started_utc": "2026-10-27T16:34:51Z",
+ "baseline_v3_check": {
+  "physical_equals": true,
+  "logical_equals": true,
+  "integrity": "ok",
+  "live_enabled_in_config": false
+ },
+ "private_copy": {
+  "path": "data\\supervised\\phase4\\p48d\\trial3_work\\trial.sqlite",
+  "differs_from_production": true,
+  "logical_equals_baseline_v3": true,
+  "snapshot_dir": "data\\snapshots\\p48d_trial2",
+  "manager_db_path_is_production": false,
+  "config_file_used_for_settings": false
+ },
+ "due_before_cycle_1": "2026-10-25T14:38:27Z",
+ "cycle_2_early_check": {
+  "at_mocked": "+5h59",
+  "outcome": "not_due",
+  "real_requests": 0
+ },
+ "restart_check": {
+  "at_mocked": "+6h30",
+  "outcome": "not_due",
+  "real_requests": 0,
+  "next_due": "2026-10-28T04:36:04Z",
+  "private_copy_file_unchanged": true
+ },
+ "cycles": [
+  {
+   "cycle": 1,
+   "kind": "startup_check",
+   "mocked_clock": "2026-10-27T16:35:04Z",
+   "outcome": "ok",
+   "error": null,
+   "real_request": {
+    "n": 1,
+    "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+    "requested_utc": "2026-10-27T16:35:15Z",
+    "status": 200,
+    "bytes": 316983,
+    "sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46",
+    "answered_utc": "2026-10-27T16:35:17Z"
+   },
+   "counts": {
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 243,
+    "confirmed": 63,
+    "quarantined": 0,
+    "requests": 1
+   },
+   "rows_changed": {},
+   "tables_changed": [
+    "source_snapshots",
+    "source_state"
+   ],
+   "sync_runs_added": 2,
+   "quarantine_added": 0,
+   "callbacks_total": 0,
+   "snapshot_file": "20261027T163517Z_bl1_2026_season.json",
+   "integrity": "ok",
+   "freshness": {
+    "state": "fresh",
+    "last_successful_external_check_utc": "2026-10-27T16:35:04Z",
+    "last_attempted_sync_utc": "2026-10-27T16:35:04Z",
+    "last_import_utc": "2026-10-27T14:16:53Z",
+    "latest_verified_result": "2026-10-25",
+    "awaiting_result": 0,
+    "reasons": []
+   },
+   "next_due": "2026-10-27T22:35:04Z",
+   "production_unchanged": true
+  },
+  {
+   "cycle": 2,
+   "kind": "periodic_check",
+   "mocked_clock": "2026-10-27T22:36:04Z",
+   "outcome": "ok",
+   "error": null,
+   "real_request": {
+    "n": 2,
+    "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+    "requested_utc": "2026-10-27T16:36:28Z",
+    "status": 200,
+    "bytes": 316983,
+    "sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46",
+    "answered_utc": "2026-10-27T16:36:30Z"
+   },
+   "counts": {
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 243,
+    "confirmed": 63,
+    "quarantined": 0,
+    "requests": 1
+   },
+   "rows_changed": {},
+   "tables_changed": [
+    "source_snapshots",
+    "source_state"
+   ],
+   "sync_runs_added": 2,
+   "quarantine_added": 0,
+   "callbacks_total": 0,
+   "snapshot_file": "20261027T163630Z_bl1_2026_season.json",
+   "integrity": "ok",
+   "freshness": {
+    "state": "fresh",
+    "last_successful_external_check_utc": "2026-10-27T22:36:04Z",
+    "last_attempted_sync_utc": "2026-10-27T22:36:04Z",
+    "last_import_utc": "2026-10-27T14:16:53Z",
+    "latest_verified_result": "2026-10-25",
+    "awaiting_result": 0,
+    "reasons": []
+   },
+   "next_due": "2026-10-28T04:36:04Z",
+   "production_unchanged": true
+  },
+  {
+   "cycle": 3,
+   "kind": "periodic_check",
+   "mocked_clock": "2026-10-28T04:37:04Z",
+   "outcome": "ok",
+   "error": null,
+   "real_request": {
+    "n": 3,
+    "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+    "requested_utc": "2026-10-27T16:37:41Z",
+    "status": 200,
+    "bytes": 316983,
+    "sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46",
+    "answered_utc": "2026-10-27T16:37:42Z"
+   },
+   "counts": {
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 243,
+    "confirmed": 63,
+    "quarantined": 0,
+    "requests": 1
+   },
+   "rows_changed": {},
+   "tables_changed": [
+    "source_snapshots",
+    "source_state"
+   ],
+   "sync_runs_added": 2,
+   "quarantine_added": 0,
+   "callbacks_total": 0,
+   "snapshot_file": "20261027T163742Z_bl1_2026_season.json",
+   "integrity": "ok",
+   "freshness": {
+    "state": "fresh",
+    "last_successful_external_check_utc": "2026-10-28T04:37:04Z",
+    "last_attempted_sync_utc": "2026-10-28T04:37:04Z",
+    "last_import_utc": "2026-10-27T14:16:53Z",
+    "latest_verified_result": "2026-10-25",
+    "awaiting_result": 0,
+    "reasons": []
+   },
+   "next_due": "2026-10-28T10:37:04Z",
+   "production_unchanged": true
+  }
+ ],
+ "stopped": null,
+ "real_requests_total": 3,
+ "real_request_ledger": [
+  {
+   "n": 1,
+   "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+   "requested_utc": "2026-10-27T16:35:15Z",
+   "status": 200,
+   "bytes": 316983,
+   "sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46",
+   "answered_utc": "2026-10-27T16:35:17Z"
+  },
+  {
+   "n": 2,
+   "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+   "requested_utc": "2026-10-27T16:36:28Z",
+   "status": 200,
+   "bytes": 316983,
+   "sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46",
+   "answered_utc": "2026-10-27T16:36:30Z"
+  },
+  {
+   "n": 3,
+   "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+   "requested_utc": "2026-10-27T16:37:41Z",
+   "status": 200,
+   "bytes": 316983,
+   "sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46",
+   "answered_utc": "2026-10-27T16:37:42Z"
+  }
+ ],
+ "replayed_provider_down": {
+  "outcome": "error",
+  "single_attempt": true,
+  "data_tables_unchanged": true,
+  "wait_hours": 12.0
+ },
+ "replayed_malformed": {
+  "outcome": "error",
+  "data_tables_unchanged": true,
+  "wait_hours": 24.0
+ },
+ "replayed_recovery": {
+  "outcome": "ok",
+  "changed": 0,
+  "next_due_after_hours": 6.0
+ },
+ "replayed_tamper": {
+  "outcome": "ok",
+  "new_quarantine_rows": 2,
+  "reasons": [
+   "DATE_DIFFERENCE: stored 2026-08-29 vs source 2026-08-30: RB Leipzig v Borussia Mönchenglad",
+   "CONFLICT: stored 5-1 vs source 6-1"
+  ],
+  "stored_scores_and_dates_unchanged": true
+ },
+ "replayed_overlap": {
+  "outcome": "skipped_already_running",
+  "requests": 0
+ },
+ "replayed_requests_total": 4,
+ "private_copy_integrity": "ok",
+ "provider_change_since_A1": {
+  "first_response_sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46",
+  "a1_sha256": "b725c2f3e30a3320f75da9891a2cfd2b5b93aed231da16aab253cf81a6bd6b46",
+  "matches_changed": []
+ },
+ "production_after": {
+  "physical_equals_v3": true,
+  "logical_equals_v3": true,
+  "integrity": "ok",
+  "live_enabled_in_config": false
+ }
+}

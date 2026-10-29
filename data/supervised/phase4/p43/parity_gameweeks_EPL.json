@@ -1,0 +1,26 @@
+{
+ "private_copy": "phase4_p43.sqlite",
+ "gameweeks": 35,
+ "payload_bytes_compared": 716280,
+ "differences": 0,
+ "first_differences": [],
+ "fixtures_by_status": {
+  "effective_awaiting_result": 10,
+  "effective_completed": 190,
+  "effective_scheduled": 150,
+  "stored_awaiting_result": 10,
+  "stored_completed": 190,
+  "stored_scheduled": 150
+ },
+ "form_lengths": {
+  "form_length_5": 700
+ },
+ "seconds_total": {
+  "old": 294.6,
+  "new": 18.1
+ },
+ "seconds_per_gameweek": {
+  "old": 8.42,
+  "new": 0.52
+ }
+}

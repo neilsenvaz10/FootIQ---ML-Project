@@ -1,0 +1,27 @@
+# Publication attributes from the verified eight-file LFS proposal.
+*.py   text eol=lf
+*.js   text eol=lf
+*.jsx  text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+*.ps1  text eol=crlf
+
+data/raw/** -text
+
+*.pkl  binary
+*.pdf  binary
+*.xlsx binary
+*.png  binary
+*.sqlite binary
+
+# Git LFS: explicit files only (8 files, 573.6 MiB). The same list as Phase 4.34/4.35.
+FootIQ_ML_Training_Preparation/_build/work/V_universe.pkl                                  filter=lfs diff=lfs merge=lfs -text
+FootIQ_Dataset_Submission/02_Historical_Club_Matches.csv                                   filter=lfs diff=lfs merge=lfs -text
+FootIQ_ML_Data_Readiness/04d_COMBINED_CLUB_MATCHES_v1.0.csv                                filter=lfs diff=lfs merge=lfs -text
+FootIQ_ML_Data_Readiness/08_TRAINING_READY_MATCH_DATASET_v1.0_extended.csv                 filter=lfs diff=lfs merge=lfs -text
+FootIQ_ML_Data_Readiness/04a_LEAGUE_RESULTS_v1.0.csv                                       filter=lfs diff=lfs merge=lfs -text
+FootIQ_ML_Data_Readiness/08_TRAINING_READY_MATCH_DATASET_v1.0_strict.csv                   filter=lfs diff=lfs merge=lfs -text
+FootIQ_ML_Training_Preparation/03_ROW_LEVEL_CORRECTION_AND_EXCLUSION_LOG_v1.1.csv          filter=lfs diff=lfs merge=lfs -text
+FootIQ_ML_Training_Preparation/01_CORRECTED_LEAGUE_TRAINING_DATASET_v1.1.csv               filter=lfs diff=lfs merge=lfs -text

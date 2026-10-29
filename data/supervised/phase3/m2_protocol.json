@@ -1,0 +1,801 @@
+{
+ "reps": 400,
+ "scenarios": {
+  "T0_model_exactly_true": {
+   "true_bias_of_the_model_vs_truth": {
+    "EPL": {
+     "margin_home": 0.0,
+     "margin_away": 0.0,
+     "share1_home": 0.0,
+     "share1_away": 0.0
+    },
+    "LALIGA": {
+     "margin_home": 0.0,
+     "margin_away": 0.0,
+     "share1_home": 0.0,
+     "share1_away": 0.0
+    },
+    "BUNDESLIGA": {
+     "margin_home": 0.0,
+     "margin_away": 0.0,
+     "share1_home": 0.0,
+     "share1_away": 0.0
+    },
+    "SERIEA": {
+     "margin_home": 0.0,
+     "margin_away": 0.0,
+     "share1_home": 0.0,
+     "share1_away": 0.0
+    },
+    "LIGUE1": {
+     "margin_home": 0.0,
+     "margin_away": 0.0,
+     "share1_home": 0.0,
+     "share1_away": 0.0
+    }
+   },
+   "acceptance_probability": {
+    "delta_A (0.15 goals, 0.06 share)": {
+     "P0_original_point_tolerance": {
+      "per_league": {
+       "EPL": 0.775,
+       "LALIGA": 0.802,
+       "BUNDESLIGA": 0.65,
+       "SERIEA": 0.812,
+       "LIGUE1": 0.675
+      },
+      "all_five": 0.242
+     },
+     "P1_equivalence_90CI": {
+      "per_league": {
+       "EPL": 0.105,
+       "LALIGA": 0.098,
+       "BUNDESLIGA": 0.007,
+       "SERIEA": 0.117,
+       "LIGUE1": 0.005
+      },
+      "all_five": 0.0
+     },
+     "P1b_equivalence_96.7CI_3_methods": {
+      "per_league": {
+       "EPL": 0.0,
+       "LALIGA": 0.0,
+       "BUNDESLIGA": 0.0,
+       "SERIEA": 0.0,
+       "LIGUE1": 0.0
+      },
+      "all_five": 0.0
+     },
+     "P2_Holm_nonrejection_plus_bound": {
+      "per_league": {
+       "EPL": 0.9,
+       "LALIGA": 0.93,
+       "BUNDESLIGA": 0.875,
+       "SERIEA": 0.925,
+       "LIGUE1": 0.87
+      },
+      "all_five": 0.59
+     }
+    },
+    "delta_B (0.20 goals, 0.08 share)": {
+     "P0_original_point_tolerance": {
+      "per_league": {
+       "EPL": 0.775,
+       "LALIGA": 0.802,
+       "BUNDESLIGA": 0.65,
+       "SERIEA": 0.812,
+       "LIGUE1": 0.675
+      },
+      "all_five": 0.242
+     },
+     "P1_equivalence_90CI": {
+      "per_league": {
+       "EPL": 0.557,
+       "LALIGA": 0.57,
+       "BUNDESLIGA": 0.307,
+       "SERIEA": 0.565,
+       "LIGUE1": 0.28
+      },
+      "all_five": 0.028
+     },
+     "P1b_equivalence_96.7CI_3_methods": {
+      "per_league": {
+       "EPL": 0.245,
+       "LALIGA": 0.235,
+       "BUNDESLIGA": 0.043,
+       "SERIEA": 0.247,
+       "LIGUE1": 0.04
+      },
+      "all_five": 0.0
+     },
+     "P2_Holm_nonrejection_plus_bound": {
+      "per_league": {
+       "EPL": 0.988,
+       "LALIGA": 0.995,
+       "BUNDESLIGA": 0.965,
+       "SERIEA": 0.99,
+       "LIGUE1": 0.965
+      },
+      "all_five": 0.905
+     }
+    },
+    "delta_C (0.25 goals, 0.10 share)": {
+     "P0_original_point_tolerance": {
+      "per_league": {
+       "EPL": 0.775,
+       "LALIGA": 0.802,
+       "BUNDESLIGA": 0.65,
+       "SERIEA": 0.812,
+       "LIGUE1": 0.675
+      },
+      "all_five": 0.242
+     },
+     "P1_equivalence_90CI": {
+      "per_league": {
+       "EPL": 0.863,
+       "LALIGA": 0.89,
+       "BUNDESLIGA": 0.715,
+       "SERIEA": 0.865,
+       "LIGUE1": 0.713
+      },
+      "all_five": 0.345
+     },
+     "P1b_equivalence_96.7CI_3_methods": {
+      "per_league": {
+       "EPL": 0.69,
+       "LALIGA": 0.705,
+       "BUNDESLIGA": 0.412,
+       "SERIEA": 0.682,
+       "LIGUE1": 0.393
+      },
+      "all_five": 0.072
+     },
+     "P2_Holm_nonrejection_plus_bound": {
+      "per_league": {
+       "EPL": 0.998,
+       "LALIGA": 0.995,
+       "BUNDESLIGA": 0.983,
+       "SERIEA": 0.995,
+       "LIGUE1": 0.98
+      },
+      "all_five": 0.95
+     }
+    },
+    "P3_pooled_equivalence_plus_league_screen (tolerances 0.10 goals / 0.05 share as practical margins)": {
+     "all_five_leagues": 0.85,
+     "bundesliga_and_la_liga": 0.117
+    }
+   }
+  },
+  "T1_true_spread_80pct_of_model": {
+   "true_bias_of_the_model_vs_truth": {
+    "EPL": {
+     "margin_home": 0.054,
+     "margin_away": 0.028,
+     "share1_home": -0.011,
+     "share1_away": -0.007
+    },
+    "LALIGA": {
+     "margin_home": 0.043,
+     "margin_away": 0.033,
+     "share1_home": -0.009,
+     "share1_away": -0.01
+    },
+    "BUNDESLIGA": {
+     "margin_home": 0.052,
+     "margin_away": 0.045,
+     "share1_home": -0.009,
+     "share1_away": -0.011
+    },
+    "SERIEA": {
+     "margin_home": 0.01,
+     "margin_away": 0.01,
+     "share1_home": 0.0,
+     "share1_away": -0.001
+    },
+    "LIGUE1": {
+     "margin_home": 0.056,
+     "margin_away": 0.042,
+     "share1_home": -0.013,
+     "share1_away": -0.013
+    }
+   },
+   "acceptance_probability": {
+    "delta_A (0.15 goals, 0.06 share)": {
+     "P0_original_point_tolerance": {
+      "per_league": {
+       "EPL": 0.645,
+       "LALIGA": 0.652,
+       "BUNDESLIGA": 0.505,
+       "SERIEA": 0.782,
+       "LIGUE1": 0.512
+      },
+      "all_five": 0.09
+     },
+     "P1_equivalence_90CI": {
+      "per_league": {
+       "EPL": 0.052,
+       "LALIGA": 0.058,
+       "BUNDESLIGA": 0.005,
+       "SERIEA": 0.098,
+       "LIGUE1": 0.007
+      },
+      "all_five": 0.0
+     },
+     "P1b_equivalence_96.7CI_3_methods": {
+      "per_league": {
+       "EPL": 0.0,
+       "LALIGA": 0.0,
+       "BUNDESLIGA": 0.0,
+       "SERIEA": 0.0,
+       "LIGUE1": 0.0
+      },
+      "all_five": 0.0
+     },
+     "P2_Holm_nonrejection_plus_bound": {
+      "per_league": {
+       "EPL": 0.873,
+       "LALIGA": 0.887,
+       "BUNDESLIGA": 0.79,
+       "SERIEA": 0.915,
+       "LIGUE1": 0.787
+      },
+      "all_five": 0.455
+     }
+    },
+    "delta_B (0.20 goals, 0.08 share)": {
+     "P0_original_point_tolerance": {
+      "per_league": {
+       "EPL": 0.645,
+       "LALIGA": 0.652,
+       "BUNDESLIGA": 0.505,
+       "SERIEA": 0.782,
+       "LIGUE1": 0.512
+      },
+      "all_five": 0.09
+     },
+     "P1_equivalence_90CI": {
+      "per_league": {
+       "EPL": 0.497,
+       "LALIGA": 0.522,
+       "BUNDESLIGA": 0.253,
+       "SERIEA": 0.54,
+       "LIGUE1": 0.27
+      },
+      "all_five": 0.007
+     },
+     "P1b_equivalence_96.7CI_3_methods": {
+      "per_league": {
+       "EPL": 0.195,
+       "LALIGA": 0.193,
+       "BUNDESLIGA": 0.022,
+       "SERIEA": 0.2,
+       "LIGUE1": 0.04
+      },
+      "all_five": 0.0
+     },
+     "P2_Holm_nonrejection_plus_bound": {
+      "per_league": {
+       "EPL": 0.955,
+       "LALIGA": 0.96,
+       "BUNDESLIGA": 0.95,
+       "SERIEA": 0.97,
+       "LIGUE1": 0.935
+      },
+      "all_five": 0.787
+     }
+    },
+    "delta_C (0.25 goals, 0.10 share)": {
+     "P0_original_point_tolerance": {
+      "per_league": {
+       "EPL": 0.645,
+       "LALIGA": 0.652,
+       "BUNDESLIGA": 0.505,
+       "SERIEA": 0.782,
+       "LIGUE1": 0.512
+      },
+      "all_five": 0.09
+     },
+     "P1_equivalence_90CI": {
+      "per_league": {
+       "EPL": 0.843,
+       "LALIGA": 0.853,
+       "BUNDESLIGA": 0.662,
+       "SERIEA": 0.855,
+       "LIGUE1": 0.637
+      },
+      "all_five": 0.285
+     },
+     "P1b_equivalence_96.7CI_3_methods": {
+      "per_league": {
+       "EPL": 0.647,
+       "LALIGA": 0.655,
+       "BUNDESLIGA": 0.37,
+       "SERIEA": 0.682,
+       "LIGUE1": 0.378
+      },
+      "all_five": 0.05
+     },
+     "P2_Holm_nonrejection_plus_bound": {
+      "per_league": {
+       "EPL": 0.96,
+       "LALIGA": 0.963,
+       "BUNDESLIGA": 0.968,
+       "SERIEA": 0.978,
+       "LIGUE1": 0.958
+      },
+      "all_five": 0.838
+     }
+    },
+    "P3_pooled_equivalence_plus_league_screen (tolerances 0.10 goals / 0.05 share as practical margins)": {
+     "all_five_leagues": 0.475,
+     "bundesliga_and_la_liga": 0.035
+    }
+   }
+  },
+  "T2_true_spread_60pct_of_model": {
+   "true_bias_of_the_model_vs_truth": {
+    "EPL": {
+     "margin_home": 0.101,
+     "margin_away": 0.052,
+     "share1_home": -0.023,
+     "share1_away": -0.014
+    },
+    "LALIGA": {
+     "margin_home": 0.08,
+     "margin_away": 0.062,
+     "share1_home": -0.018,
+     "share1_away": -0.02
+    },
+    "BUNDESLIGA": {
+     "margin_home": 0.096,
+     "margin_away": 0.083,
+     "share1_home": -0.017,
+     "share1_away": -0.022
+    },
+    "SERIEA": {
+     "margin_home": 0.016,
+     "margin_away": 0.018,
+     "share1_home": 0.001,
+     "share1_away": -0.002
+    },
+    "LIGUE1": {
+     "margin_home": 0.105,
+     "margin_away": 0.078,
+     "share1_home": -0.026,
+     "share1_away": -0.025
+    }
+   },
+   "acceptance_probability": {
+    "delta_A (0.15 goals, 0.06 share)": {
+     "P0_original_point_tolerance": {
+      "per_league": {
+       "EPL": 0.352,
+       "LALIGA": 0.445,
+       "BUNDESLIGA": 0.255,
+       "SERIEA": 0.78,
+       "LIGUE1": 0.255
+      },
+      "all_five": 0.005
+     },
+     "P1_equivalence_90CI": {
+      "per_league": {
+       "EPL": 0.025,
+       "LALIGA": 0.035,
+       "BUNDESLIGA": 0.003,
+       "SERIEA": 0.087,
+       "LIGUE1": 0.005
+      },
+      "all_five": 0.0
+     },
+     "P1b_equivalence_96.7CI_3_methods": {
+      "per_league": {
+       "EPL": 0.0,
+       "LALIGA": 0.0,
+       "BUNDESLIGA": 0.0,
+       "SERIEA": 0.0,
+       "LIGUE1": 0.0
+      },
+      "all_five": 0.0
+     },
+     "P2_Holm_nonrejection_plus_bound": {
+      "per_league": {
+       "EPL": 0.705,
+       "LALIGA": 0.775,
+       "BUNDESLIGA": 0.62,
+       "SERIEA": 0.91,
+       "LIGUE1": 0.598
+      },
+      "all_five": 0.175
+     }
+    },
+    "delta_B (0.20 goals, 0.08 share)": {
+     "P0_original_point_tolerance": {
+      "per_league": {
+       "EPL": 0.352,
+       "LALIGA": 0.445,
+       "BUNDESLIGA": 0.255,
+       "SERIEA": 0.78,
+       "LIGUE1": 0.255
+      },
+      "all_five": 0.005
+     },
+     "P1_equivalence_90CI": {
+      "per_league": {
+       "EPL": 0.302,
+       "LALIGA": 0.412,
+       "BUNDESLIGA": 0.128,
+       "SERIEA": 0.537,
+       "LIGUE1": 0.152
+      },
+      "all_five": 0.0
+     },
+     "P1b_equivalence_96.7CI_3_methods": {
+      "per_league": {
+       "EPL": 0.08,
+       "LALIGA": 0.142,
+       "BUNDESLIGA": 0.018,
+       "SERIEA": 0.215,
+       "LIGUE1": 0.025
+      },
+      "all_five": 0.0
+     },
+     "P2_Holm_nonrejection_plus_bound": {
+      "per_league": {
+       "EPL": 0.833,
+       "LALIGA": 0.85,
+       "BUNDESLIGA": 0.84,
+       "SERIEA": 0.98,
+       "LIGUE1": 0.833
+      },
+      "all_five": 0.477
+     }
+    },
+    "delta_C (0.25 goals, 0.10 share)": {
+     "P0_original_point_tolerance": {
+      "per_league": {
+       "EPL": 0.352,
+       "LALIGA": 0.445,
+       "BUNDESLIGA": 0.255,
+       "SERIEA": 0.78,
+       "LIGUE1": 0.255
+      },
+      "all_five": 0.005
+     },
+     "P1_equivalence_90CI": {
+      "per_league": {
+       "EPL": 0.72,
+       "LALIGA": 0.772,
+       "BUNDESLIGA": 0.48,
+       "SERIEA": 0.868,
+       "LIGUE1": 0.515
+      },
+      "all_five": 0.12
+     },
+     "P1b_equivalence_96.7CI_3_methods": {
+      "per_league": {
+       "EPL": 0.472,
+       "LALIGA": 0.573,
+       "BUNDESLIGA": 0.215,
+       "SERIEA": 0.672,
+       "LIGUE1": 0.255
+      },
+      "all_five": 0.005
+     },
+     "P2_Holm_nonrejection_plus_bound": {
+      "per_league": {
+       "EPL": 0.838,
+       "LALIGA": 0.858,
+       "BUNDESLIGA": 0.858,
+       "SERIEA": 0.983,
+       "LIGUE1": 0.848
+      },
+      "all_five": 0.502
+     }
+    },
+    "P3_pooled_equivalence_plus_league_screen (tolerances 0.10 goals / 0.05 share as practical margins)": {
+     "all_five_leagues": 0.077,
+     "bundesliga_and_la_liga": 0.007
+    }
+   }
+  },
+  "T3_true_spread_40pct_of_model": {
+   "true_bias_of_the_model_vs_truth": {
+    "EPL": {
+     "margin_home": 0.14,
+     "margin_away": 0.071,
+     "share1_home": -0.034,
+     "share1_away": -0.02
+    },
+    "LALIGA": {
+     "margin_home": 0.11,
+     "margin_away": 0.086,
+     "share1_home": -0.026,
+     "share1_away": -0.03
+    },
+    "BUNDESLIGA": {
+     "margin_home": 0.132,
+     "margin_away": 0.115,
+     "share1_home": -0.026,
+     "share1_away": -0.033
+    },
+    "SERIEA": {
+     "margin_home": 0.019,
+     "margin_away": 0.023,
+     "share1_home": 0.002,
+     "share1_away": -0.003
+    },
+    "LIGUE1": {
+     "margin_home": 0.147,
+     "margin_away": 0.11,
+     "share1_home": -0.039,
+     "share1_away": -0.036
+    }
+   },
+   "acceptance_probability": {
+    "delta_A (0.15 goals, 0.06 share)": {
+     "P0_original_point_tolerance": {
+      "per_league": {
+       "EPL": 0.14,
+       "LALIGA": 0.26,
+       "BUNDESLIGA": 0.085,
+       "SERIEA": 0.757,
+       "LIGUE1": 0.08
+      },
+      "all_five": 0.0
+     },
+     "P1_equivalence_90CI": {
+      "per_league": {
+       "EPL": 0.005,
+       "LALIGA": 0.013,
+       "BUNDESLIGA": 0.0,
+       "SERIEA": 0.092,
+       "LIGUE1": 0.0
+      },
+      "all_five": 0.0
+     },
+     "P1b_equivalence_96.7CI_3_methods": {
+      "per_league": {
+       "EPL": 0.0,
+       "LALIGA": 0.0,
+       "BUNDESLIGA": 0.0,
+       "SERIEA": 0.0,
+       "LIGUE1": 0.0
+      },
+      "all_five": 0.0
+     },
+     "P2_Holm_nonrejection_plus_bound": {
+      "per_league": {
+       "EPL": 0.492,
+       "LALIGA": 0.615,
+       "BUNDESLIGA": 0.378,
+       "SERIEA": 0.92,
+       "LIGUE1": 0.338
+      },
+      "all_five": 0.048
+     }
+    },
+    "delta_B (0.20 goals, 0.08 share)": {
+     "P0_original_point_tolerance": {
+      "per_league": {
+       "EPL": 0.14,
+       "LALIGA": 0.26,
+       "BUNDESLIGA": 0.085,
+       "SERIEA": 0.757,
+       "LIGUE1": 0.08
+      },
+      "all_five": 0.0
+     },
+     "P1_equivalence_90CI": {
+      "per_league": {
+       "EPL": 0.14,
+       "LALIGA": 0.25,
+       "BUNDESLIGA": 0.052,
+       "SERIEA": 0.557,
+       "LIGUE1": 0.052
+      },
+      "all_five": 0.0
+     },
+     "P1b_equivalence_96.7CI_3_methods": {
+      "per_league": {
+       "EPL": 0.04,
+       "LALIGA": 0.083,
+       "BUNDESLIGA": 0.0,
+       "SERIEA": 0.212,
+       "LIGUE1": 0.005
+      },
+      "all_five": 0.0
+     },
+     "P2_Holm_nonrejection_plus_bound": {
+      "per_league": {
+       "EPL": 0.625,
+       "LALIGA": 0.68,
+       "BUNDESLIGA": 0.645,
+       "SERIEA": 0.973,
+       "LIGUE1": 0.595
+      },
+      "all_five": 0.168
+     }
+    },
+    "delta_C (0.25 goals, 0.10 share)": {
+     "P0_original_point_tolerance": {
+      "per_league": {
+       "EPL": 0.14,
+       "LALIGA": 0.26,
+       "BUNDESLIGA": 0.085,
+       "SERIEA": 0.757,
+       "LIGUE1": 0.08
+      },
+      "all_five": 0.0
+     },
+     "P1_equivalence_90CI": {
+      "per_league": {
+       "EPL": 0.51,
+       "LALIGA": 0.637,
+       "BUNDESLIGA": 0.31,
+       "SERIEA": 0.863,
+       "LIGUE1": 0.287
+      },
+      "all_five": 0.022
+     },
+     "P1b_equivalence_96.7CI_3_methods": {
+      "per_league": {
+       "EPL": 0.26,
+       "LALIGA": 0.422,
+       "BUNDESLIGA": 0.12,
+       "SERIEA": 0.665,
+       "LIGUE1": 0.098
+      },
+      "all_five": 0.0
+     },
+     "P2_Holm_nonrejection_plus_bound": {
+      "per_league": {
+       "EPL": 0.625,
+       "LALIGA": 0.69,
+       "BUNDESLIGA": 0.662,
+       "SERIEA": 0.975,
+       "LIGUE1": 0.61
+      },
+      "all_five": 0.17
+     }
+    },
+    "P3_pooled_equivalence_plus_league_screen (tolerances 0.10 goals / 0.05 share as practical margins)": {
+     "all_five_leagues": 0.003,
+     "bundesliga_and_la_liga": 0.0
+    }
+   }
+  }
+ },
+ "analytic_sampling_noise": {
+  "EPL": {
+   "n": 820,
+   "standard_errors": {
+    "margin_home": 0.0632,
+    "margin_away": 0.0586,
+    "share1_home": 0.0262,
+    "share1_away": 0.0298
+   },
+   "tolerance_in_standard_errors": {
+    "margin_home": 1.58,
+    "margin_away": 1.71,
+    "share1_home": 1.91,
+    "share1_away": 1.68
+   },
+   "pass_probability_each_statistic": {
+    "margin_home": 0.886,
+    "margin_away": 0.912,
+    "share1_home": 0.944,
+    "share1_away": 0.906
+   },
+   "pass_probability_if_independent": 0.692
+  },
+  "LALIGA": {
+   "n": 849,
+   "standard_errors": {
+    "margin_home": 0.057,
+    "margin_away": 0.0586,
+    "share1_home": 0.0255,
+    "share1_away": 0.0302
+   },
+   "tolerance_in_standard_errors": {
+    "margin_home": 1.75,
+    "margin_away": 1.71,
+    "share1_home": 1.96,
+    "share1_away": 1.66
+   },
+   "pass_probability_each_statistic": {
+    "margin_home": 0.921,
+    "margin_away": 0.912,
+    "share1_home": 0.95,
+    "share1_away": 0.903
+   },
+   "pass_probability_if_independent": 0.72
+  },
+  "BUNDESLIGA": {
+   "n": 673,
+   "standard_errors": {
+    "margin_home": 0.0653,
+    "margin_away": 0.0738,
+    "share1_home": 0.0274,
+    "share1_away": 0.0345
+   },
+   "tolerance_in_standard_errors": {
+    "margin_home": 1.53,
+    "margin_away": 1.35,
+    "share1_home": 1.83,
+    "share1_away": 1.45
+   },
+   "pass_probability_each_statistic": {
+    "margin_home": 0.874,
+    "margin_away": 0.824,
+    "share1_home": 0.932,
+    "share1_away": 0.853
+   },
+   "pass_probability_if_independent": 0.573
+  },
+  "SERIEA": {
+   "n": 810,
+   "standard_errors": {
+    "margin_home": 0.0529,
+    "margin_away": 0.0582,
+    "share1_home": 0.0263,
+    "share1_away": 0.0322
+   },
+   "tolerance_in_standard_errors": {
+    "margin_home": 1.89,
+    "margin_away": 1.72,
+    "share1_home": 1.9,
+    "share1_away": 1.55
+   },
+   "pass_probability_each_statistic": {
+    "margin_home": 0.941,
+    "margin_away": 0.914,
+    "share1_home": 0.943,
+    "share1_away": 0.88
+   },
+   "pass_probability_if_independent": 0.714
+  },
+  "LIGUE1": {
+   "n": 657,
+   "standard_errors": {
+    "margin_home": 0.0695,
+    "margin_away": 0.0706,
+    "share1_home": 0.0289,
+    "share1_away": 0.0335
+   },
+   "tolerance_in_standard_errors": {
+    "margin_home": 1.44,
+    "margin_away": 1.42,
+    "share1_home": 1.73,
+    "share1_away": 1.49
+   },
+   "pass_probability_each_statistic": {
+    "margin_home": 0.85,
+    "margin_away": 0.843,
+    "share1_home": 0.916,
+    "share1_away": 0.864
+   },
+   "pass_probability_if_independent": 0.567
+  }
+ },
+ "analytic_all_five_pass_probability_if_independent": 0.116,
+ "bundesliga_la_liga_scope": {
+  "matches_in_scope": 1522,
+  "model exactly true": {
+   "margins 0.10 goals / 0.05 share": 0.115,
+   "margins 0.15 goals / 0.075 share": 0.79
+  },
+  "true spread 80% of model (margin bias about 0.05)": {
+   "margins 0.10 goals / 0.05 share": 0.052,
+   "margins 0.15 goals / 0.075 share": 0.655
+  },
+  "true spread 60% of model (margin bias about 0.09)": {
+   "margins 0.10 goals / 0.05 share": 0.005,
+   "margins 0.15 goals / 0.075 share": 0.26
+  },
+  "true spread 40% of model (margin bias about 0.12)": {
+   "margins 0.10 goals / 0.05 share": 0.0,
+   "margins 0.15 goals / 0.075 share": 0.055
+  }
+ }
+}

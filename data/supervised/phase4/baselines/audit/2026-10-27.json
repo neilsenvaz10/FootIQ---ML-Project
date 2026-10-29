@@ -1,0 +1,57 @@
+{
+ "generated_utc": "2026-10-27T18:55:39Z",
+ "verdict": "PASS",
+ "baseline_verdict": "EXPECTED_LOG_ONLY",
+ "operational_reviewer": "project owner",
+ "reviewer_assigned": "2026-10-27",
+ "quarantine_needing_review": 57,
+ "requests_last_24h": 6,
+ "items": [
+  {
+   "level": "OK",
+   "text": "database integrity_check ok, no foreign-key problems"
+  },
+  {
+   "level": "OK",
+   "text": "baseline monitor: EXPECTED_LOG_ONLY against checkpoint 2 (first supervised production cycle (log-only change: sync_runs 11-12, snapshot register, source state))"
+  },
+  {
+   "level": "OK",
+   "text": "BUNDESLIGA: last successful source check 1.9 h ago; Source checked successfully at 2026-10-27T17:00:39Z: reachable, and it returned no new results (the stored history is unchanged)."
+  },
+  {
+   "level": "OK",
+   "text": "BUNDESLIGA: no failed cycles in a row"
+  },
+  {
+   "level": "OK",
+   "text": "LALIGA: last successful source check 0.8 h ago; Source checked successfully at 2026-10-27T18:08:35Z: reachable, and it returned no new results (the stored history is unchanged)."
+  },
+  {
+   "level": "OK",
+   "text": "LALIGA: no failed cycles in a row"
+  },
+  {
+   "level": "OK",
+   "text": "scheduler: idle; next check 2026-10-27T23:00:36Z"
+  },
+  {
+   "level": "OK",
+   "text": "6 provider request(s) in the last 24 h"
+  },
+  {
+   "level": "INFO",
+   "text": "57 unresolved sync finding(s) are open ({'contradictory_record': 1, 'date_disagreement': 55, 'score_conflict': 1}); none is new since the last audit"
+  },
+  {
+   "level": "OK",
+   "text": "backend answering; exactly 1 scheduler thread (pid 6688); idle; next check 2026-10-27T23:00:36Z"
+  },
+  {
+   "level": "INFO",
+   "text": "7 verified backup file(s) kept; newest: footiq.20261027T180815Z.pre-laliga-import.sqlite"
+  }
+ ],
+ "owner_actions": [],
+ "rule": "This audit is read-only: it never approves a checkpoint, resolves a finding or changes data. An ALERT means: set live_enabled=false, restart, keep the evidence."
+}

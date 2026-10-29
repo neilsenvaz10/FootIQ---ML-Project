@@ -1,0 +1,43 @@
+{
+ "started_utc": "2026-10-27T16:59:02Z",
+ "execute": false,
+ "preconditions": {
+  "path": "D:\\Foot IQ\\data\\footiq.sqlite",
+  "bytes": 228663296,
+  "physical_sha256": "1bfad5bd4663e70776ef9da35f5c89eeed11b1ed7274ee7fdb562e266a9cb278",
+  "logical_sha256": "b3dcf8c0d04aa4538da77f4dc21c267b6414bb7e3c61692ad24a0ec4c2c1d95f",
+  "integrity_check": "ok",
+  "physical_equals_v3": true,
+  "logical_equals_v3": true,
+  "config_live_enabled": false,
+  "enabled_competitions": [
+   "BUNDESLIGA"
+  ],
+  "git_staged": [],
+  "git_head": "970f461 Mini Project Scope Update",
+  "application_processes": [],
+  "exclusive_lock_available": true,
+  "forecasts": 0,
+  "forecast_runs": 0,
+  "frozen_files_changed_vs_recorded": [
+   "config/sync.json"
+  ],
+  "prospective_evaluation_files_in_manifest_changed": [],
+  "failed": []
+ },
+ "backup": {
+  "path": "data\\backups\\footiq.20261027T165926Z.pre-activation.sqlite",
+  "bytes": 228663296,
+  "physical_sha256": "a5f319c4e91c78533d6af05c64e45d76575d6cfec121b8ef4e688201193cd23c",
+  "logical_equals_production": true,
+  "integrity_check": "ok",
+  "restore": {
+   "logical_equals_production": true,
+   "integrity_check": "ok",
+   "matches": 223510
+  },
+  "restored_path": "D:\\Foot IQ\\data\\supervised\\phase4\\p48d\\restore_test_activation.sqlite"
+ },
+ "result": "preconditions, backup and restore test passed; production NOT touched",
+ "finished_utc": "2026-10-27T16:59:40Z"
+}

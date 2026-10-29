@@ -1,0 +1,24 @@
+date,category,team1,team2,score,tier,public_pick,actual,public_pick_correct,internal_top_correct,log_loss,brier
+2026-09-27,UEFA Nations League,Lithuania,Azerbaijan,1-1,Pass,pass,draw,,False,1.0649357623087259,0.6467959265000001
+2026-09-27,UEFA Nations League,Serbia,Netherlands,1-2,Pass,pass,team2_win,,True,0.5421787014240129,0.2734842656
+2026-09-27,UEFA Nations League,Denmark,Wales,2-0,Pass,pass,team1_win,,True,0.6225955246090007,0.3449038418
+2026-09-27,UEFA Nations League,Austria,Kosovo,3-1,Pass,pass,team1_win,,True,0.5759331956711315,0.2967666518
+2026-09-27,UEFA Nations League,Gibraltar,Andorra,0-0,Pass,pass,draw,,False,1.0392213687254455,0.6331663394
+2026-09-27,UEFA Nations League,Germany,Greece,0-1,Pass,pass,team2_win,,False,2.095652227727818,1.1755665806
+2026-09-27,UEFA Nations League,Norway,Portugal,1-2,Pass,pass,team2_win,,False,1.2268662031392454,0.7539256022
+2026-09-27,UEFA Nations League,Israel,Republic of Ireland,0-3,Pass,pass,team2_win,,True,0.8821550409445417,0.5258739782
+2026-09-27,International Friendly,Seychelles,Sri Lanka,0-3,Pass,pass,team2_win,,False,1.2409480404508313,0.7589217749
+2026-09-27,International Friendly,Malta,Liechtenstein,2-0,Model Lean,team1_win,team1_win,True,True,0.21783267899563324,0.0657530664
+2026-09-27,International Friendly,Jordan,Syria,1-1,Pass,pass,draw,,False,1.0891274126568955,0.7412657963
+2026-09-27,International Friendly,Bolivia,Paraguay,0-2,Pass,pass,team2_win,,True,0.6721296053374756,0.37772585090000005
+2026-09-28,UEFA Nations League,Georgia,Ukraine,0-0,Pass,pass,draw,,False,1.0422225034808288,0.6484682857999999
+2026-09-28,UEFA Nations League,Armenia,Montenegro,2-3,Pass,pass,team2_win,,False,1.1501793047245448,0.7006334174000001
+2026-09-28,UEFA Nations League,Latvia,Cyprus,0-0,Pass,pass,draw,,True,0.9902871717862901,0.5960269154000001
+2026-09-28,UEFA Nations League,Belgium,France,0-1,Pass,pass,team2_win,,False,1.0260497958668944,0.6280478089000001
+2026-09-28,UEFA Nations League,Türkiye,Italy,1-4,Pass,pass,team2_win,,False,1.4668538689783075,0.8878843297999999
+2026-09-28,UEFA Nations League,Northern Ireland,Hungary,0-0,Pass,pass,draw,,True,0.9431738669079434,0.5596715594
+2026-09-28,UEFA Nations League,Sweden,Poland,3-1,Pass,pass,team1_win,,True,0.9000483563282905,0.5424629365000001
+2026-09-28,UEFA Nations League,Romania,Bosnia & Herzegovina,2-4,Pass,pass,team2_win,,False,1.5578896505535238,0.9371257949
+2026-09-28,International Friendly,Japan,Venezuela,2-1,Pass,pass,team1_win,,True,0.6124892775424908,0.33912636129999996
+2026-09-28,International Friendly,South Korea,Uruguay,1-4,Pass,pass,team2_win,,False,1.3496538970248988,0.8267644745999999
+2026-09-28,International Friendly,Tajikistan,Palestine,2-4,Pass,pass,team2_win,,True,0.8927451182991409,0.5316770798

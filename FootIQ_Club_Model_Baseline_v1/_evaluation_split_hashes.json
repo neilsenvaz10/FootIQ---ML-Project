@@ -1,0 +1,19 @@
+{
+ "evaluation_set_sha256": {
+  "validation_primary": "3384f7967f23c80e0337951b6ce1ca6b6453f631e413280f377ea6b9c302af06",
+  "test_primary": "08855d5c4189ca3d8665368928437088caef8aaece0c5cd05f0af6b3d21f7b1e",
+  "forward_holdout_primary": "6133903bdb5dbd17ebce7038d19a6bf2a3aa93f97c2f5ddaa9d02922e4edc376",
+  "test_secondary_calendar_year": "53092feb90733913fbf9d852f98fd0ce7e605e7eb76c91a02dca33ff78ebec12",
+  "forward_holdout_secondary_calendar_year": "ea44df5e5d6a044e0a465c825007599c50a534331b55fdea40d5ccb819d9f3da",
+  "validation_secondary_calendar_year": "2e57e9deed5fbc45e38c76a9e31a4387b807e1ca46d02746b2adc805f8b895e6",
+  "train_ids": "b773818383eaeb07550ef7b631744310cda23f4c5217a55a85e423d894a18ae7"
+ },
+ "evaluation_set_sizes": {
+  "validation_primary": 17092,
+  "test_primary": 15645,
+  "forward_holdout_primary": 5770,
+  "test_secondary_calendar_year": 3449,
+  "forward_holdout_secondary_calendar_year": 570,
+  "validation_secondary_calendar_year": 5015
+ }
+}

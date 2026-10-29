@@ -1,0 +1,55 @@
+﻿source_ref,home,away,status,src_date,src_h,src_a,result_type,outcome,of_date,of_h,of_a,date_equal
+83156,FC Bayern München,VfB Stuttgart,completed,2026-08-28,5,1,after90_explicit,agree,2026-08-28,5.0,1.0,True
+83158,RB Leipzig,Borussia Mönchengladbach,completed,2026-08-29,3,0,after90_explicit,agree,2026-08-29,3.0,0.0,True
+83161,1. FSV Mainz 05,SC Paderborn 07,completed,2026-08-29,0,0,after90_explicit,agree,2026-08-29,0.0,0.0,True
+83162,1. FC Union Berlin,Eintracht Frankfurt,completed,2026-08-29,3,3,after90_explicit,agree,2026-08-29,3.0,3.0,True
+83163,1. FC Köln,TSG Hoffenheim,completed,2026-08-29,3,2,after90_explicit,agree,2026-08-29,3.0,2.0,True
+83164,SV 07 Elversberg,Bayer 04 Leverkusen,completed,2026-08-29,3,2,after90_explicit,agree,2026-08-29,3.0,2.0,True
+83157,Borussia Dortmund,Hamburger SV,completed,2026-08-29,2,0,after90_explicit,agree,2026-08-29,2.0,0.0,True
+83159,SC Freiburg,SV Werder Bremen,completed,2026-08-30,4,1,after90_explicit,agree,2026-08-30,4.0,1.0,True
+83160,FC Augsburg,FC Schalke 04,completed,2026-08-30,3,0,after90_explicit,agree,2026-08-30,3.0,0.0,True
+83165,VfB Stuttgart,1. FC Köln,completed,2026-09-04,4,1,after90_explicit,agree,2026-09-04,4.0,1.0,True
+83166,TSG Hoffenheim,Borussia Dortmund,completed,2026-09-05,2,3,after90_explicit,agree,2026-09-05,2.0,3.0,True
+83167,Bayer 04 Leverkusen,1. FC Union Berlin,completed,2026-09-05,4,0,after90_explicit,agree,2026-09-05,4.0,0.0,True
+83169,Borussia Mönchengladbach,SV 07 Elversberg,completed,2026-09-05,3,4,after90_explicit,agree,2026-09-05,3.0,4.0,True
+83171,SV Werder Bremen,RB Leipzig,completed,2026-09-05,3,1,after90_explicit,agree,2026-09-05,3.0,1.0,True
+83173,SC Paderborn 07,SC Freiburg,completed,2026-09-05,0,1,after90_explicit,agree,2026-09-05,0.0,1.0,True
+83172,FC Schalke 04,FC Bayern München,completed,2026-09-05,0,0,after90_explicit,agree,2026-09-05,0.0,0.0,True
+83170,Hamburger SV,1. FSV Mainz 05,completed,2026-09-06,0,5,after90_explicit,agree,2026-09-06,0.0,5.0,True
+83168,Eintracht Frankfurt,FC Augsburg,completed,2026-09-06,1,4,after90_explicit,agree,2026-09-06,1.0,4.0,True
+83180,1. FC Union Berlin,FC Schalke 04,completed,2026-09-11,1,3,after90_explicit,agree,2026-09-11,1.0,3.0,True
+83174,Borussia Dortmund,SC Paderborn 07,completed,2026-09-12,3,0,after90_explicit,agree,2026-09-12,3.0,0.0,True
+83176,TSG Hoffenheim,VfB Stuttgart,completed,2026-09-12,2,1,after90_explicit,agree,2026-09-12,2.0,1.0,True
+83177,SC Freiburg,Borussia Mönchengladbach,completed,2026-09-12,5,0,after90_explicit,agree,2026-09-12,5.0,0.0,True
+83178,FC Augsburg,Bayer 04 Leverkusen,completed,2026-09-12,2,2,after90_explicit,agree,2026-09-12,2.0,2.0,True
+83179,1. FSV Mainz 05,Eintracht Frankfurt,completed,2026-09-12,1,3,after90_explicit,agree,2026-09-12,1.0,3.0,True
+83181,1. FC Köln,SV Werder Bremen,completed,2026-09-12,1,1,after90_explicit,agree,2026-09-12,1.0,1.0,True
+83175,RB Leipzig,Hamburger SV,completed,2026-09-13,5,0,after90_explicit,agree,2026-09-13,5.0,0.0,True
+83182,SV 07 Elversberg,FC Bayern München,completed,2026-09-13,1,2,after90_explicit,agree,2026-09-13,1.0,2.0,True
+83183,FC Bayern München,1. FC Union Berlin,completed,2026-09-18,7,0,after90_explicit,agree,2026-09-18,7.0,0.0,True
+83186,Eintracht Frankfurt,SC Freiburg,completed,2026-09-19,2,2,after90_explicit,agree,2026-09-19,2.0,2.0,True
+83187,Borussia Mönchengladbach,1. FSV Mainz 05,completed,2026-09-19,3,4,after90_explicit,agree,2026-09-19,3.0,4.0,True
+83188,Hamburger SV,1. FC Köln,completed,2026-09-19,2,1,after90_explicit,agree,2026-09-19,2.0,1.0,True
+83189,SV Werder Bremen,FC Augsburg,completed,2026-09-19,3,2,after90_explicit,agree,2026-09-19,3.0,2.0,True
+83184,VfB Stuttgart,Borussia Dortmund,completed,2026-09-19,0,1,after90_explicit,agree,2026-09-19,0.0,1.0,True
+83185,Bayer 04 Leverkusen,RB Leipzig,completed,2026-09-20,2,0,after90_explicit,agree,2026-09-20,2.0,0.0,True
+83190,FC Schalke 04,SV 07 Elversberg,completed,2026-09-20,0,0,after90_explicit,agree,2026-09-20,0.0,0.0,True
+83191,SC Paderborn 07,TSG Hoffenheim,completed,2026-09-20,3,1,after90_explicit,agree,2026-09-20,3.0,1.0,True
+83192,Borussia Dortmund,SV Werder Bremen,completed,2026-10-09,2,2,after90_explicit,recovered_missing_in_openfootball,2026-10-09,,,
+83194,TSG Hoffenheim,Hamburger SV,completed,2026-10-10,2,3,after90_explicit,recovered_missing_in_openfootball,2026-10-10,,,
+83196,FC Augsburg,FC Bayern München,completed,2026-10-10,2,2,after90_explicit,recovered_missing_in_openfootball,2026-10-10,,,
+83197,1. FSV Mainz 05,Bayer 04 Leverkusen,completed,2026-10-10,3,4,after90_explicit,recovered_missing_in_openfootball,2026-10-10,,,
+83198,1. FC Union Berlin,SV 07 Elversberg,completed,2026-10-10,1,0,after90_explicit,recovered_missing_in_openfootball,2026-10-10,,,
+83200,SC Paderborn 07,VfB Stuttgart,completed,2026-10-10,0,2,after90_explicit,recovered_missing_in_openfootball,2026-10-10,,,
+83193,RB Leipzig,Eintracht Frankfurt,completed,2026-10-10,6,0,after90_explicit,recovered_missing_in_openfootball,2026-10-10,,,
+83199,1. FC Köln,Borussia Mönchengladbach,completed,2026-10-11,2,1,after90_explicit,recovered_missing_in_openfootball,2026-10-11,,,
+83195,SC Freiburg,FC Schalke 04,completed,2026-10-11,2,1,after90_explicit,recovered_missing_in_openfootball,2026-10-11,,,
+83203,Eintracht Frankfurt,1. FC Köln,completed,2026-10-16,1,0,after90_explicit,recovered_missing_in_openfootball,2026-10-16,,,
+83204,1. FC Union Berlin,Borussia Dortmund,completed,2026-10-17,0,0,after90_explicit,recovered_missing_in_openfootball,2026-10-17,,,
+83206,Hamburger SV,VfB Stuttgart,completed,2026-10-17,1,0,after90_explicit,recovered_missing_in_openfootball,2026-10-17,,,
+83207,SV Werder Bremen,SC Paderborn 07,completed,2026-10-17,2,2,after90_explicit,recovered_missing_in_openfootball,2026-10-17,,,
+83208,FC Schalke 04,1. FSV Mainz 05,completed,2026-10-17,0,1,after90_explicit,recovered_missing_in_openfootball,2026-10-17,,,
+83209,SV 07 Elversberg,FC Augsburg,completed,2026-10-17,4,3,after90_explicit,recovered_missing_in_openfootball,2026-10-17,,,
+83201,FC Bayern München,RB Leipzig,completed,2026-10-17,6,1,after90_explicit,recovered_missing_in_openfootball,2026-10-17,,,
+83202,Bayer 04 Leverkusen,SC Freiburg,completed,2026-10-18,2,1,after90_explicit,recovered_missing_in_openfootball,2026-10-18,,,
+83205,Borussia Mönchengladbach,TSG Hoffenheim,completed,2026-10-18,1,2,after90_explicit,recovered_missing_in_openfootball,2026-10-18,,,

@@ -1,0 +1,23 @@
+{
+ "request": "/api/gameweek?key=EPL&matchday=9",
+ "idle_before_s": [
+  2.83,
+  2.8,
+  2.85
+ ],
+ "with_24_busy_processes_s": [
+  5.77,
+  5.81,
+  5.89
+ ],
+ "idle_after_s": [
+  2.8,
+  2.9,
+  2.88
+ ],
+ "median_s": {
+  "idle_before_s": 2.83,
+  "with_24_busy_processes_s": 5.81,
+  "idle_after_s": 2.88
+ }
+}

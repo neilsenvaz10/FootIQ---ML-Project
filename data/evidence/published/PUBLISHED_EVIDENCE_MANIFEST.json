@@ -1,0 +1,55 @@
+{
+ "file": "published_evidence_2026-10-28.csv",
+ "sha256": "ceb84e8fb0dfcbb5bb012b66c07842cc04e46aee4582dbb7e38f2b053089ef9d",
+ "rows": 175,
+ "by_importer_action": "{('league_results', 'update_result'): 71, ('reconcile', 'add_result'): 4, ('reconcile', 'add_result_with_date'): 8, ('reconcile', 'correct_date'): 91, ('reconcile', 'set_postponed'): 1}",
+ "by_classification": {
+  "insufficient_redistributable_evidence": 175
+ },
+ "columns": [
+  "evidence_id",
+  "importer",
+  "action",
+  "competition_key",
+  "season",
+  "record_id",
+  "home_entity",
+  "away_entity",
+  "home",
+  "away",
+  "expected_store_status",
+  "expected_store_date",
+  "new_date",
+  "home_goals",
+  "away_goals",
+  "wikipedia_score",
+  "wikipedia_revision",
+  "wikipedia_date",
+  "openligadb_score",
+  "openligadb_date",
+  "openligadb_ref",
+  "openfootball_score",
+  "openfootball_date",
+  "production_tier",
+  "evidence_classification",
+  "restricted_cross_check_used_in_production",
+  "review_decision",
+  "confidence",
+  "uncertainty",
+  "licence",
+  "provenance"
+ ],
+ "allowed_sources": {
+  "wikipedia": "CC BY-SA 4.0",
+  "openfootball": "CC0-1.0",
+  "openligadb": "ODbL-1.0"
+ },
+ "withheld": "values of football-data.co.uk, FixtureDownload and football-data.org (scores, dates, provider dates and raw copies)",
+ "derived_from_local_inputs_sha256": {
+  "staged_results_EPL.csv": "3e33e9346b1e9f95c0c42256e0a8e3d2f25c157c30cee8764352ceca87ea3d59",
+  "staged_results_LIGUE1.csv": "609cc48f1a449b7d0b3723b43036a989e89b1834a428d2177dcb5f1f12c30953",
+  "staged_results_SERIEA.csv": "0d6caec8c0660dec451e7977846d3afd76ea1e2202ddef2b2b4ce8b5fab52f45",
+  "proposed_changes.csv": "248e89c5451e23c941632c377dfc7c58ccf24041a9562ed4ed72a73a15f1dad6"
+ },
+ "note": "hashes identify the local (unpublished) inputs the decisions come from; they reveal no provider value"
+}

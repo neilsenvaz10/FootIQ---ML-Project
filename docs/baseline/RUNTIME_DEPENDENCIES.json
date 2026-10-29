@@ -1,0 +1,312 @@
+[
+  {
+    "action": "build_confidence_gate_v28.py",
+    "root": "C:\\Users\\DELL\\Desktop\\world-cup-prediction-model\\docs\\baseline\\capture_2026-10-20\\isolated_execution\\run1",
+    "read_paths": [
+      "data/processed/ad_hoc_v27_june10_predictions.csv",
+      "data/processed/model_v26_test_predictions.csv",
+      "data/processed/v27_known_fixture_validation.csv",
+      "data/processed/v27_live_public_picks.csv",
+      "scripts/build_confidence_gate_v28.py"
+    ],
+    "written_paths": [
+      "audit_trace_build_confidence_gate_v28.py.json",
+      "data/processed/ad_hoc_v28_june10_predictions.csv",
+      "data/processed/confidence_gate_v28_historical_metrics.csv",
+      "data/processed/v28_known_fixture_validation.csv",
+      "data/processed/v28_live_public_picks.csv",
+      "outputs/confidence_gate_v28_config.json",
+      "outputs/confidence_gate_v28_report.md"
+    ],
+    "blocked_events": [],
+    "existing_read_paths": [
+      "data/processed/ad_hoc_v27_june10_predictions.csv",
+      "data/processed/model_v26_test_predictions.csv",
+      "data/processed/v27_known_fixture_validation.csv",
+      "data/processed/v27_live_public_picks.csv",
+      "scripts/build_confidence_gate_v28.py"
+    ],
+    "attempted_missing_reads": []
+  },
+  {
+    "action": "build_live_predictions_v27.py",
+    "root": "C:\\Users\\DELL\\Desktop\\world-cup-prediction-model\\docs\\baseline\\capture_2026-10-20\\isolated_execution\\run1",
+    "read_paths": [
+      "data/model_artifacts/v27/live_match_model.pkl",
+      "data/processed/team_elo_latest.csv",
+      "data/processed/team_recent_form_latest.csv",
+      "data/processed/v25_data_quality_live.csv",
+      "data/processed/v25_fixtures_live.csv",
+      "data/processed/v25_match_predictions_live.csv",
+      "data/processed/v25_provider_status_live.csv",
+      "data/processed/v25_weather_context_live.csv",
+      "scripts/__pycache__/build_worldcup_model_v2.cpython-312.pyc",
+      "scripts/__pycache__/build_worldcup_model_v23.cpython-312.pyc",
+      "scripts/__pycache__/model_bakeoff_v26.cpython-312.pyc",
+      "scripts/build_live_predictions_v27.py",
+      "scripts/build_worldcup_model_v2.py",
+      "scripts/build_worldcup_model_v23.py",
+      "scripts/model_bakeoff_v26.py"
+    ],
+    "written_paths": [
+      "audit_trace_build_live_predictions_v27.py.json",
+      "data/processed/v27_live_model_features.csv",
+      "data/processed/v27_live_probabilities.csv",
+      "data/processed/v27_live_public_picks.csv",
+      "data/processed/v27_v25_comparison.csv",
+      "outputs/live_predictions_v27_config.json",
+      "outputs/live_predictions_v27_report.md"
+    ],
+    "blocked_events": [
+      {
+        "event": "open",
+        "path": "nul"
+      },
+      {
+        "event": "open",
+        "path": "nul"
+      },
+      {
+        "event": "open",
+        "path": "nul"
+      },
+      {
+        "event": "subprocess.Popen"
+      }
+    ],
+    "existing_read_paths": [
+      "data/model_artifacts/v27/live_match_model.pkl",
+      "data/processed/team_elo_latest.csv",
+      "data/processed/team_recent_form_latest.csv",
+      "data/processed/v25_data_quality_live.csv",
+      "data/processed/v25_fixtures_live.csv",
+      "data/processed/v25_match_predictions_live.csv",
+      "data/processed/v25_provider_status_live.csv",
+      "data/processed/v25_weather_context_live.csv",
+      "scripts/__pycache__/build_worldcup_model_v2.cpython-312.pyc",
+      "scripts/__pycache__/build_worldcup_model_v23.cpython-312.pyc",
+      "scripts/__pycache__/model_bakeoff_v26.cpython-312.pyc",
+      "scripts/build_live_predictions_v27.py",
+      "scripts/build_worldcup_model_v2.py",
+      "scripts/build_worldcup_model_v23.py",
+      "scripts/model_bakeoff_v26.py"
+    ],
+    "attempted_missing_reads": []
+  },
+  {
+    "action": "simulate_live_tournament_v213.py",
+    "root": "C:\\Users\\DELL\\Desktop\\world-cup-prediction-model\\docs\\baseline\\capture_2026-10-20\\isolated_execution\\run1",
+    "read_paths": [
+      "data/inputs/model_v21_team_profiles.csv",
+      "data/inputs/player_availability_overrides.csv",
+      "data/processed/matchday_validation_v210.csv",
+      "data/processed/model_v1_team_ratings.csv",
+      "data/processed/model_v23_tournament_odds.csv",
+      "data/processed/statsbomb_team_event_summary.csv",
+      "data/processed/worldcup_2026_knockout_results_verified.csv",
+      "data/processed/worldcup_2026_matches.csv",
+      "data/processed/worldcup_2026_round_of_32_resolved.csv",
+      "data/processed/worldcup_2026_teams.csv",
+      "scripts/__pycache__/build_worldcup_model_v2.cpython-312.pyc",
+      "scripts/__pycache__/build_worldcup_model_v23.cpython-312.pyc",
+      "scripts/build_worldcup_model_v2.py",
+      "scripts/build_worldcup_model_v23.py",
+      "scripts/simulate_live_tournament_v213.py"
+    ],
+    "written_paths": [
+      "audit_trace_simulate_live_tournament_v213.py.json",
+      "data/processed/live_tournament_v213_tournament_odds.csv",
+      "data/processed/model_v23_market_priors.csv",
+      "outputs/live_tournament_v213_config.json",
+      "outputs/live_tournament_v213_report.md"
+    ],
+    "blocked_events": [],
+    "existing_read_paths": [
+      "data/inputs/model_v21_team_profiles.csv",
+      "data/inputs/player_availability_overrides.csv",
+      "data/processed/matchday_validation_v210.csv",
+      "data/processed/model_v1_team_ratings.csv",
+      "data/processed/model_v23_tournament_odds.csv",
+      "data/processed/statsbomb_team_event_summary.csv",
+      "data/processed/worldcup_2026_knockout_results_verified.csv",
+      "data/processed/worldcup_2026_matches.csv",
+      "data/processed/worldcup_2026_round_of_32_resolved.csv",
+      "data/processed/worldcup_2026_teams.csv",
+      "scripts/__pycache__/build_worldcup_model_v2.cpython-312.pyc",
+      "scripts/__pycache__/build_worldcup_model_v23.cpython-312.pyc",
+      "scripts/build_worldcup_model_v2.py",
+      "scripts/build_worldcup_model_v23.py",
+      "scripts/simulate_live_tournament_v213.py"
+    ],
+    "attempted_missing_reads": []
+  },
+  {
+    "action": "validate_worldcup_full_v214.py",
+    "root": "C:\\Users\\DELL\\Desktop\\world-cup-prediction-model\\docs\\baseline\\capture_2026-10-20\\isolated_execution\\run1",
+    "read_paths": [
+      "data/processed/matchday_validation_v210.csv",
+      "data/processed/model_v23_group_match_predictions.csv",
+      "data/processed/worldcup_2026_knockout_results_verified.csv",
+      "data/processed/worldcup_2026_matches.csv",
+      "data/processed/worldcup_knockout_advancement_predictions_frozen.csv",
+      "scripts/validate_worldcup_full_v214.py"
+    ],
+    "written_paths": [
+      "audit_trace_validate_worldcup_full_v214.py.json",
+      "data/processed/worldcup_full_validation_fixture_audit_2026-07-19.csv",
+      "data/processed/worldcup_full_validation_summary_2026-07-19.csv",
+      "outputs/worldcup_full_validation_report_2026-07-19.md"
+    ],
+    "blocked_events": [],
+    "existing_read_paths": [
+      "data/processed/matchday_validation_v210.csv",
+      "data/processed/model_v23_group_match_predictions.csv",
+      "data/processed/worldcup_2026_knockout_results_verified.csv",
+      "data/processed/worldcup_2026_matches.csv",
+      "data/processed/worldcup_knockout_advancement_predictions_frozen.csv",
+      "scripts/validate_worldcup_full_v214.py"
+    ],
+    "attempted_missing_reads": []
+  },
+  {
+    "action": "build_confidence_gate_v28.py",
+    "root": "C:\\Users\\DELL\\Desktop\\world-cup-prediction-model\\docs\\baseline\\capture_2026-10-20\\isolated_execution\\run2",
+    "read_paths": [
+      "data/processed/ad_hoc_v27_june10_predictions.csv",
+      "data/processed/model_v26_test_predictions.csv",
+      "data/processed/v27_known_fixture_validation.csv",
+      "data/processed/v27_live_public_picks.csv",
+      "scripts/build_confidence_gate_v28.py"
+    ],
+    "written_paths": [
+      "audit_trace_build_confidence_gate_v28.py.json",
+      "data/processed/ad_hoc_v28_june10_predictions.csv",
+      "data/processed/confidence_gate_v28_historical_metrics.csv",
+      "data/processed/v28_known_fixture_validation.csv",
+      "data/processed/v28_live_public_picks.csv",
+      "outputs/confidence_gate_v28_config.json",
+      "outputs/confidence_gate_v28_report.md"
+    ],
+    "blocked_events": [],
+    "existing_read_paths": [
+      "data/processed/ad_hoc_v27_june10_predictions.csv",
+      "data/processed/model_v26_test_predictions.csv",
+      "data/processed/v27_known_fixture_validation.csv",
+      "data/processed/v27_live_public_picks.csv",
+      "scripts/build_confidence_gate_v28.py"
+    ],
+    "attempted_missing_reads": []
+  },
+  {
+    "action": "build_live_predictions_v27.py",
+    "root": "C:\\Users\\DELL\\Desktop\\world-cup-prediction-model\\docs\\baseline\\capture_2026-10-20\\isolated_execution\\run2",
+    "read_paths": [
+      "data/model_artifacts/v27/live_match_model.pkl",
+      "data/processed/team_elo_latest.csv",
+      "data/processed/team_recent_form_latest.csv",
+      "data/processed/v25_data_quality_live.csv",
+      "data/processed/v25_fixtures_live.csv",
+      "data/processed/v25_match_predictions_live.csv",
+      "data/processed/v25_provider_status_live.csv",
+      "data/processed/v25_weather_context_live.csv",
+      "scripts/__pycache__/build_worldcup_model_v2.cpython-312.pyc",
+      "scripts/__pycache__/build_worldcup_model_v23.cpython-312.pyc",
+      "scripts/__pycache__/model_bakeoff_v26.cpython-312.pyc",
+      "scripts/build_live_predictions_v27.py",
+      "scripts/build_worldcup_model_v2.py",
+      "scripts/build_worldcup_model_v23.py",
+      "scripts/model_bakeoff_v26.py"
+    ],
+    "written_paths": [
+      "audit_trace_build_live_predictions_v27.py.json",
+      "data/processed/v27_live_model_features.csv",
+      "data/processed/v27_live_probabilities.csv",
+      "data/processed/v27_live_public_picks.csv",
+      "data/processed/v27_v25_comparison.csv",
+      "outputs/live_predictions_v27_config.json",
+      "outputs/live_predictions_v27_report.md"
+    ],
+    "blocked_events": [
+      {
+        "event": "open",
+        "path": "nul"
+      },
+      {
+        "event": "open",
+        "path": "nul"
+      },
+      {
+        "event": "open",
+        "path": "nul"
+      },
+      {
+        "event": "subprocess.Popen"
+      }
+    ],
+    "existing_read_paths": [
+      "data/model_artifacts/v27/live_match_model.pkl",
+      "data/processed/team_elo_latest.csv",
+      "data/processed/team_recent_form_latest.csv",
+      "data/processed/v25_data_quality_live.csv",
+      "data/processed/v25_fixtures_live.csv",
+      "data/processed/v25_match_predictions_live.csv",
+      "data/processed/v25_provider_status_live.csv",
+      "data/processed/v25_weather_context_live.csv",
+      "scripts/__pycache__/build_worldcup_model_v2.cpython-312.pyc",
+      "scripts/__pycache__/build_worldcup_model_v23.cpython-312.pyc",
+      "scripts/__pycache__/model_bakeoff_v26.cpython-312.pyc",
+      "scripts/build_live_predictions_v27.py",
+      "scripts/build_worldcup_model_v2.py",
+      "scripts/build_worldcup_model_v23.py",
+      "scripts/model_bakeoff_v26.py"
+    ],
+    "attempted_missing_reads": []
+  },
+  {
+    "action": "simulate_live_tournament_v213.py",
+    "root": "C:\\Users\\DELL\\Desktop\\world-cup-prediction-model\\docs\\baseline\\capture_2026-10-20\\isolated_execution\\run2",
+    "read_paths": [
+      "data/inputs/model_v21_team_profiles.csv",
+      "data/inputs/player_availability_overrides.csv",
+      "data/processed/matchday_validation_v210.csv",
+      "data/processed/model_v1_team_ratings.csv",
+      "data/processed/model_v23_tournament_odds.csv",
+      "data/processed/statsbomb_team_event_summary.csv",
+      "data/processed/worldcup_2026_knockout_results_verified.csv",
+      "data/processed/worldcup_2026_matches.csv",
+      "data/processed/worldcup_2026_round_of_32_resolved.csv",
+      "data/processed/worldcup_2026_teams.csv",
+      "scripts/__pycache__/build_worldcup_model_v2.cpython-312.pyc",
+      "scripts/__pycache__/build_worldcup_model_v23.cpython-312.pyc",
+      "scripts/build_worldcup_model_v2.py",
+      "scripts/build_worldcup_model_v23.py",
+      "scripts/simulate_live_tournament_v213.py"
+    ],
+    "written_paths": [
+      "audit_trace_simulate_live_tournament_v213.py.json",
+      "data/processed/live_tournament_v213_tournament_odds.csv",
+      "data/processed/model_v23_market_priors.csv",
+      "outputs/live_tournament_v213_config.json",
+      "outputs/live_tournament_v213_report.md"
+    ],
+    "blocked_events": [],
+    "existing_read_paths": [
+      "data/inputs/model_v21_team_profiles.csv",
+      "data/inputs/player_availability_overrides.csv",
+      "data/processed/matchday_validation_v210.csv",
+      "data/processed/model_v1_team_ratings.csv",
+      "data/processed/model_v23_tournament_odds.csv",
+      "data/processed/statsbomb_team_event_summary.csv",
+      "data/processed/worldcup_2026_knockout_results_verified.csv",
+      "data/processed/worldcup_2026_matches.csv",
+      "data/processed/worldcup_2026_round_of_32_resolved.csv",
+      "data/processed/worldcup_2026_teams.csv",
+      "scripts/__pycache__/build_worldcup_model_v2.cpython-312.pyc",
+      "scripts/__pycache__/build_worldcup_model_v23.cpython-312.pyc",
+      "scripts/build_worldcup_model_v2.py",
+      "scripts/build_worldcup_model_v23.py",
+      "scripts/simulate_live_tournament_v213.py"
+    ],
+    "attempted_missing_reads": []
+  }
+]

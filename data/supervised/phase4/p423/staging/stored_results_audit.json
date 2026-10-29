@@ -1,0 +1,47 @@
+{
+ "EPL": {
+  "stored_completed": 77,
+  "checked_wikipedia": 77,
+  "checked_fduk": 77,
+  "checked_fxd": 77,
+  "score_differs": [],
+  "date_differs": [],
+  "not_in_any_source": 0
+ },
+ "SERIEA": {
+  "stored_completed": 79,
+  "checked_wikipedia": 79,
+  "checked_fduk": 79,
+  "checked_fxd": 79,
+  "score_differs": [],
+  "date_differs": [],
+  "not_in_any_source": 0
+ },
+ "LIGUE1": {
+  "stored_completed": 70,
+  "checked_wikipedia": 70,
+  "checked_fduk": 70,
+  "checked_fxd": 69,
+  "score_differs": [],
+  "date_differs": [],
+  "not_in_any_source": 0
+ },
+ "BUNDESLIGA": {
+  "stored_completed": 63,
+  "checked_wikipedia": 63,
+  "checked_fduk": 63,
+  "checked_fxd": 63,
+  "score_differs": [],
+  "date_differs": [],
+  "not_in_any_source": 0
+ },
+ "LALIGA": {
+  "stored_completed": 93,
+  "checked_wikipedia": 93,
+  "checked_fduk": 93,
+  "checked_fxd": 93,
+  "score_differs": [],
+  "date_differs": [],
+  "not_in_any_source": 0
+ }
+}

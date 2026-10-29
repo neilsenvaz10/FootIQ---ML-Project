@@ -1,0 +1,38 @@
+﻿n,area,attack,verdict,evidence
+1,idempotency,seal the same fixtures twice,PROTECTED,"second batch sealed 0, skipped 3"
+2,atomicity,"crash after rename, before anchor",PROTECTED,detected=True; recovery=['anchored committed batch 2']
+2,atomicity,crash mid-write (partial temp file),PROTECTED,"partial batch detected, discarded by recovery"
+3,hash chain,delete newest batch,PROTECTED,anchor lists batch 2 that is missing from the ledger (deleted batch)
+4,clock / backdating,supply an earlier prediction time to the sealing function,PROTECTED,"seal_official has no timestamp parameter; time = engine._now() (monotonic vs ledger, poll skew <= 120 s)"
+5,source scope,feed a 2025 season snapshot,PROTECTED,ScopeError
+6,feature completeness,played match without explicit 90-minute type,PROTECTED,55 fixtures of the clubs ineligible; event played_match_no_explicit_90min_result
+7,identity,completed result with an unresolvable team,PROTECTED,competition blocked: 0 eligible fixtures
+8,conflict rules,a result is withdrawn in a later snapshot,PROTECTED,additions=17; withdrawn_result event; clubs blocked=2
+9,model integrity,tamper with v1 preprocessing or v1 Elo parameters,PROTECTED,hashed in the manifest; detection tested on temp copies
+10,code / parameter integrity,"tamper with feature code, Elo2 parameters, v1 preprocessing or v1 Elo parameters",PROTECTED,each tamper detected by the manifest check (prediction aborts with IntegrityError)
+11,namespace / approval,empty or {} approval opens the official path,PROTECTED,ApprovalError; no ledger created
+12,fixture changes,kickoff moved / postponed / cancelled after sealing,PROTECTED,classified by reassess(); chained side-car writer in scripts/reassess_official.py (--write)
+13,late results,history result appears after sealing,PROTECTED,"flag implemented and tested (eligible, flagged, sensitivity analysis)"
+14,source availability,only a 25 h old snapshot exists,PROTECTED,252 rejected
+15,source availability,truncated JSON body with matching hash,PROTECTED,"exception, no records"
+16,snapshot integrity,append a byte to a saved snapshot,PROTECTED,IntegrityError
+17,reconstruction,alter a sealed probability,PROTECTED,mismatch detected for the altered record only
+18,contact privacy,scan sealed records for an email-like string,PROTECTED,252 records clean
+19,retrospective predictions,seal after the first deadline,PROTECTED,deadline-passed fixtures rejected
+20,new: duplicate sealing,"duplicate_sealing_is_skipped_idempotentl, same_fixture_with_new_model_version_is_a",PROTECTED,2 unit tests all pass
+21,new: interrupted writes,"interrupted_writes_are_detected_and_reco, interrupted_sealing_does_not_corrupt_and",PROTECTED,2 unit tests all pass
+22,new: missing newest batch,"deleted_newest_batch_is_detected_by_the_, deleted_middle_reordered_and_modified_ba",PROTECTED,2 unit tests all pass
+23,new: historical timestamp spoofing,"signature_has_no_timestamp_parameter, clock_regression_skew_and_future_snapsho",PROTECTED,2 unit tests all pass
+24,new: empty / invalid approval files,"empty_missing_and_malformed_files, expired_future_and_outside_window, mismatched_models_manifest_scope_protoco, invalid_approvals_refuse_sealing",PROTECTED,4 unit tests all pass
+25,new: source withdrawals,withdrawn_result_quarantines_pair_and_bl,PROTECTED,1 unit tests all pass
+26,new: stale source snapshots,"stale_snapshot_blocks_sealing_and_future, out_of_order_and_duplicate_retrieval_tim",PROTECTED,2 unit tests all pass
+27,new: missing played matches,"missing_played_matches_block_clubs_or_co, removed_fixture_and_postponed_in_newest_",PROTECTED,2 unit tests all pass
+28,new: corrected results,"corrected_result_conflict, duplicate_match_and_conflict_with_openfo",PROTECTED,2 unit tests all pass
+29,new: postponed / rescheduled fixtures,"rescheduled_postponed_and_stale_after_re, identity_change_removal_need_two_snapsho, missing_result_pending_then_excluded_at_",PROTECTED,3 unit tests all pass
+30,new: tampered feature code / preprocessing / Elo parameters,"each_tamper_is_detected, prediction_aborts_when_feature_code_or_e",PROTECTED,2 unit tests all pass
+31,new: invalid protocol hash,mismatched_models_manifest_scope_protoco,PROTECTED,1 unit tests all pass
+32,new: official mode off by default / production paths,"official_mode_is_off_by_default, disabled_by_default_and_production_paths",PROTECTED,2 unit tests all pass
+33,new: late-arriving results,"late_arriving_results_never_enter_earlie, late_arriving_history_result_is_flagged_",PROTECTED,2 unit tests all pass
+34,new: determinism / reconstruction / parity,"determinism_and_exact_reconstruction, same_history_for_all_models_and_historic",PROTECTED,2 unit tests all pass
+35,new: second-source agreement and conflict,second_source_openfootball_agreement_and,PROTECTED,1 unit tests all pass
+36,new: scope validation,wrong_league_or_season_snapshot_is_rejec,PROTECTED,1 unit tests all pass

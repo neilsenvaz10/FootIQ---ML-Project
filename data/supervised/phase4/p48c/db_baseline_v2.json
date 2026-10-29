@@ -1,0 +1,78 @@
+{
+ "algorithm": "footiq-logical-v1",
+ "logical_sha256": "e32d759bddef1688116c1c91430cbf10384724e525971994f4e085312a96f29d",
+ "tables": {
+  "competitions": {
+   "rows": 162,
+   "sha256": "85b44c27cc9c9a00d9a7c76bcf0b44fa9729b45398b6263734c6f84771c61d2f"
+  },
+  "forecast_runs": {
+   "rows": 0,
+   "sha256": "850569778d27abd5b4e61a48c78bb0cd1abb19dbda197c263306187f8513cdb6"
+  },
+  "forecasts": {
+   "rows": 0,
+   "sha256": "538f1380cf6c02df1a3974c6709a8ea50d16f5cb873632cb1f644a4cab6b4e77"
+  },
+  "match_sources": {
+   "rows": 224519,
+   "sha256": "3de97c1bc27f7759ec89fd882c854abee3bd1a6bd93a4c82825ccba6e1daab16"
+  },
+  "matches": {
+   "rows": 223510,
+   "sha256": "453c884ce98fe32ab00bb7eff291b738f47c8a49082af48785b49614e4bc0295"
+  },
+  "meta": {
+   "rows": 2,
+   "sha256": "1cccfb03fe5880cdf150bf0016d8525aeb3c3ba3fec5cd441a078e672b898547"
+  },
+  "quarantine": {
+   "rows": 273,
+   "sha256": "d56af970e4b86b07393d9cd56234f0442ff4f0a8e0a3e95468ce1188864b7f90"
+  },
+  "simulation_runs": {
+   "rows": 0,
+   "sha256": "01b673b8d2934adb871975c99cb1cb7f892d2b598030cc1ccca943263f2d72c7"
+  },
+  "source_snapshots": {
+   "rows": 9,
+   "sha256": "95f754645a1238c4600ee2358644abdd23aa556553cd150a5b3ae1cb22c9fc62"
+  },
+  "source_state": {
+   "rows": 1,
+   "sha256": "53da816b6ea8d9a9f5577973661e6e7e376c7db93f3f52fbcb0b654a2c850407"
+  },
+  "sync_errors": {
+   "rows": 0,
+   "sha256": "97be2992efdb7b9b0842d0720464560dc353abdb1561df8748a073d1c713f68b"
+  },
+  "sync_runs": {
+   "rows": 7,
+   "sha256": "65c163dbf88b0b2171cc5163b3b0320bd02ed481e36d5a7ae6d7172fe0ae47c0"
+  },
+  "team_aliases": {
+   "rows": 7447,
+   "sha256": "42dcf199a77d43e070b20cd20ae6aa974643cd5b26a09df9fad881d588b4bc81"
+  },
+  "teams": {
+   "rows": 5188,
+   "sha256": "23a7dfe70da5a0f63e6203a11e9c78b88afc8a8f0304aeca85008b9abd6341f1"
+  }
+ },
+ "exclusions": {
+  "sync_runs": "run_id > 7"
+ },
+ "excluded_rows": [
+  {
+   "table": "sync_runs",
+   "run_id": 8,
+   "kind": "startup_check",
+   "outcome": "skipped_live_disabled",
+   "started_utc": "2026-10-27T10:37:37Z"
+  }
+ ],
+ "integrity_check": "ok",
+ "journal_mode": "wal",
+ "physical_sha256": "3641e4da47b3930cbb543499d393b2360f1e117481ad35349b082a4682073922",
+ "physical_bytes": 228655104
+}

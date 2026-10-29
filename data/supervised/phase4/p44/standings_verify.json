@@ -1,0 +1,334 @@
+{
+  "standings_checks": [
+    {
+      "competition": "EPL",
+      "season": "2026-27",
+      "clubs": 20,
+      "matches": 60,
+      "result": "identical"
+    },
+    {
+      "competition": "EPL",
+      "season": "2025-26",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "EPL",
+      "season": "2024-25",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "EPL",
+      "season": "2023-24",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "EPL",
+      "season": "2022-23",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "EPL",
+      "season": "2021-22",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "EPL",
+      "season": "2020-21",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "EPL",
+      "season": "2019-20",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "EPL",
+      "season": "2018-19",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "LALIGA",
+      "season": "2026-27",
+      "clubs": 20,
+      "matches": 89,
+      "result": "identical"
+    },
+    {
+      "competition": "LALIGA",
+      "season": "2025-26",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "LALIGA",
+      "season": "2024-25",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "LALIGA",
+      "season": "2023-24",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "LALIGA",
+      "season": "2022-23",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "LALIGA",
+      "season": "2021-22",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "LALIGA",
+      "season": "2020-21",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "LALIGA",
+      "season": "2019-20",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "LALIGA",
+      "season": "2018-19",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "BUNDESLIGA",
+      "season": "2026-27",
+      "clubs": 18,
+      "matches": 61,
+      "result": "identical"
+    },
+    {
+      "competition": "BUNDESLIGA",
+      "season": "2025-26",
+      "clubs": 18,
+      "matches": 306,
+      "result": "identical"
+    },
+    {
+      "competition": "BUNDESLIGA",
+      "season": "2024-25",
+      "clubs": 18,
+      "matches": 306,
+      "result": "identical"
+    },
+    {
+      "competition": "BUNDESLIGA",
+      "season": "2023-24",
+      "clubs": 18,
+      "matches": 306,
+      "result": "identical"
+    },
+    {
+      "competition": "BUNDESLIGA",
+      "season": "2022-23",
+      "clubs": 18,
+      "matches": 306,
+      "result": "identical"
+    },
+    {
+      "competition": "BUNDESLIGA",
+      "season": "2021-22",
+      "clubs": 18,
+      "matches": 306,
+      "result": "identical"
+    },
+    {
+      "competition": "BUNDESLIGA",
+      "season": "2020-21",
+      "clubs": 18,
+      "matches": 306,
+      "result": "identical"
+    },
+    {
+      "competition": "BUNDESLIGA",
+      "season": "2019-20",
+      "clubs": 18,
+      "matches": 306,
+      "result": "identical"
+    },
+    {
+      "competition": "BUNDESLIGA",
+      "season": "2018-19",
+      "clubs": 18,
+      "matches": 306,
+      "result": "identical"
+    },
+    {
+      "competition": "SERIEA",
+      "season": "2026-27",
+      "clubs": 20,
+      "matches": 50,
+      "result": "identical"
+    },
+    {
+      "competition": "SERIEA",
+      "season": "2025-26",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "SERIEA",
+      "season": "2024-25",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "SERIEA",
+      "season": "2023-24",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "SERIEA",
+      "season": "2022-23",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "SERIEA",
+      "season": "2021-22",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "SERIEA",
+      "season": "2020-21",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "SERIEA",
+      "season": "2019-20",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "SERIEA",
+      "season": "2018-19",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "LIGUE1",
+      "season": "2026-27",
+      "clubs": 18,
+      "matches": 45,
+      "result": "identical"
+    },
+    {
+      "competition": "LIGUE1",
+      "season": "2025-26",
+      "clubs": 18,
+      "matches": 306,
+      "result": "identical"
+    },
+    {
+      "competition": "LIGUE1",
+      "season": "2024-25",
+      "clubs": 18,
+      "matches": 306,
+      "result": "identical"
+    },
+    {
+      "competition": "LIGUE1",
+      "season": "2023-24",
+      "clubs": 18,
+      "matches": 306,
+      "result": "identical"
+    },
+    {
+      "competition": "LIGUE1",
+      "season": "2022-23",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "LIGUE1",
+      "season": "2021-22",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "LIGUE1",
+      "season": "2020-21",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    },
+    {
+      "competition": "LIGUE1",
+      "season": "2019-20",
+      "clubs": 20,
+      "matches": 279,
+      "result": "identical"
+    },
+    {
+      "competition": "LIGUE1",
+      "season": "2018-19",
+      "clubs": 20,
+      "matches": 380,
+      "result": "identical"
+    }
+  ],
+  "health_and_meta_ready_latency": [
+    {
+      "seconds": 0.18390329997055233,
+      "ready": true
+    },
+    {
+      "seconds": 0.12083289993461221,
+      "ready": true
+    },
+    {
+      "seconds": 0.11069450003560632,
+      "ready": true
+    }
+  ],
+  "scope": "Independent vector aggregation of the same verified stored results, not certification against official league tables."
+}

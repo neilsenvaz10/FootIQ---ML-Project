@@ -1,0 +1,62 @@
+{
+ "04_Football_Players_CC0.csv": {
+  "source": "FootIQ_Dataset_Submission/04_Football_Players.csv",
+  "rows_in_original": 25288,
+  "rows_kept": 15382,
+  "rows_dropped": 9906,
+  "sha256": "2777834fbebea507784768c9ca4367f04fddfd4b04cd5d6013298297f6d48e5a",
+  "sources_kept": {
+   "openfootball squad files (CC0)": 9583,
+   "openfootball match files (CC0)": 5799
+  }
+ },
+ "05_Player_Match_Statistics_CC0.csv": {
+  "source": "FootIQ_Dataset_Submission/05_Player_Match_Statistics.csv",
+  "rows_in_original": 180172,
+  "rows_kept": 66549,
+  "rows_dropped": 113623,
+  "sha256": "0dcd0925c01c9dd90224e94b8642d7fd66a1a84483c837b8fd121e6a711712b8",
+  "sources_kept": {
+   "openfootball match files (CC0)": 66549
+  }
+ },
+ "06_Teams_CC0.csv": {
+  "source": "FootIQ_Dataset_Submission/06_Teams.csv",
+  "rows_in_original": 5729,
+  "rows_kept": 5375,
+  "rows_dropped": 354,
+  "sha256": "a235f0426270033472eb6f1781cffe6897fc5764b0c7bcdd837b69ef5c4d3cf6",
+  "sources_kept": {
+   "openfootball (CC0 / public domain)": 5038,
+   "martj42/international_results (CC0-1.0)": 337
+  }
+ },
+ "07_Competitions_CC0.csv": {
+  "source": "FootIQ_Dataset_Submission/07_Competitions.csv",
+  "rows_in_original": 409,
+  "rows_kept": 385,
+  "rows_dropped": 24,
+  "sha256": "ccb3a7d85a647804c05ec340dfc97bd2af645d93947af32eb343db27aca82115",
+  "sources_kept": {
+   "martj42/international_results (CC0-1.0)": 225,
+   "openfootball (CC0 / public domain)": 160
+  }
+ },
+ "08_Player_Team_Memberships_CC0.csv": {
+  "source": "FootIQ_Dataset_Submission/08_Player_Team_Memberships.csv",
+  "rows_in_original": 34277,
+  "rows_kept": 15972,
+  "rows_dropped": 18305,
+  "sha256": "27f95820df158b689d8c7f4e13593cfb735bb0fb4916f32a34bb749b54339382",
+  "sources_kept": {
+   "openfootball squad files (CC0)": 9583,
+   "openfootball match files (CC0)": 6389
+  }
+ },
+ "_checks": {
+  "statsbomb_cells": 0,
+  "players_in_05_not_in_04": 0,
+  "players_without_any_appearance_or_squad_row": 0,
+  "players_whose_appearance_counter_differs_from_extract": 0
+ }
+}

@@ -1,0 +1,1092 @@
+﻿{
+ "started_utc": "2026-10-27T18:49:36Z",
+ "urls": {
+  "EPL": "https://api.football-data.org/v4/competitions/PL/matches?season=2026",
+  "SERIEA": "https://api.football-data.org/v4/competitions/SA/matches?season=2026",
+  "LIGUE1": "https://api.football-data.org/v4/competitions/FL1/matches?season=2026"
+ },
+ "token": {
+  "available": true,
+  "length": 32,
+  "shown": false
+ },
+ "production_sha256_before": "f760f98443483b8a8237b3e0e8f0a7915bc60b783a9711a40ab32657ac67a91b",
+ "ledger_lines_before": 4,
+ "cycle_outcome": "ok",
+ "requests_made": 3,
+ "production_untouched": true,
+ "ledger_lines_after": 7,
+ "leagues": {
+  "EPL": {
+   "request": {
+    "url": "https://api.football-data.org/v4/competitions/PL/matches?season=2026",
+    "status": 200,
+    "bytes": 369600,
+    "headers": {
+     "X-RequestCounter-Reset": "60",
+     "X-API-Version": "v4",
+     "X-Authenticated-Client": "Neilsen Vaz",
+     "x-requests-available-minute": "9",
+     "X-Cache-Status": "BYPASS"
+    }
+   },
+   "scheduler_outcome": {
+    "competition": "EPL",
+    "inserted": "0",
+    "updated": "20",
+    "unchanged": "269",
+    "confirmed": "60",
+    "quarantined": "31",
+    "requests": "1",
+    "snapshot_reused": "False"
+   },
+   "analysis": {
+    "competition_code": "PL",
+    "filters": {
+     "season": 2026
+    },
+    "result_set": {
+     "count": 380,
+     "first": "2026-08-21",
+     "last": "2027-05-30",
+     "played": 80
+    },
+    "matches": 380,
+    "statuses": {
+     "FINISHED": 80,
+     "TIMED": 300
+    },
+    "season_start": "2026-08-21",
+    "season_end": "2027-05-30",
+    "current_matchday": 8,
+    "finished": 80,
+    "newest_finished_utc": "2026-10-25T16:30:00Z",
+    "unfinished_past_their_date": 0,
+    "oldest_unfinished_past": null,
+    "provider_newest_lastUpdated": "2026-10-27T01:32:06Z",
+    "duration_values": [
+     "REGULAR"
+    ],
+    "has_regularTime": 0,
+    "distinct_teams": 20,
+    "matchdays": 38,
+    "unknown_statuses": [],
+    "adapter_validation": "accepted",
+    "identity": {
+     "resolved": {
+      "AFC Bournemouth": [
+       "CLUB:ENG:afc-bournemouth",
+       "exact"
+      ],
+      "Arsenal FC": [
+       "CLUB:ENG:arsenal-fc",
+       "exact"
+      ],
+      "Aston Villa FC": [
+       "CLUB:ENG:aston-villa-fc",
+       "exact"
+      ],
+      "Brentford FC": [
+       "CLUB:ENG:brentford-fc",
+       "exact"
+      ],
+      "Brighton & Hove Albion FC": [
+       "CLUB:ENG:brighton-and-hove-albion-fc",
+       "exact"
+      ],
+      "Chelsea FC": [
+       "CLUB:ENG:chelsea-fc",
+       "exact"
+      ],
+      "Coventry City FC": [
+       "CLUB:ENG:coventry-city-fc",
+       "exact"
+      ],
+      "Crystal Palace FC": [
+       "CLUB:ENG:crystal-palace-fc",
+       "exact"
+      ],
+      "Everton FC": [
+       "CLUB:ENG:everton-fc",
+       "exact"
+      ],
+      "Fulham FC": [
+       "CLUB:ENG:fulham-fc",
+       "exact"
+      ],
+      "Hull City AFC": [
+       "CLUB:ENG:hull-city-afc",
+       "exact"
+      ],
+      "Ipswich Town FC": [
+       "CLUB:ENG:ipswich-town-fc",
+       "exact"
+      ],
+      "Leeds United FC": [
+       "CLUB:ENG:leeds-united-fc",
+       "exact"
+      ],
+      "Liverpool FC": [
+       "CLUB:ENG:liverpool-fc",
+       "exact"
+      ],
+      "Manchester City FC": [
+       "CLUB:ENG:manchester-city-fc",
+       "exact"
+      ],
+      "Manchester United FC": [
+       "CLUB:ENG:manchester-united-fc",
+       "exact"
+      ],
+      "Newcastle United FC": [
+       "CLUB:ENG:newcastle-united-fc",
+       "exact"
+      ],
+      "Nottingham Forest FC": [
+       "CLUB:ENG:nottingham-forest-fc",
+       "exact"
+      ],
+      "Sunderland AFC": [
+       "CLUB:ENG:sunderland-afc",
+       "exact"
+      ],
+      "Tottenham Hotspur FC": [
+       "CLUB:ENG:tottenham-hotspur-fc",
+       "exact"
+      ]
+     },
+     "unresolved": []
+    },
+    "against_production": {
+     "production_fixtures": 380,
+     "production_completed": 60,
+     "production_newest_result": "2026-10-12",
+     "matched_pairs": 380,
+     "unmatched_provider_rows": 0,
+     "ambiguous": 0,
+     "results_agree": 60,
+     "results_conflict": 0,
+     "results_new_to_production": 20,
+     "production_results_not_finished_at_provider": 0,
+     "fixtures_with_moved_date": 31,
+     "conflicts": [],
+     "moved_dates": [
+      {
+       "stored": "2026-11-07",
+       "provider": "2026-11-06",
+       "home": "Everton FC",
+       "away": "Coventry City FC",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-07",
+       "provider": "2026-11-08",
+       "home": "Crystal Palace FC",
+       "away": "Liverpool FC",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-07",
+       "provider": "2026-11-08",
+       "home": "Sunderland AFC",
+       "away": "Chelsea FC",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-07",
+       "provider": "2026-11-08",
+       "home": "Ipswich Town FC",
+       "away": "AFC Bournemouth",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-07",
+       "provider": "2026-11-08",
+       "home": "Brighton & Hove Albion FC",
+       "away": "Brentford FC",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-07",
+       "provider": "2026-11-08",
+       "home": "Manchester United FC",
+       "away": "Aston Villa FC",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-21",
+       "provider": "2026-11-22",
+       "home": "Hull City AFC",
+       "away": "Brighton & Hove Albion FC",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-21",
+       "provider": "2026-11-22",
+       "home": "Liverpool FC",
+       "away": "Manchester United FC",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-21",
+       "provider": "2026-11-23",
+       "home": "Brentford FC",
+       "away": "Everton FC",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-28",
+       "provider": "2026-11-27",
+       "home": "Nottingham Forest FC",
+       "away": "Chelsea FC",
+       "provider_status": "TIMED"
+      }
+     ],
+     "new_results": [
+      {
+       "home": "Everton FC",
+       "away": "Chelsea FC",
+       "date": "2026-10-17",
+       "score": [
+        0,
+        2
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Fulham FC",
+       "away": "Hull City AFC",
+       "date": "2026-10-17",
+       "score": [
+        1,
+        0
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Manchester City FC",
+       "away": "Ipswich Town FC",
+       "date": "2026-10-17",
+       "score": [
+        3,
+        2
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Brentford FC",
+       "away": "Liverpool FC",
+       "date": "2026-10-17",
+       "score": [
+        1,
+        2
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Newcastle United FC",
+       "away": "Aston Villa FC",
+       "date": "2026-10-17",
+       "score": [
+        0,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "AFC Bournemouth",
+       "away": "Sunderland AFC",
+       "date": "2026-10-18",
+       "score": [
+        2,
+        0
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Leeds United FC",
+       "away": "Manchester United FC",
+       "date": "2026-10-18",
+       "score": [
+        1,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Brighton & Hove Albion FC",
+       "away": "Crystal Palace FC",
+       "date": "2026-10-18",
+       "score": [
+        5,
+        0
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Nottingham Forest FC",
+       "away": "Arsenal FC",
+       "date": "2026-10-18",
+       "score": [
+        0,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Tottenham Hotspur FC",
+       "away": "Coventry City FC",
+       "date": "2026-10-19",
+       "score": [
+        3,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      }
+     ]
+    }
+   },
+   "dry_run_on_copy": {
+    "rows_changed": 20,
+    "changed_fields": {
+     "away_goals_90": 20,
+     "away_goals_final": 20,
+     "home_goals_90": 20,
+     "home_goals_final": 20,
+     "in_universe": 20,
+     "label_90_status": 20,
+     "licence": 20,
+     "model_away_entity": 20,
+     "model_home_entity": 20,
+     "outcome": 20,
+     "rated": 20,
+     "regular": 20,
+     "source_system": 20,
+     "status": 20
+    },
+    "new_rows": 0,
+    "quarantined_by_kind": {},
+    "results_changed": []
+   }
+  },
+  "SERIEA": {
+   "request": {
+    "url": "https://api.football-data.org/v4/competitions/SA/matches?season=2026",
+    "status": 200,
+    "bytes": 363724,
+    "headers": {
+     "X-RequestCounter-Reset": "51",
+     "X-API-Version": "v4",
+     "X-Authenticated-Client": "Neilsen Vaz",
+     "x-requests-available-minute": "9",
+     "X-Cache-Status": "BYPASS"
+    }
+   },
+   "scheduler_outcome": {
+    "competition": "SERIEA",
+    "inserted": "0",
+    "updated": "291",
+    "unchanged": "0",
+    "confirmed": "50",
+    "quarantined": "39",
+    "requests": "1",
+    "snapshot_reused": "False"
+   },
+   "analysis": {
+    "competition_code": "SA",
+    "filters": {
+     "season": 2026
+    },
+    "result_set": {
+     "count": 380,
+     "first": "2026-08-22",
+     "last": "2027-05-30",
+     "played": 80
+    },
+    "matches": 380,
+    "statuses": {
+     "FINISHED": 80,
+     "IN_PLAY": 1,
+     "TIMED": 109,
+     "SCHEDULED": 190
+    },
+    "season_start": "2026-08-23",
+    "season_end": "2027-05-30",
+    "current_matchday": 9,
+    "finished": 80,
+    "newest_finished_utc": "2026-10-25T19:45:00Z",
+    "unfinished_past_their_date": 0,
+    "oldest_unfinished_past": null,
+    "provider_newest_lastUpdated": "2026-10-27T18:49:23Z",
+    "duration_values": [
+     "REGULAR"
+    ],
+    "has_regularTime": 0,
+    "distinct_teams": 20,
+    "matchdays": 38,
+    "unknown_statuses": [],
+    "adapter_validation": "accepted",
+    "identity": {
+     "resolved": {
+      "AC Milan": [
+       "CLUB:ITA:ac-milan",
+       "exact"
+      ],
+      "AC Monza": [
+       "CLUB:ITA:ac-monza",
+       "exact"
+      ],
+      "ACF Fiorentina": [
+       "CLUB:ITA:acf-fiorentina",
+       "exact"
+      ],
+      "AS Roma": [
+       "CLUB:ITA:as-roma",
+       "exact"
+      ],
+      "Atalanta BC": [
+       "CLUB:ITA:atalanta-bergamo",
+       "exact"
+      ],
+      "Bologna FC 1909": [
+       "CLUB:ITA:bologna-fc",
+       "exact"
+      ],
+      "Cagliari Calcio": [
+       "CLUB:ITA:cagliari-calcio",
+       "exact"
+      ],
+      "Como 1907": [
+       "CLUB:ITA:como-1907",
+       "exact"
+      ],
+      "FC Internazionale Milano": [
+       "CLUB:ITA:fc-internazionale-milano",
+       "exact"
+      ],
+      "Frosinone Calcio": [
+       "CLUB:ITA:frosinone-calcio",
+       "exact"
+      ],
+      "Genoa CFC": [
+       "CLUB:ITA:genoa-cfc",
+       "exact"
+      ],
+      "Juventus FC": [
+       "CLUB:ITA:juventus",
+       "exact"
+      ],
+      "Parma Calcio 1913": [
+       "CLUB:ITA:parma-calcio",
+       "exact"
+      ],
+      "SS Lazio": [
+       "CLUB:ITA:ss-lazio",
+       "exact"
+      ],
+      "SSC Napoli": [
+       "CLUB:ITA:ssc-napoli",
+       "exact"
+      ],
+      "Torino FC": [
+       "CLUB:ITA:torino-fc",
+       "exact"
+      ],
+      "US Lecce": [
+       "CLUB:ITA:us-lecce",
+       "exact"
+      ],
+      "US Sassuolo Calcio": [
+       "CLUB:ITA:us-sassuolo-calcio",
+       "exact"
+      ],
+      "Udinese Calcio": [
+       "CLUB:ITA:udinese-calcio",
+       "exact"
+      ],
+      "Venezia FC": [
+       "CLUB:ITA:venezia-fc",
+       "exact"
+      ]
+     },
+     "unresolved": []
+    },
+    "against_production": {
+     "production_fixtures": 380,
+     "production_completed": 50,
+     "production_newest_result": "2026-09-20",
+     "matched_pairs": 380,
+     "unmatched_provider_rows": 0,
+     "ambiguous": 0,
+     "results_agree": 50,
+     "results_conflict": 0,
+     "results_new_to_production": 30,
+     "production_results_not_finished_at_provider": 0,
+     "fixtures_with_moved_date": 39,
+     "conflicts": [],
+     "moved_dates": [
+      {
+       "stored": "2026-11-23",
+       "provider": "2026-11-22",
+       "home": "Juventus FC",
+       "away": "Venezia FC",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-29",
+       "provider": "2026-11-27",
+       "home": "Venezia FC",
+       "away": "Bologna FC 1909",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-29",
+       "provider": "2026-11-28",
+       "home": "Frosinone Calcio",
+       "away": "Parma Calcio 1913",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-29",
+       "provider": "2026-11-28",
+       "home": "Torino FC",
+       "away": "SS Lazio",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-29",
+       "provider": "2026-11-28",
+       "home": "FC Internazionale Milano",
+       "away": "Genoa CFC",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-29",
+       "provider": "2026-11-30",
+       "home": "US Lecce",
+       "away": "Atalanta BC",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-11-29",
+       "provider": "2026-11-30",
+       "home": "Cagliari Calcio",
+       "away": "AC Milan",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-12-06",
+       "provider": "2026-12-04",
+       "home": "Bologna FC 1909",
+       "away": "AS Roma",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-12-06",
+       "provider": "2026-12-05",
+       "home": "AC Monza",
+       "away": "Como 1907",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-12-06",
+       "provider": "2026-12-05",
+       "home": "Frosinone Calcio",
+       "away": "FC Internazionale Milano",
+       "provider_status": "TIMED"
+      }
+     ],
+     "new_results": [
+      {
+       "home": "Genoa CFC",
+       "away": "ACF Fiorentina",
+       "date": "2026-10-10",
+       "score": [
+        2,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "FC Internazionale Milano",
+       "away": "Parma Calcio 1913",
+       "date": "2026-10-10",
+       "score": [
+        3,
+        0
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "SSC Napoli",
+       "away": "Frosinone Calcio",
+       "date": "2026-10-10",
+       "score": [
+        3,
+        0
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Como 1907",
+       "away": "AS Roma",
+       "date": "2026-10-11",
+       "score": [
+        0,
+        0
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "US Lecce",
+       "away": "Bologna FC 1909",
+       "date": "2026-10-11",
+       "score": [
+        1,
+        2
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "SS Lazio",
+       "away": "AC Monza",
+       "date": "2026-10-11",
+       "score": [
+        3,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "US Sassuolo Calcio",
+       "away": "AC Milan",
+       "date": "2026-10-11",
+       "score": [
+        1,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Cagliari Calcio",
+       "away": "Juventus FC",
+       "date": "2026-10-11",
+       "score": [
+        1,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Atalanta BC",
+       "away": "Venezia FC",
+       "date": "2026-10-12",
+       "score": [
+        3,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Torino FC",
+       "away": "Udinese Calcio",
+       "date": "2026-10-12",
+       "score": [
+        2,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      }
+     ]
+    }
+   },
+   "dry_run_on_copy": {
+    "rows_changed": 291,
+    "changed_fields": {
+     "away_goals_90": 30,
+     "away_goals_final": 30,
+     "home_goals_90": 30,
+     "home_goals_final": 30,
+     "in_universe": 30,
+     "kickoff_utc": 291,
+     "label_90_status": 30,
+     "licence": 30,
+     "model_away_entity": 30,
+     "model_home_entity": 30,
+     "outcome": 30,
+     "rated": 30,
+     "regular": 30,
+     "source_system": 30,
+     "status": 30,
+     "time_precision": 291
+    },
+    "new_rows": 0,
+    "quarantined_by_kind": {},
+    "results_changed": []
+   }
+  },
+  "LIGUE1": {
+   "request": {
+    "url": "https://api.football-data.org/v4/competitions/FL1/matches?season=2026",
+    "status": 200,
+    "bytes": 295291,
+    "headers": {
+     "X-RequestCounter-Reset": "42",
+     "X-API-Version": "v4",
+     "X-Authenticated-Client": "Neilsen Vaz",
+     "x-requests-available-minute": "8",
+     "X-Cache-Status": "BYPASS"
+    }
+   },
+   "scheduler_outcome": {
+    "competition": "LIGUE1",
+    "inserted": "0",
+    "updated": "235",
+    "unchanged": "0",
+    "confirmed": "45",
+    "quarantined": "26",
+    "requests": "1",
+    "snapshot_reused": "False"
+   },
+   "analysis": {
+    "competition_code": "FL1",
+    "filters": {
+     "season": 2026
+    },
+    "result_set": {
+     "count": 306,
+     "first": "2026-08-21",
+     "last": "2027-05-29",
+     "played": 72
+    },
+    "matches": 306,
+    "statuses": {
+     "FINISHED": 72,
+     "TIMED": 94,
+     "SCHEDULED": 140
+    },
+    "season_start": "2026-08-22",
+    "season_end": "2027-05-29",
+    "current_matchday": 8,
+    "finished": 72,
+    "newest_finished_utc": "2026-10-26T19:30:00Z",
+    "unfinished_past_their_date": 0,
+    "oldest_unfinished_past": null,
+    "provider_newest_lastUpdated": "2026-10-27T14:25:10Z",
+    "duration_values": [
+     "REGULAR"
+    ],
+    "has_regularTime": 0,
+    "distinct_teams": 18,
+    "matchdays": 34,
+    "unknown_statuses": [],
+    "adapter_validation": "accepted",
+    "identity": {
+     "resolved": {
+      "AJ Auxerre": [
+       "CLUB:FRA:aj-auxerre",
+       "exact"
+      ],
+      "AS Monaco FC": [
+       "CLUB:MCO:as-monaco",
+       "exact"
+      ],
+      "Angers SCO": [
+       "CLUB:FRA:angers-sco",
+       "exact"
+      ],
+      "ES Troyes AC": [
+       "CLUB:FRA:es-troyes-ac",
+       "exact"
+      ],
+      "FC Lorient": [
+       "CLUB:FRA:fc-lorient",
+       "exact"
+      ],
+      "Le Havre AC": [
+       "CLUB:FRA:le-havre-ac",
+       "exact"
+      ],
+      "Le Mans FC": [
+       "CLUB:FRA:le-mans-fc",
+       "exact"
+      ],
+      "Lille OSC": [
+       "CLUB:FRA:lille-osc",
+       "exact"
+      ],
+      "OGC Nice": [
+       "CLUB:FRA:ogc-nice",
+       "exact"
+      ],
+      "Olympique Lyonnais": [
+       "CLUB:FRA:olympique-lyonnais",
+       "exact"
+      ],
+      "Olympique de Marseille": [
+       "CLUB:FRA:olympique-de-marseille",
+       "exact"
+      ],
+      "Paris FC": [
+       "CLUB:FRA:paris-fc",
+       "exact"
+      ],
+      "Paris Saint-Germain FC": [
+       "CLUB:FRA:paris-saint-germain",
+       "exact"
+      ],
+      "RC Strasbourg Alsace": [
+       "CLUB:FRA:rc-strasbourg",
+       "exact"
+      ],
+      "Racing Club de Lens": [
+       "CLUB:FRA:rc-lens",
+       "exact"
+      ],
+      "Stade Brestois 29": [
+       "CLUB:FRA:stade-brestois-29",
+       "exact"
+      ],
+      "Stade Rennais FC 1901": [
+       "CLUB:FRA:stade-rennais-fc",
+       "exact"
+      ],
+      "Toulouse FC": [
+       "CLUB:FRA:toulouse-fc",
+       "exact"
+      ]
+     },
+     "unresolved": []
+    },
+    "against_production": {
+     "production_fixtures": 306,
+     "production_completed": 45,
+     "production_newest_result": "2026-09-20",
+     "matched_pairs": 306,
+     "unmatched_provider_rows": 0,
+     "ambiguous": 0,
+     "results_agree": 45,
+     "results_conflict": 0,
+     "results_new_to_production": 27,
+     "production_results_not_finished_at_provider": 0,
+     "fixtures_with_moved_date": 26,
+     "conflicts": [],
+     "moved_dates": [
+      {
+       "stored": "2026-10-24",
+       "provider": "2026-10-25",
+       "home": "Toulouse FC",
+       "away": "ES Troyes AC",
+       "provider_status": "FINISHED"
+      },
+      {
+       "stored": "2026-10-25",
+       "provider": "2026-10-26",
+       "home": "Paris Saint-Germain FC",
+       "away": "Olympique Lyonnais",
+       "provider_status": "FINISHED"
+      },
+      {
+       "stored": "2026-10-31",
+       "provider": "2026-10-30",
+       "home": "OGC Nice",
+       "away": "Stade Rennais FC 1901",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-10-31",
+       "provider": "2026-11-01",
+       "home": "Olympique Lyonnais",
+       "away": "Angers SCO",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-10-31",
+       "provider": "2026-11-02",
+       "home": "FC Lorient",
+       "away": "Stade Brestois 29",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-12-05",
+       "provider": "2026-12-04",
+       "home": "Toulouse FC",
+       "away": "Paris Saint-Germain FC",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-12-05",
+       "provider": "2026-12-06",
+       "home": "ES Troyes AC",
+       "away": "Olympique Lyonnais",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-12-05",
+       "provider": "2026-12-06",
+       "home": "Stade Rennais FC 1901",
+       "away": "Stade Brestois 29",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-12-05",
+       "provider": "2026-12-06",
+       "home": "Olympique de Marseille",
+       "away": "OGC Nice",
+       "provider_status": "TIMED"
+      },
+      {
+       "stored": "2026-12-12",
+       "provider": "2026-12-11",
+       "home": "AJ Auxerre",
+       "away": "Toulouse FC",
+       "provider_status": "TIMED"
+      }
+     ],
+     "new_results": [
+      {
+       "home": "Racing Club de Lens",
+       "away": "Olympique Lyonnais",
+       "date": "2026-10-09",
+       "score": [
+        2,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Lille OSC",
+       "away": "Le Havre AC",
+       "date": "2026-10-10",
+       "score": [
+        1,
+        0
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Stade Brestois 29",
+       "away": "Angers SCO",
+       "date": "2026-10-10",
+       "score": [
+        5,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "FC Lorient",
+       "away": "Paris FC",
+       "date": "2026-10-10",
+       "score": [
+        1,
+        0
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Paris Saint-Germain FC",
+       "away": "Le Mans FC",
+       "date": "2026-10-10",
+       "score": [
+        3,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "AS Monaco FC",
+       "away": "Toulouse FC",
+       "date": "2026-10-10",
+       "score": [
+        2,
+        2
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "OGC Nice",
+       "away": "RC Strasbourg Alsace",
+       "date": "2026-10-11",
+       "score": [
+        2,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Stade Rennais FC 1901",
+       "away": "AJ Auxerre",
+       "date": "2026-10-11",
+       "score": [
+        4,
+        1
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "ES Troyes AC",
+       "away": "Olympique de Marseille",
+       "date": "2026-10-11",
+       "score": [
+        0,
+        2
+       ],
+       "stored_status": "awaiting_result"
+      },
+      {
+       "home": "Le Mans FC",
+       "away": "Toulouse FC",
+       "date": "2026-10-16",
+       "score": [
+        0,
+        3
+       ],
+       "stored_status": "awaiting_result"
+      }
+     ]
+    }
+   },
+   "dry_run_on_copy": {
+    "rows_changed": 235,
+    "changed_fields": {
+     "away_goals_90": 25,
+     "away_goals_final": 25,
+     "home_goals_90": 25,
+     "home_goals_final": 25,
+     "in_universe": 25,
+     "kickoff_utc": 235,
+     "label_90_status": 25,
+     "licence": 25,
+     "model_away_entity": 25,
+     "model_home_entity": 25,
+     "outcome": 25,
+     "rated": 25,
+     "regular": 25,
+     "source_system": 25,
+     "status": 25,
+     "time_precision": 235
+    },
+    "new_rows": 0,
+    "quarantined_by_kind": {},
+    "results_changed": []
+   }
+  }
+ },
+ "new_quarantine_findings_in_copy": {
+  "total": 96,
+  "by_kind": {
+   "DATE_DIFFERENCE": 96
+  },
+  "samples": [
+   "DATE_DIFFERENCE: stored 2026-11-07 vs source 2026-11-06: Everton FC v Coventry City FC",
+   "DATE_DIFFERENCE: stored 2026-11-07 vs source 2026-11-08: Crystal Palace FC v Liverpool FC",
+   "DATE_DIFFERENCE: stored 2026-11-07 vs source 2026-11-08: Sunderland AFC v Chelsea FC",
+   "DATE_DIFFERENCE: stored 2026-11-07 vs source 2026-11-08: Ipswich Town FC v AFC Bournemouth",
+   "DATE_DIFFERENCE: stored 2026-11-07 vs source 2026-11-08: Brighton & Hove Albion FC v Brentford FC",
+   "DATE_DIFFERENCE: stored 2026-11-07 vs source 2026-11-08: Manchester United FC v Aston Villa FC",
+   "DATE_DIFFERENCE: stored 2026-11-21 vs source 2026-11-22: Hull City AFC v Brighton & Hove Albion FC",
+   "DATE_DIFFERENCE: stored 2026-11-21 vs source 2026-11-22: Liverpool FC v Manchester United FC"
+  ]
+ }
+}

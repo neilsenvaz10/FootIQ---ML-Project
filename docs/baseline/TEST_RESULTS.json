@@ -1,0 +1,17 @@
+{
+  "exit_code": 0,
+  "testcases": 28,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "by_classname": {
+    "tests.test_confidence_gate_v211.ConfidenceGateV211Tests": 5,
+    "tests.test_lineup_impact_v212.LineupImpactV212Tests": 5,
+    "tests.test_live_tournament_v213": 7,
+    "tests.test_matchday_report_v29": 6,
+    "tests.test_matchday_validation_v210.MatchdayValidationV210Tests": 5
+  },
+  "stdout": "capture_2026-10-20/tests_verified.stdout.txt",
+  "junit": "capture_2026-10-20/tests_verified.junit.xml",
+  "setup_attempts": "Initial guarded pytest attempts failed before collection; successful fresh-copy rerun disabled capture/logging/cache plugins. No test function changed."
+}

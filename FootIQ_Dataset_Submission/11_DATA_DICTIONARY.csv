@@ -1,0 +1,276 @@
+﻿dataset_file,column_name,data_type,description,non_null_count,example_value
+01_Historical_International_Matches.csv,match_id,object,Dataset-unique match identifier. 01: INTL:date:home:away:source row. 02/03/09 club: competition_id:season:L<line number in source file>. SB:M<id> = StatsBomb match ID.,49362,INTL:1872-11-30:scotland:england:r2
+01_Historical_International_Matches.csv,match_date,object,Match date (ISO YYYY-MM-DD) as published; local calendar date for club matches.,49362,1872-11-30
+01_Historical_International_Matches.csv,home_team_id,object,"Team identifier scoped to its source: INT|name (national team name as published), <country code>|name (club), SB:T<StatsBomb team ID>. Same text in different sources is NOT guaranteed to be the same entity.",49362,INT|Scotland
+01_Historical_International_Matches.csv,home_team,object,Team name exactly as written in the source (country-code suffix removed for clubs).,49362,Scotland
+01_Historical_International_Matches.csv,away_team_id,object,"Team identifier scoped to its source: INT|name (national team name as published), <country code>|name (club), SB:T<StatsBomb team ID>. Same text in different sources is NOT guaranteed to be the same entity.",49362,INT|England
+01_Historical_International_Matches.csv,away_team,object,Team name exactly as written in the source (country-code suffix removed for clubs).,49362,England
+01_Historical_International_Matches.csv,home_score_incl_extra_time,int64,"Home team score at full time including extra time, excluding penalty shootout (international source semantics).",49362,0
+01_Historical_International_Matches.csv,away_score_incl_extra_time,int64,"Away team score at full time including extra time, excluding penalty shootout (international source semantics).",49362,0
+01_Historical_International_Matches.csv,result_incl_extra_time,object,"Result from the score including extra time: H home win, D draw, A away win.",49362,D
+01_Historical_International_Matches.csv,decided_by_penalty_shootout,bool,True if the source lists a penalty shootout for this match.,49362,False
+01_Historical_International_Matches.csv,penalty_shootout_winner,object,Winner of the penalty shootout as published (team name).,688,Taiwan
+01_Historical_International_Matches.csv,penalty_shootout_first_shooter,object,Team that took the first penalty as published.,259,Czechoslovakia
+01_Historical_International_Matches.csv,tournament,object,Tournament name exactly as published by the source.,49362,Friendly
+01_Historical_International_Matches.csv,competition_id,object,"Source-scoped competition identifier (INTL:<slug>, <repo>:<file code>, SB:C<id>).",49362,INTL:friendly
+01_Historical_International_Matches.csv,competition_category,object,"FootIQ category derived from tournament text: world_cup_finals, world_cup_qualification, qualification, nations_league, friendly, continental_or_regional_tournament, other_international_tournament.",49362,friendly
+01_Historical_International_Matches.csv,city,object,City of the venue as published.,49362,Glasgow
+01_Historical_International_Matches.csv,country,object,Country where the match was played as published (international data).,49362,Scotland
+01_Historical_International_Matches.csv,neutral_venue,bool,True when the match was played at a neutral venue (source flag).,49362,False
+01_Historical_International_Matches.csv,score_basis,object,Text explaining what the score columns mean for this source.,49362,"full-time score including extra time, excluding penalty shootout; regulation/ext"
+01_Historical_International_Matches.csv,in_local_baseline,bool,"True if the same (date, home, away) match exists in the local Milestone 1 baseline file data/raw/international_results/results.csv after mapping 'China PR' to 'China'.",49362,True
+01_Historical_International_Matches.csv,source_name,object,Name of the upstream data source.,49362,martj42/international_results (CC0-1.0)
+01_Historical_International_Matches.csv,source_url,object,URL of the upstream source repository.,49362,https://github.com/martj42/international_results
+01_Historical_International_Matches.csv,source_file,object,Source file(s) the record came from (relative path inside _raw_sources or upstream repo).,49362,results.csv + shootouts.csv
+01_Historical_International_Matches.csv,source_row_number,int64,1-based row number in the upstream results.csv (header = row 1).,49362,2
+01_Historical_International_Matches.csv,source_extraction_date,object,Date the data was downloaded/extracted for this package.,49362,2026-10-20
+02_Historical_Club_Matches.csv,match_id,object,Dataset-unique match identifier. 01: INTL:date:home:away:source row. 02/03/09 club: competition_id:season:L<line number in source file>. SB:M<id> = StatsBomb match ID.,223625,austria:1-bundesliga:2010-11:L11
+02_Historical_Club_Matches.csv,match_date,object,Match date (ISO YYYY-MM-DD) as published; local calendar date for club matches.,223625,2010-07-17
+02_Historical_Club_Matches.csv,kickoff_time_local,object,Clock time of kick-off in local time as published (no timezone conversion).,119911,18:30
+02_Historical_Club_Matches.csv,competition_id,object,"Source-scoped competition identifier (INTL:<slug>, <repo>:<file code>, SB:C<id>).",223625,austria:1-bundesliga
+02_Historical_Club_Matches.csv,competition_name,object,Competition name (standardised for major competitions; otherwise source title without season).,223625,Austrian Bundesliga
+02_Historical_Club_Matches.csv,competition_type,object,"Competition type: domestic_league, domestic_cup, league_cup, continental_club, global_club (club data); world_cup_finals etc. (international); international_tournament / domestic_or_club_competition (StatsBomb).",223625,domestic_league
+02_Historical_Club_Matches.csv,tier,float64,League tier (1 = top flight) where derivable from the file code; blank for cups.,208817,1.0
+02_Historical_Club_Matches.csv,competition_country,object,"Country or confederation of the competition as derived from the source path (UEFA (Europe), CONMEBOL (South America), FIFA (World) for continental/global).",223625,Austria
+02_Historical_Club_Matches.csv,season,object,Season label (e.g. 2024-25 or 2025). Taken from the file title when it disagrees with the folder name.,223625,2010-11
+02_Historical_Club_Matches.csv,stage,object,"Stage/round text exactly as published (e.g. 'Matchday 12', 'Round 3', 'Quarterfinals').",222675,Matchday 1
+02_Historical_Club_Matches.csv,group,float64,Group label if the source gives one.,0,
+02_Historical_Club_Matches.csv,knockout_or_cup_round,bool,True when the stage text suggests a cup/knockout/qualifying round (regex on stage text; heuristic).,223625,False
+02_Historical_Club_Matches.csv,home_team_id,object,"Team identifier scoped to its source: INT|name (national team name as published), <country code>|name (club), SB:T<StatsBomb team ID>. Same text in different sources is NOT guaranteed to be the same entity.",223625,AUT|SC Magna Wiener Neustadt
+02_Historical_Club_Matches.csv,home_team,object,Team name exactly as written in the source (country-code suffix removed for clubs).,223625,SC Magna Wiener Neustadt
+02_Historical_Club_Matches.csv,home_team_country_code,object,"UEFA/FIFA style 3-letter country code printed after the club name in continental files, otherwise blank.",9262,ENG
+02_Historical_Club_Matches.csv,away_team_id,object,"Team identifier scoped to its source: INT|name (national team name as published), <country code>|name (club), SB:T<StatsBomb team ID>. Same text in different sources is NOT guaranteed to be the same entity.",223625,AUT|LASK Linz
+02_Historical_Club_Matches.csv,away_team,object,Team name exactly as written in the source (country-code suffix removed for clubs).,223625,LASK Linz
+02_Historical_Club_Matches.csv,away_team_country_code,object,"UEFA/FIFA style 3-letter country code printed after the club name in continental files, otherwise blank.",9262,ITA
+02_Historical_Club_Matches.csv,home_goals_regulation,float64,Home goals in regulation time (90 min) when the source states or implies it; blank if not determinable (e.g. extra-time match with only one bracket value).,223356,5.0
+02_Historical_Club_Matches.csv,away_goals_regulation,float64,Away goals in regulation time (90 min) when stated/implied; blank if not determinable.,223356,0.0
+02_Historical_Club_Matches.csv,home_goals_after_extra_time,float64,Home goals after extra time (only when extra time was played).,1072,4.0
+02_Historical_Club_Matches.csv,away_goals_after_extra_time,float64,Away goals after extra time (only when extra time was played).,1072,4.0
+02_Historical_Club_Matches.csv,home_penalties,float64,Home penalty shootout score.,942,5.0
+02_Historical_Club_Matches.csv,away_penalties,float64,Away penalty shootout score.,942,4.0
+02_Historical_Club_Matches.csv,home_goals_halftime,float64,Home goals at half time when published.,182387,5.0
+02_Historical_Club_Matches.csv,away_goals_halftime,float64,Away goals at half time when published.,182387,0.0
+02_Historical_Club_Matches.csv,extra_time_played,object,yes / no / unknown. unknown = decided on penalties but the source does not say whether extra time was played.,223625,no
+02_Historical_Club_Matches.csv,penalties_played,object,"yes if a shootout is recorded, no for scored matches without one.",223625,no
+02_Historical_Club_Matches.csv,result_regulation,object,"Result after regulation time: H home win, D draw, A away win; blank if regulation score unknown.",223356,H
+02_Historical_Club_Matches.csv,decided_in,object,"How the match was decided: regulation, extra_time, penalties (club) or penalties / not_distinguished_regulation_or_extra_time (international).",223625,regulation
+02_Historical_Club_Matches.csv,final_match_winner_side,object,"Winner of THIS match after all recorded phases (penalties > extra time > regulation): home, away, draw. This is the single-match outcome, NOT two-legged-tie advancement.",223625,home
+02_Historical_Club_Matches.csv,match_status,object,"completed, awarded, abandoned (scored), unscored, postponed or cancelled as flagged in the source text.",223625,completed
+02_Historical_Club_Matches.csv,status_note,object,Free-text note from the source line (e.g. reason for award).,227,awarded
+02_Historical_Club_Matches.csv,source_name,object,Name of the upstream data source.,223625,openfootball (CC0 / public domain)
+02_Historical_Club_Matches.csv,source_repo,object,openfootball repository the file came from.,223625,austria
+02_Historical_Club_Matches.csv,source_repo_commit,object,Git commit (hash|commit date) of the cloned repository at download.,223625,627ba1b3ebddc5a513420239356f490bef2453ec|2026-10-01
+02_Historical_Club_Matches.csv,source_file,object,Source file(s) the record came from (relative path inside _raw_sources or upstream repo).,223625,austria/2010-11/1-bundesliga.txt
+02_Historical_Club_Matches.csv,source_line,int64,1-based line number of the match in the source file.,223625,11
+02_Historical_Club_Matches.csv,source_text,object,"The original text line from the source file, kept for audit.",223625,18:30  SC Magna Wiener Neustadt  5-0 (5-0)  LASK Linz
+03_Recent_Match_Results.csv,record_scope,object,'international' or 'club'.,1482,international
+03_Recent_Match_Results.csv,match_id,object,Dataset-unique match identifier. 01: INTL:date:home:away:source row. 02/03/09 club: competition_id:season:L<line number in source file>. SB:M<id> = StatsBomb match ID.,1482,INTL:2026-06-03:albania:israel:r49366
+03_Recent_Match_Results.csv,match_date,object,Match date (ISO YYYY-MM-DD) as published; local calendar date for club matches.,1482,2026-06-03
+03_Recent_Match_Results.csv,competition_id,object,"Source-scoped competition identifier (INTL:<slug>, <repo>:<file code>, SB:C<id>).",1482,INTL:friendly
+03_Recent_Match_Results.csv,competition_name,object,Competition name (standardised for major competitions; otherwise source title without season).,1482,Friendly
+03_Recent_Match_Results.csv,competition_type,object,"Competition type: domestic_league, domestic_cup, league_cup, continental_club, global_club (club data); world_cup_finals etc. (international); international_tournament / domestic_or_club_competition (StatsBomb).",1482,friendly
+03_Recent_Match_Results.csv,competition_country,object,"Country or confederation of the competition as derived from the source path (UEFA (Europe), CONMEBOL (South America), FIFA (World) for continental/global).",1482,Albania
+03_Recent_Match_Results.csv,season,object,Season label (e.g. 2024-25 or 2025). Taken from the file title when it disagrees with the folder name.,1482,2026
+03_Recent_Match_Results.csv,stage,object,"Stage/round text exactly as published (e.g. 'Matchday 12', 'Round 3', 'Quarterfinals').",899,Matchday 30
+03_Recent_Match_Results.csv,home_team_id,object,"Team identifier scoped to its source: INT|name (national team name as published), <country code>|name (club), SB:T<StatsBomb team ID>. Same text in different sources is NOT guaranteed to be the same entity.",1482,INT|Albania
+03_Recent_Match_Results.csv,home_team,object,Team name exactly as written in the source (country-code suffix removed for clubs).,1482,Albania
+03_Recent_Match_Results.csv,away_team_id,object,"Team identifier scoped to its source: INT|name (national team name as published), <country code>|name (club), SB:T<StatsBomb team ID>. Same text in different sources is NOT guaranteed to be the same entity.",1482,INT|Israel
+03_Recent_Match_Results.csv,away_team,object,Team name exactly as written in the source (country-code suffix removed for clubs).,1482,Israel
+03_Recent_Match_Results.csv,home_goals_regulation,float64,Home goals in regulation time (90 min) when the source states or implies it; blank if not determinable (e.g. extra-time match with only one bracket value).,899,0.0
+03_Recent_Match_Results.csv,away_goals_regulation,float64,Away goals in regulation time (90 min) when stated/implied; blank if not determinable.,899,2.0
+03_Recent_Match_Results.csv,home_score_incl_extra_time,float64,"Home team score at full time including extra time, excluding penalty shootout (international source semantics).",583,0.0
+03_Recent_Match_Results.csv,away_score_incl_extra_time,float64,"Away team score at full time including extra time, excluding penalty shootout (international source semantics).",583,1.0
+03_Recent_Match_Results.csv,home_goals_after_extra_time,float64,Home goals after extra time (only when extra time was played).,0,
+03_Recent_Match_Results.csv,away_goals_after_extra_time,float64,Away goals after extra time (only when extra time was played).,0,
+03_Recent_Match_Results.csv,home_penalties,float64,Home penalty shootout score.,0,
+03_Recent_Match_Results.csv,away_penalties,float64,Away penalty shootout score.,0,
+03_Recent_Match_Results.csv,penalty_shootout_winner_side,object,Penalty shootout winner as home/away side (03).,11,home
+03_Recent_Match_Results.csv,extra_time_played,object,yes / no / unknown. unknown = decided on penalties but the source does not say whether extra time was played.,899,no
+03_Recent_Match_Results.csv,result_regulation,object,"Result after regulation time: H home win, D draw, A away win; blank if regulation score unknown.",899,A
+03_Recent_Match_Results.csv,decided_in,object,"How the match was decided: regulation, extra_time, penalties (club) or penalties / not_distinguished_regulation_or_extra_time (international).",1482,not_distinguished_regulation_or_extra_time
+03_Recent_Match_Results.csv,final_match_winner_side,object,"Winner of THIS match after all recorded phases (penalties > extra time > regulation): home, away, draw. This is the single-match outcome, NOT two-legged-tie advancement.",1482,away
+03_Recent_Match_Results.csv,match_status,object,"completed, awarded, abandoned (scored), unscored, postponed or cancelled as flagged in the source text.",1482,completed
+03_Recent_Match_Results.csv,source_name,object,Name of the upstream data source.,1482,martj42/international_results (CC0-1.0)
+03_Recent_Match_Results.csv,source_url,object,URL of the upstream source repository.,1482,https://github.com/martj42/international_results
+03_Recent_Match_Results.csv,source_file,object,Source file(s) the record came from (relative path inside _raw_sources or upstream repo).,1482,results.csv + shootouts.csv
+03_Recent_Match_Results.csv,source_line_or_row,int64,Row number in the source (international) or line number (club) - see source_file.,1482,49366
+03_Recent_Match_Results.csv,source_extraction_date,object,Date the data was downloaded/extracted for this package.,1482,2026-10-20
+04_Football_Players.csv,player_id,object,Player identifier. SB:P<id> is the native StatsBomb ID. OFP|<team_id>|<name> and SQD|... are derived keys scoped to team (and squad); they are NOT global identities.,25288,SB:P2935
+04_Football_Players.csv,source_player_id,float64,Original ID in the source system (StatsBomb player_id).,9906,2935.0
+04_Football_Players.csv,id_scope,object,"Scope/quality of player_id: source_native_id_StatsBomb, derived_team_scoped_name_key, derived_squad_scoped_key.",25288,source_native_id_StatsBomb
+04_Football_Players.csv,player_name,object,Player name as written in the source (may differ in casing/accents between sources).,25288,Nordi Mukiele Mulere
+04_Football_Players.csv,player_nickname,object,Nickname from StatsBomb lineups when present.,3713,Nordi Mukiele
+04_Football_Players.csv,nationality,object,"Country of the player as given by StatsBomb lineups, or nationality code printed in squad files.",12906,France
+04_Football_Players.csv,nationality_code_if_listed,object,Nationality code in parentheses after the name in squad files (blank if absent).,3004,GER
+04_Football_Players.csv,position_primary,object,Most frequent first position (StatsBomb) or squad position code (GK/DF/MF/FW).,19489,Right Center Back
+04_Football_Players.csv,birth_text,object,Birth year/date text exactly as published in squad files; blank otherwise.,9510,1987
+04_Football_Players.csv,gender_context,object,"Gender of the competition(s) where seen, from StatsBomb; openfootball sections are men's but the source does not state it.",25288,male
+04_Football_Players.csv,first_seen_date,object,Earliest date the player is seen in a match record.,15705,2022-08-06
+04_Football_Players.csv,last_seen_date,object,Latest date the player is seen in a match record.,15705,2023-03-04
+04_Football_Players.csv,n_match_appearance_records,int64,Number of distinct matches with a lineup appearance.,25288,15
+04_Football_Players.csv,n_squad_list_records,int64,Number of squad-list rows for the player key.,25288,0
+04_Football_Players.csv,n_teams,int64,Number of distinct teams the key is seen with.,25288,1
+04_Football_Players.csv,source_dataset,object,Dataset the record came from.,25288,StatsBomb Open Data
+04_Football_Players.csv,source_url,object,URL of the upstream source repository.,25288,https://github.com/statsbomb/open-data
+04_Football_Players.csv,source_extraction_date,object,Date the data was downloaded/extracted for this package.,25288,2026-10-20
+05_Player_Match_Statistics.csv,player_match_id,object,Row identifier for the player-match record.,180172,PM0076011
+05_Player_Match_Statistics.csv,source_dataset,object,Dataset the record came from.,180172,StatsBomb Open Data
+05_Player_Match_Statistics.csv,match_id,object,Dataset-unique match identifier. 01: INTL:date:home:away:source row. 02/03/09 club: competition_id:season:L<line number in source file>. SB:M<id> = StatsBomb match ID.,180172,SB:M3888704
+05_Player_Match_Statistics.csv,match_in_02_or_03,bool,True if match_id exists in 02 or 03 (openfootball rows linked to a match record).,180172,False
+05_Player_Match_Statistics.csv,match_date,object,Match date (ISO YYYY-MM-DD) as published; local calendar date for club matches.,180172,1958-06-24
+05_Player_Match_Statistics.csv,competition_name,object,Competition name (standardised for major competitions; otherwise source title without season).,180172,FIFA World Cup
+05_Player_Match_Statistics.csv,competition_gender,object,StatsBomb competition gender (male/female) or note for openfootball.,180172,male
+05_Player_Match_Statistics.csv,season,object,Season label (e.g. 2024-25 or 2025). Taken from the file title when it disagrees with the folder name.,180172,1958
+05_Player_Match_Statistics.csv,stage,object,"Stage/round text exactly as published (e.g. 'Matchday 12', 'Round 3', 'Quarterfinals').",113623,Semi-finals
+05_Player_Match_Statistics.csv,player_id,object,Player identifier. SB:P<id> is the native StatsBomb ID. OFP|<team_id>|<name> and SQD|... are derived keys scoped to team (and squad); they are NOT global identities.,180172,SB:P397704
+05_Player_Match_Statistics.csv,source_player_id,float64,Original ID in the source system (StatsBomb player_id).,113623,397704.0
+05_Player_Match_Statistics.csv,player_name,object,Player name as written in the source (may differ in casing/accents between sources).,180172,Claude Abbes
+05_Player_Match_Statistics.csv,team_id,object,"Team identifier scoped to its source: INT|name (national team name as published), <country code>|name (club), SB:T<StatsBomb team ID>. Same text in different sources is NOT guaranteed to be the same entity.",180172,SB:T771
+05_Player_Match_Statistics.csv,team_name,object,Team name exactly as written in the source (country-code suffix removed for clubs).,180172,France
+05_Player_Match_Statistics.csv,opponent_team_name,object,Opponent team name.,180172,Brazil
+05_Player_Match_Statistics.csv,started,bool,True if in the starting XI.,180172,True
+05_Player_Match_Statistics.csv,position,object,Position played (StatsBomb first position); blank for openfootball.,113623,Goalkeeper
+05_Player_Match_Statistics.csv,captain,object,True if captain ([c] in openfootball lineups).,66549,False
+05_Player_Match_Statistics.csv,substituted_in_minute,object,Minute (as published) the player came on; blank for starters.,18810,77
+05_Player_Match_Statistics.csv,substituted_out_minute,object,Minute (as published) the player was replaced; blank if not replaced.,18810,77
+05_Player_Match_Statistics.csv,minutes_played,float64,Minutes played. StatsBomb: from lineup position intervals. openfootball: ESTIMATE from substitution/red-card minutes (see minutes_basis).,180172,90.2
+05_Player_Match_Statistics.csv,minutes_basis,object,How minutes_played was obtained.,180172,derived from StatsBomb lineup position intervals (from/to match clock); end of m
+05_Player_Match_Statistics.csv,goals,float64,Goals scored (excluding own goals and shootout kicks).,179982,0.0
+05_Player_Match_Statistics.csv,assists,float64,Assists as defined by StatsBomb (pass.goal_assist). Blank for openfootball.,113433,0.0
+05_Player_Match_Statistics.csv,own_goals,float64,Own goals scored by the player.,179982,0.0
+05_Player_Match_Statistics.csv,penalty_goals,float64,Goals scored from penalties.,179982,0.0
+05_Player_Match_Statistics.csv,shots,float64,Shots excluding shootout kicks (StatsBomb).,113623,0.0
+05_Player_Match_Statistics.csv,shots_on_target,float64,"Shots with outcome Goal, Saved or Saved to Post (StatsBomb).",113433,0.0
+05_Player_Match_Statistics.csv,xg,float64,Sum of StatsBomb statsbomb_xg of the player's shots.,113433,0.0
+05_Player_Match_Statistics.csv,passes,float64,Pass attempts (StatsBomb).,113623,33.0
+05_Player_Match_Statistics.csv,passes_completed,float64,"Passes without an outcome flag, i.e. completed (StatsBomb).",113433,19.0
+05_Player_Match_Statistics.csv,key_passes,float64,Passes flagged shot_assist (StatsBomb).,113433,0.0
+05_Player_Match_Statistics.csv,crosses,float64,Passes flagged cross.,113433,0.0
+05_Player_Match_Statistics.csv,tackles,float64,Duels of type Tackle.,113623,0.0
+05_Player_Match_Statistics.csv,tackles_won,float64,Tackles with outcome Won / Success In Play / Success Out.,113433,0.0
+05_Player_Match_Statistics.csv,interceptions,float64,Interception events.,113433,0.0
+05_Player_Match_Statistics.csv,clearances,float64,Clearance events.,113433,0.0
+05_Player_Match_Statistics.csv,blocks,float64,Block events.,113433,0.0
+05_Player_Match_Statistics.csv,ball_recoveries,float64,Ball Recovery events not flagged as failures.,113433,2.0
+05_Player_Match_Statistics.csv,dribbles,float64,Dribble attempts.,113433,0.0
+05_Player_Match_Statistics.csv,dribbles_completed,float64,Dribbles with outcome Complete.,113433,0.0
+05_Player_Match_Statistics.csv,fouls_committed,float64,Foul Committed events.,113433,0.0
+05_Player_Match_Statistics.csv,fouls_won,float64,Foul Won events.,113433,0.0
+05_Player_Match_Statistics.csv,pressures,float64,Pressure events.,113433,0.0
+05_Player_Match_Statistics.csv,duels,float64,All Duel events.,113433,0.0
+05_Player_Match_Statistics.csv,duels_won,float64,Duels with outcome Won / Success.,113433,0.0
+05_Player_Match_Statistics.csv,dispossessed,float64,Dispossessed events.,113433,0.0
+05_Player_Match_Statistics.csv,miscontrols,float64,Miscontrol events.,113433,0.0
+05_Player_Match_Statistics.csv,carries,float64,Carry events.,113433,18.0
+05_Player_Match_Statistics.csv,offsides,float64,Offside events.,113433,0.0
+05_Player_Match_Statistics.csv,gk_saves,float64,Goalkeeper saves (Shot Saved variants).,113433,11.0
+05_Player_Match_Statistics.csv,gk_goals_conceded,float64,Goalkeeper Goal Conceded events.,113433,5.0
+05_Player_Match_Statistics.csv,yellow_cards,int64,Yellow cards (incl. second yellow) from lineup/lineup-text.,180172,0
+05_Player_Match_Statistics.csv,red_cards,int64,Red cards (incl. second yellow dismissals).,180172,0
+05_Player_Match_Statistics.csv,stats_coverage,object,"event_level_full (StatsBomb events), lineup_only (StatsBomb without events), appearance_goals_cards_only (openfootball).",180172,event_level_full
+05_Player_Match_Statistics.csv,source_url,object,URL of the upstream source repository.,180172,https://github.com/statsbomb/open-data
+05_Player_Match_Statistics.csv,source_reference,object,Pointer to the source file/line the record was derived from.,180172,data/matches/43/269.json
+05_Player_Match_Statistics.csv,source_extraction_date,object,Date the data was downloaded/extracted for this package.,180172,2026-10-20
+06_Teams.csv,team_id,object,"Team identifier scoped to its source: INT|name (national team name as published), <country code>|name (club), SB:T<StatsBomb team ID>. Same text in different sources is NOT guaranteed to be the same entity.",5729,INT|Abkhazia
+06_Teams.csv,team_name,object,Team name exactly as written in the source (country-code suffix removed for clubs).,5729,Abkhazia
+06_Teams.csv,team_type,object,player or team type of the membership: national or club. For team table: club or national.,5729,national
+06_Teams.csv,team_country_code,object,Country code printed after the club name in continental competition files (e.g. ENG); blank when the source gives none.,906,ALB
+06_Teams.csv,former_names,object,"Alternative former names of the national team (former_names.csv, current name -> former names).",28,Dahomey
+06_Teams.csv,team_name_variants_in_source,object,All distinct spellings seen in the source (up to 5).,5375,Abkhazia
+06_Teams.csv,competition_countries,object,Countries of the competitions the team appears in (up to 6).,5038,UEFA (Europe)
+06_Teams.csv,n_competitions,float64,Number of distinct competitions the team appears in.,5375,3.0
+06_Teams.csv,first_match_date,object,First match date for the team in this package.,5729,2012-09-25
+06_Teams.csv,last_match_date,object,Last match date for the team in this package.,5729,2019-06-08
+06_Teams.csv,n_match_records,int64,Number of match records mentioning the team.,5729,33
+06_Teams.csv,name_match_key_hint,object,"Lower-cased, punctuation/club-form-stripped name. A HINT for manual entity resolution only; not an identity assertion.",5729,abkhazia
+06_Teams.csv,same_name_key_as_other_team_ids,bool,True when another team_id shares the same name_match_key_hint (candidate duplicate across sources); no merge applied.,5729,False
+06_Teams.csv,source_repos,object,Source repositories contributing the team.,5729,martj42/international_results
+06_Teams.csv,source_name,object,Name of the upstream data source.,5729,martj42/international_results (CC0-1.0)
+06_Teams.csv,source_url,object,URL of the upstream source repository.,5729,https://github.com/martj42/international_results
+07_Competitions.csv,competition_id,object,"Source-scoped competition identifier (INTL:<slug>, <repo>:<file code>, SB:C<id>).",409,INTL:abcs-tournament
+07_Competitions.csv,competition_name,object,Competition name (standardised for major competitions; otherwise source title without season).,409,ABCS Tournament
+07_Competitions.csv,competition_name_variants,object,Alternative spellings of the competition name in source titles.,184,Austria | Bundesliga; Österr. Bundesliga
+07_Competitions.csv,record_scope,object,'international' or 'club'.,409,international
+07_Competitions.csv,competition_type,object,"Competition type: domestic_league, domestic_cup, league_cup, continental_club, global_club (club data); world_cup_finals etc. (international); international_tournament / domestic_or_club_competition (StatsBomb).",409,other_international_tournament
+07_Competitions.csv,tier,float64,League tier (1 = top flight) where derivable from the file code; blank for cups.,123,1.0
+07_Competitions.csv,country_or_region,object,Country or region of the competition.,409,FIFA national teams
+07_Competitions.csv,first_season,object,First season covered.,409,2010
+07_Competitions.csv,last_season,object,Last season covered.,409,2015
+07_Competitions.csv,n_seasons,int64,Number of distinct seasons.,409,5
+07_Competitions.csv,first_match_date,object,First match date for the team in this package.,409,2010-10-29
+07_Competitions.csv,last_match_date,object,Last match date for the team in this package.,409,2015-02-01
+07_Competitions.csv,n_matches,int64,Number of matches with a lineup appearance.,409,20
+07_Competitions.csv,n_scored,int64,Number of scored match records.,409,20
+07_Competitions.csv,latest_scored_match_date,object,Latest match date with a recorded score in the source.,409,2015-02-01
+07_Competitions.csv,source_name,object,Name of the upstream data source.,409,martj42/international_results (CC0-1.0)
+07_Competitions.csv,source_url,object,URL of the upstream source repository.,409,https://github.com/martj42/international_results
+08_Player_Team_Memberships.csv,membership_id,object,Row identifier for the membership.,34277,MB0000001
+08_Player_Team_Memberships.csv,player_id,object,Player identifier. SB:P<id> is the native StatsBomb ID. OFP|<team_id>|<name> and SQD|... are derived keys scoped to team (and squad); they are NOT global identities.,34277,OFP|ALG|ES Sétif|abdelmalik ziaya
+08_Player_Team_Memberships.csv,player_name,object,Player name as written in the source (may differ in casing/accents between sources).,34277,Abdelmalik ZIAYA
+08_Player_Team_Memberships.csv,id_scope_note,object,Reminder of how reliable player_id is as an identity.,34277,derived_team_scoped_key_not_a_global_identity
+08_Player_Team_Memberships.csv,team_id,object,"Team identifier scoped to its source: INT|name (national team name as published), <country code>|name (club), SB:T<StatsBomb team ID>. Same text in different sources is NOT guaranteed to be the same entity.",34277,ALG|ES Sétif
+08_Player_Team_Memberships.csv,team_name,object,Team name exactly as written in the source (country-code suffix removed for clubs).,34206,ES Sétif
+08_Player_Team_Memberships.csv,team_type,object,player or team type of the membership: national or club. For team table: club or national.,34277,club
+08_Player_Team_Memberships.csv,competition_or_event,object,Competition (or squad event) name.,34206,FIFA Club World Cup
+08_Player_Team_Memberships.csv,season,object,Season label (e.g. 2024-25 or 2025). Taken from the file title when it disagrees with the folder name.,29885,2014
+08_Player_Team_Memberships.csv,membership_basis,object,appeared_in_match_lineup or listed_in_published_squad.,34277,appeared_in_match_lineup
+08_Player_Team_Memberships.csv,first_match_date,object,First match date for the team in this package.,24694,2014-12-13
+08_Player_Team_Memberships.csv,last_match_date,object,Last match date for the team in this package.,24694,2014-12-17
+08_Player_Team_Memberships.csv,n_matches,float64,Number of matches with a lineup appearance.,24694,2.0
+08_Player_Team_Memberships.csv,minutes_total,float64,Sum of minutes_played (blank for squad lists).,24694,116.0
+08_Player_Team_Memberships.csv,shirt_number,float64,Shirt number from squad files.,9413,1.0
+08_Player_Team_Memberships.csv,position_text,object,Position code from squad files.,9583,GK
+08_Player_Team_Memberships.csv,caps_before_event,float64,Caps recorded before the event (national-team squad files).,1935,15.0
+08_Player_Team_Memberships.csv,listed_club_text,object,"Last column of the squad row (previous/current club as printed, interpretation depends on file type).",4734,Wacker Innsbruck
+08_Player_Team_Memberships.csv,source_dataset,object,Dataset the record came from.,34277,openfootball match files (CC0)
+08_Player_Team_Memberships.csv,source_url,object,URL of the upstream source repository.,34277,https://github.com/openfootball
+08_Player_Team_Memberships.csv,source_reference,object,Pointer to the source file/line the record was derived from.,34277,openfootball match files (CC0)
+08_Player_Team_Memberships.csv,source_extraction_date,object,Date the data was downloaded/extracted for this package.,34277,2026-10-20
+09_Upcoming_Fixtures.csv,match_id,object,Dataset-unique match identifier. 01: INTL:date:home:away:source row. 02/03/09 club: competition_id:season:L<line number in source file>. SB:M<id> = StatsBomb match ID.,3793,austria:3-regionalliga-ost:2025-26:L445
+09_Upcoming_Fixtures.csv,match_date,object,Match date (ISO YYYY-MM-DD) as published; local calendar date for club matches.,3793,2026-06-05
+09_Upcoming_Fixtures.csv,kickoff_time_local,object,Clock time of kick-off in local time as published (no timezone conversion).,813,18:00
+09_Upcoming_Fixtures.csv,fixture_status,object,fixture status: upcoming (dated after 2026-10-20) or past_date_no_result_in_source.,3793,past_date_no_result_in_source
+09_Upcoming_Fixtures.csv,match_status,object,"completed, awarded, abandoned (scored), unscored, postponed or cancelled as flagged in the source text.",3793,unscored
+09_Upcoming_Fixtures.csv,competition_id,object,"Source-scoped competition identifier (INTL:<slug>, <repo>:<file code>, SB:C<id>).",3793,austria:3-regionalliga-ost
+09_Upcoming_Fixtures.csv,competition_name,object,Competition name (standardised for major competitions; otherwise source title without season).,3793,Austrian Regionalliga Ost (tier 3)
+09_Upcoming_Fixtures.csv,competition_type,object,"Competition type: domestic_league, domestic_cup, league_cup, continental_club, global_club (club data); world_cup_finals etc. (international); international_tournament / domestic_or_club_competition (StatsBomb).",3793,domestic_league
+09_Upcoming_Fixtures.csv,competition_country,object,"Country or confederation of the competition as derived from the source path (UEFA (Europe), CONMEBOL (South America), FIFA (World) for continental/global).",3793,Austria
+09_Upcoming_Fixtures.csv,season,object,Season label (e.g. 2024-25 or 2025). Taken from the file title when it disagrees with the folder name.,3793,2025-26
+09_Upcoming_Fixtures.csv,stage,object,"Stage/round text exactly as published (e.g. 'Matchday 12', 'Round 3', 'Quarterfinals').",3793,34. Round
+09_Upcoming_Fixtures.csv,home_team_id,object,"Team identifier scoped to its source: INT|name (national team name as published), <country code>|name (club), SB:T<StatsBomb team ID>. Same text in different sources is NOT guaranteed to be the same entity.",3793,AUT|FC Marchfeld Donauauen
+09_Upcoming_Fixtures.csv,home_team,object,Team name exactly as written in the source (country-code suffix removed for clubs).,3793,FC Marchfeld Donauauen
+09_Upcoming_Fixtures.csv,away_team_id,object,"Team identifier scoped to its source: INT|name (national team name as published), <country code>|name (club), SB:T<StatsBomb team ID>. Same text in different sources is NOT guaranteed to be the same entity.",3793,AUT|SR Donaufeld
+09_Upcoming_Fixtures.csv,away_team,object,Team name exactly as written in the source (country-code suffix removed for clubs).,3793,SR Donaufeld
+09_Upcoming_Fixtures.csv,source_name,object,Name of the upstream data source.,3793,openfootball (CC0 / public domain)
+09_Upcoming_Fixtures.csv,source_repo,object,openfootball repository the file came from.,3793,austria
+09_Upcoming_Fixtures.csv,source_repo_commit,object,Git commit (hash|commit date) of the cloned repository at download.,3793,627ba1b3ebddc5a513420239356f490bef2453ec|2026-10-01
+09_Upcoming_Fixtures.csv,source_file,object,Source file(s) the record came from (relative path inside _raw_sources or upstream repo).,3793,austria/2025-26/3-regionalliga-ost.txt
+09_Upcoming_Fixtures.csv,source_line,int64,1-based line number of the match in the source file.,3793,445
+09_Upcoming_Fixtures.csv,status_note,object,Free-text note from the source line (e.g. reason for award).,2,postponed
+14_StatsBomb_Match_Index.csv,match_id,object,Dataset-unique match identifier. 01: INTL:date:home:away:source row. 02/03/09 club: competition_id:season:L<line number in source file>. SB:M<id> = StatsBomb match ID.,3961,SB:M3754217
+14_StatsBomb_Match_Index.csv,sb_match_id,int64,StatsBomb match ID.,3961,3754217
+14_StatsBomb_Match_Index.csv,match_date,object,Match date (ISO YYYY-MM-DD) as published; local calendar date for club matches.,3961,2015-09-19
+14_StatsBomb_Match_Index.csv,kick_off,object,Kick-off time from StatsBomb.,3956,11:45:00.000
+14_StatsBomb_Match_Index.csv,sb_competition_id,int64,StatsBomb competition ID.,3961,2
+14_StatsBomb_Match_Index.csv,competition_name,object,Competition name (standardised for major competitions; otherwise source title without season).,3961,Premier League
+14_StatsBomb_Match_Index.csv,competition_country,object,"Country or confederation of the competition as derived from the source path (UEFA (Europe), CONMEBOL (South America), FIFA (World) for continental/global).",3961,England
+14_StatsBomb_Match_Index.csv,competition_gender,object,StatsBomb competition gender (male/female) or note for openfootball.,3961,male
+14_StatsBomb_Match_Index.csv,competition_youth,bool,StatsBomb youth competition flag.,3961,False
+14_StatsBomb_Match_Index.csv,competition_international,bool,StatsBomb international competition flag.,3961,False
+14_StatsBomb_Match_Index.csv,sb_season_id,int64,StatsBomb season ID.,3961,27
+14_StatsBomb_Match_Index.csv,season_name,object,StatsBomb season name.,3961,2015/2016
+14_StatsBomb_Match_Index.csv,stage,object,"Stage/round text exactly as published (e.g. 'Matchday 12', 'Round 3', 'Quarterfinals').",3961,Regular Season
+14_StatsBomb_Match_Index.csv,home_team_id,object,"Team identifier scoped to its source: INT|name (national team name as published), <country code>|name (club), SB:T<StatsBomb team ID>. Same text in different sources is NOT guaranteed to be the same entity.",3961,SB:T33
+14_StatsBomb_Match_Index.csv,home_team,object,Team name exactly as written in the source (country-code suffix removed for clubs).,3961,Chelsea
+14_StatsBomb_Match_Index.csv,away_team_id,object,"Team identifier scoped to its source: INT|name (national team name as published), <country code>|name (club), SB:T<StatsBomb team ID>. Same text in different sources is NOT guaranteed to be the same entity.",3961,SB:T1
+14_StatsBomb_Match_Index.csv,away_team,object,Team name exactly as written in the source (country-code suffix removed for clubs).,3961,Arsenal
+14_StatsBomb_Match_Index.csv,home_score,int64,Home score from StatsBomb match metadata.,3961,2
+14_StatsBomb_Match_Index.csv,away_score,int64,Away score from StatsBomb match metadata.,3961,0
+14_StatsBomb_Match_Index.csv,match_status,object,"completed, awarded, abandoned (scored), unscored, postponed or cancelled as flagged in the source text.",3961,available
+14_StatsBomb_Match_Index.csv,match_week,int64,Match week from StatsBomb.,3961,6
+14_StatsBomb_Match_Index.csv,stadium,object,Stadium name from StatsBomb.,3951,Stamford Bridge
+14_StatsBomb_Match_Index.csv,data_version,object,StatsBomb data version.,3959,1.1.0
+14_StatsBomb_Match_Index.csv,lineup_event_files_status,object,Whether lineup and event files were available for this match.,3961,ok
+14_StatsBomb_Match_Index.csv,source_file,object,Source file(s) the record came from (relative path inside _raw_sources or upstream repo).,3961,data/matches/2/27.json
+14_StatsBomb_Match_Index.csv,source_url,object,URL of the upstream source repository.,3961,https://github.com/statsbomb/open-data
+14_StatsBomb_Match_Index.csv,source_extraction_date,object,Date the data was downloaded/extracted for this package.,3961,2026-10-20

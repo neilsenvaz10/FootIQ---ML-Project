@@ -1,0 +1,35 @@
+{
+ "total": 96,
+ "by_resolution": {
+  "U_unresolved": 63,
+  "R_date_change_supported": 33
+ },
+ "by_league": {
+  "EPL": {
+   "R_date_change_supported": 31,
+   "U_unresolved": 0
+  },
+  "LIGUE1": {
+   "R_date_change_supported": 2,
+   "U_unresolved": 24
+  },
+  "SERIEA": {
+   "R_date_change_supported": 0,
+   "U_unresolved": 39
+  }
+ },
+ "phase413_class_vs_resolution": {
+  "A_FINISHED_MATCH_DATE_DIFFERS": {
+   "R_date_change_supported": 2,
+   "U_unresolved": 0
+  },
+  "C_PROVIDER_CORROBORATED_BY_SECOND_SOURCE": {
+   "R_date_change_supported": 31,
+   "U_unresolved": 0
+  },
+  "E_PROBABLE_RESCHEDULE_UNVERIFIED": {
+   "R_date_change_supported": 0,
+   "U_unresolved": 63
+  }
+ }
+}

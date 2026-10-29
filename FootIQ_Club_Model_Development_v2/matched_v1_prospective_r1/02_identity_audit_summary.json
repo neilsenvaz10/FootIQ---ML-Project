@@ -1,0 +1,38 @@
+{
+ "collision_entities": [
+  "world/africa|Police FC",
+  "world/africa|Vision FC"
+ ],
+ "training_rows_touching_collisions": 257,
+ "by_split": {
+  "test": 114,
+  "forward_holdout": 60,
+  "train": 53,
+  "validation": 30
+ },
+ "source_rows_by_entity_country_competition": {
+  "world/africa|Police FC|rwanda|world/africa:rw1": 154,
+  "world/africa|Police FC|uganda|world/africa:ug1": 60,
+  "world/africa|Vision FC|ghana|world/africa:gh1": 34,
+  "world/africa|Vision FC|rwanda|world/africa:rw1": 30
+ },
+ "zw1_2021_22_training_rows": 259,
+ "zw1_by_split": {
+  "train": 259
+ },
+ "zw1_same_club_same_date_pairs": 5,
+ "zw1_source_observation": "openfootball world@42df8203 africa/zimbabwe/2021-22_zw1.txt: header 'Date Fri Jul 2 2021 - Sun Jun 26 2022'; Matchday 1-18 dated 2021-11-05..2022-06-26, Matchday 19-34 dated 2021-07-02..2021-11-13 (dates carry explicit weekday+year); upstream cited: rsssf zimb2021.html",
+ "materiality": {
+  "upcoming_fixtures_compared": 3167,
+  "fixtures_with_any_change": 3167,
+  "max_abs_dp_all": 2.105243786187927e-05,
+  "collision_fixtures": 0,
+  "collision_max": null,
+  "collision_mean": null,
+  "zw1_fixtures": 0,
+  "zw1_max": null,
+  "zw1_mean": null,
+  "other_fixtures": 3167,
+  "other_max": 2.105243786187927e-05
+ }
+}

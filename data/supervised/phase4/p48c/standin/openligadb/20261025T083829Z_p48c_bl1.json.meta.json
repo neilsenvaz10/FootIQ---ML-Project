@@ -1,0 +1,17 @@
+{
+ "url": "https://api.openligadb.de/getmatchdata/bl1/2026",
+ "status": 200,
+ "retrieved_utc": "2026-10-25T08:38:29Z",
+ "headers": {
+  "Content-Type": "application/json; charset=utf-8",
+  "Date": "Sun, 25 Oct 2026 08:38:28 GMT"
+ },
+ "source": "openligadb",
+ "licence": "ODbL-1.0",
+ "attribution": "Daten von OpenLigaDB (www.openligadb.de), lizenziert unter ODbL 1.0",
+ "snapshot_id": "20261025T083829Z_bl1_2026_season.json",
+ "sha256": "5f5394c035e856b750d5dc67c3ce9342e610bb268c897a4b511fcda248a2b32d",
+ "bytes": 314767,
+ "saved_utc": "2026-10-25T08:38:29Z",
+ "adapter_version": "1.0.0"
+}

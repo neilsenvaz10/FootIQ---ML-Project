@@ -1,0 +1,71 @@
+﻿source_ref,home,away,status,date_provenance
+2026–27 Premier League@1381300885:match_ARS_CHE,Arsenal,Chelsea,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_ARS_COV,Arsenal,Coventry City,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_ARS_LEE,Arsenal,Leeds United,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_AVL_ARS,Aston Villa,Arsenal,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_AVL_BRE,Aston Villa,Brentford,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_AVL_NFO,Aston Villa,Nottingham Forest,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_BOU_BRE,Bournemouth,Brentford,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_BOU_EVE,Bournemouth,Everton,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_BOU_LIV,Bournemouth,Liverpool,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_BOU_SUN,Bournemouth,Sunderland,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_BRE_CHE,Brentford,Chelsea,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_BRE_LIV,Brentford,Liverpool,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_BRE_SUN,Brentford,Sunderland,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_BRE_TOT,Brentford,Tottenham Hotspur,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_BHA_ARS,Brighton & Hove Albion,Arsenal,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_BHA_AVL,Brighton & Hove Albion,Aston Villa,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_BHA_CRY,Brighton & Hove Albion,Crystal Palace,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_BHA_LEE,Brighton & Hove Albion,Leeds United,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_CHE_BOU,Chelsea,Bournemouth,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_CHE_BHA,Chelsea,Brighton & Hove Albion,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_CHE_HUL,Chelsea,Hull City,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_COV_BHA,Coventry City,Brighton & Hove Albion,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_COV_HUL,Coventry City,Hull City,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_COV_NEW,Coventry City,Newcastle United,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_CRY_IPS,Crystal Palace,Ipswich Town,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_CRY_MCI,Crystal Palace,Manchester City*,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_CRY_NFO,Crystal Palace,Nottingham Forest,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_EVE_CHE,Everton,Chelsea,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_EVE_CRY,Everton,Crystal Palace,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_EVE_IPS,Everton,Ipswich Town,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_EVE_MUN,Everton,Manchester United,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_FUL_CHE,Fulham,Chelsea,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_FUL_CRY,Fulham,Crystal Palace,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_FUL_HUL,Fulham,Hull City,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_FUL_MUN,Fulham,Manchester United,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_HUL_AVL,Hull City,Aston Villa,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_HUL_EVE,Hull City,Everton,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_HUL_MUN,Hull City,Manchester United,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_IPS_FUL,Ipswich Town,Fulham,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_IPS_LIV,Ipswich Town,Liverpool,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_IPS_SUN,Ipswich Town,Sunderland,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_LEE_BRE,Leeds United,Brentford,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_LEE_CRY,Leeds United,Crystal Palace,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_LEE_MUN,Leeds United,Manchester United,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_LEE_NEW,Leeds United,Newcastle United,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_LIV_FUL,Liverpool,Fulham,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_LIV_MCI,Liverpool,Manchester City*,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_LIV_NFO,Liverpool,Nottingham Forest,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_MCI_BOU,Manchester City*,Bournemouth,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_MCI_COV,Manchester City*,Coventry City,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_MCI_IPS,Manchester City*,Ipswich Town,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_MCI_SUN,Manchester City*,Sunderland,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_MUN_IPS,Manchester United,Ipswich Town,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_MUN_MCI,Manchester United,Manchester City*,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_MUN_TOT,Manchester United,Tottenham Hotspur,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_NEW_AVL,Newcastle United,Aston Villa,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_NEW_BOU,Newcastle United,Bournemouth,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_NEW_HUL,Newcastle United,Hull City,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_NEW_LIV,Newcastle United,Liverpool,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_NFO_ARS,Nottingham Forest,Arsenal,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_NFO_COV,Nottingham Forest,Coventry City,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_NFO_LEE,Nottingham Forest,Leeds United,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_NFO_TOT,Nottingham Forest,Tottenham Hotspur,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_SUN_ARS,Sunderland,Arsenal,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_SUN_BHA,Sunderland,Brighton & Hove Albion,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_SUN_FUL,Sunderland,Fulham,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_TOT_AVL,Tottenham Hotspur,Aston Villa,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_TOT_COV,Tottenham Hotspur,Coventry City,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_TOT_EVE,Tottenham Hotspur,Everton,completed,inherited_from_openfootball_schedule
+2026–27 Premier League@1381300885:match_TOT_NEW,Tottenham Hotspur,Newcastle United,completed,inherited_from_openfootball_schedule

@@ -1,0 +1,2136 @@
+[
+  {
+    "path": "data/contracts/manual_overrides_contract.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/contracts/odds_snapshots_contract.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 0,
+        "most_common": []
+      },
+      "source_url": {
+        "distinct_nonblank": 0,
+        "most_common": []
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/contracts/player_availability_contract.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 0,
+        "most_common": []
+      },
+      "source_url": {
+        "distinct_nonblank": 0,
+        "most_common": []
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/contracts/squad_quality_contract.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 0,
+        "most_common": []
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/contracts/tactical_profile_contract.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 0,
+        "most_common": []
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/contracts/weather_snapshots_contract.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 0,
+        "most_common": []
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/inputs/model_v21_team_profiles.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "profile_source_status": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "Player Impact Rating v2.1; public squads + model-derived ratings",
+            48
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/inputs/model_v2_team_profiles.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "profile_source_status": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "public/manual seed; replace with licensed squad + analyst feed",
+            48
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/inputs/player_availability_overrides.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 0,
+        "most_common": []
+      },
+      "source_url": {
+        "distinct_nonblank": 0,
+        "most_common": []
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/inputs/worldcup_2026_knockout_resolutions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source_note": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "Round-of-32 winners; verified public bracket",
+            6
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/ad_hoc_v27_june10_features.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "orientation_source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "provider_home_away_neutral",
+            2
+          ],
+          [
+            "venue_edge_team",
+            1
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/ad_hoc_v27_june10_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/ad_hoc_v28_june10_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "v28_source": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "ad_hoc_june10",
+            3
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v1_group_match_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v1_match_metrics.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v1_team_ratings.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v1_tournament_metrics.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v1_tournament_odds.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v21_group_match_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v21_match_metrics.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v21_player_impact.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "club_score_source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "club_manual_tier",
+            978
+          ],
+          [
+            "club_fallback_from_team_tier",
+            589
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v21_team_power.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v21_tournament_metrics.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v21_tournament_odds.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v22_group_match_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v22_match_metrics.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v22_tournament_metrics.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v22_tournament_odds.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v22_vs_v21_comparison.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v23_group_match_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v23_match_metrics.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v23_tournament_metrics.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v23_tournament_odds.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/backtest_v23_vs_v22_comparison.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/confidence_gate_v211_metrics.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/confidence_gate_v211_shadow_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/confidence_gate_v212_lineup_audit.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/confidence_gate_v212_player_matches.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/confidence_gate_v212_shadow_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/confidence_gate_v28_historical_metrics.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/data_manifest.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "license_or_terms": {
+        "distinct_nonblank": 7,
+        "most_common": [
+          [
+            "Kaggle source lists CC0 public domain; verify before commercial release",
+            1
+          ],
+          [
+            "StatsBomb open-data terms; attribution required; verify commercial scope",
+            1
+          ],
+          [
+            "Open data project terms; verify before commercial release",
+            1
+          ],
+          [
+            "World Bank Open Data / CC BY 4.0 unless otherwise marked",
+            1
+          ],
+          [
+            "FIFA terms; use official data carefully",
+            1
+          ],
+          [
+            "Required: API contract with provider",
+            1
+          ],
+          [
+            "Required: API contract with odds provider",
+            1
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/euro_nations_v23_match_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/euro_nations_v23_metrics.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/euro_nations_v23_team_power.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/euro_nations_v23_tournament_odds.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/friendlies_v24_confirmed_lineups.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/friendlies_v24_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "API-Football fixture feed",
+            2
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/friendlies_v24_provider_fixture_matches.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "API-Football fixture feed",
+            2
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/friendlies_v24_weather_context.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "API-Football fixture feed",
+            2
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/international_2026_09_27_28_validation.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/international_2026_09_27_to_10_01_features.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "orientation_source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "venue_edge_team",
+            39
+          ],
+          [
+            "provider_home_away_neutral",
+            3
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/international_2026_09_27_to_10_01_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/international_2026_09_27_to_10_01_validation.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/international_2026_09_27_to_10_03_validation.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/international_2026_09_29_to_10_05_features.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "orientation_source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "venue_edge_team",
+            50
+          ],
+          [
+            "provider_home_away_neutral",
+            6
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/international_2026_09_29_to_10_05_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/international_2026_10_02_to_10_05_features.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "orientation_source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "venue_edge_team",
+            34
+          ],
+          [
+            "provider_home_away_neutral",
+            7
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/international_2026_10_02_to_10_05_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/international_2026_10_04_to_10_05_features.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "orientation_source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "venue_edge_team",
+            15
+          ],
+          [
+            "provider_home_away_neutral",
+            2
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/international_2026_10_04_to_10_05_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/international_matches.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/knockout_advancement_validation_2026-07-02.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/knockout_advancement_validation_2026-07-03.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/knockout_advancement_validation_2026-07-04.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/live_tournament_v213_tournament_odds.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-06-23.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-06-24.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-06-25.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-06-26.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-06-27.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-06-28.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-06-29.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-06-30.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-07-01.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-07-02.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-07-03.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-07-04.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-07-05.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-07-06.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-07-07.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-07-09.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-07-10.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-07-11.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-07-14.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-07-15.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/matchday_validation_v210_2026-07-18.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/mls_lafc_skc_snapshot_2026-07-25.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/mls_nyrb_charlotte_snapshot_2026-07-25.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_accuracy_summary_2026-07-02.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_accuracy_summary_2026-07-03.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v1_group_match_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v1_team_ratings.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v1_tournament_odds.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v21_group_match_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v21_sensitive_team_audit.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v21_team_power.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "profile_source_status": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "Player Impact Rating v2.1; public squads + model-derived ratings",
+            48
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v21_team_profiles_from_players.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "profile_source_status": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "Player Impact Rating v2.1; public squads + model-derived ratings",
+            48
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v21_tournament_odds.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v21_vs_v1_comparison.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v22_group_match_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v22_team_power.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "profile_source_status": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "Player Impact Rating v2.1; public squads + model-derived ratings",
+            48
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v22_tournament_odds.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v22_vs_v21_comparison.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v23_group_match_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v23_market_priors.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "neutral_default",
+            42
+          ],
+          [
+            "Oddschecker 2026 World Cup winner odds article, published 2026-06-03",
+            6
+          ]
+        ]
+      },
+      "source_url": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "https://www.oddschecker.com/insight/football/20260603-who-is-favourite-to-win-the-world-cup-2026-latest-team-odds",
+            6
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v23_team_power.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "profile_source_status": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "Player Impact Rating v2.1; public squads + model-derived ratings",
+            48
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v23_tournament_odds.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v23_vs_v22_comparison.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v26_bakeoff_metrics.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v26_calibration_bins.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v26_feature_importance.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v26_pass_rules.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v26_test_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v2_group_match_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v2_team_power.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "profile_source_status": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "public/manual seed; replace with licensed squad + analyst feed",
+            48
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v2_tournament_odds.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/model_v2_vs_v1_comparison.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/nations_league_2026_matchday_1_features.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "orientation_source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "venue_edge_team",
+            39
+          ],
+          [
+            "provider_home_away_neutral",
+            2
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/nations_league_2026_matchday_1_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/player_impact_v21.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "rating_source": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "Player Impact Rating v2.1 public-squad heuristic",
+            1246
+          ]
+        ]
+      },
+      "club_score_source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "club_manual_tier",
+            861
+          ],
+          [
+            "club_fallback_from_team_tier",
+            385
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/player_impact_v21_source_audit.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source_url": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
+            48
+          ]
+        ]
+      },
+      "source_note": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "Wikipedia squad table citing FIFA/national association final squad sources; player impact scores are model-derived.",
+            48
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/portugal_group_winner_v23_elimination.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/portugal_group_winner_v23_round_summary.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/portugal_group_winner_v23_top_paths.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/psg_aston_villa_super_cup_snapshot_2026-08-12.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/road_to_26_v24_fixtures.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "https://roadto26.com/",
+            6
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/road_to_26_v24_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "team1_power_source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "global_match_power_plus_capped_world_cup_profile",
+            5
+          ],
+          [
+            "global_elo_recent_fallback",
+            1
+          ]
+        ]
+      },
+      "team2_power_source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "global_match_power_plus_capped_world_cup_profile",
+            4
+          ],
+          [
+            "global_elo_recent_fallback",
+            2
+          ]
+        ]
+      },
+      "source": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "https://roadto26.com/",
+            6
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/road_to_26_v24_provider_fixture_matches.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "https://roadto26.com/",
+            6
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/statsbomb_team_event_summary.csv",
+    "provenance_key": "statsbomb",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/statsbomb_worldcup_matches.csv",
+    "provenance_key": "statsbomb",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/team_elo_latest.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/team_elo_match_history.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/team_recent_form_latest.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v25_confirmed_lineups_live.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v25_data_quality_live.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v25_fixtures_live.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "https://roadto26.com/",
+            6
+          ],
+          [
+            "API-Football fixture feed",
+            2
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v25_match_predictions_live.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v25_odds_snapshot_live.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v25_player_availability_live.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source_status": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "neutral_until_injury_endpoint_is_integrated",
+            16
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v25_postmatch_results_live.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v25_provider_status_live.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v25_team_strength_live.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "power_source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "global_match_power_plus_capped_world_cup_profile",
+            11
+          ],
+          [
+            "global_elo_recent_fallback",
+            4
+          ]
+        ]
+      },
+      "squad_source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "player_impact_v21",
+            11
+          ],
+          [
+            "elo_proxy_neutral",
+            4
+          ]
+        ]
+      },
+      "manager_source": {
+        "distinct_nonblank": 3,
+        "most_common": [
+          [
+            "named_manager_profile",
+            9
+          ],
+          [
+            "neutral_unknown",
+            4
+          ],
+          [
+            "neutralized_unknown_manager",
+            2
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v25_weather_context_live.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 2,
+        "most_common": [
+          [
+            "https://roadto26.com/",
+            6
+          ],
+          [
+            "API-Football fixture feed",
+            2
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v27_known_fixture_validation.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v27_live_model_features.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "orientation_source": {
+        "distinct_nonblank": 3,
+        "most_common": [
+          [
+            "fixture_order_neutral",
+            5
+          ],
+          [
+            "venue_edge_team",
+            2
+          ],
+          [
+            "provider_home_away_neutral",
+            1
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v27_live_probabilities.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "orientation_source": {
+        "distinct_nonblank": 3,
+        "most_common": [
+          [
+            "fixture_order_neutral",
+            5
+          ],
+          [
+            "venue_edge_team",
+            2
+          ],
+          [
+            "provider_home_away_neutral",
+            1
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v27_live_public_picks.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v27_v25_comparison.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v28_known_fixture_validation.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/v28_live_public_picks.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "v28_source": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "v27_live",
+            8
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldbank_macro_latest.csv",
+    "provenance_key": "worldbank",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldcup_2026_07_02_provisional_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldcup_2026_knockout_results_verified.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "verification_source": {
+        "distinct_nonblank": 22,
+        "most_common": [
+          [
+            "API-Football",
+            9
+          ],
+          [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            2
+          ],
+          [
+            "https://apnews.com/article/819ffc6e897f8be74f48d6b9d3e76e9b",
+            1
+          ],
+          [
+            "https://vod.fifa.com/tournaments/mens/worldcup/canadamexicousa2026/news/monterrey-stadium-world-cup-2026-netherlands-morocco-almeyda",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/live/2026/jul/03/argentina-v-cape-verde-world-cup-2026-last-32-live",
+            1
+          ],
+          [
+            "https://tkcgroup.co/insights/world-cup-recap-colombia-1-ghana-0-arrowhead-july-3-2026",
+            1
+          ],
+          [
+            "https://theanalyst.com/articles/australia-vs-egypt-stats-world-cup-2026",
+            1
+          ],
+          [
+            "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/paraguay-france-live/687062",
+            1
+          ],
+          [
+            "https://www.concacaf.com/competitions/fifa-world-cup/news/canada-achieves-best-world-cup-finish-with-round-of-16-exit-against-morocco",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/05/brazil-norway-world-cup-2026-last-16-match-report",
+            1
+          ],
+          [
+            "https://www.sportsmole.co.uk/football/mexico/world-cup-2026/result/england-beat-mexico-in-world-cup-classic-at-estadio-azteca-to-reach-quarter-final_600755.html",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/06/portugal-spain-world-cup-last-16-match-report",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/06/usa-belgium-world-cup-2026-match-report",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/live/2026/jul/07/argentina-v-egypt-world-cup-2026-last-16-live",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/08/switzerland-colombia-world-cup-2026-last-16-match-report",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/10/spain-belgium-world-cup-2026-quarter-final-match-report",
+            1
+          ],
+          [
+            "https://apnews.com/article/f246f138c3a8563cb5a0e3f4037e930a",
+            1
+          ],
+          [
+            "https://apnews.com/article/d47ccb4ac5b3af67eca1f82228155174",
+            1
+          ],
+          [
+            "https://apnews.com/article/87fb7740fa552edf4bfd28d0e8727c23",
+            1
+          ],
+          [
+            "https://efe.com/english/sports/2026-07-15/argentina-sends-england-home-returns-to-world-cup-final/",
+            1
+          ],
+          [
+            "https://apnews.com/article/52f94eda6ff6d268d38aaefbc446c525",
+            1
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldcup_2026_matches.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldcup_2026_round_of_32_resolved.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "FIFA",
+            16
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldcup_2026_teams.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldcup_full_validation_fixture_audit_2026-07-19.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "prediction_source": {
+        "distinct_nonblank": 13,
+        "most_common": [
+          [
+            "data/processed/worldcup_matchday_v29_snapshots.csv",
+            72
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-03.md",
+            5
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-06.md",
+            4
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-06-29.md",
+            3
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-06-30.md",
+            3
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-01.md",
+            3
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-02.md",
+            3
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-05.md",
+            2
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-09.md",
+            2
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-11.md",
+            2
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-14.md",
+            1
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-15.md",
+            1
+          ],
+          [
+            "outputs/france_england_lineup_adjusted_report_2026-07-18.md",
+            1
+          ]
+        ]
+      },
+      "result_source": {
+        "distinct_nonblank": 26,
+        "most_common": [
+          [
+            "Match Finished",
+            64
+          ],
+          [
+            "API-Football",
+            9
+          ],
+          [
+            "Manual sourced result: https://www.worldcupwatch.live/world-cup-2026-june-18-matchday-2-results-recap/",
+            4
+          ],
+          [
+            "Manual sourced result: https://elpais.com/deportes/mundial-futbol/2026-06-19/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+            2
+          ],
+          [
+            "Manual sourced result: https://apnews.com/article/be65bf85eac80da9fd999af080bb300c",
+            2
+          ],
+          [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+            2
+          ],
+          [
+            "https://apnews.com/article/819ffc6e897f8be74f48d6b9d3e76e9b",
+            1
+          ],
+          [
+            "https://vod.fifa.com/tournaments/mens/worldcup/canadamexicousa2026/news/monterrey-stadium-world-cup-2026-netherlands-morocco-almeyda",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/live/2026/jul/03/argentina-v-cape-verde-world-cup-2026-last-32-live",
+            1
+          ],
+          [
+            "https://tkcgroup.co/insights/world-cup-recap-colombia-1-ghana-0-arrowhead-july-3-2026",
+            1
+          ],
+          [
+            "https://theanalyst.com/articles/australia-vs-egypt-stats-world-cup-2026",
+            1
+          ],
+          [
+            "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/paraguay-france-live/687062",
+            1
+          ],
+          [
+            "https://www.concacaf.com/competitions/fifa-world-cup/news/canada-achieves-best-world-cup-finish-with-round-of-16-exit-against-morocco",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/05/brazil-norway-world-cup-2026-last-16-match-report",
+            1
+          ],
+          [
+            "https://www.sportsmole.co.uk/football/mexico/world-cup-2026/result/england-beat-mexico-in-world-cup-classic-at-estadio-azteca-to-reach-quarter-final_600755.html",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/06/portugal-spain-world-cup-last-16-match-report",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/06/usa-belgium-world-cup-2026-match-report",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/live/2026/jul/07/argentina-v-egypt-world-cup-2026-last-16-live",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/08/switzerland-colombia-world-cup-2026-last-16-match-report",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/10/spain-belgium-world-cup-2026-quarter-final-match-report",
+            1
+          ],
+          [
+            "https://apnews.com/article/f246f138c3a8563cb5a0e3f4037e930a",
+            1
+          ],
+          [
+            "https://apnews.com/article/d47ccb4ac5b3af67eca1f82228155174",
+            1
+          ],
+          [
+            "https://apnews.com/article/87fb7740fa552edf4bfd28d0e8727c23",
+            1
+          ],
+          [
+            "https://efe.com/english/sports/2026-07-15/argentina-sends-england-home-returns-to-world-cup-final/",
+            1
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldcup_full_validation_summary_2026-07-19.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldcup_knockout_advancement_predictions_frozen.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "prediction_source": {
+        "distinct_nonblank": 12,
+        "most_common": [
+          [
+            "outputs/daily_worldcup_report_2026-07-03.md",
+            5
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-06.md",
+            4
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-06-29.md",
+            3
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-06-30.md",
+            3
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-01.md",
+            3
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-02.md",
+            3
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-05.md",
+            2
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-09.md",
+            2
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-11.md",
+            2
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-14.md",
+            1
+          ],
+          [
+            "outputs/daily_worldcup_report_2026-07-15.md",
+            1
+          ],
+          [
+            "outputs/france_england_lineup_adjusted_report_2026-07-18.md",
+            1
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldcup_manual_results.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source_url": {
+        "distinct_nonblank": 9,
+        "most_common": [
+          [
+            "https://www.worldcupwatch.live/world-cup-2026-june-18-matchday-2-results-recap/",
+            4
+          ],
+          [
+            "https://apnews.com/article/be65bf85eac80da9fd999af080bb300c",
+            2
+          ],
+          [
+            "https://elpais.com/deportes/mundial-futbol/2026-06-19/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
+            2
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/05/brazil-norway-world-cup-2026-last-16-match-report",
+            1
+          ],
+          [
+            "https://www.sportsmole.co.uk/football/mexico/world-cup-2026/result/england-beat-mexico-in-world-cup-classic-at-estadio-azteca-to-reach-quarter-final_600755.html",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/06/portugal-spain-world-cup-last-16-match-report",
+            1
+          ],
+          [
+            "https://www.theguardian.com/football/2026/jul/06/usa-belgium-world-cup-2026-match-report",
+            1
+          ],
+          [
+            "https://apnews.com/article/f246f138c3a8563cb5a0e3f4037e930a",
+            1
+          ],
+          [
+            "https://apnews.com/article/d47ccb4ac5b3af67eca1f82228155174",
+            1
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldcup_matchday_v29_features.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "orientation_source": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "provider_home_away_neutral",
+            1
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldcup_matchday_v29_lineup_snapshots.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldcup_matchday_v29_lineups.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldcup_matchday_v29_predictions.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/processed/worldcup_matchday_v29_snapshots.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/raw/international_results/former_names.csv",
+    "provenance_key": "international_results",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/raw/international_results/goalscorers.csv",
+    "provenance_key": "international_results",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/raw/international_results/results.csv",
+    "provenance_key": "international_results",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "data/raw/international_results/shootouts.csv",
+    "provenance_key": "international_results",
+    "embedded_fields": {},
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "outputs/klement_2026_group_top2_probabilities.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "Panmure Liberum FIFA World Cup Predictions 2026",
+            48
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "outputs/klement_2026_knockout_path.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "source": {
+        "distinct_nonblank": 1,
+        "most_common": [
+          [
+            "Panmure Liberum FIFA World Cup Predictions 2026",
+            31
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "outputs/world_cup_data_manifest.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "license_or_terms": {
+        "distinct_nonblank": 7,
+        "most_common": [
+          [
+            "Kaggle source lists CC0 public domain; verify before commercial release",
+            1
+          ],
+          [
+            "StatsBomb open-data terms; attribution required; verify commercial scope",
+            1
+          ],
+          [
+            "Open data project terms; verify before commercial release",
+            1
+          ],
+          [
+            "World Bank Open Data / CC BY 4.0 unless otherwise marked",
+            1
+          ],
+          [
+            "FIFA terms; use official data carefully",
+            1
+          ],
+          [
+            "Required: API contract with provider",
+            1
+          ],
+          [
+            "Required: API contract with odds provider",
+            1
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  },
+  {
+    "path": "outputs/world_cup_prediction_public_data_sources.csv",
+    "provenance_key": "processed",
+    "embedded_fields": {
+      "dataset_or_source": {
+        "distinct_nonblank": 9,
+        "most_common": [
+          [
+            "Panmure Liberum FIFA World Cup Predictions 2026",
+            1
+          ],
+          [
+            "BBC Sport interview/context",
+            1
+          ],
+          [
+            "Hoffmann Ging Ramasamy 2002 paper",
+            1
+          ],
+          [
+            "World Bank WDI GDP per capita",
+            1
+          ],
+          [
+            "World Bank WDI population",
+            1
+          ],
+          [
+            "World Bank Climate Change Knowledge Portal",
+            1
+          ],
+          [
+            "FIFA Coca-Cola Men's World Ranking",
+            1
+          ],
+          [
+            "Mart Jurisoo international football results dataset",
+            1
+          ],
+          [
+            "OpenFootball World Cup datasets",
+            1
+          ]
+        ]
+      },
+      "url": {
+        "distinct_nonblank": 9,
+        "most_common": [
+          [
+            "https://assets.sbs.com.au/07/69/796b14374c579c3eae5db7ed4a6d/2026-wc-prediction.pdf",
+            1
+          ],
+          [
+            "https://www.bbc.co.uk/sport/football/articles/c20223n3k4yo",
+            1
+          ],
+          [
+            "https://ideas.repec.org/a/cem/jaecon/v5y2002n2p253-272.html",
+            1
+          ],
+          [
+            "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+            1
+          ],
+          [
+            "https://data.worldbank.org/indicator/SP.POP.TOTL",
+            1
+          ],
+          [
+            "https://climateknowledgeportal.worldbank.org/download-data",
+            1
+          ],
+          [
+            "https://inside.fifa.com/en/fifa-world-ranking/men?dateId=id3",
+            1
+          ],
+          [
+            "https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017",
+            1
+          ],
+          [
+            "https://github.com/openfootball/worldcup",
+            1
+          ]
+        ]
+      },
+      "license_or_terms": {
+        "distinct_nonblank": 8,
+        "most_common": [
+          [
+            "CC BY 4.0 unless otherwise marked",
+            2
+          ],
+          [
+            "Publisher terms; not an open model dataset",
+            1
+          ],
+          [
+            "BBC terms",
+            1
+          ],
+          [
+            "Publisher/open repository terms",
+            1
+          ],
+          [
+            "World Bank Open Data policy / CC BY 4.0 unless otherwise marked",
+            1
+          ],
+          [
+            "FIFA terms",
+            1
+          ],
+          [
+            "CC0 public domain on Kaggle",
+            1
+          ],
+          [
+            "Public/open data project terms",
+            1
+          ]
+        ]
+      }
+    },
+    "interpretation": "Local embedded claims, not independent upstream verification; top 25 values shown per field."
+  }
+]

@@ -1,0 +1,731 @@
+{
+ "matchday": 8,
+ "refresh_import": {
+  "inserted": 0,
+  "updated": 7,
+  "unchanged": 245,
+  "confirmed": 54,
+  "quarantined": 0,
+  "records": 306,
+  "run_id": 3,
+  "snapshot_id": "offline-replay-5f5394c035e8"
+ },
+ "cutoff_before": "2026-10-18",
+ "cutoff_after": "2026-10-24",
+ "saved_rows_unchanged_by_refresh_and_second_run": true,
+ "forecast_runs_kept": 2,
+ "fixtures": [
+  {
+   "v2_inputs": 62,
+   "v2_inputs_changed": 51,
+   "v2_schema_identical": true,
+   "v2_selected": {
+    "away_elo2_rel": [
+     20.415989968985286,
+     0.2689410727575705
+    ],
+    "away_n_known_14": [
+     1.0,
+     2.0
+    ],
+    "away_n_known_30": [
+     2.0,
+     3.0
+    ],
+    "home_elo2_rel": [
+     -14.331870874529159,
+     -30.825492362742352
+    ],
+    "home_n_known_14": [
+     1.0,
+     2.0
+    ],
+    "home_n_known_30": [
+     2.0,
+     3.0
+    ]
+   },
+   "v2_probabilities": [
+    [
+     0.3741,
+     0.2655,
+     0.3604
+    ],
+    [
+     0.3861,
+     0.2513,
+     0.3626
+    ]
+   ],
+   "fixture": "SV 07 Elversberg v 1. FSV Mainz 05",
+   "date": "2026-10-30",
+   "v1_before": [
+    0.3508,
+    0.2366,
+    0.4126
+   ],
+   "v1_after": [
+    0.3365,
+    0.2325,
+    0.431
+   ],
+   "home_n_prior": [
+    124.0,
+    125.0
+   ],
+   "away_n_prior": [
+    555.0,
+    556.0
+   ],
+   "home_ppg5": [
+    1.4,
+    0.8
+   ],
+   "away_ppg5": [
+    1.8,
+    1.2
+   ],
+   "home_elo": [
+    1679.4,
+    1669.7
+   ],
+   "away_elo": [
+    1725.6,
+    1712.1
+   ]
+  },
+  {
+   "v2_inputs": 62,
+   "v2_inputs_changed": 47,
+   "v2_schema_identical": true,
+   "v2_selected": {
+    "away_elo2_rel": [
+     -45.71197627053607,
+     -32.85951356708847
+    ],
+    "away_n_known_14": [
+     1.0,
+     2.0
+    ],
+    "away_n_known_30": [
+     2.0,
+     3.0
+    ],
+    "home_elo2_rel": [
+     -115.31358600910312,
+     -90.5014611661345
+    ],
+    "home_n_known_14": [
+     1.0,
+     2.0
+    ],
+    "home_n_known_30": [
+     2.0,
+     3.0
+    ]
+   },
+   "v2_probabilities": [
+    [
+     0.3481,
+     0.272,
+     0.38
+    ],
+    [
+     0.364,
+     0.2761,
+     0.3598
+    ]
+   ],
+   "fixture": "Borussia M\u00f6nchengladbach v SC Paderborn 07",
+   "date": "2026-10-31",
+   "v1_before": [
+    0.3942,
+    0.2296,
+    0.3762
+   ],
+   "v1_after": [
+    0.3895,
+    0.2412,
+    0.3693
+   ],
+   "home_n_prior": [
+    568.0,
+    569.0
+   ],
+   "away_n_prior": [
+    471.0,
+    472.0
+   ],
+   "home_ppg5": [
+    0.0,
+    0.6
+   ],
+   "away_ppg5": [
+    0.8,
+    1.4
+   ],
+   "home_elo": [
+    1612.4,
+    1628.7
+   ],
+   "away_elo": [
+    1657.1,
+    1665.6
+   ]
+  },
+  {
+   "v2_inputs": 62,
+   "v2_inputs_changed": 47,
+   "v2_schema_identical": true,
+   "v2_selected": {
+    "away_elo2_rel": [
+     88.5044463438328,
+     104.99806783204599
+    ],
+    "away_n_known_14": [
+     1.0,
+     2.0
+    ],
+    "away_n_known_30": [
+     2.0,
+     3.0
+    ],
+    "home_elo2_rel": [
+     -126.8157545374886,
+     -124.14749061978478
+    ],
+    "home_n_known_14": [
+     1.0,
+     2.0
+    ],
+    "home_n_known_30": [
+     2.0,
+     3.0
+    ]
+   },
+   "v2_probabilities": [
+    [
+     0.2407,
+     0.2694,
+     0.49
+    ],
+    [
+     0.2247,
+     0.2752,
+     0.5001
+    ]
+   ],
+   "fixture": "FC Schalke 04 v RB Leipzig",
+   "date": "2026-10-31",
+   "v1_before": [
+    0.2565,
+    0.2382,
+    0.5053
+   ],
+   "v1_after": [
+    0.2398,
+    0.245,
+    0.5152
+   ],
+   "home_n_prior": [
+    554.0,
+    555.0
+   ],
+   "away_n_prior": [
+    454.0,
+    455.0
+   ],
+   "home_ppg5": [
+    1.0,
+    1.0
+   ],
+   "away_ppg5": [
+    1.2,
+    1.8
+   ],
+   "home_elo": [
+    1575.9,
+    1578.6
+   ],
+   "away_elo": [
+    1803.6,
+    1813.3
+   ]
+  },
+  {
+   "v2_inputs": 62,
+   "v2_inputs_changed": 36,
+   "v2_schema_identical": true,
+   "v2_selected": {
+    "away_elo2_rel": [
+     57.993567485319545,
+     57.993567485319545
+    ],
+    "away_n_known_14": [
+     1.0,
+     1.0
+    ],
+    "away_n_known_30": [
+     2.0,
+     2.0
+    ],
+    "home_elo2_rel": [
+     -0.5351571747410162,
+     -5.979631727950618
+    ],
+    "home_n_known_14": [
+     1.0,
+     2.0
+    ],
+    "home_n_known_30": [
+     2.0,
+     3.0
+    ]
+   },
+   "v2_probabilities": [
+    [
+     0.398,
+     0.2599,
+     0.3421
+    ],
+    [
+     0.3982,
+     0.258,
+     0.3438
+    ]
+   ],
+   "fixture": "FC Augsburg v SC Freiburg",
+   "date": "2026-10-31",
+   "v1_before": [
+    0.4004,
+    0.2194,
+    0.3802
+   ],
+   "v1_after": [
+    0.3936,
+    0.2184,
+    0.3881
+   ],
+   "home_n_prior": [
+    520.0,
+    521.0
+   ],
+   "away_n_prior": [
+    563.0,
+    563.0
+   ],
+   "home_ppg5": [
+    1.0,
+    0.6
+   ],
+   "away_ppg5": [
+    2.0,
+    2.0
+   ],
+   "home_elo": [
+    1694.8,
+    1691.4
+   ],
+   "away_elo": [
+    1752.4,
+    1752.4
+   ]
+  },
+  {
+   "v2_inputs": 62,
+   "v2_inputs_changed": 35,
+   "v2_schema_identical": true,
+   "v2_selected": {
+    "away_elo2_rel": [
+     7.978692286983005,
+     7.978692286983005
+    ],
+    "away_n_known_14": [
+     1.0,
+     1.0
+    ],
+    "away_n_known_30": [
+     2.0,
+     2.0
+    ],
+    "home_elo2_rel": [
+     -53.84205518641943,
+     -33.695006290191714
+    ],
+    "home_n_known_14": [
+     1.0,
+     2.0
+    ],
+    "home_n_known_30": [
+     2.0,
+     3.0
+    ]
+   },
+   "v2_probabilities": [
+    [
+     0.3843,
+     0.2682,
+     0.3476
+    ],
+    [
+     0.4091,
+     0.2629,
+     0.328
+    ]
+   ],
+   "fixture": "SV Werder Bremen v TSG 1899 Hoffenheim",
+   "date": "2026-10-31",
+   "v1_before": [
+    0.385,
+    0.2415,
+    0.3734
+   ],
+   "v1_after": [
+    0.3917,
+    0.2358,
+    0.3725
+   ],
+   "home_n_prior": [
+    552.0,
+    553.0
+   ],
+   "away_n_prior": [
+    570.0,
+    570.0
+   ],
+   "home_ppg5": [
+    1.8,
+    1.8
+   ],
+   "away_ppg5": [
+    1.2,
+    1.2
+   ],
+   "home_elo": [
+    1655.9,
+    1669.5
+   ],
+   "away_elo": [
+    1723.1,
+    1723.1
+   ]
+  },
+  {
+   "v2_inputs": 62,
+   "v2_inputs_changed": 37,
+   "v2_schema_identical": true,
+   "v2_selected": {
+    "away_elo2_rel": [
+     106.55619045152253,
+     81.74406560855391
+    ],
+    "away_n_known_14": [
+     1.0,
+     2.0
+    ],
+    "away_n_known_30": [
+     2.0,
+     3.0
+    ],
+    "home_elo2_rel": [
+     162.13668681753325,
+     162.13668681753325
+    ],
+    "home_n_known_14": [
+     1.0,
+     1.0
+    ],
+    "home_n_known_30": [
+     2.0,
+     2.0
+    ]
+   },
+   "v2_probabilities": [
+    [
+     0.5155,
+     0.2504,
+     0.2341
+    ],
+    [
+     0.5377,
+     0.2441,
+     0.2182
+    ]
+   ],
+   "fixture": "Bayer 04 Leverkusen v VfB Stuttgart",
+   "date": "2026-10-31",
+   "v1_before": [
+    0.5419,
+    0.2055,
+    0.2526
+   ],
+   "v1_after": [
+    0.5674,
+    0.1922,
+    0.2404
+   ],
+   "home_n_prior": [
+    618.0,
+    618.0
+   ],
+   "away_n_prior": [
+    560.0,
+    561.0
+   ],
+   "home_ppg5": [
+    2.6,
+    2.6
+   ],
+   "away_ppg5": [
+    1.2,
+    0.6
+   ],
+   "home_elo": [
+    1872.8,
+    1872.8
+   ],
+   "away_elo": [
+    1811.4,
+    1795.0
+   ]
+  },
+  {
+   "v2_inputs": 62,
+   "v2_inputs_changed": 32,
+   "v2_schema_identical": true,
+   "v2_selected": {
+    "away_elo2_rel": [
+     214.85420792312811,
+     219.41948269772138
+    ],
+    "away_n_known_14": [
+     1.0,
+     2.0
+    ],
+    "away_n_known_30": [
+     2.0,
+     3.0
+    ],
+    "home_elo2_rel": [
+     399.5925511945434,
+     399.5925511945434
+    ],
+    "home_n_known_14": [
+     1.0,
+     1.0
+    ],
+    "home_n_known_30": [
+     2.0,
+     2.0
+    ]
+   },
+   "v2_probabilities": [
+    [
+     0.6891,
+     0.1821,
+     0.1288
+    ],
+    [
+     0.689,
+     0.1829,
+     0.1281
+    ]
+   ],
+   "fixture": "FC Bayern M\u00fcnchen v Borussia Dortmund",
+   "date": "2026-10-31",
+   "v1_before": [
+    0.6922,
+    0.165,
+    0.1428
+   ],
+   "v1_after": [
+    0.6961,
+    0.1668,
+    0.1371
+   ],
+   "home_n_prior": [
+    653.0,
+    653.0
+   ],
+   "away_n_prior": [
+    640.0,
+    641.0
+   ],
+   "home_ppg5": [
+    2.2,
+    2.2
+   ],
+   "away_ppg5": [
+    2.2,
+    2.2
+   ],
+   "home_elo": [
+    2082.9,
+    2082.9
+   ],
+   "away_elo": [
+    1912.9,
+    1916.2
+   ]
+  },
+  {
+   "v2_inputs": 62,
+   "v2_inputs_changed": 50,
+   "v2_schema_identical": true,
+   "v2_selected": {
+    "away_elo2_rel": [
+     -114.34789203305581,
+     -117.01615595075964
+    ],
+    "away_n_known_14": [
+     0.0,
+     1.0
+    ],
+    "away_n_known_30": [
+     2.0,
+     3.0
+    ],
+    "home_elo2_rel": [
+     -82.6637090883637,
+     -77.2192345351541
+    ],
+    "home_n_known_14": [
+     0.0,
+     1.0
+    ],
+    "home_n_known_30": [
+     2.0,
+     3.0
+    ]
+   },
+   "v2_probabilities": [
+    [
+     0.3939,
+     0.2786,
+     0.3275
+    ],
+    [
+     0.4123,
+     0.279,
+     0.3087
+    ]
+   ],
+   "fixture": "1. FC Union Berlin v 1. FC K\u00f6ln",
+   "date": "2026-11-01",
+   "v1_before": [
+    0.4297,
+    0.2322,
+    0.3381
+   ],
+   "v1_after": [
+    0.4471,
+    0.2429,
+    0.31
+   ],
+   "home_n_prior": [
+    503.0,
+    504.0
+   ],
+   "away_n_prior": [
+    565.0,
+    566.0
+   ],
+   "home_ppg5": [
+    0.8,
+    1.0
+   ],
+   "away_ppg5": [
+    0.8,
+    1.0
+   ],
+   "home_elo": [
+    1630.3,
+    1633.7
+   ],
+   "away_elo": [
+    1609.4,
+    1606.8
+   ]
+  },
+  {
+   "v2_inputs": 62,
+   "v2_inputs_changed": 47,
+   "v2_schema_identical": true,
+   "v2_selected": {
+    "away_elo2_rel": [
+     -45.79813782121141,
+     -58.65060052465901
+    ],
+    "away_n_known_14": [
+     0.0,
+     1.0
+    ],
+    "away_n_known_30": [
+     2.0,
+     3.0
+    ],
+    "home_elo2_rel": [
+     -33.529843395368516,
+     -38.09511816996178
+    ],
+    "home_n_known_14": [
+     0.0,
+     1.0
+    ],
+    "home_n_known_30": [
+     2.0,
+     3.0
+    ]
+   },
+   "v2_probabilities": [
+    [
+     0.4741,
+     0.2823,
+     0.2435
+    ],
+    [
+     0.4822,
+     0.2744,
+     0.2434
+    ]
+   ],
+   "fixture": "Eintracht Frankfurt v Hamburger SV",
+   "date": "2026-11-01",
+   "v1_before": [
+    0.4725,
+    0.2402,
+    0.2873
+   ],
+   "v1_after": [
+    0.4854,
+    0.2459,
+    0.2687
+   ],
+   "home_n_prior": [
+    547.0,
+    548.0
+   ],
+   "away_n_prior": [
+    559.0,
+    560.0
+   ],
+   "home_ppg5": [
+    1.4,
+    1.4
+   ],
+   "away_ppg5": [
+    1.8,
+    1.8
+   ],
+   "home_elo": [
+    1694.1,
+    1690.8
+   ],
+   "away_elo": [
+    1663.5,
+    1655.0
+   ]
+  }
+ ],
+ "max_abs_probability_change": 0.028100000000000014
+}

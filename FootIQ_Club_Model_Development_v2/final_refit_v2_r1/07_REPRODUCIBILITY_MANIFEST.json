@@ -1,0 +1,136 @@
+{
+ "version": "v2-r1",
+ "generated": "2026-10-21",
+ "frozen": {
+  "version": "v2-r1",
+  "frozen_at": "2026-10-21 17:45:33 +0530",
+  "training_cutoff_last_match_date": "2026-09-20",
+  "training_rows": 116854,
+  "seed": 20261021,
+  "hyperparameters": {
+   "C": 0.01
+  },
+  "calibration": "none",
+  "algorithm": "multinomial LogisticRegression (sklearn lbfgs, L2)",
+  "features": 62,
+  "feature_selection_source": "development folds only (<= 2024-06-30); no newer-data selection",
+  "dependency_versions": {
+   "python": "3.12.14",
+   "numpy": "1.26.4",
+   "pandas": "2.2.1",
+   "scipy": "1.17.1",
+   "sklearn": "1.5.1",
+   "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "git": {
+   "branch": "feat/club-ml-v2",
+   "head": "f8a2068c10833490a2283d7cf587881e10935e8c",
+   "working_tree_note": "new work is untracked/uncommitted by design; code identified by the script hashes below"
+  },
+  "code_sha256": {
+   "d0_phase0_checks.py": "8e79614b6d2bebfdb0b179fd042e0d25782f20b59d65db6066c5f190afa4557f",
+   "d10_final_refit.py": "08ff54d675344030126ffe5b53adf2b045b3282f2287220696007c0331eb1b02",
+   "d1_protocol.py": "293ff779e71361cc4a230b5ca4ee20954ee2842fe59fc139392e57d0e0092e33",
+   "d2_build_features.py": "6de3450d3ab08c710e5f77351ee294749409dd932dc2431410951289a0acfedc",
+   "d2b_rebuild_features.py": "32d0212fc319a6c866b737a400130322b8857537f832868da74f7ba2f5c5d369",
+   "d3_ablation.py": "bf0f0f4d16abbea6e92a4c898f8093196cc78718dca6b488a671f1db31bd0d34",
+   "d4_algorithms.py": "4c023bbb6b65c1a37c3b4e3814a86e98284e9c354cca311ec8d711ad89177bc2",
+   "d5_analysis.py": "3c3a6a13edcacad651fb1b9e77b1e8521e813fdc3bea81aab61d56e0c3879587",
+   "d6_leakage_tests.py": "643162bc217d41b72d67eab1bfb3c7e8b5153b6ef8cea6e1d72bc8df1f877e05",
+   "d7_diagnostics.py": "4aab62d90ba125d3dcb10b31a81764f70b0ee54b17683f3008d73b407135bf37",
+   "d8_manifest.py": "58fdeb8fd530e57e71f59049c8bdeb3c8681cd5fd28fcc60d1c23b4792398a75",
+   "d9_postfix_reeval.py": "ddf5795ac615d1c4ac11cd120024639c5b4b17c278f19da62857706777442596",
+   "v2_common.py": "b579b83cbe9d709bd499ccc49879b2163c1996574601e8f4ee4dbd40fab9d7de",
+   "v2_features.py": "430e74282980bdd5de54c08bf42a7fe3da306c7371737679345e61819691bb91",
+   "v2_models.py": "7ce1a89b7b25646222f62dfcd2f3aeff4e2adf0e853cdc226bab2847998f7792"
+  },
+  "input_sha256": {
+   "dataset_v1_1": "0d7b73117b442298e4e050f690c55e32c1d25798e244052ec12e41b54ff10da7",
+   "universe_pkl": "1c4d758b01d3d30acba6f059c17de1f12d31aa7de9a6849ad81bcfc4a300ebd9",
+   "training_feature_table": "9b15cffb4dbe883f3ebf4124dd6ff1f734ef15edf968ddc5ed51931fad37a01b"
+  },
+  "artifact_sha256": {
+   "club_v2_lr_final_candidate.pkl": "55c1e4c53bcfefd39d5e90a1ce60a75bc697668f7894e425305bdc9a65b3e56c",
+   "feature_contract_v2_final.json": "1d4fee41e4a589232db0e5cd6f7470ae2d2a3cd6cc7a2f5ccc366ee405610ca5",
+   "model_coefficients.json": "e3e67d4488a1e2074862b40783344311364ed1a3df75e7d3b23cea3e3f40a8e4"
+  },
+  "checks": {
+   "dev_feature_table_prefix_max_abs_diff": 0.0,
+   "dev_cutoff_refit_vs_prefix_artifact_max_prob_gap": 0.00015889498086085752,
+   "converged_iterations": 56,
+   "in_sample_log_loss": 1.0170398529559466,
+   "mean_pred": [
+    0.4360812203170761,
+    0.2645281167689448,
+    0.29939066291398725
+   ],
+   "train_class_rates": [
+    50967,
+    30907,
+    34980
+   ]
+  }
+ },
+ "final_refit_files_sha256": {
+  "01_ELO_MISMATCH_INVESTIGATION.md": "bab9381a464c7e5e5ff15a9a7721f7f11f036dc86f70bfb8b14569e757313d2f",
+  "02_corrected_validation_and_parity_results.csv": "e7dc74265667e2ad6e8be3508f8db9b2cbb7c40a4ada267fafec75a73fd7da55",
+  "02_postfix_fold_metrics.csv": "ad91e4f5c3ca28bfd7f6e05b31cf87c982bf8f9d80e869f44fb3336cffb705d4",
+  "02b_leakage_tests_rerun_after_fix.csv": "e591cfa180398f0981845b4d867dd6bb1066f06540d054fd42d8bdf69b792ed1",
+  "03_METRIC_RECONCILIATION.md": "0a0098bfe7f897739744a590d846bf741525696ee0acb003381d0379ad1a332a",
+  "03_postfix_logloss_reconciliation.csv": "5f612240dc501e9569f629debefef1630bef01d377defd6ca67b43e5cbc418c6",
+  "03b_postfix_bootstrap.csv": "0ba20fbb16729eca1f52101fa59adb691edd9975560eaa0b1498e6e92f236e22",
+  "04_FROZEN_MODEL_SPECIFICATION.md": "a909dc4481ce5d8f74971f38ca27704c5b00c5e9d80c4a811c7060ca4d0bb6bd",
+  "05_training_data_eligibility.csv": "03f7e4bcafb9a4ca14634f0513769d47fd651a4c82aeeb6f20697b25e1f70a68",
+  "06_REFIT_EXECUTION_REPORT.md": "5dd9b7595ff540f5aad6c92a927c16f72e7fbe428a2833ddccca2fe421d6ce85",
+  "08_PROSPECTIVE_COMPARISON_PROTOCOL.md": "fc1ef0107e78a2b98eb7f0755a0a989caab97542656ee26d5265e4a5557a3871",
+  "09_APPROVAL_READINESS_SUMMARY.md": "5079066c69f2460fe9bc594db44e590590c523c979daa31ed4a0838ae799af38",
+  "training_feature_table_v2_r1.pkl": "9b15cffb4dbe883f3ebf4124dd6ff1f734ef15edf968ddc5ed51931fad37a01b",
+  "artifacts/FROZEN.json": "8ad111f16dd27366b818652f401246f8ae22cc92e239e38bc81ea1955145479c",
+  "artifacts/club_v2_lr_final_candidate.pkl": "55c1e4c53bcfefd39d5e90a1ce60a75bc697668f7894e425305bdc9a65b3e56c",
+  "artifacts/feature_contract_v2_final.json": "1d4fee41e4a589232db0e5cd6f7470ae2d2a3cd6cc7a2f5ccc366ee405610ca5",
+  "artifacts/model_coefficients.json": "e3e67d4488a1e2074862b40783344311364ed1a3df75e7d3b23cea3e3f40a8e4",
+  "prospective_log/DRY_RUN/CHAIN.jsonl": "6af274729cdee0aad1d46fe5a7f30890a8099ca3bee717884958c6a80715a966",
+  "prospective_log/DRY_RUN/dry_run_batch_001.jsonl": "57d0f1663e8da4de072762f64b42cb3b135fdb1df16a161fdb2158659b4a89e3"
+ },
+ "scripts_sha256_at_manifest_time": {
+  "d0_phase0_checks.py": "8e79614b6d2bebfdb0b179fd042e0d25782f20b59d65db6066c5f190afa4557f",
+  "d10_final_refit.py": "08ff54d675344030126ffe5b53adf2b045b3282f2287220696007c0331eb1b02",
+  "d11_prospective_logger.py": "d2c79223918f2c4c427e40850efb3c3cb7c8de71822c62a7861d09d6b84286fc",
+  "d12_final_verification.py": "fc113ddae4fadc7f98c7dfcc5e1df4f3b65c01425c0c4234ff6e208a75a34152",
+  "d13_final_manifest.py": "f949773aa02f3e95bf0555e5e9f541d6f2a89b4c5bb3802ac90da272d3cc828d",
+  "d1_protocol.py": "293ff779e71361cc4a230b5ca4ee20954ee2842fe59fc139392e57d0e0092e33",
+  "d2_build_features.py": "6de3450d3ab08c710e5f77351ee294749409dd932dc2431410951289a0acfedc",
+  "d2b_rebuild_features.py": "32d0212fc319a6c866b737a400130322b8857537f832868da74f7ba2f5c5d369",
+  "d3_ablation.py": "bf0f0f4d16abbea6e92a4c898f8093196cc78718dca6b488a671f1db31bd0d34",
+  "d4_algorithms.py": "4c023bbb6b65c1a37c3b4e3814a86e98284e9c354cca311ec8d711ad89177bc2",
+  "d5_analysis.py": "3c3a6a13edcacad651fb1b9e77b1e8521e813fdc3bea81aab61d56e0c3879587",
+  "d6_leakage_tests.py": "643162bc217d41b72d67eab1bfb3c7e8b5153b6ef8cea6e1d72bc8df1f877e05",
+  "d7_diagnostics.py": "4aab62d90ba125d3dcb10b31a81764f70b0ee54b17683f3008d73b407135bf37",
+  "d8_manifest.py": "58fdeb8fd530e57e71f59049c8bdeb3c8681cd5fd28fcc60d1c23b4792398a75",
+  "d9_postfix_reeval.py": "ddf5795ac615d1c4ac11cd120024639c5b4b17c278f19da62857706777442596",
+  "v2_common.py": "b579b83cbe9d709bd499ccc49879b2163c1996574601e8f4ee4dbd40fab9d7de",
+  "v2_features.py": "430e74282980bdd5de54c08bf42a7fe3da306c7371737679345e61819691bb91",
+  "v2_models.py": "7ce1a89b7b25646222f62dfcd2f3aeff4e2adf0e853cdc226bab2847998f7792"
+ },
+ "v1_reference_artifacts_sha256": {
+  "FROZEN.json": "7effbaaf12052ef1db2fff7bd8584b1279cc8668cd4000ea5ade168ca58244ec",
+  "baseline_parameters.json": "3e22a9ae1a6f5383b43ee183fa65bb64b7d13d729a72bb0577159e153e6de7e3",
+  "coverage_categories.json": "99452eacb1e11e6f46cc048ad094d8537dcac153714b5f65cc960fcc520554fa",
+  "multinomial_logreg.pkl": "067426e83d2d5f66aaf6c4aef933ac58e17f04d911ae55ede336c1bad3c0c5b9",
+  "multinomial_logreg_coefficients.json": "3cf4e91bfa2205e0a5fcdbe26704c49d571dfb54ebceb253c073358704bb1437",
+  "preprocessing_train_fitted.json": "b74a529844dc52bf92d2d6f2f980dc5977e1ff145d55e9263d80dedd0a6cddee"
+ },
+ "world_cup_model_sha256": "0df37dd7c659e35b61a64b4178d19cddc2dd103f95a9967314321e8ff3784a1a",
+ "run_order": [
+  "d2b_rebuild_features.py",
+  "d6_leakage_tests.py",
+  "d9_postfix_reeval.py",
+  "d10_final_refit.py",
+  "d12_final_verification.py",
+  "d11_prospective_logger.py --dry-run",
+  "d13_final_manifest.py"
+ ],
+ "interpreter": "D:/Foot IQ/.venv/Scripts/python.exe -I",
+ "platform": "Windows-11-10.0.26300-SP0",
+ "note": "d10 refuses to run once artifacts/FROZEN.json exists; a different configuration must be a new version directory"
+}

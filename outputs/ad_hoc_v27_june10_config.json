@@ -1,0 +1,60 @@
+{
+  "version": "ad_hoc_v27_june10",
+  "fixtures": [
+    {
+      "fixture_key": "adhoc_2026_06_10_portugal_nigeria",
+      "date": "2026-06-10",
+      "time_et": "15:45",
+      "team1": "Portugal",
+      "team2": "Nigeria",
+      "competition_context": "International friendly",
+      "venue": "Leiria",
+      "city": "Leiria, Portugal",
+      "latitude": 39.7436,
+      "longitude": -8.8071,
+      "venue_edge_team": "Portugal",
+      "source": "API-Football fixture feed"
+    },
+    {
+      "fixture_key": "adhoc_2026_06_10_england_costa_rica",
+      "date": "2026-06-10",
+      "time_et": "16:00",
+      "team1": "England",
+      "team2": "Costa Rica",
+      "competition_context": "International friendly",
+      "venue": "Inter&Co Stadium",
+      "city": "Orlando, FL",
+      "latitude": 28.5411,
+      "longitude": -81.389,
+      "venue_edge_team": "",
+      "source": "API-Football fixture feed; venue from public reports"
+    },
+    {
+      "fixture_key": "adhoc_2026_06_10_bolivia_algeria",
+      "date": "2026-06-10",
+      "time_et": "16:00",
+      "team1": "Bolivia",
+      "team2": "Algeria",
+      "competition_context": "International friendly",
+      "venue": "",
+      "city": "",
+      "latitude": "",
+      "longitude": "",
+      "venue_edge_team": "",
+      "source": "API-Football fixture feed; venue unavailable"
+    }
+  ],
+  "api_budget": {
+    "date": "2026-06-09",
+    "daily_limit": 100,
+    "reserve_requests": 15,
+    "usable_before_stop": 85,
+    "used_today": 3,
+    "remaining_before_stop": 82
+  },
+  "outputs": [
+    "data/processed/ad_hoc_v27_june10_predictions.csv",
+    "data/processed/ad_hoc_v27_june10_features.csv",
+    "outputs/ad_hoc_v27_june10_report.md"
+  ]
+}

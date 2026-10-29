@@ -1,0 +1,230 @@
+{
+ "production_sha256_before": "5e8433c3bab517d6b2a09c2d91e91a9115fea9c91088a6b4183f27546d7bf488",
+ "production_dry_run": {
+  "counts": {
+   "unchanged": 54,
+   "insert_fixture": 90
+  },
+  "issues": 0,
+  "fixtures_gate_sha256": "17afd3fbc25bc243e845cd0aee5c4fa57725a2f4d894d22cb8871e38f42402b1"
+ },
+ "production_dry_run_results_only": {
+  "unchanged": 54,
+  "skip_fixture_not_requested": 90
+ },
+ "production_unchanged_after_dry_runs": true,
+ "copy_first_apply": {
+  "counts": {
+   "unchanged": 54,
+   "insert_fixture": 90
+  },
+  "applied": {
+   "inserted": 90,
+   "updated": 0,
+   "unchanged": 0,
+   "quarantined": 0,
+   "run_id": 32
+  }
+ },
+ "copy_second_apply": {
+  "counts": {
+   "unchanged": 144
+  },
+  "applied": {
+   "inserted": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "quarantined": 0,
+   "run_id": 33
+  }
+ },
+ "copy_integrity": "ok",
+ "copy_fk": 0,
+ "copy_ucl_status": {
+  "completed": 54,
+  "scheduled": 90
+ },
+ "copy_ucl_by_matchday": {
+  "Matches > Matchday 1": 18,
+  "Matches > Matchday 2": 18,
+  "Matches > Matchday 3": 18,
+  "Matches > Matchday 4": 18,
+  "Matches > Matchday 5": 18,
+  "Matches > Matchday 6": 18,
+  "Matches > Matchday 7": 18,
+  "Matches > Matchday 8": 18
+ },
+ "copy_duplicates": 0,
+ "copy_non_league_phase_rows": 0,
+ "copy_completed_dated_after_today": 0,
+ "copy_unplayed_dated_before_today": 0,
+ "hub_on_copy": {
+  "upcoming": {
+   "counts": {
+    "upcoming": 90,
+    "awaiting_result": 0,
+    "completed": 54,
+    "other": 0,
+    "all": 144
+   },
+   "returned": 50,
+   "first": [
+    [
+     "2026-11-03",
+     4,
+     "LASK Linz",
+     "ŠK Slovan Bratislava",
+     "scheduled"
+    ],
+    [
+     "2026-11-03",
+     4,
+     "Manchester United FC",
+     "AS Roma",
+     "scheduled"
+    ]
+   ],
+   "statuses": [
+    "scheduled"
+   ],
+   "badges": [
+    "Not validated (indicative only)"
+   ]
+  },
+  "completed": {
+   "counts": {
+    "upcoming": 90,
+    "awaiting_result": 0,
+    "completed": 54,
+    "other": 0,
+    "all": 144
+   },
+   "returned": 50,
+   "first": [
+    [
+     "2026-10-21",
+     3,
+     "Sporting Clube de Portugal",
+     "LASK Linz",
+     "completed"
+    ],
+    [
+     "2026-10-21",
+     3,
+     "FC Internazionale Milano",
+     "FC Shakhtar Donetsk",
+     "completed"
+    ]
+   ],
+   "statuses": [
+    "completed"
+   ],
+   "badges": [
+    "Not validated (indicative only)"
+   ]
+  },
+  "awaiting_result": {
+   "counts": {
+    "upcoming": 90,
+    "awaiting_result": 0,
+    "completed": 54,
+    "other": 0,
+    "all": 144
+   },
+   "returned": 0,
+   "first": [],
+   "statuses": [],
+   "badges": []
+  },
+  "all": {
+   "counts": {
+    "upcoming": 90,
+    "awaiting_result": 0,
+    "completed": 54,
+    "other": 0,
+    "all": 144
+   },
+   "returned": 50,
+   "first": [
+    [
+     "2027-01-27",
+     8,
+     "FC Shakhtar Donetsk",
+     "Real Madrid CF",
+     "scheduled"
+    ],
+    [
+     "2027-01-27",
+     8,
+     "ŠK Slovan Bratislava",
+     "FC Internazionale Milano",
+     "scheduled"
+    ]
+   ],
+   "statuses": [
+    "scheduled"
+   ],
+   "badges": [
+    "Not validated (indicative only)"
+   ]
+  }
+ },
+ "hub_matchday5": {
+  "n": 18,
+  "dates": [
+   "2026-11-24",
+   "2026-11-25"
+  ],
+  "all_unplayed": true
+ },
+ "hub_arsenal_upcoming": [
+  [
+   "2026-11-04",
+   4,
+   "Slavia Praha",
+   "Arsenal FC"
+  ],
+  [
+   "2026-11-24",
+   5,
+   "Arsenal FC",
+   "Borussia Dortmund"
+  ],
+  [
+   "2026-12-09",
+   6,
+   "Arsenal FC",
+   "Real Madrid CF"
+  ],
+  [
+   "2027-01-20",
+   7,
+   "Real Betis Balompié",
+   "Arsenal FC"
+  ],
+  [
+   "2027-01-27",
+   8,
+   "Arsenal FC",
+   "Sabah FK (Azerbaijan)"
+  ]
+ ],
+ "league_phase_on_copy": {
+  "played": 54,
+  "in_data": 54,
+  "expected": 144,
+  "complete": false,
+  "note": "only 54 of 144 league-phase fixtures are in the data",
+  "criteria": "1-5 (provisional: the league phase is not finished)"
+ },
+ "predict_ucl": {
+  "status": 200,
+  "badge": "Not validated (indicative only)",
+  "note": [
+   "This date is already in the past and no stored fixture matches it: a hypothetical matchup, not a forecast of a scheduled match.",
+   "This competition is NOT validated: the club models were evaluated on domestic leagues only. Probabilities are indicative."
+  ]
+ },
+ "production_sha256_after": "5e8433c3bab517d6b2a09c2d91e91a9115fea9c91088a6b4183f27546d7bf488",
+ "production_unchanged": true
+}

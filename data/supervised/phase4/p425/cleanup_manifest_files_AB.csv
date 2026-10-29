@@ -1,0 +1,1961 @@
+path,bytes
+data/supervised/demo.sqlite,228339712
+data/supervised/demo.sqlite-shm,32768
+data/supervised/demo.sqlite-wal,0
+data/supervised/live_test_copy.sqlite,228696064
+data/supervised/live_test_copy.sqlite-shm,32768
+data/supervised/live_test_copy.sqlite-wal,0
+data/supervised/rehearsal/footiq.before.sqlite,228298752
+data/supervised/rehearsal/footiq.rehearsal.sqlite,228655104
+data/supervised/rehearsal/footiq.rehearsal_repeat.sqlite,228655104
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_the_audit_does_not_expect0/snap/openligadb/20261028T104824Z_bl1_2026_season.json,343147
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_the_audit_does_not_expect0/snap/openligadb/20261028T104824Z_bl1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_the_audit_does_not_expect0/snap/openligadb/20261028T104825Z_la1_2026_season.json,484573
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_the_audit_does_not_expect0/snap/openligadb/20261028T104825Z_la1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_the_application_does_not_0/snap/openligadb/20261028T104742Z_bl1_2026_season.json,343147
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_the_application_does_not_0/snap/openligadb/20261028T104742Z_bl1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_the_application_does_not_0/snap/openligadb/20261028T104742Z_la1_2026_season.json,484573
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_the_application_does_not_0/snap/openligadb/20261028T104742Z_la1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_opening_or_reloading_the_0/snap/openligadb/20261028T104743Z_bl1_2026_season.json,343147
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_opening_or_reloading_the_0/snap/openligadb/20261028T104743Z_bl1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_opening_or_reloading_the_0/snap/openligadb/20261028T104744Z_la1_2026_season.json,484573
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_opening_or_reloading_the_0/snap/openligadb/20261028T104744Z_la1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_only_bundesliga_and_la_li0/snap/openligadb/20261028T104820Z_bl1_2026_season.json,343147
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_only_bundesliga_and_la_li0/snap/openligadb/20261028T104820Z_bl1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_only_bundesliga_and_la_li0/snap/openligadb/20261028T104821Z_la1_2026_season.json,484573
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_only_bundesliga_and_la_li0/snap/openligadb/20261028T104821Z_la1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_only_a_league_that_failed0/snap/openligadb/20261028T104748Z_bl1_2026_season.json,343147
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_only_a_league_that_failed0/snap/openligadb/20261028T104748Z_bl1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_only_a_league_that_failed0/snap/openligadb/20261028T104748Z_la1_2026_season.json,484573
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_only_a_league_that_failed0/snap/openligadb/20261028T104748Z_la1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_live_path_uses_only_appro0/snap/openligadb/20261028T105545Z_bl1_2026_season.json,308338
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_live_path_uses_only_appro0/snap/openligadb/20261028T105545Z_bl1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_conflicts_date_disputes_a0/snap/openligadb/20261028T104814Z_bl1_2026_season.json,343147
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_conflicts_date_disputes_a0/snap/openligadb/20261028T104814Z_bl1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_conflicts_date_disputes_a0/snap/openligadb/20261028T104814Z_la1_2026_season.json,484573
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_conflicts_date_disputes_a0/snap/openligadb/20261028T104814Z_la1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_conflicts_date_disputes_a0/snap/openligadb/20261028T104816Z_la1_2026_season.json,484573
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_conflicts_date_disputes_a0/snap/openligadb/20261028T104816Z_la1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_second_backend_launched0/snap/openligadb/20261028T104822Z_bl1_2026_season.json,343147
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_second_backend_launched0/snap/openligadb/20261028T104822Z_bl1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_second_backend_launched0/snap/openligadb/20261028T104823Z_la1_2026_season.json,484573
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_second_backend_launched0/snap/openligadb/20261028T104823Z_la1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_quick_restart_does_not_0/snap/openligadb/20261028T104745Z_bl1_2026_season.json,343147
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_quick_restart_does_not_0/snap/openligadb/20261028T104745Z_bl1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_quick_restart_does_not_0/snap/openligadb/20261028T104746Z_la1_2026_season.json,484573
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_quick_restart_does_not_0/snap/openligadb/20261028T104746Z_la1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_launch_makes_one_reques0/snap/openligadb/20261028T104737Z_bl1_2026_season.json,343147
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_launch_makes_one_reques0/snap/openligadb/20261028T104737Z_bl1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_launch_makes_one_reques0/snap/openligadb/20261028T104738Z_la1_2026_season.json,484573
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_launch_makes_one_reques0/snap/openligadb/20261028T104738Z_la1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_failure_in_one_league_d0/snap/openligadb/20261028T104811Z_la1_2026_season.json,484573
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_failure_in_one_league_d0/snap/openligadb/20261028T104811Z_la1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_failure_in_one_league_d0/snap/openligadb/20261028T104812Z_bl1_2026_season.json,343147
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_a_failure_in_one_league_d0/snap/openligadb/20261028T104812Z_bl1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_an_identical_launch_store0/snap/openligadb/20261028T104817Z_bl1_2026_season.json,343147
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_an_identical_launch_store0/snap/openligadb/20261028T104817Z_bl1_2026_season.json.meta.json,536
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_an_identical_launch_store0/snap/openligadb/20261028T104817Z_la1_2026_season.json,484573
+data/supervised/pytest_tmp/pytest-of-DELL/pytest-13/test_an_identical_launch_store0/snap/openligadb/20261028T104817Z_la1_2026_season.json.meta.json,536
+data/supervised/production_import/footiq.20261025T142338Z.backup.sqlite,228298752
+data/supervised/production_import/footiq.20261025T142338Z.backup.sqlite-shm,32768
+data/supervised/production_import/footiq.20261025T142338Z.backup.sqlite-wal,0
+data/supervised/production_import/footiq.20261025T142618Z.backup.sqlite,228298752
+data/supervised/production_import/footiq.20261025T142618Z.backup.sqlite-shm,32768
+data/supervised/production_import/footiq.20261025T142618Z.backup.sqlite-wal,0
+data/supervised/phase4/p49/private_copy.sqlite,228671488
+data/supervised/phase4/p49/private_copy.sqlite-shm,32768
+data/supervised/phase4/p49/private_copy.sqlite-wal,0
+data/supervised/phase4/p49/restore_test.sqlite,228663296
+data/supervised/phase4/p49/restore_test.sqlite-shm,32768
+data/supervised/phase4/p49/restore_test.sqlite-wal,0
+data/supervised/phase4/p48d/restore_test_activation.sqlite,228663296
+data/supervised/phase4/p48d/restore_test_activation.sqlite-shm,32768
+data/supervised/phase4/p48d/restore_test_activation.sqlite-wal,0
+data/supervised/phase4/p46/preview.sqlite,228773888
+data/supervised/phase4/p46/preview.sqlite-shm,32768
+data/supervised/phase4/p46/preview.sqlite-wal,0
+data/supervised/phase4/p46/tests.sqlite,228655104
+data/supervised/phase4/p46/chrome-profile-p46/Last Browser,106
+data/supervised/phase4/p46/chrome-profile-p46/Last Version,13
+data/supervised/phase4/p46/chrome-profile-p46/Local State,9981
+data/supervised/phase4/p46/chrome-profile-p46/Variations,86
+data/supervised/phase4/p46/chrome-profile-p46/VariationsSafeSeedV2,42448
+data/supervised/phase4/p46/chrome-profile-p46/VariationsSeedV2,172
+data/supervised/phase4/p46/chrome-profile-p46/ShaderCache/data_0,8192
+data/supervised/phase4/p46/chrome-profile-p46/ShaderCache/data_1,270336
+data/supervised/phase4/p46/chrome-profile-p46/ShaderCache/data_2,8192
+data/supervised/phase4/p46/chrome-profile-p46/ShaderCache/data_3,8192
+data/supervised/phase4/p46/chrome-profile-p46/ShaderCache/index,262512
+data/supervised/phase4/p46/chrome-profile-p46/segmentation_platform/ukm_db,49152
+data/supervised/phase4/p46/chrome-profile-p46/segmentation_platform/ukm_db-wal,560352
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/9/E6DC4029A1E4B4C1/0A32CE7D190F021D/model-info.pb,164
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/9/E6DC4029A1E4B4C1/0A32CE7D190F021D/model.tflite,31520
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/58/E6DC4029A1E4B4C1/7F5C3E631F4FC3AC/model-info.pb,6998
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/58/E6DC4029A1E4B4C1/7F5C3E631F4FC3AC/model.tflite,195104
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/45/E6DC4029A1E4B4C1/8CC2C45AFE294A50/model-info.pb,7104
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/45/E6DC4029A1E4B4C1/8CC2C45AFE294A50/model.tflite,131736
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/43/E6DC4029A1E4B4C1/8CBFE8C47400A21A/model-info.pb,138
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/43/E6DC4029A1E4B4C1/8CBFE8C47400A21A/model.tflite,36778224
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/43/E6DC4029A1E4B4C1/8CBFE8C47400A21A/sentencepiece.model,794346
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/26/E6DC4029A1E4B4C1/01EAA8EB5045467D/model-info.pb,416
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/26/E6DC4029A1E4B4C1/01EAA8EB5045467D/model.tflite,7112
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/25/E6DC4029A1E4B4C1/FD86C185802F037A/model-info.pb,146
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/25/E6DC4029A1E4B4C1/FD86C185802F037A/model.tflite,180520
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/25/E6DC4029A1E4B4C1/FD86C185802F037A/visual_model_desktop.tflite,3452826
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/24/E6DC4029A1E4B4C1/D4BEFEE5DD63CE1A/enus_denylist_encoded_241007.txt,8000
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/24/E6DC4029A1E4B4C1/D4BEFEE5DD63CE1A/model-info.pb,176
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/24/E6DC4029A1E4B4C1/D4BEFEE5DD63CE1A/model.tflite,4602152
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/24/E6DC4029A1E4B4C1/D4BEFEE5DD63CE1A/vocab_en-us.txt,1008
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/20/E6DC4029A1E4B4C1/C02DE5A14530ACED/model-info.pb,164
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/20/E6DC4029A1E4B4C1/C02DE5A14530ACED/model.tflite,31520
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/2/E6DC4029A1E4B4C1/1BA45229F9B40F7C/model-info.pb,12
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/2/E6DC4029A1E4B4C1/1BA45229F9B40F7C/model.tflite,392048
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/13/E6DC4029A1E4B4C1/4932C6590BD7F2F0/model-info.pb,10
+data/supervised/phase4/p46/chrome-profile-p46/optimization_guide_model_store/13/E6DC4029A1E4B4C1/4932C6590BD7F2F0/model.tflite,1219248
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/laya_solution_config.binarypb,0
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/manifest.binarypb,12147
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/manifest.json,84
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/prompt_gemma4_12b_solution_config.binarypb,949
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/prompt_gemma4_4b_solution_config.binarypb,949
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/prompt_gemma4_solution_config.binarypb,949
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/prompt_solution_config.binarypb,949
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/proofreader_small_expert_model_solution_config.binarypb,498
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/scam_detection_solution_config.binarypb,1010
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/speech_recognition_small_expert_model_solution_config.binarypb,12
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/summarizer_gemma4_12b_solution_config.binarypb,15298
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/summarizer_gemma4_4b_solution_config.binarypb,15298
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/summarizer_gemma4_solution_config.binarypb,15298
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/summarizer_nano_v3_solution_config.binarypb,15294
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/summarizer_small_expert_model_solution_config.binarypb,1415
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/writing_assistance_gemma4_12b_solution_config.binarypb,11670
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/writing_assistance_gemma4_4b_solution_config.binarypb,11670
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/writing_assistance_gemma4_solution_config.binarypb,11670
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/writing_assistance_solution_config.binarypb,11670
+data/supervised/phase4/p46/chrome-profile-p46/OptimizationGuideModelsManifest/1.20261018.2/_metadata/verified_contents.json,4382
+data/supervised/phase4/p46/chrome-profile-p46/OptGuidePredictionModels/GeolocationPermissions/2026.10.26.1503/manifest.json,113
+data/supervised/phase4/p46/chrome-profile-p46/OptGuidePredictionModels/GeolocationPermissions/2026.10.26.1503/model-info.pb,165
+data/supervised/phase4/p46/chrome-profile-p46/OptGuidePredictionModels/GeolocationPermissions/2026.10.26.1503/model.tflite,31520
+data/supervised/phase4/p46/chrome-profile-p46/OptGuidePredictionModels/GeolocationPermissions/2026.10.26.1503/model_info.pb.txt,483
+data/supervised/phase4/p46/chrome-profile-p46/OptGuidePredictionModels/GeolocationPermissions/2026.10.26.1503/_metadata/verified_contents.json,1543
+data/supervised/phase4/p46/chrome-profile-p46/GrShaderCache/data_0,8192
+data/supervised/phase4/p46/chrome-profile-p46/GrShaderCache/data_1,270336
+data/supervised/phase4/p46/chrome-profile-p46/GrShaderCache/data_2,8192
+data/supervised/phase4/p46/chrome-profile-p46/GrShaderCache/data_3,8192
+data/supervised/phase4/p46/chrome-profile-p46/GrShaderCache/index,262512
+data/supervised/phase4/p46/chrome-profile-p46/GPUPersistentCache/DawnGraphiteCache/LSLKY6OQOC3C6NSMBEC62Q7Y6BL6S72V/cache.db,0
+data/supervised/phase4/p46/chrome-profile-p46/GPUPersistentCache/DawnGraphiteCache/LSLKY6OQOC3C6NSMBEC62Q7Y6BL6S72V/cache.db-wal,0
+data/supervised/phase4/p46/chrome-profile-p46/GPUPersistentCache/DawnGraphiteCache/LSLKY6OQOC3C6NSMBEC62Q7Y6BL6S72V/cache.journal,0
+data/supervised/phase4/p46/chrome-profile-p46/extensions_crx_cache/metadata.json,13
+data/supervised/phase4/p46/chrome-profile-p46/Default/Account Web Data,73728
+data/supervised/phase4/p46/chrome-profile-p46/Default/Account Web Data-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Affiliation Database,53248
+data/supervised/phase4/p46/chrome-profile-p46/Default/Affiliation Database-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/BookmarkMergedSurfaceOrdering,6
+data/supervised/phase4/p46/chrome-profile-p46/Default/declarative_performance_observer.db,32768
+data/supervised/phase4/p46/chrome-profile-p46/Default/declarative_performance_observer.db-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/DIPS,4096
+data/supervised/phase4/p46/chrome-profile-p46/Default/DIPS-wal,78312
+data/supervised/phase4/p46/chrome-profile-p46/Default/Favicons,20480
+data/supervised/phase4/p46/chrome-profile-p46/Default/Favicons-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/heavy_ad_intervention_opt_out.db,16384
+data/supervised/phase4/p46/chrome-profile-p46/Default/heavy_ad_intervention_opt_out.db-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/History,204800
+data/supervised/phase4/p46/chrome-profile-p46/Default/History-journal,49760
+data/supervised/phase4/p46/chrome-profile-p46/Default/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Login Data,40960
+data/supervised/phase4/p46/chrome-profile-p46/Default/Login Data For Account,40960
+data/supervised/phase4/p46/chrome-profile-p46/Default/Login Data For Account-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Login Data-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Network Action Predictor,53248
+data/supervised/phase4/p46/chrome-profile-p46/Default/Network Action Predictor-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Preferences,11375
+data/supervised/phase4/p46/chrome-profile-p46/Default/PreferredApps,33
+data/supervised/phase4/p46/chrome-profile-p46/Default/README,180
+data/supervised/phase4/p46/chrome-profile-p46/Default/Secure Preferences,15838
+data/supervised/phase4/p46/chrome-profile-p46/Default/ServerCertificate,20480
+data/supervised/phase4/p46/chrome-profile-p46/Default/ServerCertificate-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Shortcuts,20480
+data/supervised/phase4/p46/chrome-profile-p46/Default/Shortcuts-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Top Sites,20480
+data/supervised/phase4/p46/chrome-profile-p46/Default/Top Sites-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Data,157696
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Data-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/WebStorage/QuotaManager,40960
+data/supervised/phase4/p46/chrome-profile-p46/Default/WebStorage/QuotaManager-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/128.png,8958
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/192.png,6710
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/256.png,22941
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/32.png,1741
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/48.png,2790
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/64.png,3966
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/96.png,6314
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/128.png,8958
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/192.png,6710
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/256.png,22941
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/32.png,1741
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/48.png,2790
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/64.png,3966
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/96.png,6314
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/128.png,7291
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/192.png,7313
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/256.png,21355
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/32.png,1288
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/48.png,2132
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/64.png,2921
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/96.png,4911
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/128.png,7291
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/192.png,7313
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/256.png,21355
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/32.png,1288
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/48.png,2132
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/64.png,2921
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/96.png,4911
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/128.png,10085
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/192.png,10277
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/256.png,29566
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/32.png,1559
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/48.png,2568
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/64.png,3642
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/96.png,6371
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/128.png,10085
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/192.png,10277
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/256.png,29566
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/32.png,1559
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/48.png,2568
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/64.png,3642
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/96.png,6371
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/128.png,8591
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/192.png,7564
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/256.png,21836
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/32.png,1650
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/48.png,2751
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/64.png,3605
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/96.png,5693
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/128.png,8591
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/192.png,7564
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/256.png,21836
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/32.png,1650
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/48.png,2751
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/64.png,3605
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/96.png,5693
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/128.png,7998
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/192.png,8310
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/256.png,22274
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/32.png,1273
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/48.png,2149
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/64.png,2960
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/96.png,5149
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/128.png,7998
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/192.png,8310
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/256.png,22274
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/32.png,1273
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/48.png,2149
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/64.png,2960
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/96.png,5149
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/128.png,10369
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/192.png,7081
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/256.png,26383
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/32.png,1572
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/48.png,2572
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/64.png,3945
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/96.png,7033
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/128.png,10369
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/192.png,7081
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/256.png,26383
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/32.png,1572
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/48.png,2572
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/64.png,3945
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/96.png,7033
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/128.png,10243
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/192.png,10103
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/256.png,30010
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/32.png,1854
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/48.png,2982
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/64.png,4159
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/96.png,6955
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/128.png,10243
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/192.png,10103
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/256.png,30010
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/32.png,1854
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/48.png,2982
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/64.png,4159
+data/supervised/phase4/p46/chrome-profile-p46/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/96.png,6955
+data/supervised/phase4/p46/chrome-profile-p46/Default/Sync Data/LevelDB/000003.log,3129
+data/supervised/phase4/p46/chrome-profile-p46/Default/Sync Data/LevelDB/CURRENT,16
+data/supervised/phase4/p46/chrome-profile-p46/Default/Sync Data/LevelDB/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Sync Data/LevelDB/LOG,332
+data/supervised/phase4/p46/chrome-profile-p46/Default/Sync Data/LevelDB/LOG.old,332
+data/supervised/phase4/p46/chrome-profile-p46/Default/Sync Data/LevelDB/MANIFEST-000001,41
+data/supervised/phase4/p46/chrome-profile-p46/Default/Site Characteristics Database/000003.log,40
+data/supervised/phase4/p46/chrome-profile-p46/Default/Site Characteristics Database/CURRENT,16
+data/supervised/phase4/p46/chrome-profile-p46/Default/Site Characteristics Database/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Site Characteristics Database/LOG,356
+data/supervised/phase4/p46/chrome-profile-p46/Default/Site Characteristics Database/LOG.old,356
+data/supervised/phase4/p46/chrome-profile-p46/Default/Site Characteristics Database/MANIFEST-000001,41
+data/supervised/phase4/p46/chrome-profile-p46/Default/shared_proto_db/000003.log,166008
+data/supervised/phase4/p46/chrome-profile-p46/Default/shared_proto_db/CURRENT,16
+data/supervised/phase4/p46/chrome-profile-p46/Default/shared_proto_db/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/shared_proto_db/LOG,328
+data/supervised/phase4/p46/chrome-profile-p46/Default/shared_proto_db/LOG.old,325
+data/supervised/phase4/p46/chrome-profile-p46/Default/shared_proto_db/MANIFEST-000001,41
+data/supervised/phase4/p46/chrome-profile-p46/Default/shared_proto_db/metadata/000003.log,1062
+data/supervised/phase4/p46/chrome-profile-p46/Default/shared_proto_db/metadata/CURRENT,16
+data/supervised/phase4/p46/chrome-profile-p46/Default/shared_proto_db/metadata/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/shared_proto_db/metadata/LOG,346
+data/supervised/phase4/p46/chrome-profile-p46/Default/shared_proto_db/metadata/LOG.old,346
+data/supervised/phase4/p46/chrome-profile-p46/Default/shared_proto_db/metadata/MANIFEST-000001,41
+data/supervised/phase4/p46/chrome-profile-p46/Default/Shared Dictionary/db,45056
+data/supervised/phase4/p46/chrome-profile-p46/Default/Shared Dictionary/db-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Shared Dictionary/cache/index,24
+data/supervised/phase4/p46/chrome-profile-p46/Default/Shared Dictionary/cache/index-dir/the-real-index,48
+data/supervised/phase4/p46/chrome-profile-p46/Default/Sessions_Encrypted/Session_13437568472014245,14808
+data/supervised/phase4/p46/chrome-profile-p46/Default/Sessions_Encrypted/Tabs_13437568630896605,10684
+data/supervised/phase4/p46/chrome-profile-p46/Default/Sessions_Encrypted/Tabs_13437568975304867,21324
+data/supervised/phase4/p46/chrome-profile-p46/Default/Sessions/Session_13437568472013586,13455
+data/supervised/phase4/p46/chrome-profile-p46/Default/Sessions/Tabs_13437568630894282,10354
+data/supervised/phase4/p46/chrome-profile-p46/Default/Sessions/Tabs_13437568975304352,20697
+data/supervised/phase4/p46/chrome-profile-p46/Default/Session Storage/000003.log,201
+data/supervised/phase4/p46/chrome-profile-p46/Default/Session Storage/CURRENT,16
+data/supervised/phase4/p46/chrome-profile-p46/Default/Session Storage/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Session Storage/LOG,328
+data/supervised/phase4/p46/chrome-profile-p46/Default/Session Storage/LOG.old,328
+data/supervised/phase4/p46/chrome-profile-p46/Default/Session Storage/MANIFEST-000001,41
+data/supervised/phase4/p46/chrome-profile-p46/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_0,472
+data/supervised/phase4/p46/chrome-profile-p46/Default/Service Worker/ScriptCache/4cb013792b196a35_0,10387
+data/supervised/phase4/p46/chrome-profile-p46/Default/Service Worker/ScriptCache/4cb013792b196a35_1,7185
+data/supervised/phase4/p46/chrome-profile-p46/Default/Service Worker/ScriptCache/ba23d8ecda68de77_0,6962
+data/supervised/phase4/p46/chrome-profile-p46/Default/Service Worker/ScriptCache/ba23d8ecda68de77_1,6089
+data/supervised/phase4/p46/chrome-profile-p46/Default/Service Worker/ScriptCache/f1cdccba37924bda_0,2777
+data/supervised/phase4/p46/chrome-profile-p46/Default/Service Worker/ScriptCache/index,24
+data/supervised/phase4/p46/chrome-profile-p46/Default/Service Worker/ScriptCache/index-dir/the-real-index,144
+data/supervised/phase4/p46/chrome-profile-p46/Default/Service Worker/Database/000003.log,3243
+data/supervised/phase4/p46/chrome-profile-p46/Default/Service Worker/Database/CURRENT,16
+data/supervised/phase4/p46/chrome-profile-p46/Default/Service Worker/Database/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Service Worker/Database/LOG,344
+data/supervised/phase4/p46/chrome-profile-p46/Default/Service Worker/Database/LOG.old,341
+data/supervised/phase4/p46/chrome-profile-p46/Default/Service Worker/Database/MANIFEST-000001,41
+data/supervised/phase4/p46/chrome-profile-p46/Default/Segmentation Platform/SignalStorageConfigDB/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Segmentation Platform/SignalStorageConfigDB/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Segmentation Platform/SignalStorageConfigDB/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Segmentation Platform/SignalDB/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Segmentation Platform/SignalDB/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Segmentation Platform/SignalDB/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Segmentation Platform/SegmentInfoDB/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Segmentation Platform/SegmentInfoDB/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Segmentation Platform/SegmentInfoDB/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Safe Browsing Network/NetworkDataMigrated,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/PersistentOriginTrials/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/PersistentOriginTrials/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/PersistentOriginTrials/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/parcel_tracking_db/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/parcel_tracking_db/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/parcel_tracking_db/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/optimization_guide_hint_cache_store/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/optimization_guide_hint_cache_store/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/optimization_guide_hint_cache_store/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Network/Cookies,20480
+data/supervised/phase4/p46/chrome-profile-p46/Default/Network/Cookies-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Network/Device Bound Sessions,20480
+data/supervised/phase4/p46/chrome-profile-p46/Default/Network/Device Bound Sessions-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Network/Network Persistent State,949
+data/supervised/phase4/p46/chrome-profile-p46/Default/Network/NetworkDataMigrated,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Network/Reporting and NEL,36864
+data/supervised/phase4/p46/chrome-profile-p46/Default/Network/Reporting and NEL-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Network/Trust Tokens,36864
+data/supervised/phase4/p46/chrome-profile-p46/Default/Network/Trust Tokens-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Local Storage/leveldb/000003.log,49
+data/supervised/phase4/p46/chrome-profile-p46/Default/Local Storage/leveldb/CURRENT,16
+data/supervised/phase4/p46/chrome-profile-p46/Default/Local Storage/leveldb/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Local Storage/leveldb/LOG,340
+data/supervised/phase4/p46/chrome-profile-p46/Default/Local Storage/leveldb/LOG.old,340
+data/supervised/phase4/p46/chrome-profile-p46/Default/Local Storage/leveldb/MANIFEST-000001,41
+data/supervised/phase4/p46/chrome-profile-p46/Default/GPUCache/data_0,8192
+data/supervised/phase4/p46/chrome-profile-p46/Default/GPUCache/data_1,270336
+data/supervised/phase4/p46/chrome-profile-p46/Default/GPUCache/data_2,8192
+data/supervised/phase4/p46/chrome-profile-p46/Default/GPUCache/data_3,8192
+data/supervised/phase4/p46/chrome-profile-p46/Default/GPUCache/index,262512
+data/supervised/phase4/p46/chrome-profile-p46/Default/GCM Store/Encryption/000003.log,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/GCM Store/Encryption/CURRENT,16
+data/supervised/phase4/p46/chrome-profile-p46/Default/GCM Store/Encryption/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/GCM Store/Encryption/LOG,338
+data/supervised/phase4/p46/chrome-profile-p46/Default/GCM Store/Encryption/LOG.old,338
+data/supervised/phase4/p46/chrome-profile-p46/Default/GCM Store/Encryption/MANIFEST-000001,41
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension State/000003.log,285
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension State/CURRENT,16
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension State/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension State/LOG,325
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension State/LOG.old,328
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension State/MANIFEST-000001,41
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension Scripts/000003.log,95
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension Scripts/CURRENT,16
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension Scripts/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension Scripts/LOG,332
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension Scripts/LOG.old,291
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension Scripts/MANIFEST-000001,41
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension Rules/000003.log,95
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension Rules/CURRENT,16
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension Rules/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension Rules/LOG,328
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension Rules/LOG.old,287
+data/supervised/phase4/p46/chrome-profile-p46/Default/Extension Rules/MANIFEST-000001,41
+data/supervised/phase4/p46/chrome-profile-p46/Default/Download Service/EntryDB/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Download Service/EntryDB/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Download Service/EntryDB/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/discount_infos_db/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/discount_infos_db/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/discount_infos_db/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/discounts_db/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/discounts_db/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/discounts_db/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/DawnWebGPUCache/data_0,8192
+data/supervised/phase4/p46/chrome-profile-p46/Default/DawnWebGPUCache/data_1,270336
+data/supervised/phase4/p46/chrome-profile-p46/Default/DawnWebGPUCache/data_2,8192
+data/supervised/phase4/p46/chrome-profile-p46/Default/DawnWebGPUCache/data_3,8192
+data/supervised/phase4/p46/chrome-profile-p46/Default/DawnWebGPUCache/index,262512
+data/supervised/phase4/p46/chrome-profile-p46/Default/DawnGraphiteCache/data_0,8192
+data/supervised/phase4/p46/chrome-profile-p46/Default/DawnGraphiteCache/data_1,270336
+data/supervised/phase4/p46/chrome-profile-p46/Default/DawnGraphiteCache/data_2,8192
+data/supervised/phase4/p46/chrome-profile-p46/Default/DawnGraphiteCache/data_3,8192
+data/supervised/phase4/p46/chrome-profile-p46/Default/DawnGraphiteCache/index,262512
+data/supervised/phase4/p46/chrome-profile-p46/Default/DataSharing/DataSharingDB,20480
+data/supervised/phase4/p46/chrome-profile-p46/Default/DataSharing/DataSharingDB-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/commerce_subscription_db/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/commerce_subscription_db/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/commerce_subscription_db/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Collaboration/MessageDB,20480
+data/supervised/phase4/p46/chrome-profile-p46/Default/Collaboration/MessageDB-journal,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/wasm/index,24
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/wasm/index-dir/the-real-index,48
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/00cbd1020e4d3e4d_0,246
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/02691bf770d79806_0,4070
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/0774091e272ca46e_0,217
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/0810a6e8b6b74ac8_0,216
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/0831bc569dcc5443_0,21080
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/096c9b7d6132436d_0,3586
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/0b6c6db8369e1df7_0,35840
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/0cb3451fdf21d88a_0,19056
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/0d668f0d851743d9_0,7767
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/0ff0c108e16874fd_0,21392
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/1159472ab230a92d_0,20288
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/17bc1c03a0a4d7ee_0,22184
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/19d7b098f3132317_0,13013
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/1c81179b4668adeb_0,20288
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/1d0d8fd1351fa01d_0,6899
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/1ece329e2f81a274_0,8387
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/21e906b6553868ca_0,271
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/2268d1719b6868df_0,239
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/23fe73e0248997db_0,3085
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/262bb59004701fd9_0,12485
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/277abb1ffead45be_0,4132168
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/295267aaa5cc10d7_0,246
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/2b3637ed6c82cd77_0,5161
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/300cb870a1baf0f8_0,21072
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/30392c78b7277c02_0,106224
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/3882334a3b1ea7d5_0,20904
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/3a198a503ed6f8cf_0,279
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/3f569daaf4647b59_0,106224
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/42a83c2e466e9dde_0,4041
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/464229a5d3433bb5_0,20896
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/4956a26e03f86abc_0,41080
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/4eea49b9070b70a8_0,255
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/503062b281390dd6_0,248
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/5153dd051c42beaf_0,72192
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/52c744134e4d4dcf_0,63016
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/5400ef7fb8675b84_0,8861
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/54bfa2be2f838d84_0,284
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/57db7f2bd47b01ac_0,5176
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/5b2e163d386e2abf_0,3862
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/5b301c1880d9e831_0,14376
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/6069efe386937d61_0,21056
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/6092e298e900d479_0,19056
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/6460ae431473dd1b_0,26144
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/6ca5270b77b9ebf7_0,102704
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/795a42745ea6a565_0,67824
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/7ab5b3ac8f453aed_0,6639
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/7f353745e08580b0_0,5255
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/8900a99fc7b707c4_0,12171
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/8938ef0f5ed7083a_0,67824
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/919c0ccf841ced6f_0,246
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/91e977080f2cde82_0,263
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/92dcfc95e5ae4cfe_0,201
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/93f7f007eb60ec3c_0,29152
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/9433e08339368a1b_0,20904
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/97811cc29fa1d800_0,8818
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/9ad8d4a4508cf0fc_0,42488
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/9b20cdc58630c3ac_0,69960
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/9c37ce8a751ef9d4_0,244
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/9cc17be76fa074ab_0,11411
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/9e18a809c00a03b5_0,8594
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/9eb500fe42c5a23f_0,214128
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/a0aa5e9b9977e006_0,237
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/a338e5cd4efa6726_0,253
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/a414056c5cea7560_0,254
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/a80fa485ead34162_0,67824
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/a8610cc6a8ecbee2_0,15908
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/a864c4cdbabe2e9e_0,106224
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/a875503bbce08157_0,214128
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/a897f80a160edb70_0,63016
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/a8e9e2d89a0cfd50_0,2666104
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/aa7d67dc98ed1677_0,254
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/ab33857f1ac90fc4_0,4883
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/ac4270c734b5486a_0,9472
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/ad73694efa762c5f_0,11432
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/b156a199b71e0723_0,127032
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/b7b2fb791f936e3d_0,9721
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/b9cbd6717e482ebb_0,21392
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/b9eabcd4b2a876a1_0,279
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/ba678a2fbd8c358c_0,298
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/bc53c700b0cea746_0,214128
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/bcf5f851527fcbbf_0,2308
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/c06d134851cc56b3_0,39864
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/c1d1e27e8fd60945_0,6229
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/c2145d7ba614134e_0,106224
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/c4e4c1fd1cd4e048_0,22864
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/c6356d63d346908a_0,24720
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/c81acf402e1e97ae_0,254
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/c9a11b77e1653019_0,277
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/cda28182528ecab7_0,203
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/d05a082bdf4ec9df_0,57440
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/d445558184660394_0,8059
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/d4d8f72a565f3064_0,262
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/d950018b1cc48d3c_0,281
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/dd136b352d1f0f2d_0,214128
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/de1449106c3cc98c_0,248
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/deede45c4c5b817e_0,205
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/df7ef9f0f3a8872e_0,20288
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/df95236a0713a364_0,10911
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/e019a915150d074e_0,238
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/e16013b05683f804_0,253
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/e29e0f02de49c124_0,9349
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/e3b53dfa27773e88_0,106224
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/e48c368d74eb6b4c_0,7122
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/e7d77658b0455803_0,13122
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/e914b9861a1fe5a3_0,72200
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/ec05aececa128aee_0,30160
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/ecfbb473443eedef_0,20280
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/f09c056b13bbdbee_0,250
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/f150bd75e7ab8b08_0,20472
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/f45d6499b1470939_0,22048
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/f4a414fb6260f69e_0,77336
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/fca43481a3619192_0,20472
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/fdabddf8d8077171_0,9996
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/ff445354235d292f_0,214128
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/ff5eb1d087d20a9b_0,1141872
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/ffd5168ead904372_0,15347
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/index,24
+data/supervised/phase4/p46/chrome-profile-p46/Default/Code Cache/js/index-dir/the-real-index,2544
+data/supervised/phase4/p46/chrome-profile-p46/Default/ClientCertificates/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/ClientCertificates/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/ClientCertificates/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/chrome_cart_db/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/chrome_cart_db/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/chrome_cart_db/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/No_Vary_Search/journal.baj,4
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/No_Vary_Search/snapshot.baf,20
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/data_0,45056
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/data_1,270336
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/data_2,1056768
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/data_3,4202496
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000001,1429506
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000002,118071
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000003,35641
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000004,3132085
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000005,70219
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000006,136642
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000007,50848
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000008,18261
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000009,76534
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_00000a,223952
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_00000b,22348
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_00000c,21368
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_00000d,44746
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_00000e,17432
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_00000f,26167
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000010,48256
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000011,20278
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000012,31831
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000013,19708
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000014,61402
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000015,23722
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000016,17119
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000017,5064557
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000018,39910
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000019,47440
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_00001a,71425
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_00001b,32612
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_00001c,77841
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_00001d,23866
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_00001e,183281
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_00001f,21112
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000020,44410
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/f_000021,28094
+data/supervised/phase4/p46/chrome-profile-p46/Default/Cache/Cache_Data/index,524656
+data/supervised/phase4/p46/chrome-profile-p46/Default/BudgetDatabase/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/BudgetDatabase/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/BudgetDatabase/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/AutofillStrikeDatabase/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/AutofillStrikeDatabase/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/AutofillStrikeDatabase/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/AutofillAiModelCache/LOCK,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/AutofillAiModelCache/LOG,0
+data/supervised/phase4/p46/chrome-profile-p46/Default/AutofillAiModelCache/LOG.old,0
+data/supervised/phase4/p46/chrome-profile-p46/Crashpad/metadata,0
+data/supervised/phase4/p46/chrome-profile-p46/Crashpad/settings.dat,40
+data/supervised/phase4/p46/chrome-profile-p46/component_crx_cache/750cf8391acdb63f02d33d818a6d7f4d5c51d2a9c28c7d65eaf52c8618139861,23459
+data/supervised/phase4/p46/chrome-profile-p46/component_crx_cache/85daef3a7c36299d39d45219b6d1276396c584376c683798c184b5490e7bc773,136340
+data/supervised/phase4/p46/chrome-profile-p46/component_crx_cache/metadata.json,124
+data/supervised/phase4/p45/preview.sqlite,228655104
+data/supervised/phase4/p45/preview.sqlite-shm,32768
+data/supervised/phase4/p45/preview.sqlite-wal,0
+data/supervised/phase4/p45/tests.sqlite,228655104
+data/supervised/phase4/p45/tests.sqlite-shm,32768
+data/supervised/phase4/p45/tests.sqlite-wal,0
+data/supervised/phase4/p44/preview.sqlite,228655104
+data/supervised/phase4/p44/preview.sqlite-shm,32768
+data/supervised/phase4/p44/preview.sqlite-wal,0
+data/supervised/phase4/p44/tests.sqlite,228655104
+data/supervised/phase4/p44/tests.sqlite-shm,32768
+data/supervised/phase4/p44/tests.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_without_reviewed_aliases_0/noalias.sqlite,228597760
+data/supervised/phase4/p44/pytest_baseline/test_unresolved_team_and_missi0/work.sqlite,228290560
+data/supervised/phase4/p44/pytest_baseline/test_unplayed_postponed_cancel0/form.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_unplayed_postponed_cancel0/form.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_unplayed_postponed_cancel0/form.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_unplayed_matches_carry_th0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_unplayed_matches_carry_th0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_unplayed_matches_carry_th0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_timing_says_what_cannot_b0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_timing_says_what_cannot_b0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_timing_says_what_cannot_b0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_work_done_does_not_gr0/noisy.sqlite,11792384
+data/supervised/phase4/p44/pytest_baseline/test_the_work_done_does_not_gr0/noisy.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_work_done_does_not_gr0/noisy.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_same_holds_on_the_rep0/base.sqlite,228200448
+data/supervised/phase4/p44/pytest_baseline/test_the_same_holds_on_the_rep0/base.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_same_holds_on_the_rep0/base.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_points_distributions_0/season_sim_off.json,1296
+data/supervised/phase4/p44/pytest_baseline/test_the_plan_uses_the_competi0/form.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_the_plan_uses_the_competi0/form.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_plan_uses_the_competi0/form.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_1/1500.sqlite,3203072
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_1/1500.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_1/1500.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_1/380.sqlite,921600
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_1/380.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_1/380.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_1/40.sqlite,208896
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_1/40.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_1/40.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_0/1500.sqlite,3203072
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_0/1500.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_0/1500.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_0/380.sqlite,921600
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_0/380.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_0/380.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_0/40.sqlite,208896
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_0/40.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_0/40.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_0/again.sqlite,208896
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_0/again.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_number_of_statements_0/again.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_next_utc_day_turns_a_0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_the_next_utc_day_turns_a_0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_next_utc_day_turns_a_0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_newest_season_of_each1/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_the_newest_season_of_each1/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_newest_season_of_each1/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_newest_season_of_each0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_the_newest_season_of_each0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_newest_season_of_each0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_last_page_has_no_curs0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_the_last_page_has_no_curs0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_last_page_has_no_curs0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_hinted_statement_retu0/form.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_the_hinted_statement_retu0/form.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_hinted_statement_retu0/form.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_the_featured_fixture_is_t0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_the_featured_fixture_is_t0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_the_featured_fixture_is_t0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_store_fingerprint_changes0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_stale_history_is_flagged_0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_stale_history_is_flagged_0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_stale_history_is_flagged_0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_second_pass_changes_nothi0/other.sqlite,228655104
+data/supervised/phase4/p44/pytest_baseline/test_second_pass_changes_nothi0/other.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_second_pass_changes_nothi0/other.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_saved_rows_keep_the_exact0/work.sqlite,228241408
+data/supervised/phase4/p44/pytest_baseline/test_saved_forecast_runs_of_th0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_saved_forecast_runs_of_th0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_saved_forecast_runs_of_th0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_results_carry_their_sourc0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_results_carry_their_sourc0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_results_carry_their_sourc0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_results_added_by_a_sync_n0/work.sqlite,228290560
+data/supervised/phase4/p44/pytest_baseline/test_requests_outside_the_boun0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_replay_recovers_the_18_mi0/work.sqlite,228290560
+data/supervised/phase4/p44/pytest_baseline/test_replay_never_creates_a_se0/work.sqlite,228290560
+data/supervised/phase4/p44/pytest_baseline/test_reliability_is_full_when_0/work.sqlite,228290560
+data/supervised/phase4/p44/pytest_baseline/test_reliability_is_full_when_0/work.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_reliability_is_full_when_0/work.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_recent_results_are_verifi0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_recent_results_are_verifi0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_recent_results_are_verifi0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_provider_failure_keeps_ca0/work.sqlite,228200448
+data/supervised/phase4/p44/pytest_baseline/test_provider_failure_keeps_ca0/snap/request_ledger.jsonl,715
+data/supervised/phase4/p44/pytest_baseline/test_predicted_versus_actual_c0/work.sqlite,228331520
+data/supervised/phase4/p44/pytest_baseline/test_predicted_versus_actual_c0/work.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_predicted_versus_actual_c0/work.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match5/big.sqlite,372736
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match5/big.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match5/big.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match4/big.sqlite,372736
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match4/big.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match4/big.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match3/big.sqlite,372736
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match3/big.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match3/big.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match2/big.sqlite,372736
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match2/big.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match2/big.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match1/big.sqlite,372736
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match1/big.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match1/big.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match0/big.sqlite,372736
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match0/big.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_paging_visits_every_match0/big.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_no_statement_scans_the_ma0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_no_statement_scans_the_ma0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_no_statement_scans_the_ma0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_no_forecast_is_computed_o0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_no_forecast_is_computed_o0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_no_forecast_is_computed_o0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_nothing_is_computed_saved0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_nothing_is_computed_saved0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_nothing_is_computed_saved0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_live_requires_a_real_cont0/w.sqlite,228200448
+data/supervised/phase4/p44/pytest_baseline/test_live_path_uses_only_appro0/work.sqlite,228294656
+data/supervised/phase4/p44/pytest_baseline/test_live_path_uses_only_appro0/snap/openligadb_state.json,135
+data/supervised/phase4/p44/pytest_baseline/test_live_path_uses_only_appro0/snap/request_ledger.jsonl,874
+data/supervised/phase4/p44/pytest_baseline/test_live_path_uses_only_appro0/snap/openligadb/20261027T074648Z_bl1_2026_season.json,308338
+data/supervised/phase4/p44/pytest_baseline/test_live_path_uses_only_appro0/snap/openligadb/20261027T074648Z_bl1_2026_season.json.meta.json,505
+data/supervised/phase4/p44/pytest_baseline/test_live_path_uses_only_appro0/snap/openligadb/20261027T074649Z_bl1_2026_md6.json,17792
+data/supervised/phase4/p44/pytest_baseline/test_live_path_uses_only_appro0/snap/openligadb/20261027T074649Z_bl1_2026_md6.json.meta.json,548
+data/supervised/phase4/p44/pytest_baseline/test_live_path_uses_only_appro0/snap/openligadb/20261027T074649Z_bl1_2026_md7.json,7797
+data/supervised/phase4/p44/pytest_baseline/test_live_path_uses_only_appro0/snap/openligadb/20261027T074649Z_bl1_2026_md7.json.meta.json,547
+data/supervised/phase4/p44/pytest_baseline/test_live_disabled_makes_no_ne0/work.sqlite,228200448
+data/supervised/phase4/p44/pytest_baseline/test_league_season_and_matchda0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_league_season_and_matchda0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_league_season_and_matchda0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_la_liga_run_uses_its_veri0/season_sim.json,960
+data/supervised/phase4/p44/pytest_baseline/test_later_or_same_day_results0/a.sqlite,228241408
+data/supervised/phase4/p44/pytest_baseline/test_later_or_same_day_results0/b.sqlite,228331520
+data/supervised/phase4/p44/pytest_baseline/test_kickoff_knowledge_is_repo0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_kickoff_knowledge_is_repo0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_kickoff_knowledge_is_repo0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_kickoffs_are_reported_exa0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_kickoffs_are_reported_exa0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_kickoffs_are_reported_exa0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_gameweek_list_dates_statu0/work.sqlite,228200448
+data/supervised/phase4/p44/pytest_baseline/test_gameweek_list_dates_statu0/work.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_gameweek_list_dates_statu0/work.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_freshness_is_the_sync_sta1/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_freshness_is_the_sync_sta1/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_freshness_is_the_sync_sta1/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_freshness_is_the_sync_sta0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_freshness_is_the_sync_sta0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_freshness_is_the_sync_sta0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_form_is_the_last_results_0/form.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_form_is_the_last_results_0/form.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_form_is_the_last_results_0/form.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_forecasts_are_saved_only_0/work.sqlite,228282368
+data/supervised/phase4/p44/pytest_baseline/test_fixtures_that_are_not_upc0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_fixtures_that_are_not_upc0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_fixtures_that_are_not_upc0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_fixtures_show_status_kick0/work.sqlite,228200448
+data/supervised/phase4/p44/pytest_baseline/test_fixtures_show_status_kick0/work.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_fixtures_show_status_kick0/work.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_fast_path_equals_the_day_0/work.sqlite,228200448
+data/supervised/phase4/p44/pytest_baseline/test_facets_list_the_seasons_a0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_facets_list_the_seasons_a0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_facets_list_the_seasons_a0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_every_statement_is_anchor0/plans.sqlite,372736
+data/supervised/phase4/p44/pytest_baseline/test_every_statement_is_anchor0/plans.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_every_statement_is_anchor0/plans.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_every_list_is_bounded_how0/l.sqlite,921600
+data/supervised/phase4/p44/pytest_baseline/test_every_list_is_bounded_how0/l.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_every_list_is_bounded_how0/l.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_every_item_is_a_stored_ro0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_every_item_is_a_stored_ro0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_every_item_is_a_stored_ro0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_every_fixture_and_result_0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_every_fixture_and_result_0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_every_fixture_and_result_0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_validation_unkno0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_validation_unkno0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_validation_unkno0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_validates_its_pa0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_validates_its_pa0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_validates_its_pa0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_shape_headers_an1/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_shape_headers_an1/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_shape_headers_an1/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_shape_headers_an0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_shape_headers_an0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_shape_headers_an0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_never_writes_to_1/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_never_writes_to_1/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_never_writes_to_1/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_never_writes_to_0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_never_writes_to_0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_never_writes_to_0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_cache_and_condit0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_cache_and_condit0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_cache_and_condit0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_answers_repeat_r0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_answers_repeat_r0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_endpoint_answers_repeat_r0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_empty_state_when_nothing_0/empty.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_empty_state_when_nothing_0/empty.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_empty_state_when_nothing_0/empty.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_empty_state_when_nothing_0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_empty_state_when_nothing_0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_empty_state_when_nothing_0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_eligibility_uses_the_same0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_eligibility_uses_the_same0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_eligibility_uses_the_same0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_each_status_lists_exactly0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_each_status_lists_exactly0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_each_status_lists_exactly0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_default_order_is_ascendin0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_default_order_is_ascendin0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_default_order_is_ascendin0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_counts_are_the_size_of_ea0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_counts_are_the_size_of_ea0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_counts_are_the_size_of_ea0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_contact_is_read_from_the_0/contact.local,32
+data/supervised/phase4/p44/pytest_baseline/test_conflicting_score_is_quar0/work.sqlite,228290560
+data/supervised/phase4/p44/pytest_baseline/test_completed_matches_are_nev0/work.sqlite,228200448
+data/supervised/phase4/p44/pytest_baseline/test_bundesliga_run_is_saved_r0/season_sim.json,960
+data/supervised/phase4/p44/pytest_baseline/test_blocked_leagues_stay_bloc0/season_sim.json,960
+data/supervised/phase4/p44/pytest_baseline/test_baseline_import_is_idempo0/work.sqlite,228208640
+data/supervised/phase4/p44/pytest_baseline/test_a_sync_change_empties_the1/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_sync_change_empties_the1/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_sync_change_empties_the1/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_sync_change_empties_the0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_sync_change_empties_the0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_sync_change_empties_the0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_store_without_the_index0/form.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_stored_utc_kickoff_that0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_stored_utc_kickoff_that0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_stored_utc_kickoff_that0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_stored_result_wins_over0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_stored_result_wins_over0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_stored_result_wins_over0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_saved_forecast_is_retur0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_saved_forecast_is_retur0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_saved_forecast_is_retur0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_run_of_the_whole_build_0/l.sqlite,921600
+data/supervised/phase4/p44/pytest_baseline/test_a_run_of_the_whole_build_0/l.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_run_of_the_whole_build_0/l.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_page_of_a_full_size_sto0/full.sqlite,921600
+data/supervised/phase4/p44/pytest_baseline/test_a_page_of_a_full_size_sto0/full.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_page_of_a_full_size_sto0/full.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_league_filter_features_0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_league_filter_features_0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_league_filter_features_0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_gameweek_of_ten_fixture0/noisy.sqlite,11792384
+data/supervised/phase4/p44/pytest_baseline/test_a_gameweek_of_ten_fixture0/noisy.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_gameweek_of_ten_fixture0/noisy.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_fixture_with_an_unmatch0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_fixture_with_an_unmatch0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_fixture_with_an_unmatch0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_fixture_of_a_fresh_leag0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_fixture_of_a_fresh_leag0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_fixture_of_a_fresh_leag0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_fixture_dated_today_wit0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_fixture_dated_today_wit0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_fixture_dated_today_wit0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_fixture_dated_today_say0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_fixture_dated_today_say0/synthetic.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_fixture_dated_today_say0/synthetic.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_finished_match_without_0/s.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_finished_match_without_0/s.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_finished_match_without_0/s.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_deep_page_costs_the_sam0/big.sqlite,921600
+data/supervised/phase4/p44/pytest_baseline/test_a_deep_page_costs_the_sam0/big.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_deep_page_costs_the_sam0/big.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_cutoff_earlier_than_a_r0/form.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_cutoff_earlier_than_a_r0/form.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_a_cutoff_earlier_than_a_r0/form.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_a_cursor_that_is_not_one_5/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_cursor_that_is_not_one_4/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_cursor_that_is_not_one_3/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_cursor_that_is_not_one_2/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_cursor_that_is_not_one_1/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_a_cursor_that_is_not_one_0/synthetic.sqlite,126976
+data/supervised/phase4/p44/pytest_baseline/test_awaiting_result_fixtures_0/work.sqlite,228200448
+data/supervised/phase4/p44/pytest_baseline/test_awaiting_result_fixtures_0/work.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_awaiting_result_fixtures_0/work.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/test_api_endpoints_validation_0/work.sqlite,228241408
+data/supervised/phase4/p44/pytest_baseline/test_api_endpoints_validation_0/work.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/test_api_endpoints_validation_0/work.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/store0/base.sqlite,228200448
+data/supervised/phase4/p44/pytest_baseline/store0/base.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/store0/base.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/sim0/store.sqlite,229220352
+data/supervised/phase4/p44/pytest_baseline/reh0/after.sqlite,228655104
+data/supervised/phase4/p44/pytest_baseline/reh0/after.sqlite-shm,32768
+data/supervised/phase4/p44/pytest_baseline/reh0/after.sqlite-wal,0
+data/supervised/phase4/p44/pytest_baseline/gw0/base.sqlite,228200448
+data/supervised/phase4/p44/production-build-release/index.html,546
+data/supervised/phase4/p44/production-build-release/assets/Analytics-D5vebSqw.js,17996
+data/supervised/phase4/p44/production-build-release/assets/BarChart-CVjo7E6V.js,372737
+data/supervised/phase4/p44/production-build-release/assets/chart-iCX1Yw-A.js,563
+data/supervised/phase4/p44/production-build-release/assets/competitions-Bpp59te8.js,489
+data/supervised/phase4/p44/production-build-release/assets/CompetitionSelect-CZcmRvJg.js,510
+data/supervised/phase4/p44/production-build-release/assets/fixtures-2ayKKKNt.js,3267
+data/supervised/phase4/p44/production-build-release/assets/index-49NRI0FG.css,53018
+data/supervised/phase4/p44/production-build-release/assets/index-DRb4bB6I.js,229327
+data/supervised/phase4/p44/production-build-release/assets/inter-cyrillic-ext-wght-normal-BOeWTOD4.woff2,25960
+data/supervised/phase4/p44/production-build-release/assets/inter-cyrillic-wght-normal-DqGufNeO.woff2,18748
+data/supervised/phase4/p44/production-build-release/assets/inter-greek-ext-wght-normal-DlzME5K_.woff2,11232
+data/supervised/phase4/p44/production-build-release/assets/inter-greek-wght-normal-CkhJZR-_.woff2,18996
+data/supervised/phase4/p44/production-build-release/assets/inter-latin-ext-wght-normal-DO1Apj_S.woff2,85068
+data/supervised/phase4/p44/production-build-release/assets/inter-latin-wght-normal-Dx4kXJAl.woff2,48256
+data/supervised/phase4/p44/production-build-release/assets/inter-vietnamese-wght-normal-CBcvBZtf.woff2,10252
+data/supervised/phase4/p44/production-build-release/assets/Kickoff-Cy0RIlHB.js,500
+data/supervised/phase4/p44/production-build-release/assets/LineChart-Bf4x3_1n.js,16785
+data/supervised/phase4/p44/production-build-release/assets/Matches-ILMmplLh.js,11217
+data/supervised/phase4/p44/production-build-release/assets/Models-j6wrG6IP.js,12181
+data/supervised/phase4/p44/production-build-release/assets/Overview-C6hrN_JB.js,17122
+data/supervised/phase4/p44/production-build-release/assets/Predictions-KzD9NdEf.js,29252
+data/supervised/phase4/p44/production-build-release/assets/SeasonSimulator-C_8Sz4w8.js,37104
+data/supervised/phase4/p44/production-build-release/assets/Simulations-BThzJKrH.js,14530
+data/supervised/phase4/p44/production-build-release/assets/SourceDetails-Mal19b9T.js,18391
+data/supervised/phase4/p44/production-build-release/assets/TeamComparison-CvMW9VSF.js,6232
+data/supervised/phase4/p44/production-build-release/assets/TeamPool-BKt-x2eM.js,1079
+data/supervised/phase4/p44/production-build-release/assets/ui-BUF8eF2-.js,67871
+data/supervised/phase4/p44/production-build-final/index.html,546
+data/supervised/phase4/p44/production-build-final/assets/Analytics-BR2MkRMr.js,17978
+data/supervised/phase4/p44/production-build-final/assets/BarChart-DE1Ve1To.js,372737
+data/supervised/phase4/p44/production-build-final/assets/chart-iCX1Yw-A.js,563
+data/supervised/phase4/p44/production-build-final/assets/competitions-Bpp59te8.js,489
+data/supervised/phase4/p44/production-build-final/assets/CompetitionSelect-CZcmRvJg.js,510
+data/supervised/phase4/p44/production-build-final/assets/fixtures-2ayKKKNt.js,3267
+data/supervised/phase4/p44/production-build-final/assets/index-49NRI0FG.css,53018
+data/supervised/phase4/p44/production-build-final/assets/index-D4GBCAzr.js,229327
+data/supervised/phase4/p44/production-build-final/assets/inter-cyrillic-ext-wght-normal-BOeWTOD4.woff2,25960
+data/supervised/phase4/p44/production-build-final/assets/inter-cyrillic-wght-normal-DqGufNeO.woff2,18748
+data/supervised/phase4/p44/production-build-final/assets/inter-greek-ext-wght-normal-DlzME5K_.woff2,11232
+data/supervised/phase4/p44/production-build-final/assets/inter-greek-wght-normal-CkhJZR-_.woff2,18996
+data/supervised/phase4/p44/production-build-final/assets/inter-latin-ext-wght-normal-DO1Apj_S.woff2,85068
+data/supervised/phase4/p44/production-build-final/assets/inter-latin-wght-normal-Dx4kXJAl.woff2,48256
+data/supervised/phase4/p44/production-build-final/assets/inter-vietnamese-wght-normal-CBcvBZtf.woff2,10252
+data/supervised/phase4/p44/production-build-final/assets/Kickoff-Cy0RIlHB.js,500
+data/supervised/phase4/p44/production-build-final/assets/LineChart-DiVt0qqR.js,16785
+data/supervised/phase4/p44/production-build-final/assets/Matches-D9ZSf-Mz.js,11217
+data/supervised/phase4/p44/production-build-final/assets/Models-C_GAnFyY.js,12181
+data/supervised/phase4/p44/production-build-final/assets/Overview-Df-s_8-m.js,17122
+data/supervised/phase4/p44/production-build-final/assets/Predictions-i_yqd7h-.js,29252
+data/supervised/phase4/p44/production-build-final/assets/SeasonSimulator-BqvNhHBA.js,37104
+data/supervised/phase4/p44/production-build-final/assets/Simulations-VN9MKv9z.js,14530
+data/supervised/phase4/p44/production-build-final/assets/SourceDetails-wMSawBvN.js,18391
+data/supervised/phase4/p44/production-build-final/assets/TeamComparison-BV7ttjIB.js,6232
+data/supervised/phase4/p44/production-build-final/assets/TeamPool-DQpIyTvC.js,1079
+data/supervised/phase4/p44/production-build-final/assets/ui-BUF8eF2-.js,67871
+data/supervised/phase4/p44/production-build/index.html,546
+data/supervised/phase4/p44/production-build/assets/Analytics-fumLJtAN.js,17792
+data/supervised/phase4/p44/production-build/assets/BarChart-C3o0RjoV.js,372737
+data/supervised/phase4/p44/production-build/assets/chart-iCX1Yw-A.js,563
+data/supervised/phase4/p44/production-build/assets/competitions-Bpp59te8.js,489
+data/supervised/phase4/p44/production-build/assets/CompetitionSelect-CZcmRvJg.js,510
+data/supervised/phase4/p44/production-build/assets/fixtures-2ayKKKNt.js,3267
+data/supervised/phase4/p44/production-build/assets/index-49NRI0FG.css,53018
+data/supervised/phase4/p44/production-build/assets/index-B2zVjvuH.js,229327
+data/supervised/phase4/p44/production-build/assets/inter-cyrillic-ext-wght-normal-BOeWTOD4.woff2,25960
+data/supervised/phase4/p44/production-build/assets/inter-cyrillic-wght-normal-DqGufNeO.woff2,18748
+data/supervised/phase4/p44/production-build/assets/inter-greek-ext-wght-normal-DlzME5K_.woff2,11232
+data/supervised/phase4/p44/production-build/assets/inter-greek-wght-normal-CkhJZR-_.woff2,18996
+data/supervised/phase4/p44/production-build/assets/inter-latin-ext-wght-normal-DO1Apj_S.woff2,85068
+data/supervised/phase4/p44/production-build/assets/inter-latin-wght-normal-Dx4kXJAl.woff2,48256
+data/supervised/phase4/p44/production-build/assets/inter-vietnamese-wght-normal-CBcvBZtf.woff2,10252
+data/supervised/phase4/p44/production-build/assets/Kickoff-Cy0RIlHB.js,500
+data/supervised/phase4/p44/production-build/assets/LineChart-BEuYM2--.js,16785
+data/supervised/phase4/p44/production-build/assets/Matches-CNjhxNBw.js,11217
+data/supervised/phase4/p44/production-build/assets/Models-BoY8X9RY.js,12181
+data/supervised/phase4/p44/production-build/assets/Overview-BNZm9pLZ.js,17122
+data/supervised/phase4/p44/production-build/assets/Predictions-B2FRcaj2.js,29252
+data/supervised/phase4/p44/production-build/assets/SeasonSimulator-DhfXYBqm.js,37104
+data/supervised/phase4/p44/production-build/assets/Simulations-DOF8Xpu6.js,14530
+data/supervised/phase4/p44/production-build/assets/SourceDetails-bOzaXWYX.js,18391
+data/supervised/phase4/p44/production-build/assets/TeamComparison-D6qvBj03.js,6232
+data/supervised/phase4/p44/production-build/assets/TeamPool-2dCge_8_.js,1079
+data/supervised/phase4/p44/production-build/assets/ui-BUF8eF2-.js,67871
+data/supervised/phase4/p44/chrome-profile-p45/Last Browser,106
+data/supervised/phase4/p44/chrome-profile-p45/Last Version,13
+data/supervised/phase4/p44/chrome-profile-p45/Local State,5439
+data/supervised/phase4/p44/chrome-profile-p45/Variations,86
+data/supervised/phase4/p44/chrome-profile-p45/VariationsSafeSeedV2,11
+data/supervised/phase4/p44/chrome-profile-p45/VariationsSeedV2,42439
+data/supervised/phase4/p44/chrome-profile-p45/ShaderCache/data_0,8192
+data/supervised/phase4/p44/chrome-profile-p45/ShaderCache/data_1,270336
+data/supervised/phase4/p44/chrome-profile-p45/ShaderCache/data_2,8192
+data/supervised/phase4/p44/chrome-profile-p45/ShaderCache/data_3,8192
+data/supervised/phase4/p44/chrome-profile-p45/ShaderCache/index,262512
+data/supervised/phase4/p44/chrome-profile-p45/segmentation_platform/ukm_db,49152
+data/supervised/phase4/p44/chrome-profile-p45/segmentation_platform/ukm_db-wal,49472
+data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/9/E6DC4029A1E4B4C1/3D876E4EED1C1D29/model-info.pb,164
+data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/9/E6DC4029A1E4B4C1/3D876E4EED1C1D29/model.tflite,31520
+data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/26/E6DC4029A1E4B4C1/A70C34720F307B9A/model-info.pb,416
+data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/26/E6DC4029A1E4B4C1/A70C34720F307B9A/model.tflite,7112
+data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/24/E6DC4029A1E4B4C1/A69E122054536E0D/enus_denylist_encoded_241007.txt,8000
+data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/24/E6DC4029A1E4B4C1/A69E122054536E0D/model-info.pb,176
+data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/24/E6DC4029A1E4B4C1/A69E122054536E0D/model.tflite,4602152
+data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/24/E6DC4029A1E4B4C1/A69E122054536E0D/vocab_en-us.txt,1008
+data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/20/E6DC4029A1E4B4C1/A3169BB3CB5D9B3B/model-info.pb,164
+data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/20/E6DC4029A1E4B4C1/A3169BB3CB5D9B3B/model.tflite,31520
+data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/2/E6DC4029A1E4B4C1/002B2A465388B695/model-info.pb,12
+data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/2/E6DC4029A1E4B4C1/002B2A465388B695/model.tflite,392048
+data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/13/E6DC4029A1E4B4C1/EB3AD028F4262B23/model-info.pb,10
+data/supervised/phase4/p44/chrome-profile-p45/optimization_guide_model_store/13/E6DC4029A1E4B4C1/EB3AD028F4262B23/model.tflite,1219248
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/laya_solution_config.binarypb,0
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/manifest.binarypb,12147
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/manifest.json,84
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/prompt_gemma4_12b_solution_config.binarypb,949
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/prompt_gemma4_4b_solution_config.binarypb,949
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/prompt_gemma4_solution_config.binarypb,949
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/prompt_solution_config.binarypb,949
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/proofreader_small_expert_model_solution_config.binarypb,498
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/scam_detection_solution_config.binarypb,1010
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/speech_recognition_small_expert_model_solution_config.binarypb,12
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/summarizer_gemma4_12b_solution_config.binarypb,15298
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/summarizer_gemma4_4b_solution_config.binarypb,15298
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/summarizer_gemma4_solution_config.binarypb,15298
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/summarizer_nano_v3_solution_config.binarypb,15294
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/summarizer_small_expert_model_solution_config.binarypb,1415
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/writing_assistance_gemma4_12b_solution_config.binarypb,11670
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/writing_assistance_gemma4_4b_solution_config.binarypb,11670
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/writing_assistance_gemma4_solution_config.binarypb,11670
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/writing_assistance_solution_config.binarypb,11670
+data/supervised/phase4/p44/chrome-profile-p45/OptimizationGuideModelsManifest/1.20261018.2/_metadata/verified_contents.json,4382
+data/supervised/phase4/p44/chrome-profile-p45/GrShaderCache/data_0,8192
+data/supervised/phase4/p44/chrome-profile-p45/GrShaderCache/data_1,270336
+data/supervised/phase4/p44/chrome-profile-p45/GrShaderCache/data_2,8192
+data/supervised/phase4/p44/chrome-profile-p45/GrShaderCache/data_3,8192
+data/supervised/phase4/p44/chrome-profile-p45/GrShaderCache/index,262512
+data/supervised/phase4/p44/chrome-profile-p45/GPUPersistentCache/DawnGraphiteCache/LSLKY6OQOC3C6NSMBEC62Q7Y6BL6S72V/cache.db,0
+data/supervised/phase4/p44/chrome-profile-p45/GPUPersistentCache/DawnGraphiteCache/LSLKY6OQOC3C6NSMBEC62Q7Y6BL6S72V/cache.db-wal,0
+data/supervised/phase4/p44/chrome-profile-p45/GPUPersistentCache/DawnGraphiteCache/LSLKY6OQOC3C6NSMBEC62Q7Y6BL6S72V/cache.journal,0
+data/supervised/phase4/p44/chrome-profile-p45/extensions_crx_cache/metadata.json,13
+data/supervised/phase4/p44/chrome-profile-p45/Default/Account Web Data,73728
+data/supervised/phase4/p44/chrome-profile-p45/Default/Account Web Data-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Affiliation Database,53248
+data/supervised/phase4/p44/chrome-profile-p45/Default/Affiliation Database-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/BookmarkMergedSurfaceOrdering,6
+data/supervised/phase4/p44/chrome-profile-p45/Default/declarative_performance_observer.db,32768
+data/supervised/phase4/p44/chrome-profile-p45/Default/declarative_performance_observer.db-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/DIPS,4096
+data/supervised/phase4/p44/chrome-profile-p45/Default/DIPS-wal,53592
+data/supervised/phase4/p44/chrome-profile-p45/Default/Favicons,20480
+data/supervised/phase4/p44/chrome-profile-p45/Default/Favicons-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/heavy_ad_intervention_opt_out.db,16384
+data/supervised/phase4/p44/chrome-profile-p45/Default/heavy_ad_intervention_opt_out.db-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/History,204800
+data/supervised/phase4/p44/chrome-profile-p45/Default/History-journal,49760
+data/supervised/phase4/p44/chrome-profile-p45/Default/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Login Data,40960
+data/supervised/phase4/p44/chrome-profile-p45/Default/Login Data For Account,40960
+data/supervised/phase4/p44/chrome-profile-p45/Default/Login Data For Account-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Login Data-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Network Action Predictor,53248
+data/supervised/phase4/p44/chrome-profile-p45/Default/Network Action Predictor-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Preferences,10597
+data/supervised/phase4/p44/chrome-profile-p45/Default/PreferredApps,33
+data/supervised/phase4/p44/chrome-profile-p45/Default/README,180
+data/supervised/phase4/p44/chrome-profile-p45/Default/Secure Preferences,13958
+data/supervised/phase4/p44/chrome-profile-p45/Default/ServerCertificate,20480
+data/supervised/phase4/p44/chrome-profile-p45/Default/ServerCertificate-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Shortcuts,20480
+data/supervised/phase4/p44/chrome-profile-p45/Default/Shortcuts-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Top Sites,20480
+data/supervised/phase4/p44/chrome-profile-p45/Default/Top Sites-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Data,157696
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Data-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/WebStorage/QuotaManager,40960
+data/supervised/phase4/p44/chrome-profile-p45/Default/WebStorage/QuotaManager-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/128.png,8958
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/192.png,6710
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/256.png,22941
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/32.png,1741
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/48.png,2790
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/64.png,3966
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/96.png,6314
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/128.png,8958
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/192.png,6710
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/256.png,22941
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/32.png,1741
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/48.png,2790
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/64.png,3966
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/96.png,6314
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/128.png,7291
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/192.png,7313
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/256.png,21355
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/32.png,1288
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/48.png,2132
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/64.png,2921
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/96.png,4911
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/128.png,7291
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/192.png,7313
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/256.png,21355
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/32.png,1288
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/48.png,2132
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/64.png,2921
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/96.png,4911
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/128.png,10085
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/192.png,10277
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/256.png,29566
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/32.png,1559
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/48.png,2568
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/64.png,3642
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/96.png,6371
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/128.png,10085
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/192.png,10277
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/256.png,29566
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/32.png,1559
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/48.png,2568
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/64.png,3642
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/96.png,6371
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/128.png,8591
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/192.png,7564
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/256.png,21836
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/32.png,1650
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/48.png,2751
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/64.png,3605
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/96.png,5693
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/128.png,8591
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/192.png,7564
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/256.png,21836
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/32.png,1650
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/48.png,2751
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/64.png,3605
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/96.png,5693
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/128.png,7998
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/192.png,8310
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/256.png,22274
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/32.png,1273
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/48.png,2149
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/64.png,2960
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/96.png,5149
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/128.png,7998
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/192.png,8310
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/256.png,22274
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/32.png,1273
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/48.png,2149
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/64.png,2960
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/96.png,5149
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/128.png,10369
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/192.png,7081
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/256.png,26383
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/32.png,1572
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/48.png,2572
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/64.png,3945
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/96.png,7033
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/128.png,10369
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/192.png,7081
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/256.png,26383
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/32.png,1572
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/48.png,2572
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/64.png,3945
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/96.png,7033
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/128.png,10243
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/192.png,10103
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/256.png,30010
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/32.png,1854
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/48.png,2982
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/64.png,4159
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/96.png,6955
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/128.png,10243
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/192.png,10103
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/256.png,30010
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/32.png,1854
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/48.png,2982
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/64.png,4159
+data/supervised/phase4/p44/chrome-profile-p45/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/96.png,6955
+data/supervised/phase4/p44/chrome-profile-p45/Default/Sync Data/LevelDB/000003.log,3110
+data/supervised/phase4/p44/chrome-profile-p45/Default/Sync Data/LevelDB/CURRENT,16
+data/supervised/phase4/p44/chrome-profile-p45/Default/Sync Data/LevelDB/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Sync Data/LevelDB/LOG,291
+data/supervised/phase4/p44/chrome-profile-p45/Default/Sync Data/LevelDB/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile-p45/Default/Site Characteristics Database/000003.log,40
+data/supervised/phase4/p44/chrome-profile-p45/Default/Site Characteristics Database/CURRENT,16
+data/supervised/phase4/p44/chrome-profile-p45/Default/Site Characteristics Database/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Site Characteristics Database/LOG,315
+data/supervised/phase4/p44/chrome-profile-p45/Default/Site Characteristics Database/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile-p45/Default/shared_proto_db/000003.log,85253
+data/supervised/phase4/p44/chrome-profile-p45/Default/shared_proto_db/CURRENT,16
+data/supervised/phase4/p44/chrome-profile-p45/Default/shared_proto_db/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/shared_proto_db/LOG,287
+data/supervised/phase4/p44/chrome-profile-p45/Default/shared_proto_db/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile-p45/Default/shared_proto_db/metadata/000003.log,994
+data/supervised/phase4/p44/chrome-profile-p45/Default/shared_proto_db/metadata/CURRENT,16
+data/supervised/phase4/p44/chrome-profile-p45/Default/shared_proto_db/metadata/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/shared_proto_db/metadata/LOG,305
+data/supervised/phase4/p44/chrome-profile-p45/Default/shared_proto_db/metadata/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile-p45/Default/Shared Dictionary/db,45056
+data/supervised/phase4/p44/chrome-profile-p45/Default/Shared Dictionary/db-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Shared Dictionary/cache/index,24
+data/supervised/phase4/p44/chrome-profile-p45/Default/Shared Dictionary/cache/index-dir/the-real-index,48
+data/supervised/phase4/p44/chrome-profile-p45/Default/Sessions_Encrypted/Session_13437567314041770,14068
+data/supervised/phase4/p44/chrome-profile-p45/Default/Sessions/Session_13437567314039917,12814
+data/supervised/phase4/p44/chrome-profile-p45/Default/Session Storage/000003.log,201
+data/supervised/phase4/p44/chrome-profile-p45/Default/Session Storage/CURRENT,16
+data/supervised/phase4/p44/chrome-profile-p45/Default/Session Storage/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Session Storage/LOG,287
+data/supervised/phase4/p44/chrome-profile-p45/Default/Session Storage/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile-p45/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_0,472
+data/supervised/phase4/p44/chrome-profile-p45/Default/Service Worker/ScriptCache/4cb013792b196a35_0,10387
+data/supervised/phase4/p44/chrome-profile-p45/Default/Service Worker/ScriptCache/4cb013792b196a35_1,7185
+data/supervised/phase4/p44/chrome-profile-p45/Default/Service Worker/ScriptCache/index,24
+data/supervised/phase4/p44/chrome-profile-p45/Default/Service Worker/ScriptCache/index-dir/the-real-index,96
+data/supervised/phase4/p44/chrome-profile-p45/Default/Service Worker/Database/000003.log,1263
+data/supervised/phase4/p44/chrome-profile-p45/Default/Service Worker/Database/CURRENT,16
+data/supervised/phase4/p44/chrome-profile-p45/Default/Service Worker/Database/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Service Worker/Database/LOG,303
+data/supervised/phase4/p44/chrome-profile-p45/Default/Service Worker/Database/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile-p45/Default/Segmentation Platform/SignalStorageConfigDB/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Segmentation Platform/SignalStorageConfigDB/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Segmentation Platform/SignalDB/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Segmentation Platform/SignalDB/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Segmentation Platform/SegmentInfoDB/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Segmentation Platform/SegmentInfoDB/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Safe Browsing Network/NetworkDataMigrated,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/PersistentOriginTrials/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/PersistentOriginTrials/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/parcel_tracking_db/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/parcel_tracking_db/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/optimization_guide_hint_cache_store/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/optimization_guide_hint_cache_store/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Network/Cookies,20480
+data/supervised/phase4/p44/chrome-profile-p45/Default/Network/Cookies-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Network/Device Bound Sessions,20480
+data/supervised/phase4/p44/chrome-profile-p45/Default/Network/Device Bound Sessions-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Network/Network Persistent State,87
+data/supervised/phase4/p44/chrome-profile-p45/Default/Network/NetworkDataMigrated,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Network/Reporting and NEL,36864
+data/supervised/phase4/p44/chrome-profile-p45/Default/Network/Reporting and NEL-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Network/Trust Tokens,36864
+data/supervised/phase4/p44/chrome-profile-p45/Default/Network/Trust Tokens-journal,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Local Storage/leveldb/000003.log,30
+data/supervised/phase4/p44/chrome-profile-p45/Default/Local Storage/leveldb/CURRENT,16
+data/supervised/phase4/p44/chrome-profile-p45/Default/Local Storage/leveldb/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Local Storage/leveldb/LOG,299
+data/supervised/phase4/p44/chrome-profile-p45/Default/Local Storage/leveldb/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile-p45/Default/GPUCache/data_0,8192
+data/supervised/phase4/p44/chrome-profile-p45/Default/GPUCache/data_1,270336
+data/supervised/phase4/p44/chrome-profile-p45/Default/GPUCache/data_2,8192
+data/supervised/phase4/p44/chrome-profile-p45/Default/GPUCache/data_3,8192
+data/supervised/phase4/p44/chrome-profile-p45/Default/GPUCache/index,262512
+data/supervised/phase4/p44/chrome-profile-p45/Default/GCM Store/Encryption/000003.log,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/GCM Store/Encryption/CURRENT,16
+data/supervised/phase4/p44/chrome-profile-p45/Default/GCM Store/Encryption/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/GCM Store/Encryption/LOG,295
+data/supervised/phase4/p44/chrome-profile-p45/Default/GCM Store/Encryption/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension State/000003.log,171
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension State/CURRENT,16
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension State/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension State/LOG,287
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension State/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension Scripts/000003.log,57
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension Scripts/CURRENT,16
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension Scripts/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension Scripts/LOG,289
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension Scripts/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension Rules/000003.log,57
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension Rules/CURRENT,16
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension Rules/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension Rules/LOG,285
+data/supervised/phase4/p44/chrome-profile-p45/Default/Extension Rules/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile-p45/Default/Download Service/Files/Unconfirmed 739407.crdownload,613224
+data/supervised/phase4/p44/chrome-profile-p45/Default/Download Service/Files/Unconfirmed 808350.crdownload,1958568
+data/supervised/phase4/p44/chrome-profile-p45/Default/Download Service/EntryDB/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Download Service/EntryDB/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/discount_infos_db/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/discount_infos_db/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/discounts_db/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/discounts_db/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/DawnWebGPUCache/data_0,8192
+data/supervised/phase4/p44/chrome-profile-p45/Default/DawnWebGPUCache/data_1,270336
+data/supervised/phase4/p44/chrome-profile-p45/Default/DawnWebGPUCache/data_2,8192
+data/supervised/phase4/p44/chrome-profile-p45/Default/DawnWebGPUCache/data_3,8192
+data/supervised/phase4/p44/chrome-profile-p45/Default/DawnWebGPUCache/index,262512
+data/supervised/phase4/p44/chrome-profile-p45/Default/DawnGraphiteCache/data_0,8192
+data/supervised/phase4/p44/chrome-profile-p45/Default/DawnGraphiteCache/data_1,270336
+data/supervised/phase4/p44/chrome-profile-p45/Default/DawnGraphiteCache/data_2,8192
+data/supervised/phase4/p44/chrome-profile-p45/Default/DawnGraphiteCache/data_3,8192
+data/supervised/phase4/p44/chrome-profile-p45/Default/DawnGraphiteCache/index,262512
+data/supervised/phase4/p44/chrome-profile-p45/Default/commerce_subscription_db/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/commerce_subscription_db/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/wasm/index,24
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/wasm/index-dir/the-real-index,48
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/0a0e7671b80aafa2_0,281
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/124f926ce49b5e97_0,67928
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/139512610d329409_0,60640
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/1e8f5e75c3f52ae1_0,4132160
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/23e7c94d0b0a847a_0,20472
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/301100b82a6b7987_0,20288
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/37d0b088b9062593_0,214200
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/41626a36cd4c916f_0,277
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/41f0e60e7c5cce56_0,106224
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/61af1119fe44e288_0,19168
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/63cdc009c4184981_0,59448
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/6b93c2bafb9c7f04_0,19168
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/741430f03b4a3bfb_0,1143496
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/8c92326905134168_0,279
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/92dcfc95e5ae4cfe_0,3529
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/95c3fa47b06fc551_0,35840
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/9ee81f8be3bb48b1_0,127592
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/a4aebb8c67bffa8f_0,127616
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/aa7d67dc98ed1677_0,254
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/b79c590cf576fefb_0,41080
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/b840f1ac8e220e7d_0,72192
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/ba678a2fbd8c358c_0,298
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/d0bd73b059201ee5_0,20288
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/d26f3804b16e79aa_0,279
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/dea954446389ff9b_0,271
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/f1d6af02ed32b95a_0,2680480
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/f7a99e02918c02f0_0,20472
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/fc686b61bbcb7bee_0,20896
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/fed766faf681f6b9_0,284
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/ffd5168ead904372_0,251
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/index,24
+data/supervised/phase4/p44/chrome-profile-p45/Default/Code Cache/js/index-dir/the-real-index,888
+data/supervised/phase4/p44/chrome-profile-p45/Default/ClientCertificates/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/ClientCertificates/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/chrome_cart_db/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/chrome_cart_db/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/No_Vary_Search/journal.baj,4
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/No_Vary_Search/snapshot.baf,20
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/data_0,45056
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/data_1,270336
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/data_2,1056768
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/data_3,4202496
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_000001,224020
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_000002,118071
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_000003,3132085
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_000004,70320
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_000005,1429506
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_000006,35641
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_000007,136642
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_000008,18261
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_000009,76534
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_00000a,50848
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_00000b,22348
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_00000c,21368
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_00000d,48256
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_00000e,77841
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_00000f,5064557
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_000010,23866
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/f_000011,183281
+data/supervised/phase4/p44/chrome-profile-p45/Default/Cache/Cache_Data/index,524656
+data/supervised/phase4/p44/chrome-profile-p45/Default/BudgetDatabase/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/BudgetDatabase/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/AutofillStrikeDatabase/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/AutofillStrikeDatabase/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/AutofillAiModelCache/LOCK,0
+data/supervised/phase4/p44/chrome-profile-p45/Default/AutofillAiModelCache/LOG,0
+data/supervised/phase4/p44/chrome-profile-p45/Crashpad/metadata,0
+data/supervised/phase4/p44/chrome-profile-p45/Crashpad/settings.dat,40
+data/supervised/phase4/p44/chrome-profile-p45/component_crx_cache/85daef3a7c36299d39d45219b6d1276396c584376c683798c184b5490e7bc773,136340
+data/supervised/phase4/p44/chrome-profile-p45/component_crx_cache/metadata.json,124
+data/supervised/phase4/p44/chrome-profile/Last Browser,106
+data/supervised/phase4/p44/chrome-profile/Last Version,13
+data/supervised/phase4/p44/chrome-profile/Local State,5822
+data/supervised/phase4/p44/chrome-profile/Variations,86
+data/supervised/phase4/p44/chrome-profile/VariationsSafeSeedV2,42422
+data/supervised/phase4/p44/chrome-profile/VariationsSeedV2,42460
+data/supervised/phase4/p44/chrome-profile/ShaderCache/data_0,8192
+data/supervised/phase4/p44/chrome-profile/ShaderCache/data_1,270336
+data/supervised/phase4/p44/chrome-profile/ShaderCache/data_2,8192
+data/supervised/phase4/p44/chrome-profile/ShaderCache/data_3,8192
+data/supervised/phase4/p44/chrome-profile/ShaderCache/index,262512
+data/supervised/phase4/p44/chrome-profile/segmentation_platform/ukm_db,49152
+data/supervised/phase4/p44/chrome-profile/segmentation_platform/ukm_db-wal,1145392
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/9/E6DC4029A1E4B4C1/D93281C8F6151AD9/model-info.pb,164
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/9/E6DC4029A1E4B4C1/D93281C8F6151AD9/model.tflite,31520
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/58/E6DC4029A1E4B4C1/31CECD17458BD54F/model-info.pb,6998
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/58/E6DC4029A1E4B4C1/31CECD17458BD54F/model.tflite,195104
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/45/E6DC4029A1E4B4C1/9D6CC974B818893E/model-info.pb,7104
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/45/E6DC4029A1E4B4C1/9D6CC974B818893E/model.tflite,131736
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/45/E6DC4029A1E4B4C1/86D9DB8636FAA262/model-info.pb,7104
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/45/E6DC4029A1E4B4C1/86D9DB8636FAA262/model.tflite,131736
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/26/E6DC4029A1E4B4C1/E58C0437918817E0/model-info.pb,416
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/26/E6DC4029A1E4B4C1/E58C0437918817E0/model.tflite,7112
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/25/E6DC4029A1E4B4C1/E4D3B523E22EBE21/model-info.pb,146
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/25/E6DC4029A1E4B4C1/E4D3B523E22EBE21/model.tflite,180520
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/25/E6DC4029A1E4B4C1/E4D3B523E22EBE21/visual_model_desktop.tflite,3452826
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/24/E6DC4029A1E4B4C1/6AFD3F45748F0CB3/enus_denylist_encoded_241007.txt,8000
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/24/E6DC4029A1E4B4C1/6AFD3F45748F0CB3/model-info.pb,176
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/24/E6DC4029A1E4B4C1/6AFD3F45748F0CB3/model.tflite,4602152
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/24/E6DC4029A1E4B4C1/6AFD3F45748F0CB3/vocab_en-us.txt,1008
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/24/E6DC4029A1E4B4C1/35ABC644835B1E90/enus_denylist_encoded_241007.txt,8000
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/24/E6DC4029A1E4B4C1/35ABC644835B1E90/model-info.pb,176
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/24/E6DC4029A1E4B4C1/35ABC644835B1E90/model.tflite,4602152
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/24/E6DC4029A1E4B4C1/35ABC644835B1E90/vocab_en-us.txt,1008
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/20/E6DC4029A1E4B4C1/FFF2517A0A69E491/model-info.pb,164
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/20/E6DC4029A1E4B4C1/FFF2517A0A69E491/model.tflite,31520
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/20/E6DC4029A1E4B4C1/AF48D7A3F04A7B4C/model-info.pb,164
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/20/E6DC4029A1E4B4C1/AF48D7A3F04A7B4C/model.tflite,31520
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/2/E6DC4029A1E4B4C1/089D516C037122BA/model-info.pb,12
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/2/E6DC4029A1E4B4C1/089D516C037122BA/model.tflite,392048
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/13/E6DC4029A1E4B4C1/11D49BEA8954FB38/model-info.pb,10
+data/supervised/phase4/p44/chrome-profile/optimization_guide_model_store/13/E6DC4029A1E4B4C1/11D49BEA8954FB38/model.tflite,1219248
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/laya_solution_config.binarypb,0
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/manifest.binarypb,12147
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/manifest.json,84
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/prompt_gemma4_12b_solution_config.binarypb,949
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/prompt_gemma4_4b_solution_config.binarypb,949
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/prompt_gemma4_solution_config.binarypb,949
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/prompt_solution_config.binarypb,949
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/proofreader_small_expert_model_solution_config.binarypb,498
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/scam_detection_solution_config.binarypb,1010
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/speech_recognition_small_expert_model_solution_config.binarypb,12
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/summarizer_gemma4_12b_solution_config.binarypb,15298
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/summarizer_gemma4_4b_solution_config.binarypb,15298
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/summarizer_gemma4_solution_config.binarypb,15298
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/summarizer_nano_v3_solution_config.binarypb,15294
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/summarizer_small_expert_model_solution_config.binarypb,1415
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/writing_assistance_gemma4_12b_solution_config.binarypb,11670
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/writing_assistance_gemma4_4b_solution_config.binarypb,11670
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/writing_assistance_gemma4_solution_config.binarypb,11670
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/writing_assistance_solution_config.binarypb,11670
+data/supervised/phase4/p44/chrome-profile/OptimizationGuideModelsManifest/1.20261018.2/_metadata/verified_contents.json,4382
+data/supervised/phase4/p44/chrome-profile/GrShaderCache/data_0,8192
+data/supervised/phase4/p44/chrome-profile/GrShaderCache/data_1,270336
+data/supervised/phase4/p44/chrome-profile/GrShaderCache/data_2,8192
+data/supervised/phase4/p44/chrome-profile/GrShaderCache/data_3,8192
+data/supervised/phase4/p44/chrome-profile/GrShaderCache/index,262512
+data/supervised/phase4/p44/chrome-profile/GPUPersistentCache/DawnGraphiteCache/LSLKY6OQOC3C6NSMBEC62Q7Y6BL6S72V/cache.db,0
+data/supervised/phase4/p44/chrome-profile/GPUPersistentCache/DawnGraphiteCache/LSLKY6OQOC3C6NSMBEC62Q7Y6BL6S72V/cache.db-wal,0
+data/supervised/phase4/p44/chrome-profile/GPUPersistentCache/DawnGraphiteCache/LSLKY6OQOC3C6NSMBEC62Q7Y6BL6S72V/cache.journal,0
+data/supervised/phase4/p44/chrome-profile/extensions_crx_cache/metadata.json,13
+data/supervised/phase4/p44/chrome-profile/Default/Account Web Data,73728
+data/supervised/phase4/p44/chrome-profile/Default/Account Web Data-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/Affiliation Database,53248
+data/supervised/phase4/p44/chrome-profile/Default/Affiliation Database-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/BookmarkMergedSurfaceOrdering,6
+data/supervised/phase4/p44/chrome-profile/Default/declarative_performance_observer.db,32768
+data/supervised/phase4/p44/chrome-profile/Default/declarative_performance_observer.db-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/DIPS,4096
+data/supervised/phase4/p44/chrome-profile/Default/DIPS-wal,251352
+data/supervised/phase4/p44/chrome-profile/Default/Favicons,20480
+data/supervised/phase4/p44/chrome-profile/Default/Favicons-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/heavy_ad_intervention_opt_out.db,16384
+data/supervised/phase4/p44/chrome-profile/Default/heavy_ad_intervention_opt_out.db-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/History,204800
+data/supervised/phase4/p44/chrome-profile/Default/History-journal,66176
+data/supervised/phase4/p44/chrome-profile/Default/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/Login Data,40960
+data/supervised/phase4/p44/chrome-profile/Default/Login Data For Account,40960
+data/supervised/phase4/p44/chrome-profile/Default/Login Data For Account-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/Login Data-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/Network Action Predictor,53248
+data/supervised/phase4/p44/chrome-profile/Default/Network Action Predictor-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/Preferences,10512
+data/supervised/phase4/p44/chrome-profile/Default/PreferredApps,33
+data/supervised/phase4/p44/chrome-profile/Default/README,180
+data/supervised/phase4/p44/chrome-profile/Default/Secure Preferences,15808
+data/supervised/phase4/p44/chrome-profile/Default/ServerCertificate,20480
+data/supervised/phase4/p44/chrome-profile/Default/ServerCertificate-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/Shortcuts,20480
+data/supervised/phase4/p44/chrome-profile/Default/Shortcuts-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/Top Sites,20480
+data/supervised/phase4/p44/chrome-profile/Default/Top Sites-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/Web Data,157696
+data/supervised/phase4/p44/chrome-profile/Default/Web Data-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/WebStorage/QuotaManager,40960
+data/supervised/phase4/p44/chrome-profile/Default/WebStorage/QuotaManager-journal,8720
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/128.png,8958
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/192.png,6710
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/256.png,22941
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/32.png,1741
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/48.png,2790
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/64.png,3966
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/96.png,6314
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/128.png,8958
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/192.png,6710
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/256.png,22941
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/32.png,1741
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/48.png,2790
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/64.png,3966
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/96.png,6314
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/128.png,7291
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/192.png,7313
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/256.png,21355
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/32.png,1288
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/48.png,2132
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/64.png,2921
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/96.png,4911
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/128.png,7291
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/192.png,7313
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/256.png,21355
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/32.png,1288
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/48.png,2132
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/64.png,2921
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/96.png,4911
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/128.png,10085
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/192.png,10277
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/256.png,29566
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/32.png,1559
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/48.png,2568
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/64.png,3642
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/96.png,6371
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/128.png,10085
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/192.png,10277
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/256.png,29566
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/32.png,1559
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/48.png,2568
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/64.png,3642
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/96.png,6371
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/128.png,8591
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/192.png,7564
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/256.png,21836
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/32.png,1650
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/48.png,2751
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/64.png,3605
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/96.png,5693
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/128.png,8591
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/192.png,7564
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/256.png,21836
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/32.png,1650
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/48.png,2751
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/64.png,3605
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/96.png,5693
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/128.png,7998
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/192.png,8310
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/256.png,22274
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/32.png,1273
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/48.png,2149
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/64.png,2960
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/96.png,5149
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/128.png,7998
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/192.png,8310
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/256.png,22274
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/32.png,1273
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/48.png,2149
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/64.png,2960
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/96.png,5149
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/128.png,10369
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/192.png,7081
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/256.png,26383
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/32.png,1572
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/48.png,2572
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/64.png,3945
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/96.png,7033
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/128.png,10369
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/192.png,7081
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/256.png,26383
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/32.png,1572
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/48.png,2572
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/64.png,3945
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/96.png,7033
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/128.png,10243
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/192.png,10103
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/256.png,30010
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/32.png,1854
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/48.png,2982
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/64.png,4159
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/96.png,6955
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/128.png,10243
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/192.png,10103
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/256.png,30010
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/32.png,1854
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/48.png,2982
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/64.png,4159
+data/supervised/phase4/p44/chrome-profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/96.png,6955
+data/supervised/phase4/p44/chrome-profile/Default/Sync Data/LevelDB/000003.log,3110
+data/supervised/phase4/p44/chrome-profile/Default/Sync Data/LevelDB/CURRENT,16
+data/supervised/phase4/p44/chrome-profile/Default/Sync Data/LevelDB/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/Sync Data/LevelDB/LOG,324
+data/supervised/phase4/p44/chrome-profile/Default/Sync Data/LevelDB/LOG.old,324
+data/supervised/phase4/p44/chrome-profile/Default/Sync Data/LevelDB/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile/Default/Site Characteristics Database/000003.log,40
+data/supervised/phase4/p44/chrome-profile/Default/Site Characteristics Database/CURRENT,16
+data/supervised/phase4/p44/chrome-profile/Default/Site Characteristics Database/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/Site Characteristics Database/LOG,348
+data/supervised/phase4/p44/chrome-profile/Default/Site Characteristics Database/LOG.old,348
+data/supervised/phase4/p44/chrome-profile/Default/Site Characteristics Database/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile/Default/shared_proto_db/000003.log,442118
+data/supervised/phase4/p44/chrome-profile/Default/shared_proto_db/CURRENT,16
+data/supervised/phase4/p44/chrome-profile/Default/shared_proto_db/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/shared_proto_db/LOG,320
+data/supervised/phase4/p44/chrome-profile/Default/shared_proto_db/LOG.old,320
+data/supervised/phase4/p44/chrome-profile/Default/shared_proto_db/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile/Default/shared_proto_db/metadata/000003.log,1232
+data/supervised/phase4/p44/chrome-profile/Default/shared_proto_db/metadata/CURRENT,16
+data/supervised/phase4/p44/chrome-profile/Default/shared_proto_db/metadata/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/shared_proto_db/metadata/LOG,338
+data/supervised/phase4/p44/chrome-profile/Default/shared_proto_db/metadata/LOG.old,338
+data/supervised/phase4/p44/chrome-profile/Default/shared_proto_db/metadata/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile/Default/Shared Dictionary/db,45056
+data/supervised/phase4/p44/chrome-profile/Default/Shared Dictionary/db-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/Shared Dictionary/cache/index,24
+data/supervised/phase4/p44/chrome-profile/Default/Shared Dictionary/cache/index-dir/the-real-index,48
+data/supervised/phase4/p44/chrome-profile/Default/Sessions_Encrypted/Session_13437560391748575,8588
+data/supervised/phase4/p44/chrome-profile/Default/Sessions_Encrypted/Tabs_13437564733782193,15476
+data/supervised/phase4/p44/chrome-profile/Default/Sessions_Encrypted/Tabs_13437565359993567,18048
+data/supervised/phase4/p44/chrome-profile/Default/Sessions/Session_13437560391746053,7730
+data/supervised/phase4/p44/chrome-profile/Default/Sessions/Tabs_13437564733781368,14651
+data/supervised/phase4/p44/chrome-profile/Default/Sessions/Tabs_13437565359991143,17091
+data/supervised/phase4/p44/chrome-profile/Default/Session Storage/000003.log,220
+data/supervised/phase4/p44/chrome-profile/Default/Session Storage/CURRENT,16
+data/supervised/phase4/p44/chrome-profile/Default/Session Storage/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/Session Storage/LOG,320
+data/supervised/phase4/p44/chrome-profile/Default/Session Storage/LOG.old,320
+data/supervised/phase4/p44/chrome-profile/Default/Session Storage/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_0,472
+data/supervised/phase4/p44/chrome-profile/Default/Service Worker/ScriptCache/4cb013792b196a35_0,10387
+data/supervised/phase4/p44/chrome-profile/Default/Service Worker/ScriptCache/4cb013792b196a35_1,7185
+data/supervised/phase4/p44/chrome-profile/Default/Service Worker/ScriptCache/ba23d8ecda68de77_0,6962
+data/supervised/phase4/p44/chrome-profile/Default/Service Worker/ScriptCache/ba23d8ecda68de77_1,6089
+data/supervised/phase4/p44/chrome-profile/Default/Service Worker/ScriptCache/f1cdccba37924bda_0,2777
+data/supervised/phase4/p44/chrome-profile/Default/Service Worker/ScriptCache/index,24
+data/supervised/phase4/p44/chrome-profile/Default/Service Worker/ScriptCache/index-dir/the-real-index,144
+data/supervised/phase4/p44/chrome-profile/Default/Service Worker/Database/000003.log,3182
+data/supervised/phase4/p44/chrome-profile/Default/Service Worker/Database/CURRENT,16
+data/supervised/phase4/p44/chrome-profile/Default/Service Worker/Database/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/Service Worker/Database/LOG,336
+data/supervised/phase4/p44/chrome-profile/Default/Service Worker/Database/LOG.old,336
+data/supervised/phase4/p44/chrome-profile/Default/Service Worker/Database/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile/Default/Segmentation Platform/SignalStorageConfigDB/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/Segmentation Platform/SignalStorageConfigDB/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/Segmentation Platform/SignalStorageConfigDB/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/Segmentation Platform/SignalDB/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/Segmentation Platform/SignalDB/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/Segmentation Platform/SignalDB/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/Segmentation Platform/SegmentInfoDB/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/Segmentation Platform/SegmentInfoDB/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/Segmentation Platform/SegmentInfoDB/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/Safe Browsing Network/NetworkDataMigrated,0
+data/supervised/phase4/p44/chrome-profile/Default/Safe Browsing Network/Safe Browsing Cookies,20480
+data/supervised/phase4/p44/chrome-profile/Default/Safe Browsing Network/Safe Browsing Cookies-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/PersistentOriginTrials/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/PersistentOriginTrials/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/PersistentOriginTrials/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/parcel_tracking_db/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/parcel_tracking_db/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/parcel_tracking_db/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/optimization_guide_hint_cache_store/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/optimization_guide_hint_cache_store/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/optimization_guide_hint_cache_store/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/Network/Cookies,20480
+data/supervised/phase4/p44/chrome-profile/Default/Network/Cookies-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/Network/Device Bound Sessions,20480
+data/supervised/phase4/p44/chrome-profile/Default/Network/Device Bound Sessions-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/Network/Network Persistent State,59
+data/supervised/phase4/p44/chrome-profile/Default/Network/NetworkDataMigrated,0
+data/supervised/phase4/p44/chrome-profile/Default/Network/Reporting and NEL,36864
+data/supervised/phase4/p44/chrome-profile/Default/Network/Reporting and NEL-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/Network/Trust Tokens,36864
+data/supervised/phase4/p44/chrome-profile/Default/Network/Trust Tokens-journal,0
+data/supervised/phase4/p44/chrome-profile/Default/Local Storage/leveldb/000003.log,30
+data/supervised/phase4/p44/chrome-profile/Default/Local Storage/leveldb/CURRENT,16
+data/supervised/phase4/p44/chrome-profile/Default/Local Storage/leveldb/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/Local Storage/leveldb/LOG,332
+data/supervised/phase4/p44/chrome-profile/Default/Local Storage/leveldb/LOG.old,332
+data/supervised/phase4/p44/chrome-profile/Default/Local Storage/leveldb/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile/Default/GPUCache/data_0,8192
+data/supervised/phase4/p44/chrome-profile/Default/GPUCache/data_1,270336
+data/supervised/phase4/p44/chrome-profile/Default/GPUCache/data_2,8192
+data/supervised/phase4/p44/chrome-profile/Default/GPUCache/data_3,8192
+data/supervised/phase4/p44/chrome-profile/Default/GPUCache/index,262512
+data/supervised/phase4/p44/chrome-profile/Default/GCM Store/Encryption/000003.log,0
+data/supervised/phase4/p44/chrome-profile/Default/GCM Store/Encryption/CURRENT,16
+data/supervised/phase4/p44/chrome-profile/Default/GCM Store/Encryption/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/GCM Store/Encryption/LOG,330
+data/supervised/phase4/p44/chrome-profile/Default/GCM Store/Encryption/LOG.old,330
+data/supervised/phase4/p44/chrome-profile/Default/GCM Store/Encryption/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile/Default/Extension State/000003.log,342
+data/supervised/phase4/p44/chrome-profile/Default/Extension State/CURRENT,16
+data/supervised/phase4/p44/chrome-profile/Default/Extension State/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/Extension State/LOG,320
+data/supervised/phase4/p44/chrome-profile/Default/Extension State/LOG.old,320
+data/supervised/phase4/p44/chrome-profile/Default/Extension State/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile/Default/Extension Scripts/000003.log,114
+data/supervised/phase4/p44/chrome-profile/Default/Extension Scripts/CURRENT,16
+data/supervised/phase4/p44/chrome-profile/Default/Extension Scripts/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/Extension Scripts/LOG,324
+data/supervised/phase4/p44/chrome-profile/Default/Extension Scripts/LOG.old,324
+data/supervised/phase4/p44/chrome-profile/Default/Extension Scripts/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile/Default/Extension Rules/000003.log,114
+data/supervised/phase4/p44/chrome-profile/Default/Extension Rules/CURRENT,16
+data/supervised/phase4/p44/chrome-profile/Default/Extension Rules/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/Extension Rules/LOG,320
+data/supervised/phase4/p44/chrome-profile/Default/Extension Rules/LOG.old,320
+data/supervised/phase4/p44/chrome-profile/Default/Extension Rules/MANIFEST-000001,41
+data/supervised/phase4/p44/chrome-profile/Default/Download Service/Files/Unconfirmed 248646.crdownload,438039
+data/supervised/phase4/p44/chrome-profile/Default/Download Service/Files/Unconfirmed 507040.crdownload,5676417
+data/supervised/phase4/p44/chrome-profile/Default/Download Service/EntryDB/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/Download Service/EntryDB/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/Download Service/EntryDB/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/discount_infos_db/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/discount_infos_db/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/discount_infos_db/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/discounts_db/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/discounts_db/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/discounts_db/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/DawnWebGPUCache/data_0,8192
+data/supervised/phase4/p44/chrome-profile/Default/DawnWebGPUCache/data_1,270336
+data/supervised/phase4/p44/chrome-profile/Default/DawnWebGPUCache/data_2,8192
+data/supervised/phase4/p44/chrome-profile/Default/DawnWebGPUCache/data_3,8192
+data/supervised/phase4/p44/chrome-profile/Default/DawnWebGPUCache/index,262512
+data/supervised/phase4/p44/chrome-profile/Default/DawnGraphiteCache/data_0,8192
+data/supervised/phase4/p44/chrome-profile/Default/DawnGraphiteCache/data_1,270336
+data/supervised/phase4/p44/chrome-profile/Default/DawnGraphiteCache/data_2,8192
+data/supervised/phase4/p44/chrome-profile/Default/DawnGraphiteCache/data_3,8192
+data/supervised/phase4/p44/chrome-profile/Default/DawnGraphiteCache/index,262512
+data/supervised/phase4/p44/chrome-profile/Default/commerce_subscription_db/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/commerce_subscription_db/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/commerce_subscription_db/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/wasm/index,24
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/wasm/index-dir/the-real-index,48
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/00cbd1020e4d3e4d_0,246
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/052f22e008e7e4ae_0,23432
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/069c1cfe5d09c1c6_0,214200
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/0774091e272ca46e_0,7265
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/095db4af5abc1323_0,68616
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/0a0e7671b80aafa2_0,281
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/0ab0a0506d2f6deb_0,264
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/0b44bb91949caf0d_0,66576
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/0e426f42f4b0bc54_0,77392
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/0e6604d86a6c67c0_0,21072
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/100cf899d854a088_0,22048
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/107e77d5260a46b8_0,19648
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/11a0da59357400aa_0,106224
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/17c999481d7ae2ff_0,68616
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/19152becb1f486c1_0,21384
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/19d7b098f3132317_0,13013
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/1b612a27aa79ab2b_0,42488
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/1c49f1a448fd5a4e_0,57408
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/1d0d8fd1351fa01d_0,6899
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/1d614dc69d0a2194_0,68616
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/1ece329e2f81a274_0,11307
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/1ed3351a483b9a8e_0,21384
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/22649e8397f9b23f_0,63872
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/23fe73e0248997db_0,3085
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/2a68497c09ca1e9e_0,106224
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/2c9aea072372f827_0,20288
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/2fcfef2ac8e4034a_0,19648
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/31d2bc750ceaa7bb_0,66576
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/353caca5a6ee19c4_0,21072
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/35f2f5f092f0d441_0,20288
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/398af1aec5dd606b_0,282
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/3b26986ca6fcea53_0,66576
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/3b6a5ad194e70c81_0,21072
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/3e7c8eee2a3b880e_0,282
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/41626a36cd4c916f_0,277
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/42184f97e1ed9640_0,214200
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/45d2d3d555f38674_0,106224
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/4695a87cbbf19af4_0,214200
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/48ffdc42fd9304f9_0,23352
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/4ce34deff85cb1e5_0,264
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/4da59ad26b279f9f_0,20288
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/4eea49b9070b70a8_0,255
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/4eff93b492582083_0,41080
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/5a20b42bc90bb270_0,30160
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/5bdf9f86cb19bbed_0,66464
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/5d1f77d5dece93ae_0,264
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/5d8640255cf81d00_0,68152
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/6030d7d0ba96966e_0,21384
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/6c0299bbad171e6a_0,22536
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/6cf632f83cde9543_0,21384
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/6eb52ada0bd5207f_0,19832
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/76aa023922f4adda_0,21072
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/780aed24920021ee_0,35840
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/780d4bda53438f8e_0,66576
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/7e5dcfa4a079cef8_0,68616
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/828796f759bc5a39_0,264
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/83539fa55e08628e_0,20288
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/86cf7a0ac854e23e_0,70128
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/87fe8474427684d0_0,20288
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/8900a99fc7b707c4_0,267
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/8b12aa33014ee920_0,214200
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/8c92326905134168_0,279
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/9164df8cd92c1596_0,20288
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/918f442caadeb370_0,69432
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/919c0ccf841ced6f_0,246
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/93bcec340b737d45_0,66576
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/950a0350cf7c7290_0,21384
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/964e09fd5b39c053_0,66576
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/9c74edcedddf4f92_0,23480
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/a414056c5cea7560_0,254
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/a464e4ff4a4b697b_0,214200
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/a6f21a0615c16bca_0,68616
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/a8610cc6a8ecbee2_0,15004
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/acb842be0a7bc38f_0,21384
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/ad1b940f374ff47c_0,21384
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/ad73694efa762c5f_0,11432
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/ae5474dbd7f69b85_0,106224
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/b54659c26b79c3f6_0,4132152
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/b58f747e3e5c07f9_0,18584
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/b5b906a433e8712f_0,19648
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/ba678a2fbd8c358c_0,1250
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/bf43a82cb6d57c9c_0,21072
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/c28dcdd81c8e85bb_0,57320
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/c30ad21cffcbc4c2_0,214200
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/c528ff073afb5b58_0,21072
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/c7ee716076e4f68e_0,2673480
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/ca630a2ad03a8e01_0,127616
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/cda28182528ecab7_0,3851
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/d05c83cd1d07af73_0,106224
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/d26f3804b16e79aa_0,279
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/d38b2d53d64bf9fc_0,66576
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/d445558184660394_0,8059
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/d4796b69b04ee149_0,264
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/d5db15e0a64c01bb_0,21056
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/d785168b3085fcef_0,20288
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/d84ab4d23c5930e7_0,19648
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/d958d0ed2a5114bd_0,19648
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/dab9288e44a9e5fc_0,106224
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/de1449106c3cc98c_0,248
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/dea954446389ff9b_0,271
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/e019a915150d074e_0,238
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/e31ddbad20d0ee95_0,70128
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/e48c368d74eb6b4c_0,7122
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/e7d77658b0455803_0,266
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/f1955857c5a89971_0,19648
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/f355c9c9184e8bf4_0,214200
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/f63c23e2f606ea91_0,72344
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/fa8522dba55a4866_0,21072
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/fc897957b337f0f0_0,1143496
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/fdabddf8d8077171_0,6876
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/fed766faf681f6b9_0,284
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/index,24
+data/supervised/phase4/p44/chrome-profile/Default/Code Cache/js/index-dir/the-real-index,2568
+data/supervised/phase4/p44/chrome-profile/Default/ClientCertificates/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/ClientCertificates/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/ClientCertificates/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/chrome_cart_db/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/chrome_cart_db/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/chrome_cart_db/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/Cache/No_Vary_Search/journal.baj,4
+data/supervised/phase4/p44/chrome-profile/Default/Cache/No_Vary_Search/snapshot.baf,20
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/data_0,45056
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/data_1,270336
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/data_2,1056768
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/data_3,4202496
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000001,118071
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000002,1429506
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000003,35641
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000004,3132085
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000005,68816
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000006,136642
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000007,50848
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000008,224020
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000009,18261
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_00000a,76534
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_00000b,22348
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_00000c,21368
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_00000d,57994
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_00000e,48256
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_00000f,17119
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000010,23104
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000011,5064557
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000012,20278
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000013,68923
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000014,58026
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000015,23611
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000016,68923
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000017,58025
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000018,23696
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000019,31831
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_00001a,19708
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_00001c,71425
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_00001d,47440
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_00001e,32612
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000020,68923
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000021,58721
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000024,68923
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000025,58721
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000026,23738
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_00002b,68923
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_00002c,64758
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_00002f,68923
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000030,61434
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000031,21527
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/f_000032,18806
+data/supervised/phase4/p44/chrome-profile/Default/Cache/Cache_Data/index,524656
+data/supervised/phase4/p44/chrome-profile/Default/BudgetDatabase/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/BudgetDatabase/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/BudgetDatabase/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/AutofillStrikeDatabase/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/AutofillStrikeDatabase/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/AutofillStrikeDatabase/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Default/AutofillAiModelCache/LOCK,0
+data/supervised/phase4/p44/chrome-profile/Default/AutofillAiModelCache/LOG,0
+data/supervised/phase4/p44/chrome-profile/Default/AutofillAiModelCache/LOG.old,0
+data/supervised/phase4/p44/chrome-profile/Crashpad/metadata,0
+data/supervised/phase4/p44/chrome-profile/Crashpad/settings.dat,40
+data/supervised/phase4/p44/chrome-profile/component_crx_cache/85daef3a7c36299d39d45219b6d1276396c584376c683798c184b5490e7bc773,136340
+data/supervised/phase4/p44/chrome-profile/component_crx_cache/metadata.json,124
+data/supervised/phase4/p423/rehearsal/footiq_reconcile.sqlite,228995072
+data/supervised/phase4/p423/rehearsal/footiq_reconcile.sqlite-shm,32768
+data/supervised/phase4/p423/rehearsal/footiq_reconcile.sqlite-wal,0
+data/supervised/phase4/p421/rehearsal/footiq_domestic.sqlite,228839424
+data/supervised/phase4/p421/rehearsal/footiq_domestic.sqlite-shm,32768
+data/supervised/phase4/p421/rehearsal/footiq_domestic.sqlite-wal,0
+data/supervised/phase4/p421/rehearsal/footiq_ucl_fixtures.sqlite,228909056
+data/supervised/phase4/p421/rehearsal/footiq_ucl_fixtures.sqlite-shm,32768
+data/supervised/phase4/p421/rehearsal/footiq_ucl_fixtures.sqlite-wal,0
+data/supervised/phase4/p419/rehearsal/footiq_conflicts.sqlite,228777984
+data/supervised/phase4/p419/rehearsal/footiq_fixture_then_result.sqlite,228909056
+data/supervised/phase4/p419/rehearsal/footiq_results_only.sqlite,228777984
+data/supervised/phase4/p419/rehearsal/footiq_results_only.sqlite-shm,32768
+data/supervised/phase4/p419/rehearsal/footiq_results_only.sqlite-wal,0
+data/supervised/phase4/p419/rehearsal/footiq_with_fixtures.sqlite,228904960
+data/supervised/phase4/p419/rehearsal/footiq_with_fixtures.sqlite-shm,32768
+data/supervised/phase4/p419/rehearsal/footiq_with_fixtures.sqlite-wal,0
+data/supervised/phase4/p412/private_copy.sqlite,229281792
+data/supervised/phase4/p410/private_copy.sqlite,228679680
+data/supervised/phase4/p410/private_copy.sqlite-shm,32768
+data/supervised/phase4/p410/private_copy.sqlite-wal,0
+data/backups/footiq.20261027T141506Z.pre-bundesliga.sqlite,228655104
+data/backups/footiq.20261027T141506Z.pre-bundesliga.sqlite-shm,32768
+data/backups/footiq.20261027T141506Z.pre-bundesliga.sqlite-wal,0
+data/backups/footiq.20261027T141608Z.pre-bundesliga.sqlite,228655104
+data/backups/footiq.20261027T141608Z.pre-bundesliga.sqlite-shm,32768
+data/backups/footiq.20261027T141608Z.pre-bundesliga.sqlite-wal,0
+data/backups/footiq.20261027T141753Z.pre-laliga.sqlite,228659200
+data/backups/footiq.20261027T141753Z.pre-laliga.sqlite-shm,32768
+data/backups/footiq.20261027T141753Z.pre-laliga.sqlite-wal,0
+data/backups/footiq.20261027T141855Z.pre-laliga.sqlite,228659200
+data/backups/footiq.20261027T141855Z.pre-laliga.sqlite-shm,32768
+data/backups/footiq.20261027T141855Z.pre-laliga.sqlite-wal,0
+data/backups/footiq.20261027T165926Z.pre-activation.sqlite,228663296
+data/backups/footiq.20261027T165926Z.pre-activation.sqlite-shm,32768
+data/backups/footiq.20261027T165926Z.pre-activation.sqlite-wal,0
+data/backups/footiq.20261027T170018Z.pre-activation.sqlite,228663296
+data/backups/footiq.20261027T170018Z.pre-activation.sqlite-shm,32768
+data/backups/footiq.20261027T170018Z.pre-activation.sqlite-wal,0
+data/backups/footiq.20261027T180815Z.pre-laliga-import.sqlite,228663296
+data/backups/footiq.20261027T180815Z.pre-laliga-import.sqlite-shm,32768
+data/backups/footiq.20261027T180815Z.pre-laliga-import.sqlite-wal,0
+data/backups/p422_pre_import_20261028/footiq.sqlite,228802560
+data/backups/p422_pre_import_20261028/footiq.sqlite-shm,32768
+data/backups/p422_pre_import_20261028/footiq.sqlite-wal,0
+data/backups/p422_after_domestic_20261028/footiq.sqlite,228839424
+data/backups/p421_pre_import_20261028/footiq.sqlite,228782080
+data/backups/p421_pre_import_20261028/footiq.sqlite-shm,32768
+data/backups/p421_pre_import_20261028/footiq.sqlite-wal,0
+data/backups/p420_pre_import_20261028/footiq.sqlite,228737024
+data/backups/p420_pre_import_20261028/footiq.sqlite-shm,32768
+data/backups/p420_pre_import_20261028/footiq.sqlite-wal,0
+.pytest_cache/.gitignore,39
+.pytest_cache/CACHEDIR.TAG,191
+.pytest_cache/README.md,310
+.pytest_cache/v/cache/lastfailed,2105
+.pytest_cache/v/cache/nodeids,72158

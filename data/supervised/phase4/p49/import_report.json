@@ -1,0 +1,67 @@
+{
+ "started_utc": "2026-10-27T18:08:07Z",
+ "stage": "import",
+ "production_physical_sha256_before": "2f5126efddf963d472af5b032db355d92dee6e9fcffacd63a9355c8ce4252f67",
+ "backend_before": {
+  "status": "idle; next check 2026-10-27T23:00:36Z",
+  "active_scheduler_threads": 1,
+  "next_check": "2026-10-27T23:00:36Z",
+  "enabled": [
+   "BUNDESLIGA"
+  ],
+  "failed": 0
+ },
+ "integrity_before": "ok",
+ "forecasts_before": [
+  0,
+  0
+ ],
+ "preconditions_failed": [],
+ "backup": {
+  "path": "data/backups/footiq.20261027T180815Z.pre-laliga-import.sqlite",
+  "bytes": 228663296,
+  "physical_sha256": "7ddd8917d2adeb1e1ba9ba48bf3a424554a05413420f7b70c821ec0a48eeb403",
+  "integrity": "ok",
+  "logical_equals_production": true,
+  "restore_integrity": "ok",
+  "restore_logical_equals_production": true,
+  "restore_matches_rows": 223510,
+  "production_matches_rows": 223510
+ },
+ "import": {
+  "cycle_run_id": 13,
+  "sync_run_id": 14,
+  "stats": {
+   "inserted": 0,
+   "updated": 0,
+   "unchanged": 263,
+   "confirmed": 93,
+   "quarantined": 24
+  },
+  "snapshot_id": "20261027T180630Z_la1_2026_season.json"
+ },
+ "verification": {
+  "matches_changed": {},
+  "rows_before_after": [
+   223510,
+   223510
+  ],
+  "table_row_counts_changed": {
+   "source_snapshots": [
+    12,
+    13
+   ],
+   "sync_runs": [
+    12,
+    14
+   ]
+  },
+  "integrity": "ok",
+  "forecasts_after": [
+   0,
+   0
+  ],
+  "ledger_lines": 3
+ },
+ "result": "IMPORTED"
+}

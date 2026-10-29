@@ -1,0 +1,6 @@
+scope,selection,correct,scored,accuracy_pct,ci_low_pct,ci_high_pct,coverage,definition
+Entire pre-final tournament,Hybrid product target,59,82,71.95,61.41,80.52,82/103,Group 90-minute best reads plus knockout full-match advancement calls.
+Group stage,Best 90-minute read,34,52,65.38,51.8,76.85,52/72,Internal top 1/X/2 outcome regardless of confidence gate.
+Group stage,Published Strong Pick + Model Lean,19,29,65.52,47.34,80.06,29/52 genuine group calls,Pass rows excluded from the public-pick denominator.
+Group stage static v2.3,Pre-tournament best 90-minute read,48,72,66.67,55.18,76.47,72/72,Full-coverage June 4 baseline; excluded from the live-model combined metric.
+Knockout stage,Full-match advancement,25,30,83.33,66.44,92.66,30/31,Qualifier or placement winner after extra time and penalties; final excluded.

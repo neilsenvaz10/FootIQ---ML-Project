@@ -1,0 +1,16 @@
+{
+ "blocks": 10,
+ "team_cutoffs": 576,
+ "mean_crps_change": -0.03407554470486106,
+ "crps_change_95ci": [
+  -0.05231725680841918,
+  -0.01751734147672355
+ ],
+ "share_of_bootstrap_with_better_crps": 1.0,
+ "mean_coverage_change": 0.029513888888888888,
+ "coverage_change_95ci": [
+  0.017006802721088437,
+  0.0425531914893617
+ ],
+ "blocks_where_dynamic_has_better_crps": 9
+}

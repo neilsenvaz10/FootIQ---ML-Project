@@ -1,0 +1,653 @@
+﻿competition_id,season_corrected,teams,source_records,results,unscored_or_postponed_dated_before_cutoff,cancelled,pairing_coverage,latest_result,season_status,season_status_reason
+austria:1-bundesliga,2010-11,10,180,180,0,0,,2011-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2011-12,10,180,180,0,0,,2012-05-17,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2012-13,10,180,180,0,0,,2013-05-26,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2013-14,10,180,180,0,0,,2014-05-12,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2014-15,10,180,180,0,0,,2015-05-31,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2015-16,10,180,180,0,0,,2016-05-15,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2016-17,10,180,180,0,0,,2017-05-28,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2017-18,10,180,180,0,0,,2018-05-27,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2018-19,12,195,195,0,0,,2019-06-02,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2019-20,12,195,195,0,0,,2020-07-15,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2020-21,12,195,195,0,0,,2021-05-30,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2021-22,12,195,195,0,0,,2022-05-29,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2022-23,12,195,195,0,0,,2023-06-11,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2023-24,12,195,195,0,0,,2024-05-28,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2024-25,12,195,194,1,0,,2025-05-29,incomplete,1 dated fixtures before 2026-10-01 without a result
+austria:1-bundesliga,2025-26,12,195,195,0,0,,2026-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:1-bundesliga,2026-27,12,132,42,0,0,0.3182,2026-09-20,in_progress_complete_through_cutoff,every dated fixture before 2026-10-01 has a result
+austria:2-liga1,2010-11,10,180,180,0,0,,2011-05-24,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:2-liga1,2011-12,10,180,180,0,0,,2012-05-18,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:2-liga1,2012-13,10,180,180,0,0,,2013-05-24,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:2-liga1,2013-14,10,180,180,0,0,,2014-05-23,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:2-liga1,2014-15,10,180,180,0,0,,2015-05-29,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:2-liga1,2015-16,10,180,180,0,0,,2016-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:2-liga1,2016-17,10,180,180,0,0,,2017-05-26,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:2-liga1,2017-18,10,180,180,0,0,,2018-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+austria:2-liga2,2018-19,16,240,240,0,0,1.0,2019-06-01,complete,no dated fixture without result; pairing coverage ok
+austria:2-liga2,2019-20,16,240,240,0,0,1.0,2020-07-31,complete,no dated fixture without result; pairing coverage ok
+austria:2-liga2,2020-21,16,240,240,0,0,1.0,2021-05-23,complete,no dated fixture without result; pairing coverage ok
+austria:2-liga2,2021-22,16,240,240,0,0,1.0,2022-05-22,complete,no dated fixture without result; pairing coverage ok
+austria:2-liga2,2022-23,16,240,240,0,0,1.0,2023-06-04,complete,no dated fixture without result; pairing coverage ok
+austria:2-liga2,2023-24,16,240,240,0,0,1.0,2024-05-25,complete,no dated fixture without result; pairing coverage ok
+austria:2-liga2,2024-25,16,240,240,0,0,1.0,2025-05-25,complete,no dated fixture without result; pairing coverage ok
+austria:2-liga2,2025-26,16,240,96,144,0,0.4,2025-11-02,incomplete,144 dated fixtures before 2026-10-01 without a result
+austria:3-regionalliga-mitte,2020-21,16,240,101,0,139,1.0,2020-10-30,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-mitte,2021-22,17,272,272,0,0,1.0,2022-06-10,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-mitte,2022-23,16,240,240,0,0,1.0,2023-06-09,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-mitte,2023-24,16,240,240,0,0,1.0,2024-06-07,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-mitte,2024-25,16,240,200,40,0,0.8333,2025-05-03,incomplete,40 dated fixtures before 2026-10-01 without a result
+austria:3-regionalliga-ost,2010-11,16,240,240,0,0,1.0,2011-06-01,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-ost,2011-12,16,240,240,0,0,1.0,2012-05-31,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-ost,2012-13,16,240,240,0,0,1.0,2013-05-29,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-ost,2013-14,16,241,240,0,1,1.0,2014-05-28,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-ost,2014-15,16,240,240,0,0,1.0,2015-05-30,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-ost,2015-16,16,240,240,0,0,1.0,2016-06-03,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-ost,2016-17,15,210,210,0,0,1.0,2017-05-26,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-ost,2018-19,16,240,240,0,0,1.0,2019-06-07,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-ost,2019-20,16,240,144,0,96,0.9958,2020-03-08,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-ost,2020-21,13,156,52,0,104,1.0,2020-10-31,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-ost,2021-22,14,182,182,0,0,1.0,2022-05-28,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-ost,2022-23,16,240,240,0,0,1.0,2023-05-27,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-ost,2023-24,16,240,240,0,0,1.0,2024-06-03,complete,no dated fixture without result; pairing coverage ok
+austria:3-regionalliga-ost,2024-25,16,240,232,8,0,0.9667,2025-05-31,incomplete,8 dated fixtures before 2026-10-01 without a result
+austria:3-regionalliga-ost,2025-26,17,272,112,160,0,0.4118,2025-11-01,incomplete,160 dated fixtures before 2026-10-01 without a result
+belgium:be1,2018-19,16,270,270,0,0,,2019-05-19,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+belgium:be1,2019-20,16,240,232,0,8,1.0,2020-03-07,complete,no dated fixture without result; pairing coverage ok
+belgium:be1,2020-21,18,330,330,0,0,1.0,2021-05-23,complete,no dated fixture without result; pairing coverage ok
+belgium:be1,2023-24,16,313,313,0,0,,2024-06-02,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+belgium:be1,2024-25,16,313,313,0,0,,2025-05-29,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+belgium:be1,2025-26,16,240,121,119,0,0.5042,2025-11-28,incomplete,119 dated fixtures before 2026-10-01 without a result
+belgium:be1,2026-27,19,306,1,305,0,0.0029,2026-08-07,incomplete,305 dated fixtures before 2026-10-01 without a result
+deutschland:1-bundesliga,2010-11,18,306,306,0,0,1.0,2011-05-14,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2011-12,18,306,306,0,0,1.0,2012-05-05,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2012-13,18,306,306,0,0,1.0,2013-05-18,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2013-14,18,306,306,0,0,1.0,2014-05-10,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2014-15,18,306,306,0,0,1.0,2015-05-23,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2015-16,18,306,306,0,0,1.0,2016-05-14,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2016-17,18,306,306,0,0,1.0,2017-05-20,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2017-18,18,306,306,0,0,1.0,2018-05-12,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2018-19,18,306,306,0,0,1.0,2019-05-18,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2019-20,18,306,306,0,0,1.0,2020-06-27,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2020-21,18,306,306,0,0,1.0,2021-05-22,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2021-22,18,306,306,0,0,1.0,2022-05-14,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2022-23,18,306,306,0,0,1.0,2023-05-27,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2023-24,18,306,306,0,0,1.0,2024-05-18,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2024-25,18,306,306,0,0,1.0,2025-05-17,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2025-26,18,306,306,0,0,1.0,2026-05-16,complete,no dated fixture without result; pairing coverage ok
+deutschland:1-bundesliga,2026-27,18,306,36,0,0,0.1176,2026-09-20,in_progress_complete_through_cutoff,every dated fixture before 2026-10-01 has a result
+deutschland:2-bundesliga2,2012-13,18,306,306,0,0,1.0,2013-05-19,complete,no dated fixture without result; pairing coverage ok
+deutschland:2-bundesliga2,2013-14,18,306,306,0,0,1.0,2014-05-11,complete,no dated fixture without result; pairing coverage ok
+deutschland:2-bundesliga2,2014-15,18,306,306,0,0,1.0,2015-05-24,complete,no dated fixture without result; pairing coverage ok
+deutschland:2-bundesliga2,2015-16,18,306,306,0,0,1.0,2016-05-15,complete,no dated fixture without result; pairing coverage ok
+deutschland:2-bundesliga2,2016-17,18,306,306,0,0,1.0,2017-05-21,complete,no dated fixture without result; pairing coverage ok
+deutschland:2-bundesliga2,2017-18,18,306,306,0,0,1.0,2018-05-13,complete,no dated fixture without result; pairing coverage ok
+deutschland:2-bundesliga2,2018-19,18,306,306,0,0,1.0,2019-05-19,complete,no dated fixture without result; pairing coverage ok
+deutschland:2-bundesliga2,2019-20,18,306,306,0,0,1.0,2020-06-28,complete,no dated fixture without result; pairing coverage ok
+deutschland:2-bundesliga2,2020-21,18,306,306,0,0,1.0,2021-05-23,complete,no dated fixture without result; pairing coverage ok
+deutschland:2-bundesliga2,2021-22,18,306,306,0,0,1.0,2022-05-15,complete,no dated fixture without result; pairing coverage ok
+deutschland:2-bundesliga2,2022-23,18,306,306,0,0,1.0,2023-05-28,complete,no dated fixture without result; pairing coverage ok
+deutschland:2-bundesliga2,2023-24,18,306,306,0,0,1.0,2024-05-19,complete,no dated fixture without result; pairing coverage ok
+deutschland:2-bundesliga2,2024-25,18,306,306,0,0,1.0,2025-05-18,complete,no dated fixture without result; pairing coverage ok
+deutschland:2-bundesliga2,2025-26,18,306,99,207,0,0.3235,2025-11-02,incomplete,207 dated fixtures before 2026-10-01 without a result
+deutschland:3-liga3,2014-15,20,380,380,0,0,1.0,2015-05-23,complete,no dated fixture without result; pairing coverage ok
+deutschland:3-liga3,2015-16,20,380,380,0,0,1.0,2016-05-14,complete,no dated fixture without result; pairing coverage ok
+deutschland:3-liga3,2016-17,20,380,380,0,0,1.0,2017-05-20,complete,no dated fixture without result; pairing coverage ok
+deutschland:3-liga3,2017-18,20,380,380,0,0,1.0,2018-05-12,complete,no dated fixture without result; pairing coverage ok
+deutschland:3-liga3,2018-19,20,380,380,0,0,1.0,2019-05-18,complete,no dated fixture without result; pairing coverage ok
+deutschland:3-liga3,2019-20,20,380,380,0,0,1.0,2020-07-04,complete,no dated fixture without result; pairing coverage ok
+deutschland:3-liga3,2020-21,20,380,380,0,0,1.0,2021-05-22,complete,no dated fixture without result; pairing coverage ok
+deutschland:3-liga3,2021-22,20,380,342,0,38,1.0,2022-05-14,complete,no dated fixture without result; pairing coverage ok
+deutschland:3-liga3,2022-23,20,380,380,0,0,1.0,2023-05-27,complete,no dated fixture without result; pairing coverage ok
+deutschland:3-liga3,2023-24,20,380,380,0,0,1.0,2024-05-18,complete,no dated fixture without result; pairing coverage ok
+deutschland:3-liga3,2024-25,20,380,380,0,0,1.0,2025-05-17,complete,no dated fixture without result; pairing coverage ok
+deutschland:3-liga3,2025-26,20,380,130,250,0,0.3421,2025-11-02,incomplete,250 dated fixtures before 2026-10-01 without a result
+deutschland:4-regionalliga-bayern,2024-25,18,306,306,0,0,1.0,2025-05-17,complete,no dated fixture without result; pairing coverage ok
+deutschland:4-regionalliga-nord,2024-25,18,306,306,0,0,0.9967,2025-05-18,complete,no dated fixture without result; pairing coverage ok
+deutschland:4-regionalliga-nordost,2024-25,18,306,306,0,0,1.0,2025-05-18,complete,no dated fixture without result; pairing coverage ok
+deutschland:4-regionalliga-suedwest,2024-25,18,306,306,0,0,1.0,2025-05-17,complete,no dated fixture without result; pairing coverage ok
+deutschland:4-regionalliga-west,2024-25,18,306,240,0,66,1.0,2025-05-17,complete,no dated fixture without result; pairing coverage ok
+england:1-division1,1892-93,16,240,240,0,0,1.0,1893-04-17,complete,no dated fixture without result; pairing coverage ok
+england:1-footballleague,1888-89,12,132,132,0,0,1.0,1889-04-20,complete,no dated fixture without result; pairing coverage ok
+england:1-footballleague,1889-90,12,132,132,0,0,1.0,1890-03-31,complete,no dated fixture without result; pairing coverage ok
+england:1-footballleague,1890-91,12,132,132,0,0,1.0,1891-04-18,complete,no dated fixture without result; pairing coverage ok
+england:1-footballleague,1891-92,14,182,182,0,0,1.0,1892-04-30,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,1992-93,22,462,462,0,0,1.0,1993-05-11,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,1993-94,22,462,462,0,0,1.0,1994-05-08,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,1994-95,22,462,462,0,0,1.0,1995-05-14,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,1995-96,20,380,380,0,0,1.0,1996-05-04,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,1996-97,20,380,380,0,0,1.0,1997-05-11,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,1997-98,20,380,380,0,0,1.0,1998-05-10,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,1998-99,20,380,380,0,0,1.0,1999-05-16,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,1999-00,20,380,380,0,0,1.0,2000-05-13,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2000-01,20,380,380,0,0,1.0,2001-05-19,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2001-02,20,380,380,0,0,1.0,2002-05-11,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2002-03,20,380,380,0,0,1.0,2003-05-11,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2003-04,20,380,380,0,0,1.0,2004-05-15,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2004-05,20,380,380,0,0,1.0,2005-05-15,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2005-06,20,380,380,0,0,1.0,2006-05-07,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2006-07,20,380,380,0,0,1.0,2007-05-13,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2007-08,20,380,380,0,0,1.0,2008-05-11,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2008-09,20,380,380,0,0,1.0,2009-05-24,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2009-10,20,380,380,0,0,1.0,2010-05-09,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2010-11,20,380,380,0,0,1.0,2011-05-22,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2011-12,20,380,380,0,0,1.0,2012-05-13,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2012-13,20,380,380,0,0,1.0,2013-05-19,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2013-14,20,380,380,0,0,1.0,2014-05-11,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2014-15,20,380,380,0,0,1.0,2015-05-24,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2015-16,20,380,380,0,0,1.0,2016-05-17,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2016-17,20,380,380,0,0,1.0,2017-05-21,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2017-18,20,380,380,0,0,1.0,2018-05-13,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2018-19,20,380,380,0,0,1.0,2019-05-12,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2019-20,20,380,380,0,0,1.0,2020-07-26,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2020-21,20,380,380,0,0,1.0,2021-05-23,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2021-22,20,380,380,0,0,1.0,2022-05-22,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2022-23,20,380,380,0,0,1.0,2023-05-28,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2023-24,20,380,380,0,0,1.0,2024-05-19,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2024-25,20,380,380,0,0,1.0,2025-05-25,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2025-26,20,380,380,0,0,1.0,2026-05-24,complete,no dated fixture without result; pairing coverage ok
+england:1-premierleague,2026-27,20,380,50,0,0,0.1316,2026-09-20,in_progress_complete_through_cutoff,every dated fixture before 2026-10-01 has a result
+england:2-championship,2004-05,24,552,552,0,0,1.0,2005-05-08,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2005-06,24,552,552,0,0,1.0,2006-04-30,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2006-07,24,552,552,0,0,1.0,2007-05-06,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2007-08,24,552,552,0,0,1.0,2008-05-04,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2008-09,24,552,552,0,0,1.0,2009-05-03,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2009-10,24,552,552,0,0,1.0,2010-05-02,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2010-11,24,552,552,0,0,1.0,2011-05-07,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2011-12,24,552,552,0,0,1.0,2012-04-28,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2012-13,24,552,552,0,0,1.0,2013-05-04,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2013-14,24,552,552,0,0,1.0,2014-05-03,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2014-15,24,552,552,0,0,1.0,2015-05-02,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2015-16,24,552,552,0,0,1.0,2016-05-07,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2016-17,24,552,552,0,0,1.0,2017-05-07,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2017-18,24,552,552,0,0,1.0,2018-05-06,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2018-19,24,552,552,0,0,1.0,2019-05-05,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2019-20,24,552,552,0,0,1.0,2020-07-22,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2020-21,24,552,552,0,0,1.0,2021-05-08,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2021-22,24,557,557,0,0,1.0,2022-05-29,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2022-23,24,557,557,0,0,1.0,2023-05-27,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2023-24,24,557,557,0,0,1.0,2024-05-26,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2024-25,24,557,557,0,0,1.0,2025-05-24,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2025-26,24,557,557,0,0,1.0,2026-05-23,complete,no dated fixture without result; pairing coverage ok
+england:2-championship,2026-27,24,552,95,0,0,0.1721,2026-09-20,in_progress_complete_through_cutoff,every dated fixture before 2026-10-01 has a result
+england:2-division1,1998-99,24,552,552,0,0,1.0,1999-05-08,complete,no dated fixture without result; pairing coverage ok
+england:2-division1,1999-00,24,552,552,0,0,1.0,2000-05-06,complete,no dated fixture without result; pairing coverage ok
+england:2-division1,2000-01,24,552,552,0,0,1.0,2001-05-06,complete,no dated fixture without result; pairing coverage ok
+england:2-division1,2001-02,24,552,552,0,0,1.0,2002-04-21,complete,no dated fixture without result; pairing coverage ok
+england:2-division1,2002-03,24,552,552,0,0,1.0,2003-05-04,complete,no dated fixture without result; pairing coverage ok
+england:2-division1,2003-04,24,552,552,0,0,1.0,2004-05-09,complete,no dated fixture without result; pairing coverage ok
+england:2-division2,1892-93,12,132,132,0,0,1.0,1893-04-15,complete,no dated fixture without result; pairing coverage ok
+england:3-division2,1998-99,24,552,552,0,0,1.0,1999-05-07,complete,no dated fixture without result; pairing coverage ok
+england:3-division2,1999-00,24,552,552,0,0,1.0,2000-05-05,complete,no dated fixture without result; pairing coverage ok
+england:3-division2,2000-01,24,552,552,0,0,1.0,2001-05-05,complete,no dated fixture without result; pairing coverage ok
+england:3-division2,2001-02,24,552,552,0,0,1.0,2002-04-20,complete,no dated fixture without result; pairing coverage ok
+england:3-division2,2002-03,24,552,552,0,0,1.0,2003-05-03,complete,no dated fixture without result; pairing coverage ok
+england:3-division2,2003-04,24,552,552,0,0,1.0,2004-05-08,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2004-05,24,552,552,0,0,1.0,2005-05-07,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2005-06,24,552,552,0,0,1.0,2006-05-06,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2006-07,24,552,552,0,0,1.0,2007-05-05,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2007-08,24,552,552,0,0,1.0,2008-05-03,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2008-09,24,552,552,0,0,1.0,2009-05-02,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2009-10,24,552,552,0,0,1.0,2010-05-08,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2010-11,24,552,552,0,0,1.0,2011-05-07,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2011-12,24,552,552,0,0,1.0,2012-05-05,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2012-13,24,552,552,0,0,1.0,2013-04-27,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2013-14,24,552,552,0,0,1.0,2014-05-03,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2014-15,24,552,552,0,0,1.0,2015-05-03,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2015-16,24,552,552,0,0,1.0,2016-05-08,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2016-17,24,552,552,0,0,1.0,2017-04-30,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2017-18,24,552,552,0,0,1.0,2018-05-05,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2018-19,24,552,552,0,0,1.0,2019-05-04,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2019-20,23,506,400,0,106,1.0,2020-03-10,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2020-21,24,552,552,0,0,1.0,2021-05-09,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2021-22,24,552,552,0,0,1.0,2022-04-30,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2022-23,24,552,552,0,0,1.0,2023-05-07,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2023-24,24,552,552,0,0,1.0,2024-04-27,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2024-25,24,552,552,0,0,1.0,2025-05-03,complete,no dated fixture without result; pairing coverage ok
+england:3-league1,2025-26,24,552,356,196,0,0.6449,2026-02-07,incomplete,196 dated fixtures before 2026-10-01 without a result
+england:4-division3,1998-99,24,552,552,0,0,1.0,1999-05-07,complete,no dated fixture without result; pairing coverage ok
+england:4-division3,1999-00,24,552,552,0,0,1.0,2000-05-05,complete,no dated fixture without result; pairing coverage ok
+england:4-division3,2000-01,24,552,552,0,0,1.0,2001-05-08,complete,no dated fixture without result; pairing coverage ok
+england:4-division3,2001-02,24,552,552,0,0,1.0,2002-04-20,complete,no dated fixture without result; pairing coverage ok
+england:4-division3,2002-03,24,552,552,0,0,1.0,2003-05-03,complete,no dated fixture without result; pairing coverage ok
+england:4-division3,2003-04,24,552,552,0,0,1.0,2004-05-08,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2004-05,24,552,552,0,0,1.0,2005-05-07,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2005-06,24,552,552,0,0,1.0,2006-05-06,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2006-07,24,552,552,0,0,1.0,2007-05-05,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2007-08,24,552,552,0,0,1.0,2008-05-03,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2008-09,24,552,552,0,0,1.0,2009-05-02,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2009-10,24,552,552,0,0,1.0,2010-05-08,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2010-11,24,552,552,0,0,1.0,2011-05-07,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2011-12,24,552,552,0,0,1.0,2012-05-05,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2012-13,24,552,552,0,0,1.0,2013-04-27,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2013-14,24,552,552,0,0,1.0,2014-05-03,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2014-15,24,552,552,0,0,1.0,2015-05-02,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2015-16,24,552,552,0,0,1.0,2016-05-07,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2016-17,24,552,552,0,0,1.0,2017-05-06,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2017-18,24,552,552,0,0,1.0,2018-05-05,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2018-19,24,552,552,0,0,1.0,2019-05-04,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2019-20,24,552,440,0,112,1.0,2020-03-10,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2020-21,24,552,552,0,0,1.0,2021-05-08,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2021-22,24,552,552,0,0,1.0,2022-05-07,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2022-23,24,552,552,0,0,1.0,2023-05-08,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2023-24,24,552,552,0,0,1.0,2024-04-27,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2024-25,24,552,552,0,0,1.0,2025-05-03,complete,no dated fixture without result; pairing coverage ok
+england:4-league2,2025-26,24,564,276,288,0,0.5,2025-12-29,incomplete,288 dated fixtures before 2026-10-01 without a result
+england:5-nationalleague,2015-16,24,552,552,0,0,1.0,2016-04-30,complete,no dated fixture without result; pairing coverage ok
+england:5-nationalleague,2016-17,24,552,552,0,0,1.0,2017-04-29,complete,no dated fixture without result; pairing coverage ok
+england:5-nationalleague,2017-18,24,552,552,0,0,1.0,2018-04-28,complete,no dated fixture without result; pairing coverage ok
+england:5-nationalleague,2018-19,24,552,552,0,0,1.0,2019-04-27,complete,no dated fixture without result; pairing coverage ok
+england:5-nationalleague,2019-20,24,552,451,0,101,1.0,2020-03-14,complete,no dated fixture without result; pairing coverage ok
+england:5-nationalleague,2020-21,23,506,462,0,44,1.0,2021-05-29,complete,no dated fixture without result; pairing coverage ok
+england:5-nationalleague,2021-22,23,506,506,0,0,1.0,2022-05-15,complete,no dated fixture without result; pairing coverage ok
+england:5-nationalleague,2022-23,24,552,552,0,0,1.0,2023-04-29,complete,no dated fixture without result; pairing coverage ok
+england:5-nationalleague,2023-24,24,552,552,0,0,1.0,2024-04-20,complete,no dated fixture without result; pairing coverage ok
+england:5-nationalleague,2024-25,24,552,552,0,0,1.0,2025-05-05,complete,no dated fixture without result; pairing coverage ok
+england:5-nationalleague,2025-26,24,564,296,267,0,0.5362,2025-12-30,incomplete,267 dated fixtures before 2026-10-01 without a result
+espana:1-liga,2012-13,20,380,380,0,0,1.0,2013-06-01,complete,no dated fixture without result; pairing coverage ok
+espana:1-liga,2013-14,20,380,380,0,0,1.0,2014-05-18,complete,no dated fixture without result; pairing coverage ok
+espana:1-liga,2014-15,20,380,380,0,0,1.0,2015-05-23,complete,no dated fixture without result; pairing coverage ok
+espana:1-liga,2015-16,20,380,380,0,0,1.0,2016-05-15,complete,no dated fixture without result; pairing coverage ok
+espana:1-liga,2016-17,20,380,380,0,0,1.0,2017-05-21,complete,no dated fixture without result; pairing coverage ok
+espana:1-liga,2017-18,20,380,380,0,0,1.0,2018-05-20,complete,no dated fixture without result; pairing coverage ok
+espana:1-liga,2018-19,20,380,380,0,0,1.0,2019-05-19,complete,no dated fixture without result; pairing coverage ok
+espana:1-liga,2019-20,20,380,380,0,0,1.0,2020-07-19,complete,no dated fixture without result; pairing coverage ok
+espana:1-liga,2020-21,20,380,380,0,0,1.0,2021-05-23,complete,no dated fixture without result; pairing coverage ok
+espana:1-liga,2021-22,20,380,380,0,0,1.0,2022-05-22,complete,no dated fixture without result; pairing coverage ok
+espana:1-liga,2022-23,20,380,380,0,0,1.0,2023-06-04,complete,no dated fixture without result; pairing coverage ok
+espana:1-liga,2023-24,20,380,380,0,0,1.0,2024-05-26,complete,no dated fixture without result; pairing coverage ok
+espana:1-liga,2024-25,20,380,380,0,0,1.0,2025-05-25,complete,no dated fixture without result; pairing coverage ok
+espana:1-liga,2025-26,20,380,380,0,0,1.0,2026-05-24,complete,no dated fixture without result; pairing coverage ok
+espana:1-liga,2026-27,20,380,69,0,0,0.1816,2026-09-20,in_progress_complete_through_cutoff,every dated fixture before 2026-10-01 has a result
+espana:2-liga2,2012-13,22,462,462,0,0,1.0,2013-06-09,complete,no dated fixture without result; pairing coverage ok
+espana:2-liga2,2013-14,22,462,462,0,0,1.0,2014-06-08,complete,no dated fixture without result; pairing coverage ok
+espana:2-liga2,2014-15,22,462,462,0,0,1.0,2015-06-07,complete,no dated fixture without result; pairing coverage ok
+espana:2-liga2,2015-16,22,462,462,0,0,1.0,2016-06-04,complete,no dated fixture without result; pairing coverage ok
+espana:2-liga2,2016-17,22,462,462,0,0,1.0,2017-06-11,complete,no dated fixture without result; pairing coverage ok
+espana:2-liga2,2017-18,22,462,462,0,0,1.0,2018-06-02,complete,no dated fixture without result; pairing coverage ok
+espana:2-liga2,2018-19,22,462,462,0,0,1.0,2019-06-09,complete,no dated fixture without result; pairing coverage ok
+espana:2-liga2,2019-20,22,462,462,0,0,1.0,2020-08-07,complete,no dated fixture without result; pairing coverage ok
+espana:2-liga2,2020-21,22,462,462,0,0,1.0,2021-05-30,complete,no dated fixture without result; pairing coverage ok
+espana:2-liga2,2021-22,22,462,462,0,0,1.0,2022-05-29,complete,no dated fixture without result; pairing coverage ok
+espana:2-liga2,2022-23,22,462,462,0,0,1.0,2023-05-28,complete,no dated fixture without result; pairing coverage ok
+espana:2-liga2,2023-24,22,462,462,0,0,1.0,2024-06-02,complete,no dated fixture without result; pairing coverage ok
+espana:2-liga2,2024-25,22,462,453,9,0,0.9805,2025-05-31,incomplete,9 dated fixtures before 2026-10-01 without a result
+espana:2-liga2,2025-26,22,462,131,331,0,0.2835,2025-11-03,incomplete,331 dated fixtures before 2026-10-01 without a result
+europe/albania:al1,2023-24,10,184,184,0,0,,2024-05-26,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/albania:al1,2024-25,10,184,184,0,0,,2025-05-12,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/andorra:ad1,2023-24,10,135,135,0,0,,2024-05-19,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/andorra:ad1,2024-25,10,135,135,0,0,,2025-05-18,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/armenia:am1,2023-24,10,180,180,0,0,,2024-05-26,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/armenia:am1,2024-25,11,165,165,0,0,,2025-05-28,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/azerbaijan:az1,2023-24,10,180,180,0,0,,2024-05-26,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/azerbaijan:az1,2024-25,10,180,180,0,0,,2025-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/belarus:by1,2023,15,210,210,0,0,1.0,2023-12-02,complete,no dated fixture without result; pairing coverage ok
+europe/belarus:by1,2024,16,240,240,0,0,1.0,2024-12-07,complete,no dated fixture without result; pairing coverage ok
+europe/belarus:by1,2025,16,240,8,232,0,0.0333,2025-03-16,incomplete,232 dated fixtures before 2026-10-01 without a result
+europe/bosnia-herzegovina:ba1,2023-24,12,198,198,0,0,,2024-05-26,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/bosnia-herzegovina:ba1,2024-25,12,198,198,0,0,,2025-05-31,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/bulgaria:bg1,2023-24,15,283,283,0,0,,2024-05-31,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/bulgaria:bg1,2024-25,15,293,292,1,0,,2025-05-26,incomplete,1 dated fixtures before 2026-10-01 without a result
+europe/croatia:hr1,2023-24,10,180,180,0,0,,2024-05-26,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/croatia:hr1,2024-25,10,180,180,0,0,,2025-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/cyprus:cy1,2023-24,14,268,268,0,0,,2024-05-12,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/cyprus:cy1,2024-25,14,240,240,0,0,,2025-05-18,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/czech-republic:cz1,2018-19,16,277,277,0,0,,2019-06-01,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/czech-republic:cz1,2020-21,18,306,306,0,0,1.0,2021-05-29,complete,no dated fixture without result; pairing coverage ok
+europe/czech-republic:cz1,2023-24,16,277,277,0,0,,2024-05-31,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/czech-republic:cz1,2024-25,16,276,276,0,0,,2025-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/czech-republic:cz1,2026-27,16,240,71,0,0,0.2958,2026-09-20,in_progress_complete_through_cutoff,every dated fixture before 2026-10-01 has a result
+europe/czech-republic:cz2,2024-25,16,240,208,32,0,0.8667,2025-05-04,incomplete,32 dated fixtures before 2026-10-01 without a result
+europe/denmark:dk1,2023-24,12,193,193,0,0,,2024-05-31,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/denmark:dk1,2024-25,12,193,192,1,0,,2025-05-25,incomplete,1 dated fixtures before 2026-10-01 without a result
+europe/denmark:dk2,2024-25,12,192,174,18,0,,2025-05-04,incomplete,18 dated fixtures before 2026-10-01 without a result
+europe/estonia:ee1,2023,10,180,180,0,0,,2023-11-11,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/estonia:ee1,2024,10,180,180,0,0,,2024-11-09,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/estonia:ee1,2025,10,180,15,165,0,,2025-03-16,incomplete,165 dated fixtures before 2026-10-01 without a result
+europe/faroe-islands:fo1,2023,10,135,135,0,0,,2023-10-29,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/faroe-islands:fo1,2024,10,135,135,0,0,,2024-10-26,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/faroe-islands:fo1,2025,10,135,40,95,0,,2025-05-04,incomplete,95 dated fixtures before 2026-10-01 without a result
+europe/finland:fi1,2023,12,167,167,0,0,,2023-11-05,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/finland:fi1,2024,12,167,167,0,0,,2024-11-02,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/finland:fi1,2025,12,132,32,100,0,0.2424,2025-05-03,incomplete,100 dated fixtures before 2026-10-01 without a result
+europe/france:fr1,2014-15,20,380,380,0,0,1.0,2015-05-23,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr1,2015-16,20,380,380,0,0,1.0,2016-05-14,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr1,2016-17,20,380,380,0,0,1.0,2017-05-20,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr1,2017-18,20,380,380,0,0,1.0,2018-05-19,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr1,2018-19,20,380,380,0,0,1.0,2019-05-24,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr1,2019-20,20,380,279,0,101,1.0,2020-03-08,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr1,2020-21,20,380,380,0,0,1.0,2021-05-23,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr1,2021-22,20,380,380,0,0,1.0,2022-05-21,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr1,2022-23,20,380,380,0,0,1.0,2023-06-03,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr1,2023-24,18,306,306,0,0,1.0,2024-05-19,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr1,2024-25,18,306,306,0,0,1.0,2025-05-17,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr1,2025-26,18,306,306,0,0,1.0,2026-05-17,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr1,2026-27,18,306,45,0,0,0.1471,2026-09-20,in_progress_complete_through_cutoff,every dated fixture before 2026-10-01 has a result
+europe/france:fr2,2014-15,20,380,380,0,0,1.0,2015-05-22,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr2,2015-16,20,380,380,0,0,1.0,2016-05-13,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr2,2016-17,20,380,380,0,0,1.0,2017-05-19,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr2,2017-18,20,380,380,0,0,1.0,2018-05-11,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr2,2018-19,20,380,380,0,0,1.0,2019-05-17,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr2,2019-20,20,380,280,0,100,1.0,2020-03-09,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr2,2020-21,20,380,380,0,0,1.0,2021-05-15,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr2,2021-22,20,380,380,0,0,1.0,2022-05-14,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr2,2022-23,20,380,380,0,0,1.0,2023-06-02,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr2,2023-24,20,380,380,0,0,1.0,2024-05-17,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr2,2024-25,18,306,306,0,0,1.0,2025-05-10,complete,no dated fixture without result; pairing coverage ok
+europe/france:fr2,2025-26,18,306,116,190,0,0.3791,2025-11-03,incomplete,190 dated fixtures before 2026-10-01 without a result
+europe/georgia:ge1,2023,10,180,180,0,0,,2023-12-02,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/georgia:ge1,2024,10,180,180,0,0,,2024-12-08,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/georgia:ge1,2025,10,180,17,163,0,,2025-03-16,incomplete,163 dated fixtures before 2026-10-01 without a result
+europe/gibraltar:gi1,2023-24,11,125,125,0,0,,2024-05-12,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/gibraltar:gi1,2024-25,11,125,125,0,0,,2025-05-04,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/greece:gr1,2018-19,16,240,240,0,0,1.0,2019-05-05,complete,no dated fixture without result; pairing coverage ok
+europe/greece:gr1,2019-20,14,240,240,0,0,,2020-07-19,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/greece:gr1,2020-21,14,240,240,0,0,,2021-05-19,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/greece:gr1,2023-24,14,240,240,0,0,,2024-05-19,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/greece:gr1,2024-25,14,236,236,0,0,,2025-05-22,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/greece:gr1,2025-26,14,182,62,120,0,0.3407,2025-11-03,incomplete,120 dated fixtures before 2026-10-01 without a result
+europe/greece:gr1,2026-27,14,182,35,0,0,0.1923,2026-09-20,in_progress_complete_through_cutoff,every dated fixture before 2026-10-01 has a result
+europe/hungary:hu1,2018-19,12,198,198,0,0,,2019-05-19,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/hungary:hu1,2020-21,12,198,198,0,0,,2021-05-09,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/hungary:hu1,2023-24,12,198,198,0,0,,2024-05-19,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/hungary:hu1,2024-25,12,198,198,0,0,,2025-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/iceland:is1,2023,12,162,162,0,0,,2023-10-08,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/iceland:is1,2024,12,162,162,0,0,,2024-10-27,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/iceland:is1,2025,12,132,27,105,0,0.2045,2025-05-04,incomplete,105 dated fixtures before 2026-10-01 without a result
+europe/ireland:ie1,2023,10,180,180,0,0,,2023-11-03,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/ireland:ie1,2024,10,180,180,0,0,,2024-11-01,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/ireland:ie1,2025,10,180,65,115,0,,2025-05-02,incomplete,115 dated fixtures before 2026-10-01 without a result
+europe/kosovo:kos1,2023-24,10,180,180,0,0,,2024-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/kosovo:kos1,2024-25,10,180,180,0,0,,2025-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/latvia:lv1,2023,10,180,180,0,0,,2023-11-11,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/latvia:lv1,2024,10,180,180,0,0,,2024-11-10,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/latvia:lv1,2025,10,180,51,129,0,,2025-05-04,incomplete,129 dated fixtures before 2026-10-01 without a result
+europe/lithuania:lt1,2023,10,180,180,0,0,,2023-11-12,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/lithuania:lt1,2024,10,180,180,0,0,,2024-11-09,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/lithuania:lt1,2025,10,90,15,75,0,0.1667,2025-03-16,incomplete,75 dated fixtures before 2026-10-01 without a result
+europe/luxembourg:lu1,2023-24,16,240,240,0,0,1.0,2024-05-26,complete,no dated fixture without result; pairing coverage ok
+europe/luxembourg:lu1,2024-25,16,240,240,0,0,1.0,2025-05-25,complete,no dated fixture without result; pairing coverage ok
+europe/malta:mt1,2023-24,14,182,182,0,0,1.0,2024-05-04,complete,no dated fixture without result; pairing coverage ok
+europe/malta:mt1,2024-25,12,197,197,0,0,,2025-05-10,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/moldova:md1,2023-24,8,86,86,0,0,,2024-05-18,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/moldova:md1,2024-25,8,86,86,0,0,,2025-05-18,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/montenegro:me1,2023-24,10,180,180,0,0,,2024-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/montenegro:me1,2024-25,10,180,179,0,0,,2025-05-24,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/netherlands:nl1,2018-19,18,306,306,0,0,1.0,2019-05-15,complete,no dated fixture without result; pairing coverage ok
+europe/netherlands:nl1,2019-20,18,306,232,0,74,1.0,2020-03-08,complete,no dated fixture without result; pairing coverage ok
+europe/netherlands:nl1,2020-21,18,306,306,0,0,1.0,2021-05-16,complete,no dated fixture without result; pairing coverage ok
+europe/netherlands:nl1,2021-22,18,306,306,0,0,1.0,2022-05-15,complete,no dated fixture without result; pairing coverage ok
+europe/netherlands:nl1,2022-23,18,306,306,0,0,1.0,2023-05-28,complete,no dated fixture without result; pairing coverage ok
+europe/netherlands:nl1,2023-24,18,306,306,0,0,1.0,2024-05-19,complete,no dated fixture without result; pairing coverage ok
+europe/netherlands:nl1,2024-25,18,306,306,0,0,1.0,2025-05-18,complete,no dated fixture without result; pairing coverage ok
+europe/netherlands:nl1,2025-26,18,306,305,0,1,1.0,2026-05-17,complete,no dated fixture without result; pairing coverage ok
+europe/netherlands:nl1,2026-27,18,306,63,0,0,0.2059,2026-09-20,in_progress_complete_through_cutoff,every dated fixture before 2026-10-01 has a result
+europe/netherlands:nl2,2020-21,20,380,380,0,0,1.0,2021-05-12,complete,no dated fixture without result; pairing coverage ok
+europe/netherlands:nl2,2021-22,20,380,380,0,0,1.0,2022-05-06,complete,no dated fixture without result; pairing coverage ok
+europe/netherlands:nl2,2022-23,20,380,380,0,0,1.0,2023-05-19,complete,no dated fixture without result; pairing coverage ok
+europe/netherlands:nl2,2023-24,20,380,380,0,0,1.0,2024-05-10,complete,no dated fixture without result; pairing coverage ok
+europe/netherlands:nl2,2024-25,20,380,370,10,0,0.9737,2025-05-02,incomplete,10 dated fixtures before 2026-10-01 without a result
+europe/north-macedonia:mk1,2023-24,12,198,198,0,0,,2024-05-18,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/north-macedonia:mk1,2024-25,12,198,198,0,0,,2025-05-18,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/northern-ireland:nir1,2023-24,12,198,198,0,0,,2024-04-02,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/northern-ireland:nir1,2024-25,12,231,231,0,0,,2025-05-11,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/norway:no1,2023,16,240,240,0,0,1.0,2023-12-03,complete,no dated fixture without result; pairing coverage ok
+europe/norway:no1,2024,16,240,240,0,0,1.0,2024-12-01,complete,no dated fixture without result; pairing coverage ok
+europe/norway:no1,2025,16,240,44,196,0,0.1833,2025-05-04,incomplete,196 dated fixtures before 2026-10-01 without a result
+europe/norway:no2,2025,16,240,40,200,0,0.1667,2025-05-04,incomplete,200 dated fixtures before 2026-10-01 without a result
+europe/poland:pl1,2023-24,18,306,306,0,0,1.0,2024-05-25,complete,no dated fixture without result; pairing coverage ok
+europe/poland:pl1,2024-25,18,306,306,0,0,1.0,2025-05-24,complete,no dated fixture without result; pairing coverage ok
+europe/poland:pl2,2024-25,18,306,278,28,0,0.9085,2025-05-04,incomplete,28 dated fixtures before 2026-10-01 without a result
+europe/portugal:pt1,2018-19,18,306,306,0,0,1.0,2019-05-19,complete,no dated fixture without result; pairing coverage ok
+europe/portugal:pt1,2019-20,18,306,306,0,0,1.0,2020-07-26,complete,no dated fixture without result; pairing coverage ok
+europe/portugal:pt1,2020-21,18,306,306,0,0,1.0,2021-05-19,complete,no dated fixture without result; pairing coverage ok
+europe/portugal:pt1,2021-22,18,306,306,0,0,1.0,2022-05-15,complete,no dated fixture without result; pairing coverage ok
+europe/portugal:pt1,2022-23,18,306,306,0,0,1.0,2023-05-27,complete,no dated fixture without result; pairing coverage ok
+europe/portugal:pt1,2023-24,18,306,306,0,0,1.0,2024-05-18,complete,no dated fixture without result; pairing coverage ok
+europe/portugal:pt1,2024-25,18,306,306,0,0,1.0,2025-05-17,complete,no dated fixture without result; pairing coverage ok
+europe/portugal:pt1,2025-26,18,306,306,0,0,1.0,2026-05-16,complete,no dated fixture without result; pairing coverage ok
+europe/portugal:pt1,2026-27,18,306,62,1,0,0.2026,2026-09-20,incomplete,1 dated fixtures before 2026-10-01 without a result
+europe/portugal:pt2,2020-21,18,306,306,0,0,1.0,2021-05-22,complete,no dated fixture without result; pairing coverage ok
+europe/portugal:pt2,2021-22,18,306,306,0,0,1.0,2022-05-15,complete,no dated fixture without result; pairing coverage ok
+europe/portugal:pt2,2022-23,18,306,306,0,0,1.0,2023-05-28,complete,no dated fixture without result; pairing coverage ok
+europe/portugal:pt2,2023-24,18,306,306,0,0,1.0,2024-05-19,complete,no dated fixture without result; pairing coverage ok
+europe/portugal:pt2,2024-25,18,306,234,72,0,0.7647,2025-03-16,incomplete,72 dated fixtures before 2026-10-01 without a result
+europe/romania:ro1,2023-24,15,317,317,0,0,,2024-05-26,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/romania:ro1,2024-25,16,315,315,0,0,,2025-05-24,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/russia:ru1,2018-19,16,240,240,0,0,1.0,2019-05-26,complete,no dated fixture without result; pairing coverage ok
+europe/russia:ru1,2019-20,16,240,240,0,0,1.0,2020-07-22,complete,no dated fixture without result; pairing coverage ok
+europe/russia:ru1,2020-21,16,240,240,0,0,1.0,2021-05-16,complete,no dated fixture without result; pairing coverage ok
+europe/russia:ru1,2023-24,16,240,240,0,0,0.9958,2024-05-25,complete,no dated fixture without result; pairing coverage ok
+europe/russia:ru1,2024-25,16,240,240,0,0,1.0,2025-05-24,complete,no dated fixture without result; pairing coverage ok
+europe/san-marino:sm1,2023-24,16,256,256,0,0,1.0,2024-05-18,complete,no dated fixture without result; pairing coverage ok
+europe/san-marino:sm1,2024-25,16,256,256,0,0,1.0,2025-05-17,complete,no dated fixture without result; pairing coverage ok
+europe/scotland:sco1,2018-19,12,198,198,0,0,,2019-04-07,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/scotland:sco1,2019-20,12,198,179,0,19,,2020-03-11,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/scotland:sco1,2020-21,12,198,198,0,0,,2021-03-21,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/scotland:sco1,2023-24,12,228,228,0,0,,2024-05-19,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/scotland:sco1,2024-25,12,228,228,0,0,,2025-05-18,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/scotland:sco1,2025-26,12,198,63,135,0,,2025-11-01,incomplete,135 dated fixtures before 2026-10-01 without a result
+europe/scotland:sco1,2026-27,12,198,42,0,0,,2026-09-20,in_progress_complete_through_cutoff,every dated fixture before 2026-10-01 has a result
+europe/serbia:rs1,2023-24,16,296,296,0,0,,2024-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/serbia:rs1,2024-25,16,296,296,0,0,,2025-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/slovakia:sk1,2023-24,12,192,192,0,0,,2024-05-18,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/slovakia:sk1,2024-25,12,195,195,0,0,,2025-05-23,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/slovenia:si1,2023-24,10,180,180,0,0,,2024-05-19,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/slovenia:si1,2024-25,10,180,180,0,0,,2025-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/sweden:se1,2023,16,240,240,0,0,1.0,2023-11-12,complete,no dated fixture without result; pairing coverage ok
+europe/sweden:se1,2024,16,240,240,0,0,1.0,2024-11-10,complete,no dated fixture without result; pairing coverage ok
+europe/sweden:se1,2025,16,240,53,187,0,0.2208,2025-05-04,incomplete,187 dated fixtures before 2026-10-01 without a result
+europe/sweden:se2,2025,16,240,45,195,0,0.1875,2025-05-04,incomplete,195 dated fixtures before 2026-10-01 without a result
+europe/sweden:se3s,2025,16,240,47,193,0,0.1958,2025-05-04,incomplete,193 dated fixtures before 2026-10-01 without a result
+europe/switzerland:ch1,2014-15,10,180,180,0,0,,2015-05-29,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/switzerland:ch1,2018-19,10,180,180,0,0,,2019-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/switzerland:ch1,2019-20,10,180,180,0,0,,2020-08-03,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/switzerland:ch1,2020-21,10,180,180,0,0,,2021-05-21,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/switzerland:ch1,2023-24,12,228,228,0,0,,2024-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/switzerland:ch1,2024-25,12,228,228,0,0,,2025-05-24,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/switzerland:ch1,2026-27,12,132,54,0,0,0.4091,2026-09-20,in_progress_complete_through_cutoff,every dated fixture before 2026-10-01 has a result
+europe/switzerland:ch2,2019-20,10,180,180,0,0,,2020-08-02,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/switzerland:ch2,2020-21,10,180,180,0,0,,2021-05-20,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/switzerland:ch2,2023-24,10,180,180,0,0,,2024-05-20,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/switzerland:ch2,2024-25,10,180,130,50,0,,2025-03-16,incomplete,50 dated fixtures before 2026-10-01 without a result
+europe/turkey:tr1,2018-19,18,306,306,0,0,1.0,2019-05-26,complete,no dated fixture without result; pairing coverage ok
+europe/turkey:tr1,2019-20,18,306,306,0,0,1.0,2020-07-26,complete,no dated fixture without result; pairing coverage ok
+europe/turkey:tr1,2020-21,21,420,420,0,0,1.0,2021-05-15,complete,no dated fixture without result; pairing coverage ok
+europe/turkey:tr1,2023-24,20,380,380,0,0,1.0,2024-05-26,complete,no dated fixture without result; pairing coverage ok
+europe/turkey:tr1,2024-25,19,342,338,4,0,0.9883,2025-05-31,incomplete,4 dated fixtures before 2026-10-01 without a result
+europe/turkey:tr1,2025-26,18,306,99,207,0,0.3235,2025-11-03,incomplete,207 dated fixtures before 2026-10-01 without a result
+europe/turkey:tr1,2026-27,18,306,36,18,0,0.1176,2026-09-07,incomplete,18 dated fixtures before 2026-10-01 without a result
+europe/turkey:tr2,2019-20,18,311,311,0,0,1.0,2020-07-30,complete,no dated fixture without result; pairing coverage ok
+europe/ukraine:ua1,2023-24,16,240,240,0,0,1.0,2024-05-25,complete,no dated fixture without result; pairing coverage ok
+europe/ukraine:ua1,2024-25,16,240,240,0,0,1.0,2025-05-25,complete,no dated fixture without result; pairing coverage ok
+europe/wales:wal1,2023-24,12,195,195,0,0,,2024-05-18,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+europe/wales:wal1,2024-25,12,196,196,0,0,,2025-05-18,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+italy:1-seriea,2013-14,20,380,380,0,0,1.0,2014-05-18,complete,no dated fixture without result; pairing coverage ok
+italy:1-seriea,2014-15,20,380,380,0,0,1.0,2015-05-31,complete,no dated fixture without result; pairing coverage ok
+italy:1-seriea,2015-16,20,380,380,0,0,1.0,2016-05-15,complete,no dated fixture without result; pairing coverage ok
+italy:1-seriea,2016-17,20,380,380,0,0,1.0,2017-05-28,complete,no dated fixture without result; pairing coverage ok
+italy:1-seriea,2017-18,20,380,380,0,0,1.0,2018-05-20,complete,no dated fixture without result; pairing coverage ok
+italy:1-seriea,2018-19,20,380,380,0,0,1.0,2019-05-26,complete,no dated fixture without result; pairing coverage ok
+italy:1-seriea,2019-20,20,380,380,0,0,1.0,2020-08-02,complete,no dated fixture without result; pairing coverage ok
+italy:1-seriea,2020-21,20,380,380,0,0,1.0,2021-05-23,complete,no dated fixture without result; pairing coverage ok
+italy:1-seriea,2021-22,20,380,380,0,0,1.0,2022-05-22,complete,no dated fixture without result; pairing coverage ok
+italy:1-seriea,2022-23,20,380,380,0,0,1.0,2023-06-04,complete,no dated fixture without result; pairing coverage ok
+italy:1-seriea,2023-24,20,380,380,0,0,1.0,2024-06-02,complete,no dated fixture without result; pairing coverage ok
+italy:1-seriea,2024-25,20,380,380,0,0,1.0,2025-05-25,complete,no dated fixture without result; pairing coverage ok
+italy:1-seriea,2025-26,20,380,380,0,0,1.0,2026-05-24,complete,no dated fixture without result; pairing coverage ok
+italy:1-seriea,2026-27,20,380,50,0,0,0.1316,2026-09-20,in_progress_complete_through_cutoff,every dated fixture before 2026-10-01 has a result
+italy:2-serieb,2013-14,22,472,472,0,0,1.0,2014-06-18,complete,no dated fixture without result; pairing coverage ok
+italy:2-serieb,2014-15,22,472,472,0,0,1.0,2015-06-09,complete,no dated fixture without result; pairing coverage ok
+italy:2-serieb,2015-16,22,472,472,0,0,1.0,2016-06-09,complete,no dated fixture without result; pairing coverage ok
+italy:2-serieb,2016-17,22,470,470,0,0,1.0,2017-06-08,complete,no dated fixture without result; pairing coverage ok
+italy:2-serieb,2017-18,22,472,472,0,0,1.0,2018-06-16,complete,no dated fixture without result; pairing coverage ok
+italy:2-serieb,2018-19,19,352,352,0,0,1.0,2019-06-09,complete,no dated fixture without result; pairing coverage ok
+italy:2-serieb,2019-20,20,390,390,0,0,1.0,2020-08-20,complete,no dated fixture without result; pairing coverage ok
+italy:2-serieb,2020-21,20,388,388,0,0,1.0,2021-05-27,complete,no dated fixture without result; pairing coverage ok
+italy:2-serieb,2021-22,20,390,390,0,0,1.0,2022-05-29,complete,no dated fixture without result; pairing coverage ok
+italy:2-serieb,2022-23,20,390,390,0,0,1.0,2023-06-11,complete,no dated fixture without result; pairing coverage ok
+italy:2-serieb,2023-24,20,390,390,0,0,1.0,2024-06-02,complete,no dated fixture without result; pairing coverage ok
+italy:2-serieb,2024-25,20,390,387,3,0,1.0,2025-05-29,incomplete,3 dated fixtures before 2026-10-01 without a result
+italy:2-serieb,2025-26,20,380,309,71,0,0.8132,2026-03-17,incomplete,71 dated fixtures before 2026-10-01 without a result
+italy:3-seriec_a,2024-25,20,380,329,51,0,0.8658,2025-03-23,incomplete,51 dated fixtures before 2026-10-01 without a result
+italy:3-seriec_b,2024-25,20,380,330,50,0,0.8684,2025-03-23,incomplete,50 dated fixtures before 2026-10-01 without a result
+italy:3-seriec_c,2024-25,20,380,266,40,74,0.8947,2025-03-24,incomplete,40 dated fixtures before 2026-10-01 without a result
+south-america/argentina:ar1,2018-19,26,325,325,0,0,,2019-04-07,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+south-america/argentina:ar1,2019-20,24,276,276,0,0,,2020-03-09,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+south-america/argentina:ar1,2020,24,135,135,0,0,,2021-03-31,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+south-america/argentina:ar1,2021,26,325,325,0,0,,2021-12-13,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+south-america/argentina:ar1,2022,28,378,378,0,0,,2022-10-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+south-america/argentina:ar1,2023,28,378,378,0,0,,2023-07-30,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+south-america/argentina:ar1,2024,28,378,378,0,0,,2024-12-16,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+south-america/argentina:ar1,2025,30,240,240,0,0,,2025-05-04,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+south-america/brazil:br1,2018,20,380,380,0,0,1.0,2018-12-02,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br1,2019,20,380,380,0,0,1.0,2019-12-08,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br1,2020,20,380,380,0,0,1.0,2021-02-25,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br1,2021,20,380,380,0,0,1.0,2021-12-09,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br1,2022,20,380,380,0,0,1.0,2022-11-13,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br1,2023,20,380,380,0,0,1.0,2023-12-06,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br1,2024,20,380,380,0,0,1.0,2024-12-08,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br1,2025,20,380,380,0,0,1.0,2025-12-07,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br1,2026,20,380,277,1,0,0.7289,2026-09-20,incomplete,1 dated fixtures before 2026-10-01 without a result
+south-america/brazil:br2,2018,20,380,380,0,0,1.0,2018-11-24,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br2,2019,20,380,380,0,0,1.0,2019-11-30,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br2,2020,20,380,380,0,0,1.0,2021-01-29,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br2,2021,20,380,380,0,0,1.0,2021-11-28,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br2,2022,20,380,380,0,0,1.0,2022-11-06,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br2,2023,20,380,380,0,0,1.0,2023-11-25,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br2,2024,20,380,380,0,0,1.0,2024-11-24,complete,no dated fixture without result; pairing coverage ok
+south-america/brazil:br2,2025,20,380,57,323,0,0.15,2025-05-04,incomplete,323 dated fixtures before 2026-10-01 without a result
+south-america/colombia:co1,2023,20,452,452,0,0,,2023-12-13,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+south-america/colombia:co1,2024,20,432,432,0,0,,2024-12-22,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+south-america/colombia:co1,2025,20,200,167,32,0,,2025-05-04,incomplete,32 dated fixtures before 2026-10-01 without a result
+south-america/ecuador:ec1,2025,16,240,86,154,0,0.3583,2025-05-04,incomplete,154 dated fixtures before 2026-10-01 without a result
+south-america/paraguay:py1,2025,12,138,101,37,0,0.7652,2025-05-04,incomplete,37 dated fixtures before 2026-10-01 without a result
+world/africa:dz1,2023-24,16,240,240,0,0,1.0,2024-06-14,complete,no dated fixture without result; pairing coverage ok
+world/africa:dz1,2024-25,16,240,160,80,0,0.6667,2025-03-16,incomplete,80 dated fixtures before 2026-10-01 without a result
+world/africa:eg1,2023-24,18,306,306,0,0,0.9967,2024-08-18,complete,no dated fixture without result; pairing coverage ok
+world/africa:eg1,2024-25,18,225,183,42,0,,2025-05-04,incomplete,42 dated fixtures before 2026-10-01 without a result
+world/africa:gh1,2016-17,16,240,240,0,0,1.0,2017-10-22,complete,no dated fixture without result; pairing coverage ok
+world/africa:gh1,2020-21,18,306,306,0,0,1.0,2021-07-18,complete,no dated fixture without result; pairing coverage ok
+world/africa:gh1,2021-22,18,306,306,0,0,1.0,2022-06-19,complete,no dated fixture without result; pairing coverage ok
+world/africa:gh1,2022-23,18,306,306,0,0,1.0,2023-06-11,complete,no dated fixture without result; pairing coverage ok
+world/africa:gh1,2023-24,18,306,306,0,0,1.0,2024-06-16,complete,no dated fixture without result; pairing coverage ok
+world/africa:gh1,2024-25,18,306,306,0,0,1.0,2025-06-08,complete,no dated fixture without result; pairing coverage ok
+world/africa:ke1,2022-23,18,306,306,0,0,1.0,2023-06-25,complete,no dated fixture without result; pairing coverage ok
+world/africa:ke1,2023-24,18,306,306,0,0,1.0,2024-06-23,complete,no dated fixture without result; pairing coverage ok
+world/africa:ke1,2024-25,18,306,306,0,0,1.0,2025-06-22,complete,no dated fixture without result; pairing coverage ok
+world/africa:ke1,2025-26,18,306,306,0,0,1.0,2026-05-31,complete,no dated fixture without result; pairing coverage ok
+world/africa:ma1,2023-24,16,240,240,0,0,1.0,2024-06-14,complete,no dated fixture without result; pairing coverage ok
+world/africa:ma1,2024-25,16,200,200,0,0,,2025-03-16,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/africa:mw1,2023,16,240,240,0,0,1.0,2023-12-03,complete,no dated fixture without result; pairing coverage ok
+world/africa:mw1,2024,16,240,240,0,0,1.0,2024-12-07,complete,no dated fixture without result; pairing coverage ok
+world/africa:mw1,2025,16,240,240,0,0,1.0,2025-12-27,complete,no dated fixture without result; pairing coverage ok
+world/africa:ng1,2025-26,20,380,380,0,0,1.0,2026-05-24,complete,no dated fixture without result; pairing coverage ok
+world/africa:ng2,2025-26,36,275,266,0,9,,2026-05-08,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/africa:rw1,2021-22,16,240,240,0,0,1.0,2022-06-18,complete,no dated fixture without result; pairing coverage ok
+world/africa:rw1,2022-23,16,240,240,0,0,0.9917,2023-05-28,complete,no dated fixture without result; pairing coverage ok
+world/africa:rw1,2023-24,16,240,240,0,0,1.0,2024-05-12,complete,no dated fixture without result; pairing coverage ok
+world/africa:rw1,2024-25,16,240,240,0,0,1.0,2025-05-28,complete,no dated fixture without result; pairing coverage ok
+world/africa:rw1,2025-26,18,306,306,0,0,1.0,2026-05-31,complete,no dated fixture without result; pairing coverage ok
+world/africa:sn1,2020-21,14,182,182,0,0,1.0,2021-06-30,complete,no dated fixture without result; pairing coverage ok
+world/africa:sn1,2021-22,14,182,182,0,0,1.0,2022-06-12,complete,no dated fixture without result; pairing coverage ok
+world/africa:sn1,2022-23,14,182,182,0,0,1.0,2023-06-25,complete,no dated fixture without result; pairing coverage ok
+world/africa:sn1,2024-25,16,240,240,0,0,1.0,2025-06-29,complete,no dated fixture without result; pairing coverage ok
+world/africa:sn1,2025-26,16,240,240,0,0,1.0,2026-06-04,complete,no dated fixture without result; pairing coverage ok
+world/africa:tz1,2020-21,18,306,306,0,0,1.0,2021-07-18,complete,no dated fixture without result; pairing coverage ok
+world/africa:tz1,2021-22,16,240,240,0,0,1.0,2022-06-29,complete,no dated fixture without result; pairing coverage ok
+world/africa:tz1,2023-24,16,240,240,0,0,1.0,2024-05-28,complete,no dated fixture without result; pairing coverage ok
+world/africa:tz1,2024-25,16,240,240,0,0,1.0,2025-06-25,complete,no dated fixture without result; pairing coverage ok
+world/africa:tz1,2025-26,16,240,240,0,0,1.0,2026-06-30,complete,no dated fixture without result; pairing coverage ok
+world/africa:ug1,2023-24,16,225,225,0,0,0.9375,2024-05-18,incomplete,only 0.938 of the 240 home/away pairings have a result or a cancellation
+world/africa:ug1,2024-25,16,240,240,0,0,1.0,2025-05-24,complete,no dated fixture without result; pairing coverage ok
+world/africa:ug1,2025-26,16,240,240,0,0,1.0,2026-05-23,complete,no dated fixture without result; pairing coverage ok
+world/africa:za1,2024-25,16,240,189,21,30,0.9125,2025-05-04,incomplete,21 dated fixtures before 2026-10-01 without a result
+world/africa:zm1,2021-22,18,306,306,0,0,1.0,2022-05-08,complete,no dated fixture without result; pairing coverage ok
+world/africa:zm1,2023-24,18,306,306,0,0,1.0,2024-06-01,complete,no dated fixture without result; pairing coverage ok
+world/africa:zm1,2024-25,18,306,306,0,0,1.0,2025-05-17,complete,no dated fixture without result; pairing coverage ok
+world/africa:zm1,2025-26,18,306,306,0,0,1.0,2026-05-24,complete,no dated fixture without result; pairing coverage ok
+world/africa:zw1,2021-22,18,306,306,0,0,1.0,2022-06-26,complete,no dated fixture without result; pairing coverage ok
+world/africa:zw1,2023,18,306,306,0,0,1.0,2023-11-26,complete,no dated fixture without result; pairing coverage ok
+world/africa:zw1,2024,18,306,306,0,0,1.0,2024-11-24,complete,no dated fixture without result; pairing coverage ok
+world/africa:zw1,2025,18,306,306,0,0,1.0,2025-11-23,complete,no dated fixture without result; pairing coverage ok
+world/asia:cn1,2018,16,240,240,0,0,1.0,2018-11-11,complete,no dated fixture without result; pairing coverage ok
+world/asia:cn1,2019,16,240,240,0,0,1.0,2019-12-01,complete,no dated fixture without result; pairing coverage ok
+world/asia:cn1,2020,16,160,160,0,0,,2020-11-12,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/asia:cn1,2021,17,176,176,0,0,,2022-01-04,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/asia:cn1,2022,18,306,306,0,0,0.9967,2022-12-31,complete,no dated fixture without result; pairing coverage ok
+world/asia:cn1,2023,16,240,240,0,0,1.0,2023-11-04,complete,no dated fixture without result; pairing coverage ok
+world/asia:cn1,2024,16,240,240,0,0,1.0,2024-11-02,complete,no dated fixture without result; pairing coverage ok
+world/asia:cn1,2025,16,240,79,161,0,0.3292,2025-05-05,incomplete,161 dated fixtures before 2026-10-01 without a result
+world/asia:jp1,2019,18,306,306,0,0,1.0,2019-12-07,complete,no dated fixture without result; pairing coverage ok
+world/asia:jp1,2020,18,306,306,0,0,1.0,2020-12-19,complete,no dated fixture without result; pairing coverage ok
+world/asia:jp1,2021,20,380,380,0,0,1.0,2021-12-04,complete,no dated fixture without result; pairing coverage ok
+world/asia:jp1,2022,18,306,306,0,0,1.0,2022-11-05,complete,no dated fixture without result; pairing coverage ok
+world/asia:jp1,2023,18,306,306,0,0,1.0,2023-12-03,complete,no dated fixture without result; pairing coverage ok
+world/asia:jp1,2024,20,380,380,0,0,1.0,2024-12-08,complete,no dated fixture without result; pairing coverage ok
+world/asia:jp1,2025,20,380,136,244,0,0.3579,2025-05-03,incomplete,244 dated fixtures before 2026-10-01 without a result
+world/asia:kz1,2023,14,182,182,0,0,1.0,2023-10-29,complete,no dated fixture without result; pairing coverage ok
+world/asia:kz1,2024,13,156,156,0,0,1.0,2024-11-10,complete,no dated fixture without result; pairing coverage ok
+world/asia:kz1,2025,14,182,14,168,0,0.0769,2025-03-09,incomplete,168 dated fixtures before 2026-10-01 without a result
+world/central-america:cr1,2024-25,12,272,267,5,0,,2025-05-07,incomplete,5 dated fixtures before 2026-10-01 without a result
+world/middle-east:il1,2023-24,14,240,240,0,0,,2024-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/middle-east:il1,2024-25,14,240,240,0,0,,2025-05-24,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/middle-east:il2,2024-25,16,296,277,19,0,,2025-05-02,incomplete,19 dated fixtures before 2026-10-01 without a result
+world/middle-east:sa1,2024-25,18,306,267,39,0,0.8725,2025-05-02,incomplete,39 dated fixtures before 2026-10-01 without a result
+world/north-america:mls,2005,12,203,203,0,0,,2005-11-13,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mls,2006,12,203,203,0,0,,2006-11-12,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mls,2007,13,206,206,0,0,,2007-11-18,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mls,2008,14,221,221,0,0,,2008-11-23,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mls,2009,15,236,236,0,0,,2009-11-22,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mls,2010,16,251,251,0,0,1.0,2010-11-21,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mls,2011,18,319,319,0,0,1.0,2011-11-20,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mls,2012,19,338,338,0,0,0.7398,2012-12-01,incomplete,only 0.740 of the 342 home/away pairings have a result or a cancellation
+world/north-america:mls,2013,19,338,338,0,0,0.7398,2013-12-07,incomplete,only 0.740 of the 342 home/away pairings have a result or a cancellation
+world/north-america:mls,2014,19,338,338,0,0,0.7368,2014-12-07,incomplete,only 0.737 of the 342 home/away pairings have a result or a cancellation
+world/north-america:mls,2015,20,357,357,0,0,0.7368,2015-12-06,incomplete,only 0.737 of the 380 home/away pairings have a result or a cancellation
+world/north-america:mls,2016,20,357,357,0,0,0.7368,2016-12-10,incomplete,only 0.737 of the 380 home/away pairings have a result or a cancellation
+world/north-america:mls,2017,22,391,391,0,0,,2017-12-09,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mls,2018,23,408,408,0,0,,2018-12-08,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mls,2019,24,421,421,0,0,,2019-11-10,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mls,2020,26,316,308,0,8,,2020-12-12,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mls,2021,27,472,472,0,0,,2021-12-11,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mls,2022,28,489,489,0,0,,2022-11-05,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mls,2023,29,521,520,0,0,,2023-12-09,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mls,2024,29,522,518,0,0,,2024-12-07,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mls,2025,30,510,164,346,0,,2025-05-04,incomplete,346 dated fixtures before 2026-10-01 without a result
+world/north-america:mx1,2010-11,18,334,334,0,0,1.0,2011-05-22,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx1,2011-12,18,334,334,0,0,1.0,2012-05-20,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx1,2012-13,18,334,334,0,0,1.0,2013-05-26,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx1,2013-14,18,334,334,0,0,1.0,2014-05-18,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx1,2014-15,18,334,334,0,0,1.0,2015-05-31,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx1,2015-16,18,334,334,0,0,1.0,2016-05-29,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx1,2016-17,18,334,334,0,0,1.0,2017-05-28,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx1,2017-18,18,334,334,0,0,1.0,2018-05-20,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx1,2018-19,18,334,334,0,0,1.0,2019-05-26,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx1,2019-20,19,338,275,0,63,0.9474,2020-03-15,incomplete,only 0.947 of the 342 home/away pairings have a result or a cancellation
+world/north-america:mx1,2020-21,18,342,342,0,0,1.0,2021-05-30,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx1,2021-22,18,342,342,0,0,1.0,2022-05-29,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx1,2022-23,18,342,342,0,0,1.0,2023-05-28,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx1,2023-24,18,340,339,0,0,1.0,2024-05-26,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx1,2024-25,18,340,340,0,0,1.0,2025-05-25,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx2ascenso,2010-11,18,315,315,0,0,0.9444,2011-05-21,incomplete,only 0.944 of the 306 home/away pairings have a result or a cancellation
+world/north-america:mx2ascenso,2011-12,16,251,251,0,0,0.9375,2012-05-12,incomplete,only 0.938 of the 240 home/away pairings have a result or a cancellation
+world/north-america:mx2ascenso,2012-13,15,236,235,0,0,,2013-05-15,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mx2ascenso,2013-14,15,236,234,0,0,,2014-05-07,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mx2ascenso,2014-15,14,207,206,0,0,,2015-05-16,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mx2ascenso,2015-16,16,266,266,0,0,1.0,2016-05-21,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx2ascenso,2016-17,18,336,336,0,0,1.0,2017-05-20,complete,no dated fixture without result; pairing coverage ok
+world/north-america:mx2ascenso,2017-18,16,270,270,0,0,,2018-05-12,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mx2ascenso,2018-19,15,238,238,0,0,,2019-05-05,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mx2ascenso,2019-20,14,169,151,0,18,0.8571,2020-03-15,incomplete,only 0.857 of the 182 home/away pairings have a result or a cancellation
+world/north-america:mx2expansion,2020-21,16,276,276,0,0,,2021-05-22,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mx2expansion,2021-22,17,310,310,0,0,,2022-05-22,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mx2expansion,2022-23,18,344,344,0,0,,2023-06-03,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mx2expansion,2023-24,15,246,246,0,0,,2024-05-18,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/north-america:mx2expansion,2024-25,15,224,196,28,0,0.8714,2025-03-22,incomplete,28 dated fixtures before 2026-10-01 without a result
+world/pacific:au1,2018-19,10,140,140,0,0,,2019-05-19,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/pacific:au1,2019-20,11,148,148,0,0,,2020-08-30,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/pacific:au1,2020-21,12,161,161,0,0,,2021-06-27,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/pacific:au1,2021-22,12,163,163,0,0,,2022-05-28,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/pacific:au1,2022-23,12,163,163,0,0,,2023-06-03,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/pacific:au1,2023-24,12,169,169,0,0,,2024-05-25,complete,no dated fixture without result (non-round-robin format: format completeness not rule-verifiable)
+world/pacific:au1,2024-25,15,176,169,7,0,,2025-05-04,incomplete,7 dated fixtures before 2026-10-01 without a result

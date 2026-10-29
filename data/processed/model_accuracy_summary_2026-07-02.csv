@@ -1,0 +1,8 @@
+scope,selection,matches,correct,accuracy_pct,definition
+All genuine fixtures,Raw best read,61,40,65.57,Every internal top 1X2 outcome regardless of confidence gate
+All genuine fixtures,Strong Pick,3,1,33.33,Only fixtures published as Strong Pick
+All genuine fixtures,Model Lean,30,22,73.33,Only fixtures published as Model Lean
+All genuine fixtures,Pass-row best read,28,17,60.71,Internal best read on fixtures withheld as Pass
+Third group matches onward,Raw best read,33,23,69.70,Every genuine top 1X2 outcome from 2026-06-24 15:00 ET
+Third group matches onward,Model Lean,18,15,83.33,Model Leans from 2026-06-24 15:00 ET
+Third group matches onward,Pass-row best read,15,8,53.33,Internal best read on Pass rows from 2026-06-24 15:00 ET

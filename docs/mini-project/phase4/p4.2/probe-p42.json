@@ -1,0 +1,800 @@
+{
+ "desktop": [
+  {
+   "path": "/",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Home · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Home"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 275,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 32,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 33
+   },
+   "targets": {
+    "controls": 30,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/matches",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Matches · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Matches"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 51,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 11,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/analytics",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Leagues · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Leagues & cups"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 393,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 2,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 23
+   },
+   "targets": {
+    "controls": 14,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/compare",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Compare · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Compare teams"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 50,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 2,
+    "smallSamples": [
+     {
+      "t": "Team A",
+      "fs": 11
+     },
+     {
+      "t": "Team B",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 13,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/predict",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Predictions · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 204,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 20
+   },
+   "targets": {
+    "controls": 27,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/simulations",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Simulations · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "World Cup simulator"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 60,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 18,
+    "inlineTextLinks": 0,
+    "below44": 2,
+    "below24": 2,
+    "below44Samples": [
+     "input \"INPUT\" 13x13",
+     "input \"INPUT\" 13x13"
+    ]
+   }
+  },
+  {
+   "path": "/models",
+   "vw": 1440,
+   "overflowX": 0,
+   "title": "Models · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Model performance"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 422,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 35,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  }
+ ],
+ "tablet": [
+  {
+   "path": "/",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Home · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Home"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 271,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 32,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 33
+   },
+   "targets": {
+    "controls": 30,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/matches",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Matches · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Matches"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 47,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 11,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/analytics",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Leagues · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Leagues & cups"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 389,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 2,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 23
+   },
+   "targets": {
+    "controls": 14,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/compare",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Compare · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Compare teams"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 46,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 2,
+    "smallSamples": [
+     {
+      "t": "Team A",
+      "fs": 11
+     },
+     {
+      "t": "Team B",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 13,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/predict",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Predictions · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 200,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 20
+   },
+   "targets": {
+    "controls": 27,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/simulations",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Simulations · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "World Cup simulator"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 56,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 18,
+    "inlineTextLinks": 0,
+    "below44": 2,
+    "below24": 2,
+    "below44Samples": [
+     "input \"INPUT\" 13x13",
+     "input \"INPUT\" 13x13"
+    ]
+   }
+  },
+  {
+   "path": "/models",
+   "vw": 820,
+   "overflowX": 0,
+   "title": "Models · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Model performance"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 418,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 35,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  }
+ ],
+ "mobile": [
+  {
+   "path": "/",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Home · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Home"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 231,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 32,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 30
+   },
+   "targets": {
+    "controls": 29,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/matches",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Matches · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Matches"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 49,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 10,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/analytics",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Leagues · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Leagues & cups"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 185,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 2,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 20
+   },
+   "targets": {
+    "controls": 13,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/compare",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Compare · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Compare teams"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 48,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 2,
+    "smallSamples": [
+     {
+      "t": "Team A",
+      "fs": 11
+     },
+     {
+      "t": "Team B",
+      "fs": 11
+     }
+    ],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 12,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/predict",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Predictions · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Predictions"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 202,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 20
+   },
+   "targets": {
+    "controls": 26,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  },
+  {
+   "path": "/simulations",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Simulations · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "World Cup simulator"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 58,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 1,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 17,
+    "inlineTextLinks": 0,
+    "below44": 2,
+    "below24": 2,
+    "below44Samples": [
+     "input \"INPUT\" 13x13",
+     "input \"INPUT\" 13x13"
+    ]
+   }
+  },
+  {
+   "path": "/models",
+   "vw": 375,
+   "overflowX": 0,
+   "title": "Models · FootIQ",
+   "landmarks": {
+    "header": 0,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "aside": 1
+   },
+   "h1": [
+    "Model performance"
+   ],
+   "interFaces": [
+    "Inter Variable"
+   ],
+   "text": {
+    "nodes": 420,
+    "gradientBackgroundSkipped": 0,
+    "gradientBackgroundsChecked": 0,
+    "contrastFailures": 0,
+    "failSamples": [],
+    "under12px": 0,
+    "smallSamples": [],
+    "decorativeUnder12px": 0
+   },
+   "targets": {
+    "controls": 34,
+    "inlineTextLinks": 0,
+    "below44": 0,
+    "below24": 0,
+    "below44Samples": []
+   }
+  }
+ ]
+}

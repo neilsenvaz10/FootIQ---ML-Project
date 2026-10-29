@@ -1,0 +1,145 @@
+{
+ "standard_error_times_sqrt_n": {
+  "margin_home": 1.74,
+  "margin_away": 1.733,
+  "share1_home": 0.749,
+  "share1_away": 0.872
+ },
+ "matches_needed_for_90pct_power_if_the_model_is_exactly_right": {
+  "margins 0.10 goals / 0.05 share": {
+   "by_statistic": {
+    "margin_home": 2593,
+    "margin_away": 2572,
+    "share1_home": 1925,
+    "share1_away": 2606
+   },
+   "binding": 2606
+  },
+  "margins 0.15 goals / 0.075 share": {
+   "by_statistic": {
+    "margin_home": 1153,
+    "margin_away": 1143,
+    "share1_home": 856,
+    "share1_away": 1158
+   },
+   "binding": 1158
+  },
+  "margins 0.20 goals / 0.10 share": {
+   "by_statistic": {
+    "margin_home": 649,
+    "margin_away": 643,
+    "share1_home": 482,
+    "share1_away": 652
+   },
+   "binding": 652
+  }
+ },
+ "matches_per_season": {
+  "Bundesliga + La Liga": 686,
+  "five leagues": 1752
+ },
+ "forward_matches_already_available_after_2026-09-20": {
+  "Bundesliga": 25,
+  "La Liga": 20,
+  "Premier League": 10,
+  "Serie A": 0,
+  "Ligue 1": 0
+ },
+ "smallest_detectable_difference_between_two_leagues_80pct_power": {
+  "380": {
+   "margin_home": 0.354,
+   "margin_away": 0.352,
+   "share1_home": 0.152,
+   "share1_away": 0.177
+  },
+  "700": {
+   "margin_home": 0.261,
+   "margin_away": 0.26,
+   "share1_home": 0.112,
+   "share1_away": 0.131
+  },
+  "1400": {
+   "margin_home": 0.184,
+   "margin_away": 0.183,
+   "share1_home": 0.079,
+   "share1_away": 0.092
+  }
+ },
+ "per_league_standard_errors_at_evaluation_size": {
+  "EPL": {
+   "n": 820,
+   "se": {
+    "margin_home": 0.06383656398145711,
+    "margin_away": 0.05976480098796522,
+    "share1_home": 0.026289630638130942,
+    "share1_away": 0.030022533232014374
+   },
+   "c": {
+    "margin_home": 1.8280010007617904,
+    "margin_away": 1.7114034528560158,
+    "share1_home": 0.7528204545927731,
+    "share1_away": 0.8597145173644993
+   }
+  },
+  "LALIGA": {
+   "n": 849,
+   "se": {
+    "margin_home": 0.058075789447986616,
+    "margin_away": 0.05684658817623604,
+    "share1_home": 0.025832796314479524,
+    "share1_away": 0.030180304261598657
+   },
+   "c": {
+    "margin_home": 1.6921893879485934,
+    "margin_away": 1.6563734073570229,
+    "share1_home": 0.7527058039142208,
+    "share1_away": 0.8793817713365151
+   }
+  },
+  "BUNDESLIGA": {
+   "n": 673,
+   "se": {
+    "margin_home": 0.07184056836025812,
+    "margin_away": 0.0726315809132049,
+    "share1_home": 0.02839440150370037,
+    "share1_away": 0.03344257342065467
+   },
+   "c": {
+    "margin_home": 1.8637055206079824,
+    "margin_away": 1.8842261609014221,
+    "share1_home": 0.7366144790424629,
+    "share1_away": 0.8675753843547117
+   }
+  },
+  "SERIEA": {
+   "n": 810,
+   "se": {
+    "margin_home": 0.05444916876488506,
+    "margin_away": 0.05782795595969036,
+    "share1_home": 0.026563097765972144,
+    "share1_away": 0.03084949976056783
+   },
+   "c": {
+    "margin_home": 1.5496505099994053,
+    "margin_away": 1.6458124793807676,
+    "share1_home": 0.7559990158518207,
+    "share1_away": 0.8779921552819208
+   }
+  },
+  "LIGUE1": {
+   "n": 657,
+   "se": {
+    "margin_home": 0.06889747375900929,
+    "margin_away": 0.06892704713435908,
+    "share1_home": 0.029233881191925586,
+    "share1_away": 0.034172194243448875
+   },
+   "c": {
+    "margin_home": 1.765980821519675,
+    "margin_away": 1.766738846608926,
+    "share1_home": 0.7493231711819398,
+    "share1_away": 0.8759020668052361
+   }
+  }
+ }
+}

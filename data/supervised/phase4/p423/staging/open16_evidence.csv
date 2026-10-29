@@ -1,0 +1,17 @@
+﻿competition_key,record_id,matchday,home,away,store_date,store_status,openfootball_date,openfootball_score,fduk_date,fduk_score,fduk_fixture_date,fxd_date_utc,fxd_score,wikipedia_score,wikipedia_note,wikipedia_revision
+EPL,england:1-premierleague:2026-27:L116,7,Leeds United FC,Manchester United FC,2026-10-18,awaiting_result,2026-10-18,,2026-10-18,"(1, 1)",,2026-10-18 13:00:00Z,"(1, 1)","(1, 1)",,1382367540
+EPL,england:1-premierleague:2026-27:L117,7,Brighton & Hove Albion FC,Crystal Palace FC,2026-10-18,awaiting_result,2026-10-18,,2026-10-18,"(5, 0)",,2026-10-18 13:00:00Z,"(5, 0)","(5, 0)",,1382367540
+EPL,england:1-premierleague:2026-27:L130,8,Chelsea FC,Tottenham Hotspur FC,2026-10-24,awaiting_result,2026-10-24,,2026-10-24,"(0, 2)",,2026-10-24 16:30:00Z,"(0, 2)","(0, 2)",,1382367540
+SERIEA,italy:1-seriea:2026-27:L131,8,SSC Napoli,AS Roma,2026-10-24,scheduled,2026-10-24,,2026-10-24,"(3, 3)",,2026-10-24 16:00:00Z,"(3, 3)","(3, 3)",,1382310697
+SERIEA,italy:1-seriea:2026-27:L143,9,US Sassuolo Calcio,SS Lazio,2026-10-27,scheduled,2026-10-27,,,,2026-10-27,2026-10-27 17:30:00Z,,"(2, 6)",,1382310697
+SERIEA,italy:1-seriea:2026-27:L144,9,AS Roma,Cagliari Calcio,2026-10-27,scheduled,2026-10-27,,,,2026-10-27,2026-10-27 19:45:00Z,,"(4, 2)",,1382310697
+SERIEA,italy:1-seriea:2026-27:L145,9,Torino FC,Como 1907,2026-10-27,scheduled,2026-10-27,,,,2026-10-27,2026-10-27 19:45:00Z,,"(1, 3)",,1382310697
+LIGUE1,europe/france:fr1:2026-27:L119,8,Toulouse FC,ES Troyes AC,2026-10-24,scheduled,2026-10-24,,2026-10-25,"(0, 0)",,2026-10-25 16:15:00Z,"(0, 0)","(0, 0)",,1382140063
+LIGUE1,europe/france:fr1:2026-27:L127,8,Paris Saint-Germain FC,Olympique Lyonnais,2026-10-25,scheduled,2026-10-25,,2026-10-26,"(2, 0)",,2026-10-26 19:30:00Z,,"(2, 0)",,1382140063
+LALIGA,espana:1-liga:2026-27:L140,8,Rayo Vallecano de Madrid,Athletic Club,2026-10-10,awaiting_result,2026-10-10,,,,,2026-10-10 12:00:00Z,,,,1382144799
+LALIGA,espana:1-liga:2026-27:L177,10,Rayo Vallecano de Madrid,Elche CF,2026-10-25,scheduled,2026-10-25,,2026-10-24,"(0, 3)",,2026-10-24 12:00:00Z,"(0, 3)","(0, 3)",,1382144799
+LALIGA,espana:1-liga:2026-27:L178,10,Deportivo Alavés,Málaga CF,2026-10-25,scheduled,2026-10-25,,2026-10-23,"(1, 1)",,2026-10-23 19:00:00Z,"(1, 1)","(1, 1)",,1382144799
+LALIGA,espana:1-liga:2026-27:L180,10,Sevilla FC,CA Osasuna,2026-10-25,scheduled,2026-10-25,,2026-10-26,"(2, 0)",,2026-10-26 20:00:00Z,,"(2, 0)",,1382144799
+LALIGA,espana:1-liga:2026-27:L181,10,Valencia CF,Villarreal CF,2026-10-25,scheduled,2026-10-25,,2026-10-24,"(1, 2)",,2026-10-24 16:30:00Z,"(1, 2)","(1, 2)",,1382144799
+LALIGA,espana:1-liga:2026-27:L183,10,Club Atlético de Madrid,RC Deportivo La Coruña,2026-10-25,scheduled,2026-10-25,,2026-10-24,"(1, 0)",,2026-10-24 19:00:00Z,"(1, 0)","(1, 0)",,1382144799
+LALIGA,espana:1-liga:2026-27:L186,10,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25,scheduled,2026-10-25,,2026-10-24,"(2, 1)",,2026-10-24 14:15:00Z,"(2, 1)","(2, 1)",,1382144799

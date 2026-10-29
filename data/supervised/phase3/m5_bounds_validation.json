@@ -1,0 +1,76 @@
+{
+ "settings": {
+  "G": 3,
+  "seed": 5
+ },
+ "exhaustive": {
+  "BUNDESLIGA": {
+   "cases": 80,
+   "vectors": 5022,
+   "completions": 3584000,
+   "club_checks": 41634,
+   "violations": 0,
+   "naive_violations": 0,
+   "tight": 20678,
+   "tight_checks": 20817,
+   "tie_groups_of_two": 2572,
+   "tie_groups_of_three_or_more": 165,
+   "legacy_violations": 0,
+   "unresolved_blocks_in_engine": 5893,
+   "share_exactly_tight": 0.9933227650477975
+  },
+  "LALIGA": {
+   "cases": 80,
+   "vectors": 5022,
+   "completions": 3584000,
+   "club_checks": 41634,
+   "violations": 0,
+   "naive_violations": 0,
+   "tight": 20718,
+   "tight_checks": 20817,
+   "tie_groups_of_two": 2494,
+   "tie_groups_of_three_or_more": 158,
+   "legacy_violations": 0,
+   "unresolved_blocks_in_engine": 57919,
+   "share_exactly_tight": 0.995244271508863
+  }
+ },
+ "realistic": {
+  "BUNDESLIGA": {
+   "simulations": 1500,
+   "club_checks": 54000,
+   "violations": 0,
+   "unresolved_blocks_checked": 0,
+   "by_reading": {
+    "as in the profile (current_group)": {
+     "club_checks": 27000,
+     "violations": 0
+    },
+    "head-to-head over the original group": {
+     "club_checks": 27000,
+     "violations": 0
+    }
+   },
+   "share_of_clubs_with_exact_position_known": 0.5532222222222222
+  },
+  "LALIGA": {
+   "simulations": 1500,
+   "club_checks": 60000,
+   "violations": 0,
+   "unresolved_blocks_checked": 0,
+   "by_reading": {
+    "as in the profile (original_group)": {
+     "club_checks": 30000,
+     "violations": 0
+    },
+    "head-to-head over the current group": {
+     "club_checks": 30000,
+     "violations": 0
+    }
+   },
+   "share_of_clubs_with_exact_position_known": 0.8675333333333334
+  }
+ },
+ "seconds": 61.9,
+ "total_violations": 0
+}

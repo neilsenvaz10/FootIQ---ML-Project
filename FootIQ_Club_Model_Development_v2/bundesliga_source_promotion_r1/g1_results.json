@@ -1,0 +1,147 @@
+{
+ "ledger": {
+  "requests": 6,
+  "all_200": true,
+  "hosts": [
+   "api.openligadb.de"
+  ],
+  "within_plan": true,
+  "attempts_with_retry": 0
+ },
+ "snapshot_files": {
+  "n": 6,
+  "all_sha_ok": true,
+  "all_read_only": true,
+  "all_plan_sha": true,
+  "all_attributed": true,
+  "licence": [
+   "ODbL-1.0"
+  ]
+ },
+ "reparse_reproducible": {
+  "identical_to_pilot_staging_records": true,
+  "rows": 306,
+  "differing_columns": []
+ },
+ "result_type_fix": {
+  "kinds_from_R2_snapshot": [
+   "After90Minutes",
+   "AfterExtraTime",
+   "AfterPenalties",
+   "HalfTime",
+   "Unknown"
+  ],
+  "parsed_outcomes_changed": false,
+  "note": "the fix touched only the pilot report line; parse_match/regulation_score code and the staging records are unchanged"
+ },
+ "vs_earlier_snapshot_13_35": {
+  "matches_old": 306,
+  "matches_new": 306,
+  "matches_changed": 0
+ },
+ "internal_consistency": {
+  "matches": 306,
+  "completed": 54,
+  "explicit_90": 54,
+  "kickoff_before_retrieval": true,
+  "every_record_attributed": true,
+  "snapshot_id_matches": true
+ },
+ "additions": {
+  "added": 18,
+  "rejected": [],
+  "date_range": [
+   "2026-10-09",
+   "2026-10-18"
+  ],
+  "all_before_retrieval": true
+ },
+ "asof_universe_sizes": {
+  "frozen": 216553,
+  "asof_before_retrieval": 216553,
+  "asof_after_retrieval": 216571
+ },
+ "feature_differences": {
+  "v2_features_changed_for_any_fixture": 55,
+  "of": 62,
+  "v1_features_changed": 24,
+  "of_v1": 25,
+  "n_prior_home_mean_increase": 2.0,
+  "max_elo1_change": 27.290469908779187,
+  "max_elo2_change": 42.14086660996236
+ },
+ "v1_v2_same_history": {
+  "n_prior_equal": true,
+  "elo_equal": true,
+  "same_input_frame": "features_for builds both feature sets from one concatenated universe frame (same rows, same order)"
+ },
+ "prediction_reproducibility": {
+  "hash_updated": "a44651ce5ee6bd1d",
+  "hash_rebuilt_from_raw_snapshot": "a44651ce5ee6bd1d",
+  "hash_from_pilot_pickle": "a44651ce5ee6bd1d",
+  "identical": true,
+  "fixtures": 252,
+  "note": "in-memory dry run; no prediction was written to any log; probabilities are not reported"
+ },
+ "probability_shift_v2_vs_stale": {
+  "mean_abs": 0.015634181039750613,
+  "max_abs": 0.07916121383284025
+ },
+ "chronological_leakage": {
+  "added_results_precede_all_future_fixtures": true,
+  "added_results_kickoff_before_retrieval": true,
+  "asof_before_retrieval_excludes_all_new_rows": true,
+  "prefix_invariance_max_abs_diff_features_of_first_new_matchdays": 0.0,
+  "prefix_invariance_rows_checked": 10,
+  "prefix_invariance_pass": true
+ },
+ "rejection_tests": {
+  "duplicate_pair": [
+   "duplicate_pair_in_source"
+  ],
+  "unknown_team": [
+   "identity_unresolved_exact"
+  ],
+  "conflict_with_frozen_score": [
+   "CONFLICT_with_openfootball"
+  ]
+ },
+ "eligibility": {
+  "total_future_fixtures": 252,
+  "logged_in_dry_run": 252,
+  "rejected_by_timing": 0,
+  "eligible": 18,
+  "ineligible_reasons": {
+   "stale_competition_results": 234
+  },
+  "eligible_matchdays": [
+   "7",
+   "8"
+  ],
+  "eligible_kickoff_range": [
+   "2026-10-23T18:30:00Z",
+   "2026-11-01T16:30:00Z"
+  ],
+  "next_fixture": {
+   "kickoff_utc": "2026-10-23T18:30:00Z",
+   "existing_protocol_deadline": "2026-10-22 09:00:00+00:00",
+   "amendment_deadline": "2026-10-23 17:30:00+00:00"
+  },
+  "earliest_deadline_existing": "2026-10-22 09:00:00+00:00",
+  "earliest_deadline_amendment": "2026-10-23 17:30:00+00:00",
+  "missing_historical_results_after_update": 0,
+  "openfootball_past_dated_without_result_before": 18,
+  "recovered": 18,
+  "stale_state_eligible": 0
+ },
+ "git_hygiene": {
+  "contact_file_ignored": true,
+  "ignore_rule_preserved": true,
+  "adapter_config_ignore_rule": true,
+  "tracked_files_total": 584,
+  "staged_files": 0,
+  "files_scanned_untracked_work_products": 210,
+  "contact_found_in": [],
+  "contact_found_count": 0
+ }
+}

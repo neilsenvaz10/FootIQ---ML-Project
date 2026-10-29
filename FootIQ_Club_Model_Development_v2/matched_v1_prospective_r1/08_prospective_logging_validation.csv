@@ -1,0 +1,14 @@
+test,passed,detail
+dry run wrote an immutable chained batch,True,"416 predictions, 0 rejected; 94fb1fc91d0a"
+dry-run records do not count for evaluation,True,counts_for_evaluation=False
+a fixture whose earliest possible kickoff is less than 60 min away (e.g. today) is rejected,True,['kickoff_not_at_least_60min_after_prediction_timestamp_(backdating_or_too_late)']
+all four probability sets sum to 1 and are positive,True,
+v2 probabilities identical to the previous dry run for the same fixtures,True,"296 common, max diff 3.3e-16"
+original-v1 probabilities identical to previous dry run,True,max diff 0.0e+00
+matched-v1 probabilities equal an independent numpy scorer,True,max diff 0.0e+00
+model hashes stored in every record equal the artifacts on disk,True,"{'v2': '55c1e4c53bcfefd39d5e90a1ce60a75bc697668f7894e425305bdc9a65b3e56c', 'matched_v1': '33bd80f6a3268256e250294f4c9b4ffc4f530489c332878fd70655fea145ec34', 'v1_original': '067426e83d2d5f66aaf6c4aef933ac58e17f04d911ae55ede336c1bad3c0c5b9'}"
+completed historical fixtures cannot be predicted (backdating refused),True,['kickoff_not_at_least_60min_after_prediction_timestamp_(backdating_or_too_late)']
+official mode refuses without owner approval + pre-registration,True,no OFFICIAL_LOGGING_APPROVED.json present
+tampering with a stored batch is detected by the chain check,True,
+stored batch is read-only,True,D:\Foot IQ\FootIQ_Club_Model_Development_v2\matched_v1_prospective_r1\prospective_log\DRY_RUN\dry_run_batch_001.jsonl
+identity-collision fixture flagged ineligible,True,"['identity_collision_unresolved', 'stale_competition_results(gap_days=188)']"

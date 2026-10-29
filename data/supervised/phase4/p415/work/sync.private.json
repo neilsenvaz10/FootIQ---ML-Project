@@ -1,0 +1,28 @@
+﻿{
+    "_comment":  "Phase 4.8E: live access is ON for the approved source below only (OpenLigaDB, Bundesliga and, since Phase 4.9, La Liga): one full-season request per league every 360 minutes, each league on its own schedule and back-off. To switch it off immediately set live_enabled to false and restart the API (see docs/mini-project/phase4/P4_8D_ACTIVATION_CHECKLIST.md, section 6).",
+    "live_enabled":  true,
+    "startup_check":  true,
+    "startup_delay_seconds":  5,
+    "periodic_minutes":  360,
+    "max_retries":  2,
+    "refresh_mode":  "full_season",
+    "stale_after_hours":  72,
+    "sources":  {
+                    "openligadb":  {
+                                       "enabled":  true,
+                                       "competitions":  [
+                                                            "BUNDESLIGA",
+                                                            "LALIGA"
+                                                        ]
+                                   },
+                    "footballdata":  {
+                                         "enabled":  false,
+                                         "competitions":  [
+
+                                                          ],
+                                         "token_env":  "FOOTBALL_DATA_API_TOKEN"
+                                     }
+                },
+    "sync_mode":  "startup",
+    "startup_min_gap_minutes":  100000
+}

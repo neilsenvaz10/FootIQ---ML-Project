@@ -1,0 +1,25 @@
+{
+ "frozen_models_unchanged": {
+  "v2": true,
+  "matched_v1": true,
+  "v1": true
+ },
+ "frozen_protocol_unchanged": true,
+ "contact_ignored": true,
+ "contact_hits": [],
+ "files_scanned": 21,
+ "staged": 0,
+ "approval_json_exists": false,
+ "files": {
+  "prospective_logger_v2.py": "bcd6630d59a16cc60beac7e7852a1a3edde27b5d2a53b09cc871e99021854653",
+  "run_shadow_bundesliga.py": "5ebbf95e0874f58945d05d7577bca6eb7082dc8d1a775b5b0f7fcf1fff67eef9",
+  "shadow_fixture_summary.csv": "c90dca814c1117f40fdd7de5cfe305f8d9c9a2363bd0afc63d11b05b4cff7adf",
+  "shadow_run.log": "179735c0f13f6908abd3abcb15ce4000e75c4dc4e561c41c12fa183c4a8d7847",
+  "shadow_run_results.json": "7c07e3c4d3a2d1f889b2f7477614eee39be7177fd1fb186dac34efd62bd7a940",
+  "tests_final_new_suite.log": "5037c533e1c5924ec94942c48b248ed411a10b4da8938482e7796cbc86bbf75e",
+  "docs/04_REVISED_PROTOCOL_AMENDMENT_A1_FINAL_PROPOSED.md": "275ceeaefc7ac902b2e1dd9b38a158d4f5df1a5c0f8d322c30123127a403f21d",
+  "shadow_log/SHADOW/CHAIN.jsonl": "68836e90259c34e21588fe68b0406d1fd87baf1b3d18fe4d9bfc13d8aee9c3b8",
+  "shadow_log/SHADOW/shadow_batch_20261021T150252Z.jsonl": "a93a456c0e7ebcd75d5939b1388f0140d9a64d2ed28ea2d08cb1c899b91b8f38",
+  "tests/test_logger_v2.py": "55d54c25b1057d0218e3e910579bddc44760592c6775aec1c3d81eb12cd2596d"
+ }
+}

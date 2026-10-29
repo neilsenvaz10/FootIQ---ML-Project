@@ -1,0 +1,23 @@
+{
+  "version": "v2.10",
+  "purpose": "Post-match validation for v2.9 World Cup matchday predictions.",
+  "base_predictions": "data/processed/worldcup_matchday_v29_snapshots.csv",
+  "snapshot_policy": "Use the latest snapshot taken at or before kickoff for each provider fixture ID.",
+  "scoring_scope": "Regulation 1/X/2 labels. AET/PEN fixtures use score.fulltime and are withheld if that field is unavailable.",
+  "date_filter": "2026-07-04",
+  "force_refresh": false,
+  "ttl_hours": 0.25,
+  "api_budget": {
+    "date": "2026-07-05",
+    "daily_limit": 100,
+    "reserve_requests": 15,
+    "usable_before_stop": 85,
+    "used_today": 0,
+    "remaining_before_stop": 85
+  },
+  "outputs": [
+    "data/processed/matchday_validation_v210_2026-07-04.csv",
+    "outputs/matchday_validation_v210_report_2026-07-04.md",
+    "outputs/matchday_validation_v210_config_2026-07-04.json"
+  ]
+}

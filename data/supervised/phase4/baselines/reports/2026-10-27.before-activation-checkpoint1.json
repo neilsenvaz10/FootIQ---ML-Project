@@ -1,0 +1,18 @@
+{
+ "generated_utc": "2026-10-27T17:03:49Z",
+ "checkpoint_id": 1,
+ "checkpoint_label": "baseline v3 (after the six approved results)",
+ "checkpoint_physical": "1bfad5bd4663e70776ef9da35f5c89eeed11b1ed7274ee7fdb562e266a9cb278",
+ "checkpoint_logical": "b3dcf8c0d04aa4538da77f4dc21c267b6414bb7e3c61692ad24a0ec4c2c1d95f",
+ "current_physical": "2f5126efddf963d472af5b032db355d92dee6e9fcffacd63a9355c8ce4252f67",
+ "current_logical": "9aec344a457602e657922b84665de4103c7153b16fd44cfd02acbeba02f23b30",
+ "integrity_check": "ok",
+ "changed_tables": [
+  "source_snapshots",
+  "source_state"
+ ],
+ "scope_changes": {},
+ "verdict": "EXPECTED_LOG_ONLY",
+ "reasons": [],
+ "approvable": true
+}

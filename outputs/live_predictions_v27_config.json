@@ -1,0 +1,53 @@
+{
+  "version": "v2.7",
+  "purpose": "Integrate the v2.6 calibrated ensemble into the v2.5 live-data pipeline.",
+  "base_model": "v2.6 ensemble probabilities + logistic consensus gate",
+  "artifact_path": "data/model_artifacts/v27/live_match_model.pkl",
+  "live_input_tables": [
+    "data/processed/v25_fixtures_live.csv",
+    "data/processed/v25_provider_status_live.csv",
+    "data/processed/v25_weather_context_live.csv",
+    "data/processed/v25_data_quality_live.csv",
+    "data/processed/v25_match_predictions_live.csv"
+  ],
+  "outputs": [
+    "data/processed/v27_live_model_features.csv",
+    "data/processed/v27_live_probabilities.csv",
+    "data/processed/v27_live_public_picks.csv",
+    "data/processed/v27_v25_comparison.csv",
+    "outputs/live_predictions_v27_report.md"
+  ],
+  "training_note": "After v2.6 selected the architecture on a time-safe split, v2.7 trains final model artifacts on all available historical international matches. This does not create a new test score.",
+  "public_pick_note": "The public pick speaks only when the ensemble and logistic model agree on the same non-pass pick.",
+  "artifact_training_rows": 25235,
+  "artifact_training_date_min": "2000-01-04",
+  "artifact_training_date_max": "2026-06-02",
+  "ensemble_weights": {
+    "elo_formula": 0.3,
+    "v25_poisson_lite": 0.0,
+    "logistic_regression": 0.2,
+    "gradient_boosting": 0.5
+  },
+  "temperatures": {
+    "elo_formula": 0.85,
+    "v25_poisson_lite": 0.75,
+    "logistic_regression": 0.9,
+    "random_forest": 0.8,
+    "gradient_boosting": 1.0,
+    "ensemble": 0.9
+  },
+  "pass_rules": {
+    "ensemble": {
+      "min_confidence": 0.56,
+      "min_gap": 0.0,
+      "draw_risk_min": 0.27,
+      "draw_gap_max": 0.04
+    },
+    "logistic_regression": {
+      "min_confidence": 0.56,
+      "min_gap": 0.0,
+      "draw_risk_min": 0.27,
+      "draw_gap_max": 0.04
+    }
+  }
+}

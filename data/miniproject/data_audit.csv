@@ -1,0 +1,12 @@
+﻿competition_key,competition,group,rows,seasons,first_date,last_date,rows_with_outcome,duplicate_rows,sources,licences,validation_badge
+EPL,English Premier League,Domestic league,3090,9,2018-08-10,2026-09-20,3090,0,openfootball,CC0-1.0,Validated
+LALIGA,La Liga,Domestic league,3109,9,2018-08-17,2026-09-20,3109,0,openfootball,CC0-1.0,Validated
+BUNDESLIGA,Bundesliga,Domestic league,2484,9,2018-08-24,2026-09-20,2483,0,openfootball,CC0-1.0,Validated
+SERIEA,Serie A,Domestic league,3090,9,2018-08-18,2026-09-20,3089,0,openfootball,CC0-1.0,Validated
+LIGUE1,Ligue 1,Domestic league,2762,9,2018-08-10,2026-09-20,2761,0,openfootball,CC0-1.0,Validated
+WC,FIFA World Cup,International,964,22,1930-07-13,2022-12-18,964,0,martj42/international_results,CC0-1.0,Validated
+UCL,UEFA Champions League,Continental club,1140,9,2018-09-18,2026-09-10,1140,0,openfootball | wikipedia,CC BY-SA 4.0 | CC0-1.0,Not validated (indicative only)
+UEL,UEFA Europa League,Continental club,1424,9,2018-09-20,2026-09-17,1423,0,openfootball | wikipedia,CC BY-SA 4.0 | CC0-1.0,Not validated (indicative only)
+UECL,UEFA Conference League,Continental club,729,5,2021-09-14,2026-05-27,726,0,openfootball | wikipedia,CC BY-SA 4.0 | CC0-1.0,Not validated (indicative only)
+UNL,UEFA Nations League,International,658,6,2018-09-06,2025-06-08,658,0,martj42/international_results,CC0-1.0,Partially validated
+COPA,Copa América,International,869,48,1916-07-02,2024-07-14,869,0,martj42/international_results,CC0-1.0,Partially validated

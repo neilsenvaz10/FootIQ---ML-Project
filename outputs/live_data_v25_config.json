@@ -1,0 +1,24 @@
+{
+  "version": "v2.5",
+  "purpose": "Live-data backbone for fixtures, status, team strength, lineups, weather, odds placeholders, predictions, and postmatch scoring.",
+  "model_engine": "v2.3/v2.4 match engine",
+  "api_provider": "API-Football",
+  "weather_provider": "Open-Meteo",
+  "daily_api_limit": 100,
+  "reserve_requests": 15,
+  "fixture_ttl_hours": 0.5,
+  "details_ttl_hours": 0.25,
+  "weather_ttl_hours": 1.0,
+  "tracked_scope": "Road to 26 fixtures plus selected live international friendlies.",
+  "run_timestamp_et": "2026-06-09T17:59:11.614974-04:00",
+  "api_budget_snapshot": {
+    "date": "2026-06-09",
+    "daily_limit": 100,
+    "reserve_requests": 15,
+    "usable_before_stop": 85,
+    "used_today": 8,
+    "remaining_before_stop": 77
+  },
+  "force_refresh": true,
+  "force_weather": true
+}

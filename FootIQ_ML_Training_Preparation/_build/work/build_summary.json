@@ -1,0 +1,22 @@
+{
+ "universe_results": 216553,
+ "in_scope": 122274,
+ "final": 116854,
+ "by_split": {
+  "train": 59356,
+  "test": 26000,
+  "validation": 22578,
+  "forward_holdout": 8920
+ },
+ "eval_primary": {
+  "validation": 17092,
+  "test": 15645,
+  "forward_holdout": 5770
+ },
+ "eval_secondary": {
+  "validation": 5015,
+  "test": 3449,
+  "forward_holdout": 570
+ },
+ "season_labels_corrected_rows_in_final": 320
+}

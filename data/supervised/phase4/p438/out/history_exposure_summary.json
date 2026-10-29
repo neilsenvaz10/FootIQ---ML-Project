@@ -1,0 +1,46 @@
+{
+ "refs": [
+  "refs/remotes/origin/feat/club-ml-baseline-v1",
+  "refs/remotes/origin/feat/club-ml-v2",
+  "refs/remotes/origin/main"
+ ],
+ "files_in_published_trees": 943,
+ "restricted_files": 210,
+ "by_category": {
+  "M": 2,
+  "A": 72,
+  "B": 134,
+  "E": 1,
+  "C": 1
+ },
+ "bytes_by_category": {
+  "M": 5116852,
+  "A": 603912,
+  "B": 3194973,
+  "E": 1793,
+  "C": 215143
+ },
+ "commits": {
+  "edb6e0a": "edb6e0a 2026-10-20 Import FootIQ prediction baseline, datasets, reports and project roadmap",
+  "c3a6fb1": "c3a6fb1 2026-10-22 Add FootIQ mini-project app, dataset and scope plan",
+  "970f461": "970f461 2026-10-22 Mini Project Scope Update"
+ },
+ "first_commit_of_categories": {
+  "A": [
+   "c3a6fb1",
+   "edb6e0a"
+  ],
+  "B": [
+   "edb6e0a"
+  ],
+  "C": [
+   "edb6e0a"
+  ],
+  "E": [
+   "edb6e0a"
+  ],
+  "M": [
+   "c3a6fb1"
+  ]
+ }
+}

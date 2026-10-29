@@ -1,0 +1,17 @@
+scope,version,tier,matches,picks,coverage_pct,accuracy_pct
+historical_holdout,v2.8,All public picks,3491,2130,61.01,71.78
+historical_holdout,v2.8,Strong Pick,1631,1631,46.72,76.82
+historical_holdout,v2.8,Model Lean,499,499,14.29,55.31
+historical_holdout,v2.8,Pass,1361,0,38.99,
+historical_holdout,v2.11,All public picks,3491,1553,44.49,78.04
+historical_holdout,v2.11,Strong Pick,660,660,18.91,90.0
+historical_holdout,v2.11,Model Lean,893,893,25.58,69.2
+historical_holdout,v2.11,Pass,1938,0,55.51,
+world_cup_development,v2.8,All public picks,64,34,53.12,70.59
+world_cup_development,v2.8,Strong Pick,3,3,4.69,33.33
+world_cup_development,v2.8,Model Lean,31,31,48.44,74.19
+world_cup_development,v2.8,Pass,30,0,46.88,
+world_cup_development,v2.11,All public picks,64,11,17.19,81.82
+world_cup_development,v2.11,Strong Pick,1,1,1.56,100.0
+world_cup_development,v2.11,Model Lean,10,10,15.62,80.0
+world_cup_development,v2.11,Pass,53,0,82.81,

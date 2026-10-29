@@ -1,0 +1,68 @@
+{
+ "window": "matches before 2024-07-01 (development window), five leagues",
+ "matches": 10781,
+ "clusters": 1023,
+ "statistics": {
+  "margin_home": {
+   "n": 4678,
+   "mean": 1.9181,
+   "se_naive": 0.01675,
+   "se_cluster": 0.01638,
+   "design_effect": 0.956
+  },
+  "margin_away": {
+   "n": 3369,
+   "mean": 1.7453,
+   "se_naive": 0.0173,
+   "se_cluster": 0.01711,
+   "design_effect": 0.978
+  },
+  "share1_home": {
+   "n": 4678,
+   "mean": 0.4726,
+   "se_naive": 0.0073,
+   "se_cluster": 0.00725,
+   "design_effect": 0.987
+  },
+  "share1_away": {
+   "n": 3369,
+   "mean": 0.5328,
+   "se_naive": 0.0086,
+   "se_cluster": 0.00852,
+   "design_effect": 0.982
+  }
+ },
+ "by_league": {
+  "BUNDESLIGA": {
+   "margin_home": 0.845,
+   "margin_away": 0.865,
+   "share1_home": 0.953,
+   "share1_away": 1.019
+  },
+  "EPL": {
+   "margin_home": 0.718,
+   "margin_away": 0.981,
+   "share1_home": 0.835,
+   "share1_away": 0.895
+  },
+  "LALIGA": {
+   "margin_home": 0.941,
+   "margin_away": 1.034,
+   "share1_home": 0.917,
+   "share1_away": 1.067
+  },
+  "LIGUE1": {
+   "margin_home": 0.905,
+   "margin_away": 0.933,
+   "share1_home": 1.013,
+   "share1_away": 1.015
+  },
+  "SERIEA": {
+   "margin_home": 1.115,
+   "margin_away": 0.83,
+   "share1_home": 1.044,
+   "share1_away": 0.805
+  }
+ },
+ "largest_design_effect": 0.987
+}

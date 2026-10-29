@@ -1,0 +1,15 @@
+﻿entity_unresolved,entity_resolved,shared_competitions,names_equal_after_removing_punctuation,flagged
+AUT|Austria Wien II,CLUB:AUT:fk-austria-wien,austria:cup,False,unresolved entity
+AUT|SKN St. Pölten II,CLUB:AUT:skn-st-polten,austria:cup,False,unresolved entity
+ENG|United of Manchester,CLUB:ENG:manchester-united-fc,england:facup,False,unresolved entity
+ENG|United of Manchester,CLUB:ENG:manchester-city-fc,england:facup,False,unresolved entity
+ESP|CD Ibiza,CLUB:ESP:ud-ibiza,espana:cup,False,unresolved entity
+europe/liechtenstein|USV Eschen/Mauren II,CLUB:LIE:fc-usv-eschen-mauren,europe/liechtenstein:licup,False,unresolved entity
+ESP|Melilla CD,CLUB:ESP:ud-melilla,espana:cup,False,unresolved entity
+europe/switzerland|FC Besa St. Gallen,CLUB:SUI:fc-st-gallen,europe/switzerland:chcup,False,unresolved entity
+europe/czech-republic|Slavia Hradec Králové,CLUB:CZE:fc-hradec-kralove,europe/czech-republic:czcup,False,unresolved entity
+europe/slovenia|NK Maribor Tabor,CLUB:SVN:nk-maribor,europe/slovenia:sicup,False,unresolved entity
+europe/liechtenstein|USV Eschen/Mauren III,CLUB:LIE:fc-usv-eschen-mauren,europe/liechtenstein:licup,False,unresolved entity
+europe/slovenia|NK Virs Bistrica,CLUB:SVN:nk-bistrica,europe/slovenia:sicup,False,unresolved entity
+ESP|CD Extremadura,CLUB:ESP:extremadura-ud,espana:cup,False,unresolved entity
+europe/czech-republic|1.FC Slovácko,CLUB:CZE:1-fc-slovacko,europe/czech-republic:cz1,True,unresolved entity + resolved twin
